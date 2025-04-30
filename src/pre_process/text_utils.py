@@ -1,4 +1,5 @@
 import json
+import pickle
 from pathlib import Path
 
 # Reads a jsonl file and returns an array of dicts
@@ -14,6 +15,14 @@ def save_jsonl(out_file: str, data: list[dict]):
     with open(out_file, 'w', encoding='utf-8') as f:
         for x in data:
             f.write(f'{json.dumps(x)}\n')
+
+def read_pkl(in_file: str):
+    with open(in_file, 'rb') as f:
+        return pickle.load(f)
+        
+def save_pkl(out_file: str, data):
+    with open(out_file, 'wb') as f:
+        pickle.dump(data, f)        
 
 # Concats all jsonl files in `in_root_dir` and merges them into one
 def concat_jsonl_data(in_root_dir: str, out_file: str):

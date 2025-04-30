@@ -1,42 +1,43 @@
 from text_utils import *
 from transformers import AutoTokenizer
 
+__all__ = ['pre_process', 'save', 'print_token_alignment']
 
 ents = ['O', 'B-command', 'I-command', 'B-equation', 'I-equation', 'B-expression', 'I-expression', 'B-term', 'I-term', 'B-command_attribute', 'I-command_attribute', 'B-method', 'I-method']
 
 index2tag = {x:ent for x, ent in enumerate(ents)}
-index2tag[-100] = 'O'
+index2tag[-100] = 'IGN'
 tag2index = {ent:x for x, ent in enumerate(ents)}
 
-# Builds a jsonl file that only has tokens, id, ner_tags, and ner_tags_str
-def pre_process(jsonl_full):
+def pre_process(stg_1_data: list[dict], tokenizer):
     """
-    Processes a list of JSONL lines by tokenizing the text and aligning NER labels.
+    Processes a list of JSONL lines from stage_1 by tokenizing the text and aligning NER labels.
     
     Each entry in the resulting list will contain:
         - 'id': Index of the line
         - 'tokens': List of tokenized strings
-        - 'ner_tags': List of numerical NER tag indices
-        - 'ner_tags_str': List of string-based NER labels
+        - 'labels': List of numerical NER tag indices
 
     The final result is saved to 'processed_stage2.jsonl'.
 
     Parameters:
-        jsonl_full (list): List of dictionaries, each with 'text' and 'entities' fields.
+        stg_1_data (list): List of dictionaries, each with 'text' and 'entities' fields from stage_1.
 
     Returns:
         None
     """
-    tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
     
     result = list()
-    for x, line in enumerate(jsonl_full):
+    for x, line in enumerate(stg_1_data):
         tokens = align_labels(line['text'], line['entities'], tokenizer)
-        
+        del tokens['offset_mapping']
         result.append(tokens)
-    
+        
     return result
 
+def save(out_file,stg_2_data):
+    save_pkl(out_file, stg_2_data)
+    
 def print_token_alignment(tokens, tokenizer):
     input_ids = tokens['input_ids']
     labels = tokens['labels']

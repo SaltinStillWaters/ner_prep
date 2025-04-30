@@ -8,7 +8,23 @@ It does the following cleaning:
 import string
 from text_utils import *
 
+__all__ = ['pre_process', 'save']
+
 def pre_process(jsonl_full: list[dict]):
+    """
+    Preprocesses a list of JSONL lines by validating structure, lowercasing text, 
+    and removing specific punctuation characters.
+
+    Args:
+        jsonl_full (list[dict]): A list of dictionary entries, each representing a JSONL line 
+                                 with at least a 'text' key.
+
+    Returns:
+        list[dict]: The modified list with lowercased text and specified punctuation removed.
+
+    Raises:
+        Exception: If the input structure does not pass validation via is_valid_jsonl_line.
+    """
     if not is_valid_jsonl_line(jsonl_full):
         raise Exception('Unexpected structure of jsonl')
     
@@ -16,9 +32,12 @@ def pre_process(jsonl_full: list[dict]):
         line = lowercase_text(line)
         line = remove_punctuation(line, {'<', '>'})
         jsonl_full[x] = line
-
+    
     return jsonl_full
 
+def save(out_file, stg_1_data):
+    save_jsonl(out_file, stg_1_data)
+    
 def is_valid_jsonl_line(jsonl_full: list[dict]) -> bool:
     try:
         if not isinstance(jsonl_full, list):

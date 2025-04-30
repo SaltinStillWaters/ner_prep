@@ -1,6 +1,57 @@
 import string
 from text_utils import *
 
+def pre_process(jsonl_full: list[dict]):
+    if not is_valid_jsonl_line(jsonl_full):
+        raise Exception('Unexpected structure of jsonl')
+    
+    for line in jsonl_full:
+        lowercase_text(line)
+        remove_punctuation(line, {'<', '>'})
+    
+    return jsonl_full
+
+def is_valid_jsonl_line(jsonl_full: list[dict]) -> bool:
+    try:
+        if not isinstance(jsonl_full, list):
+            return False
+        
+        jsonl_line = jsonl_full[0]
+        required_keys = {"id", "text", "entities", "relations", "Comments"}
+
+        if not isinstance(jsonl_line, dict):
+            return False
+        if not required_keys.issubset(jsonl_line):
+            return False
+        if not isinstance(jsonl_line["id"], int):
+            return False
+        if not isinstance(jsonl_line["text"], str):
+            return False
+        if not isinstance(jsonl_line["entities"], list):
+            return False
+
+        for ent in jsonl_line["entities"]:
+            if not isinstance(ent, dict):
+                return False
+            if not {"id", "label", "start_offset", "end_offset"}.issubset(ent):
+                return False
+            if not isinstance(ent["id"], int):
+                return False
+            if not isinstance(ent["label"], str):
+                return False
+            if not isinstance(ent["start_offset"], int):
+                return False
+            if not isinstance(ent["end_offset"], int):
+                return False
+    except KeyError:
+        return False
+    
+    return True
+
+def lowercase_text(jsonl_line: dict):
+    jsonl_line['text'] = jsonl_line['text'].lower()
+    return jsonl_line
+    
 def remove_punctuation(jsonl_line: dict, excepted_puncs: set):
     """
     Remove punctuation from the input text and realign entity offsets accordingly.

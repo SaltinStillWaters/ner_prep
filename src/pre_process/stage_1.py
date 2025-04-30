@@ -1,3 +1,10 @@
+"""
+This is the first stage of pre-processing.
+It does the following cleaning:
+    - punctuation removal
+    - lowercasing
+"""
+
 import string
 from text_utils import *
 
@@ -5,10 +12,11 @@ def pre_process(jsonl_full: list[dict]):
     if not is_valid_jsonl_line(jsonl_full):
         raise Exception('Unexpected structure of jsonl')
     
-    for line in jsonl_full:
-        lowercase_text(line)
-        remove_punctuation(line, {'<', '>'})
-    
+    for x, line in enumerate(jsonl_full):
+        line = lowercase_text(line)
+        line = remove_punctuation(line, {'<', '>'})
+        jsonl_full[x] = line
+
     return jsonl_full
 
 def is_valid_jsonl_line(jsonl_full: list[dict]) -> bool:
@@ -49,8 +57,9 @@ def is_valid_jsonl_line(jsonl_full: list[dict]) -> bool:
     return True
 
 def lowercase_text(jsonl_line: dict):
-    jsonl_line['text'] = jsonl_line['text'].lower()
-    return jsonl_line
+    lowered = jsonl_line.copy()
+    lowered['text'] = lowered['text'].lower()
+    return lowered
     
 def remove_punctuation(jsonl_line: dict, excepted_puncs: set):
     """

@@ -1,0 +1,27 @@
+import json
+from pathlib import Path
+
+# Reads a jsonl file and returns an array of dicts
+def read_jsonl(in_file: str):
+    data = []
+    with open(in_file, 'r', encoding='utf-8') as f:
+        for line in f:
+            data.append(json.loads(line))
+    return data
+
+# Saves an array of dicts as a jsonl file
+def save_jsonl(out_file: str, data: list[dict]):
+    with open(out_file, 'w', encoding='utf-8') as f:
+        for x in data:
+            f.write(f'{json.dumps(x)}\n')
+
+# Concats all jsonl files in `in_root_dir` and merges them into one
+def concat_jsonl_data(in_root_dir: str, out_file: str):
+    dir = Path(in_root_dir)
+    
+    result = []
+    for file_path in dir.rglob('*.jsonl'):
+        print(len(read_jsonl(file_path)))
+        result += read_jsonl(file_path)
+    
+    save_jsonl(out_file, result)

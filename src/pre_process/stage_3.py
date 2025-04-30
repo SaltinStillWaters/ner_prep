@@ -4,7 +4,7 @@ THIS FILE SIMPLY BUILDS THE FINAL DatasetDict
 
 from datasets import Dataset, DatasetDict, load_from_disk
 from sklearn.model_selection import train_test_split
-from text_utils import *
+from src.misc.text_utils import *
 
 __all__ = ['pre_process', 'save', 'load']
 

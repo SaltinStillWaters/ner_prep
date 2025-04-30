@@ -6,7 +6,7 @@ It does the following cleaning:
 """
 
 import string
-from text_utils import *
+from src.misc.text_utils import *
 
 __all__ = ['pre_process', 'save']
 

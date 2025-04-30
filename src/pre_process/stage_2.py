@@ -1,5 +1,4 @@
-from text_utils import *
-from transformers import AutoTokenizer
+from src.misc.text_utils import *
 
 __all__ = ['pre_process', 'save', 'print_token_alignment']
 

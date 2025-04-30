@@ -4,27 +4,16 @@ YOU ONLY NEED TO RUN THE FUNCTION HERE
 TO START THE PRE-PROCESSING
 """
 
-import stage_1
-import stage_2
-import stage_3
+from src.pre_process import stage_1
+from src.pre_process import stage_2
+from src.pre_process import stage_3
 
-from text_utils import *
-from transformers import AutoTokenizer
-
-## Global variables
-
-tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
-
-labels = ['O', 'B-command', 'I-command', 'B-equation', 'I-equation', 'B-expression', 'I-expression', 'B-term', 'I-term', 'B-command_attribute', 'I-command_attribute', 'B-method', 'I-method']
-
-index2tag = {x:ent for x, ent in enumerate(labels)}
-index2tag[-100] = 'IGN'
-tag2index = {ent:x for x, ent in enumerate(labels)}
-
-raw_jsonl = read_jsonl('data/combined_raw.jsonl')
-
+from src.misc.text_utils import *
+from src.misc.globals import *
 
 ## Pipeline
+
+raw_jsonl = read_jsonl('data/combined_raw.jsonl')
 
 stg_1 = stage_1.pre_process(raw_jsonl)
 stage_1.save('stg_1.jsonl', stg_1)

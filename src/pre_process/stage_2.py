@@ -3,13 +3,7 @@ from transformers import AutoTokenizer
 
 __all__ = ['pre_process', 'save', 'print_token_alignment']
 
-ents = ['O', 'B-command', 'I-command', 'B-equation', 'I-equation', 'B-expression', 'I-expression', 'B-term', 'I-term', 'B-command_attribute', 'I-command_attribute', 'B-method', 'I-method']
-
-index2tag = {x:ent for x, ent in enumerate(ents)}
-index2tag[-100] = 'IGN'
-tag2index = {ent:x for x, ent in enumerate(ents)}
-
-def pre_process(stg_1_data: list[dict], tokenizer):
+def pre_process(stg_1_data: list[dict], tokenizer, tag2index):
     """
     Processes a list of JSONL lines from stage_1 by tokenizing the text and aligning NER labels.
     
@@ -29,7 +23,7 @@ def pre_process(stg_1_data: list[dict], tokenizer):
     
     result = list()
     for x, line in enumerate(stg_1_data):
-        tokens = align_labels(line['text'], line['entities'], tokenizer)
+        tokens = align_labels(line['text'], line['entities'], tokenizer, tag2index)
         del tokens['offset_mapping']
         result.append(tokens)
         
@@ -51,7 +45,7 @@ def print_token_alignment(tokens, tokenizer):
     for i, (id_, tok, wid, label) in enumerate(zip(input_ids, token_strings, word_ids, labels)):
         print(f"{i:<4} {id_:<10} {tok:<15} {str(wid):<8} {label:<10}")
 
-def align_labels(text, entities, tokenizer):
+def align_labels(text, entities, tokenizer, tag2index):
     # Tokenize normally (not split into words), but get offset mapping and word_ids
     encodings = tokenizer(text, return_offsets_mapping=True, truncation=True)
     offset_mapping = encodings["offset_mapping"]

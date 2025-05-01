@@ -47,3 +47,6 @@ Testing
     - go to src/train/test.py and change `checkpoint_path` to your desired model
     - you can also change `sentence` which is the input to be tested
     - run the file
+    **A sample model I have finetuned is available at:**
+    **https://drive.google.com/file/d/1j0E8B_oitNrUuZY_lluueXLMZvIqNzhe/view?usp=sharing**
+    **Download it and extract it in the project root if you want to run it**

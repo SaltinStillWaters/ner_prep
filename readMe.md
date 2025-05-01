@@ -16,7 +16,9 @@ processed_data/
     - contains checkpoints for each stage in pre-processing
     - this is provided so you don't have to pre-process
         everytime you want to train the model
+
     **This will be overwritten if you run the pre-processing stage**
+
 =====================================================================
 
 INSTRUCTIONS

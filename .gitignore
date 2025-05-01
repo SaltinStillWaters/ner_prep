@@ -1,3 +1,7 @@
+model_out/
+runs/
+distilbert-finetuned-ner/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

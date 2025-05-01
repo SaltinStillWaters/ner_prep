@@ -1,9 +1,9 @@
 import evaluate
 import numpy as np
-
+from src.misc.globals import labels
 metric = evaluate.load('seqeval')
 
-def compute_metrics(eval_preds, metric, ents):
+def compute_metrics(eval_preds, metric=metric, ents=labels):
   logits, labels = eval_preds
 
   predictions = np.argmax(logits, axis=-1)

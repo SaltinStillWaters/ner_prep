@@ -1,213 +1,213 @@
-{"id":1507,"text":"If it doesn't, you might want to use your calculator.","label":[],"Comments":[]}
-{"id":1508,"text":"Well what's <EXPRESSION> at <EXPRESSION>? <EXPRESSION> is <EXPRESSION>.","label":[[12,24,"expression"],[28,39,"expression"],[42,54,"expression"],[58,70,"expression"]],"Comments":[]}
-{"id":1509,"text":"The bacteria culture initially contains 100 cells.","label":[],"Comments":[]}
-{"id":1510,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1511,"text":"Bacteria as a function of time is going to be <EXPRESSION>.","label":[[46,58,"expression"]],"Comments":[]}
-{"id":1512,"text":"And actually since Just to hit another point home, we could have used this equation.","label":[],"Comments":[]}
-{"id":1513,"text":"So that = I didn't even have to use a calculator, look at that <EXPRESSION>.","label":[[63,75,"expression"]],"Comments":[]}
-{"id":1514,"text":"So that tells us Let me [SIDE COMMENTS] Anyway, so what was I doing? Oh.","label":[],"Comments":[]}
-{"id":1515,"text":"So you would say <EQUATION>.","label":[[17,27,"equation"]],"Comments":[]}
-{"id":1516,"text":"So there we figured out Using the initial condition here, we figured out I naught.","label":[],"Comments":[]}
-{"id":1517,"text":"And it's the same exact logic.","label":[],"Comments":[]}
-{"id":1518,"text":"So that's all I'm saying here.","label":[],"Comments":[]}
-{"id":1519,"text":"But this is the exact same phenomenon.","label":[],"Comments":[]}
-{"id":1520,"text":"So <EXPRESSION> is also = if we look at it there <EXPRESSION> to the what? <EQUATION>.","label":[[2,15,"expression"],[49,61,"expression"],[75,85,"equation"]],"Comments":[]}
-{"id":1521,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1522,"text":"I'll say bacteria as a function of time.","label":[],"Comments":[]}
-{"id":1523,"text":"And then you could say, after an hour the population has increased to, whatever, <EXPRESSION>.","label":[[81,93,"expression"]],"Comments":[]}
-{"id":1524,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1525,"text":"Well, that's just a constant times t, so it's just a constant.","label":[],"Comments":[]}
-{"id":1526,"text":"Actually, that is a simpler bacterial equation than this one.","label":[],"Comments":[]}
-{"id":1527,"text":"<EXPRESSION>? So if I raise <EXPRESSION> to that exponent, I get <EXPRESSION>.","label":[[0,12,"expression"],[28,40,"expression"],[65,77,"expression"]],"Comments":[]}
-{"id":1528,"text":"Where <EXPRESSION> is kind of our compounding rate.","label":[[6,18,"expression"]],"Comments":[]}
-{"id":1529,"text":"And <EXPRESSION>.","label":[[4,16,"expression"]],"Comments":[]}
-{"id":1530,"text":"So times <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
-{"id":1531,"text":"<EXPRESSION> of both sides of this.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1532,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1533,"text":"And you might want to review all the logarithms if you found that a little confusing.","label":[],"Comments":[]}
-{"id":1534,"text":"<EXPRESSION> to the <EXPRESSION>.","label":[[0,12,"expression"],[20,32,"expression"]],"Comments":[]}
-{"id":1535,"text":"And then that makes part B even easier to solve.","label":[],"Comments":[]}
-{"id":1536,"text":"I think we can erase all of this because we've written down our equation here.","label":[],"Comments":[]}
-{"id":1537,"text":"And then they want to know what the rate of growth is after <EXPRESSION> hours.","label":[[60,72,"expression"]],"Comments":[]}
-{"id":1538,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1539,"text":"So <EXPRESSION> of Well, let me do it here.","label":[[3,15,"expression"]],"Comments":[]}
-{"id":1540,"text":"So we're making some progress.","label":[],"Comments":[]}
-{"id":1541,"text":"So <EXPRESSION> must = <EXPRESSION>.","label":[[3,15,"expression"],[23,35,"expression"]],"Comments":[]}
-{"id":1542,"text":"Now what are they asking? Find the rate of growth after <EXPRESSION> hours.","label":[[56,68,"expression"]],"Comments":[]}
-{"id":1543,"text":"Anyway, hopefully I didn't further confuse you.","label":[],"Comments":[]}
-{"id":1544,"text":"And it says: a bacteria culture initially contains 100 cells and grows at a rate proportional to its size.","label":[],"Comments":[]}
-{"id":1545,"text":"Now, if we just knew <EXPRESSION>, then we would have done this part A, find an expression for the number bacteria after <EXPRESSION> hours.","label":[[21,33,"expression"],[121,133,"expression"]],"Comments":[]}
-{"id":1546,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
-{"id":1547,"text":"But this all is actually a pretty important thing to know.","label":[],"Comments":[]}
-{"id":1548,"text":"And actually we would probably want to convert backwards.","label":[],"Comments":[]}
-{"id":1549,"text":"That <EQUATION>, right? Because <EXPRESSION> is essentially saying what exponent do I have to raise <EXPRESSION> to to get <EXPRESSION>? So if I raise <EXPRESSION> to that exponent, I get <EXPRESSION>.","label":[[5,15,"equation"],[32,44,"expression"],[123,135,"expression"],[151,163,"expression"],[188,199,"expression"]],"Comments":[]}
-{"id":1550,"text":"And then part C.","label":[],"Comments":[]}
-{"id":1551,"text":"<EXPRESSION> times <EXPRESSION>.","label":[[0,12,"expression"],[19,31,"expression"]],"Comments":[]}
-{"id":1552,"text":"And so, to solve this So you're essentially saying log base You would essentially want to take <EXPRESSION>.","label":[[95,107,"expression"]],"Comments":[]}
-{"id":1553,"text":"And you get <EQUATION>.","label":[[12,22,"equation"]],"Comments":[]}
-{"id":1554,"text":"And if you want to solve for <EXPRESSION>, you just divide both sides by <EXPRESSION>.","label":[[29,41,"expression"],[73,85,"expression"]],"Comments":[]}
-{"id":1555,"text":"That says <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":1556,"text":"Anyway, I'll do more of these problems because they can be a little confusing.","label":[],"Comments":[]}
-{"id":1557,"text":"So you could divide both sides by <EXPRESSION>.","label":[[34,46,"expression"]],"Comments":[]}
-{"id":1558,"text":"No.","label":[],"Comments":[]}
-{"id":1559,"text":"That's just plugging into your calculator.","label":[],"Comments":[]}
-{"id":1560,"text":"So how many hours does it take? You just plug this in your calculator and you will get a number for the number of hours.","label":[],"Comments":[]}
-{"id":1561,"text":"I know you can't read that, but we'll use it again.","label":[],"Comments":[]}
-{"id":1562,"text":"So that tells us that <EXPRESSION>, right? After <EXPRESSION> hour, the population has increased to <EXPRESSION>.","label":[[22,34,"expression"],[49,61,"expression"],[100,112,"expression"]],"Comments":[]}
-{"id":1563,"text":"Which is also = If we put <EXPRESSION> here, that = <EXPRESSION>.","label":[[26,38,"expression"],[52,64,"expression"]],"Comments":[]}
-{"id":1564,"text":"Let me do that actually.","label":[],"Comments":[]}
-{"id":1565,"text":"Anyway, I got a little bit messier than I wanted to.","label":[],"Comments":[]}
-{"id":1566,"text":"After an hour, the population has increased to <EXPRESSION>.","label":[[47,59,"expression"]],"Comments":[]}
-{"id":1567,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1568,"text":"So let's figure out the number of bacteria after <EXPRESSION> hours.","label":[[49,61,"expression"]],"Comments":[]}
-{"id":1569,"text":"You could also take <EXPRESSION> and divide it by <EXPRESSION>.","label":[[20,32,"expression"],[50,62,"expression"]],"Comments":[]}
-{"id":1570,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1571,"text":"And it just makes things simpler.","label":[],"Comments":[]}
-{"id":1572,"text":"That = <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
-{"id":1573,"text":"So we just have to take the derivative of the bacteria function with respect to time.","label":[],"Comments":[]}
-{"id":1574,"text":"What's <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
-{"id":1575,"text":"So we divide both sides by <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
-{"id":1576,"text":"So it should make a little sense.","label":[],"Comments":[]}
-{"id":1577,"text":"Hopefully that makes sense to you.","label":[],"Comments":[]}
-{"id":1578,"text":"So if you know what you start with, and then you have another point, you can solve for <EXPRESSION>.","label":[[87,99,"expression"]],"Comments":[]}
-{"id":1579,"text":"That's going to be probably <EXPRESSION> something and so we'll do that later.","label":[[28,40,"expression"]],"Comments":[]}
-{"id":1580,"text":"But that If you take the natural log of this side, you're just left with the exponent.","label":[],"Comments":[]}
-{"id":1581,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1582,"text":"But then their final question is when will the population reach <EXPRESSION>? So let me see erase what we did with part C.","label":[[64,76,"expression"]],"Comments":[]}
-{"id":1583,"text":"And then you have an expression.","label":[],"Comments":[]}
-{"id":1584,"text":"We have our function now.","label":[],"Comments":[]}
-{"id":1585,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1586,"text":"See you soon.","label":[],"Comments":[]}
-{"id":1587,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1588,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1589,"text":"Let me do that in a special color.","label":[],"Comments":[]}
-{"id":1590,"text":"And now we can solve for <EXPRESSION>.","label":[[25,37,"expression"]],"Comments":[]}
-{"id":1591,"text":"And I don't know what that is.","label":[],"Comments":[]}
-{"id":1592,"text":"So <EXPRESSION>, right? So <EQUATION>.","label":[[3,15,"expression"],[27,37,"equation"]],"Comments":[]}
-{"id":1593,"text":"And I'll do it here.","label":[],"Comments":[]}
-{"id":1594,"text":"And it's the same thing, right? And what would we would have had? We would have had <EXPRESSION>.","label":[[84,96,"expression"]],"Comments":[]}
-{"id":1595,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1596,"text":"And you get <EQUATION>.","label":[[12,22,"equation"]],"Comments":[]}
-{"id":1597,"text":"Hopefully you didn't find that too confusing.","label":[],"Comments":[]}
-{"id":1598,"text":"That the larger you grow, you're going to grow by an absolute value more than that.","label":[],"Comments":[]}
-{"id":1599,"text":"Well how can we figure out <EXPRESSION>? Well they give us another data point.","label":[[27,39,"expression"]],"Comments":[]}
-{"id":1600,"text":"That's part B.","label":[],"Comments":[]}
-{"id":1601,"text":"So we know that the bacteria as a function of <EQUATION>.","label":[[46,56,"equation"]],"Comments":[]}
-{"id":1602,"text":"And I will do This was actually exponential growth.","label":[],"Comments":[]}
-{"id":1603,"text":"It = what? So what's the derivative of Let's just do the chain rule.","label":[],"Comments":[]}
-{"id":1604,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1605,"text":"So that's the derivative at any time t.","label":[],"Comments":[]}
-{"id":1606,"text":"Divide both sides by <EXPRESSION> and you get <EXPRESSION>.","label":[[21,33,"expression"],[46,58,"expression"]],"Comments":[]}
-{"id":1607,"text":"To solve for <EXPRESSION>, we take the <EXPRESSION> of both sides.","label":[[13,25,"expression"],[39,51,"expression"]],"Comments":[]}
-{"id":1608,"text":"We can actually figure this out analytically.","label":[],"Comments":[]}
-{"id":1609,"text":"And I said that's the same thing as <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
-{"id":1610,"text":"And all of that times <EXPRESSION>.","label":[[22,34,"expression"]],"Comments":[]}
-{"id":1611,"text":"The amount of whatever you have as a function of time will be this type of equation.","label":[],"Comments":[]}
-{"id":1612,"text":"And now take the <EXPRESSION> of both sides of this equation, right? So then we get what? We get let me draw a divide Well, I'll do it in a different color.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":1613,"text":"That's essentially Well what's this going to be? This is the same thing.","label":[],"Comments":[]}
-{"id":1614,"text":"But it's a pretty useful thing to know in general.","label":[],"Comments":[]}
-{"id":1615,"text":"All of that times Well, e to the As we just did this in part B.","label":[],"Comments":[]}
-{"id":1616,"text":"So what does that leave us? So now we know the equation.","label":[],"Comments":[]}
-{"id":1617,"text":"And that number we could calculate if you have a calculator.","label":[],"Comments":[]}
-{"id":1618,"text":"And let's see what we get.","label":[],"Comments":[]}
-{"id":1619,"text":"So <EXPRESSION>.","label":[[3,15,"expression"]],"Comments":[]}
-{"id":1620,"text":"So my question to you is, first of all, what is <EXPRESSION>? What is your initial number of bacterial cells? Well they tell us.","label":[[48,60,"expression"]],"Comments":[]}
-{"id":1621,"text":"So we know that <EXPRESSION> when <EQUATION>, right? And so, if we substitute here <EQUATION>, this is <EXPRESSION>.","label":[[16,28,"expression"],[34,44,"equation"],[83,93,"equation"],[103,115,"expression"]],"Comments":[]}
-{"id":1622,"text":"So that's our function.","label":[],"Comments":[]}
-{"id":1623,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1624,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1625,"text":"Anyway, this is a compound growth problem, or an exponential growth problem.","label":[],"Comments":[]}
-{"id":1626,"text":"And I went over this in the exponent proper in the logarithm properties video.","label":[],"Comments":[]}
-{"id":1627,"text":"So then they say find this is part B find the number of bacteria after <EXPRESSION> hours.","label":[[71,83,"expression"]],"Comments":[]}
-{"id":1628,"text":"Let me put e to the k on this side.","label":[],"Comments":[]}
-{"id":1629,"text":"And we can We'll figure that out later with a calculator.","label":[],"Comments":[]}
-{"id":1630,"text":"But we could rewrite the derivative as well.","label":[],"Comments":[]}
-{"id":1631,"text":"That at any time <EXPRESSION>, we can tell you how many bacteria there are.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":1632,"text":"<EXPRESSION> times the derivative of <EXPRESSION> to the whole thing.","label":[[0,12,"expression"],[37,49,"expression"]],"Comments":[]}
-{"id":1633,"text":"Part C, find the rate of growth after <EXPRESSION> hours.","label":[[38,50,"expression"]],"Comments":[]}
-{"id":1634,"text":"We know We knew that, part A, <EQUATION>.","label":[[30,40,"equation"]],"Comments":[]}
-{"id":1635,"text":"So <EQUATION>.","label":[[3,13,"equation"]],"Comments":[]}
-{"id":1636,"text":"How do you figure out Your calculator has two bases.","label":[],"Comments":[]}
-{"id":1637,"text":"<EXPRESSION>, that's the same thing as Because this expression right here is just <EXPRESSION>.","label":[[0,12,"expression"],[82,94,"expression"]],"Comments":[]}
-{"id":1638,"text":"<EXPRESSION>, right? Actually that's I should have written our original equation as that.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1639,"text":"And then find the expression for the number of So essentially, you'd be trying to figure out the compound interest rate and all of that.","label":[],"Comments":[]}
-{"id":1640,"text":"Let me erase all this other stuff I have.","label":[],"Comments":[]}
-{"id":1641,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1642,"text":"We can erase that.","label":[],"Comments":[]}
-{"id":1643,"text":"And if you think about it, what we're going to do here with a bacteria, it's no different than what we did with compound interest when we learned about interest and the number e.","label":[],"Comments":[]}
-{"id":1644,"text":"So <EXPRESSION> should just be I naught.","label":[[3,15,"expression"]],"Comments":[]}
-{"id":1645,"text":"So <EQUATION> times <EXPRESSION>.","label":[[3,13,"equation"],[20,32,"expression"]],"Comments":[]}
-{"id":1646,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1647,"text":"Actually we could even erase all of this because we've just answered that.","label":[],"Comments":[]}
-{"id":1648,"text":"We could rewrite this as <EQUATION>.","label":[[25,35,"equation"]],"Comments":[]}
-{"id":1649,"text":"This is times <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
-{"id":1650,"text":"e to the ln of Let's see.","label":[],"Comments":[]}
-{"id":1651,"text":"Well part C is actually it was easier to keep it in this form because taking a derivative of <EXPRESSION> is easier than taking a derivative of another base.","label":[[93,105,"expression"]],"Comments":[]}
-{"id":1652,"text":"And so this is just <EXPRESSION>.","label":[[20,32,"expression"]],"Comments":[]}
-{"id":1653,"text":"And we got <EQUATION>.","label":[[11,21,"equation"]],"Comments":[]}
-{"id":1654,"text":"OK.","label":[],"Comments":[]}
-{"id":1655,"text":"You have the first thing they want.","label":[],"Comments":[]}
-{"id":1656,"text":"So times <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
-{"id":1657,"text":"We know <EXPRESSION> and we know <EXPRESSION>, so we know that the equation is So part A, the equation is <EXPRESSION>, bacteria as a function of <EQUATION>.","label":[[8,20,"expression"],[33,45,"expression"],[106,118,"expression"],[146,156,"equation"]],"Comments":[]}
-{"id":1658,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1659,"text":"After an hour, the population has increased to <EXPRESSION>.","label":[[47,59,"expression"]],"Comments":[]}
-{"id":1660,"text":"So we know that <EQUATION>.","label":[[16,26,"equation"]],"Comments":[]}
-{"id":1661,"text":"And so in general, if you have this I naught, the initial amount you have.","label":[],"Comments":[]}
-{"id":1662,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1663,"text":"But that's part B.","label":[],"Comments":[]}
-{"id":1664,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
-{"id":1665,"text":"All I did is I substituted <EXPRESSION> here and simplified.","label":[[27,39,"expression"]],"Comments":[]}
-{"id":1666,"text":"What's the derivative of so we can have <EXPRESSION> constant out there times the derivative of this inside function.","label":[[39,52,"expression"]],"Comments":[]}
-{"id":1667,"text":"That's just plugging into a calculator at this point.","label":[],"Comments":[]}
-{"id":1668,"text":"And you could replace these words.","label":[],"Comments":[]}
-{"id":1669,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
-{"id":1670,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1671,"text":"Well, the derivative of <EXPRESSION> is <EXPRESSION>.","label":[[24,36,"expression"],[40,52,"expression"]],"Comments":[]}
-{"id":1672,"text":"And they say when will the population reach <EXPRESSION>? So they're essentially saying when is at what time <EXPRESSION> is <EQUATION>? So we can just say <EQUATION>.","label":[[44,56,"expression"],[109,121,"expression"],[125,135,"equation"],[156,166,"equation"]],"Comments":[]}
-{"id":1673,"text":"So this first says find an expression for the number of bacteria after <EXPRESSION> hours.","label":[[71,83,"expression"]],"Comments":[]}
-{"id":1674,"text":"So <EQUATION>.","label":[[3,13,"equation"]],"Comments":[]}
-{"id":1675,"text":"That this right here is the same thing as <EXPRESSION>.","label":[[42,54,"expression"]],"Comments":[]}
-{"id":1676,"text":"You could say Instead of saying bacteria culture, you could say a bank account initially contains $100 and grows at a rate proportional to its size, which would mean compound interest.","label":[],"Comments":[]}
-{"id":1677,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1678,"text":"And that'll be an hour.","label":[],"Comments":[]}
-{"id":1679,"text":"So I'll say <EXPRESSION>.","label":[[12,24,"expression"]],"Comments":[]}
-{"id":1680,"text":"You get <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":1681,"text":"<EXPRESSION>? Well it's <EXPRESSION>.","label":[[0,12,"expression"],[24,36,"expression"]],"Comments":[]}
-{"id":1682,"text":"So let's do part C.","label":[],"Comments":[]}
-{"id":1683,"text":"And I'll do one on exponential decay as well.","label":[],"Comments":[]}
-{"id":1684,"text":"So this tells us that the bacteria at time <EXPRESSION> is <EXPRESSION>.","label":[[43,55,"expression"],[59,71,"expression"]],"Comments":[]}
-{"id":1685,"text":"It has <EXPRESSION> and it has <EXPRESSION>, which is <EXPRESSION>.","label":[[7,19,"expression"],[31,43,"expression"],[54,66,"expression"]],"Comments":[]}
-{"id":1686,"text":"So in general, anything that When you're dealing with exponential growth or exponential decay.","label":[],"Comments":[]}
-{"id":1687,"text":"And then using this extra data point, we solved for <EXPRESSION>.","label":[[52,64,"expression"]],"Comments":[]}
-{"id":1688,"text":"That's just a little bit of logarithm math we did here.","label":[],"Comments":[]}
-{"id":1689,"text":"When will the population reach <EXPRESSION>? Let me write what we have already done a little bit neater.","label":[[31,43,"expression"]],"Comments":[]}
-{"id":1690,"text":"If you have two things in an exponent multiplied, that's the same thing as taking that and then raising it to the third power, right? If we were simplifying, we'd say oh that's the same thing as just multiplying that times this.","label":[],"Comments":[]}
-{"id":1691,"text":"<EXPRESSION>, right? Because natural log says well, what exponent do I have to raise <EXPRESSION> to to get <EXPRESSION>.","label":[[0,12,"expression"],[85,97,"expression"],[108,120,"expression"]],"Comments":[]}
-{"id":1692,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1693,"text":"I took this and I replaced it with this.","label":[],"Comments":[]}
-{"id":1694,"text":"So this tells us, after an hour the population has increased to <EXPRESSION>.","label":[[64,76,"expression"]],"Comments":[]}
-{"id":1695,"text":"Just want to keep our original equation.","label":[],"Comments":[]}
-{"id":1696,"text":"Because if you think about it well, I'll draw the analogy as we do this problem.","label":[],"Comments":[]}
-{"id":1697,"text":"So let's do that.","label":[],"Comments":[]}
-{"id":1698,"text":"We get taking the <EXPRESSION> both sides of this the <EXPRESSION> = Well if you take the <EXPRESSION> to something, you're just left with the something.","label":[[18,30,"expression"],[54,66,"expression"],[90,102,"expression"]],"Comments":[]}
-{"id":1699,"text":"How do you figure out log base of another number of <EXPRESSION>? Well, the simple answer is you could take <EXPRESSION> of this and divide it by the <EXPRESSION> of this.","label":[[52,64,"expression"],[108,120,"expression"],[150,162,"expression"]],"Comments":[]}
-{"id":1700,"text":"They tell us right here.","label":[],"Comments":[]}
-{"id":1701,"text":"Find an expression for the number bacteria after <EXPRESSION> hours.","label":[[49,61,"expression"]],"Comments":[]}
-{"id":1702,"text":"<EXPRESSION>, right? Because if you were to simplify, you just take this exponent and multiply this and you'd get this.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1703,"text":"So the chain rule tells us it's just the derivative of this whole expression.","label":[],"Comments":[]}
-{"id":1704,"text":"<EXPRESSION>, which is going to be some bizarre number.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1705,"text":"Or continuously compounding growth or continuously compounding decay, though you'll very seldom hear that term.","label":[],"Comments":[]}
-{"id":1706,"text":"And that makes sense, right? Because if <EQUATION>, this whole expression is <EXPRESSION>.","label":[[40,50,"equation"],[77,89,"expression"]],"Comments":[]}
-{"id":1707,"text":"So that = <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":1708,"text":"I could rewrite our original bacterial function equation as <EXPRESSION>.","label":[[60,72,"expression"]],"Comments":[]}
-{"id":1709,"text":"And we get <EQUATION>.","label":[[11,21,"equation"]],"Comments":[]}
-{"id":1710,"text":"All of that times <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
-{"id":1711,"text":"<EXPRESSION>, right? I just took a this Sorry.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1712,"text":"So it's good we left it in that form because it made the derivative all that easier.","label":[],"Comments":[]}
-{"id":1713,"text":"<EXPRESSION> of <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
-{"id":1714,"text":"And so that would be even a better answer for part A.","label":[],"Comments":[]}
-{"id":1715,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":1716,"text":"So what are they asking us for? Well they're essentially asking us what is the slope of this function after <EXPRESSION> hours? Or another way you could view it is what is the derivative at <EQUATION>? Let's do that.","label":[[108,120,"expression"],[190,200,"equation"]],"Comments":[]}
-{"id":1717,"text":"<EXPRESSION>.","label":[],"Comments":[]}
-{"id":1718,"text":"So that's pretty straight forward.","label":[],"Comments":[]}
-{"id":1719,"text":"And then when we substitute here, is that <EXPRESSION>.","label":[[42,54,"expression"]],"Comments":[]}
+{"id": 1507, "text": "If it doesn't, you might want to use your calculator.", "entities": []}
+{"id": 1508, "text": "Well what's <EXPRESSION> at <EXPRESSION>? <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 28, "end_offset": 39}, {"label": "expression", "start_offset": 42, "end_offset": 54}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 1509, "text": "The bacteria culture initially contains 100 cells.", "entities": []}
+{"id": 1510, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1511, "text": "Bacteria as a function of time is going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 1512, "text": "And actually since Just to hit another point home, we could have used this equation.", "entities": []}
+{"id": 1513, "text": "So that = I didn't even have to use a calculator, look at that <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 1514, "text": "So that tells us Let me [SIDE COMMENTS] Anyway, so what was I doing? Oh.", "entities": []}
+{"id": 1515, "text": "So you would say <EQUATION>.", "entities": [{"label": "equation", "start_offset": 17, "end_offset": 27}]}
+{"id": 1516, "text": "So there we figured out Using the initial condition here, we figured out I naught.", "entities": []}
+{"id": 1517, "text": "And it's the same exact logic.", "entities": []}
+{"id": 1518, "text": "So that's all I'm saying here.", "entities": []}
+{"id": 1519, "text": "But this is the exact same phenomenon.", "entities": []}
+{"id": 1520, "text": "So <EXPRESSION> is also = if we look at it there <EXPRESSION> to the what? <EQUATION>.", "entities": [{"label": "expression", "start_offset": 2, "end_offset": 15}, {"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "equation", "start_offset": 75, "end_offset": 85}]}
+{"id": 1521, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1522, "text": "I'll say bacteria as a function of time.", "entities": []}
+{"id": 1523, "text": "And then you could say, after an hour the population has increased to, whatever, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 1524, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1525, "text": "Well, that's just a constant times t, so it's just a constant.", "entities": []}
+{"id": 1526, "text": "Actually, that is a simpler bacterial equation than this one.", "entities": []}
+{"id": 1527, "text": "<EXPRESSION>? So if I raise <EXPRESSION> to that exponent, I get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 1528, "text": "Where <EXPRESSION> is kind of our compounding rate.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}]}
+{"id": 1529, "text": "And <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 1530, "text": "So times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 1531, "text": "<EXPRESSION> of both sides of this.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1532, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1533, "text": "And you might want to review all the logarithms if you found that a little confusing.", "entities": []}
+{"id": 1534, "text": "<EXPRESSION> to the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 1535, "text": "And then that makes part B even easier to solve.", "entities": []}
+{"id": 1536, "text": "I think we can erase all of this because we've written down our equation here.", "entities": []}
+{"id": 1537, "text": "And then they want to know what the rate of growth is after <EXPRESSION> hours.", "entities": [{"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 1538, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1539, "text": "So <EXPRESSION> of Well, let me do it here.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 1540, "text": "So we're making some progress.", "entities": []}
+{"id": 1541, "text": "So <EXPRESSION> must = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 1542, "text": "Now what are they asking? Find the rate of growth after <EXPRESSION> hours.", "entities": [{"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 1543, "text": "Anyway, hopefully I didn't further confuse you.", "entities": []}
+{"id": 1544, "text": "And it says: a bacteria culture initially contains 100 cells and grows at a rate proportional to its size.", "entities": []}
+{"id": 1545, "text": "Now, if we just knew <EXPRESSION>, then we would have done this part A, find an expression for the number bacteria after <EXPRESSION> hours.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 121, "end_offset": 133}]}
+{"id": 1546, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 1547, "text": "But this all is actually a pretty important thing to know.", "entities": []}
+{"id": 1548, "text": "And actually we would probably want to convert backwards.", "entities": []}
+{"id": 1549, "text": "That <EQUATION>, right? Because <EXPRESSION> is essentially saying what exponent do I have to raise <EXPRESSION> to to get <EXPRESSION>? So if I raise <EXPRESSION> to that exponent, I get <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 5, "end_offset": 15}, {"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 123, "end_offset": 135}, {"label": "expression", "start_offset": 151, "end_offset": 163}, {"label": "expression", "start_offset": 188, "end_offset": 199}]}
+{"id": 1550, "text": "And then part C.", "entities": []}
+{"id": 1551, "text": "<EXPRESSION> times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 1552, "text": "And so, to solve this So you're essentially saying log base You would essentially want to take <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 95, "end_offset": 107}]}
+{"id": 1553, "text": "And you get <EQUATION>.", "entities": [{"label": "equation", "start_offset": 12, "end_offset": 22}]}
+{"id": 1554, "text": "And if you want to solve for <EXPRESSION>, you just divide both sides by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 1555, "text": "That says <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 1556, "text": "Anyway, I'll do more of these problems because they can be a little confusing.", "entities": []}
+{"id": 1557, "text": "So you could divide both sides by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 1558, "text": "No.", "entities": []}
+{"id": 1559, "text": "That's just plugging into your calculator.", "entities": []}
+{"id": 1560, "text": "So how many hours does it take? You just plug this in your calculator and you will get a number for the number of hours.", "entities": []}
+{"id": 1561, "text": "I know you can't read that, but we'll use it again.", "entities": []}
+{"id": 1562, "text": "So that tells us that <EXPRESSION>, right? After <EXPRESSION> hour, the population has increased to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "expression", "start_offset": 100, "end_offset": 112}]}
+{"id": 1563, "text": "Which is also = If we put <EXPRESSION> here, that = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 1564, "text": "Let me do that actually.", "entities": []}
+{"id": 1565, "text": "Anyway, I got a little bit messier than I wanted to.", "entities": []}
+{"id": 1566, "text": "After an hour, the population has increased to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 1567, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1568, "text": "So let's figure out the number of bacteria after <EXPRESSION> hours.", "entities": [{"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 1569, "text": "You could also take <EXPRESSION> and divide it by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 50, "end_offset": 62}]}
+{"id": 1570, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1571, "text": "And it just makes things simpler.", "entities": []}
+{"id": 1572, "text": "That = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 1573, "text": "So we just have to take the derivative of the bacteria function with respect to time.", "entities": []}
+{"id": 1574, "text": "What's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 1575, "text": "So we divide both sides by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 1576, "text": "So it should make a little sense.", "entities": []}
+{"id": 1577, "text": "Hopefully that makes sense to you.", "entities": []}
+{"id": 1578, "text": "So if you know what you start with, and then you have another point, you can solve for <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 87, "end_offset": 99}]}
+{"id": 1579, "text": "That's going to be probably <EXPRESSION> something and so we'll do that later.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 1580, "text": "But that If you take the natural log of this side, you're just left with the exponent.", "entities": []}
+{"id": 1581, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1582, "text": "But then their final question is when will the population reach <EXPRESSION>? So let me see erase what we did with part C.", "entities": [{"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 1583, "text": "And then you have an expression.", "entities": []}
+{"id": 1584, "text": "We have our function now.", "entities": []}
+{"id": 1585, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1586, "text": "See you soon.", "entities": []}
+{"id": 1587, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1588, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1589, "text": "Let me do that in a special color.", "entities": []}
+{"id": 1590, "text": "And now we can solve for <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 1591, "text": "And I don't know what that is.", "entities": []}
+{"id": 1592, "text": "So <EXPRESSION>, right? So <EQUATION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "equation", "start_offset": 27, "end_offset": 37}]}
+{"id": 1593, "text": "And I'll do it here.", "entities": []}
+{"id": 1594, "text": "And it's the same thing, right? And what would we would have had? We would have had <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 84, "end_offset": 96}]}
+{"id": 1595, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1596, "text": "And you get <EQUATION>.", "entities": [{"label": "equation", "start_offset": 12, "end_offset": 22}]}
+{"id": 1597, "text": "Hopefully you didn't find that too confusing.", "entities": []}
+{"id": 1598, "text": "That the larger you grow, you're going to grow by an absolute value more than that.", "entities": []}
+{"id": 1599, "text": "Well how can we figure out <EXPRESSION>? Well they give us another data point.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 1600, "text": "That's part B.", "entities": []}
+{"id": 1601, "text": "So we know that the bacteria as a function of <EQUATION>.", "entities": [{"label": "equation", "start_offset": 46, "end_offset": 56}]}
+{"id": 1602, "text": "And I will do This was actually exponential growth.", "entities": []}
+{"id": 1603, "text": "It = what? So what's the derivative of Let's just do the chain rule.", "entities": []}
+{"id": 1604, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1605, "text": "So that's the derivative at any time t.", "entities": []}
+{"id": 1606, "text": "Divide both sides by <EXPRESSION> and you get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 1607, "text": "To solve for <EXPRESSION>, we take the <EXPRESSION> of both sides.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 1608, "text": "We can actually figure this out analytically.", "entities": []}
+{"id": 1609, "text": "And I said that's the same thing as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 1610, "text": "And all of that times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 1611, "text": "The amount of whatever you have as a function of time will be this type of equation.", "entities": []}
+{"id": 1612, "text": "And now take the <EXPRESSION> of both sides of this equation, right? So then we get what? We get let me draw a divide Well, I'll do it in a different color.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 1613, "text": "That's essentially Well what's this going to be? This is the same thing.", "entities": []}
+{"id": 1614, "text": "But it's a pretty useful thing to know in general.", "entities": []}
+{"id": 1615, "text": "All of that times Well, e to the As we just did this in part B.", "entities": []}
+{"id": 1616, "text": "So what does that leave us? So now we know the equation.", "entities": []}
+{"id": 1617, "text": "And that number we could calculate if you have a calculator.", "entities": []}
+{"id": 1618, "text": "And let's see what we get.", "entities": []}
+{"id": 1619, "text": "So <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 1620, "text": "So my question to you is, first of all, what is <EXPRESSION>? What is your initial number of bacterial cells? Well they tell us.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 1621, "text": "So we know that <EXPRESSION> when <EQUATION>, right? And so, if we substitute here <EQUATION>, this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "equation", "start_offset": 34, "end_offset": 44}, {"label": "equation", "start_offset": 83, "end_offset": 93}, {"label": "expression", "start_offset": 103, "end_offset": 115}]}
+{"id": 1622, "text": "So that's our function.", "entities": []}
+{"id": 1623, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1624, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1625, "text": "Anyway, this is a compound growth problem, or an exponential growth problem.", "entities": []}
+{"id": 1626, "text": "And I went over this in the exponent proper in the logarithm properties video.", "entities": []}
+{"id": 1627, "text": "So then they say find this is part B find the number of bacteria after <EXPRESSION> hours.", "entities": [{"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 1628, "text": "Let me put e to the k on this side.", "entities": []}
+{"id": 1629, "text": "And we can We'll figure that out later with a calculator.", "entities": []}
+{"id": 1630, "text": "But we could rewrite the derivative as well.", "entities": []}
+{"id": 1631, "text": "That at any time <EXPRESSION>, we can tell you how many bacteria there are.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 1632, "text": "<EXPRESSION> times the derivative of <EXPRESSION> to the whole thing.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 1633, "text": "Part C, find the rate of growth after <EXPRESSION> hours.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 1634, "text": "We know We knew that, part A, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 30, "end_offset": 40}]}
+{"id": 1635, "text": "So <EQUATION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}]}
+{"id": 1636, "text": "How do you figure out Your calculator has two bases.", "entities": []}
+{"id": 1637, "text": "<EXPRESSION>, that's the same thing as Because this expression right here is just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 82, "end_offset": 94}]}
+{"id": 1638, "text": "<EXPRESSION>, right? Actually that's I should have written our original equation as that.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1639, "text": "And then find the expression for the number of So essentially, you'd be trying to figure out the compound interest rate and all of that.", "entities": []}
+{"id": 1640, "text": "Let me erase all this other stuff I have.", "entities": []}
+{"id": 1641, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1642, "text": "We can erase that.", "entities": []}
+{"id": 1643, "text": "And if you think about it, what we're going to do here with a bacteria, it's no different than what we did with compound interest when we learned about interest and the number e.", "entities": []}
+{"id": 1644, "text": "So <EXPRESSION> should just be I naught.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 1645, "text": "So <EQUATION> times <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}, {"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 1646, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1647, "text": "Actually we could even erase all of this because we've just answered that.", "entities": []}
+{"id": 1648, "text": "We could rewrite this as <EQUATION>.", "entities": [{"label": "equation", "start_offset": 25, "end_offset": 35}]}
+{"id": 1649, "text": "This is times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 1650, "text": "e to the ln of Let's see.", "entities": []}
+{"id": 1651, "text": "Well part C is actually it was easier to keep it in this form because taking a derivative of <EXPRESSION> is easier than taking a derivative of another base.", "entities": [{"label": "expression", "start_offset": 93, "end_offset": 105}]}
+{"id": 1652, "text": "And so this is just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 1653, "text": "And we got <EQUATION>.", "entities": [{"label": "equation", "start_offset": 11, "end_offset": 21}]}
+{"id": 1654, "text": "OK.", "entities": []}
+{"id": 1655, "text": "You have the first thing they want.", "entities": []}
+{"id": 1656, "text": "So times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 1657, "text": "We know <EXPRESSION> and we know <EXPRESSION>, so we know that the equation is So part A, the equation is <EXPRESSION>, bacteria as a function of <EQUATION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 106, "end_offset": 118}, {"label": "equation", "start_offset": 146, "end_offset": 156}]}
+{"id": 1658, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1659, "text": "After an hour, the population has increased to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 1660, "text": "So we know that <EQUATION>.", "entities": [{"label": "equation", "start_offset": 16, "end_offset": 26}]}
+{"id": 1661, "text": "And so in general, if you have this I naught, the initial amount you have.", "entities": []}
+{"id": 1662, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1663, "text": "But that's part B.", "entities": []}
+{"id": 1664, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 1665, "text": "All I did is I substituted <EXPRESSION> here and simplified.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 1666, "text": "What's the derivative of so we can have <EXPRESSION> constant out there times the derivative of this inside function.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 52}]}
+{"id": 1667, "text": "That's just plugging into a calculator at this point.", "entities": []}
+{"id": 1668, "text": "And you could replace these words.", "entities": []}
+{"id": 1669, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 1670, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1671, "text": "Well, the derivative of <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}, {"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 1672, "text": "And they say when will the population reach <EXPRESSION>? So they're essentially saying when is at what time <EXPRESSION> is <EQUATION>? So we can just say <EQUATION>.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 109, "end_offset": 121}, {"label": "equation", "start_offset": 125, "end_offset": 135}, {"label": "equation", "start_offset": 156, "end_offset": 166}]}
+{"id": 1673, "text": "So this first says find an expression for the number of bacteria after <EXPRESSION> hours.", "entities": [{"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 1674, "text": "So <EQUATION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}]}
+{"id": 1675, "text": "That this right here is the same thing as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 1676, "text": "You could say Instead of saying bacteria culture, you could say a bank account initially contains $100 and grows at a rate proportional to its size, which would mean compound interest.", "entities": []}
+{"id": 1677, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1678, "text": "And that'll be an hour.", "entities": []}
+{"id": 1679, "text": "So I'll say <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 1680, "text": "You get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 1681, "text": "<EXPRESSION>? Well it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 1682, "text": "So let's do part C.", "entities": []}
+{"id": 1683, "text": "And I'll do one on exponential decay as well.", "entities": []}
+{"id": 1684, "text": "So this tells us that the bacteria at time <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 43, "end_offset": 55}, {"label": "expression", "start_offset": 59, "end_offset": 71}]}
+{"id": 1685, "text": "It has <EXPRESSION> and it has <EXPRESSION>, which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 1686, "text": "So in general, anything that When you're dealing with exponential growth or exponential decay.", "entities": []}
+{"id": 1687, "text": "And then using this extra data point, we solved for <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 1688, "text": "That's just a little bit of logarithm math we did here.", "entities": []}
+{"id": 1689, "text": "When will the population reach <EXPRESSION>? Let me write what we have already done a little bit neater.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 1690, "text": "If you have two things in an exponent multiplied, that's the same thing as taking that and then raising it to the third power, right? If we were simplifying, we'd say oh that's the same thing as just multiplying that times this.", "entities": []}
+{"id": 1691, "text": "<EXPRESSION>, right? Because natural log says well, what exponent do I have to raise <EXPRESSION> to to get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 85, "end_offset": 97}, {"label": "expression", "start_offset": 108, "end_offset": 120}]}
+{"id": 1692, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1693, "text": "I took this and I replaced it with this.", "entities": []}
+{"id": 1694, "text": "So this tells us, after an hour the population has increased to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 1695, "text": "Just want to keep our original equation.", "entities": []}
+{"id": 1696, "text": "Because if you think about it well, I'll draw the analogy as we do this problem.", "entities": []}
+{"id": 1697, "text": "So let's do that.", "entities": []}
+{"id": 1698, "text": "We get taking the <EXPRESSION> both sides of this the <EXPRESSION> = Well if you take the <EXPRESSION> to something, you're just left with the something.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "expression", "start_offset": 90, "end_offset": 102}]}
+{"id": 1699, "text": "How do you figure out log base of another number of <EXPRESSION>? Well, the simple answer is you could take <EXPRESSION> of this and divide it by the <EXPRESSION> of this.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}, {"label": "expression", "start_offset": 108, "end_offset": 120}, {"label": "expression", "start_offset": 150, "end_offset": 162}]}
+{"id": 1700, "text": "They tell us right here.", "entities": []}
+{"id": 1701, "text": "Find an expression for the number bacteria after <EXPRESSION> hours.", "entities": [{"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 1702, "text": "<EXPRESSION>, right? Because if you were to simplify, you just take this exponent and multiply this and you'd get this.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1703, "text": "So the chain rule tells us it's just the derivative of this whole expression.", "entities": []}
+{"id": 1704, "text": "<EXPRESSION>, which is going to be some bizarre number.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1705, "text": "Or continuously compounding growth or continuously compounding decay, though you'll very seldom hear that term.", "entities": []}
+{"id": 1706, "text": "And that makes sense, right? Because if <EQUATION>, this whole expression is <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 40, "end_offset": 50}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 1707, "text": "So that = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 1708, "text": "I could rewrite our original bacterial function equation as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 1709, "text": "And we get <EQUATION>.", "entities": [{"label": "equation", "start_offset": 11, "end_offset": 21}]}
+{"id": 1710, "text": "All of that times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 1711, "text": "<EXPRESSION>, right? I just took a this Sorry.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1712, "text": "So it's good we left it in that form because it made the derivative all that easier.", "entities": []}
+{"id": 1713, "text": "<EXPRESSION> of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 1714, "text": "And so that would be even a better answer for part A.", "entities": []}
+{"id": 1715, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 1716, "text": "So what are they asking us for? Well they're essentially asking us what is the slope of this function after <EXPRESSION> hours? Or another way you could view it is what is the derivative at <EQUATION>? Let's do that.", "entities": [{"label": "expression", "start_offset": 108, "end_offset": 120}, {"label": "equation", "start_offset": 190, "end_offset": 200}]}
+{"id": 1717, "text": "<EXPRESSION>.", "entities": []}
+{"id": 1718, "text": "So that's pretty straight forward.", "entities": []}
+{"id": 1719, "text": "And then when we substitute here, is that <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}]}

@@ -1,475 +1,475 @@
-{"id":11592,"text":"PROFESSOR: So we've been developing the procedure to describe a quantum gas of identical particles.","label":[],"Comments":[]}
-{"id":11593,"text":"That's our non-interacting.","label":[],"Comments":[]}
-{"id":11594,"text":"So what does that mean?","label":[],"Comments":[]}
-{"id":11595,"text":"Is that we are thinking about the Hamiltonian for a system of <EXPRESSION> particles.","label":[[62,74,"expression"]],"Comments":[]}
-{"id":11596,"text":"If they are not interacting, it can be written as the sum of the contributions for the individual particles.","label":[],"Comments":[]}
-{"id":11597,"text":"And if they are identical, it's basically the same particle for each one of them.","label":[],"Comments":[]}
-{"id":11598,"text":"Same Hamiltonian for each one of them.","label":[],"Comments":[]}
-{"id":11599,"text":"OK?","label":[],"Comments":[]}
-{"id":11600,"text":"How do we handle these?","label":[],"Comments":[]}
-{"id":11601,"text":"Well, if you regard this as a quantum problem, for a single particle-- so for each one of these Hamiltonians-- we can find the eigenstates.","label":[],"Comments":[]}
-{"id":11602,"text":"So there's a bunch of states that say label by <EXPRESSION> because we are ultimately have in mind the plane waves that describe gas particles in a box.","label":[[47,59,"expression"]],"Comments":[]}
-{"id":11603,"text":"And there is corresponding energy levels for the single particles, <EXPRESSION>.","label":[[67,79,"expression"]],"Comments":[]}
-{"id":11604,"text":"And the single particle spectrum can therefore can be described by a bunch of energies, a lot of energy levels, with different values of <EXPRESSION> and different allowed discretized energies.","label":[[137,149,"expression"]],"Comments":[]}
-{"id":11605,"text":"Now, when we want to describe a case of <EXPRESSION> particles that are non-interacting, we said that we could, in principle, pick one <EXPRESSION> here, one <EXPRESSION> here, one <EXPRESSION> here.","label":[[40,52,"expression"],[135,147,"expression"],[158,170,"expression"],[181,193,"expression"]],"Comments":[]}
-{"id":11606,"text":"And if we are dealing with bosons, potentially more than one at each side.","label":[],"Comments":[]}
-{"id":11607,"text":"And so the state would then be described by a bunch of occupation numbers <EXPRESSION>.","label":[[74,86,"expression"]],"Comments":[]}
-{"id":11608,"text":"And this <EXPRESSION> will be <EXPRESSION> or <EXPRESSION> if you are talking about fermions, but any integer if you are talking about bosons.","label":[[9,21,"expression"],[30,42,"expression"],[46,58,"expression"]],"Comments":[]}
-{"id":11609,"text":"So this <EXPRESSION> being plus or minus was used to distinguish appropriate symmetrization or anti-symmetrization.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":11610,"text":"Now, once we have a state such as this, clearly the <EXPRESSION> particle hamintonium acting on a state that is symmetrized with these bunch of occupation numbers will give us back this state.","label":[[52,64,"expression"]],"Comments":[]}
-{"id":11611,"text":"The energy that we would be getting is summing over all possible <EXPRESSION> values, epsilon <EXPRESSION> times the number of occurrance of that in this state.","label":[[65,77,"expression"],[94,106,"expression"]],"Comments":[]}
-{"id":11612,"text":"Again, multiplying this state back.","label":[],"Comments":[]}
-{"id":11613,"text":"Of course, we have a constraint that the number of particles matches the sum of the occupation numbers.","label":[],"Comments":[]}
-{"id":11614,"text":"So then we said, OK, this is just a description of the state that they want to describe, or the set of states that represent this system of identical non-interacting partners in quantum mechanics.","label":[],"Comments":[]}
-{"id":11615,"text":"So the next stage, we want to do some kind of first statistics for them.","label":[],"Comments":[]}
-{"id":11616,"text":"And we had seen that basically, in order to assign appropriate statistics in case of quantum systems, we have to deal with a density matrix.","label":[],"Comments":[]}
-{"id":11617,"text":"And we saw that in the canonical representation, the density matrix is complicated and amounts to some kind of interaction among particles.","label":[],"Comments":[]}
-{"id":11618,"text":"Although there is no interaction at this level, the symmetrization or anti-symmetrization create states that are intermixed in a manner that appears as if you have an interaction.","label":[],"Comments":[]}
-{"id":11619,"text":"We found that, however, we could get rid of that by going to the grand canonical ensemble where we would trade in the constraint that the number of particles is fixed with a chemical potential.","label":[],"Comments":[]}
-{"id":11620,"text":"And in this ensemble, we found that the density matrix is diagonal in this representation.","label":[],"Comments":[]}
-{"id":11621,"text":"So the diagonal elements can be thought of as the probability of one of these occupation number sets.","label":[],"Comments":[]}
-{"id":11622,"text":"And so the probability of a particular set of occupations in this grand canonical prescription is proportional to e to the beta-- of course we have mu if we are going to this grand canonical ensemble-- <EXPRESSION>, and then we had <EXPRESSION>.","label":[[202,214,"expression"],[232,244,"expression"]],"Comments":[]}
-{"id":11623,"text":"So the probability that a particular one of these is occupied <EXPRESSION> times in this grand canonical prescription is simply an exponential.","label":[[62,74,"expression"]],"Comments":[]}
-{"id":11624,"text":"And of course, the different <EXPRESSION> levels are completely independent of each other.","label":[[29,41,"expression"]],"Comments":[]}
-{"id":11625,"text":"So the probability factor arises in this fashion.","label":[],"Comments":[]}
-{"id":11626,"text":"Of course, as any probability, we have to normalize this.","label":[],"Comments":[]}
-{"id":11627,"text":"Normalization is appropriate.","label":[],"Comments":[]}
-{"id":11628,"text":"We call the grand canonical partition function and will be different whether we are dealing with boson statistics or fermion statistics.","label":[],"Comments":[]}
-{"id":11629,"text":"Actually, because we have a structure such as this, Q is going to be the product of the normalization of each individual one.","label":[[52,53,"term"]],"Comments":[]}
-{"id":11630,"text":"And therefore, <EXPRESSION> is going to be a sum of the contributions that I would get for the normalization of each individual ones.","label":[[15,27,"expression"]],"Comments":[]}
-{"id":11631,"text":"And of course, the log of whatever normalization I have for the individual one.","label":[],"Comments":[]}
-{"id":11632,"text":"If I have the case of a fermions where <EXPRESSION> gets <EXPRESSION> or <EXPRESSION> as the two possibilities, then the normalization will be simply <EXPRESSION> plus this exponential.","label":[[39,51,"expression"],[57,69,"expression"],[73,85,"expression"],[150,162,"expression"]],"Comments":[]}
-{"id":11633,"text":"And I choose to write that as <EXPRESSION> where I have introduced <EXPRESSION> to be <EXPRESSION>.","label":[[16,21,"command"],[30,42,"expression"],[67,79,"expression"],[86,98,"expression"]],"Comments":[]}
-{"id":11634,"text":"Because this combination occurs all the time, I don't want to keep repeating that.","label":[],"Comments":[]}
-{"id":11635,"text":"So this was for the case of fermions.","label":[],"Comments":[]}
-{"id":11636,"text":"For the case of bosons where <EXPRESSION> goes <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, et cetera, this is a geometric series.","label":[[29,41,"expression"],[47,59,"expression"],[61,73,"expression"],[75,87,"expression"],[89,101,"expression"]],"Comments":[]}
-{"id":11637,"text":"For the geometric series, when I sum it, I would get <EXPRESSION> over this factor.","label":[[53,65,"expression"]],"Comments":[]}
-{"id":11638,"text":"So when I take the log I will have a minus sign here.","label":[[10,14,"command"],[19,22,"command_attribute"]],"Comments":[]}
-{"id":11639,"text":"And I can put the Boson and Fermi cases together by simply putting a factor of <EXPRESSION> here so that I have the plus for the case of fermions and the minus for the case of bosons.","label":[[79,91,"expression"]],"Comments":[]}
-{"id":11640,"text":"OK?","label":[],"Comments":[]}
-{"id":11641,"text":"So this is one thing that we will be using.","label":[],"Comments":[]}
-{"id":11642,"text":"The other thing is that this is the probability for this level having a certain occupation number.","label":[],"Comments":[]}
-{"id":11643,"text":"In k we can always ask, what is the average of <EXPRESSION>?","label":[[36,43,"command"],[47,59,"expression"]],"Comments":[]}
-{"id":11644,"text":"And from this probability it is easy to calculate the average.","label":[],"Comments":[]}
-{"id":11645,"text":"And the answer, again, can be collapsed into one expression for the case of bosons and fermions as <EXPRESSION> encompassing both fermions and bosons.","label":[[99,111,"expression"]],"Comments":[]}
-{"id":11646,"text":"So these results give some idea both at the microscopic level-- in terms of occupation numbers of these different levels-- and macroscopic level a grand partition function from which we can construct thermodynamics.","label":[],"Comments":[]}
-{"id":11647,"text":"Actually, full probability, again, in this ensemble which we can transform in principle and get density matrices, et cetera, in other basis.","label":[],"Comments":[]}
-{"id":11648,"text":"But these are the kinds of things that we can do for any interacting Hamiltonian.","label":[],"Comments":[]}
-{"id":11649,"text":"OK?","label":[],"Comments":[]}
-{"id":11650,"text":"Now, what I said over here was that I'm actually interested in the case of a gas.","label":[],"Comments":[]}
-{"id":11651,"text":"So let's again think about the type of gas such as the one in this room that we are interested.","label":[],"Comments":[]}
-{"id":11652,"text":"And again, to make a contrast with something that we may want to do later, let's emphasize that it is a non-relativistic gas.","label":[],"Comments":[]}
-{"id":11653,"text":"So the Hamiltonian <EXPRESSION> is essentially free particle in a box of volume <EXPRESSION>, the thing that we have been using all the time, just the kinetic energy of a one particle state.","label":[[19,31,"expression"],[80,92,"expression"]],"Comments":[]}
-{"id":11654,"text":"And for that we know that the single particle energy levels are characterized by a vector <EXPRESSION>.","label":[[90,102,"expression"]],"Comments":[]}
-{"id":11655,"text":"As three components, in fact.","label":[],"Comments":[]}
-{"id":11656,"text":"And <EXPRESSION>.","label":[[4,16,"expression"]],"Comments":[]}
-{"id":11657,"text":"And we've discussed what the discretization of <EXPRESSION> is appropriate to the size of the box.","label":[[47,59,"expression"]],"Comments":[]}
-{"id":11658,"text":"We won't go over that.","label":[],"Comments":[]}
-{"id":11659,"text":"So again, maybe it is important to mention that because of the discretizatoin of the <EXPRESSION> values, the spacing between possible values of <EXPRESSION> are <EXPRESSION> in each direction.","label":[[85,97,"expression"],[145,157,"expression"],[162,174,"expression"]],"Comments":[]}
-{"id":11660,"text":"And ultimately what we want to do is to replace these sums over <EXPRESSION> in the limit of large boxes with integrals over <EXPRESSION>.","label":[[40,47,"command"],[54,58,"command_attribute"],[64,76,"expression"],[125,136,"expression"]],"Comments":[]}
-{"id":11661,"text":"So these go over to an integral over <EXPRESSION> times the density factor that you get in going from the sum to the integral, which is <EXPRESSION> times the volume.","label":[[37,49,"expression"],[136,148,"expression"]],"Comments":[]}
-{"id":11662,"text":"I will introduce one other factor here, which is that when we are talking about quantum particles and bosons and fermions, they are typically assigned also another state-- another parameter-- that characterizes their spin.","label":[],"Comments":[]}
-{"id":11663,"text":"And depending on the possible values of spin, you will have <EXPRESSION> copies of the system.","label":[[60,72,"expression"]],"Comments":[]}
-{"id":11664,"text":"And this <EXPRESSION> will be related to the quantum spin-- to the formula <EXPRESSION>-- so that when you have fermions, typically <EXPRESSION> is half integer and this will be an even number.","label":[[8,21,"expression"],[75,87,"expression"],[132,144,"expression"]],"Comments":[]}
-{"id":11665,"text":"Whereas for bosons it will be an odd number.","label":[],"Comments":[]}
-{"id":11666,"text":"So that's, again, something that we've seen.","label":[],"Comments":[]}
-{"id":11667,"text":"You just, essentially says multiply everything by some factor of <EXPRESSION>.","label":[[65,77,"expression"]],"Comments":[]}
-{"id":11668,"text":"Now if I go through this procedure that I have outlined here, I will ultimately get the grand partition function of the gas-- which as we will see is related to its pressure-- in terms of the chemical potential.","label":[],"Comments":[]}
-{"id":11669,"text":"Throughout the course we've seen that the more interesting thing to look at is how things depend on density rather than chemical potential.","label":[],"Comments":[]}
-{"id":11670,"text":"So I'd better use this result to get what the density is.","label":[],"Comments":[]}
-{"id":11671,"text":"How do I do that?","label":[],"Comments":[]}
-{"id":11672,"text":"Well, once I have determined what the chemical potential is, the average number of particles will be the sum over and the average occupation numbers that I have in all of these states.","label":[],"Comments":[]}
-{"id":11673,"text":"And according to the prescription that we have over here, in the limit of a large box, this sum over <EXPRESSION> becomes <EXPRESSION>.","label":[[101,113,"expression"],[122,134,"expression"]],"Comments":[]}
-{"id":11674,"text":"Ultimately I will divide by <EXPRESSION> so I will have the formula for the density.","label":[[18,27,"command"],[28,40,"expression"]],"Comments":[]}
-{"id":11675,"text":"And what is <EXPRESSION>?","label":[[12,24,"expression"]],"Comments":[]}
-{"id":11676,"text":"Well, I have the formula for <EXPRESSION>.","label":[[29,41,"expression"]],"Comments":[]}
-{"id":11677,"text":"It is <EXPRESSION>.","label":[[6,18,"expression"]],"Comments":[]}
-{"id":11678,"text":"<EXPRESSION> is <EXPRESSION>, and then I have a <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"],[48,60,"expression"]],"Comments":[]}
-{"id":11679,"text":"OK?","label":[],"Comments":[]}
-{"id":11680,"text":"So if I divide through by <EXPRESSION>, really I will have the density.","label":[[26,38,"expression"]],"Comments":[]}
-{"id":11681,"text":"Get rid of this <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
-{"id":11682,"text":"But I have to do that integral.","label":[],"Comments":[]}
-{"id":11683,"text":"Now for this and a lot of other things, you can see that always I will have sums or integrations over the combination that appears in the exponent and enhances dimension list which is <EXPRESSION>.","label":[[184,196,"expression"]],"Comments":[]}
-{"id":11684,"text":"So let me introduce a new variable.","label":[],"Comments":[]}
-{"id":11685,"text":"Let me call <EXPRESSION> to be the combination <EXPRESSION>.","label":[[7,11,"command"],[12,24,"expression"],[47,59,"expression"]],"Comments":[]}
-{"id":11686,"text":"So I'm going to call this <EXPRESSION>, if you like.","label":[[16,25,"command"],[26,38,"expression"]],"Comments":[]}
-{"id":11687,"text":"So I have changed variables from <EXPRESSION>.","label":[[33,45,"expression"]],"Comments":[]}
-{"id":11688,"text":"<EXPRESSION> in terms of <EXPRESSION> is simply <EXPRESSION>-- which is <EXPRESSION>.","label":[[0,12,"expression"],[25,37,"expression"],[48,60,"expression"],[72,84,"expression"]],"Comments":[]}
-{"id":11689,"text":"But I took a square root so it's just <EXPRESSION>.","label":[[39,50,"expression"]],"Comments":[]}
-{"id":11690,"text":"Times <EXPRESSION>.","label":[[0,5,"command"],[6,18,"expression"]],"Comments":[]}
-{"id":11691,"text":"OK?","label":[],"Comments":[]}
-{"id":11692,"text":"Now, I realize that <EXPRESSION> is in fact <EXPRESSION>.","label":[[20,32,"expression"],[44,56,"expression"]],"Comments":[]}
-{"id":11693,"text":"So the <EXPRESSION> I can put in the numerator.","label":[[7,19,"expression"],[26,29,"command"],[37,46,"command_attribute"]],"Comments":[]}
-{"id":11694,"text":"And then I remember that actually the combination <EXPRESSION>, I was calling these thermal wavelength <EXPRESSION>.","label":[[50,62,"expression"],[103,115,"expression"]],"Comments":[]}
-{"id":11695,"text":"And <EXPRESSION> should have the dimensions of an inverse landscape, so that's the appropriate thing to choose.","label":[[4,16,"expression"]],"Comments":[]}
-{"id":11696,"text":"So what do I get?","label":[],"Comments":[]}
-{"id":11697,"text":"I take <EXPRESSION> inside and I'm left with <EXPRESSION> divided by this parameter <EXPRESSION>.","label":[[2,6,"command"],[7,19,"expression"],[45,57,"expression"],[58,68,"command"],[84,96,"expression"]],"Comments":[]}
-{"id":11698,"text":"Again, for later clarity, let's make sure we remember this was our <EXPRESSION>.","label":[[67,79,"expression"]],"Comments":[]}
-{"id":11699,"text":"So this is the variable <EXPRESSION> that I need.","label":[[24,36,"expression"]],"Comments":[]}
-{"id":11700,"text":"In fact, for the-- for the integration I have to also make a change in <EXPRESSION>.","label":[[71,83,"expression"]],"Comments":[]}
-{"id":11701,"text":"So I not that <EXPRESSION>, if I take a derivative here, I will get <EXPRESSION> becomes <EXPRESSION>.","label":[[14,26,"expression"],[64,67,"command"],[68,80,"expression"],[89,101,"expression"]],"Comments":[]}
-{"id":11702,"text":"Actually, the factor that I need over here is <EXPRESSION>-- <EXPRESSION>.","label":[[46,58,"expression"],[61,73,"expression"]],"Comments":[]}
-{"id":11703,"text":"Now everything only depends on the magnitude of <EXPRESSION>.","label":[[48,60,"expression"]],"Comments":[]}
-{"id":11704,"text":"So I will take advantage of spherical symmetry, write <EXPRESSION> as <EXPRESSION>.","label":[[48,53,"command"],[54,66,"expression"],[70,82,"expression"]],"Comments":[]}
-{"id":11705,"text":"And then I substitute from <EXPRESSION> and <EXPRESSION> above in terms of this <EXPRESSION>.","label":[[11,21,"command"],[27,39,"expression"],[44,56,"expression"],[80,92,"expression"]],"Comments":[]}
-{"id":11706,"text":"So I will have a <EXPRESSION> from this division.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":11707,"text":"<EXPRESSION> is simply <EXPRESSION>.","label":[[0,12,"expression"],[23,35,"expression"]],"Comments":[]}
-{"id":11708,"text":"This is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":11709,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
-{"id":11710,"text":"So you can see lots of things cancel out and the answer is going to be <EXPRESSION>.","label":[[71,83,"expression"]],"Comments":[]}
-{"id":11711,"text":"And what is left from all of these <EXPRESSION> et cetera, is a factor of <EXPRESSION>.","label":[[35,47,"expression"],[74,86,"expression"]],"Comments":[]}
-{"id":11712,"text":"Or <EXPRESSION> in the numerator or <EXPRESSION> in the denominator.","label":[[3,15,"expression"],[36,48,"expression"]],"Comments":[]}
-{"id":11713,"text":"OK?","label":[],"Comments":[]}
-{"id":11714,"text":"So if I do these set of changes that I have on the right part of the board, what do I have for density?","label":[],"Comments":[]}
-{"id":11715,"text":"The density becomes simply <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
-{"id":11716,"text":"I have this integral over <EXPRESSION> that I have recast as an integral that is <EXPRESSION>.","label":[[26,38,"expression"],[81,93,"expression"]],"Comments":[]}
-{"id":11717,"text":"Let me pull out the factor of <EXPRESSION> on the outside.","label":[[7,15,"command"],[20,26,"command_attribute"],[30,42,"expression"]],"Comments":[]}
-{"id":11718,"text":"So I have <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":11719,"text":"I will pull out to that factor of <EXPRESSION> that I had before.","label":[[7,15,"command"],[24,30,"command_attribute"],[34,46,"expression"]],"Comments":[]}
-{"id":11720,"text":"And then I have the integral from <EXPRESSION> to <EXPRESSION>.","label":[[34,46,"expression"],[50,62,"expression"]],"Comments":[]}
-{"id":11721,"text":"Actually, let me write it in this fashion.","label":[[17,22,"command"]],"Comments":[]}
-{"id":11722,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":11723,"text":"And in the denominator, what do I have?","label":[],"Comments":[]}
-{"id":11724,"text":"I have <EXPRESSION> universe into the <EXPRESSION>.","label":[[7,19,"expression"],[38,50,"expression"]],"Comments":[]}
-{"id":11725,"text":"So we did all of these and we ended up with an integral that we don't recognize.","label":[],"Comments":[]}
-{"id":11726,"text":"So what we are going to do is to pretend that we recognize it and give it a name.","label":[],"Comments":[]}
-{"id":11727,"text":"All right?","label":[],"Comments":[]}
-{"id":11728,"text":"So we define a set of functions <EXPRESSION> of variable <EXPRESSION>.","label":[[32,44,"expression"],[57,69,"expression"]],"Comments":[]}
-{"id":11729,"text":"Once I do the integration over <EXPRESSION>, I will get a function of <EXPRESSION>.","label":[[7,9,"command"],[14,25,"method"],[31,43,"expression"],[70,82,"expression"]],"Comments":[]}
-{"id":11730,"text":"So that function of <EXPRESSION> I will call <EXPRESSION>.","label":[[20,32,"expression"],[40,44,"command"],[45,57,"expression"]],"Comments":[]}
-{"id":11731,"text":"But clearly I have a different <EXPRESSION> if I have <EXPRESSION> or <EXPRESSION> for bosons of fermions.","label":[[31,43,"expression"],[54,66,"expression"],[70,82,"expression"]],"Comments":[]}
-{"id":11732,"text":"So there is two classes of things.","label":[],"Comments":[]}
-{"id":11733,"text":"What's this <EXPRESSION>?","label":[[12,24,"expression"]],"Comments":[]}
-{"id":11734,"text":"OK.","label":[],"Comments":[]}
-{"id":11735,"text":"So here I had the integral <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
-{"id":11736,"text":"It turns out that you will get a whole bunch of these integrals where the [INAUDIBLE] that is out front in the numerator is different.","label":[],"Comments":[]}
-{"id":11737,"text":"So I will generalize this <EXPRESSION>, this <EXPRESSION> to something that I'll call it <EXPRESSION>.","label":[[26,38,"expression"],[45,57,"expression"],[81,88,"command"],[89,101,"expression"]],"Comments":[]}
-{"id":11738,"text":"And then I have <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
-{"id":11739,"text":"And if these normalized so that what is in front is <EXPRESSION>.","label":[[52,64,"expression"]],"Comments":[]}
-{"id":11740,"text":"OK?","label":[],"Comments":[]}
-{"id":11741,"text":"So these are very important functions.","label":[],"Comments":[]}
-{"id":11742,"text":"Everything we will do later on we will be expressing in terms of these functions.","label":[],"Comments":[]}
-{"id":11743,"text":"Now, clearly what is happening here corresponds to <EXPRESSION> being = <EXPRESSION> or <EXPRESSION> being <EXPRESSION>.","label":[[51,63,"expression"],[72,84,"expression"],[88,100,"expression"],[107,119,"expression"]],"Comments":[]}
-{"id":11744,"text":"What is this normalization?","label":[],"Comments":[]}
-{"id":11745,"text":"Well, for the normalization, if this is <EXPRESSION> I would need <EXPRESSION>.","label":[[40,52,"expression"],[66,78,"expression"]],"Comments":[]}
-{"id":11746,"text":"And if you go and look at the various definitions that we have for the gamma function or the factorial, you can check that <EXPRESSION> is <EXPRESSION>.","label":[[123,135,"expression"],[139,151,"expression"]],"Comments":[]}
-{"id":11747,"text":"And, indeed, we saw this already when we wrote the expression for the surface area in general dimensions that involved factorial function appearing as fractions.","label":[],"Comments":[]}
-{"id":11748,"text":"And in order to get the right result in two or three dimensions, you can check that this <EXPRESSION> is correct.","label":[[89,101,"expression"]],"Comments":[]}
-{"id":11749,"text":"So, indeed, I already have this <EXPRESSION> over here.","label":[[32,44,"expression"]],"Comments":[]}
-{"id":11750,"text":"It was properly normalized.","label":[],"Comments":[]}
-{"id":11751,"text":"So the whole thing here can be written as <EXPRESSION> is <EXPRESSION>.","label":[[42,54,"expression"],[58,70,"expression"]],"Comments":[]}
-{"id":11752,"text":"That is the expression that relates the density to the chemical potential or this communication <EXPRESSION>, which is <EXPRESSION> or the fugacity is simply this nice formula.","label":[[96,108,"expression"],[119,131,"expression"]],"Comments":[]}
-{"id":11753,"text":"OK?","label":[],"Comments":[]}
-{"id":11754,"text":"But what we want is to calculate something like the pressure for the gas.","label":[],"Comments":[]}
-{"id":11755,"text":"Well, let me remind you that <EXPRESSION>, essentially, quite generally, <EXPRESSION> comes from normalizing something that is like mu times the total number of particles minus the energy-- you can kind of read that from here-- and then there would be <EXPRESSION> from the number of states.","label":[[29,41,"expression"],[73,85,"expression"],[252,264,"expression"]],"Comments":[]}
-{"id":11756,"text":"This was the general formula that we had.","label":[],"Comments":[]}
-{"id":11757,"text":"And when we substitute for a system that is extensive, where <EXPRESSION> for a gas is <EXPRESSION>, we see that the <EXPRESSION> of the partition function is simply the combination <EXPRESSION>.","label":[[12,22,"command"],[61,73,"expression"],[87,99,"expression"],[117,129,"expression"],[182,194,"expression"]],"Comments":[]}
-{"id":11758,"text":"Of course, again, this pressure as a function of density or chemical potential would be different whether we are thinking about bosons of fermions.","label":[],"Comments":[]}
-{"id":11759,"text":"But it can be calculated from the kind of sum that we have over here.","label":[],"Comments":[]}
-{"id":11760,"text":"So let's do that.","label":[],"Comments":[]}
-{"id":11761,"text":"So I have <EXPRESSION> which is something like <EXPRESSION>.","label":[[10,22,"expression"],[47,59,"expression"]],"Comments":[]}
-{"id":11762,"text":"Is obtained by doing this sum over <EXPRESSION>.","label":[[35,47,"expression"]],"Comments":[]}
-{"id":11763,"text":"And so what do I get?","label":[],"Comments":[]}
-{"id":11764,"text":"I will get-- first of all, I have the <EXPRESSION> [INAUDIBLE] with <EXPRESSION>.","label":[[38,50,"expression"],[68,80,"expression"]],"Comments":[]}
-{"id":11765,"text":"The volume factor cancels because I divided by volume.","label":[],"Comments":[]}
-{"id":11766,"text":"I have <EXPRESSION>-- again, <EXPRESSION>-- are the energy that I'm dealing with.","label":[[7,19,"expression"],[29,41,"expression"]],"Comments":[]}
-{"id":11767,"text":"OK?","label":[],"Comments":[]}
-{"id":11768,"text":"Fine.","label":[],"Comments":[]}
-{"id":11769,"text":"What do we do with this?","label":[],"Comments":[]}
-{"id":11770,"text":"We make the same change of variables that we have over here from <EXPRESSION> to <EXPRESSION>.","label":[[65,77,"expression"],[81,93,"expression"]],"Comments":[]}
-{"id":11771,"text":"So then I would have <EXPRESSION> gets replaced with this <EXPRESSION>.","label":[[21,33,"expression"],[58,70,"expression"]],"Comments":[]}
-{"id":11772,"text":"And then I have the integral <EXPRESSION> to <EXPRESSION>.","label":[[29,41,"expression"],[45,57,"expression"]],"Comments":[]}
-{"id":11773,"text":"Huh.","label":[],"Comments":[]}
-{"id":11774,"text":"It seems like-- yes?","label":[],"Comments":[]}
-{"id":11775,"text":"AUDIENCE: What happened to your factor <EXPRESSION>?","label":[[32,38,"command"],[39,51,"expression"]],"Comments":[]}
-{"id":11776,"text":"PROFESSOR: <EXPRESSION>?","label":[[11,23,"expression"]],"Comments":[]}
-{"id":11777,"text":"Good question.","label":[],"Comments":[]}
-{"id":11778,"text":"Anything else?","label":[],"Comments":[]}
-{"id":11779,"text":"So I was hoping to have integrals that are all expressible in terms of this-- these set of functions that I defined.","label":[],"Comments":[]}
-{"id":11780,"text":"This <EXPRESSION> does not fall into this category.","label":[[5,17,"expression"]],"Comments":[]}
-{"id":11781,"text":"Should I define something else?","label":[],"Comments":[]}
-{"id":11782,"text":"Well, the answer is no because I can make that integral look like this by simbly doing an integration by parts.","label":[],"Comments":[]}
-{"id":11783,"text":"So we do integrate by parts in which case what I do is I take a derivative of this and I take an integral of <EXPRESSION>.","label":[[89,93,"command"],[97,105,"command_attribute"],[109,121,"expression"]],"Comments":[]}
-{"id":11784,"text":"Integral of <EXPRESSION> becomes <EXPRESSION>.","label":[[12,24,"expression"],[33,45,"expression"]],"Comments":[]}
-{"id":11785,"text":"There is, of course, a minus sign involved.","label":[],"Comments":[]}
-{"id":11786,"text":"So this minus becomes plus <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
-{"id":11787,"text":"Make sure I have the <EXPRESSION> this time.","label":[[21,33,"expression"]],"Comments":[]}
-{"id":11788,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":11789,"text":"I have the integral from <EXPRESSION> to <EXPRESSION>.","label":[[25,37,"expression"],[41,53,"expression"]],"Comments":[]}
-{"id":11790,"text":"<EXPRESSION> to the <EXPRESSION> became <EXPRESSION> to the <EXPRESSION>.","label":[[0,12,"expression"],[20,32,"expression"],[40,52,"expression"],[60,72,"expression"]],"Comments":[]}
-{"id":11791,"text":"The <EXPRESSION> I will bring out front.","label":[[4,16,"expression"]],"Comments":[]}
-{"id":11792,"text":"So I have <EXPRESSION> here.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":11793,"text":"And then I have to take the derivative of this function.","label":[],"Comments":[]}
-{"id":11794,"text":"What's the derivative of the <EXPRESSION>?","label":[[29,41,"expression"]],"Comments":[]}
-{"id":11795,"text":"It is <EXPRESSION> times the derivative of the argument of the <EXPRESSION> which is <EXPRESSION>, the derivative of <EXPRESSION>, which is <EXPRESSION>.","label":[[6,18,"expression"],[63,75,"expression"],[85,97,"expression"],[117,129,"expression"],[140,152,"expression"]],"Comments":[]}
-{"id":11796,"text":"And this minus becomes plus.","label":[],"Comments":[]}
-{"id":11797,"text":"OK?","label":[],"Comments":[]}
-{"id":11798,"text":"So let's arrange things a little bit.","label":[],"Comments":[]}
-{"id":11799,"text":"I can get rid of these etas because eta squared will be <EXPRESSION>.","label":[[23,27,"term"],[36,47,"term"],[56,68,"expression"]],"Comments":[]}
-{"id":11800,"text":"What is the answer, therefore?","label":[],"Comments":[]}
-{"id":11801,"text":"It is <EXPRESSION>.","label":[[6,18,"expression"]],"Comments":[]}
-{"id":11802,"text":"That's fine.","label":[],"Comments":[]}
-{"id":11803,"text":"If <EXPRESSION>, and I multiply <EXPRESSION> with <EXPRESSION>, what I will get is <EXPRESSION>.","label":[[3,15,"expression"],[23,31,"command"],[32,44,"expression"],[50,62,"expression"],[83,95,"expression"]],"Comments":[]}
-{"id":11804,"text":"Because <EXPRESSION> is <EXPRESSION>.","label":[[8,20,"expression"],[24,36,"expression"]],"Comments":[]}
-{"id":11805,"text":"And then, what do I have?","label":[],"Comments":[]}
-{"id":11806,"text":"I have <EXPRESSION> to <EXPRESSION>.","label":[[7,19,"expression"],[23,35,"expression"]],"Comments":[]}
-{"id":11807,"text":"<EXPRESSION>, divide the numerator and denominator by <EXPRESSION> and you get <EXPRESSION>.","label":[[0,12,"expression"],[14,20,"command"],[25,34,"command_attribute"],[39,50,"command_attribute"],[54,66,"expression"],[79,91,"expression"]],"Comments":[]}
-{"id":11808,"text":"And lo and behold, we have a function of the variety that we had defined on the board corresponding to <EXPRESSION> being <EXPRESSION> or <EXPRESSION> being <EXPRESSION>.","label":[[103,115,"expression"],[122,134,"expression"],[138,150,"expression"],[157,169,"expression"]],"Comments":[]}
-{"id":11809,"text":"So what we have here is that <EXPRESSION>, depending on whatever statistics we are dealing with, is <EXPRESSION>.","label":[[29,41,"expression"],[100,112,"expression"]],"Comments":[]}
-{"id":11810,"text":"Yes?","label":[],"Comments":[]}
-{"id":11811,"text":"AUDIENCE: [INAUDIBLE] PROFESSOR: OK.","label":[],"Comments":[]}
-{"id":11812,"text":"So what you have to do is always ensure what is happening to the boundary terms.","label":[],"Comments":[]}
-{"id":11813,"text":"Boundary terms will be a product of <EXPRESSION> and this factor.","label":[[36,48,"expression"]],"Comments":[]}
-{"id":11814,"text":"At <EQUATION>, <EXPRESSION> will ensure that you are <EXPRESSION>.","label":[[3,13,"equation"],[15,27,"expression"],[53,65,"expression"]],"Comments":[]}
-{"id":11815,"text":"At <EXPRESSION> goes to infinity, the exponential will ensure that you're to <EXPRESSION>.","label":[[3,15,"expression"],[24,33,"term"],[77,89,"expression"]],"Comments":[]}
-{"id":11816,"text":"So the boundary terms are important and indeed you have to check them.","label":[],"Comments":[]}
-{"id":11817,"text":"And you can check that they are <EXPRESSION>.","label":[[32,44,"expression"]],"Comments":[]}
-{"id":11818,"text":"OK?","label":[],"Comments":[]}
-{"id":11819,"text":"AUDIENCE: I think the factor that multiples <EXPRESSION> is [INAUDIBLE].","label":[[44,56,"expression"]],"Comments":[]}
-{"id":11820,"text":"But it's-- the argument still holds.","label":[],"Comments":[]}
-{"id":11821,"text":"PROFESSOR: The argument still holds because as <EXPRESSION> goes to infinity, <EXPRESSION>.","label":[[47,59,"expression"],[68,76,"term"]],"Comments":[]}
-{"id":11822,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
-{"id":11823,"text":"In fact, you can ask, how does it go to <EXPRESSION>?","label":[[40,52,"expression"]],"Comments":[]}
-{"id":11824,"text":"It goes to <EXPRESSION> exponentially.","label":[[11,23,"expression"]],"Comments":[]}
-{"id":11825,"text":"Exponentially it will [INAUDIBLE].","label":[],"Comments":[]}
-{"id":11826,"text":"Yes.","label":[],"Comments":[]}
-{"id":11827,"text":"Thank you for the correction.","label":[],"Comments":[]}
-{"id":11828,"text":"OK?","label":[],"Comments":[]}
-{"id":11829,"text":"All right.","label":[],"Comments":[]}
-{"id":11830,"text":"There's one other thing that we can take a look at.","label":[],"Comments":[]}
-{"id":11831,"text":"The total energy.","label":[],"Comments":[]}
-{"id":11832,"text":"OK.","label":[],"Comments":[]}
-{"id":11833,"text":"So the energy in each one of these states is given by that formula.","label":[],"Comments":[]}
-{"id":11834,"text":"So if I ask, what is the total expectation value of energy?","label":[],"Comments":[]}
-{"id":11835,"text":"And again, in thermodynamics we expect the extensive quantities such as the energy should have, in an aerodynamic sense, well defined values so I won't write the expectation value.","label":[],"Comments":[]}
-{"id":11836,"text":"Is going to be a sum over <EXPRESSION>.","label":[[26,38,"expression"]],"Comments":[]}
-{"id":11837,"text":"And this will depend on the statistics that I'm looking at.","label":[],"Comments":[]}
-{"id":11838,"text":"And what I will have is that this will go over to an integral over <EXPRESSION>.","label":[[67,79,"expression"]],"Comments":[]}
-{"id":11839,"text":"I have epsilon of <EXPRESSION> which is <EXPRESSION>.","label":[[18,30,"expression"],[40,52,"expression"]],"Comments":[]}
-{"id":11840,"text":"The expectation value of <EXPRESSION>, which is <EXPRESSION>-- sorry-- <EXPRESSION>.","label":[[25,37,"expression"],[48,60,"expression"],[71,83,"expression"]],"Comments":[]}
-{"id":11841,"text":"OK?","label":[],"Comments":[]}
-{"id":11842,"text":"So the simplest way to do this is to first of all divide by <EXPRESSION>.","label":[[60,72,"expression"]],"Comments":[]}
-{"id":11843,"text":"So I can define an energy density.","label":[[9,15,"command"],[19,33,"command_attribute"]],"Comments":[]}
-{"id":11844,"text":"Actually, since I'm going to change variables to this combination that is <EXPRESSION>, I notice that up to a factor of betas the numerator is <EXPRESSION>.","label":[[74,86,"expression"],[143,155,"expression"]],"Comments":[]}
-{"id":11845,"text":"So let me actually calculate the combination <EXPRESSION>.","label":[[19,28,"command"],[33,44,"command_attribute"],[45,57,"expression"]],"Comments":[]}
-{"id":11846,"text":"That only depends on this combination <EXPRESSION>.","label":[[38,50,"expression"]],"Comments":[]}
-{"id":11847,"text":"So what is it?","label":[],"Comments":[]}
-{"id":11848,"text":"It is g-- the integral over <EXPRESSION>, I know how to replace it with something that involves <EXPRESSION>-- is going to give me <EXPRESSION>.","label":[[28,40,"expression"],[96,108,"expression"],[131,143,"expression"]],"Comments":[]}
-{"id":11849,"text":"Integral <EXPRESSION> to <EXPRESSION>.","label":[[9,21,"expression"],[25,37,"expression"]],"Comments":[]}
-{"id":11850,"text":"From the change of variables, I have <EXPRESSION>.","label":[[37,49,"expression"]],"Comments":[]}
-{"id":11851,"text":"But I introduced one factor of <EXPRESSION> here because I have this energy factor in the numerator.","label":[[31,43,"expression"]],"Comments":[]}
-{"id":11852,"text":"So that changes this to <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
-{"id":11853,"text":"And then again, I have <EXPRESSION>.","label":[[23,35,"expression"]],"Comments":[]}
-{"id":11854,"text":"OK?","label":[],"Comments":[]}
-{"id":11855,"text":"So if is one of the integrals that we have defined.","label":[],"Comments":[]}
-{"id":11856,"text":"In fact, it is exactly what I have above for the pressure, except that I don't have the factor of <EXPRESSION> that appeared nicely to give the right normalization.","label":[[98,110,"expression"]],"Comments":[]}
-{"id":11857,"text":"So what I conclude is that this quantity is in fact <EXPRESSION>.","label":[[52,64,"expression"]],"Comments":[]}
-{"id":11858,"text":"OK?","label":[],"Comments":[]}
-{"id":11859,"text":"But they are exactly the same functions for energy and pressure.","label":[],"Comments":[]}
-{"id":11860,"text":"So you can see that, irrespective of what the chemical potential is doing, I can state that for the quantum system <EXPRESSION> is always <EXPRESSION>.","label":[[115,127,"expression"],[138,150,"expression"]],"Comments":[]}
-{"id":11861,"text":"Of course, we have seen this expression classically.","label":[],"Comments":[]}
-{"id":11862,"text":"Now what happens quantum mechanically is that the pressure starts to vary in some complicated way with density.","label":[],"Comments":[]}
-{"id":11863,"text":"But what we learn is that energy will also vary in the same complicated way with density, such that always this formula <EXPRESSION> is valid.","label":[[120,132,"expression"]],"Comments":[]}
-{"id":11864,"text":"There is some nice symmetry reason for why that is the case that you explore in one of the problems that you will see.","label":[],"Comments":[]}
-{"id":11865,"text":"OK?","label":[],"Comments":[]}
-{"id":11866,"text":"So these are the characteristics.","label":[],"Comments":[]}
-{"id":11867,"text":"In some sense we have solved the problem because we know both density and pressure in terms of chemical potential.","label":[],"Comments":[]}
-{"id":11868,"text":"So all we need to do is to invert this, get the chemical potential as a function of density, insert it in the formula for pressure and we have pressure as a function of density.","label":[],"Comments":[]}
-{"id":11869,"text":"But since these are kind of implicit through these f functions, we don't quite know what that means.","label":[],"Comments":[]}
-{"id":11870,"text":"So the next stage is to really study how these f functions behave and how we can relate their behaviors to dependence on density.","label":[],"Comments":[]}
-{"id":11871,"text":"And we will see that we have to distinguish between low density and high density regimes.","label":[],"Comments":[]}
-{"id":11872,"text":"What does it mean?","label":[],"Comments":[]}
-{"id":11873,"text":"Well, you can see that both have players on the right hand side is dimensionless.","label":[],"Comments":[]}
-{"id":11874,"text":"The only dimension full combination that we have here is <EXPRESSION>-- well, we can make it dimensionless by multiplying by <EXPRESSION>.","label":[[57,69,"expression"],[125,137,"expression"]],"Comments":[]}
-{"id":11875,"text":"So it turns out that whether or not you see things that are classical or things that are very quantum mechanical depend on this degeneracy factor.","label":[],"Comments":[]}
-{"id":11876,"text":"Which, within our context of statistical physics of gases, we define to be the communication <EXPRESSION>.","label":[],"Comments":[]}
-{"id":11877,"text":"And we will regain classical behaviors when degeneracy is small, density is small enough such that <EXPRESSION> is much less than <EXPRESSION>.","label":[[99,111,"expression"],[130,142,"expression"]],"Comments":[]}
-{"id":11878,"text":"We will see totally new behavior that is appropriate to quantum mechanics in other limit where [?","label":[],"Comments":[]}
-{"id":11879,"text":"<EXPRESSION> ?","label":[[0,12,"expression"]],"Comments":[]}
-{"id":11880,"text":"] becomes large.","label":[],"Comments":[]}
-{"id":11881,"text":"OK?","label":[],"Comments":[]}
-{"id":11882,"text":"So this distinguishes classical versus quantum behavior.","label":[],"Comments":[]}
-{"id":11883,"text":"Now, we expect to regain classical behavior in the limit of very low densities.","label":[],"Comments":[]}
-{"id":11884,"text":"That's what we've been kind of saying from the very first lecture that low density gas has this ideal behavior where <EXPRESSION> is <EXPRESSION>.","label":[[117,129,"expression"],[133,145,"expression"]],"Comments":[]}
-{"id":11885,"text":"And, therefore, let's focus on the limit where <EXPRESSION> is much less than <EXPRESSION>, which is classical.","label":[[47,59,"expression"],[78,90,"expression"]],"Comments":[]}
-{"id":11886,"text":"And since <EXPRESSION> is <EXPRESSION>, we need the behavior of the function when it is small-- and I'll show you [INAUDIBLE] consistently that the function is small when it's argument is small.","label":[[10,22,"expression"],[26,38,"expression"]],"Comments":[]}
-{"id":11887,"text":"So we'll see that <EXPRESSION> less than <EXPRESSION> implies or is implied by <EXPRESSION> being less than <EXPRESSION>.","label":[[18,30,"expression"],[41,53,"expression"],[79,91,"expression"],[108,120,"expression"]],"Comments":[]}
-{"id":11888,"text":"OK?","label":[],"Comments":[]}
-{"id":11889,"text":"So let's take a look at one of these functions, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.","label":[[48,60,"expression"],[62,74,"expression"],[76,88,"expression"],[90,102,"expression"],[104,116,"expression"]],"Comments":[]}
-{"id":11890,"text":"And I'd like to explore the limit of this when <EXPRESSION> is small.","label":[[47,59,"expression"]],"Comments":[]}
-{"id":11891,"text":"So that's currently not very good because I have <EXPRESSION>.","label":[[49,61,"expression"]],"Comments":[]}
-{"id":11892,"text":"So what I will do is I will multiply by <EXPRESSION> both numerator and denominator.","label":[[40,52,"expression"]],"Comments":[]}
-{"id":11893,"text":"So I will have <EXPRESSION> integral <EXPRESSION> to <EXPRESSION>.","label":[[15,27,"expression"],[37,49,"expression"],[53,65,"expression"]],"Comments":[]}
-{"id":11894,"text":"I have <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
-{"id":11895,"text":"I have-- oops, there was an <EXPRESSION> here.","label":[[28,40,"expression"]],"Comments":[]}
-{"id":11896,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":11897,"text":"OK?","label":[],"Comments":[]}
-{"id":11898,"text":"Then I say, well, the thing that is appearing in the denominator, I can write as a sum of a geometric series in powers of <EXPRESSION>.","label":[[122,134,"expression"]],"Comments":[]}
-{"id":11899,"text":"And that's, after all, what I'm attempting to do, make an expansion in powers of <EXPRESSION>.","label":[[81,93,"expression"]],"Comments":[]}
-{"id":11900,"text":"It starts with <EXPRESSION> to the <EXPRESSION>.","label":[[15,27,"expression"],[35,47,"expression"]],"Comments":[]}
-{"id":11901,"text":"And <EXPRESSION> I can write as the sum alpha going from <EXPRESSION> to <EXPRESSION> [INAUDIBLE].","label":[[4,16,"expression"],[57,69,"expression"],[73,85,"expression"]],"Comments":[]}
-{"id":11902,"text":"This geometric series sums to what I have over there.","label":[],"Comments":[]}
-{"id":11903,"text":"OK?","label":[],"Comments":[]}
-{"id":11904,"text":"Let's rearrange this a little bit.","label":[],"Comments":[]}
-{"id":11905,"text":"I will take the sum over alpha outside.","label":[],"Comments":[]}
-{"id":11906,"text":"Well, I notice that actually I have here, this first term, which is different from this by a factor of <EXPRESSION>.","label":[[103,115,"expression"]],"Comments":[]}
-{"id":11907,"text":"So let me multiply by an <EXPRESSION> and get another <EXPRESSION>.","label":[[25,37,"expression"],[54,66,"expression"]],"Comments":[]}
-{"id":11908,"text":"And then I have a sum that starts from <EXPRESSION> to <EXPRESSION>.","label":[[39,51,"expression"],[55,67,"expression"]],"Comments":[]}
-{"id":11909,"text":"So I have <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":11910,"text":"I have one other <EXPRESSION> here.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":11911,"text":"And then I have the integration over <EXPRESSION>, <EXPRESSION>.","label":[[37,49,"expression"],[51,63,"expression"]],"Comments":[]}
-{"id":11912,"text":"I didn't write <EXPRESSION> because I pulled it out the integration.","label":[[15,27,"expression"]],"Comments":[]}
-{"id":11913,"text":"I will write it now.","label":[],"Comments":[]}
-{"id":11914,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":11915,"text":"And I didn't write <EXPRESSION> factor.","label":[[19,31,"expression"]],"Comments":[]}
-{"id":11916,"text":"Now, once more, this is an integration that you have seen.","label":[],"Comments":[]}
-{"id":11917,"text":"The result of doing integral <EXPRESSION> is simply <EXPRESSION>.","label":[[29,41,"expression"],[52,64,"expression"]],"Comments":[]}
-{"id":11918,"text":"Except that it is not <EXPRESSION> but it's <EXPRESSION>.","label":[[22,34,"expression"],[44,56,"expression"]],"Comments":[]}
-{"id":11919,"text":"I can rescale everything by <EXPRESSION> and I will pull out a factor of <EXPRESSION> to there.","label":[[28,40,"expression"],[52,60,"command"],[63,69,"command_attribute"],[73,85,"expression"]],"Comments":[]}
-{"id":11920,"text":"OK?","label":[],"Comments":[]}
-{"id":11921,"text":"So what do we have?","label":[],"Comments":[]}
-{"id":11922,"text":"We have that <EXPRESSION> [?","label":[[13,25,"expression"]],"Comments":[]}
-{"id":11923,"text":"power series ?","label":[[0,12,"method"]],"Comments":[]}
-{"id":11924,"text":"] representation, <EXPRESSION> running from <EXPRESSION> to <EXPRESSION>.","label":[[18,30,"expression"],[44,56,"expression"],[60,72,"expression"]],"Comments":[]}
-{"id":11925,"text":"It's an alternating series that starts with plus and then becomes a minus, et cetera.","label":[],"Comments":[]}
-{"id":11926,"text":"So if I were to explicitly write this, you will see how nice it is.","label":[],"Comments":[]}
-{"id":11927,"text":"It is <EXPRESSION>.","label":[[6,18,"expression"]],"Comments":[]}
-{"id":11928,"text":"And you can see why it is such a nice thing that really deserves to have a function named after it.","label":[],"Comments":[]}
-{"id":11929,"text":"So we call that nice series [?","label":[],"Comments":[]}
-{"id":11930,"text":"to Vf.","label":[[3,5,"term"]],"Comments":[]}
-{"id":11931,"text":"?","label":[],"Comments":[]}
-{"id":11932,"text":"] Now, for future reference, note the following.","label":[],"Comments":[]}
-{"id":11933,"text":"If I take a derivative of this function with respect to <EXPRESSION>-- its argument-- then in this power series, say, <EXPRESSION>.","label":[[56,68,"expression"],[118,130,"expression"]],"Comments":[]}
-{"id":11934,"text":"<EXPRESSION> will cancel one of the <EXPRESSION> that I have here and it becomes <EXPRESSION>.","label":[[0,12,"expression"],[36,48,"expression"],[81,93,"expression"]],"Comments":[]}
-{"id":11935,"text":"This becomes <EXPRESSION>.","label":[[13,25,"expression"]],"Comments":[]}
-{"id":11936,"text":"So you can see that the coefficients that were powers of m become powers of <EXPRESSION>.","label":[[76,88,"expression"]],"Comments":[]}
-{"id":11937,"text":"Numerator has gone down by one factor.","label":[],"Comments":[]}
-{"id":11938,"text":"So let's multiply by <EXPRESSION>.","label":[[21,33,"expression"]],"Comments":[]}
-{"id":11939,"text":"So the numerator is now what it was before.","label":[],"Comments":[]}
-{"id":11940,"text":"The denominators, rather than being raised to the power of <EXPRESSION>, are raised to the power of <EXPRESSION>.","label":[[59,71,"expression"],[100,112,"expression"]],"Comments":[]}
-{"id":11941,"text":"So clearly, this is the same thing as <EXPRESSION>.","label":[[38,50,"expression"]],"Comments":[]}
-{"id":11942,"text":"So basically these functions have this nice character that they are like a ladder.","label":[],"Comments":[]}
-{"id":11943,"text":"You take a derivative of one and you get the one that is indexed by one less.","label":[],"Comments":[]}
-{"id":11944,"text":"OK?","label":[],"Comments":[]}
-{"id":11945,"text":"AUDIENCE: Is there a factor of eta that comes out to be [INAUDIBLE].","label":[],"Comments":[]}
-{"id":11946,"text":"PROFESSOR: In the derivatives?","label":[],"Comments":[]}
-{"id":11947,"text":"AUDIENCE: I mean, it seems to me that there's an eta-- like, in that relation that-- PROFESSOR: In this relation?","label":[],"Comments":[]}
-{"id":11948,"text":"AUDIENCE: Yeah.","label":[],"Comments":[]}
-{"id":11949,"text":"PROFESSOR: OK.","label":[],"Comments":[]}
-{"id":11950,"text":"So let's do it by step.","label":[],"Comments":[]}
-{"id":11951,"text":"If I take a derivative, divide <EXPRESSION>, I get <EXPRESSION>.","label":[[5,9,"command"],[12,22,"command_attribute"],[24,30,"command"],[31,43,"expression"],[51,63,"expression"]],"Comments":[]}
-{"id":11952,"text":"Then I multiply by <EXPRESSION>, this becomes <EXPRESSION>, this becomes <EXPRESSION>, this becomes <EXPRESSION>.","label":[[7,18,"command"],[19,31,"expression"],[46,58,"expression"],[73,85,"expression"],[100,112,"expression"]],"Comments":[]}
-{"id":11953,"text":"And you can see that the etas are exactly where they should be.","label":[],"Comments":[]}
-{"id":11954,"text":"AUDIENCE: Would you explain why the index of summation starts from-- PROFESSOR: One?","label":[],"Comments":[]}
-{"id":11955,"text":"AUDIENCE: --one.","label":[],"Comments":[]}
-{"id":11956,"text":"PROFESSOR: OK.","label":[],"Comments":[]}
-{"id":11957,"text":"So let's take a look at this function.","label":[],"Comments":[]}
-{"id":11958,"text":"You can see there is a <EXPRESSION> in the denominator.","label":[[23,35,"expression"]],"Comments":[]}
-{"id":11959,"text":"So I made it into a <EXPRESSION> here.","label":[[20,32,"expression"]],"Comments":[]}
-{"id":11960,"text":"So you can see that if <EXPRESSION> is very small, if will start with <EXPRESSION>.","label":[[23,35,"expression"],[70,82,"expression"]],"Comments":[]}
-{"id":11961,"text":"All right?","label":[],"Comments":[]}
-{"id":11962,"text":"Now what happened here?","label":[],"Comments":[]}
-{"id":11963,"text":"I wrote this as a sum of geometric series.","label":[],"Comments":[]}
-{"id":11964,"text":"I pulled out this factor of <EXPRESSION> that was in the numerator, and the denominator I wrote as a series that starts with <EXPRESSION>.","label":[[28,40,"expression"],[125,137,"expression"]],"Comments":[]}
-{"id":11965,"text":"But then there is this <EXPRESSION> out front.","label":[[23,35,"expression"]],"Comments":[]}
-{"id":11966,"text":"I pulled this <EXPRESSION> in front here and then it starts with <EXPRESSION>.","label":[[14,26,"expression"],[65,77,"expression"]],"Comments":[]}
-{"id":11967,"text":"I could have written it-- I can put this in here and write it as <EXPRESSION> with <EXPRESSION> starting from <EXPRESSION>, et cetera.","label":[[32,35,"command"],[53,58,"command"],[65,77,"expression"],[83,95,"expression"],[110,122,"expression"]],"Comments":[]}
-{"id":11968,"text":"Or I can write it [INAUDIBLE].","label":[[9,14,"command"]],"Comments":[]}
-{"id":11969,"text":"Or, alternatively, you can say, let's put the <EXPRESSION> here and <EXPRESSION> here.","label":[[38,41,"command"],[46,58,"expression"],[68,80,"expression"]],"Comments":[]}
-{"id":11970,"text":"And then I see that this is the geometric series where the first term is this <EXPRESSION> [INAUDIBLE].","label":[[78,90,"expression"]],"Comments":[]}
-{"id":11971,"text":"OK?","label":[],"Comments":[]}
-{"id":11972,"text":"So I want to erase this board but keep this formula.","label":[],"Comments":[]}
-{"id":11973,"text":"So let me erase it and then rewrite it.","label":[[10,15,"command"],[28,35,"command"]],"Comments":[]}
-{"id":11974,"text":"So this I will rewrite as <EXPRESSION>, which is my degeneracy factor, is <EXPRESSION>.","label":[[15,22,"command"],[26,38,"expression"],[74,86,"expression"]],"Comments":[]}
-{"id":11975,"text":"And in the limit where <EXPRESSION> goes to small, I can use the expansion that I just derived, which is <EXPRESSION> to the-- what is it-- <EXPRESSION>.","label":[[23,35,"expression"],[105,117,"expression"],[140,152,"expression"]],"Comments":[]}
-{"id":11976,"text":"<EXPRESSION> and so forth.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":11977,"text":"You can see that precisely because as <EXPRESSION> goes to <EXPRESSION>, this series goes to <EXPRESSION>, that smallness of <EXPRESSION> is the same thing or implied by the smallness of <EXPRESSION>.","label":[[38,50,"expression"],[59,71,"expression"],[93,105,"expression"],[125,137,"expression"],[187,199,"expression"]],"Comments":[]}
-{"id":11978,"text":"But that <EXPRESSION> = <EXPRESSION> only at the lowest order.","label":[[9,21,"expression"],[24,36,"expression"]],"Comments":[]}
-{"id":11979,"text":"So what happens at higher orders, <EXPRESSION>-- inverting this-- is <EXPRESSION>, and so forth.","label":[[34,46,"expression"]],"Comments":[]}
-{"id":11980,"text":"And we saw this when I was doing the calculation for the interacting gas, that clearly to lowest order <EQUATION>, if I want to get the next order, I substitute the result of the previous order into this expression.","label":[],"Comments":[]}
-{"id":11981,"text":"So <EXPRESSION> I substitute for <EXPRESSION>, I will <EXPRESSION> as the first contribution.","label":[[3,15,"expression"],[18,28,"command"],[33,45,"expression"],[54,66,"expression"]],"Comments":[]}
-{"id":11982,"text":"And then something that is order of <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
-{"id":11983,"text":"And if I want the answer to the <EXPRESSION> order, I take this whole thing that is that order of <EXPRESSION> and substitute in this series.","label":[[32,44,"expression"],[54,58,"command"],[98,110,"expression"]],"Comments":[]}
-{"id":11984,"text":"And so what do I get?","label":[],"Comments":[]}
-{"id":11985,"text":"I will get <EXPRESSION>-- which is the square of this quantity-- square of this quantity is <EXPRESSION> minus twice the product of these two terms.","label":[[11,23,"expression"],[92,104,"expression"]],"Comments":[]}
-{"id":11986,"text":"So I have twice <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
-{"id":11987,"text":"And then square of this term, but that's order of <EXPRESSION>.","label":[[50,62,"expression"]],"Comments":[]}
-{"id":11988,"text":"I don't care for that.","label":[],"Comments":[]}
-{"id":11989,"text":"And then I have, from here, plus <EXPRESSION> ignoring terms of the order of <EXPRESSION>.","label":[[28,32,"command"],[33,45,"expression"],[77,89,"expression"]],"Comments":[]}
-{"id":11990,"text":"OK?","label":[],"Comments":[]}
-{"id":11991,"text":"So <EXPRESSION> is-- AUDIENCE: [INAUDIBLE] <EQUATION> [INAUDIBLE].","label":[[3,15,"expression"],[43,53,"equation"]],"Comments":[]}
-{"id":11992,"text":"PROFESSOR: Ah, great.","label":[],"Comments":[]}
-{"id":11993,"text":"Thank you.","label":[],"Comments":[]}
-{"id":11994,"text":"Minus.","label":[],"Comments":[]}
-{"id":11995,"text":"Minus.","label":[],"Comments":[]}
-{"id":11996,"text":"Good.","label":[],"Comments":[]}
-{"id":11997,"text":"Saves me having to go back later when the answer doesn't match.","label":[],"Comments":[]}
-{"id":11998,"text":"OK.","label":[],"Comments":[]}
-{"id":11999,"text":"Fine.","label":[],"Comments":[]}
-{"id":12000,"text":"Now let's organize terms.","label":[],"Comments":[]}
-{"id":12001,"text":"The lowest order I have <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
-{"id":12002,"text":"At order of <EXPRESSION> I have still just this one term, <EXPRESSION>.","label":[[12,24,"expression"],[58,70,"expression"]],"Comments":[]}
-{"id":12003,"text":"We knew that was the correct result at order of <EXPRESSION>.","label":[[48,60,"expression"]],"Comments":[]}
-{"id":12004,"text":"At order of <EXPRESSION> I have two terms.","label":[[12,24,"expression"]],"Comments":[]}
-{"id":12005,"text":"One is the product of these two terms.","label":[],"Comments":[]}
-{"id":12006,"text":"The <EXPRESSION> disappear, <EXPRESSION>, and this will give me <EXPRESSION>.","label":[[4,16,"expression"],[28,40,"expression"],[64,76,"expression"]],"Comments":[]}
-{"id":12007,"text":"And from other part, I have <EXPRESSION>.","label":[[28,40,"expression"]],"Comments":[]}
-{"id":12008,"text":"And I haven't calculate things at order of <EXPRESSION>.","label":[[14,23,"command"],[43,55,"expression"]],"Comments":[]}
-{"id":12009,"text":"OK?","label":[],"Comments":[]}
-{"id":12010,"text":"Fine.","label":[],"Comments":[]}
-{"id":12011,"text":"So we have calculated in a power series that we can go to whatever order you like.","label":[],"Comments":[]}
-{"id":12012,"text":"This is <EXPRESSION> which is related to chemical potential as a function of this degeneracy that is simply related to density.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":12013,"text":"Now, the formula for the pressure is up there.","label":[],"Comments":[]}
-{"id":12014,"text":"It is that <EXPRESSION> is <EXPRESSION>.","label":[[11,23,"expression"],[27,39,"expression"]],"Comments":[]}
-{"id":12015,"text":"Right?","label":[],"Comments":[]}
-{"id":12016,"text":"So reorganizing this a little bit, the dimensionless form is <EXPRESSION>.","label":[[61,73,"expression"]],"Comments":[]}
-{"id":12017,"text":"<EXPRESSION> we can make an expansion.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":12018,"text":"It is <EXPRESSION> and so forth.","label":[[6,18,"expression"]],"Comments":[]}
-{"id":12019,"text":"For <EXPRESSION> I substitute from the line above.","label":[[4,15,"expression"],[19,29,"command"]],"Comments":[]}
-{"id":12020,"text":"So I have <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":12021,"text":"So that's the first term.","label":[],"Comments":[]}
-{"id":12022,"text":"The next term is <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":12023,"text":"So I have to square what is up here and here keeping terms to order of <EXPRESSION>.","label":[[13,19,"command"],[71,83,"expression"]],"Comments":[]}
-{"id":12024,"text":"So what do I have?","label":[],"Comments":[]}
-{"id":12025,"text":"I have <EXPRESSION> from squaring this term.","label":[[7,19,"expression"]],"Comments":[]}
-{"id":12026,"text":"And a term that is twice the product of these two terms.","label":[],"Comments":[]}
-{"id":12027,"text":"That's the only term that is order of <EXPRESSION>.","label":[[38,50,"expression"]],"Comments":[]}
-{"id":12028,"text":"So I have <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":12029,"text":"And finally, <EXPRESSION> would be <EXPRESSION>.","label":[[13,25,"expression"],[35,47,"expression"]],"Comments":[]}
-{"id":12030,"text":"And I haven't calculated anything at all of <EXPRESSION>.","label":[[44,56,"expression"]],"Comments":[]}
-{"id":12031,"text":"OK?","label":[],"Comments":[]}
-{"id":12032,"text":"So what do I have?","label":[],"Comments":[]}
-{"id":12033,"text":"I have that <EXPRESSION>.","label":[[12,24,"expression"]],"Comments":[]}
-{"id":12034,"text":"Well, you can see that everything is going to be proportional to <EXPRESSION>.","label":[[65,77,"expression"]],"Comments":[]}
-{"id":12035,"text":"So let's put out the factor of <EXPRESSION> which is <EXPRESSION>.","label":[[9,16,"command"],[17,27,"command_attribute"],[31,43,"expression"],[53,65,"expression"]],"Comments":[]}
-{"id":12036,"text":"So this is just one factor of <EXPRESSION> that I have pulled out.","label":[[30,42,"expression"]],"Comments":[]}
-{"id":12037,"text":"So that then I start with <EXPRESSION>, and then the next correction I have an <EXPRESSION> here, <EXPRESSION> here with opposite sign.","label":[[26,38,"expression"],[79,91,"expression"],[98,110,"expression"]],"Comments":[]}
-{"id":12038,"text":"So this is twice bigger than that.","label":[],"Comments":[]}
-{"id":12039,"text":"So the sum total of them would be <EXPRESSION>-- one factor of <EXPRESSION> I have out front-- the other factor I will write here and <EXPRESSION>.","label":[[34,46,"expression"],[63,75,"expression"],[119,124,"command"],[134,146,"expression"]],"Comments":[]}
-{"id":12040,"text":"And then at order of <EXPRESSION>, I have a bunch of terms.","label":[[21,33,"expression"]],"Comments":[]}
-{"id":12041,"text":"I have a <EXPRESSION> here, and from the product of these terms, I will have <EXPRESSION> disappear, I have <EXPRESSION> which is <EXPRESSION>.","label":[[9,21,"expression"],[77,89,"expression"],[108,120,"expression"],[130,142,"expression"]],"Comments":[]}
-{"id":12042,"text":"So the product of these things will give me a <EXPRESSION>.","label":[[46,58,"expression"]],"Comments":[]}
-{"id":12043,"text":"I have <EXPRESSION> I will get <EXPRESSION>.","label":[[7,19,"expression"],[31,43,"expression"]],"Comments":[]}
-{"id":12044,"text":"AUDIENCE: [INAUDIBLE].","label":[],"Comments":[]}
-{"id":12045,"text":"PROFESSOR: OK.","label":[],"Comments":[]}
-{"id":12046,"text":"And then we have <EXPRESSION> and this <EXPRESSION>.","label":[[17,29,"expression"],[39,51,"expression"]],"Comments":[]}
-{"id":12047,"text":"This is three times larger than this.","label":[],"Comments":[]}
-{"id":12048,"text":"This is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":12049,"text":"Subtract one of them, I will be left <EXPRESSION> [?","label":[[0,8,"command"],[37,49,"expression"]],"Comments":[]}
-{"id":12050,"text":"<EXPRESSION> ?","label":[[0,12,"expression"]],"Comments":[]}
-{"id":12051,"text":"] <EXPRESSION>.","label":[[2,14,"expression"]],"Comments":[]}
-{"id":12052,"text":"And so forth.","label":[],"Comments":[]}
-{"id":12053,"text":"So you can see that the form that we have is <EXPRESSION>-- the pressure-- starts with density.","label":[[45,57,"expression"]],"Comments":[]}
-{"id":12054,"text":"I essentially divide it through by <EXPRESSION>.","label":[[14,20,"command"],[35,47,"expression"]],"Comments":[]}
-{"id":12055,"text":"I start with the ideal gas result, <EXPRESSION>, and then I have a correction that is order of <EXPRESSION>.","label":[[35,47,"expression"],[95,107,"expression"]],"Comments":[]}
-{"id":12056,"text":"I can write it as <EXPRESSION>.","label":[[6,11,"command"],[18,30,"expression"]],"Comments":[]}
-{"id":12057,"text":"In view up our [INAUDIBLE] co-efficients.","label":[],"Comments":[]}
-{"id":12058,"text":"And we see that our <EXPRESSION> is <EXPRESSION> times-- sorry.","label":[[20,32,"expression"],[36,48,"expression"]],"Comments":[]}
-{"id":12059,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":12060,"text":"Remember that <EXPRESSION>, et cetera, had dimensions of volume.","label":[[14,26,"expression"]],"Comments":[]}
-{"id":12061,"text":"So if the volume is provided by <EXPRESSION>, it is an additional factor.","label":[[32,44,"expression"]],"Comments":[]}
-{"id":12062,"text":"For fermions it's a positive pressure.","label":[],"Comments":[]}
-{"id":12063,"text":"So the pressure goes up because fermions repel each other.","label":[],"Comments":[]}
-{"id":12064,"text":"For bosons it is negative.","label":[],"Comments":[]}
-{"id":12065,"text":"Bosons attract each other.","label":[],"Comments":[]}
-{"id":12066,"text":"And we have actually","label":[],"Comments":[]}
+{"id": 11592, "text": "PROFESSOR: So we've been developing the procedure to describe a quantum gas of identical particles.", "entities": []}
+{"id": 11593, "text": "That's our non-interacting.", "entities": []}
+{"id": 11594, "text": "So what does that mean?", "entities": []}
+{"id": 11595, "text": "Is that we are thinking about the Hamiltonian for a system of <EXPRESSION> particles.", "entities": [{"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 11596, "text": "If they are not interacting, it can be written as the sum of the contributions for the individual particles.", "entities": []}
+{"id": 11597, "text": "And if they are identical, it's basically the same particle for each one of them.", "entities": []}
+{"id": 11598, "text": "Same Hamiltonian for each one of them.", "entities": []}
+{"id": 11599, "text": "OK?", "entities": []}
+{"id": 11600, "text": "How do we handle these?", "entities": []}
+{"id": 11601, "text": "Well, if you regard this as a quantum problem, for a single particle-- so for each one of these Hamiltonians-- we can find the eigenstates.", "entities": []}
+{"id": 11602, "text": "So there's a bunch of states that say label by <EXPRESSION> because we are ultimately have in mind the plane waves that describe gas particles in a box.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 11603, "text": "And there is corresponding energy levels for the single particles, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 67, "end_offset": 79}]}
+{"id": 11604, "text": "And the single particle spectrum can therefore can be described by a bunch of energies, a lot of energy levels, with different values of <EXPRESSION> and different allowed discretized energies.", "entities": [{"label": "expression", "start_offset": 137, "end_offset": 149}]}
+{"id": 11605, "text": "Now, when we want to describe a case of <EXPRESSION> particles that are non-interacting, we said that we could, in principle, pick one <EXPRESSION> here, one <EXPRESSION> here, one <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 135, "end_offset": 147}, {"label": "expression", "start_offset": 158, "end_offset": 170}, {"label": "expression", "start_offset": 181, "end_offset": 193}]}
+{"id": 11606, "text": "And if we are dealing with bosons, potentially more than one at each side.", "entities": []}
+{"id": 11607, "text": "And so the state would then be described by a bunch of occupation numbers <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 74, "end_offset": 86}]}
+{"id": 11608, "text": "And this <EXPRESSION> will be <EXPRESSION> or <EXPRESSION> if you are talking about fermions, but any integer if you are talking about bosons.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 11609, "text": "So this <EXPRESSION> being plus or minus was used to distinguish appropriate symmetrization or anti-symmetrization.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 11610, "text": "Now, once we have a state such as this, clearly the <EXPRESSION> particle hamintonium acting on a state that is symmetrized with these bunch of occupation numbers will give us back this state.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 11611, "text": "The energy that we would be getting is summing over all possible <EXPRESSION> values, epsilon <EXPRESSION> times the number of occurrance of that in this state.", "entities": [{"label": "expression", "start_offset": 65, "end_offset": 77}, {"label": "expression", "start_offset": 94, "end_offset": 106}]}
+{"id": 11612, "text": "Again, multiplying this state back.", "entities": []}
+{"id": 11613, "text": "Of course, we have a constraint that the number of particles matches the sum of the occupation numbers.", "entities": []}
+{"id": 11614, "text": "So then we said, OK, this is just a description of the state that they want to describe, or the set of states that represent this system of identical non-interacting partners in quantum mechanics.", "entities": []}
+{"id": 11615, "text": "So the next stage, we want to do some kind of first statistics for them.", "entities": []}
+{"id": 11616, "text": "And we had seen that basically, in order to assign appropriate statistics in case of quantum systems, we have to deal with a density matrix.", "entities": []}
+{"id": 11617, "text": "And we saw that in the canonical representation, the density matrix is complicated and amounts to some kind of interaction among particles.", "entities": []}
+{"id": 11618, "text": "Although there is no interaction at this level, the symmetrization or anti-symmetrization create states that are intermixed in a manner that appears as if you have an interaction.", "entities": []}
+{"id": 11619, "text": "We found that, however, we could get rid of that by going to the grand canonical ensemble where we would trade in the constraint that the number of particles is fixed with a chemical potential.", "entities": []}
+{"id": 11620, "text": "And in this ensemble, we found that the density matrix is diagonal in this representation.", "entities": []}
+{"id": 11621, "text": "So the diagonal elements can be thought of as the probability of one of these occupation number sets.", "entities": []}
+{"id": 11622, "text": "And so the probability of a particular set of occupations in this grand canonical prescription is proportional to e to the beta-- of course we have mu if we are going to this grand canonical ensemble-- <EXPRESSION>, and then we had <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 202, "end_offset": 214}, {"label": "expression", "start_offset": 232, "end_offset": 244}]}
+{"id": 11623, "text": "So the probability that a particular one of these is occupied <EXPRESSION> times in this grand canonical prescription is simply an exponential.", "entities": [{"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 11624, "text": "And of course, the different <EXPRESSION> levels are completely independent of each other.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 11625, "text": "So the probability factor arises in this fashion.", "entities": []}
+{"id": 11626, "text": "Of course, as any probability, we have to normalize this.", "entities": []}
+{"id": 11627, "text": "Normalization is appropriate.", "entities": []}
+{"id": 11628, "text": "We call the grand canonical partition function and will be different whether we are dealing with boson statistics or fermion statistics.", "entities": []}
+{"id": 11629, "text": "Actually, because we have a structure such as this, Q is going to be the product of the normalization of each individual one.", "entities": [{"label": "term", "start_offset": 52, "end_offset": 53}]}
+{"id": 11630, "text": "And therefore, <EXPRESSION> is going to be a sum of the contributions that I would get for the normalization of each individual ones.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 11631, "text": "And of course, the log of whatever normalization I have for the individual one.", "entities": []}
+{"id": 11632, "text": "If I have the case of a fermions where <EXPRESSION> gets <EXPRESSION> or <EXPRESSION> as the two possibilities, then the normalization will be simply <EXPRESSION> plus this exponential.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 57, "end_offset": 69}, {"label": "expression", "start_offset": 73, "end_offset": 85}, {"label": "expression", "start_offset": 150, "end_offset": 162}]}
+{"id": 11633, "text": "And I choose to write that as <EXPRESSION> where I have introduced <EXPRESSION> to be <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 16, "end_offset": 21}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 67, "end_offset": 79}, {"label": "expression", "start_offset": 86, "end_offset": 98}]}
+{"id": 11634, "text": "Because this combination occurs all the time, I don't want to keep repeating that.", "entities": []}
+{"id": 11635, "text": "So this was for the case of fermions.", "entities": []}
+{"id": 11636, "text": "For the case of bosons where <EXPRESSION> goes <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, et cetera, this is a geometric series.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 47, "end_offset": 59}, {"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 75, "end_offset": 87}, {"label": "expression", "start_offset": 89, "end_offset": 101}]}
+{"id": 11637, "text": "For the geometric series, when I sum it, I would get <EXPRESSION> over this factor.", "entities": [{"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 11638, "text": "So when I take the log I will have a minus sign here.", "entities": [{"label": "command", "start_offset": 10, "end_offset": 14}, {"label": "command_attribute", "start_offset": 19, "end_offset": 22}]}
+{"id": 11639, "text": "And I can put the Boson and Fermi cases together by simply putting a factor of <EXPRESSION> here so that I have the plus for the case of fermions and the minus for the case of bosons.", "entities": [{"label": "expression", "start_offset": 79, "end_offset": 91}]}
+{"id": 11640, "text": "OK?", "entities": []}
+{"id": 11641, "text": "So this is one thing that we will be using.", "entities": []}
+{"id": 11642, "text": "The other thing is that this is the probability for this level having a certain occupation number.", "entities": []}
+{"id": 11643, "text": "In k we can always ask, what is the average of <EXPRESSION>?", "entities": [{"label": "command", "start_offset": 36, "end_offset": 43}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 11644, "text": "And from this probability it is easy to calculate the average.", "entities": []}
+{"id": 11645, "text": "And the answer, again, can be collapsed into one expression for the case of bosons and fermions as <EXPRESSION> encompassing both fermions and bosons.", "entities": [{"label": "expression", "start_offset": 99, "end_offset": 111}]}
+{"id": 11646, "text": "So these results give some idea both at the microscopic level-- in terms of occupation numbers of these different levels-- and macroscopic level a grand partition function from which we can construct thermodynamics.", "entities": []}
+{"id": 11647, "text": "Actually, full probability, again, in this ensemble which we can transform in principle and get density matrices, et cetera, in other basis.", "entities": []}
+{"id": 11648, "text": "But these are the kinds of things that we can do for any interacting Hamiltonian.", "entities": []}
+{"id": 11649, "text": "OK?", "entities": []}
+{"id": 11650, "text": "Now, what I said over here was that I'm actually interested in the case of a gas.", "entities": []}
+{"id": 11651, "text": "So let's again think about the type of gas such as the one in this room that we are interested.", "entities": []}
+{"id": 11652, "text": "And again, to make a contrast with something that we may want to do later, let's emphasize that it is a non-relativistic gas.", "entities": []}
+{"id": 11653, "text": "So the Hamiltonian <EXPRESSION> is essentially free particle in a box of volume <EXPRESSION>, the thing that we have been using all the time, just the kinetic energy of a one particle state.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 80, "end_offset": 92}]}
+{"id": 11654, "text": "And for that we know that the single particle energy levels are characterized by a vector <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 90, "end_offset": 102}]}
+{"id": 11655, "text": "As three components, in fact.", "entities": []}
+{"id": 11656, "text": "And <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 11657, "text": "And we've discussed what the discretization of <EXPRESSION> is appropriate to the size of the box.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 11658, "text": "We won't go over that.", "entities": []}
+{"id": 11659, "text": "So again, maybe it is important to mention that because of the discretizatoin of the <EXPRESSION> values, the spacing between possible values of <EXPRESSION> are <EXPRESSION> in each direction.", "entities": [{"label": "expression", "start_offset": 85, "end_offset": 97}, {"label": "expression", "start_offset": 145, "end_offset": 157}, {"label": "expression", "start_offset": 162, "end_offset": 174}]}
+{"id": 11660, "text": "And ultimately what we want to do is to replace these sums over <EXPRESSION> in the limit of large boxes with integrals over <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 40, "end_offset": 47}, {"label": "command_attribute", "start_offset": 54, "end_offset": 58}, {"label": "expression", "start_offset": 64, "end_offset": 76}, {"label": "expression", "start_offset": 125, "end_offset": 136}]}
+{"id": 11661, "text": "So these go over to an integral over <EXPRESSION> times the density factor that you get in going from the sum to the integral, which is <EXPRESSION> times the volume.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 136, "end_offset": 148}]}
+{"id": 11662, "text": "I will introduce one other factor here, which is that when we are talking about quantum particles and bosons and fermions, they are typically assigned also another state-- another parameter-- that characterizes their spin.", "entities": []}
+{"id": 11663, "text": "And depending on the possible values of spin, you will have <EXPRESSION> copies of the system.", "entities": [{"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 11664, "text": "And this <EXPRESSION> will be related to the quantum spin-- to the formula <EXPRESSION>-- so that when you have fermions, typically <EXPRESSION> is half integer and this will be an even number.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 21}, {"label": "expression", "start_offset": 75, "end_offset": 87}, {"label": "expression", "start_offset": 132, "end_offset": 144}]}
+{"id": 11665, "text": "Whereas for bosons it will be an odd number.", "entities": []}
+{"id": 11666, "text": "So that's, again, something that we've seen.", "entities": []}
+{"id": 11667, "text": "You just, essentially says multiply everything by some factor of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 11668, "text": "Now if I go through this procedure that I have outlined here, I will ultimately get the grand partition function of the gas-- which as we will see is related to its pressure-- in terms of the chemical potential.", "entities": []}
+{"id": 11669, "text": "Throughout the course we've seen that the more interesting thing to look at is how things depend on density rather than chemical potential.", "entities": []}
+{"id": 11670, "text": "So I'd better use this result to get what the density is.", "entities": []}
+{"id": 11671, "text": "How do I do that?", "entities": []}
+{"id": 11672, "text": "Well, once I have determined what the chemical potential is, the average number of particles will be the sum over and the average occupation numbers that I have in all of these states.", "entities": []}
+{"id": 11673, "text": "And according to the prescription that we have over here, in the limit of a large box, this sum over <EXPRESSION> becomes <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 101, "end_offset": 113}, {"label": "expression", "start_offset": 122, "end_offset": 134}]}
+{"id": 11674, "text": "Ultimately I will divide by <EXPRESSION> so I will have the formula for the density.", "entities": [{"label": "command", "start_offset": 18, "end_offset": 27}, {"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 11675, "text": "And what is <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 11676, "text": "Well, I have the formula for <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 11677, "text": "It is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}]}
+{"id": 11678, "text": "<EXPRESSION> is <EXPRESSION>, and then I have a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 11679, "text": "OK?", "entities": []}
+{"id": 11680, "text": "So if I divide through by <EXPRESSION>, really I will have the density.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 11681, "text": "Get rid of this <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 11682, "text": "But I have to do that integral.", "entities": []}
+{"id": 11683, "text": "Now for this and a lot of other things, you can see that always I will have sums or integrations over the combination that appears in the exponent and enhances dimension list which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 184, "end_offset": 196}]}
+{"id": 11684, "text": "So let me introduce a new variable.", "entities": []}
+{"id": 11685, "text": "Let me call <EXPRESSION> to be the combination <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 7, "end_offset": 11}, {"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 11686, "text": "So I'm going to call this <EXPRESSION>, if you like.", "entities": [{"label": "command", "start_offset": 16, "end_offset": 25}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 11687, "text": "So I have changed variables from <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 11688, "text": "<EXPRESSION> in terms of <EXPRESSION> is simply <EXPRESSION>-- which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 72, "end_offset": 84}]}
+{"id": 11689, "text": "But I took a square root so it's just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 50}]}
+{"id": 11690, "text": "Times <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 0, "end_offset": 5}, {"label": "expression", "start_offset": 6, "end_offset": 18}]}
+{"id": 11691, "text": "OK?", "entities": []}
+{"id": 11692, "text": "Now, I realize that <EXPRESSION> is in fact <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 11693, "text": "So the <EXPRESSION> I can put in the numerator.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "command", "start_offset": 26, "end_offset": 29}, {"label": "command_attribute", "start_offset": 37, "end_offset": 46}]}
+{"id": 11694, "text": "And then I remember that actually the combination <EXPRESSION>, I was calling these thermal wavelength <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 50, "end_offset": 62}, {"label": "expression", "start_offset": 103, "end_offset": 115}]}
+{"id": 11695, "text": "And <EXPRESSION> should have the dimensions of an inverse landscape, so that's the appropriate thing to choose.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 11696, "text": "So what do I get?", "entities": []}
+{"id": 11697, "text": "I take <EXPRESSION> inside and I'm left with <EXPRESSION> divided by this parameter <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 2, "end_offset": 6}, {"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 45, "end_offset": 57}, {"label": "command", "start_offset": 58, "end_offset": 68}, {"label": "expression", "start_offset": 84, "end_offset": 96}]}
+{"id": 11698, "text": "Again, for later clarity, let's make sure we remember this was our <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 67, "end_offset": 79}]}
+{"id": 11699, "text": "So this is the variable <EXPRESSION> that I need.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 11700, "text": "In fact, for the-- for the integration I have to also make a change in <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 11701, "text": "So I not that <EXPRESSION>, if I take a derivative here, I will get <EXPRESSION> becomes <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "command", "start_offset": 64, "end_offset": 67}, {"label": "expression", "start_offset": 68, "end_offset": 80}, {"label": "expression", "start_offset": 89, "end_offset": 101}]}
+{"id": 11702, "text": "Actually, the factor that I need over here is <EXPRESSION>-- <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 61, "end_offset": 73}]}
+{"id": 11703, "text": "Now everything only depends on the magnitude of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 11704, "text": "So I will take advantage of spherical symmetry, write <EXPRESSION> as <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 48, "end_offset": 53}, {"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 11705, "text": "And then I substitute from <EXPRESSION> and <EXPRESSION> above in terms of this <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 11, "end_offset": 21}, {"label": "expression", "start_offset": 27, "end_offset": 39}, {"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 80, "end_offset": 92}]}
+{"id": 11706, "text": "So I will have a <EXPRESSION> from this division.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 11707, "text": "<EXPRESSION> is simply <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 11708, "text": "This is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 11709, "text": "<EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 11710, "text": "So you can see lots of things cancel out and the answer is going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 11711, "text": "And what is left from all of these <EXPRESSION> et cetera, is a factor of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 74, "end_offset": 86}]}
+{"id": 11712, "text": "Or <EXPRESSION> in the numerator or <EXPRESSION> in the denominator.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 11713, "text": "OK?", "entities": []}
+{"id": 11714, "text": "So if I do these set of changes that I have on the right part of the board, what do I have for density?", "entities": []}
+{"id": 11715, "text": "The density becomes simply <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 11716, "text": "I have this integral over <EXPRESSION> that I have recast as an integral that is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 11717, "text": "Let me pull out the factor of <EXPRESSION> on the outside.", "entities": [{"label": "command", "start_offset": 7, "end_offset": 15}, {"label": "command_attribute", "start_offset": 20, "end_offset": 26}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 11718, "text": "So I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 11719, "text": "I will pull out to that factor of <EXPRESSION> that I had before.", "entities": [{"label": "command", "start_offset": 7, "end_offset": 15}, {"label": "command_attribute", "start_offset": 24, "end_offset": 30}, {"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 11720, "text": "And then I have the integral from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 50, "end_offset": 62}]}
+{"id": 11721, "text": "Actually, let me write it in this fashion.", "entities": [{"label": "command", "start_offset": 17, "end_offset": 22}]}
+{"id": 11722, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 11723, "text": "And in the denominator, what do I have?", "entities": []}
+{"id": 11724, "text": "I have <EXPRESSION> universe into the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 11725, "text": "So we did all of these and we ended up with an integral that we don't recognize.", "entities": []}
+{"id": 11726, "text": "So what we are going to do is to pretend that we recognize it and give it a name.", "entities": []}
+{"id": 11727, "text": "All right?", "entities": []}
+{"id": 11728, "text": "So we define a set of functions <EXPRESSION> of variable <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 57, "end_offset": 69}]}
+{"id": 11729, "text": "Once I do the integration over <EXPRESSION>, I will get a function of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 7, "end_offset": 9}, {"label": "method", "start_offset": 14, "end_offset": 25}, {"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 11730, "text": "So that function of <EXPRESSION> I will call <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "command", "start_offset": 40, "end_offset": 44}, {"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 11731, "text": "But clearly I have a different <EXPRESSION> if I have <EXPRESSION> or <EXPRESSION> for bosons of fermions.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 11732, "text": "So there is two classes of things.", "entities": []}
+{"id": 11733, "text": "What's this <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 11734, "text": "OK.", "entities": []}
+{"id": 11735, "text": "So here I had the integral <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 11736, "text": "It turns out that you will get a whole bunch of these integrals where the [INAUDIBLE] that is out front in the numerator is different.", "entities": []}
+{"id": 11737, "text": "So I will generalize this <EXPRESSION>, this <EXPRESSION> to something that I'll call it <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 45, "end_offset": 57}, {"label": "command", "start_offset": 81, "end_offset": 88}, {"label": "expression", "start_offset": 89, "end_offset": 101}]}
+{"id": 11738, "text": "And then I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 11739, "text": "And if these normalized so that what is in front is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 11740, "text": "OK?", "entities": []}
+{"id": 11741, "text": "So these are very important functions.", "entities": []}
+{"id": 11742, "text": "Everything we will do later on we will be expressing in terms of these functions.", "entities": []}
+{"id": 11743, "text": "Now, clearly what is happening here corresponds to <EXPRESSION> being = <EXPRESSION> or <EXPRESSION> being <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 72, "end_offset": 84}, {"label": "expression", "start_offset": 88, "end_offset": 100}, {"label": "expression", "start_offset": 107, "end_offset": 119}]}
+{"id": 11744, "text": "What is this normalization?", "entities": []}
+{"id": 11745, "text": "Well, for the normalization, if this is <EXPRESSION> I would need <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 66, "end_offset": 78}]}
+{"id": 11746, "text": "And if you go and look at the various definitions that we have for the gamma function or the factorial, you can check that <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 123, "end_offset": 135}, {"label": "expression", "start_offset": 139, "end_offset": 151}]}
+{"id": 11747, "text": "And, indeed, we saw this already when we wrote the expression for the surface area in general dimensions that involved factorial function appearing as fractions.", "entities": []}
+{"id": 11748, "text": "And in order to get the right result in two or three dimensions, you can check that this <EXPRESSION> is correct.", "entities": [{"label": "expression", "start_offset": 89, "end_offset": 101}]}
+{"id": 11749, "text": "So, indeed, I already have this <EXPRESSION> over here.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 11750, "text": "It was properly normalized.", "entities": []}
+{"id": 11751, "text": "So the whole thing here can be written as <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 11752, "text": "That is the expression that relates the density to the chemical potential or this communication <EXPRESSION>, which is <EXPRESSION> or the fugacity is simply this nice formula.", "entities": [{"label": "expression", "start_offset": 96, "end_offset": 108}, {"label": "expression", "start_offset": 119, "end_offset": 131}]}
+{"id": 11753, "text": "OK?", "entities": []}
+{"id": 11754, "text": "But what we want is to calculate something like the pressure for the gas.", "entities": []}
+{"id": 11755, "text": "Well, let me remind you that <EXPRESSION>, essentially, quite generally, <EXPRESSION> comes from normalizing something that is like mu times the total number of particles minus the energy-- you can kind of read that from here-- and then there would be <EXPRESSION> from the number of states.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 73, "end_offset": 85}, {"label": "expression", "start_offset": 252, "end_offset": 264}]}
+{"id": 11756, "text": "This was the general formula that we had.", "entities": []}
+{"id": 11757, "text": "And when we substitute for a system that is extensive, where <EXPRESSION> for a gas is <EXPRESSION>, we see that the <EXPRESSION> of the partition function is simply the combination <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 12, "end_offset": 22}, {"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 87, "end_offset": 99}, {"label": "expression", "start_offset": 117, "end_offset": 129}, {"label": "expression", "start_offset": 182, "end_offset": 194}]}
+{"id": 11758, "text": "Of course, again, this pressure as a function of density or chemical potential would be different whether we are thinking about bosons of fermions.", "entities": []}
+{"id": 11759, "text": "But it can be calculated from the kind of sum that we have over here.", "entities": []}
+{"id": 11760, "text": "So let's do that.", "entities": []}
+{"id": 11761, "text": "So I have <EXPRESSION> which is something like <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 11762, "text": "Is obtained by doing this sum over <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 11763, "text": "And so what do I get?", "entities": []}
+{"id": 11764, "text": "I will get-- first of all, I have the <EXPRESSION> [INAUDIBLE] with <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}, {"label": "expression", "start_offset": 68, "end_offset": 80}]}
+{"id": 11765, "text": "The volume factor cancels because I divided by volume.", "entities": []}
+{"id": 11766, "text": "I have <EXPRESSION>-- again, <EXPRESSION>-- are the energy that I'm dealing with.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 11767, "text": "OK?", "entities": []}
+{"id": 11768, "text": "Fine.", "entities": []}
+{"id": 11769, "text": "What do we do with this?", "entities": []}
+{"id": 11770, "text": "We make the same change of variables that we have over here from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 65, "end_offset": 77}, {"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 11771, "text": "So then I would have <EXPRESSION> gets replaced with this <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 11772, "text": "And then I have the integral <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 11773, "text": "Huh.", "entities": []}
+{"id": 11774, "text": "It seems like-- yes?", "entities": []}
+{"id": 11775, "text": "AUDIENCE: What happened to your factor <EXPRESSION>?", "entities": [{"label": "command", "start_offset": 32, "end_offset": 38}, {"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 11776, "text": "PROFESSOR: <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 11777, "text": "Good question.", "entities": []}
+{"id": 11778, "text": "Anything else?", "entities": []}
+{"id": 11779, "text": "So I was hoping to have integrals that are all expressible in terms of this-- these set of functions that I defined.", "entities": []}
+{"id": 11780, "text": "This <EXPRESSION> does not fall into this category.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}]}
+{"id": 11781, "text": "Should I define something else?", "entities": []}
+{"id": 11782, "text": "Well, the answer is no because I can make that integral look like this by simbly doing an integration by parts.", "entities": []}
+{"id": 11783, "text": "So we do integrate by parts in which case what I do is I take a derivative of this and I take an integral of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 89, "end_offset": 93}, {"label": "command_attribute", "start_offset": 97, "end_offset": 105}, {"label": "expression", "start_offset": 109, "end_offset": 121}]}
+{"id": 11784, "text": "Integral of <EXPRESSION> becomes <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 11785, "text": "There is, of course, a minus sign involved.", "entities": []}
+{"id": 11786, "text": "So this minus becomes plus <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 11787, "text": "Make sure I have the <EXPRESSION> this time.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 11788, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 11789, "text": "I have the integral from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 11790, "text": "<EXPRESSION> to the <EXPRESSION> became <EXPRESSION> to the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 11791, "text": "The <EXPRESSION> I will bring out front.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 11792, "text": "So I have <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 11793, "text": "And then I have to take the derivative of this function.", "entities": []}
+{"id": 11794, "text": "What's the derivative of the <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 11795, "text": "It is <EXPRESSION> times the derivative of the argument of the <EXPRESSION> which is <EXPRESSION>, the derivative of <EXPRESSION>, which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}, {"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "expression", "start_offset": 85, "end_offset": 97}, {"label": "expression", "start_offset": 117, "end_offset": 129}, {"label": "expression", "start_offset": 140, "end_offset": 152}]}
+{"id": 11796, "text": "And this minus becomes plus.", "entities": []}
+{"id": 11797, "text": "OK?", "entities": []}
+{"id": 11798, "text": "So let's arrange things a little bit.", "entities": []}
+{"id": 11799, "text": "I can get rid of these etas because eta squared will be <EXPRESSION>.", "entities": [{"label": "term", "start_offset": 23, "end_offset": 27}, {"label": "term", "start_offset": 36, "end_offset": 47}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 11800, "text": "What is the answer, therefore?", "entities": []}
+{"id": 11801, "text": "It is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}]}
+{"id": 11802, "text": "That's fine.", "entities": []}
+{"id": 11803, "text": "If <EXPRESSION>, and I multiply <EXPRESSION> with <EXPRESSION>, what I will get is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "command", "start_offset": 23, "end_offset": 31}, {"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 50, "end_offset": 62}, {"label": "expression", "start_offset": 83, "end_offset": 95}]}
+{"id": 11804, "text": "Because <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 11805, "text": "And then, what do I have?", "entities": []}
+{"id": 11806, "text": "I have <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 11807, "text": "<EXPRESSION>, divide the numerator and denominator by <EXPRESSION> and you get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "command", "start_offset": 14, "end_offset": 20}, {"label": "command_attribute", "start_offset": 25, "end_offset": 34}, {"label": "command_attribute", "start_offset": 39, "end_offset": 50}, {"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "expression", "start_offset": 79, "end_offset": 91}]}
+{"id": 11808, "text": "And lo and behold, we have a function of the variety that we had defined on the board corresponding to <EXPRESSION> being <EXPRESSION> or <EXPRESSION> being <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 103, "end_offset": 115}, {"label": "expression", "start_offset": 122, "end_offset": 134}, {"label": "expression", "start_offset": 138, "end_offset": 150}, {"label": "expression", "start_offset": 157, "end_offset": 169}]}
+{"id": 11809, "text": "So what we have here is that <EXPRESSION>, depending on whatever statistics we are dealing with, is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 100, "end_offset": 112}]}
+{"id": 11810, "text": "Yes?", "entities": []}
+{"id": 11811, "text": "AUDIENCE: [INAUDIBLE] PROFESSOR: OK.", "entities": []}
+{"id": 11812, "text": "So what you have to do is always ensure what is happening to the boundary terms.", "entities": []}
+{"id": 11813, "text": "Boundary terms will be a product of <EXPRESSION> and this factor.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 11814, "text": "At <EQUATION>, <EXPRESSION> will ensure that you are <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}, {"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 11815, "text": "At <EXPRESSION> goes to infinity, the exponential will ensure that you're to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "term", "start_offset": 24, "end_offset": 33}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 11816, "text": "So the boundary terms are important and indeed you have to check them.", "entities": []}
+{"id": 11817, "text": "And you can check that they are <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 11818, "text": "OK?", "entities": []}
+{"id": 11819, "text": "AUDIENCE: I think the factor that multiples <EXPRESSION> is [INAUDIBLE].", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 11820, "text": "But it's-- the argument still holds.", "entities": []}
+{"id": 11821, "text": "PROFESSOR: The argument still holds because as <EXPRESSION> goes to infinity, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}, {"label": "term", "start_offset": 68, "end_offset": 76}]}
+{"id": 11822, "text": "<EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 11823, "text": "In fact, you can ask, how does it go to <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 11824, "text": "It goes to <EXPRESSION> exponentially.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 11825, "text": "Exponentially it will [INAUDIBLE].", "entities": []}
+{"id": 11826, "text": "Yes.", "entities": []}
+{"id": 11827, "text": "Thank you for the correction.", "entities": []}
+{"id": 11828, "text": "OK?", "entities": []}
+{"id": 11829, "text": "All right.", "entities": []}
+{"id": 11830, "text": "There's one other thing that we can take a look at.", "entities": []}
+{"id": 11831, "text": "The total energy.", "entities": []}
+{"id": 11832, "text": "OK.", "entities": []}
+{"id": 11833, "text": "So the energy in each one of these states is given by that formula.", "entities": []}
+{"id": 11834, "text": "So if I ask, what is the total expectation value of energy?", "entities": []}
+{"id": 11835, "text": "And again, in thermodynamics we expect the extensive quantities such as the energy should have, in an aerodynamic sense, well defined values so I won't write the expectation value.", "entities": []}
+{"id": 11836, "text": "Is going to be a sum over <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 11837, "text": "And this will depend on the statistics that I'm looking at.", "entities": []}
+{"id": 11838, "text": "And what I will have is that this will go over to an integral over <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 67, "end_offset": 79}]}
+{"id": 11839, "text": "I have epsilon of <EXPRESSION> which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 11840, "text": "The expectation value of <EXPRESSION>, which is <EXPRESSION>-- sorry-- <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 11841, "text": "OK?", "entities": []}
+{"id": 11842, "text": "So the simplest way to do this is to first of all divide by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 11843, "text": "So I can define an energy density.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 15}, {"label": "command_attribute", "start_offset": 19, "end_offset": 33}]}
+{"id": 11844, "text": "Actually, since I'm going to change variables to this combination that is <EXPRESSION>, I notice that up to a factor of betas the numerator is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 74, "end_offset": 86}, {"label": "expression", "start_offset": 143, "end_offset": 155}]}
+{"id": 11845, "text": "So let me actually calculate the combination <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 19, "end_offset": 28}, {"label": "command_attribute", "start_offset": 33, "end_offset": 44}, {"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 11846, "text": "That only depends on this combination <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 11847, "text": "So what is it?", "entities": []}
+{"id": 11848, "text": "It is g-- the integral over <EXPRESSION>, I know how to replace it with something that involves <EXPRESSION>-- is going to give me <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 96, "end_offset": 108}, {"label": "expression", "start_offset": 131, "end_offset": 143}]}
+{"id": 11849, "text": "Integral <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 11850, "text": "From the change of variables, I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 11851, "text": "But I introduced one factor of <EXPRESSION> here because I have this energy factor in the numerator.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 11852, "text": "So that changes this to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 11853, "text": "And then again, I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 11854, "text": "OK?", "entities": []}
+{"id": 11855, "text": "So if is one of the integrals that we have defined.", "entities": []}
+{"id": 11856, "text": "In fact, it is exactly what I have above for the pressure, except that I don't have the factor of <EXPRESSION> that appeared nicely to give the right normalization.", "entities": [{"label": "expression", "start_offset": 98, "end_offset": 110}]}
+{"id": 11857, "text": "So what I conclude is that this quantity is in fact <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 11858, "text": "OK?", "entities": []}
+{"id": 11859, "text": "But they are exactly the same functions for energy and pressure.", "entities": []}
+{"id": 11860, "text": "So you can see that, irrespective of what the chemical potential is doing, I can state that for the quantum system <EXPRESSION> is always <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 115, "end_offset": 127}, {"label": "expression", "start_offset": 138, "end_offset": 150}]}
+{"id": 11861, "text": "Of course, we have seen this expression classically.", "entities": []}
+{"id": 11862, "text": "Now what happens quantum mechanically is that the pressure starts to vary in some complicated way with density.", "entities": []}
+{"id": 11863, "text": "But what we learn is that energy will also vary in the same complicated way with density, such that always this formula <EXPRESSION> is valid.", "entities": [{"label": "expression", "start_offset": 120, "end_offset": 132}]}
+{"id": 11864, "text": "There is some nice symmetry reason for why that is the case that you explore in one of the problems that you will see.", "entities": []}
+{"id": 11865, "text": "OK?", "entities": []}
+{"id": 11866, "text": "So these are the characteristics.", "entities": []}
+{"id": 11867, "text": "In some sense we have solved the problem because we know both density and pressure in terms of chemical potential.", "entities": []}
+{"id": 11868, "text": "So all we need to do is to invert this, get the chemical potential as a function of density, insert it in the formula for pressure and we have pressure as a function of density.", "entities": []}
+{"id": 11869, "text": "But since these are kind of implicit through these f functions, we don't quite know what that means.", "entities": []}
+{"id": 11870, "text": "So the next stage is to really study how these f functions behave and how we can relate their behaviors to dependence on density.", "entities": []}
+{"id": 11871, "text": "And we will see that we have to distinguish between low density and high density regimes.", "entities": []}
+{"id": 11872, "text": "What does it mean?", "entities": []}
+{"id": 11873, "text": "Well, you can see that both have players on the right hand side is dimensionless.", "entities": []}
+{"id": 11874, "text": "The only dimension full combination that we have here is <EXPRESSION>-- well, we can make it dimensionless by multiplying by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 57, "end_offset": 69}, {"label": "expression", "start_offset": 125, "end_offset": 137}]}
+{"id": 11875, "text": "So it turns out that whether or not you see things that are classical or things that are very quantum mechanical depend on this degeneracy factor.", "entities": []}
+{"id": 11876, "text": "Which, within our context of statistical physics of gases, we define to be the communication <EXPRESSION>.", "entities": []}
+{"id": 11877, "text": "And we will regain classical behaviors when degeneracy is small, density is small enough such that <EXPRESSION> is much less than <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 99, "end_offset": 111}, {"label": "expression", "start_offset": 130, "end_offset": 142}]}
+{"id": 11878, "text": "We will see totally new behavior that is appropriate to quantum mechanics in other limit where [?", "entities": []}
+{"id": 11879, "text": "<EXPRESSION> ?", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 11880, "text": "] becomes large.", "entities": []}
+{"id": 11881, "text": "OK?", "entities": []}
+{"id": 11882, "text": "So this distinguishes classical versus quantum behavior.", "entities": []}
+{"id": 11883, "text": "Now, we expect to regain classical behavior in the limit of very low densities.", "entities": []}
+{"id": 11884, "text": "That's what we've been kind of saying from the very first lecture that low density gas has this ideal behavior where <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 117, "end_offset": 129}, {"label": "expression", "start_offset": 133, "end_offset": 145}]}
+{"id": 11885, "text": "And, therefore, let's focus on the limit where <EXPRESSION> is much less than <EXPRESSION>, which is classical.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}, {"label": "expression", "start_offset": 78, "end_offset": 90}]}
+{"id": 11886, "text": "And since <EXPRESSION> is <EXPRESSION>, we need the behavior of the function when it is small-- and I'll show you [INAUDIBLE] consistently that the function is small when it's argument is small.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 11887, "text": "So we'll see that <EXPRESSION> less than <EXPRESSION> implies or is implied by <EXPRESSION> being less than <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 79, "end_offset": 91}, {"label": "expression", "start_offset": 108, "end_offset": 120}]}
+{"id": 11888, "text": "OK?", "entities": []}
+{"id": 11889, "text": "So let's take a look at one of these functions, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "expression", "start_offset": 76, "end_offset": 88}, {"label": "expression", "start_offset": 90, "end_offset": 102}, {"label": "expression", "start_offset": 104, "end_offset": 116}]}
+{"id": 11890, "text": "And I'd like to explore the limit of this when <EXPRESSION> is small.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 11891, "text": "So that's currently not very good because I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 11892, "text": "So what I will do is I will multiply by <EXPRESSION> both numerator and denominator.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 11893, "text": "So I will have <EXPRESSION> integral <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 11894, "text": "I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 11895, "text": "I have-- oops, there was an <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 11896, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 11897, "text": "OK?", "entities": []}
+{"id": 11898, "text": "Then I say, well, the thing that is appearing in the denominator, I can write as a sum of a geometric series in powers of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 122, "end_offset": 134}]}
+{"id": 11899, "text": "And that's, after all, what I'm attempting to do, make an expansion in powers of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 11900, "text": "It starts with <EXPRESSION> to the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 11901, "text": "And <EXPRESSION> I can write as the sum alpha going from <EXPRESSION> to <EXPRESSION> [INAUDIBLE].", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 57, "end_offset": 69}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 11902, "text": "This geometric series sums to what I have over there.", "entities": []}
+{"id": 11903, "text": "OK?", "entities": []}
+{"id": 11904, "text": "Let's rearrange this a little bit.", "entities": []}
+{"id": 11905, "text": "I will take the sum over alpha outside.", "entities": []}
+{"id": 11906, "text": "Well, I notice that actually I have here, this first term, which is different from this by a factor of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 103, "end_offset": 115}]}
+{"id": 11907, "text": "So let me multiply by an <EXPRESSION> and get another <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 11908, "text": "And then I have a sum that starts from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 55, "end_offset": 67}]}
+{"id": 11909, "text": "So I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 11910, "text": "I have one other <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 11911, "text": "And then I have the integration over <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 11912, "text": "I didn't write <EXPRESSION> because I pulled it out the integration.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 11913, "text": "I will write it now.", "entities": []}
+{"id": 11914, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 11915, "text": "And I didn't write <EXPRESSION> factor.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 11916, "text": "Now, once more, this is an integration that you have seen.", "entities": []}
+{"id": 11917, "text": "The result of doing integral <EXPRESSION> is simply <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 11918, "text": "Except that it is not <EXPRESSION> but it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 11919, "text": "I can rescale everything by <EXPRESSION> and I will pull out a factor of <EXPRESSION> to there.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "command", "start_offset": 52, "end_offset": 60}, {"label": "command_attribute", "start_offset": 63, "end_offset": 69}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 11920, "text": "OK?", "entities": []}
+{"id": 11921, "text": "So what do we have?", "entities": []}
+{"id": 11922, "text": "We have that <EXPRESSION> [?", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}]}
+{"id": 11923, "text": "power series ?", "entities": [{"label": "method", "start_offset": 0, "end_offset": 12}]}
+{"id": 11924, "text": "] representation, <EXPRESSION> running from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 11925, "text": "It's an alternating series that starts with plus and then becomes a minus, et cetera.", "entities": []}
+{"id": 11926, "text": "So if I were to explicitly write this, you will see how nice it is.", "entities": []}
+{"id": 11927, "text": "It is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}]}
+{"id": 11928, "text": "And you can see why it is such a nice thing that really deserves to have a function named after it.", "entities": []}
+{"id": 11929, "text": "So we call that nice series [?", "entities": []}
+{"id": 11930, "text": "to Vf.", "entities": [{"label": "term", "start_offset": 3, "end_offset": 5}]}
+{"id": 11931, "text": "?", "entities": []}
+{"id": 11932, "text": "] Now, for future reference, note the following.", "entities": []}
+{"id": 11933, "text": "If I take a derivative of this function with respect to <EXPRESSION>-- its argument-- then in this power series, say, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 56, "end_offset": 68}, {"label": "expression", "start_offset": 118, "end_offset": 130}]}
+{"id": 11934, "text": "<EXPRESSION> will cancel one of the <EXPRESSION> that I have here and it becomes <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 11935, "text": "This becomes <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}]}
+{"id": 11936, "text": "So you can see that the coefficients that were powers of m become powers of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 11937, "text": "Numerator has gone down by one factor.", "entities": []}
+{"id": 11938, "text": "So let's multiply by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 11939, "text": "So the numerator is now what it was before.", "entities": []}
+{"id": 11940, "text": "The denominators, rather than being raised to the power of <EXPRESSION>, are raised to the power of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 59, "end_offset": 71}, {"label": "expression", "start_offset": 100, "end_offset": 112}]}
+{"id": 11941, "text": "So clearly, this is the same thing as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 11942, "text": "So basically these functions have this nice character that they are like a ladder.", "entities": []}
+{"id": 11943, "text": "You take a derivative of one and you get the one that is indexed by one less.", "entities": []}
+{"id": 11944, "text": "OK?", "entities": []}
+{"id": 11945, "text": "AUDIENCE: Is there a factor of eta that comes out to be [INAUDIBLE].", "entities": []}
+{"id": 11946, "text": "PROFESSOR: In the derivatives?", "entities": []}
+{"id": 11947, "text": "AUDIENCE: I mean, it seems to me that there's an eta-- like, in that relation that-- PROFESSOR: In this relation?", "entities": []}
+{"id": 11948, "text": "AUDIENCE: Yeah.", "entities": []}
+{"id": 11949, "text": "PROFESSOR: OK.", "entities": []}
+{"id": 11950, "text": "So let's do it by step.", "entities": []}
+{"id": 11951, "text": "If I take a derivative, divide <EXPRESSION>, I get <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 9}, {"label": "command_attribute", "start_offset": 12, "end_offset": 22}, {"label": "command", "start_offset": 24, "end_offset": 30}, {"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 11952, "text": "Then I multiply by <EXPRESSION>, this becomes <EXPRESSION>, this becomes <EXPRESSION>, this becomes <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 7, "end_offset": 18}, {"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 73, "end_offset": 85}, {"label": "expression", "start_offset": 100, "end_offset": 112}]}
+{"id": 11953, "text": "And you can see that the etas are exactly where they should be.", "entities": []}
+{"id": 11954, "text": "AUDIENCE: Would you explain why the index of summation starts from-- PROFESSOR: One?", "entities": []}
+{"id": 11955, "text": "AUDIENCE: --one.", "entities": []}
+{"id": 11956, "text": "PROFESSOR: OK.", "entities": []}
+{"id": 11957, "text": "So let's take a look at this function.", "entities": []}
+{"id": 11958, "text": "You can see there is a <EXPRESSION> in the denominator.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 11959, "text": "So I made it into a <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 11960, "text": "So you can see that if <EXPRESSION> is very small, if will start with <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 11961, "text": "All right?", "entities": []}
+{"id": 11962, "text": "Now what happened here?", "entities": []}
+{"id": 11963, "text": "I wrote this as a sum of geometric series.", "entities": []}
+{"id": 11964, "text": "I pulled out this factor of <EXPRESSION> that was in the numerator, and the denominator I wrote as a series that starts with <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 125, "end_offset": 137}]}
+{"id": 11965, "text": "But then there is this <EXPRESSION> out front.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 11966, "text": "I pulled this <EXPRESSION> in front here and then it starts with <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 11967, "text": "I could have written it-- I can put this in here and write it as <EXPRESSION> with <EXPRESSION> starting from <EXPRESSION>, et cetera.", "entities": [{"label": "command", "start_offset": 32, "end_offset": 35}, {"label": "command", "start_offset": 53, "end_offset": 58}, {"label": "expression", "start_offset": 65, "end_offset": 77}, {"label": "expression", "start_offset": 83, "end_offset": 95}, {"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 11968, "text": "Or I can write it [INAUDIBLE].", "entities": [{"label": "command", "start_offset": 9, "end_offset": 14}]}
+{"id": 11969, "text": "Or, alternatively, you can say, let's put the <EXPRESSION> here and <EXPRESSION> here.", "entities": [{"label": "command", "start_offset": 38, "end_offset": 41}, {"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 68, "end_offset": 80}]}
+{"id": 11970, "text": "And then I see that this is the geometric series where the first term is this <EXPRESSION> [INAUDIBLE].", "entities": [{"label": "expression", "start_offset": 78, "end_offset": 90}]}
+{"id": 11971, "text": "OK?", "entities": []}
+{"id": 11972, "text": "So I want to erase this board but keep this formula.", "entities": []}
+{"id": 11973, "text": "So let me erase it and then rewrite it.", "entities": [{"label": "command", "start_offset": 10, "end_offset": 15}, {"label": "command", "start_offset": 28, "end_offset": 35}]}
+{"id": 11974, "text": "So this I will rewrite as <EXPRESSION>, which is my degeneracy factor, is <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 15, "end_offset": 22}, {"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 74, "end_offset": 86}]}
+{"id": 11975, "text": "And in the limit where <EXPRESSION> goes to small, I can use the expansion that I just derived, which is <EXPRESSION> to the-- what is it-- <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 105, "end_offset": 117}, {"label": "expression", "start_offset": 140, "end_offset": 152}]}
+{"id": 11976, "text": "<EXPRESSION> and so forth.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 11977, "text": "You can see that precisely because as <EXPRESSION> goes to <EXPRESSION>, this series goes to <EXPRESSION>, that smallness of <EXPRESSION> is the same thing or implied by the smallness of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}, {"label": "expression", "start_offset": 59, "end_offset": 71}, {"label": "expression", "start_offset": 93, "end_offset": 105}, {"label": "expression", "start_offset": 125, "end_offset": 137}, {"label": "expression", "start_offset": 187, "end_offset": 199}]}
+{"id": 11978, "text": "But that <EXPRESSION> = <EXPRESSION> only at the lowest order.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 11979, "text": "So what happens at higher orders, <EXPRESSION>-- inverting this-- is <EXPRESSION>, and so forth.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 11980, "text": "And we saw this when I was doing the calculation for the interacting gas, that clearly to lowest order <EQUATION>, if I want to get the next order, I substitute the result of the previous order into this expression.", "entities": []}
+{"id": 11981, "text": "So <EXPRESSION> I substitute for <EXPRESSION>, I will <EXPRESSION> as the first contribution.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "command", "start_offset": 18, "end_offset": 28}, {"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 11982, "text": "And then something that is order of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 11983, "text": "And if I want the answer to the <EXPRESSION> order, I take this whole thing that is that order of <EXPRESSION> and substitute in this series.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "command", "start_offset": 54, "end_offset": 58}, {"label": "expression", "start_offset": 98, "end_offset": 110}]}
+{"id": 11984, "text": "And so what do I get?", "entities": []}
+{"id": 11985, "text": "I will get <EXPRESSION>-- which is the square of this quantity-- square of this quantity is <EXPRESSION> minus twice the product of these two terms.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 92, "end_offset": 104}]}
+{"id": 11986, "text": "So I have twice <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 11987, "text": "And then square of this term, but that's order of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 50, "end_offset": 62}]}
+{"id": 11988, "text": "I don't care for that.", "entities": []}
+{"id": 11989, "text": "And then I have, from here, plus <EXPRESSION> ignoring terms of the order of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 28, "end_offset": 32}, {"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 11990, "text": "OK?", "entities": []}
+{"id": 11991, "text": "So <EXPRESSION> is-- AUDIENCE: [INAUDIBLE] <EQUATION> [INAUDIBLE].", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "equation", "start_offset": 43, "end_offset": 53}]}
+{"id": 11992, "text": "PROFESSOR: Ah, great.", "entities": []}
+{"id": 11993, "text": "Thank you.", "entities": []}
+{"id": 11994, "text": "Minus.", "entities": []}
+{"id": 11995, "text": "Minus.", "entities": []}
+{"id": 11996, "text": "Good.", "entities": []}
+{"id": 11997, "text": "Saves me having to go back later when the answer doesn't match.", "entities": []}
+{"id": 11998, "text": "OK.", "entities": []}
+{"id": 11999, "text": "Fine.", "entities": []}
+{"id": 12000, "text": "Now let's organize terms.", "entities": []}
+{"id": 12001, "text": "The lowest order I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 12002, "text": "At order of <EXPRESSION> I have still just this one term, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 12003, "text": "We knew that was the correct result at order of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 12004, "text": "At order of <EXPRESSION> I have two terms.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 12005, "text": "One is the product of these two terms.", "entities": []}
+{"id": 12006, "text": "The <EXPRESSION> disappear, <EXPRESSION>, and this will give me <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 12007, "text": "And from other part, I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 12008, "text": "And I haven't calculate things at order of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 14, "end_offset": 23}, {"label": "expression", "start_offset": 43, "end_offset": 55}]}
+{"id": 12009, "text": "OK?", "entities": []}
+{"id": 12010, "text": "Fine.", "entities": []}
+{"id": 12011, "text": "So we have calculated in a power series that we can go to whatever order you like.", "entities": []}
+{"id": 12012, "text": "This is <EXPRESSION> which is related to chemical potential as a function of this degeneracy that is simply related to density.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 12013, "text": "Now, the formula for the pressure is up there.", "entities": []}
+{"id": 12014, "text": "It is that <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 12015, "text": "Right?", "entities": []}
+{"id": 12016, "text": "So reorganizing this a little bit, the dimensionless form is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}]}
+{"id": 12017, "text": "<EXPRESSION> we can make an expansion.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 12018, "text": "It is <EXPRESSION> and so forth.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}]}
+{"id": 12019, "text": "For <EXPRESSION> I substitute from the line above.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 15}, {"label": "command", "start_offset": 19, "end_offset": 29}]}
+{"id": 12020, "text": "So I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 12021, "text": "So that's the first term.", "entities": []}
+{"id": 12022, "text": "The next term is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 12023, "text": "So I have to square what is up here and here keeping terms to order of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 19}, {"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 12024, "text": "So what do I have?", "entities": []}
+{"id": 12025, "text": "I have <EXPRESSION> from squaring this term.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 12026, "text": "And a term that is twice the product of these two terms.", "entities": []}
+{"id": 12027, "text": "That's the only term that is order of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 12028, "text": "So I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 12029, "text": "And finally, <EXPRESSION> would be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 12030, "text": "And I haven't calculated anything at all of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 12031, "text": "OK?", "entities": []}
+{"id": 12032, "text": "So what do I have?", "entities": []}
+{"id": 12033, "text": "I have that <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 12034, "text": "Well, you can see that everything is going to be proportional to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 12035, "text": "So let's put out the factor of <EXPRESSION> which is <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 16}, {"label": "command_attribute", "start_offset": 17, "end_offset": 27}, {"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 12036, "text": "So this is just one factor of <EXPRESSION> that I have pulled out.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 12037, "text": "So that then I start with <EXPRESSION>, and then the next correction I have an <EXPRESSION> here, <EXPRESSION> here with opposite sign.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 79, "end_offset": 91}, {"label": "expression", "start_offset": 98, "end_offset": 110}]}
+{"id": 12038, "text": "So this is twice bigger than that.", "entities": []}
+{"id": 12039, "text": "So the sum total of them would be <EXPRESSION>-- one factor of <EXPRESSION> I have out front-- the other factor I will write here and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "command", "start_offset": 119, "end_offset": 124}, {"label": "expression", "start_offset": 134, "end_offset": 146}]}
+{"id": 12040, "text": "And then at order of <EXPRESSION>, I have a bunch of terms.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 12041, "text": "I have a <EXPRESSION> here, and from the product of these terms, I will have <EXPRESSION> disappear, I have <EXPRESSION> which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 77, "end_offset": 89}, {"label": "expression", "start_offset": 108, "end_offset": 120}, {"label": "expression", "start_offset": 130, "end_offset": 142}]}
+{"id": 12042, "text": "So the product of these things will give me a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 12043, "text": "I have <EXPRESSION> I will get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 12044, "text": "AUDIENCE: [INAUDIBLE].", "entities": []}
+{"id": 12045, "text": "PROFESSOR: OK.", "entities": []}
+{"id": 12046, "text": "And then we have <EXPRESSION> and this <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 12047, "text": "This is three times larger than this.", "entities": []}
+{"id": 12048, "text": "This is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 12049, "text": "Subtract one of them, I will be left <EXPRESSION> [?", "entities": [{"label": "command", "start_offset": 0, "end_offset": 8}, {"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 12050, "text": "<EXPRESSION> ?", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 12051, "text": "] <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 2, "end_offset": 14}]}
+{"id": 12052, "text": "And so forth.", "entities": []}
+{"id": 12053, "text": "So you can see that the form that we have is <EXPRESSION>-- the pressure-- starts with density.", "entities": [{"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 12054, "text": "I essentially divide it through by <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 14, "end_offset": 20}, {"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 12055, "text": "I start with the ideal gas result, <EXPRESSION>, and then I have a correction that is order of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 95, "end_offset": 107}]}
+{"id": 12056, "text": "I can write it as <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 11}, {"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 12057, "text": "In view up our [INAUDIBLE] co-efficients.", "entities": []}
+{"id": 12058, "text": "And we see that our <EXPRESSION> is <EXPRESSION> times-- sorry.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 12059, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 12060, "text": "Remember that <EXPRESSION>, et cetera, had dimensions of volume.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 12061, "text": "So if the volume is provided by <EXPRESSION>, it is an additional factor.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 12062, "text": "For fermions it's a positive pressure.", "entities": []}
+{"id": 12063, "text": "So the pressure goes up because fermions repel each other.", "entities": []}
+{"id": 12064, "text": "For bosons it is negative.", "entities": []}
+{"id": 12065, "text": "Bosons attract each other.", "entities": []}
+{"id": 12066, "text": "And we have actually", "entities": []}

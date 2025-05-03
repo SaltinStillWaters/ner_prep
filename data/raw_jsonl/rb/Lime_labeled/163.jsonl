@@ -1,483 +1,483 @@
-{"id":12562,"text":"PROFESSOR: All right, so let's begin lecture six.","label":[],"Comments":[]}
-{"id":12563,"text":"We're talking today about exponentials and logarithms.","label":[],"Comments":[]}
-{"id":12564,"text":"And these are the last functions that I need to introduce, the last standard functions that we need to connect with calculus, that you've learned about.","label":[],"Comments":[]}
-{"id":12565,"text":"And they're certainly as fundamental, if not more so, than trigonometric functions.","label":[],"Comments":[]}
-{"id":12566,"text":"So first of all, we'll start out with a number, <EXPRESSION>, which is positive, which is usually called a base.","label":[[48,60,"expression"]],"Comments":[]}
-{"id":12567,"text":"And then we have these properties that <EXPRESSION> is always <EXPRESSION>.","label":[[39,51,"expression"],[62,74,"expression"]],"Comments":[]}
-{"id":12568,"text":"That's how we get started.","label":[],"Comments":[]}
-{"id":12569,"text":"And <EXPRESSION> is <EXPRESSION>.","label":[[4,16,"expression"],[20,32,"expression"]],"Comments":[]}
-{"id":12570,"text":"And of course <EXPRESSION>, not surprisingly, is <EXPRESSION>, etc.","label":[[14,26,"expression"],[49,61,"expression"]],"Comments":[]}
-{"id":12571,"text":"And the general rule is that <EXPRESSION> is <EXPRESSION>.","label":[[29,41,"expression"],[45,57,"expression"]],"Comments":[]}
-{"id":12572,"text":"So this is the basic rule of exponents, and with these two initial properties, that defines the exponential function.","label":[],"Comments":[]}
-{"id":12573,"text":"And then there's an additional property, which is deduced from these, which is the composition of exponential functions, which is that you take <EXPRESSION>.","label":[[139,143,"command"],[144,156,"expression"]],"Comments":[]}
-{"id":12574,"text":"Then that turns out to be <EXPRESSION>.","label":[[26,38,"expression"]],"Comments":[]}
-{"id":12575,"text":"So that's an additional property that we'll take for granted, which you learned in high school.","label":[],"Comments":[]}
-{"id":12576,"text":"Now, in order to understand what all the values of <EXPRESSION> are, we need to first remember that if you're taking a rational power that it's the ratio of <EXPRESSION> integers power of <EXPRESSION>.","label":[[51,63,"expression"],[157,169,"expression"],[188,200,"expression"]],"Comments":[]}
-{"id":12577,"text":"That's going to be <EXPRESSION>, and then we're going to have to take the nth root of that.","label":[[19,31,"expression"]],"Comments":[]}
-{"id":12578,"text":"So that's the definition.","label":[],"Comments":[]}
-{"id":12579,"text":"And then, when you're defining <EXPRESSION>, so <EXPRESSION> is defined for all <EXPRESSION> by filling in.","label":[[31,43,"expression"],[48,60,"expression"],[80,92,"expression"]],"Comments":[]}
-{"id":12580,"text":"So I'm gonna use that expression in quotation marks, \"filling in\" by continuity.","label":[],"Comments":[]}
-{"id":12581,"text":"This is really what your calculator does when it gives you <EXPRESSION>, because you can't even punch in <EXPRESSION>.","label":[[59,71,"expression"],[105,117,"expression"]],"Comments":[]}
-{"id":12582,"text":"It doesn't really exist on your calculator.","label":[],"Comments":[]}
-{"id":12583,"text":"There's some decimal expansion.","label":[],"Comments":[]}
-{"id":12584,"text":"So it takes the decimal expansion to a certain length and spits out a number which is pretty close to the correct answer.","label":[],"Comments":[]}
-{"id":12585,"text":"But indeed, in theory, there is an <EXPRESSION>, even though the <EXPRESSION> is irrational.","label":[[35,47,"expression"],[65,77,"expression"]],"Comments":[]}
-{"id":12586,"text":"And there's <EXPRESSION> and so forth.","label":[[12,24,"expression"]],"Comments":[]}
-{"id":12587,"text":"All right, so that's the exponential function, and let's draw a picture of one.","label":[],"Comments":[]}
-{"id":12588,"text":"So we'll try, say <EQUATION> here.","label":[[18,28,"equation"]],"Comments":[]}
-{"id":12589,"text":"And I'm not going to draw such a careful graph, but let's just plot the most important point, which is the point (0, 1).","label":[[113,119,"term"]],"Comments":[]}
-{"id":12590,"text":"That's <EXPRESSION>, which is <EXPRESSION>.","label":[[7,19,"expression"],[30,42,"expression"]],"Comments":[]}
-{"id":12591,"text":"And then maybe we'll go back up here to <EXPRESSION> here.","label":[[40,52,"expression"]],"Comments":[]}
-{"id":12592,"text":"And <EXPRESSION> is this point here.","label":[[4,16,"expression"]],"Comments":[]}
-{"id":12593,"text":"This is (-1, 1\/2), the reciprocal.","label":[[8,17,"term"]],"Comments":[]}
-{"id":12594,"text":"And over here, we have <EXPRESSION>, and so that goes all the way up to <EXPRESSION>.","label":[[23,35,"expression"],[72,84,"expression"]],"Comments":[]}
-{"id":12595,"text":"And then exponentials are remarkably fast.","label":[],"Comments":[]}
-{"id":12596,"text":"So it's off the board what happens next out at <EXPRESSION>.","label":[[47,59,"expression"]],"Comments":[]}
-{"id":12597,"text":"It's already above my range here, but the graph looks something like this.","label":[],"Comments":[]}
-{"id":12598,"text":"All right.","label":[],"Comments":[]}
-{"id":12599,"text":"Now I've just visually, at least, graphically filled in all the rest of the points.","label":[],"Comments":[]}
-{"id":12600,"text":"You have to imagine all these rational numbers, and so forth.","label":[],"Comments":[]}
-{"id":12601,"text":"So this point here would have been (1, 2).","label":[[35,41,"term"]],"Comments":[]}
-{"id":12602,"text":"And so forth.","label":[],"Comments":[]}
-{"id":12603,"text":"All right?","label":[],"Comments":[]}
-{"id":12604,"text":"So that's not too far along.","label":[],"Comments":[]}
-{"id":12605,"text":"So now what's our goal?","label":[],"Comments":[]}
-{"id":12606,"text":"Well, obviously we want to do calculus here.","label":[],"Comments":[]}
-{"id":12607,"text":"So our goal, here, for now - and it's gonna take a while.","label":[],"Comments":[]}
-{"id":12608,"text":"We have to think about it pretty hard.","label":[],"Comments":[]}
-{"id":12609,"text":"We have to calculate what this derivative is.","label":[[11,20,"command"],[31,41,"command_attribute"]],"Comments":[]}
-{"id":12610,"text":"All right, so we'll get started.","label":[],"Comments":[]}
-{"id":12611,"text":"And the way we get started is simply by plugging in the definition of the derivative.","label":[],"Comments":[]}
-{"id":12612,"text":"The derivative is the limit as <EXPRESSION> goes to <EXPRESSION>.","label":[[31,43,"expression"],[52,64,"expression"]],"Comments":[]}
-{"id":12613,"text":"So that's what it is.","label":[],"Comments":[]}
-{"id":12614,"text":"And now, the only step that we can really perform here to make this is into something a little bit simpler is to use this very first rule that we have here.","label":[],"Comments":[]}
-{"id":12615,"text":"That the exponential of the sum is the product of the exponentials.","label":[],"Comments":[]}
-{"id":12616,"text":"So we have here, <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":12617,"text":"So what I want to use is just the property that <EQUATION>.","label":[[18,21,"command"],[48,58,"equation"]],"Comments":[]}
-{"id":12618,"text":"And if I do that, I see that I can factor out a common factor in the numerator, which is <EXPRESSION>.","label":[[35,41,"command"],[48,61,"command_attribute"],[89,100,"expression"]],"Comments":[]}
-{"id":12619,"text":"So we'll write this as the limit as <EXPRESSION> goes to <EXPRESSION> times this ratio, now <EXPRESSION>.","label":[[9,14,"command"],[36,48,"expression"],[57,69,"expression"],[70,75,"command"],[92,104,"expression"]],"Comments":[]}
-{"id":12620,"text":"So far, so good?","label":[],"Comments":[]}
-{"id":12621,"text":"We're actually almost to some serious progress here.","label":[],"Comments":[]}
-{"id":12622,"text":"So there's one other important conceptual step which we need to understand.","label":[],"Comments":[]}
-{"id":12623,"text":"And this is a relatively simple one.","label":[],"Comments":[]}
-{"id":12624,"text":"We actually did this before, by the way.","label":[],"Comments":[]}
-{"id":12625,"text":"We did this with sines and cosines.","label":[],"Comments":[]}
-{"id":12626,"text":"The next thing I want to point out to you is that you're used to thinking of <EXPRESSION> as being the variable.","label":[],"Comments":[]}
-{"id":12627,"text":"And indeed, already we were discussing <EXPRESSION> as being the variable and <EXPRESSION> as being fixed.","label":[[39,51,"expression"],[78,90,"expression"]],"Comments":[]}
-{"id":12628,"text":"But for the purposes of this limit, there's a different variable that's moving.","label":[],"Comments":[]}
-{"id":12629,"text":"<EXPRESSION> is fixed and <EXPRESSION> is the thing that's moving.","label":[[0,12,"expression"],[26,38,"expression"]],"Comments":[]}
-{"id":12630,"text":"So that means that this factor here, which is a common factor, is constant.","label":[],"Comments":[]}
-{"id":12631,"text":"And we can just factor it out of the limit.","label":[],"Comments":[]}
-{"id":12632,"text":"It doesn't affect the limit at all.","label":[],"Comments":[]}
-{"id":12633,"text":"A constant times a limit is the same as whether we multiply before or after we take the limit.","label":[],"Comments":[]}
-{"id":12634,"text":"So I'm just going to factor that out.","label":[],"Comments":[]}
-{"id":12635,"text":"So that's my next step here.","label":[],"Comments":[]}
-{"id":12636,"text":"<EXPRESSION>, and then I have the limit <EXPRESSION> goes to <EXPRESSION> of <EXPRESSION>.","label":[[0,12,"expression"],[40,52,"expression"],[61,73,"expression"],[77,89,"expression"]],"Comments":[]}
-{"id":12637,"text":"All right?","label":[],"Comments":[]}
-{"id":12638,"text":"And so what I have here, so this is by definition the derivative.","label":[],"Comments":[]}
-{"id":12639,"text":"So here is <EXPRESSION>, and it's = this expression here.","label":[[11,23,"expression"]],"Comments":[]}
-{"id":12640,"text":"Now, I want to stare at this expression, and see what it's telling us, because it's telling us as much as we can get so far, without some-- So first let's just look at what this says.","label":[],"Comments":[]}
-{"id":12641,"text":"So what it's saying is that the derivative of <EXPRESSION> is <EXPRESSION> times something that we don't yet know.","label":[[46,58,"expression"],[62,74,"expression"]],"Comments":[]}
-{"id":12642,"text":"And I'm going to call this something, this mystery number, <EXPRESSION>.","label":[[59,71,"expression"]],"Comments":[]}
-{"id":12643,"text":"So I'm gonna make the label, <EXPRESSION> = the limit as <EXPRESSION> goes to <EXPRESSION> of a to the <EXPRESSION>.","label":[[13,17,"command"],[29,41,"expression"],[57,69,"expression"],[78,90,"expression"],[103,115,"expression"]],"Comments":[]}
-{"id":12644,"text":"All right?","label":[],"Comments":[]}
-{"id":12645,"text":"So this is a definition.","label":[],"Comments":[]}
-{"id":12646,"text":"So this mystery number <EXPRESSION> has a geometric interpretation, as well.","label":[[23,35,"expression"]],"Comments":[]}
-{"id":12647,"text":"So let me describe that.","label":[],"Comments":[]}
-{"id":12648,"text":"It has a geometric interpretation, and it's a very, very significant number.","label":[],"Comments":[]}
-{"id":12649,"text":"So let's work out what that is.","label":[[9,17,"command"]],"Comments":[]}
-{"id":12650,"text":"So first of all, let's rewrite the expression in the box, using the shorthand for this number.","label":[[23,30,"command"],[35,45,"command_attribute"]],"Comments":[]}
-{"id":12651,"text":"So if I just rewrite it, it says <EXPRESSION> = this factor, which is <EXPRESSION>, times <EXPRESSION>.","label":[[13,20,"command"],[33,45,"expression"],[70,82,"expression"],[84,89,"command"],[90,102,"expression"]],"Comments":[]}
-{"id":12652,"text":"So the derivative of the exponential is this mystery number times <EXPRESSION>.","label":[[60,65,"command"],[66,78,"expression"]],"Comments":[]}
-{"id":12653,"text":"So we've almost solved the problem of finding the derivative of <EXPRESSION>.","label":[[64,76,"expression"]],"Comments":[]}
-{"id":12654,"text":"We just have to figure out this one number, <EXPRESSION>, and we get the rest.","label":[[44,56,"expression"]],"Comments":[]}
-{"id":12655,"text":"So let me point out two more things about this number, <EXPRESSION>.","label":[[55,67,"expression"]],"Comments":[]}
-{"id":12656,"text":"So first of all, if I plug in <EQUATION>, that's going to be <EXPRESSION> , at <EQUATION>.","label":[[22,29,"command"],[30,40,"equation"],[61,73,"expression"],[79,88,"equation"]],"Comments":[]}
-{"id":12657,"text":"According to this formula, that's <EXPRESSION>, which of course <EXPRESSION>.","label":[[34,46,"expression"],[64,76,"expression"]],"Comments":[]}
-{"id":12658,"text":"So what is <EXPRESSION>?","label":[[11,23,"expression"]],"Comments":[]}
-{"id":12659,"text":"<EXPRESSION> is the derivative of this function at <EXPRESSION>.","label":[[0,12,"expression"],[51,63,"expression"]],"Comments":[]}
-{"id":12660,"text":"So <EXPRESSION> is the slope of <EQUATION>, of the graph.","label":[[3,15,"expression"],[32,42,"equation"]],"Comments":[]}
-{"id":12661,"text":"The graph of <EXPRESSION> at <EXPRESSION>.","label":[[13,25,"expression"],[29,41,"expression"]],"Comments":[]}
-{"id":12662,"text":"So again over here, if you looked at the picture.","label":[],"Comments":[]}
-{"id":12663,"text":"I'll draw the one tangent line in here, which is this one here.","label":[],"Comments":[]}
-{"id":12664,"text":"And this thing has slope, what we're calling <EXPRESSION>.","label":[[45,57,"expression"]],"Comments":[]}
-{"id":12665,"text":"So, if I graph the function <EQUATION>, I'll get a certain slope here.","label":[[9,14,"command"],[15,27,"command_attribute"],[28,38,"equation"]],"Comments":[]}
-{"id":12666,"text":"If I graph it with a different base, I might get another slope.","label":[],"Comments":[]}
-{"id":12667,"text":"And what we got so far is the following phenomenon: if we know this one number, if we know the slope at this one place, we will be able to figure out the formula for the slope everywhere else.","label":[],"Comments":[]}
-{"id":12668,"text":"Now, that's actually exactly the same thing that we did for sines and cosines.","label":[],"Comments":[]}
-{"id":12669,"text":"We knew the slope of the <EXPRESSION> and the <EXPRESSION> function at <EQUATION>.","label":[[25,37,"expression"],[46,58,"expression"],[71,81,"equation"]],"Comments":[]}
-{"id":12670,"text":"The sine function had slope <EXPRESSION>.","label":[[28,40,"expression"]],"Comments":[]}
-{"id":12671,"text":"The cosine function had slope <EXPRESSION>.","label":[[30,42,"expression"]],"Comments":[]}
-{"id":12672,"text":"And then from the sum formulas, well that's exactly this kind of thing here, from the sum formulas.","label":[],"Comments":[]}
-{"id":12673,"text":"This sum formula, in fact is easier than the ones for <EXPRESSION> and <EXPRESSION>.","label":[[54,66,"expression"],[71,83,"expression"]],"Comments":[]}
-{"id":12674,"text":"From the sum formulas, we worked out what the slope was everywhere.","label":[],"Comments":[]}
-{"id":12675,"text":"So we're following the same procedure that we did before.","label":[],"Comments":[]}
-{"id":12676,"text":"But at this point we're stuck.","label":[],"Comments":[]}
-{"id":12677,"text":"We're stuck, because that time using radians, this very clever idea of radians in geometry, we were able to actually figure out what the slope is.","label":[],"Comments":[]}
-{"id":12678,"text":"Whereas here, we're not so sure, what <EXPRESSION> is, for instance.","label":[[38,50,"expression"]],"Comments":[]}
-{"id":12679,"text":"We just don't know yet.","label":[],"Comments":[]}
-{"id":12680,"text":"So, the basic question that we have to deal with right now is what is <EXPRESSION>?","label":[[70,82,"expression"]],"Comments":[]}
-{"id":12681,"text":"That's what we're left with.","label":[],"Comments":[]}
-{"id":12682,"text":"And, the curious fact is that the clever thing to do is to beg the question.","label":[],"Comments":[]}
-{"id":12683,"text":"So we're going to go through a very circular route here.","label":[],"Comments":[]}
-{"id":12684,"text":"That is circuitous, not circular.","label":[],"Comments":[]}
-{"id":12685,"text":"Circular is a bad word in math.","label":[],"Comments":[]}
-{"id":12686,"text":"That means that one thing depends on another, and that depends on it, and maybe both are wrong.","label":[],"Comments":[]}
-{"id":12687,"text":"Circuitous means, we're going to be taking a roundabout route.","label":[],"Comments":[]}
-{"id":12688,"text":"And we're going to discover that even though we refuse to answer this question right now, we'll succeed in answering it eventually.","label":[],"Comments":[]}
-{"id":12689,"text":"All right?","label":[],"Comments":[]}
-{"id":12690,"text":"So how are we going to beg the question?","label":[],"Comments":[]}
-{"id":12691,"text":"What we're going to say instead is we're going to define a mystery base, or number <EXPRESSION>, as the unique number, so that <EQUATION>.","label":[[50,56,"command"],[83,95,"expression"],[127,137,"equation"]],"Comments":[]}
-{"id":12692,"text":"That's the trick that we're going to use.","label":[],"Comments":[]}
-{"id":12693,"text":"We don't yet know what <EXPRESSION> is, but we're just going to suppose that we have it.","label":[[23,35,"expression"]],"Comments":[]}
-{"id":12694,"text":"Now, I'm going to show you a bunch of consequences of this, and also I have to persuade you that it actually does exist.","label":[],"Comments":[]}
-{"id":12695,"text":"So first, let me explain what the first consequence is.","label":[],"Comments":[]}
-{"id":12696,"text":"First of all, if <EXPRESSION> is <EXPRESSION>, then if you look at this formula over here and you write it down for e, you have something which is a very usable formula.","label":[[17,29,"expression"],[33,45,"expression"],[116,117,"term"]],"Comments":[]}
-{"id":12697,"text":"<EXPRESSION> is just <EXPRESSION>.","label":[[0,12,"expression"],[21,33,"expression"]],"Comments":[]}
-{"id":12698,"text":"All right, so that's an incredibly important formula which is the fundamental one.","label":[],"Comments":[]}
-{"id":12699,"text":"It's the only one you have to remember from what we've done.","label":[],"Comments":[]}
-{"id":12700,"text":"So maybe I should have highlighted it in several colors here.","label":[],"Comments":[]}
-{"id":12701,"text":"That's a big deal.","label":[],"Comments":[]}
-{"id":12702,"text":"Very happy.","label":[],"Comments":[]}
-{"id":12703,"text":"And again, let me just emphasize, also that this is the one which at <EQUATION> has slope <EXPRESSION>.","label":[[69,79,"equation"],[90,102,"expression"]],"Comments":[]}
-{"id":12704,"text":"That's the way we defined it, alright?","label":[],"Comments":[]}
-{"id":12705,"text":"So if you plug in <EQUATION> here on the right hand side, you got <EXPRESSION>.","label":[[10,17,"command"],[18,28,"equation"],[66,78,"expression"]],"Comments":[]}
-{"id":12706,"text":"Slope <EXPRESSION> at <EQUATION>.","label":[[6,17,"expression"],[22,32,"equation"]],"Comments":[]}
-{"id":12707,"text":"So that's great.","label":[],"Comments":[]}
-{"id":12708,"text":"Except of course, since we don't know what <EXPRESSION> is, this is a little bit dicey.","label":[[43,55,"expression"]],"Comments":[]}
-{"id":12709,"text":"So, next even before explaining what <EXPRESSION> is.","label":[[37,49,"expression"]],"Comments":[]}
-{"id":12710,"text":".","label":[],"Comments":[]}
-{"id":12711,"text":".","label":[],"Comments":[]}
-{"id":12712,"text":"In fact, we won't get to what <EXPRESSION> really is until the very end of this lecture.","label":[[30,42,"expression"]],"Comments":[]}
-{"id":12713,"text":"But I have to persuade you why <EXPRESSION> exists.","label":[[31,43,"expression"]],"Comments":[]}
-{"id":12714,"text":"We have to have some explanation for why we know there is such a number.","label":[],"Comments":[]}
-{"id":12715,"text":"Okay, so first of all, let me start with the one that we supposedly know, which is the function <EXPRESSION>.","label":[[96,108,"expression"]],"Comments":[]}
-{"id":12716,"text":"We'll call it <EXPRESSION> is <EXPRESSION>.","label":[[6,10,"command"],[14,26,"expression"],[30,42,"expression"]],"Comments":[]}
-{"id":12717,"text":"All right?","label":[],"Comments":[]}
-{"id":12718,"text":"So that's the first thing.","label":[],"Comments":[]}
-{"id":12719,"text":"And remember, that the property that it had, was that <EXPRESSION> was <EXPRESSION>.","label":[[54,66,"expression"],[71,83,"expression"]],"Comments":[]}
-{"id":12720,"text":"That was the derivative of this function, the slope at <EQUATION> of the graph.","label":[[55,65,"equation"]],"Comments":[]}
-{"id":12721,"text":"Of the tangent line, that is.","label":[],"Comments":[]}
-{"id":12722,"text":"So now, what we're going to consider is any kind of stretching.","label":[],"Comments":[]}
-{"id":12723,"text":"We're going to stretch this function by a factor <EXPRESSION>.","label":[[15,22,"command"],[28,36,"command_attribute"],[49,61,"expression"]],"Comments":[]}
-{"id":12724,"text":"Any number <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
-{"id":12725,"text":"So what we're going to consider is <EXPRESSION>.","label":[[35,47,"expression"]],"Comments":[]}
-{"id":12726,"text":"If you do that, that's the same as <EXPRESSION>.","label":[[36,47,"expression"]],"Comments":[]}
-{"id":12727,"text":"Right?","label":[],"Comments":[]}
-{"id":12728,"text":"But now if I use the second law of exponents that I have over there, that's the same thing as <EXPRESSION>, which is the same thing as some base <EXPRESSION>, where <EXPRESSION> =-- Let's write that down over here.","label":[[13,16,"command"],[21,44,"command_attribute"],[94,106,"expression"],[145,157,"expression"],[165,177,"expression"],[188,193,"command"]],"Comments":[]}
-{"id":12729,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
-{"id":12730,"text":"Right.","label":[],"Comments":[]}
-{"id":12731,"text":"So whatever it is, if I have a different base which is expressed in terms of <EXPRESSION>, of the form <EXPRESSION>, then that new function is described by this function <EXPRESSION>, the stretch.","label":[[77,89,"expression"],[103,115,"expression"],[170,182,"expression"]],"Comments":[]}
-{"id":12732,"text":"So what happens when you stretch a function?","label":[],"Comments":[]}
-{"id":12733,"text":"That's the same thing as shrinking the x axis.","label":[],"Comments":[]}
-{"id":12734,"text":"So when <EXPRESSION> gets larger, this corresponding point over here would be over here, and so this corresponding point would be over here.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":12735,"text":"So you shrink this picture, and the slope here tilts up.","label":[],"Comments":[]}
-{"id":12736,"text":"So, as we increase <EXPRESSION>, the slope gets steeper and steeper.","label":[[19,31,"expression"]],"Comments":[]}
-{"id":12737,"text":"Let's see that explicitly, numerically, here.","label":[],"Comments":[]}
-{"id":12738,"text":"Explicitly, numerically, if I take the derivative here.","label":[[30,34,"command"],[39,49,"command_attribute"]],"Comments":[]}
-{"id":12739,"text":".","label":[],"Comments":[]}
-{"id":12740,"text":".","label":[],"Comments":[]}
-{"id":12741,"text":"So the derivative with respect to <EXPRESSION>, that's the chain rule, right?","label":[[34,46,"expression"]],"Comments":[]}
-{"id":12742,"text":"That's the derivative with respect to <EXPRESSION>, which is what?","label":[[38,50,"expression"]],"Comments":[]}
-{"id":12743,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
-{"id":12744,"text":"And so if we do it at <EXPRESSION>, we're just getting <EXPRESSION>, which is <EXPRESSION> times this <EXPRESSION>.","label":[[22,34,"expression"],[55,67,"expression"],[78,90,"expression"],[91,96,"command"],[102,113,"expression"]],"Comments":[]}
-{"id":12745,"text":"So how is it exactly that we cook up the right base <EXPRESSION>?","label":[[52,64,"expression"]],"Comments":[]}
-{"id":12746,"text":"So <EQUATION> when <EQUATION> over this number.","label":[[3,13,"equation"],[19,29,"equation"]],"Comments":[]}
-{"id":12747,"text":"In other words, we can pick all possible slopes that we want.","label":[],"Comments":[]}
-{"id":12748,"text":"This just has the effect of multiplying the slope by a factor.","label":[],"Comments":[]}
-{"id":12749,"text":"And we can shift the slope at <EXPRESSION> however we want, and we're going to do it so that the slope exactly matches <EXPRESSION>, the one that we want.","label":[[11,16,"command"],[21,26,"command_attribute"],[30,42,"expression"],[119,131,"expression"]],"Comments":[]}
-{"id":12750,"text":"We still don't know what <EXPRESSION> is.","label":[[25,37,"expression"]],"Comments":[]}
-{"id":12751,"text":"We still don't know what <EXPRESSION> is.","label":[[25,37,"expression"]],"Comments":[]}
-{"id":12752,"text":"But at least we know that it's there somewhere.","label":[],"Comments":[]}
-{"id":12753,"text":"Yes?","label":[],"Comments":[]}
-{"id":12754,"text":"Student: How do you know it's <EXPRESSION>?","label":[[30,42,"expression"]],"Comments":[]}
-{"id":12755,"text":"PROFESSOR: How do I know?","label":[],"Comments":[]}
-{"id":12756,"text":"Well, <EXPRESSION> is <EXPRESSION>.","label":[[6,18,"expression"],[22,34,"expression"]],"Comments":[]}
-{"id":12757,"text":"If <EXPRESSION> is <EXPRESSION>, then the formula for <EXPRESSION> is this.","label":[[3,15,"expression"],[19,31,"expression"],[54,66,"expression"]],"Comments":[]}
-{"id":12758,"text":"I've decided what <EXPRESSION> is, so therefore there's a formula for <EXPRESSION>.","label":[[18,30,"expression"],[70,82,"expression"]],"Comments":[]}
-{"id":12759,"text":"And furthermore, by the chain rule, there's a formula for the derivative.","label":[[24,34,"method"]],"Comments":[]}
-{"id":12760,"text":"And it's <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
-{"id":12761,"text":"So again, scaling does this.","label":[],"Comments":[]}
-{"id":12762,"text":"By the way, we did exactly the same thing with the <EXPRESSION> and <EXPRESSION> function.","label":[[51,63,"expression"],[68,80,"expression"]],"Comments":[]}
-{"id":12763,"text":"If you think of the sine function here, let me just remind you here, what happens with the chain rule, you get <EXPRESSION> here.","label":[[91,101,"method"],[111,123,"expression"]],"Comments":[]}
-{"id":12764,"text":"So the fact that we set things up beautifully with radians that this thing is, but we could change the scale to anything, such as degrees, by the appropriate factor <EXPRESSION>.","label":[[165,177,"expression"]],"Comments":[]}
-{"id":12765,"text":"And then there would be this scale factor shift of the derivative formulas.","label":[],"Comments":[]}
-{"id":12766,"text":"Of course, the one with radians is the easy one, because the factor is <EXPRESSION>.","label":[[71,83,"expression"]],"Comments":[]}
-{"id":12767,"text":"The one with degrees is horrible, because the factor is some crazy number like <EXPRESSION>, or something like that.","label":[[79,91,"expression"]],"Comments":[]}
-{"id":12768,"text":"Okay, so there's something going on here which is exactly the same as that kind of re-scaling.","label":[],"Comments":[]}
-{"id":12769,"text":"So, so far we've got only one formula which is a keeper here.","label":[],"Comments":[]}
-{"id":12770,"text":"This one.","label":[],"Comments":[]}
-{"id":12771,"text":"We have a preliminary formula that we still haven't completely explained which has a little wavy line there.","label":[],"Comments":[]}
-{"id":12772,"text":"And we have to fit all these things together.","label":[],"Comments":[]}
-{"id":12773,"text":"Okay, so now to fit them together, I need to introduce the natural log.","label":[],"Comments":[]}
-{"id":12774,"text":"So the natural log is denoted this way, <EXPRESSION>.","label":[[40,52,"expression"]],"Comments":[]}
-{"id":12775,"text":"So maybe I'll call it a new letter name, we'll call it <EQUATION> here.","label":[[14,18,"command"],[47,51,"command"],[55,65,"equation"]],"Comments":[]}
-{"id":12776,"text":"But if we were reversing things, if we started out with a function <EQUATION> , the property that it would have is that it's the inverse function of <EXPRESSION>.","label":[[67,77,"equation"],[149,161,"expression"]],"Comments":[]}
-{"id":12777,"text":"So it has the property that the <EQUATION>.","label":[[32,42,"equation"]],"Comments":[]}
-{"id":12778,"text":"Right?","label":[],"Comments":[]}
-{"id":12779,"text":"So this defines the <EXPRESSION>.","label":[[20,32,"expression"]],"Comments":[]}
-{"id":12780,"text":"Now the logarithm has a bunch of properties and they come from the exponential properties in principle.","label":[],"Comments":[]}
-{"id":12781,"text":"You remember these.","label":[],"Comments":[]}
-{"id":12782,"text":"And I'm just going to remind you of them.","label":[],"Comments":[]}
-{"id":12783,"text":"So the main one that I just want to remind you of is that the <EXPRESSION>.","label":[[62,74,"expression"]],"Comments":[]}
-{"id":12784,"text":"And maybe a few more are worth reminding you of.","label":[],"Comments":[]}
-{"id":12785,"text":"One is that the logarithm of <EXPRESSION> is <EXPRESSION>.","label":[[29,41,"expression"],[45,57,"expression"]],"Comments":[]}
-{"id":12786,"text":"A second is that the logarithm of <EXPRESSION> is <EXPRESSION>.","label":[[34,46,"expression"],[50,62,"expression"]],"Comments":[]}
-{"id":12787,"text":"All right?","label":[],"Comments":[]}
-{"id":12788,"text":"So these correspond to the inverse relationships here.","label":[],"Comments":[]}
-{"id":12789,"text":"If I plug in here, <EQUATION> and <EQUATION>.","label":[[5,12,"command"],[19,29,"equation"],[34,44,"equation"]],"Comments":[]}
-{"id":12790,"text":"If I plug in <EQUATION> and <EQUATION>, I get the corresponding numbers here: <EQUATION> and <EQUATION>.","label":[[5,12,"command"],[13,23,"equation"],[28,38,"equation"],[78,88,"equation"],[93,103,"equation"]],"Comments":[]}
-{"id":12791,"text":"And maybe it would be worth it to plot the picture once to reinforce this.","label":[],"Comments":[]}
-{"id":12792,"text":"So here I'll put them on the same chart.","label":[[13,16,"command"]],"Comments":[]}
-{"id":12793,"text":"If you have here <EXPRESSION> over here.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":12794,"text":"It looks like this.","label":[],"Comments":[]}
-{"id":12795,"text":"Then the logarithm which I'll maybe put in a different color.","label":[],"Comments":[]}
-{"id":12796,"text":"So this crosses at this all-important point here, (0, 1).","label":[[50,56,"term"]],"Comments":[]}
-{"id":12797,"text":"And now in order to figure out what the inverse function is, I have to take the flip across the diagonal <EQUATION>.","label":[[105,115,"equation"]],"Comments":[]}
-{"id":12798,"text":"So that's this shape here, going down like this.","label":[],"Comments":[]}
-{"id":12799,"text":"And here's the point (1, 0).","label":[[21,27,"term"]],"Comments":[]}
-{"id":12800,"text":"So (1, 0) corresponds to this identity here.","label":[[3,9,"term"]],"Comments":[]}
-{"id":12801,"text":"But the <EXPRESSION> is <EXPRESSION>.","label":[[8,20,"expression"],[24,36,"expression"]],"Comments":[]}
-{"id":12802,"text":"And notice, so this is <EXPRESSION>, the graph of <EXPRESSION>.","label":[[23,35,"expression"],[50,62,"expression"]],"Comments":[]}
-{"id":12803,"text":"And notice it's only defined for <EXPRESSION> positive, which corresponds to the fact that <EXPRESSION> is always positive.","label":[[33,45,"expression"],[91,103,"expression"]],"Comments":[]}
-{"id":12804,"text":"So in other words, this white curve is only above this axis, and the orange one is to the right here.","label":[],"Comments":[]}
-{"id":12805,"text":"It's only defined for <EXPRESSION> positive.","label":[[22,34,"expression"]],"Comments":[]}
-{"id":12806,"text":"Oh, one other thing I should mention is the slope here is <EXPRESSION>.","label":[[58,70,"expression"]],"Comments":[]}
-{"id":12807,"text":"And so the slope there is also going to be <EXPRESSION>.","label":[[43,55,"expression"]],"Comments":[]}
-{"id":12808,"text":"Now, what we're allowed to do relatively easily, because we have the tools to do it, is to compute the derivative of the logarithm.","label":[],"Comments":[]}
-{"id":12809,"text":"So to find the derivative of <EXPRESSION>, we're going to use implicit differentiation.","label":[[29,41,"expression"],[58,61,"command"],[62,86,"method"]],"Comments":[]}
-{"id":12810,"text":"This is how we find the derivative of any inverse function.","label":[],"Comments":[]}
-{"id":12811,"text":"So remember the way that works is if you know the derivative of the function, you can find the derivative of the inverse function.","label":[],"Comments":[]}
-{"id":12812,"text":"And the mechanism is the following: you write down here <EQUATION>.","label":[[40,45,"command"],[56,66,"equation"]],"Comments":[]}
-{"id":12813,"text":"Here's the function.","label":[],"Comments":[]}
-{"id":12814,"text":"We're trying to find the derivative of <EXPRESSION>.","label":[[39,51,"expression"]],"Comments":[]}
-{"id":12815,"text":"But now we don't know how to differentiate this equation, but if we exponentiate it, so that's the same thing as <EQUATION>.","label":[[113,123,"equation"]],"Comments":[]}
-{"id":12816,"text":"Because let's just stick this in here.","label":[],"Comments":[]}
-{"id":12817,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
-{"id":12818,"text":"Now we can differentiate this.","label":[],"Comments":[]}
-{"id":12819,"text":"So let's do the differentiation here.","label":[],"Comments":[]}
-{"id":12820,"text":"We have <EQUATION>, which is <EXPRESSION>.","label":[[8,18,"equation"],[29,41,"expression"]],"Comments":[]}
-{"id":12821,"text":"And then this, by the chain rule, is <EXPRESSION>.","label":[[22,32,"method"],[37,49,"expression"]],"Comments":[]}
-{"id":12822,"text":"The product of these two factors.","label":[],"Comments":[]}
-{"id":12823,"text":"That's = <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
-{"id":12824,"text":"And now this guy, the one little guy that we actually know and can use, that's this guy here.","label":[],"Comments":[]}
-{"id":12825,"text":"So this is <EXPRESSION>, which is <EXPRESSION>.","label":[[11,23,"expression"],[34,46,"expression"]],"Comments":[]}
-{"id":12826,"text":"And so finally, <EQUATION>.","label":[[16,26,"equation"]],"Comments":[]}
-{"id":12827,"text":"But what is that?","label":[],"Comments":[]}
-{"id":12828,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
-{"id":12829,"text":"So this is <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
-{"id":12830,"text":"So what we discovered is, and now I get to put another green guy around here, is that this = <EXPRESSION>.","label":[[93,105,"expression"]],"Comments":[]}
-{"id":12831,"text":"So alright, now we have two companion formulas here.","label":[],"Comments":[]}
-{"id":12832,"text":"The rate of change of <EXPRESSION> is <EXPRESSION>.","label":[[22,34,"expression"],[38,50,"expression"]],"Comments":[]}
-{"id":12833,"text":"And the rate of change of <EXPRESSION> is itself, is <EXPRESSION>.","label":[],"Comments":[]}
-{"id":12834,"text":"And it's time to return to the problem that we were having a little bit of trouble with, which is somewhat not explicit, which is this <EXPRESSION>.","label":[[135,147,"expression"]],"Comments":[]}
-{"id":12835,"text":"We want to now differentiate <EXPRESSION> in general, not just <EXPRESSION>.","label":[[15,28,"command"],[29,41,"expression"],[63,75,"expression"]],"Comments":[]}
-{"id":12836,"text":"So let's work that out, and I want to explain it in a couple of ways, so you're going to have to remember this, because I'm going to erase it.","label":[],"Comments":[]}
-{"id":12837,"text":"But what I'd like you to do is, so now I want to teach you how to differentiate basically any exponential.","label":[],"Comments":[]}
-{"id":12838,"text":"So now to differentiate any exponential.","label":[],"Comments":[]}
-{"id":12839,"text":"There are two methods.","label":[],"Comments":[]}
-{"id":12840,"text":"They're practically the same method.","label":[],"Comments":[]}
-{"id":12841,"text":"They have the same amount of arithmetic.","label":[],"Comments":[]}
-{"id":12842,"text":"You'll see both of them, and they're equally valuable.","label":[],"Comments":[]}
-{"id":12843,"text":"So we're going to just describe them.","label":[],"Comments":[]}
-{"id":12844,"text":"Method one I'm going to illustrate on the function <EXPRESSION>.","label":[[51,63,"expression"]],"Comments":[]}
-{"id":12845,"text":"So we're interested in differentiating this thing, exactly this problem that I still didn't solve yet.","label":[],"Comments":[]}
-{"id":12846,"text":"Okay?","label":[],"Comments":[]}
-{"id":12847,"text":"So here it is.","label":[],"Comments":[]}
-{"id":12848,"text":"And here's the procedure.","label":[],"Comments":[]}
-{"id":12849,"text":"The procedure is to write, so the method is to use base <EXPRESSION>, or convert to base .","label":[[47,50,"command"],[56,68,"expression"],[73,80,"command"]],"Comments":[]}
-{"id":12850,"text":"So how do you convert to base <EXPRESSION>?","label":[[14,21,"command"],[30,42,"expression"]],"Comments":[]}
-{"id":12851,"text":"Well, you write <EXPRESSION> as <EXPRESSION> to some power.","label":[[10,15,"command"],[16,28,"expression"],[32,44,"expression"]],"Comments":[]}
-{"id":12852,"text":"So what power is it?","label":[],"Comments":[]}
-{"id":12853,"text":"It's <EXPRESSION> to the power <EXPRESSION>, to the power <EXPRESSION>.","label":[[5,17,"expression"],[31,42,"expression"],[58,70,"expression"]],"Comments":[]}
-{"id":12854,"text":"And that is just <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":12855,"text":"So we've made our conversion now to base <EXPRESSION>.","label":[[41,53,"expression"]],"Comments":[]}
-{"id":12856,"text":"The exponential of something.","label":[],"Comments":[]}
-{"id":12857,"text":"So now I'm going to carry out the differentiation.","label":[],"Comments":[]}
-{"id":12858,"text":"So <EQUATION>.","label":[[3,13,"equation"]],"Comments":[]}
-{"id":12859,"text":"And now, this is a step which causes great confusion when you first see it.","label":[],"Comments":[]}
-{"id":12860,"text":"And you must get used to it, because it's easy, not hard.","label":[],"Comments":[]}
-{"id":12861,"text":"Okay?","label":[],"Comments":[]}
-{"id":12862,"text":"The rate of change of this with respect to <EXPRESSION> is, let me do it by analogy here.","label":[[43,55,"expression"]],"Comments":[]}
-{"id":12863,"text":"Because say I had <EXPRESSION> and I were differentiating it.","label":[[18,30,"expression"]],"Comments":[]}
-{"id":12864,"text":"The chain rule would say that this is just <EXPRESSION>, the rate of change of <EXPRESSION> with respect to <EXPRESSION>.","label":[[4,14,"method"],[43,55,"expression"],[79,91,"expression"],[108,120,"expression"]],"Comments":[]}
-{"id":12865,"text":"The rate of change of <EXPRESSION> with respect to <EXPRESSION>.","label":[[22,34,"expression"],[51,63,"expression"]],"Comments":[]}
-{"id":12866,"text":"So this is the ordinary chain rule.","label":[[24,34,"method"]],"Comments":[]}
-{"id":12867,"text":"And what we're doing up here is exactly the same thing, because <EXPRESSION>, as frightening as it looks, with all three letters there, is just a fixed number.","label":[[64,76,"expression"]],"Comments":[]}
-{"id":12868,"text":"It's not moving.","label":[],"Comments":[]}
-{"id":12869,"text":"It's a constant.","label":[],"Comments":[]}
-{"id":12870,"text":"So the constant just accelerates the rate of change by that factor, which is what the chain rule is doing.","label":[[86,96,"method"]],"Comments":[]}
-{"id":12871,"text":"So this = <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":12872,"text":"Same business here with ln a replacing <EXPRESSION>.","label":[[39,51,"expression"]],"Comments":[]}
-{"id":12873,"text":"So this is something you've got to get used to in time for the exam, for instance, because you're going to be doing a million of these.","label":[],"Comments":[]}
-{"id":12874,"text":"So do get used to it.","label":[],"Comments":[]}
-{"id":12875,"text":"So here's the formula.","label":[],"Comments":[]}
-{"id":12876,"text":"On the other hand, this expression here was the same as <EXPRESSION>.","label":[[56,68,"expression"]],"Comments":[]}
-{"id":12877,"text":"So another way of writing this, and I'll put this into a box, but actually I never remember this particularly.","label":[],"Comments":[]}
-{"id":12878,"text":"I just re-derive it every time, is that the derivative of <EQUATION>.","label":[[58,68,"equation"]],"Comments":[]}
-{"id":12879,"text":"Now I'm going to get rid of what's underneath it.","label":[],"Comments":[]}
-{"id":12880,"text":"So this is another formula.","label":[],"Comments":[]}
-{"id":12881,"text":"So there's the formula I've essentially finished here.","label":[],"Comments":[]}
-{"id":12882,"text":"And notice, what is the magic number?","label":[],"Comments":[]}
-{"id":12883,"text":"The magic number is the natural log of <EXPRESSION>.","label":[[39,51,"expression"]],"Comments":[]}
-{"id":12884,"text":"That's what it was.","label":[],"Comments":[]}
-{"id":12885,"text":"We didn't know what it was in advance.","label":[],"Comments":[]}
-{"id":12886,"text":"This is what it is.","label":[],"Comments":[]}
-{"id":12887,"text":"It's the natural log of <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
-{"id":12888,"text":"Let me emphasize to you again, something about what's going on here, which has to do with scale change.","label":[],"Comments":[]}
-{"id":12889,"text":"So, for example, the derivative with respect to <EXPRESSION>.","label":[[48,60,"expression"]],"Comments":[]}
-{"id":12890,"text":"The derivative with respect to <EXPRESSION>, these are the two most obvious bases that you might want to use, is <EXPRESSION>.","label":[[31,43,"expression"],[113,125,"expression"]],"Comments":[]}
-{"id":12891,"text":"So one of the things that's natural about the natural logarithm is that even if we insisted that we must use base <EXPRESSION>, or that we must use base <EXPRESSION>, we'd still be stuck with natural logarithms.","label":[[114,126,"expression"],[153,165,"expression"]],"Comments":[]}
-{"id":12892,"text":"They come up naturally.","label":[],"Comments":[]}
-{"id":12893,"text":"They're the ones which are independent of our human construct of base <EXPRESSION> and base <EXPRESSION>.","label":[[70,82,"expression"],[92,104,"expression"]],"Comments":[]}
-{"id":12894,"text":"The natural logarithm is the one that comes up without reference.","label":[],"Comments":[]}
-{"id":12895,"text":"And we'll be mentioning a few other ways in which it's natural later.","label":[],"Comments":[]}
-{"id":12896,"text":"So I told you about this first method, now I want to tell you about a second method here.","label":[],"Comments":[]}
-{"id":12897,"text":"So the second is called logarithmic differentiation.","label":[],"Comments":[]}
-{"id":12898,"text":"So how does this work?","label":[],"Comments":[]}
-{"id":12899,"text":"Well, sometimes you're having trouble differentiating a function, and it's easier to differentiate its logarithm.","label":[],"Comments":[]}
-{"id":12900,"text":"That may seem peculiar, but actually we'll give several examples where this is clearly the case, that the logarithm is easier to differentiate than the function.","label":[],"Comments":[]}
-{"id":12901,"text":"So it could be that this is an easier quantity to understand.","label":[],"Comments":[]}
-{"id":12902,"text":"So we want to relate it back to the function <EXPRESSION>.","label":[[45,57,"expression"]],"Comments":[]}
-{"id":12903,"text":"So I'm going to write it a slightly different way.","label":[[16,21,"command"]],"Comments":[]}
-{"id":12904,"text":"Let's write it in terms of primes here.","label":[[6,11,"command"]],"Comments":[]}
-{"id":12905,"text":"So the basic identity is the chain rule again, and the derivative of the logarithm, well maybe I'll write it out this way first.","label":[[29,39,"method"],[100,105,"command"]],"Comments":[]}
-{"id":12906,"text":"So this would be <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":12907,"text":"These are the two factors.","label":[],"Comments":[]}
-{"id":12908,"text":"And that's the same thing, so remember what the derivative of the logarithm is.","label":[],"Comments":[]}
-{"id":12909,"text":"This is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":12910,"text":"So here I have a <EXPRESSION>, and here I have a <EXPRESSION>.","label":[[17,29,"expression"],[49,61,"expression"]],"Comments":[]}
-{"id":12911,"text":"So I'm going to encode this on the next board here, which is sort of the main formula you always need to remember, which is that <EQUATION>.","label":[[129,139,"equation"]],"Comments":[]}
-{"id":12912,"text":"That's the one to remember here.","label":[],"Comments":[]}
-{"id":12913,"text":"STUDENT: [INAUDIBLE].","label":[],"Comments":[]}
-{"id":12914,"text":"PROFESSOR: The question is how did I get this step here?","label":[],"Comments":[]}
-{"id":12915,"text":"So this is the chain rule.","label":[[15,25,"method"]],"Comments":[]}
-{"id":12916,"text":"The rate of change of <EXPRESSION> with respect to <EXPRESSION> is the rate of change of <EXPRESSION> with respect <EXPRESSION>, times the rate of change of <EXPRESSION> with respect to <EXPRESSION>.","label":[[22,34,"expression"],[51,63,"expression"],[89,101,"expression"],[115,127,"expression"],[129,134,"command"],[157,169,"expression"],[186,198,"expression"]],"Comments":[]}
-{"id":12917,"text":"That's the chain rule.","label":[[11,21,"method"]],"Comments":[]}
-{"id":12918,"text":"So now I've worked out this identity here, and now let's show how it handles this case, <EXPRESSION>.","label":[[88,100,"expression"]],"Comments":[]}
-{"id":12919,"text":"Let's do this one.","label":[],"Comments":[]}
-{"id":12920,"text":"So in order to get that one, I would take <EQUATION>.","label":[[37,40,"command"],[42,52,"equation"]],"Comments":[]}
-{"id":12921,"text":"And now let's just take a look at what <EXPRESSION> is.","label":[[39,51,"expression"]],"Comments":[]}
-{"id":12922,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
-{"id":12923,"text":"Now I claim that this is pretty easy to differentiate.","label":[],"Comments":[]}
-{"id":12924,"text":"Again, it may seem hard, but it's actually quite easy.","label":[],"Comments":[]}
-{"id":12925,"text":"So maybe somebody can hazard a guess.","label":[],"Comments":[]}
-{"id":12926,"text":"What's the derivative of <EXPRESSION>?","label":[[25,37,"expression"]],"Comments":[]}
-{"id":12927,"text":"It's just <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":12928,"text":"So this is the same thing that I was talking about before, which is if you've got <EXPRESSION>, and you're taking its derivative with respect to <EXPRESSION> here, that's just <EXPRESSION>.","label":[[82,94,"expression"],[145,157,"expression"],[176,188,"expression"]],"Comments":[]}
-{"id":12929,"text":"That's the kind of thing you have.","label":[],"Comments":[]}
-{"id":12930,"text":"Again, don't be put off by this massive piece of junk here.","label":[],"Comments":[]}
-{"id":12931,"text":"It's a constant.","label":[],"Comments":[]}
-{"id":12932,"text":"So again, keep that in mind.","label":[],"Comments":[]}
-{"id":12933,"text":"It comes up regularly in this kind of question.","label":[],"Comments":[]}
-{"id":12934,"text":"So there's our formula, that the logarithmic derivative is this.","label":[],"Comments":[]}
-{"id":12935,"text":"But let's just rewrite that.","label":[[15,22,"command"]],"Comments":[]}
-{"id":12936,"text":"That's the same thing as <EXPRESSION>, which is <EQUATION>, right?","label":[[25,37,"expression"],[48,58,"equation"]],"Comments":[]}
-{"id":12937,"text":"So this is our differentiation formula.","label":[],"Comments":[]}
-{"id":12938,"text":"So here we have <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
-{"id":12939,"text":"<EQUATION>, if I just multiply through by <EXPRESSION>.","label":[[0,10,"equation"],[42,54,"expression"]],"Comments":[]}
-{"id":12940,"text":"And that's what we wanted.","label":[],"Comments":[]}
-{"id":12941,"text":"That's <EQUATION>.","label":[[7,17,"equation"]],"Comments":[]}
-{"id":12942,"text":"So this is the way that logarithmic differentiation works.","label":[],"Comments":[]}
-{"id":12943,"text":"It's the same arithmetic as the previous method, but we don't have to convert to base <EXPRESSION>.","label":[[86,98,"expression"]],"Comments":[]}
-{"id":12944,"text":"We're just keeping track of the exponents and doing differentiation on the exponents, and multiplying through at the end.","label":[],"Comments":[]}
-{"id":12945,"text":"Okay, so I'm going to do two trickier examples, which illustrate logarithmic differentiation.","label":[],"Comments":[]}
-{"id":12946,"text":"Again, these could be done equally well by using base <EXPRESSION>, but I won't do it.","label":[[54,66,"expression"]],"Comments":[]}
-{"id":12947,"text":"Method one and method two always both work.","label":[],"Comments":[]}
-{"id":12948,"text":"So here's a second example: again this is a problem when you have moving exponents.","label":[],"Comments":[]}
-{"id":12949,"text":"But this time, we're going to complicate matters by having both a moving exponent and a moving base.","label":[],"Comments":[]}
-{"id":12950,"text":"So we have a function <EXPRESSION>, which is, well maybe I'll call it <EXPRESSION>, since we already had a function <EXPRESSION>, which is <EXPRESSION>.","label":[[22,34,"expression"],[62,66,"command"],[70,82,"expression"],[117,129,"expression"],[139,151,"expression"]],"Comments":[]}
-{"id":12951,"text":"A really complicated looking function here.","label":[],"Comments":[]}
-{"id":12952,"text":"So again you can handle this by converting to base <EXPRESSION>, method one.","label":[[51,63,"expression"]],"Comments":[]}
-{"id":12953,"text":"But we'll do the logarithmic differentiation version, alright?","label":[],"Comments":[]}
-{"id":12954,"text":"So I take the logs of both sides.","label":[[5,9,"command"],[14,32,"command_attribute"]],"Comments":[]}
-{"id":12955,"text":"And now I differentiate it.","label":[[10,23,"command"]],"Comments":[]}
-{"id":12956,"text":"And now when I differentiate this here, I have to use the product rule.","label":[[15,28,"command"],[50,53,"command"],[58,70,"method"]],"Comments":[]}
-{"id":12957,"text":"This time, instead of having <EXPRESSION>, a constant, I have a variable here.","label":[[29,41,"expression"]],"Comments":[]}
-{"id":12958,"text":"So I have two factors.","label":[],"Comments":[]}
-{"id":12959,"text":"I have <EXPRESSION> when I differentiate with respect to <EXPRESSION>.","label":[[7,19,"expression"],[27,40,"command"],[57,69,"expression"]],"Comments":[]}
-{"id":12960,"text":"When I differentiate with respect to this factor here, I get that <EXPRESSION> times the derivative of that, which is <EXPRESSION>.","label":[[7,20,"command"],[66,78,"expression"],[118,130,"expression"]],"Comments":[]}
-{"id":12961,"text":"So, here's my formula.","label":[],"Comments":[]}
-{"id":12962,"text":"Almost finished.","label":[],"Comments":[]}
-{"id":12963,"text":"So I have here <EXPRESSION>.","label":[[15,27,"expression"]],"Comments":[]}
-{"id":12964,"text":"I'm going to multiply these two things together.","label":[[13,21,"command"]],"Comments":[]}
-{"id":12965,"text":"I'll put it on the other side, because I don't want to get it mixed up with <EXPRESSION>, the quantity.","label":[[5,8,"command"],[76,88,"expression"]],"Comments":[]}
-{"id":12966,"text":"And now I'm almost done.","label":[],"Comments":[]}
-{"id":12967,"text":"I have <EQUATION>, and that's just <EQUATION>.","label":[[7,17,"equation"],[35,45,"equation"]],"Comments":[]}
-{"id":12968,"text":"That's it.","label":[],"Comments":[]}
-{"id":12969,"text":"So these two methods always work for moving exponents.","label":[],"Comments":[]}
-{"id":12970,"text":"So the next thing that I'd like to do is another fairly tricky example.","label":[],"Comments":[]}
-{"id":12971,"text":"And this one is not strictly speaking within calculus.","label":[],"Comments":[]}
-{"id":12972,"text":"Although we're going to use the tools that we just described to carry it out, in fact it will use some calculus in the very end.","label":[],"Comments":[]}
-{"id":12973,"text":"And what I'm going to do is I'm going to evaluate the limit as <EXPRESSION> goes to <EXPRESSION>.","label":[[41,49,"command"],[50,59,"command_attribute"],[63,75,"expression"],[84,96,"expression"]],"Comments":[]}
-{"id":12974,"text":"So now, the reason why I want to discuss this is, is it turns out to have a very interesting answer.","label":[],"Comments":[]}
-{"id":12975,"text":"And it's a problem that you can approach exactly by this method.","label":[],"Comments":[]}
-{"id":12976,"text":"And the reason is that it has a moving exponent.","label":[],"Comments":[]}
-{"id":12977,"text":"The exponent n here is changing.","label":[],"Comments":[]}
-{"id":12978,"text":"And so if you want to keep track of that, a good way to do that is to use logarithms.","label":[[70,73,"expression"],[74,84,"method"]],"Comments":[]}
-{"id":12979,"text":"So in order to figure out this limit, we're going to take the log of it and figure out what the limit of the log is, instead of the log of the limit.","label":[[53,57,"command"],[58,65,"command_attribute"]],"Comments":[]}
-{"id":12980,"text":"Those will be the same thing.","label":[],"Comments":[]}
-{"id":12981,"text":"So we're going to take the natural log of this quantity here, and that's <EXPRESSION>.","label":[[18,22,"command"],[23,38,"command_attribute"],[73,85,"expression"]],"Comments":[]}
-{"id":12982,"text":"And now I'm going to rewrite this in a form which will make it more recognizable, so what I'd like to do is I'm going to write <EXPRESSION>, or maybe I should say it this way: <EQUATION>.","label":[[21,28,"command"],[121,126,"command"],[127,139,"expression"],[176,186,"equation"]],"Comments":[]}
-{"id":12983,"text":"So if <EXPRESSION> is going to infinity, then this <EXPRESSION> is going to be going to <EXPRESSION>.","label":[[6,18,"expression"],[51,63,"expression"],[88,100,"expression"]],"Comments":[]}
-{"id":12984,"text":"So this is more familiar territory for us in this class, anyway.","label":[],"Comments":[]}
-{"id":12985,"text":"So let's rewrite it.","label":[[9,16,"command"]],"Comments":[]}
-{"id":12986,"text":"So here, we have <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":12987,"text":"And then that is multiplied by <EXPRESSION>.","label":[[31,43,"expression"]],"Comments":[]}
-{"id":12988,"text":"So <EXPRESSION> is the reciprocal of <EXPRESSION>.","label":[[3,15,"expression"],[37,49,"expression"]],"Comments":[]}
-{"id":12989,"text":"Now I want to change this in a very, very minor way.","label":[],"Comments":[]}
-{"id":12990,"text":"I'm going to subtract <EXPRESSION> from it.","label":[[13,21,"command"],[22,34,"expression"]],"Comments":[]}
-{"id":12991,"text":"So that's the same thing.","label":[],"Comments":[]}
-{"id":12992,"text":"So what I'm going to do is I'm going to subtract <EXPRESSION> from it.","label":[[40,48,"command"],[49,61,"expression"]],"Comments":[]}
-{"id":12993,"text":"That's just = <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
-{"id":12994,"text":"So this is not a problem, and I'll put some parentheses around it.","label":[],"Comments":[]}
-{"id":12995,"text":"Now you're supposed to recognize, all of a sudden, what pattern this fits into.","label":[],"Comments":[]}
-{"id":12996,"text":"This is the thing which we need to calculate in order to calculate the derivative of the log function.","label":[[57,66,"command"],[67,81,"command_attribute"]],"Comments":[]}
-{"id":12997,"text":"So this is, in the limit as <EXPRESSION> goes to ,<EXPRESSION> = the derivative of <EXPRESSION>.","label":[[28,40,"expression"],[50,61,"expression"],[83,95,"expression"]],"Comments":[]}
-{"id":12998,"text":"Where?","label":[],"Comments":[]}
-{"id":12999,"text":"Well the base point is <EQUATION>.","label":[[23,33,"equation"]],"Comments":[]}
-{"id":13000,"text":"That's where we're evaluating it.","label":[],"Comments":[]}
-{"id":13001,"text":"That's the <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
-{"id":13002,"text":"That's the base value.","label":[],"Comments":[]}
-{"id":13003,"text":"So this is the difference quotient.","label":[],"Comments":[]}
-{"id":13004,"text":"That's exactly what it is.","label":[],"Comments":[]}
-{"id":13005,"text":"And so this by definition tends to the limit here.","label":[],"Comments":[]}
-{"id":13006,"text":"But we know what the derivative of the log function is.","label":[],"Comments":[]}
-{"id":13007,"text":"The derivative of the log function is <EXPRESSION>.","label":[[38,50,"expression"]],"Comments":[]}
-{"id":13008,"text":"So this limit is <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":13009,"text":"So we got it.","label":[],"Comments":[]}
-{"id":13010,"text":"We got the limit.","label":[],"Comments":[]}
-{"id":13011,"text":"And now we just have to work backwards to figure out what this limit that we've got over here is.","label":[],"Comments":[]}
-{"id":13012,"text":"So let's do that.","label":[],"Comments":[]}
-{"id":13013,"text":"So let's see here.","label":[],"Comments":[]}
-{"id":13014,"text":"The log approached <EXPRESSION>.","label":[[19,31,"expression"]],"Comments":[]}
-{"id":13015,"text":"So the limit as <EXPRESSION> goes to <EXPRESSION>.","label":[[16,28,"expression"],[37,49,"expression"]],"Comments":[]}
-{"id":13016,"text":"So sorry, the log of this.","label":[],"Comments":[]}
-{"id":13017,"text":"Yeah, let's write it this way.","label":[[12,17,"command"]],"Comments":[]}
-{"id":13018,"text":"It's the same thing, as well, the thing that we know is the log of this.","label":[],"Comments":[]}
-{"id":13019,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":13020,"text":"And goes to infinity.","label":[[12,20,"term"]],"Comments":[]}
-{"id":13021,"text":"That's the one that we just figured out.","label":[],"Comments":[]}
-{"id":13022,"text":"But now this thing is the exponential of that.","label":[],"Comments":[]}
-{"id":13023,"text":"So it's really <EXPRESSION> to this power here.","label":[[15,27,"expression"]],"Comments":[]}
-{"id":13024,"text":"So this guy is the same as the limit of the log of the limit of the thing, which is the same as log of the limit.","label":[],"Comments":[]}
-{"id":13025,"text":"The limit of the log and the log of the limit are the same.","label":[],"Comments":[]}
-{"id":13026,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
-{"id":13027,"text":"Okay, so I take the logarithm, then I'm going to take the exponential.","label":[],"Comments":[]}
-{"id":13028,"text":"That just undoes what I did before.","label":[],"Comments":[]}
-{"id":13029,"text":"And so this limit is just <EXPRESSION>, so this is <EXPRESSION>.","label":[[26,37,"expression"],[51,63,"expression"]],"Comments":[]}
-{"id":13030,"text":"And so the limit that we want here = .","label":[],"Comments":[]}
-{"id":13031,"text":"So I claim that with this step, we've actually closed the loop, finally.","label":[],"Comments":[]}
-{"id":13032,"text":"Because we have an honest numerical way to calculate <EXPRESSION>.","label":[[43,51,"command"],[53,65,"expression"]],"Comments":[]}
-{"id":13033,"text":"The first.","label":[],"Comments":[]}
-{"id":13034,"text":"There are many such.","label":[],"Comments":[]}
-{"id":13035,"text":"But this one is a perfectly honest numerical way to calculate <EXPRESSION>.","label":[[52,61,"command"],[62,74,"expression"]],"Comments":[]}
-{"id":13036,"text":"We had this thing.","label":[],"Comments":[]}
-{"id":13037,"text":"We didn't know exactly what it was.","label":[],"Comments":[]}
-{"id":13038,"text":"It was this <EXPRESSION>, there was <EXPRESSION>, the logarithm, and so on.","label":[[12,23,"expression"],[36,48,"expression"]],"Comments":[]}
-{"id":13039,"text":"We have all that stuff.","label":[],"Comments":[]}
-{"id":13040,"text":"But we really need to nail down what this number <EXPRESSION> is.","label":[[49,61,"expression"]],"Comments":[]}
-{"id":13041,"text":"And this is telling us, if you take for example <EXPRESSION>, that's going to be a very good, perfectly decent anyway, approximation to <EXPRESSION>.","label":[[31,35,"command"],[48,60,"expression"],[136,148,"expression"]],"Comments":[]}
-{"id":13042,"text":"So this is a numerical approximation, which is all we can ever do with just this kind of irrational number.","label":[],"Comments":[]}
-{"id":13043,"text":"And so that closes the loop, and we now have a coherent family of functions, which are actually well defined and for which we have practical methods to calculate.","label":[],"Comments":[]}
-{"id":13044,"text":"Okay, see you next time.","label":[],"Comments":[]}
+{"id": 12562, "text": "PROFESSOR: All right, so let's begin lecture six.", "entities": []}
+{"id": 12563, "text": "We're talking today about exponentials and logarithms.", "entities": []}
+{"id": 12564, "text": "And these are the last functions that I need to introduce, the last standard functions that we need to connect with calculus, that you've learned about.", "entities": []}
+{"id": 12565, "text": "And they're certainly as fundamental, if not more so, than trigonometric functions.", "entities": []}
+{"id": 12566, "text": "So first of all, we'll start out with a number, <EXPRESSION>, which is positive, which is usually called a base.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 12567, "text": "And then we have these properties that <EXPRESSION> is always <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 12568, "text": "That's how we get started.", "entities": []}
+{"id": 12569, "text": "And <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 12570, "text": "And of course <EXPRESSION>, not surprisingly, is <EXPRESSION>, etc.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 12571, "text": "And the general rule is that <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 12572, "text": "So this is the basic rule of exponents, and with these two initial properties, that defines the exponential function.", "entities": []}
+{"id": 12573, "text": "And then there's an additional property, which is deduced from these, which is the composition of exponential functions, which is that you take <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 139, "end_offset": 143}, {"label": "expression", "start_offset": 144, "end_offset": 156}]}
+{"id": 12574, "text": "Then that turns out to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 12575, "text": "So that's an additional property that we'll take for granted, which you learned in high school.", "entities": []}
+{"id": 12576, "text": "Now, in order to understand what all the values of <EXPRESSION> are, we need to first remember that if you're taking a rational power that it's the ratio of <EXPRESSION> integers power of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 157, "end_offset": 169}, {"label": "expression", "start_offset": 188, "end_offset": 200}]}
+{"id": 12577, "text": "That's going to be <EXPRESSION>, and then we're going to have to take the nth root of that.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 12578, "text": "So that's the definition.", "entities": []}
+{"id": 12579, "text": "And then, when you're defining <EXPRESSION>, so <EXPRESSION> is defined for all <EXPRESSION> by filling in.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 80, "end_offset": 92}]}
+{"id": 12580, "text": "So I'm gonna use that expression in quotation marks, \"filling in\" by continuity.", "entities": []}
+{"id": 12581, "text": "This is really what your calculator does when it gives you <EXPRESSION>, because you can't even punch in <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 59, "end_offset": 71}, {"label": "expression", "start_offset": 105, "end_offset": 117}]}
+{"id": 12582, "text": "It doesn't really exist on your calculator.", "entities": []}
+{"id": 12583, "text": "There's some decimal expansion.", "entities": []}
+{"id": 12584, "text": "So it takes the decimal expansion to a certain length and spits out a number which is pretty close to the correct answer.", "entities": []}
+{"id": 12585, "text": "But indeed, in theory, there is an <EXPRESSION>, even though the <EXPRESSION> is irrational.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 12586, "text": "And there's <EXPRESSION> and so forth.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 12587, "text": "All right, so that's the exponential function, and let's draw a picture of one.", "entities": []}
+{"id": 12588, "text": "So we'll try, say <EQUATION> here.", "entities": [{"label": "equation", "start_offset": 18, "end_offset": 28}]}
+{"id": 12589, "text": "And I'm not going to draw such a careful graph, but let's just plot the most important point, which is the point (0, 1).", "entities": [{"label": "term", "start_offset": 113, "end_offset": 119}]}
+{"id": 12590, "text": "That's <EXPRESSION>, which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 12591, "text": "And then maybe we'll go back up here to <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 12592, "text": "And <EXPRESSION> is this point here.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 12593, "text": "This is (-1, 1/2), the reciprocal.", "entities": [{"label": "term", "start_offset": 8, "end_offset": 17}]}
+{"id": 12594, "text": "And over here, we have <EXPRESSION>, and so that goes all the way up to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 72, "end_offset": 84}]}
+{"id": 12595, "text": "And then exponentials are remarkably fast.", "entities": []}
+{"id": 12596, "text": "So it's off the board what happens next out at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 12597, "text": "It's already above my range here, but the graph looks something like this.", "entities": []}
+{"id": 12598, "text": "All right.", "entities": []}
+{"id": 12599, "text": "Now I've just visually, at least, graphically filled in all the rest of the points.", "entities": []}
+{"id": 12600, "text": "You have to imagine all these rational numbers, and so forth.", "entities": []}
+{"id": 12601, "text": "So this point here would have been (1, 2).", "entities": [{"label": "term", "start_offset": 35, "end_offset": 41}]}
+{"id": 12602, "text": "And so forth.", "entities": []}
+{"id": 12603, "text": "All right?", "entities": []}
+{"id": 12604, "text": "So that's not too far along.", "entities": []}
+{"id": 12605, "text": "So now what's our goal?", "entities": []}
+{"id": 12606, "text": "Well, obviously we want to do calculus here.", "entities": []}
+{"id": 12607, "text": "So our goal, here, for now - and it's gonna take a while.", "entities": []}
+{"id": 12608, "text": "We have to think about it pretty hard.", "entities": []}
+{"id": 12609, "text": "We have to calculate what this derivative is.", "entities": [{"label": "command", "start_offset": 11, "end_offset": 20}, {"label": "command_attribute", "start_offset": 31, "end_offset": 41}]}
+{"id": 12610, "text": "All right, so we'll get started.", "entities": []}
+{"id": 12611, "text": "And the way we get started is simply by plugging in the definition of the derivative.", "entities": []}
+{"id": 12612, "text": "The derivative is the limit as <EXPRESSION> goes to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 12613, "text": "So that's what it is.", "entities": []}
+{"id": 12614, "text": "And now, the only step that we can really perform here to make this is into something a little bit simpler is to use this very first rule that we have here.", "entities": []}
+{"id": 12615, "text": "That the exponential of the sum is the product of the exponentials.", "entities": []}
+{"id": 12616, "text": "So we have here, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 12617, "text": "So what I want to use is just the property that <EQUATION>.", "entities": [{"label": "command", "start_offset": 18, "end_offset": 21}, {"label": "equation", "start_offset": 48, "end_offset": 58}]}
+{"id": 12618, "text": "And if I do that, I see that I can factor out a common factor in the numerator, which is <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 35, "end_offset": 41}, {"label": "command_attribute", "start_offset": 48, "end_offset": 61}, {"label": "expression", "start_offset": 89, "end_offset": 100}]}
+{"id": 12619, "text": "So we'll write this as the limit as <EXPRESSION> goes to <EXPRESSION> times this ratio, now <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 14}, {"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 57, "end_offset": 69}, {"label": "command", "start_offset": 70, "end_offset": 75}, {"label": "expression", "start_offset": 92, "end_offset": 104}]}
+{"id": 12620, "text": "So far, so good?", "entities": []}
+{"id": 12621, "text": "We're actually almost to some serious progress here.", "entities": []}
+{"id": 12622, "text": "So there's one other important conceptual step which we need to understand.", "entities": []}
+{"id": 12623, "text": "And this is a relatively simple one.", "entities": []}
+{"id": 12624, "text": "We actually did this before, by the way.", "entities": []}
+{"id": 12625, "text": "We did this with sines and cosines.", "entities": []}
+{"id": 12626, "text": "The next thing I want to point out to you is that you're used to thinking of <EXPRESSION> as being the variable.", "entities": []}
+{"id": 12627, "text": "And indeed, already we were discussing <EXPRESSION> as being the variable and <EXPRESSION> as being fixed.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 78, "end_offset": 90}]}
+{"id": 12628, "text": "But for the purposes of this limit, there's a different variable that's moving.", "entities": []}
+{"id": 12629, "text": "<EXPRESSION> is fixed and <EXPRESSION> is the thing that's moving.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 12630, "text": "So that means that this factor here, which is a common factor, is constant.", "entities": []}
+{"id": 12631, "text": "And we can just factor it out of the limit.", "entities": []}
+{"id": 12632, "text": "It doesn't affect the limit at all.", "entities": []}
+{"id": 12633, "text": "A constant times a limit is the same as whether we multiply before or after we take the limit.", "entities": []}
+{"id": 12634, "text": "So I'm just going to factor that out.", "entities": []}
+{"id": 12635, "text": "So that's my next step here.", "entities": []}
+{"id": 12636, "text": "<EXPRESSION>, and then I have the limit <EXPRESSION> goes to <EXPRESSION> of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 12637, "text": "All right?", "entities": []}
+{"id": 12638, "text": "And so what I have here, so this is by definition the derivative.", "entities": []}
+{"id": 12639, "text": "So here is <EXPRESSION>, and it's = this expression here.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 12640, "text": "Now, I want to stare at this expression, and see what it's telling us, because it's telling us as much as we can get so far, without some-- So first let's just look at what this says.", "entities": []}
+{"id": 12641, "text": "So what it's saying is that the derivative of <EXPRESSION> is <EXPRESSION> times something that we don't yet know.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 12642, "text": "And I'm going to call this something, this mystery number, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 59, "end_offset": 71}]}
+{"id": 12643, "text": "So I'm gonna make the label, <EXPRESSION> = the limit as <EXPRESSION> goes to <EXPRESSION> of a to the <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 17}, {"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 57, "end_offset": 69}, {"label": "expression", "start_offset": 78, "end_offset": 90}, {"label": "expression", "start_offset": 103, "end_offset": 115}]}
+{"id": 12644, "text": "All right?", "entities": []}
+{"id": 12645, "text": "So this is a definition.", "entities": []}
+{"id": 12646, "text": "So this mystery number <EXPRESSION> has a geometric interpretation, as well.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 12647, "text": "So let me describe that.", "entities": []}
+{"id": 12648, "text": "It has a geometric interpretation, and it's a very, very significant number.", "entities": []}
+{"id": 12649, "text": "So let's work out what that is.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 17}]}
+{"id": 12650, "text": "So first of all, let's rewrite the expression in the box, using the shorthand for this number.", "entities": [{"label": "command", "start_offset": 23, "end_offset": 30}, {"label": "command_attribute", "start_offset": 35, "end_offset": 45}]}
+{"id": 12651, "text": "So if I just rewrite it, it says <EXPRESSION> = this factor, which is <EXPRESSION>, times <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 20}, {"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 70, "end_offset": 82}, {"label": "command", "start_offset": 84, "end_offset": 89}, {"label": "expression", "start_offset": 90, "end_offset": 102}]}
+{"id": 12652, "text": "So the derivative of the exponential is this mystery number times <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 60, "end_offset": 65}, {"label": "expression", "start_offset": 66, "end_offset": 78}]}
+{"id": 12653, "text": "So we've almost solved the problem of finding the derivative of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 12654, "text": "We just have to figure out this one number, <EXPRESSION>, and we get the rest.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 12655, "text": "So let me point out two more things about this number, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 55, "end_offset": 67}]}
+{"id": 12656, "text": "So first of all, if I plug in <EQUATION>, that's going to be <EXPRESSION> , at <EQUATION>.", "entities": [{"label": "command", "start_offset": 22, "end_offset": 29}, {"label": "equation", "start_offset": 30, "end_offset": 40}, {"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "equation", "start_offset": 79, "end_offset": 88}]}
+{"id": 12657, "text": "According to this formula, that's <EXPRESSION>, which of course <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 12658, "text": "So what is <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 12659, "text": "<EXPRESSION> is the derivative of this function at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 12660, "text": "So <EXPRESSION> is the slope of <EQUATION>, of the graph.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "equation", "start_offset": 32, "end_offset": 42}]}
+{"id": 12661, "text": "The graph of <EXPRESSION> at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 12662, "text": "So again over here, if you looked at the picture.", "entities": []}
+{"id": 12663, "text": "I'll draw the one tangent line in here, which is this one here.", "entities": []}
+{"id": 12664, "text": "And this thing has slope, what we're calling <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 12665, "text": "So, if I graph the function <EQUATION>, I'll get a certain slope here.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 14}, {"label": "command_attribute", "start_offset": 15, "end_offset": 27}, {"label": "equation", "start_offset": 28, "end_offset": 38}]}
+{"id": 12666, "text": "If I graph it with a different base, I might get another slope.", "entities": []}
+{"id": 12667, "text": "And what we got so far is the following phenomenon: if we know this one number, if we know the slope at this one place, we will be able to figure out the formula for the slope everywhere else.", "entities": []}
+{"id": 12668, "text": "Now, that's actually exactly the same thing that we did for sines and cosines.", "entities": []}
+{"id": 12669, "text": "We knew the slope of the <EXPRESSION> and the <EXPRESSION> function at <EQUATION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "equation", "start_offset": 71, "end_offset": 81}]}
+{"id": 12670, "text": "The sine function had slope <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 12671, "text": "The cosine function had slope <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 12672, "text": "And then from the sum formulas, well that's exactly this kind of thing here, from the sum formulas.", "entities": []}
+{"id": 12673, "text": "This sum formula, in fact is easier than the ones for <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 12674, "text": "From the sum formulas, we worked out what the slope was everywhere.", "entities": []}
+{"id": 12675, "text": "So we're following the same procedure that we did before.", "entities": []}
+{"id": 12676, "text": "But at this point we're stuck.", "entities": []}
+{"id": 12677, "text": "We're stuck, because that time using radians, this very clever idea of radians in geometry, we were able to actually figure out what the slope is.", "entities": []}
+{"id": 12678, "text": "Whereas here, we're not so sure, what <EXPRESSION> is, for instance.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 12679, "text": "We just don't know yet.", "entities": []}
+{"id": 12680, "text": "So, the basic question that we have to deal with right now is what is <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 12681, "text": "That's what we're left with.", "entities": []}
+{"id": 12682, "text": "And, the curious fact is that the clever thing to do is to beg the question.", "entities": []}
+{"id": 12683, "text": "So we're going to go through a very circular route here.", "entities": []}
+{"id": 12684, "text": "That is circuitous, not circular.", "entities": []}
+{"id": 12685, "text": "Circular is a bad word in math.", "entities": []}
+{"id": 12686, "text": "That means that one thing depends on another, and that depends on it, and maybe both are wrong.", "entities": []}
+{"id": 12687, "text": "Circuitous means, we're going to be taking a roundabout route.", "entities": []}
+{"id": 12688, "text": "And we're going to discover that even though we refuse to answer this question right now, we'll succeed in answering it eventually.", "entities": []}
+{"id": 12689, "text": "All right?", "entities": []}
+{"id": 12690, "text": "So how are we going to beg the question?", "entities": []}
+{"id": 12691, "text": "What we're going to say instead is we're going to define a mystery base, or number <EXPRESSION>, as the unique number, so that <EQUATION>.", "entities": [{"label": "command", "start_offset": 50, "end_offset": 56}, {"label": "expression", "start_offset": 83, "end_offset": 95}, {"label": "equation", "start_offset": 127, "end_offset": 137}]}
+{"id": 12692, "text": "That's the trick that we're going to use.", "entities": []}
+{"id": 12693, "text": "We don't yet know what <EXPRESSION> is, but we're just going to suppose that we have it.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 12694, "text": "Now, I'm going to show you a bunch of consequences of this, and also I have to persuade you that it actually does exist.", "entities": []}
+{"id": 12695, "text": "So first, let me explain what the first consequence is.", "entities": []}
+{"id": 12696, "text": "First of all, if <EXPRESSION> is <EXPRESSION>, then if you look at this formula over here and you write it down for e, you have something which is a very usable formula.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "term", "start_offset": 116, "end_offset": 117}]}
+{"id": 12697, "text": "<EXPRESSION> is just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 12698, "text": "All right, so that's an incredibly important formula which is the fundamental one.", "entities": []}
+{"id": 12699, "text": "It's the only one you have to remember from what we've done.", "entities": []}
+{"id": 12700, "text": "So maybe I should have highlighted it in several colors here.", "entities": []}
+{"id": 12701, "text": "That's a big deal.", "entities": []}
+{"id": 12702, "text": "Very happy.", "entities": []}
+{"id": 12703, "text": "And again, let me just emphasize, also that this is the one which at <EQUATION> has slope <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 69, "end_offset": 79}, {"label": "expression", "start_offset": 90, "end_offset": 102}]}
+{"id": 12704, "text": "That's the way we defined it, alright?", "entities": []}
+{"id": 12705, "text": "So if you plug in <EQUATION> here on the right hand side, you got <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 10, "end_offset": 17}, {"label": "equation", "start_offset": 18, "end_offset": 28}, {"label": "expression", "start_offset": 66, "end_offset": 78}]}
+{"id": 12706, "text": "Slope <EXPRESSION> at <EQUATION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 17}, {"label": "equation", "start_offset": 22, "end_offset": 32}]}
+{"id": 12707, "text": "So that's great.", "entities": []}
+{"id": 12708, "text": "Except of course, since we don't know what <EXPRESSION> is, this is a little bit dicey.", "entities": [{"label": "expression", "start_offset": 43, "end_offset": 55}]}
+{"id": 12709, "text": "So, next even before explaining what <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 12710, "text": ".", "entities": []}
+{"id": 12711, "text": ".", "entities": []}
+{"id": 12712, "text": "In fact, we won't get to what <EXPRESSION> really is until the very end of this lecture.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 12713, "text": "But I have to persuade you why <EXPRESSION> exists.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 12714, "text": "We have to have some explanation for why we know there is such a number.", "entities": []}
+{"id": 12715, "text": "Okay, so first of all, let me start with the one that we supposedly know, which is the function <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 96, "end_offset": 108}]}
+{"id": 12716, "text": "We'll call it <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 10}, {"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 12717, "text": "All right?", "entities": []}
+{"id": 12718, "text": "So that's the first thing.", "entities": []}
+{"id": 12719, "text": "And remember, that the property that it had, was that <EXPRESSION> was <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 12720, "text": "That was the derivative of this function, the slope at <EQUATION> of the graph.", "entities": [{"label": "equation", "start_offset": 55, "end_offset": 65}]}
+{"id": 12721, "text": "Of the tangent line, that is.", "entities": []}
+{"id": 12722, "text": "So now, what we're going to consider is any kind of stretching.", "entities": []}
+{"id": 12723, "text": "We're going to stretch this function by a factor <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 15, "end_offset": 22}, {"label": "command_attribute", "start_offset": 28, "end_offset": 36}, {"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 12724, "text": "Any number <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 12725, "text": "So what we're going to consider is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 12726, "text": "If you do that, that's the same as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 47}]}
+{"id": 12727, "text": "Right?", "entities": []}
+{"id": 12728, "text": "But now if I use the second law of exponents that I have over there, that's the same thing as <EXPRESSION>, which is the same thing as some base <EXPRESSION>, where <EXPRESSION> =-- Let's write that down over here.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 16}, {"label": "command_attribute", "start_offset": 21, "end_offset": 44}, {"label": "expression", "start_offset": 94, "end_offset": 106}, {"label": "expression", "start_offset": 145, "end_offset": 157}, {"label": "expression", "start_offset": 165, "end_offset": 177}, {"label": "command", "start_offset": 188, "end_offset": 193}]}
+{"id": 12729, "text": "<EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 12730, "text": "Right.", "entities": []}
+{"id": 12731, "text": "So whatever it is, if I have a different base which is expressed in terms of <EXPRESSION>, of the form <EXPRESSION>, then that new function is described by this function <EXPRESSION>, the stretch.", "entities": [{"label": "expression", "start_offset": 77, "end_offset": 89}, {"label": "expression", "start_offset": 103, "end_offset": 115}, {"label": "expression", "start_offset": 170, "end_offset": 182}]}
+{"id": 12732, "text": "So what happens when you stretch a function?", "entities": []}
+{"id": 12733, "text": "That's the same thing as shrinking the x axis.", "entities": []}
+{"id": 12734, "text": "So when <EXPRESSION> gets larger, this corresponding point over here would be over here, and so this corresponding point would be over here.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 12735, "text": "So you shrink this picture, and the slope here tilts up.", "entities": []}
+{"id": 12736, "text": "So, as we increase <EXPRESSION>, the slope gets steeper and steeper.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 12737, "text": "Let's see that explicitly, numerically, here.", "entities": []}
+{"id": 12738, "text": "Explicitly, numerically, if I take the derivative here.", "entities": [{"label": "command", "start_offset": 30, "end_offset": 34}, {"label": "command_attribute", "start_offset": 39, "end_offset": 49}]}
+{"id": 12739, "text": ".", "entities": []}
+{"id": 12740, "text": ".", "entities": []}
+{"id": 12741, "text": "So the derivative with respect to <EXPRESSION>, that's the chain rule, right?", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 12742, "text": "That's the derivative with respect to <EXPRESSION>, which is what?", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 12743, "text": "It's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}]}
+{"id": 12744, "text": "And so if we do it at <EXPRESSION>, we're just getting <EXPRESSION>, which is <EXPRESSION> times this <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 55, "end_offset": 67}, {"label": "expression", "start_offset": 78, "end_offset": 90}, {"label": "command", "start_offset": 91, "end_offset": 96}, {"label": "expression", "start_offset": 102, "end_offset": 113}]}
+{"id": 12745, "text": "So how is it exactly that we cook up the right base <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 12746, "text": "So <EQUATION> when <EQUATION> over this number.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}, {"label": "equation", "start_offset": 19, "end_offset": 29}]}
+{"id": 12747, "text": "In other words, we can pick all possible slopes that we want.", "entities": []}
+{"id": 12748, "text": "This just has the effect of multiplying the slope by a factor.", "entities": []}
+{"id": 12749, "text": "And we can shift the slope at <EXPRESSION> however we want, and we're going to do it so that the slope exactly matches <EXPRESSION>, the one that we want.", "entities": [{"label": "command", "start_offset": 11, "end_offset": 16}, {"label": "command_attribute", "start_offset": 21, "end_offset": 26}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 119, "end_offset": 131}]}
+{"id": 12750, "text": "We still don't know what <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 12751, "text": "We still don't know what <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 12752, "text": "But at least we know that it's there somewhere.", "entities": []}
+{"id": 12753, "text": "Yes?", "entities": []}
+{"id": 12754, "text": "Student: How do you know it's <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 12755, "text": "PROFESSOR: How do I know?", "entities": []}
+{"id": 12756, "text": "Well, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}, {"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 12757, "text": "If <EXPRESSION> is <EXPRESSION>, then the formula for <EXPRESSION> is this.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 12758, "text": "I've decided what <EXPRESSION> is, so therefore there's a formula for <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 12759, "text": "And furthermore, by the chain rule, there's a formula for the derivative.", "entities": [{"label": "method", "start_offset": 24, "end_offset": 34}]}
+{"id": 12760, "text": "And it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 12761, "text": "So again, scaling does this.", "entities": []}
+{"id": 12762, "text": "By the way, we did exactly the same thing with the <EXPRESSION> and <EXPRESSION> function.", "entities": [{"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 68, "end_offset": 80}]}
+{"id": 12763, "text": "If you think of the sine function here, let me just remind you here, what happens with the chain rule, you get <EXPRESSION> here.", "entities": [{"label": "method", "start_offset": 91, "end_offset": 101}, {"label": "expression", "start_offset": 111, "end_offset": 123}]}
+{"id": 12764, "text": "So the fact that we set things up beautifully with radians that this thing is, but we could change the scale to anything, such as degrees, by the appropriate factor <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 165, "end_offset": 177}]}
+{"id": 12765, "text": "And then there would be this scale factor shift of the derivative formulas.", "entities": []}
+{"id": 12766, "text": "Of course, the one with radians is the easy one, because the factor is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 12767, "text": "The one with degrees is horrible, because the factor is some crazy number like <EXPRESSION>, or something like that.", "entities": [{"label": "expression", "start_offset": 79, "end_offset": 91}]}
+{"id": 12768, "text": "Okay, so there's something going on here which is exactly the same as that kind of re-scaling.", "entities": []}
+{"id": 12769, "text": "So, so far we've got only one formula which is a keeper here.", "entities": []}
+{"id": 12770, "text": "This one.", "entities": []}
+{"id": 12771, "text": "We have a preliminary formula that we still haven't completely explained which has a little wavy line there.", "entities": []}
+{"id": 12772, "text": "And we have to fit all these things together.", "entities": []}
+{"id": 12773, "text": "Okay, so now to fit them together, I need to introduce the natural log.", "entities": []}
+{"id": 12774, "text": "So the natural log is denoted this way, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 12775, "text": "So maybe I'll call it a new letter name, we'll call it <EQUATION> here.", "entities": [{"label": "command", "start_offset": 14, "end_offset": 18}, {"label": "command", "start_offset": 47, "end_offset": 51}, {"label": "equation", "start_offset": 55, "end_offset": 65}]}
+{"id": 12776, "text": "But if we were reversing things, if we started out with a function <EQUATION> , the property that it would have is that it's the inverse function of <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 67, "end_offset": 77}, {"label": "expression", "start_offset": 149, "end_offset": 161}]}
+{"id": 12777, "text": "So it has the property that the <EQUATION>.", "entities": [{"label": "equation", "start_offset": 32, "end_offset": 42}]}
+{"id": 12778, "text": "Right?", "entities": []}
+{"id": 12779, "text": "So this defines the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 12780, "text": "Now the logarithm has a bunch of properties and they come from the exponential properties in principle.", "entities": []}
+{"id": 12781, "text": "You remember these.", "entities": []}
+{"id": 12782, "text": "And I'm just going to remind you of them.", "entities": []}
+{"id": 12783, "text": "So the main one that I just want to remind you of is that the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 12784, "text": "And maybe a few more are worth reminding you of.", "entities": []}
+{"id": 12785, "text": "One is that the logarithm of <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 12786, "text": "A second is that the logarithm of <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 50, "end_offset": 62}]}
+{"id": 12787, "text": "All right?", "entities": []}
+{"id": 12788, "text": "So these correspond to the inverse relationships here.", "entities": []}
+{"id": 12789, "text": "If I plug in here, <EQUATION> and <EQUATION>.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 12}, {"label": "equation", "start_offset": 19, "end_offset": 29}, {"label": "equation", "start_offset": 34, "end_offset": 44}]}
+{"id": 12790, "text": "If I plug in <EQUATION> and <EQUATION>, I get the corresponding numbers here: <EQUATION> and <EQUATION>.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 12}, {"label": "equation", "start_offset": 13, "end_offset": 23}, {"label": "equation", "start_offset": 28, "end_offset": 38}, {"label": "equation", "start_offset": 78, "end_offset": 88}, {"label": "equation", "start_offset": 93, "end_offset": 103}]}
+{"id": 12791, "text": "And maybe it would be worth it to plot the picture once to reinforce this.", "entities": []}
+{"id": 12792, "text": "So here I'll put them on the same chart.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 16}]}
+{"id": 12793, "text": "If you have here <EXPRESSION> over here.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 12794, "text": "It looks like this.", "entities": []}
+{"id": 12795, "text": "Then the logarithm which I'll maybe put in a different color.", "entities": []}
+{"id": 12796, "text": "So this crosses at this all-important point here, (0, 1).", "entities": [{"label": "term", "start_offset": 50, "end_offset": 56}]}
+{"id": 12797, "text": "And now in order to figure out what the inverse function is, I have to take the flip across the diagonal <EQUATION>.", "entities": [{"label": "equation", "start_offset": 105, "end_offset": 115}]}
+{"id": 12798, "text": "So that's this shape here, going down like this.", "entities": []}
+{"id": 12799, "text": "And here's the point (1, 0).", "entities": [{"label": "term", "start_offset": 21, "end_offset": 27}]}
+{"id": 12800, "text": "So (1, 0) corresponds to this identity here.", "entities": [{"label": "term", "start_offset": 3, "end_offset": 9}]}
+{"id": 12801, "text": "But the <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 12802, "text": "And notice, so this is <EXPRESSION>, the graph of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 50, "end_offset": 62}]}
+{"id": 12803, "text": "And notice it's only defined for <EXPRESSION> positive, which corresponds to the fact that <EXPRESSION> is always positive.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 91, "end_offset": 103}]}
+{"id": 12804, "text": "So in other words, this white curve is only above this axis, and the orange one is to the right here.", "entities": []}
+{"id": 12805, "text": "It's only defined for <EXPRESSION> positive.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 12806, "text": "Oh, one other thing I should mention is the slope here is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 12807, "text": "And so the slope there is also going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 43, "end_offset": 55}]}
+{"id": 12808, "text": "Now, what we're allowed to do relatively easily, because we have the tools to do it, is to compute the derivative of the logarithm.", "entities": []}
+{"id": 12809, "text": "So to find the derivative of <EXPRESSION>, we're going to use implicit differentiation.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "command", "start_offset": 58, "end_offset": 61}, {"label": "method", "start_offset": 62, "end_offset": 86}]}
+{"id": 12810, "text": "This is how we find the derivative of any inverse function.", "entities": []}
+{"id": 12811, "text": "So remember the way that works is if you know the derivative of the function, you can find the derivative of the inverse function.", "entities": []}
+{"id": 12812, "text": "And the mechanism is the following: you write down here <EQUATION>.", "entities": [{"label": "command", "start_offset": 40, "end_offset": 45}, {"label": "equation", "start_offset": 56, "end_offset": 66}]}
+{"id": 12813, "text": "Here's the function.", "entities": []}
+{"id": 12814, "text": "We're trying to find the derivative of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 12815, "text": "But now we don't know how to differentiate this equation, but if we exponentiate it, so that's the same thing as <EQUATION>.", "entities": [{"label": "equation", "start_offset": 113, "end_offset": 123}]}
+{"id": 12816, "text": "Because let's just stick this in here.", "entities": []}
+{"id": 12817, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 12818, "text": "Now we can differentiate this.", "entities": []}
+{"id": 12819, "text": "So let's do the differentiation here.", "entities": []}
+{"id": 12820, "text": "We have <EQUATION>, which is <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 8, "end_offset": 18}, {"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 12821, "text": "And then this, by the chain rule, is <EXPRESSION>.", "entities": [{"label": "method", "start_offset": 22, "end_offset": 32}, {"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 12822, "text": "The product of these two factors.", "entities": []}
+{"id": 12823, "text": "That's = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 12824, "text": "And now this guy, the one little guy that we actually know and can use, that's this guy here.", "entities": []}
+{"id": 12825, "text": "So this is <EXPRESSION>, which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 12826, "text": "And so finally, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 16, "end_offset": 26}]}
+{"id": 12827, "text": "But what is that?", "entities": []}
+{"id": 12828, "text": "It's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}]}
+{"id": 12829, "text": "So this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 12830, "text": "So what we discovered is, and now I get to put another green guy around here, is that this = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 93, "end_offset": 105}]}
+{"id": 12831, "text": "So alright, now we have two companion formulas here.", "entities": []}
+{"id": 12832, "text": "The rate of change of <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 12833, "text": "And the rate of change of <EXPRESSION> is itself, is <EXPRESSION>.", "entities": []}
+{"id": 12834, "text": "And it's time to return to the problem that we were having a little bit of trouble with, which is somewhat not explicit, which is this <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 135, "end_offset": 147}]}
+{"id": 12835, "text": "We want to now differentiate <EXPRESSION> in general, not just <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 15, "end_offset": 28}, {"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 12836, "text": "So let's work that out, and I want to explain it in a couple of ways, so you're going to have to remember this, because I'm going to erase it.", "entities": []}
+{"id": 12837, "text": "But what I'd like you to do is, so now I want to teach you how to differentiate basically any exponential.", "entities": []}
+{"id": 12838, "text": "So now to differentiate any exponential.", "entities": []}
+{"id": 12839, "text": "There are two methods.", "entities": []}
+{"id": 12840, "text": "They're practically the same method.", "entities": []}
+{"id": 12841, "text": "They have the same amount of arithmetic.", "entities": []}
+{"id": 12842, "text": "You'll see both of them, and they're equally valuable.", "entities": []}
+{"id": 12843, "text": "So we're going to just describe them.", "entities": []}
+{"id": 12844, "text": "Method one I'm going to illustrate on the function <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 12845, "text": "So we're interested in differentiating this thing, exactly this problem that I still didn't solve yet.", "entities": []}
+{"id": 12846, "text": "Okay?", "entities": []}
+{"id": 12847, "text": "So here it is.", "entities": []}
+{"id": 12848, "text": "And here's the procedure.", "entities": []}
+{"id": 12849, "text": "The procedure is to write, so the method is to use base <EXPRESSION>, or convert to base .", "entities": [{"label": "command", "start_offset": 47, "end_offset": 50}, {"label": "expression", "start_offset": 56, "end_offset": 68}, {"label": "command", "start_offset": 73, "end_offset": 80}]}
+{"id": 12850, "text": "So how do you convert to base <EXPRESSION>?", "entities": [{"label": "command", "start_offset": 14, "end_offset": 21}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 12851, "text": "Well, you write <EXPRESSION> as <EXPRESSION> to some power.", "entities": [{"label": "command", "start_offset": 10, "end_offset": 15}, {"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 12852, "text": "So what power is it?", "entities": []}
+{"id": 12853, "text": "It's <EXPRESSION> to the power <EXPRESSION>, to the power <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}, {"label": "expression", "start_offset": 31, "end_offset": 42}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 12854, "text": "And that is just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 12855, "text": "So we've made our conversion now to base <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 12856, "text": "The exponential of something.", "entities": []}
+{"id": 12857, "text": "So now I'm going to carry out the differentiation.", "entities": []}
+{"id": 12858, "text": "So <EQUATION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}]}
+{"id": 12859, "text": "And now, this is a step which causes great confusion when you first see it.", "entities": []}
+{"id": 12860, "text": "And you must get used to it, because it's easy, not hard.", "entities": []}
+{"id": 12861, "text": "Okay?", "entities": []}
+{"id": 12862, "text": "The rate of change of this with respect to <EXPRESSION> is, let me do it by analogy here.", "entities": [{"label": "expression", "start_offset": 43, "end_offset": 55}]}
+{"id": 12863, "text": "Because say I had <EXPRESSION> and I were differentiating it.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 12864, "text": "The chain rule would say that this is just <EXPRESSION>, the rate of change of <EXPRESSION> with respect to <EXPRESSION>.", "entities": [{"label": "method", "start_offset": 4, "end_offset": 14}, {"label": "expression", "start_offset": 43, "end_offset": 55}, {"label": "expression", "start_offset": 79, "end_offset": 91}, {"label": "expression", "start_offset": 108, "end_offset": 120}]}
+{"id": 12865, "text": "The rate of change of <EXPRESSION> with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 12866, "text": "So this is the ordinary chain rule.", "entities": [{"label": "method", "start_offset": 24, "end_offset": 34}]}
+{"id": 12867, "text": "And what we're doing up here is exactly the same thing, because <EXPRESSION>, as frightening as it looks, with all three letters there, is just a fixed number.", "entities": [{"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 12868, "text": "It's not moving.", "entities": []}
+{"id": 12869, "text": "It's a constant.", "entities": []}
+{"id": 12870, "text": "So the constant just accelerates the rate of change by that factor, which is what the chain rule is doing.", "entities": [{"label": "method", "start_offset": 86, "end_offset": 96}]}
+{"id": 12871, "text": "So this = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 12872, "text": "Same business here with ln a replacing <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 12873, "text": "So this is something you've got to get used to in time for the exam, for instance, because you're going to be doing a million of these.", "entities": []}
+{"id": 12874, "text": "So do get used to it.", "entities": []}
+{"id": 12875, "text": "So here's the formula.", "entities": []}
+{"id": 12876, "text": "On the other hand, this expression here was the same as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 12877, "text": "So another way of writing this, and I'll put this into a box, but actually I never remember this particularly.", "entities": []}
+{"id": 12878, "text": "I just re-derive it every time, is that the derivative of <EQUATION>.", "entities": [{"label": "equation", "start_offset": 58, "end_offset": 68}]}
+{"id": 12879, "text": "Now I'm going to get rid of what's underneath it.", "entities": []}
+{"id": 12880, "text": "So this is another formula.", "entities": []}
+{"id": 12881, "text": "So there's the formula I've essentially finished here.", "entities": []}
+{"id": 12882, "text": "And notice, what is the magic number?", "entities": []}
+{"id": 12883, "text": "The magic number is the natural log of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 12884, "text": "That's what it was.", "entities": []}
+{"id": 12885, "text": "We didn't know what it was in advance.", "entities": []}
+{"id": 12886, "text": "This is what it is.", "entities": []}
+{"id": 12887, "text": "It's the natural log of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 12888, "text": "Let me emphasize to you again, something about what's going on here, which has to do with scale change.", "entities": []}
+{"id": 12889, "text": "So, for example, the derivative with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 12890, "text": "The derivative with respect to <EXPRESSION>, these are the two most obvious bases that you might want to use, is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 113, "end_offset": 125}]}
+{"id": 12891, "text": "So one of the things that's natural about the natural logarithm is that even if we insisted that we must use base <EXPRESSION>, or that we must use base <EXPRESSION>, we'd still be stuck with natural logarithms.", "entities": [{"label": "expression", "start_offset": 114, "end_offset": 126}, {"label": "expression", "start_offset": 153, "end_offset": 165}]}
+{"id": 12892, "text": "They come up naturally.", "entities": []}
+{"id": 12893, "text": "They're the ones which are independent of our human construct of base <EXPRESSION> and base <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 70, "end_offset": 82}, {"label": "expression", "start_offset": 92, "end_offset": 104}]}
+{"id": 12894, "text": "The natural logarithm is the one that comes up without reference.", "entities": []}
+{"id": 12895, "text": "And we'll be mentioning a few other ways in which it's natural later.", "entities": []}
+{"id": 12896, "text": "So I told you about this first method, now I want to tell you about a second method here.", "entities": []}
+{"id": 12897, "text": "So the second is called logarithmic differentiation.", "entities": []}
+{"id": 12898, "text": "So how does this work?", "entities": []}
+{"id": 12899, "text": "Well, sometimes you're having trouble differentiating a function, and it's easier to differentiate its logarithm.", "entities": []}
+{"id": 12900, "text": "That may seem peculiar, but actually we'll give several examples where this is clearly the case, that the logarithm is easier to differentiate than the function.", "entities": []}
+{"id": 12901, "text": "So it could be that this is an easier quantity to understand.", "entities": []}
+{"id": 12902, "text": "So we want to relate it back to the function <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 12903, "text": "So I'm going to write it a slightly different way.", "entities": [{"label": "command", "start_offset": 16, "end_offset": 21}]}
+{"id": 12904, "text": "Let's write it in terms of primes here.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 11}]}
+{"id": 12905, "text": "So the basic identity is the chain rule again, and the derivative of the logarithm, well maybe I'll write it out this way first.", "entities": [{"label": "method", "start_offset": 29, "end_offset": 39}, {"label": "command", "start_offset": 100, "end_offset": 105}]}
+{"id": 12906, "text": "So this would be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 12907, "text": "These are the two factors.", "entities": []}
+{"id": 12908, "text": "And that's the same thing, so remember what the derivative of the logarithm is.", "entities": []}
+{"id": 12909, "text": "This is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 12910, "text": "So here I have a <EXPRESSION>, and here I have a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 12911, "text": "So I'm going to encode this on the next board here, which is sort of the main formula you always need to remember, which is that <EQUATION>.", "entities": [{"label": "equation", "start_offset": 129, "end_offset": 139}]}
+{"id": 12912, "text": "That's the one to remember here.", "entities": []}
+{"id": 12913, "text": "STUDENT: [INAUDIBLE].", "entities": []}
+{"id": 12914, "text": "PROFESSOR: The question is how did I get this step here?", "entities": []}
+{"id": 12915, "text": "So this is the chain rule.", "entities": [{"label": "method", "start_offset": 15, "end_offset": 25}]}
+{"id": 12916, "text": "The rate of change of <EXPRESSION> with respect to <EXPRESSION> is the rate of change of <EXPRESSION> with respect <EXPRESSION>, times the rate of change of <EXPRESSION> with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 89, "end_offset": 101}, {"label": "expression", "start_offset": 115, "end_offset": 127}, {"label": "command", "start_offset": 129, "end_offset": 134}, {"label": "expression", "start_offset": 157, "end_offset": 169}, {"label": "expression", "start_offset": 186, "end_offset": 198}]}
+{"id": 12917, "text": "That's the chain rule.", "entities": [{"label": "method", "start_offset": 11, "end_offset": 21}]}
+{"id": 12918, "text": "So now I've worked out this identity here, and now let's show how it handles this case, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 88, "end_offset": 100}]}
+{"id": 12919, "text": "Let's do this one.", "entities": []}
+{"id": 12920, "text": "So in order to get that one, I would take <EQUATION>.", "entities": [{"label": "command", "start_offset": 37, "end_offset": 40}, {"label": "equation", "start_offset": 42, "end_offset": 52}]}
+{"id": 12921, "text": "And now let's just take a look at what <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 12922, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 12923, "text": "Now I claim that this is pretty easy to differentiate.", "entities": []}
+{"id": 12924, "text": "Again, it may seem hard, but it's actually quite easy.", "entities": []}
+{"id": 12925, "text": "So maybe somebody can hazard a guess.", "entities": []}
+{"id": 12926, "text": "What's the derivative of <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 12927, "text": "It's just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 12928, "text": "So this is the same thing that I was talking about before, which is if you've got <EXPRESSION>, and you're taking its derivative with respect to <EXPRESSION> here, that's just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 82, "end_offset": 94}, {"label": "expression", "start_offset": 145, "end_offset": 157}, {"label": "expression", "start_offset": 176, "end_offset": 188}]}
+{"id": 12929, "text": "That's the kind of thing you have.", "entities": []}
+{"id": 12930, "text": "Again, don't be put off by this massive piece of junk here.", "entities": []}
+{"id": 12931, "text": "It's a constant.", "entities": []}
+{"id": 12932, "text": "So again, keep that in mind.", "entities": []}
+{"id": 12933, "text": "It comes up regularly in this kind of question.", "entities": []}
+{"id": 12934, "text": "So there's our formula, that the logarithmic derivative is this.", "entities": []}
+{"id": 12935, "text": "But let's just rewrite that.", "entities": [{"label": "command", "start_offset": 15, "end_offset": 22}]}
+{"id": 12936, "text": "That's the same thing as <EXPRESSION>, which is <EQUATION>, right?", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "equation", "start_offset": 48, "end_offset": 58}]}
+{"id": 12937, "text": "So this is our differentiation formula.", "entities": []}
+{"id": 12938, "text": "So here we have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 12939, "text": "<EQUATION>, if I just multiply through by <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}, {"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 12940, "text": "And that's what we wanted.", "entities": []}
+{"id": 12941, "text": "That's <EQUATION>.", "entities": [{"label": "equation", "start_offset": 7, "end_offset": 17}]}
+{"id": 12942, "text": "So this is the way that logarithmic differentiation works.", "entities": []}
+{"id": 12943, "text": "It's the same arithmetic as the previous method, but we don't have to convert to base <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 86, "end_offset": 98}]}
+{"id": 12944, "text": "We're just keeping track of the exponents and doing differentiation on the exponents, and multiplying through at the end.", "entities": []}
+{"id": 12945, "text": "Okay, so I'm going to do two trickier examples, which illustrate logarithmic differentiation.", "entities": []}
+{"id": 12946, "text": "Again, these could be done equally well by using base <EXPRESSION>, but I won't do it.", "entities": [{"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 12947, "text": "Method one and method two always both work.", "entities": []}
+{"id": 12948, "text": "So here's a second example: again this is a problem when you have moving exponents.", "entities": []}
+{"id": 12949, "text": "But this time, we're going to complicate matters by having both a moving exponent and a moving base.", "entities": []}
+{"id": 12950, "text": "So we have a function <EXPRESSION>, which is, well maybe I'll call it <EXPRESSION>, since we already had a function <EXPRESSION>, which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "command", "start_offset": 62, "end_offset": 66}, {"label": "expression", "start_offset": 70, "end_offset": 82}, {"label": "expression", "start_offset": 117, "end_offset": 129}, {"label": "expression", "start_offset": 139, "end_offset": 151}]}
+{"id": 12951, "text": "A really complicated looking function here.", "entities": []}
+{"id": 12952, "text": "So again you can handle this by converting to base <EXPRESSION>, method one.", "entities": [{"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 12953, "text": "But we'll do the logarithmic differentiation version, alright?", "entities": []}
+{"id": 12954, "text": "So I take the logs of both sides.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 9}, {"label": "command_attribute", "start_offset": 14, "end_offset": 32}]}
+{"id": 12955, "text": "And now I differentiate it.", "entities": [{"label": "command", "start_offset": 10, "end_offset": 23}]}
+{"id": 12956, "text": "And now when I differentiate this here, I have to use the product rule.", "entities": [{"label": "command", "start_offset": 15, "end_offset": 28}, {"label": "command", "start_offset": 50, "end_offset": 53}, {"label": "method", "start_offset": 58, "end_offset": 70}]}
+{"id": 12957, "text": "This time, instead of having <EXPRESSION>, a constant, I have a variable here.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 12958, "text": "So I have two factors.", "entities": []}
+{"id": 12959, "text": "I have <EXPRESSION> when I differentiate with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "command", "start_offset": 27, "end_offset": 40}, {"label": "expression", "start_offset": 57, "end_offset": 69}]}
+{"id": 12960, "text": "When I differentiate with respect to this factor here, I get that <EXPRESSION> times the derivative of that, which is <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 7, "end_offset": 20}, {"label": "expression", "start_offset": 66, "end_offset": 78}, {"label": "expression", "start_offset": 118, "end_offset": 130}]}
+{"id": 12961, "text": "So, here's my formula.", "entities": []}
+{"id": 12962, "text": "Almost finished.", "entities": []}
+{"id": 12963, "text": "So I have here <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 12964, "text": "I'm going to multiply these two things together.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 21}]}
+{"id": 12965, "text": "I'll put it on the other side, because I don't want to get it mixed up with <EXPRESSION>, the quantity.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 8}, {"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 12966, "text": "And now I'm almost done.", "entities": []}
+{"id": 12967, "text": "I have <EQUATION>, and that's just <EQUATION>.", "entities": [{"label": "equation", "start_offset": 7, "end_offset": 17}, {"label": "equation", "start_offset": 35, "end_offset": 45}]}
+{"id": 12968, "text": "That's it.", "entities": []}
+{"id": 12969, "text": "So these two methods always work for moving exponents.", "entities": []}
+{"id": 12970, "text": "So the next thing that I'd like to do is another fairly tricky example.", "entities": []}
+{"id": 12971, "text": "And this one is not strictly speaking within calculus.", "entities": []}
+{"id": 12972, "text": "Although we're going to use the tools that we just described to carry it out, in fact it will use some calculus in the very end.", "entities": []}
+{"id": 12973, "text": "And what I'm going to do is I'm going to evaluate the limit as <EXPRESSION> goes to <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 41, "end_offset": 49}, {"label": "command_attribute", "start_offset": 50, "end_offset": 59}, {"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "expression", "start_offset": 84, "end_offset": 96}]}
+{"id": 12974, "text": "So now, the reason why I want to discuss this is, is it turns out to have a very interesting answer.", "entities": []}
+{"id": 12975, "text": "And it's a problem that you can approach exactly by this method.", "entities": []}
+{"id": 12976, "text": "And the reason is that it has a moving exponent.", "entities": []}
+{"id": 12977, "text": "The exponent n here is changing.", "entities": []}
+{"id": 12978, "text": "And so if you want to keep track of that, a good way to do that is to use logarithms.", "entities": [{"label": "expression", "start_offset": 70, "end_offset": 73}, {"label": "method", "start_offset": 74, "end_offset": 84}]}
+{"id": 12979, "text": "So in order to figure out this limit, we're going to take the log of it and figure out what the limit of the log is, instead of the log of the limit.", "entities": [{"label": "command", "start_offset": 53, "end_offset": 57}, {"label": "command_attribute", "start_offset": 58, "end_offset": 65}]}
+{"id": 12980, "text": "Those will be the same thing.", "entities": []}
+{"id": 12981, "text": "So we're going to take the natural log of this quantity here, and that's <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 18, "end_offset": 22}, {"label": "command_attribute", "start_offset": 23, "end_offset": 38}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 12982, "text": "And now I'm going to rewrite this in a form which will make it more recognizable, so what I'd like to do is I'm going to write <EXPRESSION>, or maybe I should say it this way: <EQUATION>.", "entities": [{"label": "command", "start_offset": 21, "end_offset": 28}, {"label": "command", "start_offset": 121, "end_offset": 126}, {"label": "expression", "start_offset": 127, "end_offset": 139}, {"label": "equation", "start_offset": 176, "end_offset": 186}]}
+{"id": 12983, "text": "So if <EXPRESSION> is going to infinity, then this <EXPRESSION> is going to be going to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}, {"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 88, "end_offset": 100}]}
+{"id": 12984, "text": "So this is more familiar territory for us in this class, anyway.", "entities": []}
+{"id": 12985, "text": "So let's rewrite it.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 16}]}
+{"id": 12986, "text": "So here, we have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 12987, "text": "And then that is multiplied by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 12988, "text": "So <EXPRESSION> is the reciprocal of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 12989, "text": "Now I want to change this in a very, very minor way.", "entities": []}
+{"id": 12990, "text": "I'm going to subtract <EXPRESSION> from it.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 21}, {"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 12991, "text": "So that's the same thing.", "entities": []}
+{"id": 12992, "text": "So what I'm going to do is I'm going to subtract <EXPRESSION> from it.", "entities": [{"label": "command", "start_offset": 40, "end_offset": 48}, {"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 12993, "text": "That's just = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 12994, "text": "So this is not a problem, and I'll put some parentheses around it.", "entities": []}
+{"id": 12995, "text": "Now you're supposed to recognize, all of a sudden, what pattern this fits into.", "entities": []}
+{"id": 12996, "text": "This is the thing which we need to calculate in order to calculate the derivative of the log function.", "entities": [{"label": "command", "start_offset": 57, "end_offset": 66}, {"label": "command_attribute", "start_offset": 67, "end_offset": 81}]}
+{"id": 12997, "text": "So this is, in the limit as <EXPRESSION> goes to ,<EXPRESSION> = the derivative of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 50, "end_offset": 61}, {"label": "expression", "start_offset": 83, "end_offset": 95}]}
+{"id": 12998, "text": "Where?", "entities": []}
+{"id": 12999, "text": "Well the base point is <EQUATION>.", "entities": [{"label": "equation", "start_offset": 23, "end_offset": 33}]}
+{"id": 13000, "text": "That's where we're evaluating it.", "entities": []}
+{"id": 13001, "text": "That's the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 13002, "text": "That's the base value.", "entities": []}
+{"id": 13003, "text": "So this is the difference quotient.", "entities": []}
+{"id": 13004, "text": "That's exactly what it is.", "entities": []}
+{"id": 13005, "text": "And so this by definition tends to the limit here.", "entities": []}
+{"id": 13006, "text": "But we know what the derivative of the log function is.", "entities": []}
+{"id": 13007, "text": "The derivative of the log function is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 13008, "text": "So this limit is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 13009, "text": "So we got it.", "entities": []}
+{"id": 13010, "text": "We got the limit.", "entities": []}
+{"id": 13011, "text": "And now we just have to work backwards to figure out what this limit that we've got over here is.", "entities": []}
+{"id": 13012, "text": "So let's do that.", "entities": []}
+{"id": 13013, "text": "So let's see here.", "entities": []}
+{"id": 13014, "text": "The log approached <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 13015, "text": "So the limit as <EXPRESSION> goes to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 13016, "text": "So sorry, the log of this.", "entities": []}
+{"id": 13017, "text": "Yeah, let's write it this way.", "entities": [{"label": "command", "start_offset": 12, "end_offset": 17}]}
+{"id": 13018, "text": "It's the same thing, as well, the thing that we know is the log of this.", "entities": []}
+{"id": 13019, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 13020, "text": "And goes to infinity.", "entities": [{"label": "term", "start_offset": 12, "end_offset": 20}]}
+{"id": 13021, "text": "That's the one that we just figured out.", "entities": []}
+{"id": 13022, "text": "But now this thing is the exponential of that.", "entities": []}
+{"id": 13023, "text": "So it's really <EXPRESSION> to this power here.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 13024, "text": "So this guy is the same as the limit of the log of the limit of the thing, which is the same as log of the limit.", "entities": []}
+{"id": 13025, "text": "The limit of the log and the log of the limit are the same.", "entities": []}
+{"id": 13026, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 13027, "text": "Okay, so I take the logarithm, then I'm going to take the exponential.", "entities": []}
+{"id": 13028, "text": "That just undoes what I did before.", "entities": []}
+{"id": 13029, "text": "And so this limit is just <EXPRESSION>, so this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 37}, {"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 13030, "text": "And so the limit that we want here = .", "entities": []}
+{"id": 13031, "text": "So I claim that with this step, we've actually closed the loop, finally.", "entities": []}
+{"id": 13032, "text": "Because we have an honest numerical way to calculate <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 43, "end_offset": 51}, {"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 13033, "text": "The first.", "entities": []}
+{"id": 13034, "text": "There are many such.", "entities": []}
+{"id": 13035, "text": "But this one is a perfectly honest numerical way to calculate <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 52, "end_offset": 61}, {"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 13036, "text": "We had this thing.", "entities": []}
+{"id": 13037, "text": "We didn't know exactly what it was.", "entities": []}
+{"id": 13038, "text": "It was this <EXPRESSION>, there was <EXPRESSION>, the logarithm, and so on.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 23}, {"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 13039, "text": "We have all that stuff.", "entities": []}
+{"id": 13040, "text": "But we really need to nail down what this number <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 13041, "text": "And this is telling us, if you take for example <EXPRESSION>, that's going to be a very good, perfectly decent anyway, approximation to <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 31, "end_offset": 35}, {"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 136, "end_offset": 148}]}
+{"id": 13042, "text": "So this is a numerical approximation, which is all we can ever do with just this kind of irrational number.", "entities": []}
+{"id": 13043, "text": "And so that closes the loop, and we now have a coherent family of functions, which are actually well defined and for which we have practical methods to calculate.", "entities": []}
+{"id": 13044, "text": "Okay, see you next time.", "entities": []}

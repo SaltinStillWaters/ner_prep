@@ -1,113 +1,113 @@
-{"id":4519,"text":"Let's say I want to figure out the area between the curve and the x-axis from <EQUATION> to, I don't know, <EQUATION>.","label":[[78,88,"equation"],[107,117,"equation"]],"Comments":[]}
-{"id":4520,"text":"So what we can do is maybe you want to pause it and think about it yourself we can figure out the area under the grey curve.","label":[],"Comments":[]}
-{"id":4521,"text":"I'm going to shade it in.","label":[],"Comments":[]}
-{"id":4522,"text":"It's <EXPRESSION>, <EXPRESSION>, right? They both intersect at <EXPRESSION>, <EXPRESSION>.","label":[[5,17,"expression"],[19,31,"expression"],[63,75,"expression"],[77,89,"expression"]],"Comments":[]}
-{"id":4523,"text":"You might be confused right now.","label":[],"Comments":[]}
-{"id":4524,"text":"There you go.","label":[],"Comments":[]}
-{"id":4525,"text":"I'm now going to use definite integrals to figure out the areas under a bunch of curves and, if we have time, maybe even between some curves.","label":[],"Comments":[]}
-{"id":4526,"text":"And let's say I want to figure out the area under the curve between the curve and, really, the x-axis.","label":[],"Comments":[]}
-{"id":4527,"text":"So it'll start at <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
-{"id":4528,"text":"Which is exactly how we're going to do it in the next video because I have run out of time.","label":[],"Comments":[]}
-{"id":4529,"text":"So let me right down the fundamental theorem of calculus.","label":[],"Comments":[]}
-{"id":4530,"text":"y-intercept at <EXPRESSION>.","label":[[15,27,"expression"]],"Comments":[]}
-{"id":4531,"text":"This is just the notation they use.","label":[],"Comments":[]}
-{"id":4532,"text":"But when you subtract here, the constants will cancel out.","label":[],"Comments":[]}
-{"id":4533,"text":"Welcome back.","label":[],"Comments":[]}
-{"id":4534,"text":"It's a parabola.","label":[],"Comments":[]}
-{"id":4535,"text":"So let me draw a graph.","label":[],"Comments":[]}
-{"id":4536,"text":"I'll do a slight variation.","label":[],"Comments":[]}
-{"id":4537,"text":"But the fundamental theorem of calculus tells us if this top line is true, then the definite integral from <EXPRESSION> to <EXPRESSION> of <EXPRESSION> = its antiderivative evaluated at <EXPRESSION> minus its antiderivative evaluated at <EXPRESSION>.","label":[[123,135,"expression"],[139,151,"expression"],[186,198,"expression"],[237,249,"expression"]],"Comments":[]}
-{"id":4538,"text":"So that's why I actually said the antiderivative.","label":[],"Comments":[]}
-{"id":4539,"text":"Maybe I'm making a mistake with negative signs.","label":[],"Comments":[]}
-{"id":4540,"text":"You could square both sides or well, actually, this is the same thing as doing it by intuition.","label":[],"Comments":[]}
-{"id":4541,"text":"Let's say I have <EQUATION>.","label":[[17,27,"equation"]],"Comments":[]}
-{"id":4542,"text":"All of this stuff.","label":[],"Comments":[]}
-{"id":4543,"text":"But let's just mechanically compute it.","label":[],"Comments":[]}
-{"id":4544,"text":"But let's apply this.","label":[],"Comments":[]}
-{"id":4545,"text":"You could pick an arbitrary <EXPRESSION> right here and it'll just cancel out.","label":[[28,40,"expression"]],"Comments":[]}
-{"id":4546,"text":"What's the antiderivative of <EXPRESSION>? This just = the antiderivative.","label":[[29,41,"expression"]],"Comments":[]}
-{"id":4547,"text":"I've done worse.","label":[],"Comments":[]}
-{"id":4548,"text":"And, of course, it'll continue on this side as well.","label":[],"Comments":[]}
-{"id":4549,"text":"So it looks something like this.","label":[],"Comments":[]}
-{"id":4550,"text":"And even this point, you could probably do it from intuition.","label":[],"Comments":[]}
-{"id":4551,"text":"Let's do another one.","label":[],"Comments":[]}
-{"id":4552,"text":"I think you'll get the point.","label":[],"Comments":[]}
-{"id":4553,"text":"Right? This is just big <EXPRESSION>, right? Because I figured out the end This is big <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
-{"id":4554,"text":"You'll see.","label":[],"Comments":[]}
-{"id":4555,"text":"Which is true for both of them.","label":[],"Comments":[]}
-{"id":4556,"text":"I think that = <EXPRESSION>, correct? I think so.","label":[[15,27,"expression"]],"Comments":[]}
-{"id":4557,"text":"And we're going to evaluate that at <EXPRESSION> and <EXPRESSION> and we're going to subtract out big <EXPRESSION> of <EXPRESSION> from big <EXPRESSION> of <EXPRESSION>.","label":[[36,48,"expression"],[53,65,"expression"],[102,114,"expression"],[118,130,"expression"],[140,152,"expression"],[156,168,"expression"]],"Comments":[]}
-{"id":4558,"text":"Let's say that my <EQUATION>.","label":[[18,28,"equation"]],"Comments":[]}
-{"id":4559,"text":"This is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":4560,"text":"I want to figure out this area.","label":[],"Comments":[]}
-{"id":4561,"text":"Let me draw again.","label":[],"Comments":[]}
-{"id":4562,"text":"That's actually a pretty nice looking, kind of sideways parabola, I think.","label":[],"Comments":[]}
-{"id":4563,"text":"Draw the x-axis.","label":[],"Comments":[]}
-{"id":4564,"text":"And if we put <EXPRESSION> here.","label":[[14,26,"expression"]],"Comments":[]}
-{"id":4565,"text":"Some coordinates.","label":[],"Comments":[]}
-{"id":4566,"text":"So that's <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":4567,"text":"And then we have our answer.","label":[],"Comments":[]}
-{"id":4568,"text":"But if you watched the last videos, hopefully that hit the point home.","label":[],"Comments":[]}
-{"id":4569,"text":"I'm kind of running out of time.","label":[],"Comments":[]}
-{"id":4570,"text":"Because it is defined for negative numbers.","label":[],"Comments":[]}
-{"id":4571,"text":"And then <EXPRESSION> is <EXPRESSION>.","label":[[9,21,"expression"],[25,37,"expression"]],"Comments":[]}
-{"id":4572,"text":"I don't know if I'm going to have time to do it in this video but I'll try.","label":[],"Comments":[]}
-{"id":4573,"text":"And then this = So if I evaluate <EXPRESSION>.","label":[[33,45,"expression"]],"Comments":[]}
-{"id":4574,"text":"Let's say that big <EQUATION>, right? That's also like saying that the that's equivalent to saying that <EXPRESSION> = the antiderivative of <EXPRESSION>, right? Well, let's just that it's <EXPRESSION> of the possible antiderivatives of <EXPRESSION>, right? Because there's always a constant term here and you're not sure whether it is.","label":[[19,29,"equation"],[104,116,"expression"],[141,153,"expression"],[189,201,"expression"],[237,249,"expression"]],"Comments":[]}
-{"id":4575,"text":"And I know I said here that big f isn't the only antiderivative, right? Because you could at any constant to this and that would also be the antiderivative.","label":[],"Comments":[]}
-{"id":4576,"text":"So this is a little bit not true, but I think you get the idea.","label":[],"Comments":[]}
-{"id":4577,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
-{"id":4578,"text":"But now we'll just mechanically compute because, actually, understanding it is a bit harder than just doing it.","label":[],"Comments":[]}
-{"id":4579,"text":"And then, from that we'll subtract big <EXPRESSION>, right? Minus big <EXPRESSION> of <EXPRESSION>.","label":[[39,51,"expression"],[70,82,"expression"],[86,98,"expression"]],"Comments":[]}
-{"id":4580,"text":"But not to be confused with small, cursive <EXPRESSION> of <EXPRESSION>.","label":[[43,55,"expression"],[59,71,"expression"]],"Comments":[]}
-{"id":4581,"text":"But we will now use the fundamental theorem of calculus and hopefully you have an intuition of why this works and how the integral is really just a sum of a bunch of little, little, small squares with infinitely small bases.","label":[],"Comments":[]}
-{"id":4582,"text":"<EXPRESSION> which = <EXPRESSION>.","label":[[0,12,"expression"],[21,33,"expression"]],"Comments":[]}
-{"id":4583,"text":"It'll just be a parabola.","label":[],"Comments":[]}
-{"id":4584,"text":"I know I covered it really fast in the last presentation.","label":[],"Comments":[]}
-{"id":4585,"text":"Whoops! I was doing well and then something happened.","label":[],"Comments":[]}
-{"id":4586,"text":"So it's just <EXPRESSION> we could say <EXPRESSION> or <EXPRESSION>, right? The derivative of <EXPRESSION> is <EXPRESSION>.","label":[[13,26,"expression"],[39,51,"expression"],[55,67,"expression"],[94,106,"expression"],[110,122,"expression"]],"Comments":[]}
-{"id":4587,"text":"You figure out the antiderivative and you say where you're going to evaluate it.","label":[],"Comments":[]}
-{"id":4588,"text":"And then we don't have to worry about <EXPRESSION> because we're going to subtract out the <EXPRESSION>'s.","label":[[38,50,"expression"],[91,103,"expression"]],"Comments":[]}
-{"id":4589,"text":"<EXPRESSION> is just <EXPRESSION> of the antiderivatives of <EXPRESSION>.","label":[[0,12,"expression"],[21,33,"expression"],[60,72,"expression"]],"Comments":[]}
-{"id":4590,"text":"Squared units.","label":[],"Comments":[]}
-{"id":4591,"text":"It would have been very difficult.","label":[],"Comments":[]}
-{"id":4592,"text":"<EXPRESSION> is what? That's <EXPRESSION>.","label":[[0,12,"expression"],[29,41,"expression"]],"Comments":[]}
-{"id":4593,"text":"So this is the area.","label":[],"Comments":[]}
-{"id":4594,"text":"And I'm going to subtract that, right? So if I'm subtracting <EXPRESSION>, it's the same thing as adding <EXPRESSION>.","label":[[61,73,"expression"],[105,117,"expression"]],"Comments":[]}
-{"id":4595,"text":"We could figure out this area and then we could figure out the entire area under the green curve separately and then we could subtract the difference.","label":[],"Comments":[]}
-{"id":4596,"text":"Let's see, <EXPRESSION> is <EXPRESSION>.","label":[[11,23,"expression"],[27,39,"expression"]],"Comments":[]}
-{"id":4597,"text":"So <EXPRESSION> is actually going to look something like this.","label":[[3,15,"expression"]],"Comments":[]}
-{"id":4598,"text":"So this is the area I want to figure out.","label":[],"Comments":[]}
-{"id":4599,"text":"So it really doesn't matter which of the constants you pick.","label":[],"Comments":[]}
-{"id":4600,"text":"So this is the point <EXPRESSION>, <EXPRESSION>.","label":[[21,33,"expression"],[35,47,"expression"]],"Comments":[]}
-{"id":4601,"text":"<EXPRESSION> squared units.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":4602,"text":"But I think it's pretty obvious that the only places where <EQUATION> are the points <EQUATION>, which you already know, and <EQUATION>.","label":[[59,69,"equation"],[85,95,"equation"],[125,135,"equation"]],"Comments":[]}
-{"id":4603,"text":"We could write this as a mixed number as well.","label":[],"Comments":[]}
-{"id":4604,"text":"OK.","label":[],"Comments":[]}
-{"id":4605,"text":"This is big <EXPRESSION> of <EXPRESSION>.","label":[[12,24,"expression"],[28,40,"expression"]],"Comments":[]}
-{"id":4606,"text":"We could figure out this area.","label":[],"Comments":[]}
-{"id":4607,"text":"And this is why people tend to use this standard because we know that <EXPRESSION> is the derivative of <EXPRESSION>.","label":[[70,82,"expression"],[104,116,"expression"]],"Comments":[]}
-{"id":4608,"text":"And you could imagine, before you knew calculus, figuring out an area of something with a curve it's kind of top boundary.","label":[],"Comments":[]}
-{"id":4609,"text":"And this is more algebra, so I won't go into that in too much detail.","label":[],"Comments":[]}
-{"id":4610,"text":"So <EXPRESSION> looks like this.","label":[[3,15,"expression"]],"Comments":[]}
-{"id":4611,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":4612,"text":"So we want to figure out this is a boundary, right? Between <EXPRESSION> and <EXPRESSION>.","label":[[60,72,"expression"],[77,89,"expression"]],"Comments":[]}
-{"id":4613,"text":"Look how straight that is.","label":[],"Comments":[]}
-{"id":4614,"text":"So we are essentially just going to figure out the integral from <EXPRESSION> to <EXPRESSION> of <EXPRESSION>, which is <EXPRESSION>.","label":[[65,77,"expression"],[81,93,"expression"],[97,109,"expression"],[120,132,"expression"]],"Comments":[]}
-{"id":4615,"text":"It doesn't matter.","label":[],"Comments":[]}
-{"id":4616,"text":"But anyway, my question to you, or my question to myself, really, is what is the area between the curves where they intersect? What is this? What is this area? Well, the first thing you have to figure out is just what are the boundary points? What is this point? And what is this point? Well this point, I think, is pretty clear.","label":[],"Comments":[]}
-{"id":4617,"text":"But if you don't, I guess, want to do it through intuition, you could just set these <EXPRESSION> equations = each other, right? You could say <EQUATION>, right? And then you could do a bunch of things.","label":[[85,97,"expression"],[142,153,"equation"]],"Comments":[]}
-{"id":4618,"text":"And let's say I have another function.","label":[],"Comments":[]}
-{"id":4619,"text":"Just to make sure you understand this formula.","label":[],"Comments":[]}
-{"id":4620,"text":"You can kind of view this as big <EXPRESSION>.","label":[[33,45,"expression"]],"Comments":[]}
-{"id":4621,"text":"So we want to figure out the area between these <EXPRESSION> curves.","label":[[48,60,"expression"]],"Comments":[]}
-{"id":4622,"text":"The last couple presentations were really to give you an intuition for this exact formula.","label":[],"Comments":[]}
-{"id":4623,"text":"OK.","label":[],"Comments":[]}
-{"id":4624,"text":"Actually, it's <EXPRESSION> whatever units.","label":[[15,27,"expression"]],"Comments":[]}
-{"id":4625,"text":"Let me see how good I can draw this.","label":[],"Comments":[]}
-{"id":4626,"text":"Not perfect but it'll do.","label":[],"Comments":[]}
-{"id":4627,"text":"I always try.","label":[],"Comments":[]}
-{"id":4628,"text":"The constant actually doesn't matter.","label":[],"Comments":[]}
-{"id":4629,"text":"So this big <EXPRESSION>.","label":[[12,24,"expression"]],"Comments":[]}
-{"id":4630,"text":"This is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":4631,"text":"So it's <EXPRESSION> and then <EXPRESSION>, right? So <EXPRESSION>.","label":[[8,20,"expression"],[30,42,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id": 4519, "text": "Let's say I want to figure out the area between the curve and the x-axis from <EQUATION> to, I don't know, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 78, "end_offset": 88}, {"label": "equation", "start_offset": 107, "end_offset": 117}]}
+{"id": 4520, "text": "So what we can do is maybe you want to pause it and think about it yourself we can figure out the area under the grey curve.", "entities": []}
+{"id": 4521, "text": "I'm going to shade it in.", "entities": []}
+{"id": 4522, "text": "It's <EXPRESSION>, <EXPRESSION>, right? They both intersect at <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}, {"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 4523, "text": "You might be confused right now.", "entities": []}
+{"id": 4524, "text": "There you go.", "entities": []}
+{"id": 4525, "text": "I'm now going to use definite integrals to figure out the areas under a bunch of curves and, if we have time, maybe even between some curves.", "entities": []}
+{"id": 4526, "text": "And let's say I want to figure out the area under the curve between the curve and, really, the x-axis.", "entities": []}
+{"id": 4527, "text": "So it'll start at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 4528, "text": "Which is exactly how we're going to do it in the next video because I have run out of time.", "entities": []}
+{"id": 4529, "text": "So let me right down the fundamental theorem of calculus.", "entities": []}
+{"id": 4530, "text": "y-intercept at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 4531, "text": "This is just the notation they use.", "entities": []}
+{"id": 4532, "text": "But when you subtract here, the constants will cancel out.", "entities": []}
+{"id": 4533, "text": "Welcome back.", "entities": []}
+{"id": 4534, "text": "It's a parabola.", "entities": []}
+{"id": 4535, "text": "So let me draw a graph.", "entities": []}
+{"id": 4536, "text": "I'll do a slight variation.", "entities": []}
+{"id": 4537, "text": "But the fundamental theorem of calculus tells us if this top line is true, then the definite integral from <EXPRESSION> to <EXPRESSION> of <EXPRESSION> = its antiderivative evaluated at <EXPRESSION> minus its antiderivative evaluated at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 123, "end_offset": 135}, {"label": "expression", "start_offset": 139, "end_offset": 151}, {"label": "expression", "start_offset": 186, "end_offset": 198}, {"label": "expression", "start_offset": 237, "end_offset": 249}]}
+{"id": 4538, "text": "So that's why I actually said the antiderivative.", "entities": []}
+{"id": 4539, "text": "Maybe I'm making a mistake with negative signs.", "entities": []}
+{"id": 4540, "text": "You could square both sides or well, actually, this is the same thing as doing it by intuition.", "entities": []}
+{"id": 4541, "text": "Let's say I have <EQUATION>.", "entities": [{"label": "equation", "start_offset": 17, "end_offset": 27}]}
+{"id": 4542, "text": "All of this stuff.", "entities": []}
+{"id": 4543, "text": "But let's just mechanically compute it.", "entities": []}
+{"id": 4544, "text": "But let's apply this.", "entities": []}
+{"id": 4545, "text": "You could pick an arbitrary <EXPRESSION> right here and it'll just cancel out.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 4546, "text": "What's the antiderivative of <EXPRESSION>? This just = the antiderivative.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 4547, "text": "I've done worse.", "entities": []}
+{"id": 4548, "text": "And, of course, it'll continue on this side as well.", "entities": []}
+{"id": 4549, "text": "So it looks something like this.", "entities": []}
+{"id": 4550, "text": "And even this point, you could probably do it from intuition.", "entities": []}
+{"id": 4551, "text": "Let's do another one.", "entities": []}
+{"id": 4552, "text": "I think you'll get the point.", "entities": []}
+{"id": 4553, "text": "Right? This is just big <EXPRESSION>, right? Because I figured out the end This is big <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 4554, "text": "You'll see.", "entities": []}
+{"id": 4555, "text": "Which is true for both of them.", "entities": []}
+{"id": 4556, "text": "I think that = <EXPRESSION>, correct? I think so.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 4557, "text": "And we're going to evaluate that at <EXPRESSION> and <EXPRESSION> and we're going to subtract out big <EXPRESSION> of <EXPRESSION> from big <EXPRESSION> of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "expression", "start_offset": 102, "end_offset": 114}, {"label": "expression", "start_offset": 118, "end_offset": 130}, {"label": "expression", "start_offset": 140, "end_offset": 152}, {"label": "expression", "start_offset": 156, "end_offset": 168}]}
+{"id": 4558, "text": "Let's say that my <EQUATION>.", "entities": [{"label": "equation", "start_offset": 18, "end_offset": 28}]}
+{"id": 4559, "text": "This is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 4560, "text": "I want to figure out this area.", "entities": []}
+{"id": 4561, "text": "Let me draw again.", "entities": []}
+{"id": 4562, "text": "That's actually a pretty nice looking, kind of sideways parabola, I think.", "entities": []}
+{"id": 4563, "text": "Draw the x-axis.", "entities": []}
+{"id": 4564, "text": "And if we put <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 4565, "text": "Some coordinates.", "entities": []}
+{"id": 4566, "text": "So that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 4567, "text": "And then we have our answer.", "entities": []}
+{"id": 4568, "text": "But if you watched the last videos, hopefully that hit the point home.", "entities": []}
+{"id": 4569, "text": "I'm kind of running out of time.", "entities": []}
+{"id": 4570, "text": "Because it is defined for negative numbers.", "entities": []}
+{"id": 4571, "text": "And then <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 4572, "text": "I don't know if I'm going to have time to do it in this video but I'll try.", "entities": []}
+{"id": 4573, "text": "And then this = So if I evaluate <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 4574, "text": "Let's say that big <EQUATION>, right? That's also like saying that the that's equivalent to saying that <EXPRESSION> = the antiderivative of <EXPRESSION>, right? Well, let's just that it's <EXPRESSION> of the possible antiderivatives of <EXPRESSION>, right? Because there's always a constant term here and you're not sure whether it is.", "entities": [{"label": "equation", "start_offset": 19, "end_offset": 29}, {"label": "expression", "start_offset": 104, "end_offset": 116}, {"label": "expression", "start_offset": 141, "end_offset": 153}, {"label": "expression", "start_offset": 189, "end_offset": 201}, {"label": "expression", "start_offset": 237, "end_offset": 249}]}
+{"id": 4575, "text": "And I know I said here that big f isn't the only antiderivative, right? Because you could at any constant to this and that would also be the antiderivative.", "entities": []}
+{"id": 4576, "text": "So this is a little bit not true, but I think you get the idea.", "entities": []}
+{"id": 4577, "text": "<EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 4578, "text": "But now we'll just mechanically compute because, actually, understanding it is a bit harder than just doing it.", "entities": []}
+{"id": 4579, "text": "And then, from that we'll subtract big <EXPRESSION>, right? Minus big <EXPRESSION> of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 70, "end_offset": 82}, {"label": "expression", "start_offset": 86, "end_offset": 98}]}
+{"id": 4580, "text": "But not to be confused with small, cursive <EXPRESSION> of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 43, "end_offset": 55}, {"label": "expression", "start_offset": 59, "end_offset": 71}]}
+{"id": 4581, "text": "But we will now use the fundamental theorem of calculus and hopefully you have an intuition of why this works and how the integral is really just a sum of a bunch of little, little, small squares with infinitely small bases.", "entities": []}
+{"id": 4582, "text": "<EXPRESSION> which = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 4583, "text": "It'll just be a parabola.", "entities": []}
+{"id": 4584, "text": "I know I covered it really fast in the last presentation.", "entities": []}
+{"id": 4585, "text": "Whoops! I was doing well and then something happened.", "entities": []}
+{"id": 4586, "text": "So it's just <EXPRESSION> we could say <EXPRESSION> or <EXPRESSION>, right? The derivative of <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 26}, {"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 55, "end_offset": 67}, {"label": "expression", "start_offset": 94, "end_offset": 106}, {"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 4587, "text": "You figure out the antiderivative and you say where you're going to evaluate it.", "entities": []}
+{"id": 4588, "text": "And then we don't have to worry about <EXPRESSION> because we're going to subtract out the <EXPRESSION>'s.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}, {"label": "expression", "start_offset": 91, "end_offset": 103}]}
+{"id": 4589, "text": "<EXPRESSION> is just <EXPRESSION> of the antiderivatives of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 4590, "text": "Squared units.", "entities": []}
+{"id": 4591, "text": "It would have been very difficult.", "entities": []}
+{"id": 4592, "text": "<EXPRESSION> is what? That's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 4593, "text": "So this is the area.", "entities": []}
+{"id": 4594, "text": "And I'm going to subtract that, right? So if I'm subtracting <EXPRESSION>, it's the same thing as adding <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 105, "end_offset": 117}]}
+{"id": 4595, "text": "We could figure out this area and then we could figure out the entire area under the green curve separately and then we could subtract the difference.", "entities": []}
+{"id": 4596, "text": "Let's see, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 4597, "text": "So <EXPRESSION> is actually going to look something like this.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 4598, "text": "So this is the area I want to figure out.", "entities": []}
+{"id": 4599, "text": "So it really doesn't matter which of the constants you pick.", "entities": []}
+{"id": 4600, "text": "So this is the point <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 4601, "text": "<EXPRESSION> squared units.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 4602, "text": "But I think it's pretty obvious that the only places where <EQUATION> are the points <EQUATION>, which you already know, and <EQUATION>.", "entities": [{"label": "equation", "start_offset": 59, "end_offset": 69}, {"label": "equation", "start_offset": 85, "end_offset": 95}, {"label": "equation", "start_offset": 125, "end_offset": 135}]}
+{"id": 4603, "text": "We could write this as a mixed number as well.", "entities": []}
+{"id": 4604, "text": "OK.", "entities": []}
+{"id": 4605, "text": "This is big <EXPRESSION> of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 4606, "text": "We could figure out this area.", "entities": []}
+{"id": 4607, "text": "And this is why people tend to use this standard because we know that <EXPRESSION> is the derivative of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 70, "end_offset": 82}, {"label": "expression", "start_offset": 104, "end_offset": 116}]}
+{"id": 4608, "text": "And you could imagine, before you knew calculus, figuring out an area of something with a curve it's kind of top boundary.", "entities": []}
+{"id": 4609, "text": "And this is more algebra, so I won't go into that in too much detail.", "entities": []}
+{"id": 4610, "text": "So <EXPRESSION> looks like this.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 4611, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 4612, "text": "So we want to figure out this is a boundary, right? Between <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 60, "end_offset": 72}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 4613, "text": "Look how straight that is.", "entities": []}
+{"id": 4614, "text": "So we are essentially just going to figure out the integral from <EXPRESSION> to <EXPRESSION> of <EXPRESSION>, which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 65, "end_offset": 77}, {"label": "expression", "start_offset": 81, "end_offset": 93}, {"label": "expression", "start_offset": 97, "end_offset": 109}, {"label": "expression", "start_offset": 120, "end_offset": 132}]}
+{"id": 4615, "text": "It doesn't matter.", "entities": []}
+{"id": 4616, "text": "But anyway, my question to you, or my question to myself, really, is what is the area between the curves where they intersect? What is this? What is this area? Well, the first thing you have to figure out is just what are the boundary points? What is this point? And what is this point? Well this point, I think, is pretty clear.", "entities": []}
+{"id": 4617, "text": "But if you don't, I guess, want to do it through intuition, you could just set these <EXPRESSION> equations = each other, right? You could say <EQUATION>, right? And then you could do a bunch of things.", "entities": [{"label": "expression", "start_offset": 85, "end_offset": 97}, {"label": "equation", "start_offset": 142, "end_offset": 153}]}
+{"id": 4618, "text": "And let's say I have another function.", "entities": []}
+{"id": 4619, "text": "Just to make sure you understand this formula.", "entities": []}
+{"id": 4620, "text": "You can kind of view this as big <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 4621, "text": "So we want to figure out the area between these <EXPRESSION> curves.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 4622, "text": "The last couple presentations were really to give you an intuition for this exact formula.", "entities": []}
+{"id": 4623, "text": "OK.", "entities": []}
+{"id": 4624, "text": "Actually, it's <EXPRESSION> whatever units.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 4625, "text": "Let me see how good I can draw this.", "entities": []}
+{"id": 4626, "text": "Not perfect but it'll do.", "entities": []}
+{"id": 4627, "text": "I always try.", "entities": []}
+{"id": 4628, "text": "The constant actually doesn't matter.", "entities": []}
+{"id": 4629, "text": "So this big <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 4630, "text": "This is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 4631, "text": "So it's <EXPRESSION> and then <EXPRESSION>, right? So <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 54, "end_offset": 66}]}

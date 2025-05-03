@@ -1,78 +1,78 @@
-{"id":3327,"text":"Let me draw my twig.","label":[],"Comments":[]}
-{"id":3328,"text":"But the magnitude of the vectors increase, they increase perpendicular, they increase in the y-dimension, right? And when this happens, when the flow is going in the same direction, but it's going at a different magnitude, you see that any object in it will rotate, right? So let's think about that.","label":[],"Comments":[]}
-{"id":3329,"text":"But that makes sense, also, because as you go in the x-direction, the magnitudes of the vectors increase.","label":[],"Comments":[]}
-{"id":3330,"text":"You put a twig there, what would happen to the twig? If the twig rotates and there's some curl, if the magnitude of the rotation is larger, then the curl is larger.","label":[],"Comments":[]}
-{"id":3331,"text":"But the top of the twig is going to be being pushed to the right faster than the bottom of the twig, right? So what's going to happen? The twig's going to rotate, right? After, I don't know, some period of time, the twig's going to look something like this.","label":[],"Comments":[]}
-{"id":3332,"text":"Because when we, you might want to review our original videos where we compared the dot product to the cross product.","label":[],"Comments":[]}
-{"id":3333,"text":"What's going to happen to the twig? Well, at this point on the twig, the water's moving to the right, so it'll push this part of the twig to the right.","label":[],"Comments":[]}
-{"id":3334,"text":"So what's the intuition there? All of a sudden, we care about how much is the magnitude of a vector changing, not in its direction of motion, like in the divergence example, but we care how much is the magnitude of a vector changing as we go perpendicular to its direction of motion.","label":[],"Comments":[]}
-{"id":3335,"text":"So for given <EXPRESSION>, the magnitude of your <EXPRESSION> vector might stay the same.","label":[[13,25,"expression"],[49,61,"expression"]],"Comments":[]}
-{"id":3336,"text":"So you can see that because the vectors increasing in a direction that is perpendicular to our direction of motion, right? This fairly simple example, all of the vectors point in the x-direction.","label":[],"Comments":[]}
-{"id":3337,"text":"But this Dell operator, we use it a bunch of times.","label":[],"Comments":[]}
-{"id":3338,"text":"Because remember, if this is a vector, and then as we increase this in the x-direction, the vectors increase, we took a little point, and we said, oh, at this point we're going to have more leaving than entering, so we have a positive divergence.","label":[],"Comments":[]}
-{"id":3339,"text":"I didn't even label the <EXPRESSION> and <EXPRESSION> axis.","label":[[14,19,"command"],[24,36,"expression"],[41,53,"expression"]],"Comments":[]}
-{"id":3340,"text":"And maybe in the x-direction they're constant, regardless of your level of <EXPRESSION>, the magnitude stays.","label":[[75,87,"expression"]],"Comments":[]}
-{"id":3341,"text":"Because the dot product was, how much do two vectors move together? So when you're taking this Dell operator and dotting it with a vector field, you're saying, how much is the vector field changing, right? All a derivative is, a partial derivative or a normal derivative, it's just a rate of change.","label":[],"Comments":[]}
-{"id":3342,"text":"At the top of the twig, the water is also moving to the right, maybe with a faster velocity, but it's also going to push the top of the twig to the right.","label":[],"Comments":[]}
-{"id":3343,"text":"Maybe it's just, I don't know, <EXPRESSION>.","label":[[31,43,"expression"]],"Comments":[]}
-{"id":3344,"text":"And remember, these are just sample points on our vector field.","label":[],"Comments":[]}
-{"id":3345,"text":"And you'll see that there's a net torque on the twig.","label":[],"Comments":[]}
-{"id":3346,"text":"So here, even if we make <EXPRESSION> larger, we still get the same magnitude.","label":[[25,37,"expression"]],"Comments":[]}
-{"id":3347,"text":"And so just like what we did with torque, we now care about the direction.","label":[],"Comments":[]}
-{"id":3348,"text":"So this might give you a little intuition of what is the curl.","label":[],"Comments":[]}
-{"id":3349,"text":"So the magnitude of the x-direction is just a function of your <EXPRESSION>.","label":[[63,75,"expression"]],"Comments":[]}
-{"id":3350,"text":"That's enough of just getting the intuition behind that vector field.","label":[],"Comments":[]}
-{"id":3351,"text":"The bottom will move a little bit to the right, but the top will move a lot more to the right.","label":[],"Comments":[]}
-{"id":3352,"text":"In the next video, I'll actually compute curl, and maybe we'll try to draw a couple more to hit the intuition home.","label":[],"Comments":[]}
-{"id":3353,"text":"If it rotates in the other direction, you'll have the negative direction of curl.","label":[],"Comments":[]}
-{"id":3354,"text":"And the ultimate would be, let me draw another vector field, the ultimate would be if I had this situation.","label":[],"Comments":[]}
-{"id":3355,"text":"If I were to, let's say that this vector field shows the velocity of a fluid at various points.","label":[],"Comments":[]}
-{"id":3356,"text":"This is <EXPRESSION>, this is <EXPRESSION>.","label":[[8,20,"expression"],[30,42,"expression"]],"Comments":[]}
-{"id":3357,"text":"So here I've drawn, I'm going to just draw a two-dimensional vector field.","label":[],"Comments":[]}
-{"id":3358,"text":"Right? And the whole thing would have been shifted to the right.","label":[],"Comments":[]}
-{"id":3359,"text":"So if you put a twig here, you would definitely hopefully see that the twig, not only will it not be shifted to the right, this side is going to be moved to the left, this side is going to be the right, it's going to be rotated.","label":[],"Comments":[]}
-{"id":3360,"text":"Anyway, I realize I've already pushed 9 minutes.","label":[],"Comments":[]}
-{"id":3361,"text":"It's only dependent on <EXPRESSION>.","label":[[23,35,"expression"]],"Comments":[]}
-{"id":3362,"text":"So I mean, this vector field might look something like this.","label":[],"Comments":[]}
-{"id":3363,"text":"You know, if the partial derivative of something in the i-direction, plus the partial derivative, something with respect to <EXPRESSION> in the j-direction, plus the partial derivative, well, this is if we do it in three dimensions with respect to <EXPRESSION> in the k-direction.","label":[[124,136,"expression"],[248,260,"expression"]],"Comments":[]}
-{"id":3364,"text":"And this should be a little bit intuitive to you, at this point.","label":[],"Comments":[]}
-{"id":3365,"text":"When we applied it to just a scalar or vector field, you know, like a three-dimensional function, we just multiplied this times that scalar function, we got the gradient.","label":[],"Comments":[]}
-{"id":3366,"text":"But anyway.","label":[],"Comments":[]}
-{"id":3367,"text":"And if that was where your intuition led you, and that is what your guess is, you would be correct.","label":[],"Comments":[]}
-{"id":3368,"text":"But for any given <EXPRESSION>, it's always going to be the same.","label":[[18,30,"expression"]],"Comments":[]}
-{"id":3369,"text":"And it is a measure of how much is that field rotating, or maybe if you imagine an object in the field, how much is the field causing something to rotate because it's exerting a net torque? Because at different points in the object, you have a different magnitude of a field in the same direction.","label":[],"Comments":[]}
-{"id":3370,"text":"Partial derivative with respect to <EXPRESSION> is rate of change in the x-direction.","label":[[35,47,"expression"]],"Comments":[]}
-{"id":3371,"text":"So when <EXPRESSION> is relatively low, our magnitude vector goes in the <EXPRESSION> direction, when it increases a little bit, it gets a little bit longer.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":3372,"text":"Hopefully that example I just showed you will make a little bit of sense.","label":[],"Comments":[]}
-{"id":3373,"text":"And as your <EXPRESSION> get bigger and bigger, the magnitude in your x-direction will get bigger and bigger, proportional to the square of the magnitude of the y direction.","label":[[12,24,"expression"]],"Comments":[]}
-{"id":3374,"text":"So now, the intuition, because now we don't care about the rate of change along with the direction of the vector.","label":[],"Comments":[]}
-{"id":3375,"text":"You can kind of write it as a vector operator, and then it has a little bit more meeting.","label":[],"Comments":[]}
-{"id":3376,"text":"I'm just making up numbers.","label":[],"Comments":[]}
-{"id":3377,"text":"And so, let's see.","label":[],"Comments":[]}
-{"id":3378,"text":"And maybe after a little bit further, maybe it looks something like this.","label":[],"Comments":[]}
-{"id":3379,"text":"Let's say I place a twig right there.","label":[],"Comments":[]}
-{"id":3380,"text":"And so if you have a different speed for different levels of <EXPRESSION>, as something moves in the x-direction, it's going to be rotated, right? You could almost view it as if there's a net torque on an object that sits in the water here.","label":[[61,73,"expression"]],"Comments":[]}
-{"id":3381,"text":"You can extrapolate to <EXPRESSION>, but when we're getting the intuition, it's good to do it in <EXPRESSION>.","label":[[23,35,"expression"],[97,109,"expression"]],"Comments":[]}
-{"id":3382,"text":"So you could imagine up here that's going to the left, with a fairly large magnitude.","label":[],"Comments":[]}
-{"id":3383,"text":"So all you're saying is, when you're taking a dot product, how much is my rate of change increasing in my direction of movement? How much is my rate of change in the y-direction increasing in the y-direction? And so it makes sense that it helps us with divergence.","label":[],"Comments":[]}
-{"id":3384,"text":"We care about the rate of change of the magnitudes of the vectors perpendicular the direction of the vector.","label":[],"Comments":[]}
-{"id":3385,"text":"Anyway, I don't want to confuse you too much.","label":[],"Comments":[]}
-{"id":3386,"text":"If I were to take a little twig or something, and I were to place it in this fluid, so let me place the twig right here.","label":[],"Comments":[]}
-{"id":3387,"text":"That is the curl of the vector field.","label":[],"Comments":[]}
-{"id":3388,"text":"We've been dealing with this Dell vector or this, you know, we could call this abusive notation, but it kind of is intuitive, although it really doesn't have any meaning when I describe it like this.","label":[],"Comments":[]}
-{"id":3389,"text":"So when we learned about dot and cross product, what did we learn? We learned that the dot product of <EXPRESSION> vectors tells you how much <EXPRESSION> vectors move together, and the cross product tells you how much the perpendicular, it's kind of the multiplication of the perpendicular components of a vector.","label":[[102,114,"expression"],[142,154,"expression"]],"Comments":[]}
-{"id":3390,"text":"Because the curl essentially measures what is the rotational effect, or I guess you could say, what is the curl of a vector field at a given point? And you can you can visualize it.","label":[],"Comments":[]}
-{"id":3391,"text":"See you in the next video.","label":[],"Comments":[]}
-{"id":3392,"text":"So as we can see, as our change in the y-direction, as we go in the y-direction, the <EXPRESSION> of our vectors get larger and larger.","label":[[85,97,"expression"]],"Comments":[]}
-{"id":3393,"text":"So let's say I place a twig, it's a funny-looking twig, but that's good enough.","label":[],"Comments":[]}
-{"id":3394,"text":"And so you can view this, we're looking down on a river, maybe.","label":[],"Comments":[]}
-{"id":3395,"text":"Anyway, I don't want to confuse you too much.","label":[],"Comments":[]}
-{"id":3396,"text":"Let me draw another vector field.","label":[],"Comments":[]}
-{"id":3397,"text":"Because we care whether it's going counterclockwise or clockwise, so we're going to end up with a vector quantity, right? So, and all of this should hopefully start fitting together at this point.","label":[],"Comments":[]}
-{"id":3398,"text":"So if the derivative, the partial derivative, of this vector field with respect to <EXPRESSION> is increasing or decreasing, if it's just changing, that means as we increase in <EXPRESSION>, or as we decrease in <EXPRESSION>, the magnitude of the <EXPRESSION> of our vectors, right, the x-direction of our vectors changes.","label":[[83,95,"expression"],[177,189,"expression"],[212,224,"expression"],[247,259,"expression"]],"Comments":[]}
-{"id":3399,"text":"Before I actually show you the mechanics of what the curl of a vector field really is, let's try to get a little bit of intuition.","label":[],"Comments":[]}
-{"id":3400,"text":"If I had this situation, where maybe down here it's like this, then maybe it's like this, and then maybe it gets really small, then maybe it switches directions, up here, and then the vector field goes like this.","label":[],"Comments":[]}
-{"id":3401,"text":"But it's going to rotate a little bit.","label":[],"Comments":[]}
-{"id":3402,"text":"But let me ask you a question.","label":[],"Comments":[]}
-{"id":3403,"text":"So the curl, you might guess, = the cross product of our Dell operator and the vector field.","label":[],"Comments":[]}
-{"id":3404,"text":"When we took the dot product of this with a vector field, we got the divergence of the vector field.","label":[],"Comments":[]}
+{"id": 3327, "text": "Let me draw my twig.", "entities": []}
+{"id": 3328, "text": "But the magnitude of the vectors increase, they increase perpendicular, they increase in the y-dimension, right? And when this happens, when the flow is going in the same direction, but it's going at a different magnitude, you see that any object in it will rotate, right? So let's think about that.", "entities": []}
+{"id": 3329, "text": "But that makes sense, also, because as you go in the x-direction, the magnitudes of the vectors increase.", "entities": []}
+{"id": 3330, "text": "You put a twig there, what would happen to the twig? If the twig rotates and there's some curl, if the magnitude of the rotation is larger, then the curl is larger.", "entities": []}
+{"id": 3331, "text": "But the top of the twig is going to be being pushed to the right faster than the bottom of the twig, right? So what's going to happen? The twig's going to rotate, right? After, I don't know, some period of time, the twig's going to look something like this.", "entities": []}
+{"id": 3332, "text": "Because when we, you might want to review our original videos where we compared the dot product to the cross product.", "entities": []}
+{"id": 3333, "text": "What's going to happen to the twig? Well, at this point on the twig, the water's moving to the right, so it'll push this part of the twig to the right.", "entities": []}
+{"id": 3334, "text": "So what's the intuition there? All of a sudden, we care about how much is the magnitude of a vector changing, not in its direction of motion, like in the divergence example, but we care how much is the magnitude of a vector changing as we go perpendicular to its direction of motion.", "entities": []}
+{"id": 3335, "text": "So for given <EXPRESSION>, the magnitude of your <EXPRESSION> vector might stay the same.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 3336, "text": "So you can see that because the vectors increasing in a direction that is perpendicular to our direction of motion, right? This fairly simple example, all of the vectors point in the x-direction.", "entities": []}
+{"id": 3337, "text": "But this Dell operator, we use it a bunch of times.", "entities": []}
+{"id": 3338, "text": "Because remember, if this is a vector, and then as we increase this in the x-direction, the vectors increase, we took a little point, and we said, oh, at this point we're going to have more leaving than entering, so we have a positive divergence.", "entities": []}
+{"id": 3339, "text": "I didn't even label the <EXPRESSION> and <EXPRESSION> axis.", "entities": [{"label": "command", "start_offset": 14, "end_offset": 19}, {"label": "expression", "start_offset": 24, "end_offset": 36}, {"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 3340, "text": "And maybe in the x-direction they're constant, regardless of your level of <EXPRESSION>, the magnitude stays.", "entities": [{"label": "expression", "start_offset": 75, "end_offset": 87}]}
+{"id": 3341, "text": "Because the dot product was, how much do two vectors move together? So when you're taking this Dell operator and dotting it with a vector field, you're saying, how much is the vector field changing, right? All a derivative is, a partial derivative or a normal derivative, it's just a rate of change.", "entities": []}
+{"id": 3342, "text": "At the top of the twig, the water is also moving to the right, maybe with a faster velocity, but it's also going to push the top of the twig to the right.", "entities": []}
+{"id": 3343, "text": "Maybe it's just, I don't know, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 3344, "text": "And remember, these are just sample points on our vector field.", "entities": []}
+{"id": 3345, "text": "And you'll see that there's a net torque on the twig.", "entities": []}
+{"id": 3346, "text": "So here, even if we make <EXPRESSION> larger, we still get the same magnitude.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 3347, "text": "And so just like what we did with torque, we now care about the direction.", "entities": []}
+{"id": 3348, "text": "So this might give you a little intuition of what is the curl.", "entities": []}
+{"id": 3349, "text": "So the magnitude of the x-direction is just a function of your <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 3350, "text": "That's enough of just getting the intuition behind that vector field.", "entities": []}
+{"id": 3351, "text": "The bottom will move a little bit to the right, but the top will move a lot more to the right.", "entities": []}
+{"id": 3352, "text": "In the next video, I'll actually compute curl, and maybe we'll try to draw a couple more to hit the intuition home.", "entities": []}
+{"id": 3353, "text": "If it rotates in the other direction, you'll have the negative direction of curl.", "entities": []}
+{"id": 3354, "text": "And the ultimate would be, let me draw another vector field, the ultimate would be if I had this situation.", "entities": []}
+{"id": 3355, "text": "If I were to, let's say that this vector field shows the velocity of a fluid at various points.", "entities": []}
+{"id": 3356, "text": "This is <EXPRESSION>, this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 3357, "text": "So here I've drawn, I'm going to just draw a two-dimensional vector field.", "entities": []}
+{"id": 3358, "text": "Right? And the whole thing would have been shifted to the right.", "entities": []}
+{"id": 3359, "text": "So if you put a twig here, you would definitely hopefully see that the twig, not only will it not be shifted to the right, this side is going to be moved to the left, this side is going to be the right, it's going to be rotated.", "entities": []}
+{"id": 3360, "text": "Anyway, I realize I've already pushed 9 minutes.", "entities": []}
+{"id": 3361, "text": "It's only dependent on <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 3362, "text": "So I mean, this vector field might look something like this.", "entities": []}
+{"id": 3363, "text": "You know, if the partial derivative of something in the i-direction, plus the partial derivative, something with respect to <EXPRESSION> in the j-direction, plus the partial derivative, well, this is if we do it in three dimensions with respect to <EXPRESSION> in the k-direction.", "entities": [{"label": "expression", "start_offset": 124, "end_offset": 136}, {"label": "expression", "start_offset": 248, "end_offset": 260}]}
+{"id": 3364, "text": "And this should be a little bit intuitive to you, at this point.", "entities": []}
+{"id": 3365, "text": "When we applied it to just a scalar or vector field, you know, like a three-dimensional function, we just multiplied this times that scalar function, we got the gradient.", "entities": []}
+{"id": 3366, "text": "But anyway.", "entities": []}
+{"id": 3367, "text": "And if that was where your intuition led you, and that is what your guess is, you would be correct.", "entities": []}
+{"id": 3368, "text": "But for any given <EXPRESSION>, it's always going to be the same.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 3369, "text": "And it is a measure of how much is that field rotating, or maybe if you imagine an object in the field, how much is the field causing something to rotate because it's exerting a net torque? Because at different points in the object, you have a different magnitude of a field in the same direction.", "entities": []}
+{"id": 3370, "text": "Partial derivative with respect to <EXPRESSION> is rate of change in the x-direction.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 3371, "text": "So when <EXPRESSION> is relatively low, our magnitude vector goes in the <EXPRESSION> direction, when it increases a little bit, it gets a little bit longer.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 3372, "text": "Hopefully that example I just showed you will make a little bit of sense.", "entities": []}
+{"id": 3373, "text": "And as your <EXPRESSION> get bigger and bigger, the magnitude in your x-direction will get bigger and bigger, proportional to the square of the magnitude of the y direction.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 3374, "text": "So now, the intuition, because now we don't care about the rate of change along with the direction of the vector.", "entities": []}
+{"id": 3375, "text": "You can kind of write it as a vector operator, and then it has a little bit more meeting.", "entities": []}
+{"id": 3376, "text": "I'm just making up numbers.", "entities": []}
+{"id": 3377, "text": "And so, let's see.", "entities": []}
+{"id": 3378, "text": "And maybe after a little bit further, maybe it looks something like this.", "entities": []}
+{"id": 3379, "text": "Let's say I place a twig right there.", "entities": []}
+{"id": 3380, "text": "And so if you have a different speed for different levels of <EXPRESSION>, as something moves in the x-direction, it's going to be rotated, right? You could almost view it as if there's a net torque on an object that sits in the water here.", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}]}
+{"id": 3381, "text": "You can extrapolate to <EXPRESSION>, but when we're getting the intuition, it's good to do it in <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 97, "end_offset": 109}]}
+{"id": 3382, "text": "So you could imagine up here that's going to the left, with a fairly large magnitude.", "entities": []}
+{"id": 3383, "text": "So all you're saying is, when you're taking a dot product, how much is my rate of change increasing in my direction of movement? How much is my rate of change in the y-direction increasing in the y-direction? And so it makes sense that it helps us with divergence.", "entities": []}
+{"id": 3384, "text": "We care about the rate of change of the magnitudes of the vectors perpendicular the direction of the vector.", "entities": []}
+{"id": 3385, "text": "Anyway, I don't want to confuse you too much.", "entities": []}
+{"id": 3386, "text": "If I were to take a little twig or something, and I were to place it in this fluid, so let me place the twig right here.", "entities": []}
+{"id": 3387, "text": "That is the curl of the vector field.", "entities": []}
+{"id": 3388, "text": "We've been dealing with this Dell vector or this, you know, we could call this abusive notation, but it kind of is intuitive, although it really doesn't have any meaning when I describe it like this.", "entities": []}
+{"id": 3389, "text": "So when we learned about dot and cross product, what did we learn? We learned that the dot product of <EXPRESSION> vectors tells you how much <EXPRESSION> vectors move together, and the cross product tells you how much the perpendicular, it's kind of the multiplication of the perpendicular components of a vector.", "entities": [{"label": "expression", "start_offset": 102, "end_offset": 114}, {"label": "expression", "start_offset": 142, "end_offset": 154}]}
+{"id": 3390, "text": "Because the curl essentially measures what is the rotational effect, or I guess you could say, what is the curl of a vector field at a given point? And you can you can visualize it.", "entities": []}
+{"id": 3391, "text": "See you in the next video.", "entities": []}
+{"id": 3392, "text": "So as we can see, as our change in the y-direction, as we go in the y-direction, the <EXPRESSION> of our vectors get larger and larger.", "entities": [{"label": "expression", "start_offset": 85, "end_offset": 97}]}
+{"id": 3393, "text": "So let's say I place a twig, it's a funny-looking twig, but that's good enough.", "entities": []}
+{"id": 3394, "text": "And so you can view this, we're looking down on a river, maybe.", "entities": []}
+{"id": 3395, "text": "Anyway, I don't want to confuse you too much.", "entities": []}
+{"id": 3396, "text": "Let me draw another vector field.", "entities": []}
+{"id": 3397, "text": "Because we care whether it's going counterclockwise or clockwise, so we're going to end up with a vector quantity, right? So, and all of this should hopefully start fitting together at this point.", "entities": []}
+{"id": 3398, "text": "So if the derivative, the partial derivative, of this vector field with respect to <EXPRESSION> is increasing or decreasing, if it's just changing, that means as we increase in <EXPRESSION>, or as we decrease in <EXPRESSION>, the magnitude of the <EXPRESSION> of our vectors, right, the x-direction of our vectors changes.", "entities": [{"label": "expression", "start_offset": 83, "end_offset": 95}, {"label": "expression", "start_offset": 177, "end_offset": 189}, {"label": "expression", "start_offset": 212, "end_offset": 224}, {"label": "expression", "start_offset": 247, "end_offset": 259}]}
+{"id": 3399, "text": "Before I actually show you the mechanics of what the curl of a vector field really is, let's try to get a little bit of intuition.", "entities": []}
+{"id": 3400, "text": "If I had this situation, where maybe down here it's like this, then maybe it's like this, and then maybe it gets really small, then maybe it switches directions, up here, and then the vector field goes like this.", "entities": []}
+{"id": 3401, "text": "But it's going to rotate a little bit.", "entities": []}
+{"id": 3402, "text": "But let me ask you a question.", "entities": []}
+{"id": 3403, "text": "So the curl, you might guess, = the cross product of our Dell operator and the vector field.", "entities": []}
+{"id": 3404, "text": "When we took the dot product of this with a vector field, we got the divergence of the vector field.", "entities": []}

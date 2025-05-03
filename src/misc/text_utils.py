@@ -63,5 +63,3 @@ def convert_jsonl_structure(in_dir, in_place = False):
         else:
             out_path = jsonl_file.with_stem(jsonl_file.stem + '-new')
         save_jsonl(out_path, result)
-
-convert_jsonl_structure('data/raw_jsonl/rb/')

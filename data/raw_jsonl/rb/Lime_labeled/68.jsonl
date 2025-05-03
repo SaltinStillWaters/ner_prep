@@ -1,426 +1,426 @@
-{"id":6756,"text":"So, today we are going to continue looking at critical points, and we'll learn how to actually decide whether a typical point is a minimum, maximum, or a saddle point.","label":[],"Comments":[]}
-{"id":6757,"text":"So, that's the main topic for today.","label":[],"Comments":[]}
-{"id":6758,"text":"So, remember yesterday, we looked at critical points of functions of several variables.","label":[],"Comments":[]}
-{"id":6759,"text":"And, so a critical point functions, we have two values, <EXPRESSION> and <EXPRESSION>.","label":[[56,68,"expression"],[73,85,"expression"]],"Comments":[]}
-{"id":6760,"text":"That's a point where the partial derivatives are both <EXPRESSION>.","label":[[54,66,"expression"]],"Comments":[]}
-{"id":6761,"text":"And, we've seen that there's various kinds of critical points.","label":[],"Comments":[]}
-{"id":6762,"text":"There's local minima.","label":[],"Comments":[]}
-{"id":6763,"text":"So, maybe I should show the function on this contour plot, there is local maxima, which are like that.","label":[],"Comments":[]}
-{"id":6764,"text":"And, there's saddle points which are neither minima nor maxima.","label":[],"Comments":[]}
-{"id":6765,"text":"And, of course, if you have a real function, then it would be more complicated.","label":[],"Comments":[]}
-{"id":6766,"text":"It will have several critical points.","label":[],"Comments":[]}
-{"id":6767,"text":"So, this example here, well, you see on the plot that there is two maxima.","label":[],"Comments":[]}
-{"id":6768,"text":"And, there is in the middle, between them, a saddle point.","label":[],"Comments":[]}
-{"id":6769,"text":"And, actually, you can see them on the contour plot.","label":[],"Comments":[]}
-{"id":6770,"text":"On the contour plot, you see the maxima because the level curves become circles that now down and shrink to the maximum.","label":[],"Comments":[]}
-{"id":6771,"text":"And, you can see the saddle point because here you have this level curve that makes a figure eight.","label":[],"Comments":[]}
-{"id":6772,"text":"It crosses itself.","label":[],"Comments":[]}
-{"id":6773,"text":"And, if you move up or down here, so along the y direction, the values of the function will decrease.","label":[[47,48,"term"]],"Comments":[]}
-{"id":6774,"text":"Along the x direction, the values will increase.","label":[[10,11,"term"]],"Comments":[]}
-{"id":6775,"text":"So, you can see usually quite easily where are the critical points just by looking either at the graph or at the contour plots.","label":[],"Comments":[]}
-{"id":6776,"text":"So, the only thing with the contour plots is you need to read the values to tell a minimum from a maximum because the contour plots look the same.","label":[],"Comments":[]}
-{"id":6777,"text":"Just, of course, in one case, the values increase, and in another one they decrease.","label":[],"Comments":[]}
-{"id":6778,"text":"So, the question -- -- is, how do we decide -- -- between the various possibilities?","label":[],"Comments":[]}
-{"id":6779,"text":"So, local minimum, local maximum, or saddle point.","label":[],"Comments":[]}
-{"id":6780,"text":"So, and, in fact, why do we care?","label":[],"Comments":[]}
-{"id":6781,"text":"Well, the other question is how do we find the global minimum\/maximum of a function?","label":[],"Comments":[]}
-{"id":6782,"text":"So, here what I should point out, well, first of all, to decide where the function is the largest, in general you'll have actually to compare the values.","label":[],"Comments":[]}
-{"id":6783,"text":"For example, here, if you want to know, what is the maximum of this function?","label":[],"Comments":[]}
-{"id":6784,"text":"Well, we have two obvious candidates.","label":[],"Comments":[]}
-{"id":6785,"text":"We have this local maximum and that local maximum.","label":[],"Comments":[]}
-{"id":6786,"text":"And, the question is, which one is the higher of the two?","label":[],"Comments":[]}
-{"id":6787,"text":"Well, in this case, actually, there is actually a tie for maximum.","label":[],"Comments":[]}
-{"id":6788,"text":"But, in general, you would have to compute the function at both points, and compare the values if you know that it's three at one of them and four at the other.","label":[],"Comments":[]}
-{"id":6789,"text":"Well, four wins.","label":[],"Comments":[]}
-{"id":6790,"text":"The other thing that you see here is if you are looking for the minimum of this function, well, the minimum is not going to be at any of the critical points.","label":[],"Comments":[]}
-{"id":6791,"text":"So, where's the minimum?","label":[],"Comments":[]}
-{"id":6792,"text":"Well, it looks like the minimum is actually out there on the boundary or at infinity.","label":[],"Comments":[]}
-{"id":6793,"text":"So, that's another feature.","label":[],"Comments":[]}
-{"id":6794,"text":"The global minimum or maximum doesn't have to be at a critical point.","label":[],"Comments":[]}
-{"id":6795,"text":"It could also be, somehow, on the side in some limiting situation where one variable stops being in the allowed rang of values or goes to infinity.","label":[],"Comments":[]}
-{"id":6796,"text":"So, we have to actually check the boundary and the infinity behavior of our function to know where, actually, the minimum and maximum will be.","label":[],"Comments":[]}
-{"id":6797,"text":"So, in general, I should point out, these should occur either at the critical point or on the boundary or at infinity.","label":[],"Comments":[]}
-{"id":6798,"text":"So, by that, I mean on the boundary of a domain of definition that we are considering.","label":[],"Comments":[]}
-{"id":6799,"text":"And so, we have to try both.","label":[],"Comments":[]}
-{"id":6800,"text":"OK, but so we'll get back to that.","label":[],"Comments":[]}
-{"id":6801,"text":"For now, let's try to focus on the question of, you know, what's the type of the critical point?","label":[],"Comments":[]}
-{"id":6802,"text":"So, we'll use something that's known as the second derivative test.","label":[],"Comments":[]}
-{"id":6803,"text":"And, in principle, well, the idea is kind of similar to what you do with the function of one variable, namely, the function of one variable.","label":[],"Comments":[]}
-{"id":6804,"text":"If the derivative is zero, then you know that you should look at the second derivative.","label":[],"Comments":[]}
-{"id":6805,"text":"And, that will tell you whether it's curving up or down whether you have a local max and the local min.","label":[],"Comments":[]}
-{"id":6806,"text":"And, the main problem here is, of course, we have more possible situations, and we have several derivatives.","label":[],"Comments":[]}
-{"id":6807,"text":"So, we have to think a bit harder about how we'll decide.","label":[],"Comments":[]}
-{"id":6808,"text":"But, it will again involve the second derivative.","label":[],"Comments":[]}
-{"id":6809,"text":"OK, so let's start with just an easy example that will be useful to us because actually it will provide the basis for the general method.","label":[],"Comments":[]}
-{"id":6810,"text":"OK, so we are first going to consider a case where we have a function that's actually just quadratic.","label":[],"Comments":[]}
-{"id":6811,"text":"So, let's say I have a function, <EXPRESSION> that's of the form <EXPRESSION>.","label":[[33,45,"expression"],[65,77,"expression"]],"Comments":[]}
-{"id":6812,"text":"OK, so this guy has a critical point at the origin because if you take the derivative with respect to <EXPRESSION>, well, and if you plug <EQUATION>, you'll get <EXPRESSION>, and same with respect to <EXPRESSION>.","label":[[66,70,"command"],[75,85,"command_attribute"],[102,114,"expression"],[138,148,"equation"],[161,173,"expression"],[200,212,"expression"]],"Comments":[]}
-{"id":6813,"text":"You can also see, if you try to do a linear approximation of this, well, all these guys are much smaller than <EXPRESSION> and <EXPRESSION> when <EXPRESSION> and <EXPRESSION> are small.","label":[[110,122,"expression"],[127,139,"expression"],[145,157,"expression"],[162,174,"expression"]],"Comments":[]}
-{"id":6814,"text":"So, the linear approximation, the tangent plane to the graph is really just <EQUATION>.","label":[[76,86,"equation"]],"Comments":[]}
-{"id":6815,"text":"OK, so, how do we do it?","label":[],"Comments":[]}
-{"id":6816,"text":"Well, yesterday we actually did an example.","label":[],"Comments":[]}
-{"id":6817,"text":"It was a bit more complicated than that, but let me do it, so remember, we were looking at something that started with <EXPRESSION>.","label":[[119,131,"expression"]],"Comments":[]}
-{"id":6818,"text":"And, there were other terms.","label":[],"Comments":[]}
-{"id":6819,"text":"But, let's forget them now.","label":[],"Comments":[]}
-{"id":6820,"text":"And, what we did is we said, well, we can rewrite this as <EXPRESSION>.","label":[[58,70,"expression"]],"Comments":[]}
-{"id":6821,"text":"And now, this is a sum of two squares.","label":[],"Comments":[]}
-{"id":6822,"text":"So, each of these guys has to be nonnegative.","label":[],"Comments":[]}
-{"id":6823,"text":"And so, the origin will be a minimum.","label":[],"Comments":[]}
-{"id":6824,"text":"Well, it turns out we can do something similar in general no matter what the values of <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> are.","label":[],"Comments":[]}
-{"id":6825,"text":"We'll just try to first complete things to a square.","label":[],"Comments":[]}
-{"id":6826,"text":"OK, so let's do that.","label":[],"Comments":[]}
-{"id":6827,"text":"So, in general, well, let me be slightly less general, and let me assume that a is not zero because otherwise I can't do what I'm going to do.","label":[[78,79,"term"],[87,91,"term"]],"Comments":[]}
-{"id":6828,"text":"So, I'm going to write this as <EXPRESSION>.","label":[[31,43,"expression"]],"Comments":[]}
-{"id":6829,"text":"And then I have my <EXPRESSION>.","label":[[19,31,"expression"]],"Comments":[]}
-{"id":6830,"text":"And now this looks like the beginning of the square of something, OK, just like what we did over there.","label":[],"Comments":[]}
-{"id":6831,"text":"So, what is it the square of?","label":[],"Comments":[]}
-{"id":6832,"text":"Well, you'd start with <EXPRESSION> plus I claim if I put <EXPRESSION> and I square it, then see the cross term <EXPRESSION> will become <EXPRESSION>.","label":[[23,35,"expression"],[54,57,"command"],[58,70,"expression"],[77,83,"command"],[112,123,"expression"],[137,149,"expression"]],"Comments":[]}
-{"id":6833,"text":"Of course, now I also get some y squares out of this.","label":[[31,32,"term"]],"Comments":[]}
-{"id":6834,"text":"How many y squares do I get?","label":[[9,10,"term"]],"Comments":[]}
-{"id":6835,"text":"Well, I get <EXPRESSION>.","label":[[12,24,"expression"]],"Comments":[]}
-{"id":6836,"text":"So, I get <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":6837,"text":"So, and I want, in fact, <EXPRESSION>.","label":[[25,37,"expression"]],"Comments":[]}
-{"id":6838,"text":"So, the number of <EXPRESSION> that I should add is <EXPRESSION>.","label":[[18,30,"expression"],[45,48,"command"],[52,64,"expression"]],"Comments":[]}
-{"id":6839,"text":"OK, let's see that again.","label":[],"Comments":[]}
-{"id":6840,"text":"If I expand this thing, I will get <EXPRESSION>.","label":[[35,47,"expression"]],"Comments":[]}
-{"id":6841,"text":"That's going to be my <EXPRESSION>.","label":[[22,34,"expression"]],"Comments":[]}
-{"id":6842,"text":"But, I also get <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
-{"id":6843,"text":"That's <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
-{"id":6844,"text":"And, that cancels out with this guy here.","label":[],"Comments":[]}
-{"id":6845,"text":"And then, I will be left with <EXPRESSION>.","label":[[30,42,"expression"]],"Comments":[]}
-{"id":6846,"text":"OK, do you see it kind of?","label":[],"Comments":[]}
-{"id":6847,"text":"OK, if not, well, try expanding this square again.","label":[],"Comments":[]}
-{"id":6848,"text":"OK, maybe I'll do it just to convince you.","label":[],"Comments":[]}
-{"id":6849,"text":"But, so if I expand this, I will get A times, let me put that in a different color because you shouldn't write that down.","label":[],"Comments":[]}
-{"id":6850,"text":"It's just to convince you again.","label":[],"Comments":[]}
-{"id":6851,"text":"So, if you don't see it yet, let's expend this thing.","label":[],"Comments":[]}
-{"id":6852,"text":"We'll get <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":6853,"text":"Well, the two A's cancel out.","label":[[14,15,"term"]],"Comments":[]}
-{"id":6854,"text":"We get <EXPRESSION> the square of that's going to be <EXPRESSION>.","label":[[7,19,"expression"],[53,64,"expression"]],"Comments":[]}
-{"id":6855,"text":"Here, the a and the a simplifies, and now these two terms simplify and give me just <EXPRESSION> in the end.","label":[[58,66,"command"],[84,96,"expression"]],"Comments":[]}
-{"id":6856,"text":"OK, and that's kind of unreadable after I've canceled everything, but if you follow it, you see that basically I've just rewritten my initial function.","label":[],"Comments":[]}
-{"id":6857,"text":"OK, is that kind of OK?","label":[],"Comments":[]}
-{"id":6858,"text":"I mean, otherwise there's just no substitute.","label":[],"Comments":[]}
-{"id":6859,"text":"You'll have to do it yourself, I'm afraid.","label":[],"Comments":[]}
-{"id":6860,"text":"OK, so, let me continue to play with this.","label":[],"Comments":[]}
-{"id":6861,"text":"So, I'm just going to put this in a slightly different form just to clear the denominators.","label":[],"Comments":[]}
-{"id":6862,"text":"OK, so, I will instead write this as <EXPRESSION> times the big thing.","label":[[23,28,"command"],[37,49,"expression"]],"Comments":[]}
-{"id":6863,"text":"So, I'm going to just put <EXPRESSION>.","label":[[26,38,"expression"]],"Comments":[]}
-{"id":6864,"text":"OK, so far I have the same thing as here.","label":[],"Comments":[]}
-{"id":6865,"text":"I just introduced the <EXPRESSION> that cancels out, plus for the other one, I'm just clearing the denominator.","label":[[22,34,"expression"]],"Comments":[]}
-{"id":6866,"text":"I end up with <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
-{"id":6867,"text":"OK, so that's a lot of terms.","label":[],"Comments":[]}
-{"id":6868,"text":"But, what does it look like?","label":[],"Comments":[]}
-{"id":6869,"text":"Well, it looks like, so we have some constant factors, and here we have a square, and here we have a square.","label":[],"Comments":[]}
-{"id":6870,"text":"So, basically, we've written this as a sum of two squares, well, a sum or a difference of two squares.","label":[],"Comments":[]}
-{"id":6871,"text":"And, maybe that's what we need to figure out to know what kind of point it is because, see, if you take a sum of two squares, that you will know that each square takes nonnegative values.","label":[],"Comments":[]}
-{"id":6872,"text":"And you will have, the function will always take nonnegative values.","label":[],"Comments":[]}
-{"id":6873,"text":"So, the origin will be a minimum.","label":[],"Comments":[]}
-{"id":6874,"text":"Well, if you have a difference of two squares that typically you'll have a saddle point because depending on whether one or the other is larger, you will have a positive or a negative quantity.","label":[],"Comments":[]}
-{"id":6875,"text":"OK, so I claim there's various cases to look at.","label":[],"Comments":[]}
-{"id":6876,"text":"So, let's see.","label":[],"Comments":[]}
-{"id":6877,"text":"So, in fact, I claim there will be three cases.","label":[],"Comments":[]}
-{"id":6878,"text":"And, that's good news for us because after all, we want to distinguish between three possibilities.","label":[],"Comments":[]}
-{"id":6879,"text":"So, let's first do away with the most complicated one.","label":[],"Comments":[]}
-{"id":6880,"text":"What if <EXPRESSION> is negative?","label":[[8,20,"expression"]],"Comments":[]}
-{"id":6881,"text":"Well, if it's negative, then it means what I have between the brackets is, so the first guy is obviously a positive quantity, while the second one will be something negative times <EXPRESSION>.","label":[[180,192,"expression"]],"Comments":[]}
-{"id":6882,"text":"So, it will be a negative quantity.","label":[],"Comments":[]}
-{"id":6883,"text":"OK, so one term is positive.","label":[],"Comments":[]}
-{"id":6884,"text":"The other is negative.","label":[],"Comments":[]}
-{"id":6885,"text":"That tells us we actually have a saddle point.","label":[],"Comments":[]}
-{"id":6886,"text":"We have, in fact, written our function as a difference of two squares.","label":[],"Comments":[]}
-{"id":6887,"text":"OK, is that convincing?","label":[],"Comments":[]}
-{"id":6888,"text":"So, if you want, what I could do is actually I could change my coordinates, have new coordinates called <EQUATION>, actually, well, I could keep y, and that it would look like the difference of squares directly.","label":[],"Comments":[]}
-{"id":6889,"text":"OK, so that's the first case.","label":[],"Comments":[]}
-{"id":6890,"text":"The second case is where <EQUATION>.","label":[[25,35,"equation"]],"Comments":[]}
-{"id":6891,"text":"Well, what happens if that's zero?","label":[[29,33,"term"]],"Comments":[]}
-{"id":6892,"text":"Then it means that this term over there goes away.","label":[],"Comments":[]}
-{"id":6893,"text":"So, what we have is just one square.","label":[[25,28,"term"]],"Comments":[]}
-{"id":6894,"text":"OK, so what that means is actually that our function depends only on one direction of things.","label":[],"Comments":[]}
-{"id":6895,"text":"In the other direction, it's going to actually be degenerate.","label":[],"Comments":[]}
-{"id":6896,"text":"So, for example, forget all the clutter in there.","label":[],"Comments":[]}
-{"id":6897,"text":"Say I give you just the function of two variables, <EQUATION>.","label":[[51,61,"equation"]],"Comments":[]}
-{"id":6898,"text":"So, that means it doesn't depend on <EXPRESSION> at all.","label":[[36,48,"expression"]],"Comments":[]}
-{"id":6899,"text":"And, if I try to plot the graph, it will look like, well, <EXPRESSION> is here.","label":[[17,21,"command"],[26,31,"command_attribute"],[58,70,"expression"]],"Comments":[]}
-{"id":6900,"text":"So, it will depend on <EXPRESSION> in that way, but it doesn't depend on <EXPRESSION> at all.","label":[[22,34,"expression"],[73,85,"expression"]],"Comments":[]}
-{"id":6901,"text":"So, what the graph looks like is something like that.","label":[],"Comments":[]}
-{"id":6902,"text":"OK, basically it's a valley whose bottom is completely flat.","label":[],"Comments":[]}
-{"id":6903,"text":"So, that means, actually, we have a degenerate critical point.","label":[],"Comments":[]}
-{"id":6904,"text":"It's called degenerate because there is a direction in which nothing happens.","label":[],"Comments":[]}
-{"id":6905,"text":"And, in fact, you have critical points everywhere along the y axis.","label":[],"Comments":[]}
-{"id":6906,"text":"Now, whether the square that we have is <EXPRESSION> or something else, namely, <EXPRESSION>, it doesn't matter.","label":[[40,52,"expression"],[80,92,"expression"]],"Comments":[]}
-{"id":6907,"text":"I mean, it will still get this degenerate behavior.","label":[],"Comments":[]}
-{"id":6908,"text":"But there's a direction in which nothing happens because we just have the square of one quantity.","label":[],"Comments":[]}
-{"id":6909,"text":"I'm sure that <EXPRESSION> students means <EXPRESSION> different ring tones, but I'm not eager to hear all of them, thanks.","label":[[14,26,"expression"],[42,54,"expression"]],"Comments":[]}
-{"id":6910,"text":"[LAUGHTER] OK, so, this is what's called a degenerate critical point, and [LAUGHTER].","label":[],"Comments":[]}
-{"id":6911,"text":"OK, so basically we'll leave it here.","label":[],"Comments":[]}
-{"id":6912,"text":"We won't actually try to figure out further what happens, and the reason for that is that when you have an actual function, a general function, not just one that's quadratic like this, then there will actually be other terms maybe involving higher powers, maybe <EXPRESSION> or <EXPRESSION> or things like that.","label":[[262,274,"expression"],[278,290,"expression"]],"Comments":[]}
-{"id":6913,"text":"And then, they will mess up what happens in this valley.","label":[],"Comments":[]}
-{"id":6914,"text":"And, it's a situation where we won't be able, actually, to tell automatically just by looking at second derivatives what happens.","label":[],"Comments":[]}
-{"id":6915,"text":"See, for example, in a function of one variable, if you have just a function of one variable, say, <EXPRESSION>, well, if you try to decide what type of point the origin is, you're going to take the second derivative.","label":[[99,111,"expression"]],"Comments":[]}
-{"id":6916,"text":"It will be <EXPRESSION>, and then you can conclude.","label":[[11,23,"expression"]],"Comments":[]}
-{"id":6917,"text":"Those things depend on higher order derivatives.","label":[],"Comments":[]}
-{"id":6918,"text":"So, we just won't like that case.","label":[],"Comments":[]}
-{"id":6919,"text":"We just won't try to figure out what's going on here.","label":[],"Comments":[]}
-{"id":6920,"text":"Now, the last situation is if <EXPRESSION> is positive.","label":[[30,42,"expression"]],"Comments":[]}
-{"id":6921,"text":"So, then, that means that actually we've written things.","label":[],"Comments":[]}
-{"id":6922,"text":"The big bracket up there is a sum of two squares.","label":[],"Comments":[]}
-{"id":6923,"text":"So, that means that we've written <EXPRESSION> as <EXPRESSION> plus something squared plus something else squared, OK?","label":[[34,46,"expression"],[50,62,"expression"]],"Comments":[]}
-{"id":6924,"text":"So, these guys have the same sign, and that means that this term here will always be greater than or = <EXPRESSION>.","label":[[103,115,"expression"]],"Comments":[]}
-{"id":6925,"text":"And that means that we should either have a maximum or minimum.","label":[],"Comments":[]}
-{"id":6926,"text":"How we find out which one it is?","label":[],"Comments":[]}
-{"id":6927,"text":"Well, we look at the sign of a, exactly.","label":[],"Comments":[]}
-{"id":6928,"text":"OK?","label":[],"Comments":[]}
-{"id":6929,"text":"So, there's two sub-cases.","label":[],"Comments":[]}
-{"id":6930,"text":"One is if a is positive, then, this quantity overall will always be nonnegative.","label":[],"Comments":[]}
-{"id":6931,"text":"And that means we have a minimum, OK?","label":[],"Comments":[]}
-{"id":6932,"text":"And, if a is negative on the other hand, so that means that we multiply this positive quantity by a negative number, we get something that's always negative.","label":[],"Comments":[]}
-{"id":6933,"text":"So, <EXPRESSION> is actually the maximum.","label":[[4,16,"expression"]],"Comments":[]}
-{"id":6934,"text":"OK, is that clear for everyone?","label":[],"Comments":[]}
-{"id":6935,"text":"Yes?","label":[],"Comments":[]}
-{"id":6936,"text":"Sorry, yeah, so I said in the example <EQUATION>, it doesn't depend on <EXPRESSION>.","label":[[38,48,"equation"],[71,83,"expression"]],"Comments":[]}
-{"id":6937,"text":"So, the more general situation is <EXPRESSION> = some constant.","label":[[34,46,"expression"]],"Comments":[]}
-{"id":6938,"text":"Well, I guess it's <EXPRESSION>.","label":[[19,31,"expression"]],"Comments":[]}
-{"id":6939,"text":"So, it does depend on <EXPRESSION> and <EXPRESSION>, but it only depends on this combination.","label":[[22,34,"expression"],[39,51,"expression"]],"Comments":[]}
-{"id":6940,"text":"OK, so if I choose to move in some other perpendicular direction, in the direction where this remains constant, so maybe if I set <EQUATION>, then this remains zero all the time.","label":[[126,129,"command"],[130,140,"equation"],[160,164,"term"]],"Comments":[]}
-{"id":6941,"text":"So, there's a degenerate direction in which I stay at the minimum or maximum, or whatever it is that I have.","label":[],"Comments":[]}
-{"id":6942,"text":"OK, so that's why it's called degenerate.","label":[],"Comments":[]}
-{"id":6943,"text":"There is a direction in which nothing happens.","label":[],"Comments":[]}
-{"id":6944,"text":"OK, yes?","label":[],"Comments":[]}
-{"id":6945,"text":"Yes, yeah, so that's a very good question.","label":[],"Comments":[]}
-{"id":6946,"text":"So, there's going to be the second derivative test.","label":[],"Comments":[]}
-{"id":6947,"text":"Why do not have derivatives yet?","label":[],"Comments":[]}
-{"id":6948,"text":"Well, that's because I've been looking at this special example where we have a function like this.","label":[],"Comments":[]}
-{"id":6949,"text":"And, so I don't actually need to take derivatives yet.","label":[],"Comments":[]}
-{"id":6950,"text":"But, secretly, that's because <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> will be the second derivatives of the function, actually, <EXPRESSION>, <EXPRESSION>, and <EXPRESSION>.","label":[[30,42,"expression"],[44,56,"expression"],[62,74,"expression"],[133,145,"expression"],[147,159,"expression"],[165,177,"expression"]],"Comments":[]}
-{"id":6951,"text":"So now, we are going to go to general function.","label":[],"Comments":[]}
-{"id":6952,"text":"And there, instead of having these coefficients <EXPRESSION>, <EXPRESSION>, and  given to us, we'll have to compute them as second derivatives.","label":[[48,60,"expression"],[62,74,"expression"],[108,115,"command"]],"Comments":[]}
-{"id":6953,"text":"OK, so here, I'm basically setting the stage for what will be the actual criterion we'll use using second derivatives.","label":[],"Comments":[]}
-{"id":6954,"text":"Yes?","label":[],"Comments":[]}
-{"id":6955,"text":"So, yeah, so what you have a degenerate critical point, it could be a degenerate minimum, or a degenerate maximum depending on the sign of <EXPRESSION>.","label":[[139,151,"expression"]],"Comments":[]}
-{"id":6956,"text":"But, in general, once you start having functions, you don't really know what will happen anymore.","label":[],"Comments":[]}
-{"id":6957,"text":"It could also be a degenerate saddle, and so on.","label":[],"Comments":[]}
-{"id":6958,"text":"So, we won't really be able to tell.","label":[],"Comments":[]}
-{"id":6959,"text":"Yes?","label":[],"Comments":[]}
-{"id":6960,"text":"It is possible to have a degenerate saddle point.","label":[],"Comments":[]}
-{"id":6961,"text":"For example, if I gave you <EXPRESSION>, you can convince yourself that if you take <EXPRESSION> and <EXPRESSION> to be negative, it will be negative.","label":[[27,39,"expression"],[84,96,"expression"],[101,113,"expression"]],"Comments":[]}
-{"id":6962,"text":"If <EXPRESSION> and <EXPRESSION> are positive, it's positive.","label":[[3,15,"expression"],[20,32,"expression"]],"Comments":[]}
-{"id":6963,"text":"And, it has a very degenerate critical point at the origin.","label":[],"Comments":[]}
-{"id":6964,"text":"So, that's a degenerate saddle point.","label":[],"Comments":[]}
-{"id":6965,"text":"We don't see it here because that doesn't happen if you have only quadratic terms like that.","label":[],"Comments":[]}
-{"id":6966,"text":"You need to have higher-order terms to see it happen.","label":[],"Comments":[]}
-{"id":6967,"text":"OK.","label":[],"Comments":[]}
-{"id":6968,"text":"OK, so let's continue.","label":[],"Comments":[]}
-{"id":6969,"text":"Before we continue, but see, I wanted to point out one small thing.","label":[],"Comments":[]}
-{"id":6970,"text":"So, here, we have the magic quantity, <EXPRESSION>.","label":[[38,50,"expression"]],"Comments":[]}
-{"id":6971,"text":"You've probably seen that before in your life.","label":[],"Comments":[]}
-{"id":6972,"text":"Yet, it looks like the quadratic formula, except that one involves <EXPRESSION>.","label":[[67,79,"expression"]],"Comments":[]}
-{"id":6973,"text":"But that's really the same thing.","label":[],"Comments":[]}
-{"id":6974,"text":"OK, so let's see, where does the quadratic formula come in here?","label":[],"Comments":[]}
-{"id":6975,"text":"Well, let me write things differently.","label":[],"Comments":[]}
-{"id":6976,"text":"OK, so we've manipulated things, and got into a conclusion.","label":[],"Comments":[]}
-{"id":6977,"text":"But, let me just do a different manipulation, and write this now instead as <EXPRESSION>.","label":[[76,88,"expression"]],"Comments":[]}
-{"id":6978,"text":"OK, see, that's the same thing that I had before.","label":[],"Comments":[]}
-{"id":6979,"text":"Well, so now this quantity here is always nonnegative.","label":[],"Comments":[]}
-{"id":6980,"text":"What about this one?","label":[],"Comments":[]}
-{"id":6981,"text":"Well, of course, this one depends on <EXPRESSION>.","label":[[37,49,"expression"]],"Comments":[]}
-{"id":6982,"text":"It means it depends on which direction you're going to move away from the origin, which ratio between <EXPRESSION> and <EXPRESSION> you will consider.","label":[[102,114,"expression"],[119,131,"expression"]],"Comments":[]}
-{"id":6983,"text":"But, I claim there's two situations.","label":[],"Comments":[]}
-{"id":6984,"text":"One is, so, let's try to reformulate things.","label":[],"Comments":[]}
-{"id":6985,"text":"So, if a discriminate here is positive, then it means that these have roots and these have solutions.","label":[],"Comments":[]}
-{"id":6986,"text":"And, that means that this quantity can be both positive and negative.","label":[],"Comments":[]}
-{"id":6987,"text":"This quantity takes positive and negative values.","label":[],"Comments":[]}
-{"id":6988,"text":"One way to convince yourself is just to, you know, plot <EXPRESSION>.","label":[[51,55,"command"],[56,68,"expression"]],"Comments":[]}
-{"id":6989,"text":"You know that there's two roots.","label":[],"Comments":[]}
-{"id":6990,"text":"So, it might look like this, or might look like that depending on the sign of <EXPRESSION>.","label":[[78,90,"expression"]],"Comments":[]}
-{"id":6991,"text":"But, in either case, it will take values of both signs.","label":[],"Comments":[]}
-{"id":6992,"text":"So, that means that your function will take values of both signs.","label":[],"Comments":[]}
-{"id":6993,"text":"The value takes both positive and negative values.","label":[],"Comments":[]}
-{"id":6994,"text":"And, so that means we have a saddle point, while the other situation, when <EXPRESSION> is negative -- -- means that this equation is quadratic never takes the value, <EXPRESSION>.","label":[[75,87,"expression"],[167,179,"expression"]],"Comments":[]}
-{"id":6995,"text":"So, it's always positive or it's always negative, depending on the sign of <EXPRESSION>.","label":[[75,87,"expression"]],"Comments":[]}
-{"id":6996,"text":"So, the other case is if <EXPRESSION> is negative, then the quadratic doesn't have a solution.","label":[[25,37,"expression"]],"Comments":[]}
-{"id":6997,"text":"And it could look like this or like that depending on whether <EXPRESSION> is positive or <EXPRESSION> is negative.","label":[[62,74,"expression"],[90,102,"expression"]],"Comments":[]}
-{"id":6998,"text":"So, in particular, that means that <EXPRESSION> is always positive or always negative depending on the sign of <EXPRESSION>.","label":[[35,47,"expression"],[111,123,"expression"]],"Comments":[]}
-{"id":6999,"text":"And then, that tells us that our function, , will be always positive or always negative.","label":[],"Comments":[]}
-{"id":7000,"text":"And then we'll get a minimum or maximum.","label":[],"Comments":[]}
-{"id":7001,"text":"OK, we'll have a min or a max depending on which situation we are in.","label":[],"Comments":[]}
-{"id":7002,"text":"OK, so that's another way to derive the same answer.","label":[],"Comments":[]}
-{"id":7003,"text":"And now, you see here why the discriminate plays a role.","label":[],"Comments":[]}
-{"id":7004,"text":"That's because it exactly tells you whether this quadratic quantity has always the same sign, or whether it can actually cross the value, <EXPRESSION>, when you have the root of a quadratic.","label":[[138,150,"expression"]],"Comments":[]}
-{"id":7005,"text":"OK, so hopefully at this stage you are happy with one of the two explanations, at least.","label":[],"Comments":[]}
-{"id":7006,"text":"And now, you are willing to believe, I hope, that we have basically a way of deciding what type of critical point we have in the special case of a quadratic function.","label":[],"Comments":[]}
-{"id":7007,"text":"OK, so, now what do we do with the general function?","label":[],"Comments":[]}
-{"id":7008,"text":"Well, so in general, we want to look at second derivatives.","label":[],"Comments":[]}
-{"id":7009,"text":"OK, so now we are getting to the real stuff.","label":[],"Comments":[]}
-{"id":7010,"text":"So, how many second derivatives do we have?","label":[],"Comments":[]}
-{"id":7011,"text":"That's maybe the first thing we should figure out.","label":[],"Comments":[]}
-{"id":7012,"text":"Well, we can take the derivative first with respect to <EXPRESSION>, and then again with respect to <EXPRESSION>.","label":[[13,17,"command"],[55,67,"expression"],[100,112,"expression"]],"Comments":[]}
-{"id":7013,"text":"OK, that gives us something we denote by <EXPRESSION>.","label":[[41,53,"expression"]],"Comments":[]}
-{"id":7014,"text":"Then, there's another one which is ,<EXPRESSION> which means you take the derivative with respect to <EXPRESSION>, and then with respect to <EXPRESSION>.","label":[[36,48,"expression"],[101,113,"expression"],[140,152,"expression"]],"Comments":[]}
-{"id":7015,"text":"Another thing you can do, is do first derivative respect to <EXPRESSION>, and then with respect to <EXPRESSION>.","label":[[60,72,"expression"],[99,111,"expression"]],"Comments":[]}
-{"id":7016,"text":"That would be <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
-{"id":7017,"text":"Well, good news.","label":[],"Comments":[]}
-{"id":7018,"text":"These are actually always = to each other.","label":[],"Comments":[]}
-{"id":7019,"text":"OK, so it's the fact that we will admit, it's actually not very hard to check.","label":[],"Comments":[]}
-{"id":7020,"text":"So these are always the same.","label":[],"Comments":[]}
-{"id":7021,"text":"We don't need to worry about which one we do.","label":[],"Comments":[]}
-{"id":7022,"text":"That's one computation that we won't need to do.","label":[],"Comments":[]}
-{"id":7023,"text":"We can save a bit of effort.","label":[],"Comments":[]}
-{"id":7024,"text":"And then, we have the last one, namely, the second partial with respect to <EXPRESSION> and <EXPRESSION>.","label":[[75,87,"expression"],[92,104,"expression"]],"Comments":[]}
-{"id":7025,"text":"OK, so we have three of them.","label":[],"Comments":[]}
-{"id":7026,"text":"So, what does the second derivative test say?","label":[],"Comments":[]}
-{"id":7027,"text":"It says, say that you have a critical point (x0, y0) of a function of two variables, <EXPRESSION>, and then let's compute the partial derivatives.","label":[[45,47,"term"],[49,51,"term"],[85,97,"expression"]],"Comments":[]}
-{"id":7028,"text":"So, let's call capital A the second derivative with respect to <EXPRESSION>.","label":[[23,24,"term"],[63,75,"expression"]],"Comments":[]}
-{"id":7029,"text":"Let's call capital B the second derivative with respect to <EXPRESSION> and <EXPRESSION>.","label":[[19,20,"term"],[59,71,"expression"],[76,88,"expression"]],"Comments":[]}
-{"id":7030,"text":"And <EQUATION> at this point, OK?","label":[[4,14,"equation"]],"Comments":[]}
-{"id":7031,"text":"So, these are just numbers because we first compute the second derivative, and then we plug in the values of <EXPRESSION> and <EXPRESSION> at the critical point.","label":[[87,94,"command"],[109,121,"expression"],[126,138,"expression"]],"Comments":[]}
-{"id":7032,"text":"So, these will just be numbers.","label":[],"Comments":[]}
-{"id":7033,"text":"And now, what we do is we look at the quantity <EXPRESSION>.","label":[[47,59,"expression"]],"Comments":[]}
-{"id":7034,"text":"I am not forgetting the four.","label":[],"Comments":[]}
-{"id":7035,"text":"You will see why there isn't one.","label":[],"Comments":[]}
-{"id":7036,"text":"So, if <EXPRESSION> is positive, then there's two sub-cases.","label":[[7,19,"expression"]],"Comments":[]}
-{"id":7037,"text":"If A is positive, then it's local minimum.","label":[[3,4,"term"]],"Comments":[]}
-{"id":7038,"text":"The second case, so, still, if <EXPRESSION> is positive, but <EXPRESSION> is negative, then it's going to be a local maximum.","label":[[31,43,"expression"],[61,73,"expression"]],"Comments":[]}
-{"id":7039,"text":"And, if <EXPRESSION> is negative, then it's a saddle point, and finally, if <EXPRESSION> is <EXPRESSION>, then we actually cannot compute.","label":[[8,20,"expression"],[76,88,"expression"],[92,104,"expression"]],"Comments":[]}
-{"id":7040,"text":"We don't know whether it's going to be a minimum, a maximum, or a saddle.","label":[],"Comments":[]}
-{"id":7041,"text":"We know it's degenerate in some way, but we don't know what type of point it is.","label":[],"Comments":[]}
-{"id":7042,"text":"OK, so that's actually what you need to remember.","label":[],"Comments":[]}
-{"id":7043,"text":"If you are formula oriented, that's all you need to remember about today.","label":[],"Comments":[]}
-{"id":7044,"text":"But, let's try to understand why, how this comes out of what we had there.","label":[],"Comments":[]}
-{"id":7045,"text":"OK, so, I think maybe I actually want to keep, so maybe I want to keep this middle board because it actually has, you know, the recipe that we found before the quadratic function.","label":[],"Comments":[]}
-{"id":7046,"text":"So, let me move directly over there and try to relate our old recipe with the new.","label":[],"Comments":[]}
-{"id":7047,"text":"OK, you are easily amused.","label":[],"Comments":[]}
-{"id":7048,"text":"OK, so first, let's check that these two things say the same thing in the special case that we are looking at.","label":[],"Comments":[]}
-{"id":7049,"text":"OK, so let's verify in the special case where the function was <EXPRESSION>.","label":[[63,75,"expression"]],"Comments":[]}
-{"id":7050,"text":"So -- Well, what is the second derivative with respect to <EXPRESSION> and <EXPRESSION>?","label":[[58,70,"expression"],[75,87,"expression"]],"Comments":[]}
-{"id":7051,"text":"If I take the second derivative with respect to <EXPRESSION> and <EXPRESSION>, so first I want to take maybe the derivative with respect to <EXPRESSION>.","label":[[5,9,"command"],[14,31,"command_attribute"],[48,60,"expression"],[65,77,"expression"],[140,152,"expression"]],"Comments":[]}
-{"id":7052,"text":"But first, let's take the first partial, <EXPRESSION>.","label":[[41,53,"expression"]],"Comments":[]}
-{"id":7053,"text":"That will be <EXPRESSION> by, right?","label":[[13,25,"expression"]],"Comments":[]}
-{"id":7054,"text":"So, <EXPRESSION> will be, well, let's take a partial with respect to <EXPRESSION> again.","label":[[4,16,"expression"],[69,81,"expression"]],"Comments":[]}
-{"id":7055,"text":"That's <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
-{"id":7056,"text":"Wxy, I take the partial respect to <EXPRESSION>, and we'll get <EXPRESSION>.","label":[[7,11,"expression"],[12,23,"command"],[35,47,"expression"],[63,75,"expression"]],"Comments":[]}
-{"id":7057,"text":"OK, now we need, also, the partial with respect to <EXPRESSION>.","label":[[51,63,"expression"]],"Comments":[]}
-{"id":7058,"text":"So, <EXPRESSION> is <EXPRESSION>.","label":[[4,16,"expression"],[20,32,"expression"]],"Comments":[]}
-{"id":7059,"text":"In case you don't believe what I told you about the mixed partials, <EXPRESSION>, well, you can check.","label":[[68,80,"expression"]],"Comments":[]}
-{"id":7060,"text":"And it's, again, <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
-{"id":7061,"text":"So, they are, indeed, the same thing.","label":[],"Comments":[]}
-{"id":7062,"text":"And, <EXPRESSION> will be <EXPRESSION>.","label":[[5,17,"expression"],[26,38,"expression"]],"Comments":[]}
-{"id":7063,"text":"So, if we now look at these quantities, that tells us, well, <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>.","label":[[61,73,"expression"],[77,89,"expression"],[91,103,"expression"],[107,119,"expression"],[121,133,"expression"],[137,149,"expression"]],"Comments":[]}
-{"id":7064,"text":"So, <EXPRESSION> is what we used to call <EXPRESSION>.","label":[[4,16,"expression"],[41,53,"expression"]],"Comments":[]}
-{"id":7065,"text":"OK, ooh.","label":[],"Comments":[]}
-{"id":7066,"text":"[LAUGHTER] So, now you can compare the cases.","label":[],"Comments":[]}
-{"id":7067,"text":"They are not listed in the same order just to make it harder.","label":[],"Comments":[]}
-{"id":7068,"text":"So, we said first, so the saddle case is when <EXPRESSION> in big letters is negative, that's the same as <EXPRESSION> in lower case is negative.","label":[[46,58,"expression"],[106,118,"expression"]],"Comments":[]}
-{"id":7069,"text":"The case where capital <EXPRESSION> is positive, local min and local max corresponds to this one.","label":[[23,35,"expression"]],"Comments":[]}
-{"id":7070,"text":"And, the case where we can't conclude was what used to be the degenerate one.","label":[],"Comments":[]}
-{"id":7071,"text":"OK, so at least we don't seem to have messed up when copying the formula.","label":[],"Comments":[]}
-{"id":7072,"text":"Now, why does that work more generally than that?","label":[],"Comments":[]}
-{"id":7073,"text":"Well, the answer that is, again, Taylor approximation.","label":[],"Comments":[]}
-{"id":7074,"text":"Aww.","label":[],"Comments":[]}
-{"id":7075,"text":"OK, so let me just do here quadratic approximation.","label":[],"Comments":[]}
-{"id":7076,"text":"So, quadratic approximation tells me the following thing.","label":[],"Comments":[]}
-{"id":7077,"text":"It tells me, if I have a function, <EXPRESSION>, and I want to understand the change in <EXPRESSION> when I change <EXPRESSION> and <EXPRESSION> a little bit.","label":[[35,47,"expression"],[88,100,"expression"],[115,127,"expression"],[132,144,"expression"]],"Comments":[]}
-{"id":7078,"text":"Well, there's the first-order terms.","label":[],"Comments":[]}
-{"id":7079,"text":"There is the linear terms that by now you should know and be comfortable with.","label":[],"Comments":[]}
-{"id":7080,"text":"That's <EXPRESSION> times the change in <EXPRESSION>.","label":[[7,19,"expression"],[40,52,"expression"]],"Comments":[]}
-{"id":7081,"text":"And then, there's <EXPRESSION> times the change in <EXPRESSION>.","label":[[18,30,"expression"],[51,63,"expression"]],"Comments":[]}
-{"id":7082,"text":"OK, that's the starting point.","label":[],"Comments":[]}
-{"id":7083,"text":"But now, of course, if <EXPRESSION> and <EXPRESSION>, sorry, if we are at the critical point, then that's going to be <EXPRESSION> at the critical point.","label":[[23,35,"expression"],[40,52,"expression"],[118,130,"expression"]],"Comments":[]}
-{"id":7084,"text":"So, that term actually goes away, and that's also zero at the critical point.","label":[[50,54,"term"]],"Comments":[]}
-{"id":7085,"text":"So, that term also goes away.","label":[],"Comments":[]}
-{"id":7086,"text":"OK, so linear approximation is really no good.","label":[],"Comments":[]}
-{"id":7087,"text":"We need more terms.","label":[],"Comments":[]}
-{"id":7088,"text":"So, what are the next terms?","label":[],"Comments":[]}
-{"id":7089,"text":"Well, the next terms are quadratic terms, and so I mean, if you remember the Taylor formula for a function of a single variable, there was the derivative times <EXPRESSION> of a second derivative times <EXPRESSION>.","label":[[160,172,"expression"],[202,214,"expression"]],"Comments":[]}
-{"id":7090,"text":"And see, this side here is really Taylor approximation in one variable looking only at <EXPRESSION>.","label":[[87,99,"expression"]],"Comments":[]}
-{"id":7091,"text":"But of course, we also have terms involving <EXPRESSION>, and terms involving simultaneously <EXPRESSION> and <EXPRESSION>.","label":[[44,56,"expression"],[93,105,"expression"],[110,122,"expression"]],"Comments":[]}
-{"id":7092,"text":"And, these terms are <EXPRESSION> times change in <EXPRESSION> times change in <EXPRESSION> plus <EXPRESSION>.","label":[[21,33,"expression"],[50,62,"expression"],[79,91,"expression"],[97,109,"expression"]],"Comments":[]}
-{"id":7093,"text":"There's no one half in the middle because, in fact, you would have two terms, one for <EXPRESSION>, one for <EXPRESSION>, but they are the same.","label":[[86,98,"expression"],[108,120,"expression"]],"Comments":[]}
-{"id":7094,"text":"And then, if you want to continue, there is actually cubic terms involving the third derivatives, and so on, but we are not actually looking at them.","label":[],"Comments":[]}
-{"id":7095,"text":"And so, now, when we do this approximation, well, the type of critical point remains the same when we replace the function by this approximation.","label":[],"Comments":[]}
-{"id":7096,"text":"And so, we can apply the argument that we used to deduce things in the quadratic case.","label":[],"Comments":[]}
-{"id":7097,"text":"In fact, it still works in the general case using this approximation formula.","label":[],"Comments":[]}
-{"id":7098,"text":"So -- The general case reduces to the quadratic case.","label":[],"Comments":[]}
-{"id":7099,"text":"And now, you see actually why, well, here you see, again, how this coefficient which we used to call little a is also <EXPRESSION> of capital A.","label":[[118,130,"expression"],[134,143,"term"]],"Comments":[]}
-{"id":7100,"text":"And same here: this coefficient is what we call capital B or little b, and this coefficient here is what we called little c or <EXPRESSION> of capital C.","label":[[115,123,"method"],[127,139,"expression"],[143,152,"method"]],"Comments":[]}
-{"id":7101,"text":"And then, when you replace these into the various cases that we had here, you end up with the second derivative test.","label":[],"Comments":[]}
-{"id":7102,"text":"So, what about the degenerate case?","label":[],"Comments":[]}
-{"id":7103,"text":"Why can't we just say, well, it's going to be a degenerate critical point?","label":[],"Comments":[]}
-{"id":7104,"text":"So, the reason is that this approximation formula is reasonable only if the higher order terms are negligible.","label":[],"Comments":[]}
-{"id":7105,"text":"OK, so in fact, secretly, there's more terms.","label":[],"Comments":[]}
-{"id":7106,"text":"This is only an approximation.","label":[],"Comments":[]}
-{"id":7107,"text":"There would be terms involving third derivatives, and maybe even beyond that.","label":[],"Comments":[]}
-{"id":7108,"text":"And, so it is not to generate case, they don't actually matter because the shape of the function, the shape of the graph, is actually determined by the quadratic terms.","label":[],"Comments":[]}
-{"id":7109,"text":"But, in the degenerate case, see, if I start with this and I add something even very, very small along the y axis, then that can be enough to bend this very slightly up or slightly down, and turn my degenerate point in to either a minimum or a saddle point.","label":[],"Comments":[]}
-{"id":7110,"text":"And, I won't be able to tell until I go further in the list of derivatives.","label":[],"Comments":[]}
-{"id":7111,"text":"So, in the degenerate case, what actually happens depends on the higher order derivatives.","label":[],"Comments":[]}
-{"id":7112,"text":"So, we will need to analyze things more carefully.","label":[],"Comments":[]}
-{"id":7113,"text":"Well, we're not going to bother with that in this class.","label":[],"Comments":[]}
-{"id":7114,"text":"So, we'll just say, well, we cannot compute, OK?","label":[],"Comments":[]}
-{"id":7115,"text":"I mean, you have to realize that in real life, you have to be extremely unlucky for this quantity to end up being exactly <EXPRESSION>.","label":[[122,134,"expression"]],"Comments":[]}
-{"id":7116,"text":"[LAUGHTER] Well, if that happens, then what you should do is maybe try by inspection.","label":[],"Comments":[]}
-{"id":7117,"text":"See if there's a good reason why the function should always be positive or always be negative, or something.","label":[],"Comments":[]}
-{"id":7118,"text":"Or, you know, plot it on a computer and see what happens.","label":[],"Comments":[]}
-{"id":7119,"text":"But, otherwise we can't compute.","label":[],"Comments":[]}
-{"id":7120,"text":"OK, so let's do an example.","label":[],"Comments":[]}
-{"id":7121,"text":"So, probably I should leave this on so that we still have the test with us.","label":[],"Comments":[]}
-{"id":7122,"text":"And, instead, OK, so I'll do my example here.","label":[],"Comments":[]}
-{"id":7123,"text":"OK, so just an example.","label":[],"Comments":[]}
-{"id":7124,"text":"Let's look at <EQUATION>, where <EXPRESSION> and <EXPRESSION> are positive.","label":[[14,24,"equation"],[32,44,"expression"],[49,61,"expression"]],"Comments":[]}
-{"id":7125,"text":"So, I'm looking only at the first quadrant.","label":[],"Comments":[]}
-{"id":7126,"text":"OK, I mean, I'm doing this because I don't want the denominator to become <EXPRESSION>.","label":[[74,86,"expression"]],"Comments":[]}
-{"id":7127,"text":"So, I'm just looking at the situation.","label":[],"Comments":[]}
-{"id":7128,"text":"So, let's look first for, so, the question will be, what are the minimum and maximum of this function?","label":[],"Comments":[]}
-{"id":7129,"text":"So, the first thing we should do to answer this question is look for critical points, OK?","label":[],"Comments":[]}
-{"id":7130,"text":"So, for that, we have to compute the first derivatives.","label":[],"Comments":[]}
-{"id":7131,"text":"OK, so <EXPRESSION> is <EXPRESSION>, OK?","label":[[7,19,"expression"],[23,35,"expression"]],"Comments":[]}
-{"id":7132,"text":"Take the derivative of <EXPRESSION>, that's <EXPRESSION>.","label":[[0,4,"command"],[5,19,"command_attribute"],[23,35,"expression"],[44,56,"expression"]],"Comments":[]}
-{"id":7133,"text":"And, we'll want to set that = <EXPRESSION>.","label":[[30,42,"expression"]],"Comments":[]}
-{"id":7134,"text":"And <EXPRESSION> is <EXPRESSION>.","label":[[4,16,"expression"],[20,32,"expression"]],"Comments":[]}
-{"id":7135,"text":"And, we want to set that = to <EXPRESSION>.","label":[[16,19,"command"],[30,42,"expression"]],"Comments":[]}
-{"id":7136,"text":"So, what are the equations we have to solve?","label":[],"Comments":[]}
-{"id":7137,"text":"Well, I guess <EQUATION>, I mean, if I move this guy over here I get <EQUATION>.","label":[[14,24,"equation"],[69,79,"equation"]],"Comments":[]}
-{"id":7138,"text":"That's <EQUATION>, and <EQUATION>.","label":[[7,17,"equation"],[23,33,"equation"]],"Comments":[]}
-{"id":7139,"text":"What do you get by comparing these two?","label":[],"Comments":[]}
-{"id":7140,"text":"Well, <EXPRESSION> and <EXPRESSION> should both be, OK, so yeah, I agree with you that one and one is a solution.","label":[[6,18,"expression"],[23,35,"expression"]],"Comments":[]}
-{"id":7141,"text":"Why is it the only one?","label":[],"Comments":[]}
-{"id":7142,"text":"So, first, if I divide this one by that one, I get <EQUATION>.","label":[[16,22,"command"],[51,61,"equation"]],"Comments":[]}
-{"id":7143,"text":"So, it tells me <EQUATION>.","label":[[16,26,"equation"]],"Comments":[]}
-{"id":7144,"text":"And then, if <EQUATION>, then if I put that into here, it will give me <EQUATION>, which tells me <EQUATION>, and therefore, <EQUATION> as well.","label":[[13,23,"equation"],[35,38,"command"],[71,81,"equation"],[98,108,"equation"],[125,135,"equation"]],"Comments":[]}
-{"id":7145,"text":"OK, so, there's only one solution.","label":[],"Comments":[]}
-{"id":7146,"text":"There's only one critical point, which is going to be (1, 1).","label":[[55,56,"term"],[58,59,"term"]],"Comments":[]}
-{"id":7147,"text":"OK, so, now here's where you do a bit of work.","label":[],"Comments":[]}
-{"id":7148,"text":"What do you think of that critical point?","label":[],"Comments":[]}
-{"id":7149,"text":"OK, I see some valid votes.","label":[],"Comments":[]}
-{"id":7150,"text":"I see some, OK, I see a lot of people answering four.","label":[],"Comments":[]}
-{"id":7151,"text":"[LAUGHTER] that seems to suggest that maybe you haven't completed the second derivative yet.","label":[],"Comments":[]}
-{"id":7152,"text":"Yes, I see someone giving the correct answer.","label":[],"Comments":[]}
-{"id":7153,"text":"I see some people not giving quite the correct answer.","label":[],"Comments":[]}
-{"id":7154,"text":"I see more and more correct answers.","label":[],"Comments":[]}
-{"id":7155,"text":"OK, so let's see.","label":[],"Comments":[]}
-{"id":7156,"text":"To figure out what type of point is, we should compute the second partial derivatives.","label":[],"Comments":[]}
-{"id":7157,"text":"So, <EXPRESSION> is, what do we get what we take the derivative of this with respect to <EXPRESSION>?","label":[[4,16,"expression"],[44,48,"command"],[49,63,"command_attribute"],[88,100,"expression"]],"Comments":[]}
-{"id":7158,"text":"<EXPRESSION>, OK?","label":[],"Comments":[]}
-{"id":7159,"text":"So, at our point, <EXPRESSION> will be <EXPRESSION>.","label":[[18,30,"expression"],[39,51,"expression"]],"Comments":[]}
-{"id":7160,"text":"<EXPRESSION> will be <EXPRESSION>.","label":[[0,12,"expression"],[21,33,"expression"]],"Comments":[]}
-{"id":7161,"text":"So, <EXPRESSION> will be <EXPRESSION>.","label":[[4,16,"expression"],[25,37,"expression"]],"Comments":[]}
-{"id":7162,"text":"And, <EXPRESSION> is going to be <EXPRESSION>.","label":[[5,17,"expression"],[33,45,"expression"]],"Comments":[]}
-{"id":7163,"text":"So, <EXPRESSION> will be <EXPRESSION>.","label":[[4,16,"expression"],[25,37,"expression"]],"Comments":[]}
-{"id":7164,"text":"And so that tells us, well, <EXPRESSION> is <EXPRESSION>.","label":[[28,40,"expression"],[44,56,"expression"]],"Comments":[]}
-{"id":7165,"text":"Sorry, I should probably use a different blackboard for that.","label":[],"Comments":[]}
-{"id":7166,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
-{"id":7167,"text":"It's positive.","label":[],"Comments":[]}
-{"id":7168,"text":"That tells us we are either a local minimum or local maximum.","label":[],"Comments":[]}
-{"id":7169,"text":"And, <EXPRESSION> is positive.","label":[[5,17,"expression"]],"Comments":[]}
-{"id":7170,"text":"So, it's a local minimum.","label":[],"Comments":[]}
-{"id":7171,"text":"And, in fact, you can check it's the global minimum.","label":[],"Comments":[]}
-{"id":7172,"text":"What about the maximum?","label":[],"Comments":[]}
-{"id":7173,"text":"Well, if a maximum is not actually at a critical point, it's on the boundary, or at infinity.","label":[],"Comments":[]}
-{"id":7174,"text":"See, so we have actually to check what happens when <EXPRESSION> and <EXPRESSION> go to <EXPRESSION> or to infinity.","label":[[52,64,"expression"],[69,81,"expression"],[88,100,"expression"],[107,115,"term"]],"Comments":[]}
-{"id":7175,"text":"Well, if that happens, if <EXPRESSION> or <EXPRESSION> goes to infinity, then the function goes to infinity.","label":[[26,38,"expression"],[42,54,"expression"],[63,71,"term"]],"Comments":[]}
-{"id":7176,"text":"Also, if <EXPRESSION> or <EXPRESSION> goes to <EXPRESSION>, then <EXPRESSION> goes to infinity.","label":[[9,21,"expression"],[25,37,"expression"],[46,58,"expression"],[65,77,"expression"]],"Comments":[]}
-{"id":7177,"text":"So, the maximum, well, the function goes to infinity when <EXPRESSION> goes to infinity or <EXPRESSION> goes to infinity, or <EXPRESSION> and <EXPRESSION> go to <EXPRESSION>.","label":[[58,70,"expression"],[79,87,"term"],[91,103,"expression"],[112,120,"term"],[125,137,"expression"],[142,154,"expression"],[161,173,"expression"]],"Comments":[]}
-{"id":7178,"text":"So, it's not at a critical point.","label":[],"Comments":[]}
-{"id":7179,"text":"OK, so, in general, we have to check both the critical points and the boundaries to decide what happens.","label":[],"Comments":[]}
-{"id":7180,"text":"OK, the end.","label":[],"Comments":[]}
-{"id":7181,"text":"Have a nice weekend.","label":[],"Comments":[]}
+{"id": 6756, "text": "So, today we are going to continue looking at critical points, and we'll learn how to actually decide whether a typical point is a minimum, maximum, or a saddle point.", "entities": []}
+{"id": 6757, "text": "So, that's the main topic for today.", "entities": []}
+{"id": 6758, "text": "So, remember yesterday, we looked at critical points of functions of several variables.", "entities": []}
+{"id": 6759, "text": "And, so a critical point functions, we have two values, <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 56, "end_offset": 68}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 6760, "text": "That's a point where the partial derivatives are both <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 6761, "text": "And, we've seen that there's various kinds of critical points.", "entities": []}
+{"id": 6762, "text": "There's local minima.", "entities": []}
+{"id": 6763, "text": "So, maybe I should show the function on this contour plot, there is local maxima, which are like that.", "entities": []}
+{"id": 6764, "text": "And, there's saddle points which are neither minima nor maxima.", "entities": []}
+{"id": 6765, "text": "And, of course, if you have a real function, then it would be more complicated.", "entities": []}
+{"id": 6766, "text": "It will have several critical points.", "entities": []}
+{"id": 6767, "text": "So, this example here, well, you see on the plot that there is two maxima.", "entities": []}
+{"id": 6768, "text": "And, there is in the middle, between them, a saddle point.", "entities": []}
+{"id": 6769, "text": "And, actually, you can see them on the contour plot.", "entities": []}
+{"id": 6770, "text": "On the contour plot, you see the maxima because the level curves become circles that now down and shrink to the maximum.", "entities": []}
+{"id": 6771, "text": "And, you can see the saddle point because here you have this level curve that makes a figure eight.", "entities": []}
+{"id": 6772, "text": "It crosses itself.", "entities": []}
+{"id": 6773, "text": "And, if you move up or down here, so along the y direction, the values of the function will decrease.", "entities": [{"label": "term", "start_offset": 47, "end_offset": 48}]}
+{"id": 6774, "text": "Along the x direction, the values will increase.", "entities": [{"label": "term", "start_offset": 10, "end_offset": 11}]}
+{"id": 6775, "text": "So, you can see usually quite easily where are the critical points just by looking either at the graph or at the contour plots.", "entities": []}
+{"id": 6776, "text": "So, the only thing with the contour plots is you need to read the values to tell a minimum from a maximum because the contour plots look the same.", "entities": []}
+{"id": 6777, "text": "Just, of course, in one case, the values increase, and in another one they decrease.", "entities": []}
+{"id": 6778, "text": "So, the question -- -- is, how do we decide -- -- between the various possibilities?", "entities": []}
+{"id": 6779, "text": "So, local minimum, local maximum, or saddle point.", "entities": []}
+{"id": 6780, "text": "So, and, in fact, why do we care?", "entities": []}
+{"id": 6781, "text": "Well, the other question is how do we find the global minimum/maximum of a function?", "entities": []}
+{"id": 6782, "text": "So, here what I should point out, well, first of all, to decide where the function is the largest, in general you'll have actually to compare the values.", "entities": []}
+{"id": 6783, "text": "For example, here, if you want to know, what is the maximum of this function?", "entities": []}
+{"id": 6784, "text": "Well, we have two obvious candidates.", "entities": []}
+{"id": 6785, "text": "We have this local maximum and that local maximum.", "entities": []}
+{"id": 6786, "text": "And, the question is, which one is the higher of the two?", "entities": []}
+{"id": 6787, "text": "Well, in this case, actually, there is actually a tie for maximum.", "entities": []}
+{"id": 6788, "text": "But, in general, you would have to compute the function at both points, and compare the values if you know that it's three at one of them and four at the other.", "entities": []}
+{"id": 6789, "text": "Well, four wins.", "entities": []}
+{"id": 6790, "text": "The other thing that you see here is if you are looking for the minimum of this function, well, the minimum is not going to be at any of the critical points.", "entities": []}
+{"id": 6791, "text": "So, where's the minimum?", "entities": []}
+{"id": 6792, "text": "Well, it looks like the minimum is actually out there on the boundary or at infinity.", "entities": []}
+{"id": 6793, "text": "So, that's another feature.", "entities": []}
+{"id": 6794, "text": "The global minimum or maximum doesn't have to be at a critical point.", "entities": []}
+{"id": 6795, "text": "It could also be, somehow, on the side in some limiting situation where one variable stops being in the allowed rang of values or goes to infinity.", "entities": []}
+{"id": 6796, "text": "So, we have to actually check the boundary and the infinity behavior of our function to know where, actually, the minimum and maximum will be.", "entities": []}
+{"id": 6797, "text": "So, in general, I should point out, these should occur either at the critical point or on the boundary or at infinity.", "entities": []}
+{"id": 6798, "text": "So, by that, I mean on the boundary of a domain of definition that we are considering.", "entities": []}
+{"id": 6799, "text": "And so, we have to try both.", "entities": []}
+{"id": 6800, "text": "OK, but so we'll get back to that.", "entities": []}
+{"id": 6801, "text": "For now, let's try to focus on the question of, you know, what's the type of the critical point?", "entities": []}
+{"id": 6802, "text": "So, we'll use something that's known as the second derivative test.", "entities": []}
+{"id": 6803, "text": "And, in principle, well, the idea is kind of similar to what you do with the function of one variable, namely, the function of one variable.", "entities": []}
+{"id": 6804, "text": "If the derivative is zero, then you know that you should look at the second derivative.", "entities": []}
+{"id": 6805, "text": "And, that will tell you whether it's curving up or down whether you have a local max and the local min.", "entities": []}
+{"id": 6806, "text": "And, the main problem here is, of course, we have more possible situations, and we have several derivatives.", "entities": []}
+{"id": 6807, "text": "So, we have to think a bit harder about how we'll decide.", "entities": []}
+{"id": 6808, "text": "But, it will again involve the second derivative.", "entities": []}
+{"id": 6809, "text": "OK, so let's start with just an easy example that will be useful to us because actually it will provide the basis for the general method.", "entities": []}
+{"id": 6810, "text": "OK, so we are first going to consider a case where we have a function that's actually just quadratic.", "entities": []}
+{"id": 6811, "text": "So, let's say I have a function, <EXPRESSION> that's of the form <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 6812, "text": "OK, so this guy has a critical point at the origin because if you take the derivative with respect to <EXPRESSION>, well, and if you plug <EQUATION>, you'll get <EXPRESSION>, and same with respect to <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 66, "end_offset": 70}, {"label": "command_attribute", "start_offset": 75, "end_offset": 85}, {"label": "expression", "start_offset": 102, "end_offset": 114}, {"label": "equation", "start_offset": 138, "end_offset": 148}, {"label": "expression", "start_offset": 161, "end_offset": 173}, {"label": "expression", "start_offset": 200, "end_offset": 212}]}
+{"id": 6813, "text": "You can also see, if you try to do a linear approximation of this, well, all these guys are much smaller than <EXPRESSION> and <EXPRESSION> when <EXPRESSION> and <EXPRESSION> are small.", "entities": [{"label": "expression", "start_offset": 110, "end_offset": 122}, {"label": "expression", "start_offset": 127, "end_offset": 139}, {"label": "expression", "start_offset": 145, "end_offset": 157}, {"label": "expression", "start_offset": 162, "end_offset": 174}]}
+{"id": 6814, "text": "So, the linear approximation, the tangent plane to the graph is really just <EQUATION>.", "entities": [{"label": "equation", "start_offset": 76, "end_offset": 86}]}
+{"id": 6815, "text": "OK, so, how do we do it?", "entities": []}
+{"id": 6816, "text": "Well, yesterday we actually did an example.", "entities": []}
+{"id": 6817, "text": "It was a bit more complicated than that, but let me do it, so remember, we were looking at something that started with <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 119, "end_offset": 131}]}
+{"id": 6818, "text": "And, there were other terms.", "entities": []}
+{"id": 6819, "text": "But, let's forget them now.", "entities": []}
+{"id": 6820, "text": "And, what we did is we said, well, we can rewrite this as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 6821, "text": "And now, this is a sum of two squares.", "entities": []}
+{"id": 6822, "text": "So, each of these guys has to be nonnegative.", "entities": []}
+{"id": 6823, "text": "And so, the origin will be a minimum.", "entities": []}
+{"id": 6824, "text": "Well, it turns out we can do something similar in general no matter what the values of <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> are.", "entities": []}
+{"id": 6825, "text": "We'll just try to first complete things to a square.", "entities": []}
+{"id": 6826, "text": "OK, so let's do that.", "entities": []}
+{"id": 6827, "text": "So, in general, well, let me be slightly less general, and let me assume that a is not zero because otherwise I can't do what I'm going to do.", "entities": [{"label": "term", "start_offset": 78, "end_offset": 79}, {"label": "term", "start_offset": 87, "end_offset": 91}]}
+{"id": 6828, "text": "So, I'm going to write this as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 6829, "text": "And then I have my <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 6830, "text": "And now this looks like the beginning of the square of something, OK, just like what we did over there.", "entities": []}
+{"id": 6831, "text": "So, what is it the square of?", "entities": []}
+{"id": 6832, "text": "Well, you'd start with <EXPRESSION> plus I claim if I put <EXPRESSION> and I square it, then see the cross term <EXPRESSION> will become <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "command", "start_offset": 54, "end_offset": 57}, {"label": "expression", "start_offset": 58, "end_offset": 70}, {"label": "command", "start_offset": 77, "end_offset": 83}, {"label": "expression", "start_offset": 112, "end_offset": 123}, {"label": "expression", "start_offset": 137, "end_offset": 149}]}
+{"id": 6833, "text": "Of course, now I also get some y squares out of this.", "entities": [{"label": "term", "start_offset": 31, "end_offset": 32}]}
+{"id": 6834, "text": "How many y squares do I get?", "entities": [{"label": "term", "start_offset": 9, "end_offset": 10}]}
+{"id": 6835, "text": "Well, I get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 6836, "text": "So, I get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 6837, "text": "So, and I want, in fact, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 6838, "text": "So, the number of <EXPRESSION> that I should add is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "command", "start_offset": 45, "end_offset": 48}, {"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 6839, "text": "OK, let's see that again.", "entities": []}
+{"id": 6840, "text": "If I expand this thing, I will get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 6841, "text": "That's going to be my <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 6842, "text": "But, I also get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 6843, "text": "That's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 6844, "text": "And, that cancels out with this guy here.", "entities": []}
+{"id": 6845, "text": "And then, I will be left with <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 6846, "text": "OK, do you see it kind of?", "entities": []}
+{"id": 6847, "text": "OK, if not, well, try expanding this square again.", "entities": []}
+{"id": 6848, "text": "OK, maybe I'll do it just to convince you.", "entities": []}
+{"id": 6849, "text": "But, so if I expand this, I will get A times, let me put that in a different color because you shouldn't write that down.", "entities": []}
+{"id": 6850, "text": "It's just to convince you again.", "entities": []}
+{"id": 6851, "text": "So, if you don't see it yet, let's expend this thing.", "entities": []}
+{"id": 6852, "text": "We'll get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 6853, "text": "Well, the two A's cancel out.", "entities": [{"label": "term", "start_offset": 14, "end_offset": 15}]}
+{"id": 6854, "text": "We get <EXPRESSION> the square of that's going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 53, "end_offset": 64}]}
+{"id": 6855, "text": "Here, the a and the a simplifies, and now these two terms simplify and give me just <EXPRESSION> in the end.", "entities": [{"label": "command", "start_offset": 58, "end_offset": 66}, {"label": "expression", "start_offset": 84, "end_offset": 96}]}
+{"id": 6856, "text": "OK, and that's kind of unreadable after I've canceled everything, but if you follow it, you see that basically I've just rewritten my initial function.", "entities": []}
+{"id": 6857, "text": "OK, is that kind of OK?", "entities": []}
+{"id": 6858, "text": "I mean, otherwise there's just no substitute.", "entities": []}
+{"id": 6859, "text": "You'll have to do it yourself, I'm afraid.", "entities": []}
+{"id": 6860, "text": "OK, so, let me continue to play with this.", "entities": []}
+{"id": 6861, "text": "So, I'm just going to put this in a slightly different form just to clear the denominators.", "entities": []}
+{"id": 6862, "text": "OK, so, I will instead write this as <EXPRESSION> times the big thing.", "entities": [{"label": "command", "start_offset": 23, "end_offset": 28}, {"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 6863, "text": "So, I'm going to just put <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 6864, "text": "OK, so far I have the same thing as here.", "entities": []}
+{"id": 6865, "text": "I just introduced the <EXPRESSION> that cancels out, plus for the other one, I'm just clearing the denominator.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 6866, "text": "I end up with <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 6867, "text": "OK, so that's a lot of terms.", "entities": []}
+{"id": 6868, "text": "But, what does it look like?", "entities": []}
+{"id": 6869, "text": "Well, it looks like, so we have some constant factors, and here we have a square, and here we have a square.", "entities": []}
+{"id": 6870, "text": "So, basically, we've written this as a sum of two squares, well, a sum or a difference of two squares.", "entities": []}
+{"id": 6871, "text": "And, maybe that's what we need to figure out to know what kind of point it is because, see, if you take a sum of two squares, that you will know that each square takes nonnegative values.", "entities": []}
+{"id": 6872, "text": "And you will have, the function will always take nonnegative values.", "entities": []}
+{"id": 6873, "text": "So, the origin will be a minimum.", "entities": []}
+{"id": 6874, "text": "Well, if you have a difference of two squares that typically you'll have a saddle point because depending on whether one or the other is larger, you will have a positive or a negative quantity.", "entities": []}
+{"id": 6875, "text": "OK, so I claim there's various cases to look at.", "entities": []}
+{"id": 6876, "text": "So, let's see.", "entities": []}
+{"id": 6877, "text": "So, in fact, I claim there will be three cases.", "entities": []}
+{"id": 6878, "text": "And, that's good news for us because after all, we want to distinguish between three possibilities.", "entities": []}
+{"id": 6879, "text": "So, let's first do away with the most complicated one.", "entities": []}
+{"id": 6880, "text": "What if <EXPRESSION> is negative?", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 6881, "text": "Well, if it's negative, then it means what I have between the brackets is, so the first guy is obviously a positive quantity, while the second one will be something negative times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 180, "end_offset": 192}]}
+{"id": 6882, "text": "So, it will be a negative quantity.", "entities": []}
+{"id": 6883, "text": "OK, so one term is positive.", "entities": []}
+{"id": 6884, "text": "The other is negative.", "entities": []}
+{"id": 6885, "text": "That tells us we actually have a saddle point.", "entities": []}
+{"id": 6886, "text": "We have, in fact, written our function as a difference of two squares.", "entities": []}
+{"id": 6887, "text": "OK, is that convincing?", "entities": []}
+{"id": 6888, "text": "So, if you want, what I could do is actually I could change my coordinates, have new coordinates called <EQUATION>, actually, well, I could keep y, and that it would look like the difference of squares directly.", "entities": []}
+{"id": 6889, "text": "OK, so that's the first case.", "entities": []}
+{"id": 6890, "text": "The second case is where <EQUATION>.", "entities": [{"label": "equation", "start_offset": 25, "end_offset": 35}]}
+{"id": 6891, "text": "Well, what happens if that's zero?", "entities": [{"label": "term", "start_offset": 29, "end_offset": 33}]}
+{"id": 6892, "text": "Then it means that this term over there goes away.", "entities": []}
+{"id": 6893, "text": "So, what we have is just one square.", "entities": [{"label": "term", "start_offset": 25, "end_offset": 28}]}
+{"id": 6894, "text": "OK, so what that means is actually that our function depends only on one direction of things.", "entities": []}
+{"id": 6895, "text": "In the other direction, it's going to actually be degenerate.", "entities": []}
+{"id": 6896, "text": "So, for example, forget all the clutter in there.", "entities": []}
+{"id": 6897, "text": "Say I give you just the function of two variables, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 51, "end_offset": 61}]}
+{"id": 6898, "text": "So, that means it doesn't depend on <EXPRESSION> at all.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 6899, "text": "And, if I try to plot the graph, it will look like, well, <EXPRESSION> is here.", "entities": [{"label": "command", "start_offset": 17, "end_offset": 21}, {"label": "command_attribute", "start_offset": 26, "end_offset": 31}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 6900, "text": "So, it will depend on <EXPRESSION> in that way, but it doesn't depend on <EXPRESSION> at all.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 6901, "text": "So, what the graph looks like is something like that.", "entities": []}
+{"id": 6902, "text": "OK, basically it's a valley whose bottom is completely flat.", "entities": []}
+{"id": 6903, "text": "So, that means, actually, we have a degenerate critical point.", "entities": []}
+{"id": 6904, "text": "It's called degenerate because there is a direction in which nothing happens.", "entities": []}
+{"id": 6905, "text": "And, in fact, you have critical points everywhere along the y axis.", "entities": []}
+{"id": 6906, "text": "Now, whether the square that we have is <EXPRESSION> or something else, namely, <EXPRESSION>, it doesn't matter.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 80, "end_offset": 92}]}
+{"id": 6907, "text": "I mean, it will still get this degenerate behavior.", "entities": []}
+{"id": 6908, "text": "But there's a direction in which nothing happens because we just have the square of one quantity.", "entities": []}
+{"id": 6909, "text": "I'm sure that <EXPRESSION> students means <EXPRESSION> different ring tones, but I'm not eager to hear all of them, thanks.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 6910, "text": "[LAUGHTER] OK, so, this is what's called a degenerate critical point, and [LAUGHTER].", "entities": []}
+{"id": 6911, "text": "OK, so basically we'll leave it here.", "entities": []}
+{"id": 6912, "text": "We won't actually try to figure out further what happens, and the reason for that is that when you have an actual function, a general function, not just one that's quadratic like this, then there will actually be other terms maybe involving higher powers, maybe <EXPRESSION> or <EXPRESSION> or things like that.", "entities": [{"label": "expression", "start_offset": 262, "end_offset": 274}, {"label": "expression", "start_offset": 278, "end_offset": 290}]}
+{"id": 6913, "text": "And then, they will mess up what happens in this valley.", "entities": []}
+{"id": 6914, "text": "And, it's a situation where we won't be able, actually, to tell automatically just by looking at second derivatives what happens.", "entities": []}
+{"id": 6915, "text": "See, for example, in a function of one variable, if you have just a function of one variable, say, <EXPRESSION>, well, if you try to decide what type of point the origin is, you're going to take the second derivative.", "entities": [{"label": "expression", "start_offset": 99, "end_offset": 111}]}
+{"id": 6916, "text": "It will be <EXPRESSION>, and then you can conclude.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 6917, "text": "Those things depend on higher order derivatives.", "entities": []}
+{"id": 6918, "text": "So, we just won't like that case.", "entities": []}
+{"id": 6919, "text": "We just won't try to figure out what's going on here.", "entities": []}
+{"id": 6920, "text": "Now, the last situation is if <EXPRESSION> is positive.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 6921, "text": "So, then, that means that actually we've written things.", "entities": []}
+{"id": 6922, "text": "The big bracket up there is a sum of two squares.", "entities": []}
+{"id": 6923, "text": "So, that means that we've written <EXPRESSION> as <EXPRESSION> plus something squared plus something else squared, OK?", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 50, "end_offset": 62}]}
+{"id": 6924, "text": "So, these guys have the same sign, and that means that this term here will always be greater than or = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 103, "end_offset": 115}]}
+{"id": 6925, "text": "And that means that we should either have a maximum or minimum.", "entities": []}
+{"id": 6926, "text": "How we find out which one it is?", "entities": []}
+{"id": 6927, "text": "Well, we look at the sign of a, exactly.", "entities": []}
+{"id": 6928, "text": "OK?", "entities": []}
+{"id": 6929, "text": "So, there's two sub-cases.", "entities": []}
+{"id": 6930, "text": "One is if a is positive, then, this quantity overall will always be nonnegative.", "entities": []}
+{"id": 6931, "text": "And that means we have a minimum, OK?", "entities": []}
+{"id": 6932, "text": "And, if a is negative on the other hand, so that means that we multiply this positive quantity by a negative number, we get something that's always negative.", "entities": []}
+{"id": 6933, "text": "So, <EXPRESSION> is actually the maximum.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 6934, "text": "OK, is that clear for everyone?", "entities": []}
+{"id": 6935, "text": "Yes?", "entities": []}
+{"id": 6936, "text": "Sorry, yeah, so I said in the example <EQUATION>, it doesn't depend on <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 38, "end_offset": 48}, {"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 6937, "text": "So, the more general situation is <EXPRESSION> = some constant.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 6938, "text": "Well, I guess it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 6939, "text": "So, it does depend on <EXPRESSION> and <EXPRESSION>, but it only depends on this combination.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 6940, "text": "OK, so if I choose to move in some other perpendicular direction, in the direction where this remains constant, so maybe if I set <EQUATION>, then this remains zero all the time.", "entities": [{"label": "command", "start_offset": 126, "end_offset": 129}, {"label": "equation", "start_offset": 130, "end_offset": 140}, {"label": "term", "start_offset": 160, "end_offset": 164}]}
+{"id": 6941, "text": "So, there's a degenerate direction in which I stay at the minimum or maximum, or whatever it is that I have.", "entities": []}
+{"id": 6942, "text": "OK, so that's why it's called degenerate.", "entities": []}
+{"id": 6943, "text": "There is a direction in which nothing happens.", "entities": []}
+{"id": 6944, "text": "OK, yes?", "entities": []}
+{"id": 6945, "text": "Yes, yeah, so that's a very good question.", "entities": []}
+{"id": 6946, "text": "So, there's going to be the second derivative test.", "entities": []}
+{"id": 6947, "text": "Why do not have derivatives yet?", "entities": []}
+{"id": 6948, "text": "Well, that's because I've been looking at this special example where we have a function like this.", "entities": []}
+{"id": 6949, "text": "And, so I don't actually need to take derivatives yet.", "entities": []}
+{"id": 6950, "text": "But, secretly, that's because <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> will be the second derivatives of the function, actually, <EXPRESSION>, <EXPRESSION>, and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "expression", "start_offset": 133, "end_offset": 145}, {"label": "expression", "start_offset": 147, "end_offset": 159}, {"label": "expression", "start_offset": 165, "end_offset": 177}]}
+{"id": 6951, "text": "So now, we are going to go to general function.", "entities": []}
+{"id": 6952, "text": "And there, instead of having these coefficients <EXPRESSION>, <EXPRESSION>, and  given to us, we'll have to compute them as second derivatives.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "command", "start_offset": 108, "end_offset": 115}]}
+{"id": 6953, "text": "OK, so here, I'm basically setting the stage for what will be the actual criterion we'll use using second derivatives.", "entities": []}
+{"id": 6954, "text": "Yes?", "entities": []}
+{"id": 6955, "text": "So, yeah, so what you have a degenerate critical point, it could be a degenerate minimum, or a degenerate maximum depending on the sign of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 139, "end_offset": 151}]}
+{"id": 6956, "text": "But, in general, once you start having functions, you don't really know what will happen anymore.", "entities": []}
+{"id": 6957, "text": "It could also be a degenerate saddle, and so on.", "entities": []}
+{"id": 6958, "text": "So, we won't really be able to tell.", "entities": []}
+{"id": 6959, "text": "Yes?", "entities": []}
+{"id": 6960, "text": "It is possible to have a degenerate saddle point.", "entities": []}
+{"id": 6961, "text": "For example, if I gave you <EXPRESSION>, you can convince yourself that if you take <EXPRESSION> and <EXPRESSION> to be negative, it will be negative.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}, {"label": "expression", "start_offset": 84, "end_offset": 96}, {"label": "expression", "start_offset": 101, "end_offset": 113}]}
+{"id": 6962, "text": "If <EXPRESSION> and <EXPRESSION> are positive, it's positive.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 6963, "text": "And, it has a very degenerate critical point at the origin.", "entities": []}
+{"id": 6964, "text": "So, that's a degenerate saddle point.", "entities": []}
+{"id": 6965, "text": "We don't see it here because that doesn't happen if you have only quadratic terms like that.", "entities": []}
+{"id": 6966, "text": "You need to have higher-order terms to see it happen.", "entities": []}
+{"id": 6967, "text": "OK.", "entities": []}
+{"id": 6968, "text": "OK, so let's continue.", "entities": []}
+{"id": 6969, "text": "Before we continue, but see, I wanted to point out one small thing.", "entities": []}
+{"id": 6970, "text": "So, here, we have the magic quantity, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 6971, "text": "You've probably seen that before in your life.", "entities": []}
+{"id": 6972, "text": "Yet, it looks like the quadratic formula, except that one involves <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 67, "end_offset": 79}]}
+{"id": 6973, "text": "But that's really the same thing.", "entities": []}
+{"id": 6974, "text": "OK, so let's see, where does the quadratic formula come in here?", "entities": []}
+{"id": 6975, "text": "Well, let me write things differently.", "entities": []}
+{"id": 6976, "text": "OK, so we've manipulated things, and got into a conclusion.", "entities": []}
+{"id": 6977, "text": "But, let me just do a different manipulation, and write this now instead as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 6978, "text": "OK, see, that's the same thing that I had before.", "entities": []}
+{"id": 6979, "text": "Well, so now this quantity here is always nonnegative.", "entities": []}
+{"id": 6980, "text": "What about this one?", "entities": []}
+{"id": 6981, "text": "Well, of course, this one depends on <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 6982, "text": "It means it depends on which direction you're going to move away from the origin, which ratio between <EXPRESSION> and <EXPRESSION> you will consider.", "entities": [{"label": "expression", "start_offset": 102, "end_offset": 114}, {"label": "expression", "start_offset": 119, "end_offset": 131}]}
+{"id": 6983, "text": "But, I claim there's two situations.", "entities": []}
+{"id": 6984, "text": "One is, so, let's try to reformulate things.", "entities": []}
+{"id": 6985, "text": "So, if a discriminate here is positive, then it means that these have roots and these have solutions.", "entities": []}
+{"id": 6986, "text": "And, that means that this quantity can be both positive and negative.", "entities": []}
+{"id": 6987, "text": "This quantity takes positive and negative values.", "entities": []}
+{"id": 6988, "text": "One way to convince yourself is just to, you know, plot <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 51, "end_offset": 55}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 6989, "text": "You know that there's two roots.", "entities": []}
+{"id": 6990, "text": "So, it might look like this, or might look like that depending on the sign of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 78, "end_offset": 90}]}
+{"id": 6991, "text": "But, in either case, it will take values of both signs.", "entities": []}
+{"id": 6992, "text": "So, that means that your function will take values of both signs.", "entities": []}
+{"id": 6993, "text": "The value takes both positive and negative values.", "entities": []}
+{"id": 6994, "text": "And, so that means we have a saddle point, while the other situation, when <EXPRESSION> is negative -- -- means that this equation is quadratic never takes the value, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 75, "end_offset": 87}, {"label": "expression", "start_offset": 167, "end_offset": 179}]}
+{"id": 6995, "text": "So, it's always positive or it's always negative, depending on the sign of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 75, "end_offset": 87}]}
+{"id": 6996, "text": "So, the other case is if <EXPRESSION> is negative, then the quadratic doesn't have a solution.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 6997, "text": "And it could look like this or like that depending on whether <EXPRESSION> is positive or <EXPRESSION> is negative.", "entities": [{"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "expression", "start_offset": 90, "end_offset": 102}]}
+{"id": 6998, "text": "So, in particular, that means that <EXPRESSION> is always positive or always negative depending on the sign of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 111, "end_offset": 123}]}
+{"id": 6999, "text": "And then, that tells us that our function, , will be always positive or always negative.", "entities": []}
+{"id": 7000, "text": "And then we'll get a minimum or maximum.", "entities": []}
+{"id": 7001, "text": "OK, we'll have a min or a max depending on which situation we are in.", "entities": []}
+{"id": 7002, "text": "OK, so that's another way to derive the same answer.", "entities": []}
+{"id": 7003, "text": "And now, you see here why the discriminate plays a role.", "entities": []}
+{"id": 7004, "text": "That's because it exactly tells you whether this quadratic quantity has always the same sign, or whether it can actually cross the value, <EXPRESSION>, when you have the root of a quadratic.", "entities": [{"label": "expression", "start_offset": 138, "end_offset": 150}]}
+{"id": 7005, "text": "OK, so hopefully at this stage you are happy with one of the two explanations, at least.", "entities": []}
+{"id": 7006, "text": "And now, you are willing to believe, I hope, that we have basically a way of deciding what type of critical point we have in the special case of a quadratic function.", "entities": []}
+{"id": 7007, "text": "OK, so, now what do we do with the general function?", "entities": []}
+{"id": 7008, "text": "Well, so in general, we want to look at second derivatives.", "entities": []}
+{"id": 7009, "text": "OK, so now we are getting to the real stuff.", "entities": []}
+{"id": 7010, "text": "So, how many second derivatives do we have?", "entities": []}
+{"id": 7011, "text": "That's maybe the first thing we should figure out.", "entities": []}
+{"id": 7012, "text": "Well, we can take the derivative first with respect to <EXPRESSION>, and then again with respect to <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 17}, {"label": "expression", "start_offset": 55, "end_offset": 67}, {"label": "expression", "start_offset": 100, "end_offset": 112}]}
+{"id": 7013, "text": "OK, that gives us something we denote by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 7014, "text": "Then, there's another one which is ,<EXPRESSION> which means you take the derivative with respect to <EXPRESSION>, and then with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 101, "end_offset": 113}, {"label": "expression", "start_offset": 140, "end_offset": 152}]}
+{"id": 7015, "text": "Another thing you can do, is do first derivative respect to <EXPRESSION>, and then with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 60, "end_offset": 72}, {"label": "expression", "start_offset": 99, "end_offset": 111}]}
+{"id": 7016, "text": "That would be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 7017, "text": "Well, good news.", "entities": []}
+{"id": 7018, "text": "These are actually always = to each other.", "entities": []}
+{"id": 7019, "text": "OK, so it's the fact that we will admit, it's actually not very hard to check.", "entities": []}
+{"id": 7020, "text": "So these are always the same.", "entities": []}
+{"id": 7021, "text": "We don't need to worry about which one we do.", "entities": []}
+{"id": 7022, "text": "That's one computation that we won't need to do.", "entities": []}
+{"id": 7023, "text": "We can save a bit of effort.", "entities": []}
+{"id": 7024, "text": "And then, we have the last one, namely, the second partial with respect to <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 75, "end_offset": 87}, {"label": "expression", "start_offset": 92, "end_offset": 104}]}
+{"id": 7025, "text": "OK, so we have three of them.", "entities": []}
+{"id": 7026, "text": "So, what does the second derivative test say?", "entities": []}
+{"id": 7027, "text": "It says, say that you have a critical point (x0, y0) of a function of two variables, <EXPRESSION>, and then let's compute the partial derivatives.", "entities": [{"label": "term", "start_offset": 45, "end_offset": 47}, {"label": "term", "start_offset": 49, "end_offset": 51}, {"label": "expression", "start_offset": 85, "end_offset": 97}]}
+{"id": 7028, "text": "So, let's call capital A the second derivative with respect to <EXPRESSION>.", "entities": [{"label": "term", "start_offset": 23, "end_offset": 24}, {"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 7029, "text": "Let's call capital B the second derivative with respect to <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "term", "start_offset": 19, "end_offset": 20}, {"label": "expression", "start_offset": 59, "end_offset": 71}, {"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 7030, "text": "And <EQUATION> at this point, OK?", "entities": [{"label": "equation", "start_offset": 4, "end_offset": 14}]}
+{"id": 7031, "text": "So, these are just numbers because we first compute the second derivative, and then we plug in the values of <EXPRESSION> and <EXPRESSION> at the critical point.", "entities": [{"label": "command", "start_offset": 87, "end_offset": 94}, {"label": "expression", "start_offset": 109, "end_offset": 121}, {"label": "expression", "start_offset": 126, "end_offset": 138}]}
+{"id": 7032, "text": "So, these will just be numbers.", "entities": []}
+{"id": 7033, "text": "And now, what we do is we look at the quantity <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 7034, "text": "I am not forgetting the four.", "entities": []}
+{"id": 7035, "text": "You will see why there isn't one.", "entities": []}
+{"id": 7036, "text": "So, if <EXPRESSION> is positive, then there's two sub-cases.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 7037, "text": "If A is positive, then it's local minimum.", "entities": [{"label": "term", "start_offset": 3, "end_offset": 4}]}
+{"id": 7038, "text": "The second case, so, still, if <EXPRESSION> is positive, but <EXPRESSION> is negative, then it's going to be a local maximum.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 61, "end_offset": 73}]}
+{"id": 7039, "text": "And, if <EXPRESSION> is negative, then it's a saddle point, and finally, if <EXPRESSION> is <EXPRESSION>, then we actually cannot compute.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 76, "end_offset": 88}, {"label": "expression", "start_offset": 92, "end_offset": 104}]}
+{"id": 7040, "text": "We don't know whether it's going to be a minimum, a maximum, or a saddle.", "entities": []}
+{"id": 7041, "text": "We know it's degenerate in some way, but we don't know what type of point it is.", "entities": []}
+{"id": 7042, "text": "OK, so that's actually what you need to remember.", "entities": []}
+{"id": 7043, "text": "If you are formula oriented, that's all you need to remember about today.", "entities": []}
+{"id": 7044, "text": "But, let's try to understand why, how this comes out of what we had there.", "entities": []}
+{"id": 7045, "text": "OK, so, I think maybe I actually want to keep, so maybe I want to keep this middle board because it actually has, you know, the recipe that we found before the quadratic function.", "entities": []}
+{"id": 7046, "text": "So, let me move directly over there and try to relate our old recipe with the new.", "entities": []}
+{"id": 7047, "text": "OK, you are easily amused.", "entities": []}
+{"id": 7048, "text": "OK, so first, let's check that these two things say the same thing in the special case that we are looking at.", "entities": []}
+{"id": 7049, "text": "OK, so let's verify in the special case where the function was <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 7050, "text": "So -- Well, what is the second derivative with respect to <EXPRESSION> and <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 58, "end_offset": 70}, {"label": "expression", "start_offset": 75, "end_offset": 87}]}
+{"id": 7051, "text": "If I take the second derivative with respect to <EXPRESSION> and <EXPRESSION>, so first I want to take maybe the derivative with respect to <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 9}, {"label": "command_attribute", "start_offset": 14, "end_offset": 31}, {"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 65, "end_offset": 77}, {"label": "expression", "start_offset": 140, "end_offset": 152}]}
+{"id": 7052, "text": "But first, let's take the first partial, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 7053, "text": "That will be <EXPRESSION> by, right?", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}]}
+{"id": 7054, "text": "So, <EXPRESSION> will be, well, let's take a partial with respect to <EXPRESSION> again.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 69, "end_offset": 81}]}
+{"id": 7055, "text": "That's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 7056, "text": "Wxy, I take the partial respect to <EXPRESSION>, and we'll get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 11}, {"label": "command", "start_offset": 12, "end_offset": 23}, {"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 7057, "text": "OK, now we need, also, the partial with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 7058, "text": "So, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 7059, "text": "In case you don't believe what I told you about the mixed partials, <EXPRESSION>, well, you can check.", "entities": [{"label": "expression", "start_offset": 68, "end_offset": 80}]}
+{"id": 7060, "text": "And it's, again, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 7061, "text": "So, they are, indeed, the same thing.", "entities": []}
+{"id": 7062, "text": "And, <EXPRESSION> will be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 7063, "text": "So, if we now look at these quantities, that tells us, well, <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 77, "end_offset": 89}, {"label": "expression", "start_offset": 91, "end_offset": 103}, {"label": "expression", "start_offset": 107, "end_offset": 119}, {"label": "expression", "start_offset": 121, "end_offset": 133}, {"label": "expression", "start_offset": 137, "end_offset": 149}]}
+{"id": 7064, "text": "So, <EXPRESSION> is what we used to call <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 7065, "text": "OK, ooh.", "entities": []}
+{"id": 7066, "text": "[LAUGHTER] So, now you can compare the cases.", "entities": []}
+{"id": 7067, "text": "They are not listed in the same order just to make it harder.", "entities": []}
+{"id": 7068, "text": "So, we said first, so the saddle case is when <EXPRESSION> in big letters is negative, that's the same as <EXPRESSION> in lower case is negative.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 106, "end_offset": 118}]}
+{"id": 7069, "text": "The case where capital <EXPRESSION> is positive, local min and local max corresponds to this one.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 7070, "text": "And, the case where we can't conclude was what used to be the degenerate one.", "entities": []}
+{"id": 7071, "text": "OK, so at least we don't seem to have messed up when copying the formula.", "entities": []}
+{"id": 7072, "text": "Now, why does that work more generally than that?", "entities": []}
+{"id": 7073, "text": "Well, the answer that is, again, Taylor approximation.", "entities": []}
+{"id": 7074, "text": "Aww.", "entities": []}
+{"id": 7075, "text": "OK, so let me just do here quadratic approximation.", "entities": []}
+{"id": 7076, "text": "So, quadratic approximation tells me the following thing.", "entities": []}
+{"id": 7077, "text": "It tells me, if I have a function, <EXPRESSION>, and I want to understand the change in <EXPRESSION> when I change <EXPRESSION> and <EXPRESSION> a little bit.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 88, "end_offset": 100}, {"label": "expression", "start_offset": 115, "end_offset": 127}, {"label": "expression", "start_offset": 132, "end_offset": 144}]}
+{"id": 7078, "text": "Well, there's the first-order terms.", "entities": []}
+{"id": 7079, "text": "There is the linear terms that by now you should know and be comfortable with.", "entities": []}
+{"id": 7080, "text": "That's <EXPRESSION> times the change in <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 7081, "text": "And then, there's <EXPRESSION> times the change in <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 7082, "text": "OK, that's the starting point.", "entities": []}
+{"id": 7083, "text": "But now, of course, if <EXPRESSION> and <EXPRESSION>, sorry, if we are at the critical point, then that's going to be <EXPRESSION> at the critical point.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 118, "end_offset": 130}]}
+{"id": 7084, "text": "So, that term actually goes away, and that's also zero at the critical point.", "entities": [{"label": "term", "start_offset": 50, "end_offset": 54}]}
+{"id": 7085, "text": "So, that term also goes away.", "entities": []}
+{"id": 7086, "text": "OK, so linear approximation is really no good.", "entities": []}
+{"id": 7087, "text": "We need more terms.", "entities": []}
+{"id": 7088, "text": "So, what are the next terms?", "entities": []}
+{"id": 7089, "text": "Well, the next terms are quadratic terms, and so I mean, if you remember the Taylor formula for a function of a single variable, there was the derivative times <EXPRESSION> of a second derivative times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 160, "end_offset": 172}, {"label": "expression", "start_offset": 202, "end_offset": 214}]}
+{"id": 7090, "text": "And see, this side here is really Taylor approximation in one variable looking only at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 87, "end_offset": 99}]}
+{"id": 7091, "text": "But of course, we also have terms involving <EXPRESSION>, and terms involving simultaneously <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 93, "end_offset": 105}, {"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 7092, "text": "And, these terms are <EXPRESSION> times change in <EXPRESSION> times change in <EXPRESSION> plus <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 50, "end_offset": 62}, {"label": "expression", "start_offset": 79, "end_offset": 91}, {"label": "expression", "start_offset": 97, "end_offset": 109}]}
+{"id": 7093, "text": "There's no one half in the middle because, in fact, you would have two terms, one for <EXPRESSION>, one for <EXPRESSION>, but they are the same.", "entities": [{"label": "expression", "start_offset": 86, "end_offset": 98}, {"label": "expression", "start_offset": 108, "end_offset": 120}]}
+{"id": 7094, "text": "And then, if you want to continue, there is actually cubic terms involving the third derivatives, and so on, but we are not actually looking at them.", "entities": []}
+{"id": 7095, "text": "And so, now, when we do this approximation, well, the type of critical point remains the same when we replace the function by this approximation.", "entities": []}
+{"id": 7096, "text": "And so, we can apply the argument that we used to deduce things in the quadratic case.", "entities": []}
+{"id": 7097, "text": "In fact, it still works in the general case using this approximation formula.", "entities": []}
+{"id": 7098, "text": "So -- The general case reduces to the quadratic case.", "entities": []}
+{"id": 7099, "text": "And now, you see actually why, well, here you see, again, how this coefficient which we used to call little a is also <EXPRESSION> of capital A.", "entities": [{"label": "expression", "start_offset": 118, "end_offset": 130}, {"label": "term", "start_offset": 134, "end_offset": 143}]}
+{"id": 7100, "text": "And same here: this coefficient is what we call capital B or little b, and this coefficient here is what we called little c or <EXPRESSION> of capital C.", "entities": [{"label": "method", "start_offset": 115, "end_offset": 123}, {"label": "expression", "start_offset": 127, "end_offset": 139}, {"label": "method", "start_offset": 143, "end_offset": 152}]}
+{"id": 7101, "text": "And then, when you replace these into the various cases that we had here, you end up with the second derivative test.", "entities": []}
+{"id": 7102, "text": "So, what about the degenerate case?", "entities": []}
+{"id": 7103, "text": "Why can't we just say, well, it's going to be a degenerate critical point?", "entities": []}
+{"id": 7104, "text": "So, the reason is that this approximation formula is reasonable only if the higher order terms are negligible.", "entities": []}
+{"id": 7105, "text": "OK, so in fact, secretly, there's more terms.", "entities": []}
+{"id": 7106, "text": "This is only an approximation.", "entities": []}
+{"id": 7107, "text": "There would be terms involving third derivatives, and maybe even beyond that.", "entities": []}
+{"id": 7108, "text": "And, so it is not to generate case, they don't actually matter because the shape of the function, the shape of the graph, is actually determined by the quadratic terms.", "entities": []}
+{"id": 7109, "text": "But, in the degenerate case, see, if I start with this and I add something even very, very small along the y axis, then that can be enough to bend this very slightly up or slightly down, and turn my degenerate point in to either a minimum or a saddle point.", "entities": []}
+{"id": 7110, "text": "And, I won't be able to tell until I go further in the list of derivatives.", "entities": []}
+{"id": 7111, "text": "So, in the degenerate case, what actually happens depends on the higher order derivatives.", "entities": []}
+{"id": 7112, "text": "So, we will need to analyze things more carefully.", "entities": []}
+{"id": 7113, "text": "Well, we're not going to bother with that in this class.", "entities": []}
+{"id": 7114, "text": "So, we'll just say, well, we cannot compute, OK?", "entities": []}
+{"id": 7115, "text": "I mean, you have to realize that in real life, you have to be extremely unlucky for this quantity to end up being exactly <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 122, "end_offset": 134}]}
+{"id": 7116, "text": "[LAUGHTER] Well, if that happens, then what you should do is maybe try by inspection.", "entities": []}
+{"id": 7117, "text": "See if there's a good reason why the function should always be positive or always be negative, or something.", "entities": []}
+{"id": 7118, "text": "Or, you know, plot it on a computer and see what happens.", "entities": []}
+{"id": 7119, "text": "But, otherwise we can't compute.", "entities": []}
+{"id": 7120, "text": "OK, so let's do an example.", "entities": []}
+{"id": 7121, "text": "So, probably I should leave this on so that we still have the test with us.", "entities": []}
+{"id": 7122, "text": "And, instead, OK, so I'll do my example here.", "entities": []}
+{"id": 7123, "text": "OK, so just an example.", "entities": []}
+{"id": 7124, "text": "Let's look at <EQUATION>, where <EXPRESSION> and <EXPRESSION> are positive.", "entities": [{"label": "equation", "start_offset": 14, "end_offset": 24}, {"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 7125, "text": "So, I'm looking only at the first quadrant.", "entities": []}
+{"id": 7126, "text": "OK, I mean, I'm doing this because I don't want the denominator to become <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 74, "end_offset": 86}]}
+{"id": 7127, "text": "So, I'm just looking at the situation.", "entities": []}
+{"id": 7128, "text": "So, let's look first for, so, the question will be, what are the minimum and maximum of this function?", "entities": []}
+{"id": 7129, "text": "So, the first thing we should do to answer this question is look for critical points, OK?", "entities": []}
+{"id": 7130, "text": "So, for that, we have to compute the first derivatives.", "entities": []}
+{"id": 7131, "text": "OK, so <EXPRESSION> is <EXPRESSION>, OK?", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 7132, "text": "Take the derivative of <EXPRESSION>, that's <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 0, "end_offset": 4}, {"label": "command_attribute", "start_offset": 5, "end_offset": 19}, {"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 7133, "text": "And, we'll want to set that = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 7134, "text": "And <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 7135, "text": "And, we want to set that = to <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 16, "end_offset": 19}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 7136, "text": "So, what are the equations we have to solve?", "entities": []}
+{"id": 7137, "text": "Well, I guess <EQUATION>, I mean, if I move this guy over here I get <EQUATION>.", "entities": [{"label": "equation", "start_offset": 14, "end_offset": 24}, {"label": "equation", "start_offset": 69, "end_offset": 79}]}
+{"id": 7138, "text": "That's <EQUATION>, and <EQUATION>.", "entities": [{"label": "equation", "start_offset": 7, "end_offset": 17}, {"label": "equation", "start_offset": 23, "end_offset": 33}]}
+{"id": 7139, "text": "What do you get by comparing these two?", "entities": []}
+{"id": 7140, "text": "Well, <EXPRESSION> and <EXPRESSION> should both be, OK, so yeah, I agree with you that one and one is a solution.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}, {"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 7141, "text": "Why is it the only one?", "entities": []}
+{"id": 7142, "text": "So, first, if I divide this one by that one, I get <EQUATION>.", "entities": [{"label": "command", "start_offset": 16, "end_offset": 22}, {"label": "equation", "start_offset": 51, "end_offset": 61}]}
+{"id": 7143, "text": "So, it tells me <EQUATION>.", "entities": [{"label": "equation", "start_offset": 16, "end_offset": 26}]}
+{"id": 7144, "text": "And then, if <EQUATION>, then if I put that into here, it will give me <EQUATION>, which tells me <EQUATION>, and therefore, <EQUATION> as well.", "entities": [{"label": "equation", "start_offset": 13, "end_offset": 23}, {"label": "command", "start_offset": 35, "end_offset": 38}, {"label": "equation", "start_offset": 71, "end_offset": 81}, {"label": "equation", "start_offset": 98, "end_offset": 108}, {"label": "equation", "start_offset": 125, "end_offset": 135}]}
+{"id": 7145, "text": "OK, so, there's only one solution.", "entities": []}
+{"id": 7146, "text": "There's only one critical point, which is going to be (1, 1).", "entities": [{"label": "term", "start_offset": 55, "end_offset": 56}, {"label": "term", "start_offset": 58, "end_offset": 59}]}
+{"id": 7147, "text": "OK, so, now here's where you do a bit of work.", "entities": []}
+{"id": 7148, "text": "What do you think of that critical point?", "entities": []}
+{"id": 7149, "text": "OK, I see some valid votes.", "entities": []}
+{"id": 7150, "text": "I see some, OK, I see a lot of people answering four.", "entities": []}
+{"id": 7151, "text": "[LAUGHTER] that seems to suggest that maybe you haven't completed the second derivative yet.", "entities": []}
+{"id": 7152, "text": "Yes, I see someone giving the correct answer.", "entities": []}
+{"id": 7153, "text": "I see some people not giving quite the correct answer.", "entities": []}
+{"id": 7154, "text": "I see more and more correct answers.", "entities": []}
+{"id": 7155, "text": "OK, so let's see.", "entities": []}
+{"id": 7156, "text": "To figure out what type of point is, we should compute the second partial derivatives.", "entities": []}
+{"id": 7157, "text": "So, <EXPRESSION> is, what do we get what we take the derivative of this with respect to <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "command", "start_offset": 44, "end_offset": 48}, {"label": "command_attribute", "start_offset": 49, "end_offset": 63}, {"label": "expression", "start_offset": 88, "end_offset": 100}]}
+{"id": 7158, "text": "<EXPRESSION>, OK?", "entities": []}
+{"id": 7159, "text": "So, at our point, <EXPRESSION> will be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 7160, "text": "<EXPRESSION> will be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 7161, "text": "So, <EXPRESSION> will be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 7162, "text": "And, <EXPRESSION> is going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}, {"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 7163, "text": "So, <EXPRESSION> will be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 7164, "text": "And so that tells us, well, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 7165, "text": "Sorry, I should probably use a different blackboard for that.", "entities": []}
+{"id": 7166, "text": "<EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 7167, "text": "It's positive.", "entities": []}
+{"id": 7168, "text": "That tells us we are either a local minimum or local maximum.", "entities": []}
+{"id": 7169, "text": "And, <EXPRESSION> is positive.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}]}
+{"id": 7170, "text": "So, it's a local minimum.", "entities": []}
+{"id": 7171, "text": "And, in fact, you can check it's the global minimum.", "entities": []}
+{"id": 7172, "text": "What about the maximum?", "entities": []}
+{"id": 7173, "text": "Well, if a maximum is not actually at a critical point, it's on the boundary, or at infinity.", "entities": []}
+{"id": 7174, "text": "See, so we have actually to check what happens when <EXPRESSION> and <EXPRESSION> go to <EXPRESSION> or to infinity.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}, {"label": "expression", "start_offset": 69, "end_offset": 81}, {"label": "expression", "start_offset": 88, "end_offset": 100}, {"label": "term", "start_offset": 107, "end_offset": 115}]}
+{"id": 7175, "text": "Well, if that happens, if <EXPRESSION> or <EXPRESSION> goes to infinity, then the function goes to infinity.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 42, "end_offset": 54}, {"label": "term", "start_offset": 63, "end_offset": 71}]}
+{"id": 7176, "text": "Also, if <EXPRESSION> or <EXPRESSION> goes to <EXPRESSION>, then <EXPRESSION> goes to infinity.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 7177, "text": "So, the maximum, well, the function goes to infinity when <EXPRESSION> goes to infinity or <EXPRESSION> goes to infinity, or <EXPRESSION> and <EXPRESSION> go to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 58, "end_offset": 70}, {"label": "term", "start_offset": 79, "end_offset": 87}, {"label": "expression", "start_offset": 91, "end_offset": 103}, {"label": "term", "start_offset": 112, "end_offset": 120}, {"label": "expression", "start_offset": 125, "end_offset": 137}, {"label": "expression", "start_offset": 142, "end_offset": 154}, {"label": "expression", "start_offset": 161, "end_offset": 173}]}
+{"id": 7178, "text": "So, it's not at a critical point.", "entities": []}
+{"id": 7179, "text": "OK, so, in general, we have to check both the critical points and the boundaries to decide what happens.", "entities": []}
+{"id": 7180, "text": "OK, the end.", "entities": []}
+{"id": 7181, "text": "Have a nice weekend.", "entities": []}

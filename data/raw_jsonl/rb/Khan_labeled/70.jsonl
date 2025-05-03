@@ -1,96 +1,96 @@
-{"id":4737,"text":"So let's now evaluate this definite integral.","label":[],"Comments":[]}
-{"id":4738,"text":"This definite integral is from <EXPRESSION> to <EXPRESSION> of <EXPRESSION>.","label":[[31,43,"expression"],[47,59,"expression"],[63,75,"expression"]],"Comments":[]}
-{"id":4739,"text":"And now it should be clearer to you.","label":[],"Comments":[]}
-{"id":4740,"text":"Let me see if I can make this a little bit bigger.","label":[],"Comments":[]}
-{"id":4741,"text":"I want to do it however it is least confusing to you.","label":[],"Comments":[]}
-{"id":4742,"text":"How did I know to substitute <EQUATION>? Well because I say, well the derivative of this function is here.","label":[[29,39,"equation"]],"Comments":[]}
-{"id":4743,"text":"But it's really the same thing as what we just did with substitution.","label":[],"Comments":[]}
-{"id":4744,"text":"And we are done.","label":[],"Comments":[]}
-{"id":4745,"text":"So now let's take the integral.","label":[],"Comments":[]}
-{"id":4746,"text":"So let me do it with substitution.","label":[],"Comments":[]}
-{"id":4747,"text":"It's just I didn't formally do the substitution, but it's the exact same thing.","label":[],"Comments":[]}
-{"id":4748,"text":"And then when <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is going to be <EXPRESSION>.","label":[[14,26,"expression"],[30,42,"expression"],[44,56,"expression"],[72,84,"expression"]],"Comments":[]}
-{"id":4749,"text":"And <EXPRESSION>, that's the same thing is <EXPRESSION> did that here.","label":[[4,16,"expression"],[43,55,"expression"]],"Comments":[]}
-{"id":4750,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
-{"id":4751,"text":"And remember, how did I do this? What allowed me to treat this <EXPRESSION> just like an <EXPRESSION> or like a <EXPRESSION> when I did it with the substitution? Well I had its derivative sitting right here, <EXPRESSION>.","label":[[63,75,"expression"],[89,101,"expression"],[113,124,"expression"],[208,220,"expression"]],"Comments":[]}
-{"id":4752,"text":"It's exactly the same with substitution.","label":[],"Comments":[]}
-{"id":4753,"text":"Well essentially we're just going to do the same thing, but we're going to do it with substitution.","label":[],"Comments":[]}
-{"id":4754,"text":"But the way I always think about it is, well I have a cosine and a sin.","label":[],"Comments":[]}
-{"id":4755,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":4756,"text":"Because <EXPRESSION> is just <EXPRESSION>.","label":[[8,20,"expression"],[29,41,"expression"]],"Comments":[]}
-{"id":4757,"text":"What's the derivative of <EXPRESSION>? It's <EXPRESSION>.","label":[[25,37,"expression"],[44,56,"expression"]],"Comments":[]}
-{"id":4758,"text":"That hopefully we've learned already.","label":[],"Comments":[]}
-{"id":4759,"text":"And what we care about, we're defining the definite integral between <EXPRESSION>, which is roughly here.","label":[[69,81,"expression"]],"Comments":[]}
-{"id":4760,"text":"So when I find du, this whole thing is going to end up being du, and let me show that to you.","label":[],"Comments":[]}
-{"id":4761,"text":"So we have <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
-{"id":4762,"text":"I mean if this cube right here is <EXPRESSION>, then that looks about <EXPRESSION>.","label":[[34,46,"expression"],[70,82,"expression"]],"Comments":[]}
-{"id":4763,"text":"But it's good to be able to do it with substitution, helps you from making careless mistakes.","label":[],"Comments":[]}
-{"id":4764,"text":"So if this is going from <EQUATION> to <EXPRESSION>, what is <EXPRESSION> going from? Well when <EQUATION>, <EQUATION>.","label":[[25,35,"equation"],[39,51,"expression"],[61,73,"expression"],[96,106,"equation"],[108,118,"equation"]],"Comments":[]}
-{"id":4765,"text":"Actually, let me do it with substitution, just because the way I was just doing is kind of my shortcut back in the day when I was a mathlete.","label":[],"Comments":[]}
-{"id":4766,"text":"I have cosine of <EXPRESSION>, and then I have <EXPRESSION>.","label":[[17,29,"expression"],[47,59,"expression"]],"Comments":[]}
-{"id":4767,"text":"I just wanted to show you that.","label":[],"Comments":[]}
-{"id":4768,"text":"And now the fun part.","label":[],"Comments":[]}
-{"id":4769,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":4770,"text":"So if we erase all of this.","label":[],"Comments":[]}
-{"id":4771,"text":"And since the a curve is below the x-axis here, this area is going to be a negative number.","label":[],"Comments":[]}
-{"id":4772,"text":"So I've graphed this function right here, <EXPRESSION>.","label":[[42,54,"expression"]],"Comments":[]}
-{"id":4773,"text":"That was our original substitution.","label":[],"Comments":[]}
-{"id":4774,"text":"And now this is a very important thing.","label":[],"Comments":[]}
-{"id":4775,"text":"And what was the chain rule? The chain rule said if I took the derivative of <EXPRESSION> that this = <EXPRESSION>.","label":[[77,89,"expression"],[102,114,"expression"]],"Comments":[]}
-{"id":4776,"text":"Well that's just the same thing is <EXPRESSION>.","label":[[35,47,"expression"]],"Comments":[]}
-{"id":4777,"text":"This is the derivative of this.","label":[],"Comments":[]}
-{"id":4778,"text":"So hopefully you found that vaguely useful.","label":[],"Comments":[]}
-{"id":4779,"text":"So before we just chug through the math and do the antiderivatives and use the fundamental theorem of calculus to evaluate the definite integral, let's think about what we're even doing.","label":[],"Comments":[]}
-{"id":4780,"text":"So the antiderivative is <EXPRESSION>, and I evaluate it at <EXPRESSION> and <EXPRESSION>.","label":[[25,37,"expression"],[60,72,"expression"],[77,89,"expression"]],"Comments":[]}
-{"id":4781,"text":"Actually let me since we have a little bit of time.","label":[],"Comments":[]}
-{"id":4782,"text":"So between <EXPRESSION> which is right there, and between <EXPRESSION>.","label":[[11,23,"expression"],[58,70,"expression"]],"Comments":[]}
-{"id":4783,"text":"The cosine is squared, so all these crazy things are happening to it, so it seems like I could use substitution or the reverse chain rules some out here.","label":[],"Comments":[]}
-{"id":4784,"text":"So let me rewrite this first of all.","label":[],"Comments":[]}
-{"id":4785,"text":"Since the derivative is here, I can just treat this whole thing like an <EXPRESSION> term.","label":[[72,84,"expression"]],"Comments":[]}
-{"id":4786,"text":"And if we look at this area from our original graph, what we just solved, as we said the area of the curve between here and here is <EXPRESSION>.","label":[[132,144,"expression"]],"Comments":[]}
-{"id":4787,"text":"So we have the integral from <EQUATION> to <EQUATION> of <EXPRESSION>.","label":[[29,39,"equation"],[43,53,"equation"],[57,69,"expression"]],"Comments":[]}
-{"id":4788,"text":"The intuition all works out at least.","label":[],"Comments":[]}
-{"id":4789,"text":"<EXPRESSION> is the cosine of <EXPRESSION>, and then the derivative of <EXPRESSION> or the derivative of <EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[30,42,"expression"],[71,83,"expression"],[105,117,"expression"],[121,133,"expression"]],"Comments":[]}
-{"id":4790,"text":"Transcript for: Definite integral with substitution So I've been sent this definite integral problem and it seemed as good as any, and I think the key with this is just to see a lot of examples.","label":[],"Comments":[]}
-{"id":4791,"text":"And so if we have this integral right here, what I do is I say, well I have <EXPRESSION>.","label":[[76,88,"expression"]],"Comments":[]}
-{"id":4792,"text":"Well it's actually <EXPRESSION>, and we have a minus sin here, so that works out well too.","label":[[19,31,"expression"]],"Comments":[]}
-{"id":4793,"text":"Actually let me write that as <EXPRESSION>.","label":[[30,42,"expression"]],"Comments":[]}
-{"id":4794,"text":"So what is <EXPRESSION>? If we multiply both sides by the differential <EXPRESSION> get <EQUATION>.","label":[[11,23,"expression"],[71,83,"expression"],[88,98,"equation"]],"Comments":[]}
-{"id":4795,"text":"It's a little bit quicker sometimes.","label":[],"Comments":[]}
-{"id":4796,"text":"This is pretty straightforward and I'm just going to rewrite it.","label":[],"Comments":[]}
-{"id":4797,"text":"And now this seems like a simple problem.","label":[],"Comments":[]}
-{"id":4798,"text":"All I did is I increased this exponent to get the third, and I divided by that exponent.","label":[],"Comments":[]}
-{"id":4799,"text":"That might completely confuse you, but I just wrote that here because we could say, well what if <EXPRESSION> is <EXPRESSION>.","label":[[97,109,"expression"],[113,125,"expression"]],"Comments":[]}
-{"id":4800,"text":"You could just take the derivative of this, you get this.","label":[],"Comments":[]}
-{"id":4801,"text":"Hopefully you understood this, and if you did, don't worry about what I'm going to do now, but I want to show you how I tend to do it where I just think of it is the reverse chain rule.","label":[],"Comments":[]}
-{"id":4802,"text":"Anyway, hope you found that helpful.","label":[],"Comments":[]}
-{"id":4803,"text":"So we get the same answer.","label":[],"Comments":[]}
-{"id":4804,"text":"This is the same thing as the integral from <EXPRESSION> to <EXPRESSION> of <EXPRESSION>.","label":[[44,56,"expression"],[60,72,"expression"],[76,88,"expression"]],"Comments":[]}
-{"id":4805,"text":"And that looks about right, that looks about <EXPRESSION>.","label":[[45,57,"expression"]],"Comments":[]}
-{"id":4806,"text":"So if we look at the original equation, this right here we just showed = <EXPRESSION>, and this right here is what? <EXPRESSION> is <EXPRESSION>.","label":[[73,85,"expression"],[116,128,"expression"],[132,144,"expression"]],"Comments":[]}
-{"id":4807,"text":"If this confuse you, ignore it.","label":[],"Comments":[]}
-{"id":4808,"text":"So this is the same thing.","label":[],"Comments":[]}
-{"id":4809,"text":"OK let me erase that.","label":[],"Comments":[]}
-{"id":4810,"text":"So I have a function and it's being squared, and I have its derivative, so I can figure out its antiderivative by using substitution or the reverse chain rule.","label":[],"Comments":[]}
-{"id":4811,"text":"So that gives us immediately an intuition.","label":[],"Comments":[]}
-{"id":4812,"text":"Now we're going to have to evaluate it at <EXPRESSION> and subtract from that, it evaluated at <EXPRESSION>.","label":[[42,54,"expression"],[95,107,"expression"]],"Comments":[]}
-{"id":4813,"text":"So what is <EXPRESSION>? <EQUATION>.","label":[[11,23,"expression"],[25,35,"equation"]],"Comments":[]}
-{"id":4814,"text":"So let's make a substitution.","label":[],"Comments":[]}
-{"id":4815,"text":"And I will arbitrarily switch colors.","label":[],"Comments":[]}
-{"id":4816,"text":"So let's do it.","label":[],"Comments":[]}
-{"id":4817,"text":"So that's what gave me the license to just take the antiderivative, pretend like this <EXPRESSION> is just an <EXPRESSION>, is just a <EXPRESSION>, you could even say, and just take it's exponent, raise it by <EXPRESSION> and divide it by <EXPRESSION> and then evaluate it from <EXPRESSION> to <EXPRESSION>.","label":[[86,98,"expression"],[110,122,"expression"],[134,146,"expression"],[209,221,"expression"],[239,251,"expression"],[278,290,"expression"],[294,306,"expression"]],"Comments":[]}
-{"id":4818,"text":"Same thing, right.","label":[],"Comments":[]}
-{"id":4819,"text":"Now I'll rearrange some of the terms here just to make it a little bit easier to read.","label":[],"Comments":[]}
-{"id":4820,"text":"Or we could do the substitution and reverse the substitution and then evaluate the boundaries, but let's do that.","label":[],"Comments":[]}
-{"id":4821,"text":"So this = <EXPRESSION>, and so this = <EXPRESSION>.","label":[[10,22,"expression"],[38,50,"expression"]],"Comments":[]}
-{"id":4822,"text":"<EXPRESSION>, well that's a <EXPRESSION>.","label":[[0,12,"expression"],[28,40,"expression"]],"Comments":[]}
-{"id":4823,"text":"If you're going to do substitution, if we're going to say <EQUATION>, we're going to have to actually make this substitution on the boundaries.","label":[[58,68,"equation"]],"Comments":[]}
-{"id":4824,"text":"So this = <EXPRESSION>, which is fairly straightforward.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":4825,"text":"Times <EXPRESSION>.","label":[[6,18,"expression"]],"Comments":[]}
-{"id":4826,"text":"So the definite integral of this function between here and here is essentially the area of the curve between the curve and the x-axis.","label":[],"Comments":[]}
-{"id":4827,"text":"We should be getting a negative number when we evaluate this and just to prove this I actually typed it in up here.","label":[],"Comments":[]}
-{"id":4828,"text":"So this = <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":4829,"text":"Or if we wanted the absolute area because you can't really have a negative area, it's <EXPRESSION> but we know it's negative because this curve is below the x-axis here.","label":[[86,98,"expression"]],"Comments":[]}
-{"id":4830,"text":"This is <EXPRESSION>, so this = <EXPRESSION> minus this is <EXPRESSION>.","label":[[8,20,"expression"],[32,44,"expression"],[59,71,"expression"]],"Comments":[]}
-{"id":4831,"text":"Let me a erase this if this confuses people.","label":[],"Comments":[]}
-{"id":4832,"text":"What's <EXPRESSION>? <EXPRESSION> is <EXPRESSION>.","label":[[7,19,"expression"],[21,33,"expression"],[37,49,"expression"]],"Comments":[]}
+{"id": 4737, "text": "So let's now evaluate this definite integral.", "entities": []}
+{"id": 4738, "text": "This definite integral is from <EXPRESSION> to <EXPRESSION> of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 47, "end_offset": 59}, {"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 4739, "text": "And now it should be clearer to you.", "entities": []}
+{"id": 4740, "text": "Let me see if I can make this a little bit bigger.", "entities": []}
+{"id": 4741, "text": "I want to do it however it is least confusing to you.", "entities": []}
+{"id": 4742, "text": "How did I know to substitute <EQUATION>? Well because I say, well the derivative of this function is here.", "entities": [{"label": "equation", "start_offset": 29, "end_offset": 39}]}
+{"id": 4743, "text": "But it's really the same thing as what we just did with substitution.", "entities": []}
+{"id": 4744, "text": "And we are done.", "entities": []}
+{"id": 4745, "text": "So now let's take the integral.", "entities": []}
+{"id": 4746, "text": "So let me do it with substitution.", "entities": []}
+{"id": 4747, "text": "It's just I didn't formally do the substitution, but it's the exact same thing.", "entities": []}
+{"id": 4748, "text": "And then when <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 72, "end_offset": 84}]}
+{"id": 4749, "text": "And <EXPRESSION>, that's the same thing is <EXPRESSION> did that here.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 43, "end_offset": 55}]}
+{"id": 4750, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 4751, "text": "And remember, how did I do this? What allowed me to treat this <EXPRESSION> just like an <EXPRESSION> or like a <EXPRESSION> when I did it with the substitution? Well I had its derivative sitting right here, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "expression", "start_offset": 89, "end_offset": 101}, {"label": "expression", "start_offset": 113, "end_offset": 124}, {"label": "expression", "start_offset": 208, "end_offset": 220}]}
+{"id": 4752, "text": "It's exactly the same with substitution.", "entities": []}
+{"id": 4753, "text": "Well essentially we're just going to do the same thing, but we're going to do it with substitution.", "entities": []}
+{"id": 4754, "text": "But the way I always think about it is, well I have a cosine and a sin.", "entities": []}
+{"id": 4755, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 4756, "text": "Because <EXPRESSION> is just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 4757, "text": "What's the derivative of <EXPRESSION>? It's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 4758, "text": "That hopefully we've learned already.", "entities": []}
+{"id": 4759, "text": "And what we care about, we're defining the definite integral between <EXPRESSION>, which is roughly here.", "entities": [{"label": "expression", "start_offset": 69, "end_offset": 81}]}
+{"id": 4760, "text": "So when I find du, this whole thing is going to end up being du, and let me show that to you.", "entities": []}
+{"id": 4761, "text": "So we have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 4762, "text": "I mean if this cube right here is <EXPRESSION>, then that looks about <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 4763, "text": "But it's good to be able to do it with substitution, helps you from making careless mistakes.", "entities": []}
+{"id": 4764, "text": "So if this is going from <EQUATION> to <EXPRESSION>, what is <EXPRESSION> going from? Well when <EQUATION>, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 25, "end_offset": 35}, {"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "equation", "start_offset": 96, "end_offset": 106}, {"label": "equation", "start_offset": 108, "end_offset": 118}]}
+{"id": 4765, "text": "Actually, let me do it with substitution, just because the way I was just doing is kind of my shortcut back in the day when I was a mathlete.", "entities": []}
+{"id": 4766, "text": "I have cosine of <EXPRESSION>, and then I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 4767, "text": "I just wanted to show you that.", "entities": []}
+{"id": 4768, "text": "And now the fun part.", "entities": []}
+{"id": 4769, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 4770, "text": "So if we erase all of this.", "entities": []}
+{"id": 4771, "text": "And since the a curve is below the x-axis here, this area is going to be a negative number.", "entities": []}
+{"id": 4772, "text": "So I've graphed this function right here, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 4773, "text": "That was our original substitution.", "entities": []}
+{"id": 4774, "text": "And now this is a very important thing.", "entities": []}
+{"id": 4775, "text": "And what was the chain rule? The chain rule said if I took the derivative of <EXPRESSION> that this = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 77, "end_offset": 89}, {"label": "expression", "start_offset": 102, "end_offset": 114}]}
+{"id": 4776, "text": "Well that's just the same thing is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 4777, "text": "This is the derivative of this.", "entities": []}
+{"id": 4778, "text": "So hopefully you found that vaguely useful.", "entities": []}
+{"id": 4779, "text": "So before we just chug through the math and do the antiderivatives and use the fundamental theorem of calculus to evaluate the definite integral, let's think about what we're even doing.", "entities": []}
+{"id": 4780, "text": "So the antiderivative is <EXPRESSION>, and I evaluate it at <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 60, "end_offset": 72}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 4781, "text": "Actually let me since we have a little bit of time.", "entities": []}
+{"id": 4782, "text": "So between <EXPRESSION> which is right there, and between <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 4783, "text": "The cosine is squared, so all these crazy things are happening to it, so it seems like I could use substitution or the reverse chain rules some out here.", "entities": []}
+{"id": 4784, "text": "So let me rewrite this first of all.", "entities": []}
+{"id": 4785, "text": "Since the derivative is here, I can just treat this whole thing like an <EXPRESSION> term.", "entities": [{"label": "expression", "start_offset": 72, "end_offset": 84}]}
+{"id": 4786, "text": "And if we look at this area from our original graph, what we just solved, as we said the area of the curve between here and here is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 132, "end_offset": 144}]}
+{"id": 4787, "text": "So we have the integral from <EQUATION> to <EQUATION> of <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 29, "end_offset": 39}, {"label": "equation", "start_offset": 43, "end_offset": 53}, {"label": "expression", "start_offset": 57, "end_offset": 69}]}
+{"id": 4788, "text": "The intuition all works out at least.", "entities": []}
+{"id": 4789, "text": "<EXPRESSION> is the cosine of <EXPRESSION>, and then the derivative of <EXPRESSION> or the derivative of <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 71, "end_offset": 83}, {"label": "expression", "start_offset": 105, "end_offset": 117}, {"label": "expression", "start_offset": 121, "end_offset": 133}]}
+{"id": 4790, "text": "Transcript for: Definite integral with substitution So I've been sent this definite integral problem and it seemed as good as any, and I think the key with this is just to see a lot of examples.", "entities": []}
+{"id": 4791, "text": "And so if we have this integral right here, what I do is I say, well I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 4792, "text": "Well it's actually <EXPRESSION>, and we have a minus sin here, so that works out well too.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 4793, "text": "Actually let me write that as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 4794, "text": "So what is <EXPRESSION>? If we multiply both sides by the differential <EXPRESSION> get <EQUATION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 71, "end_offset": 83}, {"label": "equation", "start_offset": 88, "end_offset": 98}]}
+{"id": 4795, "text": "It's a little bit quicker sometimes.", "entities": []}
+{"id": 4796, "text": "This is pretty straightforward and I'm just going to rewrite it.", "entities": []}
+{"id": 4797, "text": "And now this seems like a simple problem.", "entities": []}
+{"id": 4798, "text": "All I did is I increased this exponent to get the third, and I divided by that exponent.", "entities": []}
+{"id": 4799, "text": "That might completely confuse you, but I just wrote that here because we could say, well what if <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 97, "end_offset": 109}, {"label": "expression", "start_offset": 113, "end_offset": 125}]}
+{"id": 4800, "text": "You could just take the derivative of this, you get this.", "entities": []}
+{"id": 4801, "text": "Hopefully you understood this, and if you did, don't worry about what I'm going to do now, but I want to show you how I tend to do it where I just think of it is the reverse chain rule.", "entities": []}
+{"id": 4802, "text": "Anyway, hope you found that helpful.", "entities": []}
+{"id": 4803, "text": "So we get the same answer.", "entities": []}
+{"id": 4804, "text": "This is the same thing as the integral from <EXPRESSION> to <EXPRESSION> of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 60, "end_offset": 72}, {"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 4805, "text": "And that looks about right, that looks about <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 4806, "text": "So if we look at the original equation, this right here we just showed = <EXPRESSION>, and this right here is what? <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 73, "end_offset": 85}, {"label": "expression", "start_offset": 116, "end_offset": 128}, {"label": "expression", "start_offset": 132, "end_offset": 144}]}
+{"id": 4807, "text": "If this confuse you, ignore it.", "entities": []}
+{"id": 4808, "text": "So this is the same thing.", "entities": []}
+{"id": 4809, "text": "OK let me erase that.", "entities": []}
+{"id": 4810, "text": "So I have a function and it's being squared, and I have its derivative, so I can figure out its antiderivative by using substitution or the reverse chain rule.", "entities": []}
+{"id": 4811, "text": "So that gives us immediately an intuition.", "entities": []}
+{"id": 4812, "text": "Now we're going to have to evaluate it at <EXPRESSION> and subtract from that, it evaluated at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}, {"label": "expression", "start_offset": 95, "end_offset": 107}]}
+{"id": 4813, "text": "So what is <EXPRESSION>? <EQUATION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "equation", "start_offset": 25, "end_offset": 35}]}
+{"id": 4814, "text": "So let's make a substitution.", "entities": []}
+{"id": 4815, "text": "And I will arbitrarily switch colors.", "entities": []}
+{"id": 4816, "text": "So let's do it.", "entities": []}
+{"id": 4817, "text": "So that's what gave me the license to just take the antiderivative, pretend like this <EXPRESSION> is just an <EXPRESSION>, is just a <EXPRESSION>, you could even say, and just take it's exponent, raise it by <EXPRESSION> and divide it by <EXPRESSION> and then evaluate it from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 86, "end_offset": 98}, {"label": "expression", "start_offset": 110, "end_offset": 122}, {"label": "expression", "start_offset": 134, "end_offset": 146}, {"label": "expression", "start_offset": 209, "end_offset": 221}, {"label": "expression", "start_offset": 239, "end_offset": 251}, {"label": "expression", "start_offset": 278, "end_offset": 290}, {"label": "expression", "start_offset": 294, "end_offset": 306}]}
+{"id": 4818, "text": "Same thing, right.", "entities": []}
+{"id": 4819, "text": "Now I'll rearrange some of the terms here just to make it a little bit easier to read.", "entities": []}
+{"id": 4820, "text": "Or we could do the substitution and reverse the substitution and then evaluate the boundaries, but let's do that.", "entities": []}
+{"id": 4821, "text": "So this = <EXPRESSION>, and so this = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}, {"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 4822, "text": "<EXPRESSION>, well that's a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 4823, "text": "If you're going to do substitution, if we're going to say <EQUATION>, we're going to have to actually make this substitution on the boundaries.", "entities": [{"label": "equation", "start_offset": 58, "end_offset": 68}]}
+{"id": 4824, "text": "So this = <EXPRESSION>, which is fairly straightforward.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 4825, "text": "Times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}]}
+{"id": 4826, "text": "So the definite integral of this function between here and here is essentially the area of the curve between the curve and the x-axis.", "entities": []}
+{"id": 4827, "text": "We should be getting a negative number when we evaluate this and just to prove this I actually typed it in up here.", "entities": []}
+{"id": 4828, "text": "So this = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 4829, "text": "Or if we wanted the absolute area because you can't really have a negative area, it's <EXPRESSION> but we know it's negative because this curve is below the x-axis here.", "entities": [{"label": "expression", "start_offset": 86, "end_offset": 98}]}
+{"id": 4830, "text": "This is <EXPRESSION>, so this = <EXPRESSION> minus this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 59, "end_offset": 71}]}
+{"id": 4831, "text": "Let me a erase this if this confuses people.", "entities": []}
+{"id": 4832, "text": "What's <EXPRESSION>? <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 37, "end_offset": 49}]}

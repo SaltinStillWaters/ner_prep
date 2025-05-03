@@ -1,128 +1,128 @@
-{"id":2177,"text":"So it says concert tickets went on sale at noon, <EQUATION>, and were sold out within <EXPRESSION> hours.","label":[[49,59,"equation"],[86,98,"expression"]],"Comments":[]}
-{"id":2178,"text":"And since it's twice differentiable, we also know that its derivative is continuous because the second derivative exists at all points.","label":[],"Comments":[]}
-{"id":2179,"text":"We could say at time <EXPRESSION>.","label":[[21,33,"expression"]],"Comments":[]}
-{"id":2180,"text":"Everyone has gotten their tickets, or maybe they got sold out.","label":[],"Comments":[]}
-{"id":2181,"text":"So I will continue part b in the next video.","label":[],"Comments":[]}
-{"id":2182,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":2183,"text":"They give us that.","label":[],"Comments":[]}
-{"id":2184,"text":"But let's keep going forward.","label":[],"Comments":[]}
-{"id":2185,"text":"Because there's a positive slope here and then it immediately switches to a negative slope like the absolute value functions.","label":[],"Comments":[]}
-{"id":2186,"text":"And they tell us it's twice differentiable.","label":[],"Comments":[]}
-{"id":2187,"text":"And we divide it by <EXPRESSION>.","label":[[20,32,"expression"]],"Comments":[]}
-{"id":2188,"text":"So that's going to be right about there, just approximating it.","label":[],"Comments":[]}
-{"id":2189,"text":"That's about right there.","label":[],"Comments":[]}
-{"id":2190,"text":"At <EQUATION>, <EXPRESSION>.","label":[[3,13,"equation"],[15,27,"expression"]],"Comments":[]}
-{"id":2191,"text":"And we really just have to do the first <EXPRESSION> hours.","label":[[40,52,"expression"]],"Comments":[]}
-{"id":2192,"text":"Let's keep going with our 2008 Calculus BC free answer questions.","label":[],"Comments":[]}
-{"id":2193,"text":"So the best estimate I can do, of the rate at which this <EXPRESSION> is changing at time <EXPRESSION>.","label":[[57,69,"expression"],[90,102,"expression"]],"Comments":[]}
-{"id":2194,"text":"And this is noon, 12:00 noon, 1:00 pm, 9:00 pm.","label":[],"Comments":[]}
-{"id":2195,"text":"I'm just approximating.","label":[],"Comments":[]}
-{"id":2196,"text":"Let me see if I can grow that a little bit.","label":[],"Comments":[]}
-{"id":2197,"text":"So doesn't hurt to just copy and paste.","label":[],"Comments":[]}
-{"id":2198,"text":"Indicate the units of measure.","label":[],"Comments":[]}
-{"id":2199,"text":"See you soon.","label":[],"Comments":[]}
-{"id":2200,"text":"Or you could write that as <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
-{"id":2201,"text":"The number of people waiting in line to purchase tickets at time <EXPRESSION>, is modeled by <EXPRESSION>.","label":[[65,77,"expression"],[93,105,"expression"]],"Comments":[]}
-{"id":2202,"text":"Now this might seem kind of daunting.","label":[],"Comments":[]}
-{"id":2203,"text":"You actually wouldn't be able to take the derivative at that point.","label":[],"Comments":[]}
-{"id":2204,"text":"Well it's good to do it neatly when you're doing the exam, because otherwise you'll confuse yourself.","label":[],"Comments":[]}
-{"id":2205,"text":"At <EQUATION>, we have <EXPRESSION> people in line.","label":[[3,13,"equation"],[23,35,"expression"]],"Comments":[]}
-{"id":2206,"text":"It's about right there.","label":[],"Comments":[]}
-{"id":2207,"text":"So they don't give us a continuous function definition.","label":[],"Comments":[]}
-{"id":2208,"text":"And <EXPRESSION> minus <EXPRESSION> is <EXPRESSION>.","label":[[4,16,"expression"],[23,35,"expression"],[39,51,"expression"]],"Comments":[]}
-{"id":2209,"text":"At <EQUATION> there are <EXPRESSION> people in line.","label":[[3,13,"equation"],[24,36,"expression"]],"Comments":[]}
-{"id":2210,"text":"But it's just going to be the slope between these two points.","label":[],"Comments":[]}
-{"id":2211,"text":"That should be good enough.","label":[],"Comments":[]}
-{"id":2212,"text":"At <EQUATION>, we have <EXPRESSION> people in line.","label":[[3,13,"equation"],[23,35,"expression"]],"Comments":[]}
-{"id":2213,"text":"Let's plot the points.","label":[],"Comments":[]}
-{"id":2214,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":2215,"text":"So this is the number of people waiting in line at anytime.","label":[],"Comments":[]}
-{"id":2216,"text":"We know that the real <EXPRESSION>, whatever we used to approximate it, it's not going to have these sharp edges because it's differentiable.","label":[],"Comments":[]}
-{"id":2217,"text":"And <EQUATION>, the line is gone.","label":[[4,14,"equation"]],"Comments":[]}
-{"id":2218,"text":"This is my <EXPRESSION> axis.","label":[[11,23,"expression"]],"Comments":[]}
-{"id":2219,"text":"At <EQUATION> we have <EXPRESSION>.","label":[[3,13,"equation"],[22,34,"expression"]],"Comments":[]}
-{"id":2220,"text":"So it's = <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
-{"id":2221,"text":"Right, if this was <EXPRESSION> less, it would be <EXPRESSION>.","label":[[19,31,"expression"],[50,62,"expression"]],"Comments":[]}
-{"id":2222,"text":"And what's the denominator? It's hours, people per hour.","label":[],"Comments":[]}
-{"id":2223,"text":"They just give us a bunch of sample points of this function <EXPRESSION>.","label":[[60,72,"expression"]],"Comments":[]}
-{"id":2224,"text":"We could say approximately =, or whatever.","label":[],"Comments":[]}
-{"id":2225,"text":"You don't have do it so neatly.","label":[],"Comments":[]}
-{"id":2226,"text":"But I'm about to graph it because I want you to understand how to do this problem.","label":[],"Comments":[]}
-{"id":2227,"text":"So it says part a let me make sure I'm not writing too thickly use the data in the table to estimate the rate let me actually just copy and paste this, I've just figured out how to do this.","label":[],"Comments":[]}
-{"id":2228,"text":"<EXPRESSION> and <EXPRESSION>.","label":[[0,12,"expression"],[17,29,"expression"]],"Comments":[]}
-{"id":2229,"text":"I don't want to take up all the space though.","label":[],"Comments":[]}
-{"id":2230,"text":"If you want to do this really fast, you wouldn't have to graph it.","label":[],"Comments":[]}
-{"id":2231,"text":"And I cut and pasted the table that they gave for the problem.","label":[],"Comments":[]}
-{"id":2232,"text":"There you go.","label":[],"Comments":[]}
-{"id":2233,"text":"So what do they want to know? They want to know an estimate of the rate at which the number of people waiting in line was changing.","label":[],"Comments":[]}
-{"id":2234,"text":"So the first <EXPRESSION> hours, that's right here.","label":[[13,25,"expression"]],"Comments":[]}
-{"id":2235,"text":"They give us 4:00 pm and 7:00 pm, or <EXPRESSION>.","label":[[37,49,"expression"]],"Comments":[]}
-{"id":2236,"text":"OK so we've at least plotted the sample points and connected them with lines.","label":[],"Comments":[]}
-{"id":2237,"text":"So that means that whatever function we're modeling this, this <EXPRESSION>, that it's continuous because it's differentiable.","label":[[63,75,"expression"]],"Comments":[]}
-{"id":2238,"text":"But anyway back to the problem.","label":[],"Comments":[]}
-{"id":2239,"text":"It's right about there.","label":[],"Comments":[]}
-{"id":2240,"text":"There to there, almost done.","label":[],"Comments":[]}
-{"id":2241,"text":"And I'll read the rest of the problem.","label":[],"Comments":[]}
-{"id":2242,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":2243,"text":"Actually I just realized.","label":[],"Comments":[]}
-{"id":2244,"text":"Indicate units of measure.","label":[],"Comments":[]}
-{"id":2245,"text":"That's it.","label":[],"Comments":[]}
-{"id":2246,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":2247,"text":"You can write it however you want, however you think that the exam graders would best like to see it.","label":[],"Comments":[]}
-{"id":2248,"text":"There to there.","label":[],"Comments":[]}
-{"id":2249,"text":"And let's see what we can do.","label":[],"Comments":[]}
-{"id":2250,"text":"It's a little bit more than at <EQUATION>.","label":[[31,41,"equation"]],"Comments":[]}
-{"id":2251,"text":"Actually let's graph all of them, just because it might be useful in future parts of the problem.","label":[],"Comments":[]}
-{"id":2252,"text":"Connect the dots.","label":[],"Comments":[]}
-{"id":2253,"text":"So we could write average rate of change or <EXPRESSION> at <EXPRESSION>.","label":[[44,56,"expression"],[60,72,"expression"]],"Comments":[]}
-{"id":2254,"text":"Use a trapezoidal sum with three subintervals to estimate the average number of people waiting in line during the first <EXPRESSION> hours.","label":[[120,132,"expression"]],"Comments":[]}
-{"id":2255,"text":"So let's graph some of these points.","label":[],"Comments":[]}
-{"id":2256,"text":"This would be <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
-{"id":2257,"text":"But it says use the data in the table to estimate the rate at which the number of people waiting in line was changing at 5:30 pm.","label":[],"Comments":[]}
-{"id":2258,"text":"But now for some reason it's been limiting me again.","label":[],"Comments":[]}
-{"id":2259,"text":"So halfway up would be <EXPRESSION>.","label":[[23,35,"expression"]],"Comments":[]}
-{"id":2260,"text":"So my best estimate, or our best estimate of the rate at which the number of people waiting in line was changing at 5:30 pm, which is between these two points, is the average slope between these two points.","label":[],"Comments":[]}
-{"id":2261,"text":"That's about right there.","label":[],"Comments":[]}
-{"id":2262,"text":"If this was the actual function, you wouldn't be able to take a derivative at this point.","label":[],"Comments":[]}
-{"id":2263,"text":"Let me clear all of this so we have enough space for part b.","label":[],"Comments":[]}
-{"id":2264,"text":"And let's see, how high should my <EXPRESSION> values? This is time right here.","label":[[34,46,"expression"]],"Comments":[]}
-{"id":2265,"text":"And they want us to use the units of measure.","label":[],"Comments":[]}
-{"id":2266,"text":"The trapezoidal sum for the fourth.","label":[],"Comments":[]}
-{"id":2267,"text":"So it's actually going to be a smoother curve, right? Because we can take the derivative of any point.","label":[],"Comments":[]}
-{"id":2268,"text":"Which is <EXPRESSION> people per hour.","label":[[9,21,"expression"]],"Comments":[]}
-{"id":2269,"text":"So from here to there.","label":[],"Comments":[]}
-{"id":2270,"text":"Let's connect those points.","label":[],"Comments":[]}
-{"id":2271,"text":"No that doesn't look good.","label":[],"Comments":[]}
-{"id":2272,"text":"OK part b says, use a trapezoidal sum with three subintervals.","label":[],"Comments":[]}
-{"id":2273,"text":"I don't know what that sound was from.","label":[],"Comments":[]}
-{"id":2274,"text":"So that = <EXPRESSION> is <EXPRESSION>.","label":[[10,22,"expression"],[26,38,"expression"]],"Comments":[]}
-{"id":2275,"text":"If you understand it, you don't have to graph it.","label":[],"Comments":[]}
-{"id":2276,"text":"Maybe I can make this a little bit bigger.","label":[],"Comments":[]}
-{"id":2277,"text":"Rise over run or change in the value of the function divided by change in the independent variable.","label":[],"Comments":[]}
-{"id":2278,"text":"Show the computations that lead to your answer.","label":[],"Comments":[]}
-{"id":2279,"text":"Let's say this is <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
-{"id":2280,"text":"Use a trapezoidal sum with three subintervals to estimate the average number of people waiting in line during the first <EXPRESSION> hours that the tickets were on sale.","label":[[120,132,"expression"]],"Comments":[]}
-{"id":2281,"text":"You probably can't read it.","label":[],"Comments":[]}
-{"id":2282,"text":"This would be <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
-{"id":2283,"text":"So let's write it.","label":[],"Comments":[]}
-{"id":2284,"text":"So the numerator, this is people.","label":[],"Comments":[]}
-{"id":2285,"text":"<EXPRESSION> is in between these two is to just figure out the average rate of change between <EXPRESSION> and <EXPRESSION>.","label":[[0,12,"expression"],[94,106,"expression"],[111,123,"expression"]],"Comments":[]}
-{"id":2286,"text":"So you could say that the average rate of change is <EXPRESSION>.","label":[[52,64,"expression"]],"Comments":[]}
-{"id":2287,"text":"And I'll copy and don't know if you can read it.","label":[],"Comments":[]}
-{"id":2288,"text":"So they don't give us any data on 5:30 pm.","label":[],"Comments":[]}
-{"id":2289,"text":"So I figure it doesn't hurt.","label":[],"Comments":[]}
-{"id":2290,"text":"At <EQUATION> they skip <EXPRESSION> at <EQUATION> it's <EXPRESSION> people in line.","label":[[3,13,"equation"],[24,36,"expression"],[40,50,"equation"],[56,68,"expression"]],"Comments":[]}
-{"id":2291,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
-{"id":2292,"text":"So how do we figure that out? Well the average rate of change is just the slope.","label":[],"Comments":[]}
-{"id":2293,"text":"It's actually twice differentiable.","label":[],"Comments":[]}
-{"id":2294,"text":"Let's do part b.","label":[],"Comments":[]}
-{"id":2295,"text":"So it's <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
-{"id":2296,"text":"OK well I'll read it out loud in case you can't see it.","label":[],"Comments":[]}
-{"id":2297,"text":"But maybe you can.","label":[],"Comments":[]}
-{"id":2298,"text":"So we're on problem number 2.","label":[],"Comments":[]}
-{"id":2299,"text":"If you weren't graphing it while recording a video, it probably would be a little bit faster.","label":[],"Comments":[]}
-{"id":2300,"text":"It goes up to about, <EXPRESSION> is a high point, at least on the data we have.","label":[[21,33,"expression"]],"Comments":[]}
-{"id":2301,"text":"For some reason, YouTube used to let me do longer videos because I thought I was a partner.","label":[],"Comments":[]}
-{"id":2302,"text":"And from there to there.","label":[],"Comments":[]}
-{"id":2303,"text":"What are our data points? We have <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.","label":[[34,46,"expression"],[48,60,"expression"],[62,74,"expression"],[76,88,"expression"],[90,102,"expression"],[104,116,"expression"],[118,130,"expression"],[132,144,"expression"],[146,158,"expression"]],"Comments":[]}
-{"id":2304,"text":"All the tickets are sold by 9:00 pm.","label":[],"Comments":[]}
+{"id": 2177, "text": "So it says concert tickets went on sale at noon, <EQUATION>, and were sold out within <EXPRESSION> hours.", "entities": [{"label": "equation", "start_offset": 49, "end_offset": 59}, {"label": "expression", "start_offset": 86, "end_offset": 98}]}
+{"id": 2178, "text": "And since it's twice differentiable, we also know that its derivative is continuous because the second derivative exists at all points.", "entities": []}
+{"id": 2179, "text": "We could say at time <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 2180, "text": "Everyone has gotten their tickets, or maybe they got sold out.", "entities": []}
+{"id": 2181, "text": "So I will continue part b in the next video.", "entities": []}
+{"id": 2182, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 2183, "text": "They give us that.", "entities": []}
+{"id": 2184, "text": "But let's keep going forward.", "entities": []}
+{"id": 2185, "text": "Because there's a positive slope here and then it immediately switches to a negative slope like the absolute value functions.", "entities": []}
+{"id": 2186, "text": "And they tell us it's twice differentiable.", "entities": []}
+{"id": 2187, "text": "And we divide it by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 2188, "text": "So that's going to be right about there, just approximating it.", "entities": []}
+{"id": 2189, "text": "That's about right there.", "entities": []}
+{"id": 2190, "text": "At <EQUATION>, <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}, {"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 2191, "text": "And we really just have to do the first <EXPRESSION> hours.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 2192, "text": "Let's keep going with our 2008 Calculus BC free answer questions.", "entities": []}
+{"id": 2193, "text": "So the best estimate I can do, of the rate at which this <EXPRESSION> is changing at time <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 57, "end_offset": 69}, {"label": "expression", "start_offset": 90, "end_offset": 102}]}
+{"id": 2194, "text": "And this is noon, 12:00 noon, 1:00 pm, 9:00 pm.", "entities": []}
+{"id": 2195, "text": "I'm just approximating.", "entities": []}
+{"id": 2196, "text": "Let me see if I can grow that a little bit.", "entities": []}
+{"id": 2197, "text": "So doesn't hurt to just copy and paste.", "entities": []}
+{"id": 2198, "text": "Indicate the units of measure.", "entities": []}
+{"id": 2199, "text": "See you soon.", "entities": []}
+{"id": 2200, "text": "Or you could write that as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 2201, "text": "The number of people waiting in line to purchase tickets at time <EXPRESSION>, is modeled by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 65, "end_offset": 77}, {"label": "expression", "start_offset": 93, "end_offset": 105}]}
+{"id": 2202, "text": "Now this might seem kind of daunting.", "entities": []}
+{"id": 2203, "text": "You actually wouldn't be able to take the derivative at that point.", "entities": []}
+{"id": 2204, "text": "Well it's good to do it neatly when you're doing the exam, because otherwise you'll confuse yourself.", "entities": []}
+{"id": 2205, "text": "At <EQUATION>, we have <EXPRESSION> people in line.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}, {"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 2206, "text": "It's about right there.", "entities": []}
+{"id": 2207, "text": "So they don't give us a continuous function definition.", "entities": []}
+{"id": 2208, "text": "And <EXPRESSION> minus <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 2209, "text": "At <EQUATION> there are <EXPRESSION> people in line.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}, {"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 2210, "text": "But it's just going to be the slope between these two points.", "entities": []}
+{"id": 2211, "text": "That should be good enough.", "entities": []}
+{"id": 2212, "text": "At <EQUATION>, we have <EXPRESSION> people in line.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}, {"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 2213, "text": "Let's plot the points.", "entities": []}
+{"id": 2214, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 2215, "text": "So this is the number of people waiting in line at anytime.", "entities": []}
+{"id": 2216, "text": "We know that the real <EXPRESSION>, whatever we used to approximate it, it's not going to have these sharp edges because it's differentiable.", "entities": []}
+{"id": 2217, "text": "And <EQUATION>, the line is gone.", "entities": [{"label": "equation", "start_offset": 4, "end_offset": 14}]}
+{"id": 2218, "text": "This is my <EXPRESSION> axis.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 2219, "text": "At <EQUATION> we have <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}, {"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 2220, "text": "So it's = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 2221, "text": "Right, if this was <EXPRESSION> less, it would be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 50, "end_offset": 62}]}
+{"id": 2222, "text": "And what's the denominator? It's hours, people per hour.", "entities": []}
+{"id": 2223, "text": "They just give us a bunch of sample points of this function <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 2224, "text": "We could say approximately =, or whatever.", "entities": []}
+{"id": 2225, "text": "You don't have do it so neatly.", "entities": []}
+{"id": 2226, "text": "But I'm about to graph it because I want you to understand how to do this problem.", "entities": []}
+{"id": 2227, "text": "So it says part a let me make sure I'm not writing too thickly use the data in the table to estimate the rate let me actually just copy and paste this, I've just figured out how to do this.", "entities": []}
+{"id": 2228, "text": "<EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 2229, "text": "I don't want to take up all the space though.", "entities": []}
+{"id": 2230, "text": "If you want to do this really fast, you wouldn't have to graph it.", "entities": []}
+{"id": 2231, "text": "And I cut and pasted the table that they gave for the problem.", "entities": []}
+{"id": 2232, "text": "There you go.", "entities": []}
+{"id": 2233, "text": "So what do they want to know? They want to know an estimate of the rate at which the number of people waiting in line was changing.", "entities": []}
+{"id": 2234, "text": "So the first <EXPRESSION> hours, that's right here.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}]}
+{"id": 2235, "text": "They give us 4:00 pm and 7:00 pm, or <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 2236, "text": "OK so we've at least plotted the sample points and connected them with lines.", "entities": []}
+{"id": 2237, "text": "So that means that whatever function we're modeling this, this <EXPRESSION>, that it's continuous because it's differentiable.", "entities": [{"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 2238, "text": "But anyway back to the problem.", "entities": []}
+{"id": 2239, "text": "It's right about there.", "entities": []}
+{"id": 2240, "text": "There to there, almost done.", "entities": []}
+{"id": 2241, "text": "And I'll read the rest of the problem.", "entities": []}
+{"id": 2242, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 2243, "text": "Actually I just realized.", "entities": []}
+{"id": 2244, "text": "Indicate units of measure.", "entities": []}
+{"id": 2245, "text": "That's it.", "entities": []}
+{"id": 2246, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 2247, "text": "You can write it however you want, however you think that the exam graders would best like to see it.", "entities": []}
+{"id": 2248, "text": "There to there.", "entities": []}
+{"id": 2249, "text": "And let's see what we can do.", "entities": []}
+{"id": 2250, "text": "It's a little bit more than at <EQUATION>.", "entities": [{"label": "equation", "start_offset": 31, "end_offset": 41}]}
+{"id": 2251, "text": "Actually let's graph all of them, just because it might be useful in future parts of the problem.", "entities": []}
+{"id": 2252, "text": "Connect the dots.", "entities": []}
+{"id": 2253, "text": "So we could write average rate of change or <EXPRESSION> at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 2254, "text": "Use a trapezoidal sum with three subintervals to estimate the average number of people waiting in line during the first <EXPRESSION> hours.", "entities": [{"label": "expression", "start_offset": 120, "end_offset": 132}]}
+{"id": 2255, "text": "So let's graph some of these points.", "entities": []}
+{"id": 2256, "text": "This would be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 2257, "text": "But it says use the data in the table to estimate the rate at which the number of people waiting in line was changing at 5:30 pm.", "entities": []}
+{"id": 2258, "text": "But now for some reason it's been limiting me again.", "entities": []}
+{"id": 2259, "text": "So halfway up would be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 2260, "text": "So my best estimate, or our best estimate of the rate at which the number of people waiting in line was changing at 5:30 pm, which is between these two points, is the average slope between these two points.", "entities": []}
+{"id": 2261, "text": "That's about right there.", "entities": []}
+{"id": 2262, "text": "If this was the actual function, you wouldn't be able to take a derivative at this point.", "entities": []}
+{"id": 2263, "text": "Let me clear all of this so we have enough space for part b.", "entities": []}
+{"id": 2264, "text": "And let's see, how high should my <EXPRESSION> values? This is time right here.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 2265, "text": "And they want us to use the units of measure.", "entities": []}
+{"id": 2266, "text": "The trapezoidal sum for the fourth.", "entities": []}
+{"id": 2267, "text": "So it's actually going to be a smoother curve, right? Because we can take the derivative of any point.", "entities": []}
+{"id": 2268, "text": "Which is <EXPRESSION> people per hour.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 2269, "text": "So from here to there.", "entities": []}
+{"id": 2270, "text": "Let's connect those points.", "entities": []}
+{"id": 2271, "text": "No that doesn't look good.", "entities": []}
+{"id": 2272, "text": "OK part b says, use a trapezoidal sum with three subintervals.", "entities": []}
+{"id": 2273, "text": "I don't know what that sound was from.", "entities": []}
+{"id": 2274, "text": "So that = <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 2275, "text": "If you understand it, you don't have to graph it.", "entities": []}
+{"id": 2276, "text": "Maybe I can make this a little bit bigger.", "entities": []}
+{"id": 2277, "text": "Rise over run or change in the value of the function divided by change in the independent variable.", "entities": []}
+{"id": 2278, "text": "Show the computations that lead to your answer.", "entities": []}
+{"id": 2279, "text": "Let's say this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 2280, "text": "Use a trapezoidal sum with three subintervals to estimate the average number of people waiting in line during the first <EXPRESSION> hours that the tickets were on sale.", "entities": [{"label": "expression", "start_offset": 120, "end_offset": 132}]}
+{"id": 2281, "text": "You probably can't read it.", "entities": []}
+{"id": 2282, "text": "This would be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 2283, "text": "So let's write it.", "entities": []}
+{"id": 2284, "text": "So the numerator, this is people.", "entities": []}
+{"id": 2285, "text": "<EXPRESSION> is in between these two is to just figure out the average rate of change between <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 94, "end_offset": 106}, {"label": "expression", "start_offset": 111, "end_offset": 123}]}
+{"id": 2286, "text": "So you could say that the average rate of change is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 2287, "text": "And I'll copy and don't know if you can read it.", "entities": []}
+{"id": 2288, "text": "So they don't give us any data on 5:30 pm.", "entities": []}
+{"id": 2289, "text": "So I figure it doesn't hurt.", "entities": []}
+{"id": 2290, "text": "At <EQUATION> they skip <EXPRESSION> at <EQUATION> it's <EXPRESSION> people in line.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}, {"label": "expression", "start_offset": 24, "end_offset": 36}, {"label": "equation", "start_offset": 40, "end_offset": 50}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 2291, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 2292, "text": "So how do we figure that out? Well the average rate of change is just the slope.", "entities": []}
+{"id": 2293, "text": "It's actually twice differentiable.", "entities": []}
+{"id": 2294, "text": "Let's do part b.", "entities": []}
+{"id": 2295, "text": "So it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 2296, "text": "OK well I'll read it out loud in case you can't see it.", "entities": []}
+{"id": 2297, "text": "But maybe you can.", "entities": []}
+{"id": 2298, "text": "So we're on problem number 2.", "entities": []}
+{"id": 2299, "text": "If you weren't graphing it while recording a video, it probably would be a little bit faster.", "entities": []}
+{"id": 2300, "text": "It goes up to about, <EXPRESSION> is a high point, at least on the data we have.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 2301, "text": "For some reason, YouTube used to let me do longer videos because I thought I was a partner.", "entities": []}
+{"id": 2302, "text": "And from there to there.", "entities": []}
+{"id": 2303, "text": "What are our data points? We have <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "expression", "start_offset": 76, "end_offset": 88}, {"label": "expression", "start_offset": 90, "end_offset": 102}, {"label": "expression", "start_offset": 104, "end_offset": 116}, {"label": "expression", "start_offset": 118, "end_offset": 130}, {"label": "expression", "start_offset": 132, "end_offset": 144}, {"label": "expression", "start_offset": 146, "end_offset": 158}]}
+{"id": 2304, "text": "All the tickets are sold by 9:00 pm.", "entities": []}

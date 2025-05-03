@@ -34,3 +34,29 @@ def concat_jsonl_data(in_root_dir: str, out_file: str):
         result += read_jsonl(file_path)
     
     save_jsonl(out_file, result)
+    
+def convert_jsonl_structure(in_dir):
+    dir = Path(in_dir)
+    for jsonl_file in dir.glob('*.jsonl'):
+        orig = read_jsonl(jsonl_file)
+        result = []
+        for line in orig:
+            ents = []
+            for (start, end, label) in line['label']:
+                temp = {
+                    'label': label,
+                    'start_offset': start,
+                    'end_offset': end
+                }
+                ents.append(temp)
+            
+            new_line = {
+                'id': line['id'],
+                'text': line['text'],
+                'entities': ents
+            }
+            result.append(new_line)
+        save_jsonl(f'{in_dir.split('.')[0]}-new.json', result)
+        
+
+convert_jsonl_structure('test.jsonl')

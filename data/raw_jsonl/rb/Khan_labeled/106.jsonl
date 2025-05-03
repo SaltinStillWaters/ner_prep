@@ -1,0 +1,62 @@
+{"id":2115,"text":"So if we were to take a cross section, so let's say that this, let's take this cross section of the pond.","label":[],"Comments":[]}
+{"id":2116,"text":"So the volume this time, <EXPRESSION>.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":2117,"text":"And so to find the volume, we think about it the same way.","label":[],"Comments":[]}
+{"id":2118,"text":"So let's do second insert.","label":[],"Comments":[]}
+{"id":2119,"text":"So the height along the surface of the pond is going to be the difference between the two functions.","label":[],"Comments":[]}
+{"id":2120,"text":"That's not too different.","label":[],"Comments":[]}
+{"id":2121,"text":"Welcome back.","label":[],"Comments":[]}
+{"id":2122,"text":"I will, every day, try to do a couple of these problems.","label":[],"Comments":[]}
+{"id":2123,"text":"Let's integrate from <EQUATION> from <EQUATION>.","label":[[21,31,"equation"],[37,47,"equation"]],"Comments":[]}
+{"id":2124,"text":"Second enter.","label":[],"Comments":[]}
+{"id":2125,"text":"And so, let's see.","label":[],"Comments":[]}
+{"id":2126,"text":"We could do second enter, and we'll get the previous entry.","label":[],"Comments":[]}
+{"id":2127,"text":"At all points in <EXPRESSION> at a distance <EXPRESSION> from the y-axis, the depth of the water is given by <EQUATION>.","label":[[17,29,"expression"],[44,56,"expression"],[109,119,"equation"]],"Comments":[]}
+{"id":2128,"text":"We're not squaring it anymore.","label":[],"Comments":[]}
+{"id":2129,"text":"And it noticed, it is calculating.","label":[],"Comments":[]}
+{"id":2130,"text":"So we know this the height, sorry, the width along the surface of this cross section is going to be the difference between this function and this function, right? So if I were to draw, let me see if I can, so this is that same cross section, it's the width along the top, I know I'm confusing you, is going to be this function minus this function.","label":[],"Comments":[]}
+{"id":2131,"text":"So this was part c that we already have in our calculator.","label":[],"Comments":[]}
+{"id":2132,"text":"So if we go here, we can delete this squared.","label":[],"Comments":[]}
+{"id":2133,"text":"So that's green.","label":[],"Comments":[]}
+{"id":2134,"text":"What does a cross section at any point of the pond look like? Well if we, let's see.","label":[],"Comments":[]}
+{"id":2135,"text":"And what's going to be the height, right here? Well, they told us.","label":[],"Comments":[]}
+{"id":2136,"text":"Once again, this is a really hard integral.","label":[],"Comments":[]}
+{"id":2137,"text":"Find the volume of the water in the pond.","label":[],"Comments":[]}
+{"id":2138,"text":"So let's see.","label":[],"Comments":[]}
+{"id":2139,"text":"So let's do that.","label":[],"Comments":[]}
+{"id":2140,"text":"See you in the next video.","label":[],"Comments":[]}
+{"id":2141,"text":"So we want the volume for the entire pond, we take essentially the volume of each of these kind of slivers of the pond.","label":[],"Comments":[]}
+{"id":2142,"text":"The only difference between what we did in Part C and now is, now, instead of having in Part C, we had this expression squared.","label":[],"Comments":[]}
+{"id":2143,"text":"<EXPRESSION>, I think, is a fair answer.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2144,"text":"And now let's do, I want you to see my key strokes.","label":[],"Comments":[]}
+{"id":2145,"text":"Anyway, hopefully you found that useful.","label":[],"Comments":[]}
+{"id":2146,"text":"So that's the area of each cross section.","label":[],"Comments":[]}
+{"id":2147,"text":"So this is going to be <EXPRESSION>.","label":[[23,35,"expression"]],"Comments":[]}
+{"id":2148,"text":"So when <EQUATION>, the pond is exactly <EXPRESSION>, I guess, you know, we could say feet, or whatever the units are, deep, and then when <EQUATION>, the pond is <EXPRESSION> unit deep.","label":[[8,18,"equation"],[40,52,"expression"],[139,149,"equation"],[163,175,"expression"]],"Comments":[]}
+{"id":2149,"text":"We have <EXPRESSION>, right, that's the same thing as this.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":2150,"text":"Because we already typed in a bunch of stuff.","label":[],"Comments":[]}
+{"id":2151,"text":"And our variable of integration is <EXPRESSION>, and we're integrating from <EQUATION> to <EQUATION>.","label":[[35,47,"expression"],[76,86,"equation"],[90,100,"equation"]],"Comments":[]}
+{"id":2152,"text":"Let's hit enter.","label":[],"Comments":[]}
+{"id":2153,"text":"So let's use the calculator to evaluate it.","label":[],"Comments":[]}
+{"id":2154,"text":"Deleted.","label":[],"Comments":[]}
+{"id":2155,"text":"So let's insert times <EXPRESSION>.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":2156,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2157,"text":"So we take the area of each cross section, and we multiply it by a very small width to get a very small sliver.","label":[],"Comments":[]}
+{"id":2158,"text":"So we thought about, this is, you know, a perspective drawing of this, this is the surface of the pond, right here.","label":[],"Comments":[]}
+{"id":2159,"text":"It says, the region <EXPRESSION> models the surface of a small pond.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":2160,"text":"So that times <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":2161,"text":"Now, we don't have it squared, but we're multiplying it by <EXPRESSION>.","label":[[59,71,"expression"]],"Comments":[]}
+{"id":2162,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2163,"text":"We're doing the last part of Problem 1 of the 2008 Calculus BC exam.","label":[],"Comments":[]}
+{"id":2164,"text":"So we take that and multiply it by <EXPRESSION>, and we integrate.","label":[[35,47,"expression"]],"Comments":[]}
+{"id":2165,"text":"So if I were to draw, let me see if I can draw this cross section.","label":[],"Comments":[]}
+{"id":2166,"text":"It's going to be <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":2167,"text":"And we know that the top function is <EXPRESSION>, and we know that this bottom function is <EXPRESSION>.","label":[[37,49,"expression"],[92,104,"expression"]],"Comments":[]}
+{"id":2168,"text":"So the area of this cross section of the pond is going to be <EXPRESSION> times the depth of the pond, right? That's the surface width times the depth.","label":[[61,73,"expression"]],"Comments":[]}
+{"id":2169,"text":"Let me do it in a different color, I know it can be kind of confusing.","label":[],"Comments":[]}
+{"id":2170,"text":"And our answer is <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":2171,"text":"So let's do that.","label":[],"Comments":[]}
+{"id":2172,"text":"We sum up all of these slivers of the pond from <EQUATION> to <EQUATION>.","label":[[48,58,"equation"],[62,72,"equation"]],"Comments":[]}
+{"id":2173,"text":"The height of the pond, or the depth of the pond, at any point, is <EXPRESSION>, whatever <EXPRESSION> value we're at.","label":[[67,79,"expression"],[90,102,"expression"]],"Comments":[]}
+{"id":2174,"text":"And I was trying to draw the depth.","label":[],"Comments":[]}
+{"id":2175,"text":"And I'll repeat the problem.","label":[],"Comments":[]}
+{"id":2176,"text":"Or it's something that you can do, especially if you use integration by parts, but it's a little bit messy, and you only have <EXPRESSION> minutes to do all three problems on the BC exam, so I'm assuming that they want you to use the calculator here.","label":[[126,138,"expression"]],"Comments":[]}

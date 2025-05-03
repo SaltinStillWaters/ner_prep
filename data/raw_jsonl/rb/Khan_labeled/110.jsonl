@@ -1,0 +1,160 @@
+{"id":2498,"text":"It = all we do is we take this expression we take the derivative of <EXPRESSION> and we just assume that <EXPRESSION> is some constant.","label":[[45,67,"command"],[68,80,"expression"],[105,117,"expression"]],"Comments":[]}
+{"id":2499,"text":"I know it sounds fancy, but you'll see.","label":[],"Comments":[]}
+{"id":2500,"text":"Another way to write this exact same thing is if we wrote that <EQUATION> we could have written as this.","label":[[63,73,"equation"]],"Comments":[]}
+{"id":2501,"text":"So first of all, just what does a function look like in three dimensions? And actually we'll go over the different types.","label":[],"Comments":[]}
+{"id":2502,"text":"Plus <EXPRESSION>.","label":[[0,4,"command"],[5,17,"equation"]],"Comments":[]}
+{"id":2503,"text":"See you in the next video.","label":[],"Comments":[]}
+{"id":2504,"text":"Now, what does that mean? Well, that means if I were and actually, let me give you a little notation, before I show you what that means.","label":[],"Comments":[]}
+{"id":2505,"text":"But the most intuitive, to me at least, is a surface in three dimensions.","label":[],"Comments":[]}
+{"id":2506,"text":"Let's see if we can visualize that.","label":[],"Comments":[]}
+{"id":2507,"text":"Remember, we're taking an implicit derivative here.","label":[],"Comments":[]}
+{"id":2508,"text":"And let's figure out how to do it.","label":[],"Comments":[]}
+{"id":2509,"text":"When <EXPRESSION> =, I don't know, when <EQUATION>.","label":[[5,17,"expression"],[40,50,"equation"]],"Comments":[]}
+{"id":2510,"text":"<EQUATION> that's <EXPRESSION>.","label":[[0,10,"equation"],[18,30,"expression"]],"Comments":[]}
+{"id":2511,"text":"You can see this is the x-axis, the y-axis.","label":[],"Comments":[]}
+{"id":2512,"text":"So we had our traditional x and y-axis before, but now let's give another dimension of height.","label":[],"Comments":[]}
+{"id":2513,"text":"The equation is <EQUATION>.","label":[[16,26,"equation"]],"Comments":[]}
+{"id":2514,"text":"If you said, what is the slope of the tangent line? Any point on this graph actually has an infinite number of tangent lines.","label":[],"Comments":[]}
+{"id":2515,"text":"I'll give you the link for it.","label":[],"Comments":[]}
+{"id":2516,"text":"The height is the z-axis.","label":[],"Comments":[]}
+{"id":2517,"text":"So the derivative of that is <EXPRESSION>.","label":[[29,41,"expression"]],"Comments":[]}
+{"id":2518,"text":"Go back to the pen tool.","label":[],"Comments":[]}
+{"id":2519,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2520,"text":"And all that means is that if I give you an x-value and a y-value you get a z-value.","label":[],"Comments":[]}
+{"id":2521,"text":"And that's just the convention, you know, for drawing the x-axis.","label":[],"Comments":[]}
+{"id":2522,"text":"Anyway, I thought it's nice to see that notation.","label":[],"Comments":[]}
+{"id":2523,"text":"This is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":2524,"text":"The equation of that surface and let me just clear out everything, just because we'll probably need the extra space.","label":[],"Comments":[]}
+{"id":2525,"text":"So the slope of this function with respect to <EXPRESSION> at the <EXPRESSION>.","label":[[46,58,"expression"],[66,78,"expression"]],"Comments":[]}
+{"id":2526,"text":"And that is called the partial derivative.","label":[],"Comments":[]}
+{"id":2527,"text":"So let's do that.","label":[],"Comments":[]}
+{"id":2528,"text":"So what we're going to learn is when you take a derivative in three dimensions, you have to specify the direction that you're taking the derivative in.","label":[],"Comments":[]}
+{"id":2529,"text":"Let's now expand our knowledge of calculus to the third dimension.","label":[],"Comments":[]}
+{"id":2530,"text":"But I'll take that risk.","label":[],"Comments":[]}
+{"id":2531,"text":"And I'll use a different color for <EXPRESSION>.","label":[[35,47,"expression"]],"Comments":[]}
+{"id":2532,"text":"And then we go and then we say, well, <EQUATION>.","label":[[38,48,"equation"]],"Comments":[]}
+{"id":2533,"text":"And this is just a convention, that <EQUATION>.","label":[[36,46,"equation"]],"Comments":[]}
+{"id":2534,"text":"And if we had to plot that point of the surface and maybe I'll actually graph this one in a little bit we go along the x-axis <EXPRESSION>.","label":[[126,138,"expression"]],"Comments":[]}
+{"id":2535,"text":"What's the derivative of <EXPRESSION> with respect to <EXPRESSION>? Well, <EXPRESSION> is just a number.","label":[[25,37,"expression"],[54,66,"expression"],[74,86,"expression"]],"Comments":[]}
+{"id":2536,"text":"And we would plot that point.","label":[],"Comments":[]}
+{"id":2537,"text":"We have to hold everything else constant and take the derivative with respect to just one variable.","label":[],"Comments":[]}
+{"id":2538,"text":"This is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":2539,"text":"So if you have some constant times <EXPRESSION>, the derivative of that is just the constant.","label":[[35,47,"expression"]],"Comments":[]}
+{"id":2540,"text":"And then you have your palm of your thumb, and then your thumb is going to open up in this direction.","label":[],"Comments":[]}
+{"id":2541,"text":"So every time <EXPRESSION> increases <EXPRESSION>, <EXPRESSION> will increase by <EXPRESSION>.","label":[[14,26,"expression"],[37,49,"expression"],[51,63,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":2542,"text":"The partial derivative of <EXPRESSION> with respect to <EXPRESSION>.","label":[[26,38,"expression"],[55,67,"expression"]],"Comments":[]}
+{"id":2543,"text":"<EXPRESSION> is just a constant.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2544,"text":"So we said if we want to take a derivative, it's hard to you know, you can't just say there is one derivative.","label":[],"Comments":[]}
+{"id":2545,"text":"<EXPRESSION> is up.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2546,"text":"So the rate at which the height, or the rate at which <EXPRESSION> is changing with respect to <EXPRESSION>, is <EXPRESSION>.","label":[[54,66,"expression"],[95,107,"expression"],[112,124,"expression"]],"Comments":[]}
+{"id":2547,"text":"So if you take this point this is <EQUATION>.","label":[[34,44,"equation"]],"Comments":[]}
+{"id":2548,"text":"And we want the slope at <EQUATION>.","label":[[25,35,"equation"]],"Comments":[]}
+{"id":2549,"text":"So first of all, what is the equation of this surface? And I just picked one that they had on Wikipedia.","label":[],"Comments":[]}
+{"id":2550,"text":"Do we make increasing <EXPRESSION> pointing out this way? Or do we make increasing <EXPRESSION> point inwards? And this gives us the convention.","label":[[22,34,"expression"],[83,95,"expression"]],"Comments":[]}
+{"id":2551,"text":"<EXPRESSION> and <EQUATION>.","label":[[0,12,"expression"],[17,27,"equation"]],"Comments":[]}
+{"id":2552,"text":"So that wall represents the line <EQUATION>.","label":[[32,43,"equation"]],"Comments":[]}
+{"id":2553,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":2554,"text":"It'll start taking the partial derivative.","label":[],"Comments":[]}
+{"id":2555,"text":"There are different types of representations we'll see, when we start working with three dimensions.","label":[],"Comments":[]}
+{"id":2556,"text":"Just bear with me.","label":[],"Comments":[]}
+{"id":2557,"text":"And just the notation, <EQUATION>.","label":[[23,33,"equation"]],"Comments":[]}
+{"id":2558,"text":"What do I mean by that? This is <EXPRESSION> those colors really don't go well together.","label":[[32,44,"expression"]],"Comments":[]}
+{"id":2559,"text":"And make that toothpick tangent to the bowl, and you can see that on any point on the bowl, you can just rotate that toothpick around.","label":[],"Comments":[]}
+{"id":2560,"text":"That's the y-axis, and that's the z-axis.","label":[],"Comments":[]}
+{"id":2561,"text":"It's actually no harder than taking a regular derivative.","label":[],"Comments":[]}
+{"id":2562,"text":"What do I mean by the cross product? So if this is the unit vector in the <EXPRESSION> direction so that's <EXPRESSION>.","label":[[74,86,"expression"],[107,119,"expression"]],"Comments":[]}
+{"id":2563,"text":"So let's say, what's <EXPRESSION> of, I don't know, <EXPRESSION> comma <EXPRESSION>.","label":[[21,33,"expression"],[52,64,"expression"],[71,83,"expression"]],"Comments":[]}
+{"id":2564,"text":"<EXPRESSION>, comma <EXPRESSION>.","label":[[0,12,"expression"],[20,32,"expression"]],"Comments":[]}
+{"id":2565,"text":"So that's just a good to know, where did that convention come from? This is kind of called a right-handed coordinate system.","label":[],"Comments":[]}
+{"id":2566,"text":"We have to pick a direction.","label":[],"Comments":[]}
+{"id":2567,"text":"The partial derivative of <EXPRESSION>, with respect to <EXPRESSION>, at the point <EXPRESSION>.","label":[[26,38,"expression"],[56,68,"expression"],[83,95,"expression"]],"Comments":[]}
+{"id":2568,"text":"But then it becomes very hard to visualize.","label":[],"Comments":[]}
+{"id":2569,"text":"And that cap just means it's a unit vector.","label":[],"Comments":[]}
+{"id":2570,"text":"You could have a vector field.","label":[],"Comments":[]}
+{"id":2571,"text":"So this is <EQUATION>.","label":[[11,21,"equation"]],"Comments":[]}
+{"id":2572,"text":"So how do we plot the points on the surface? And I'll show you, actually, computer generated surfaces that are far more professional looking than anything I could possibly try to draw.","label":[],"Comments":[]}
+{"id":2573,"text":"So this is going in the direction of <EXPRESSION>.","label":[],"Comments":[]}
+{"id":2574,"text":"You can view it as a <EXPRESSION> with the top curled.","label":[[21,33,"expression"]],"Comments":[]}
+{"id":2575,"text":"So the slope is a little bit less than <EXPRESSION>.","label":[[39,51,"equation"]],"Comments":[]}
+{"id":2576,"text":"We go along the y-axis <EXPRESSION>.","label":[[23,35,"expression"]],"Comments":[]}
+{"id":2577,"text":"So how do we define a surface in three dimensions? Well, we can define <EXPRESSION> as a function of <EXPRESSION> and <EXPRESSION>.","label":[[71,83,"expression"],[101,113,"expression"],[118,130,"expression"]],"Comments":[]}
+{"id":2578,"text":"And the unit vector for there is <EXPRESSION>.","label":[],"Comments":[]}
+{"id":2579,"text":"So the derivative of just the number with respect to <EXPRESSION> is just <EXPRESSION>.","label":[[53,65,"expression"],[74,86,"expression"]],"Comments":[]}
+{"id":2580,"text":"Look at that.","label":[],"Comments":[]}
+{"id":2581,"text":"And you would see, if you kept doing that, you would plot a surface.","label":[],"Comments":[]}
+{"id":2582,"text":"Anyway, I think you'd understand, where you pick an x-point, you pick a y-point, and then z this surface right here, without this line intersecting it this surface right here, is a function of <EXPRESSION> and <EXPRESSION>.","label":[[193,205,"expression"],[210,222,"expression"]],"Comments":[]}
+{"id":2583,"text":"This is in the y-direction, so it's <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":2584,"text":"And then what's the derivative of <EXPRESSION>? Well, we're assuming <EXPRESSION> is a constant.","label":[[34,46,"expression"],[69,81,"expression"]],"Comments":[]}
+{"id":2585,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2586,"text":"Don't worry about this wall.","label":[],"Comments":[]}
+{"id":2587,"text":"It's just a number, right? <EXPRESSION> is just a number.","label":[],"Comments":[]}
+{"id":2588,"text":"But the equation of that surface is and I'm going to remove this now, so I don't sound like I'm melting.","label":[],"Comments":[]}
+{"id":2589,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2590,"text":"That's my x-axis.","label":[],"Comments":[]}
+{"id":2591,"text":"Well, that would mean <EXPRESSION> is <EXPRESSION>, so it's <EXPRESSION>.","label":[[22,34,"expression"],[38,50,"expression"],[60,72,"expression"]],"Comments":[]}
+{"id":2592,"text":"So let me draw the cross product.","label":[],"Comments":[]}
+{"id":2593,"text":"And this is why I actually drew this wall here.","label":[],"Comments":[]}
+{"id":2594,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2595,"text":"Your thumb is going to point up, which is the direction of <EXPRESSION>.","label":[[59,71,"expression"]],"Comments":[]}
+{"id":2596,"text":"And let me clean this up a little bit.","label":[],"Comments":[]}
+{"id":2597,"text":"And the convention is to kind of follow the right hand rule, where the x-axis taking the cross product of the x-axis with the y-axis = the z-axis.","label":[],"Comments":[]}
+{"id":2598,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2599,"text":"I don't want to slow things too down while I'm trying to do my screen capture.","label":[],"Comments":[]}
+{"id":2600,"text":"So you can kind of view it.","label":[],"Comments":[]}
+{"id":2601,"text":"Well, we could use this.","label":[],"Comments":[]}
+{"id":2602,"text":"Let's say this is a length of <EXPRESSION>.","label":[[30,42,"expression"]],"Comments":[]}
+{"id":2603,"text":"We'll get to this in a second.","label":[],"Comments":[]}
+{"id":2604,"text":"And so, I don't know, let's pick one.","label":[],"Comments":[]}
+{"id":2605,"text":"And it's actually free.","label":[],"Comments":[]}
+{"id":2606,"text":"<EXPRESSION>, little cap.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2607,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":2608,"text":"But this is a function of <EXPRESSION> and <EXPRESSION>.","label":[[26,38,"expression"],[43,55,"expression"]],"Comments":[]}
+{"id":2609,"text":"Now, what does this mean? Well, what is the slope of <EXPRESSION> with respect to <EXPRESSION> at, say, when <EXPRESSION> is <EXPRESSION> and actually, let's pick smaller numbers.","label":[[53,65,"expression"],[82,94,"expression"],[109,121,"expression"],[125,137,"expression"]],"Comments":[]}
+{"id":2610,"text":"I think you see that, right? The tangent right here is increasing with increasing values of <EXPRESSION>, but a little bit less than <EXPRESSION> degrees.","label":[[92,104,"expression"],[133,145,"expression"]],"Comments":[]}
+{"id":2611,"text":"The partial derivative of <EXPRESSION> with respect to <EXPRESSION> and still a function of <EXPRESSION> and <EXPRESSION>, right? It still depends on what constant <EXPRESSION> you're using = <EXPRESSION>.","label":[[26,38,"expression"],[55,67,"expression"],[92,104,"expression"],[109,121,"expression"],[164,176,"expression"],[192,204,"expression"]],"Comments":[]}
+{"id":2612,"text":"Well, it = <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":2613,"text":"Take a bowl or something that maybe you know, like this.","label":[],"Comments":[]}
+{"id":2614,"text":"And then take a, I don't know, a toothpick.","label":[],"Comments":[]}
+{"id":2615,"text":"So if you take the first vector, put your index finger in the direction of the first vector, middle finger in the direction of the second vector, and your other fingers can do what they need to do.","label":[],"Comments":[]}
+{"id":2616,"text":"And we just say, for any constant <EXPRESSION>, how much does <EXPRESSION> change with respect to <EXPRESSION>? Then we take the partial derivative this is the notation.","label":[[34,46,"expression"],[62,74,"expression"],[98,110,"expression"]],"Comments":[]}
+{"id":2617,"text":"That is going in the direction of <EXPRESSION>.","label":[[34,46,"expression"]],"Comments":[]}
+{"id":2618,"text":"But this surface right here, this is I'll actually show you the graph of this.","label":[],"Comments":[]}
+{"id":2619,"text":"Oops.","label":[],"Comments":[]}
+{"id":2620,"text":"So what's the derivative of <EXPRESSION> with respect to <EXPRESSION>? Well, it's just <EXPRESSION>.","label":[[28,40,"expression"],[57,69,"expression"],[87,99,"expression"]],"Comments":[]}
+{"id":2621,"text":"So the partial derivative of <EXPRESSION> with respect to <EXPRESSION> is <EXPRESSION>.","label":[[29,41,"expression"],[58,70,"expression"],[74,86,"expression"]],"Comments":[]}
+{"id":2622,"text":"Sorry, of j, right? In the y-direction.","label":[],"Comments":[]}
+{"id":2623,"text":"Anyway, I'm all out of time.","label":[],"Comments":[]}
+{"id":2624,"text":"You just have to make sure you remember which variable is a variable, and which one is a constant.","label":[],"Comments":[]}
+{"id":2625,"text":"It's in y-direction, but it has a magnitude of <EXPRESSION>.","label":[[47,59,"expression"]],"Comments":[]}
+{"id":2626,"text":"So i goes in this direction.","label":[],"Comments":[]}
+{"id":2627,"text":"Because you can have a line in three dimensions, or kind of a curve in three dimensions.","label":[],"Comments":[]}
+{"id":2628,"text":"It's just a constant.","label":[],"Comments":[]}
+{"id":2629,"text":"I'm trying to make sure I can do my hand properly.","label":[],"Comments":[]}
+{"id":2630,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2631,"text":"So here is a surface I use, using this Java applet grapher.","label":[],"Comments":[]}
+{"id":2632,"text":"Along this wall, y is a constant, right? So if we assume that <EXPRESSION> is constant, then maybe we could take just the derivative with respect to <EXPRESSION>.","label":[[62,74,"expression"],[149,161,"expression"]],"Comments":[]}
+{"id":2633,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2634,"text":"I'm afraid that when I manipulate this graph, it'll slow down my computer and I'll start sounding like I'm melting.","label":[],"Comments":[]}
+{"id":2635,"text":"And eventually, we can expand this into n dimensions.","label":[],"Comments":[]}
+{"id":2636,"text":"<EXPRESSION>, <EXPRESSION>.","label":[[0,12,"expression"],[14,26,"expression"]],"Comments":[]}
+{"id":2637,"text":"So this <EQUATION>.","label":[[8,18,"equation"]],"Comments":[]}
+{"id":2638,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2639,"text":"Let's say that this is my x-axis and I'll draw the positive quadrant.","label":[],"Comments":[]}
+{"id":2640,"text":"So the natural question that you might want to ask and actually, let me show you a surface.","label":[],"Comments":[]}
+{"id":2641,"text":"This'll probably really slow down my computer, but you can actually rotate it.","label":[],"Comments":[]}
+{"id":2642,"text":"I mean, think of it this way.","label":[],"Comments":[]}
+{"id":2643,"text":"You can have a surface.","label":[],"Comments":[]}
+{"id":2644,"text":"So we would essentially take the slope of this curve right here.","label":[],"Comments":[]}
+{"id":2645,"text":"<EXPRESSION>, right here.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2646,"text":"Because if you look at this surface, if you were to pick any arbitrary point on this surface, and say, what is the slope of that surface? Well, it kind of has no meaning, because you have to kind of pick a direction.","label":[],"Comments":[]}
+{"id":2647,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2648,"text":"You'd plot a surface.","label":[],"Comments":[]}
+{"id":2649,"text":"So we can go up here, I don't know, we'd go up <EXPRESSION> units.","label":[[47,59,"expression"]],"Comments":[]}
+{"id":2650,"text":"So you kind of have to pick the orientation of that toothpick.","label":[],"Comments":[]}
+{"id":2651,"text":"But let's get to the meat and potatoes.","label":[],"Comments":[]}
+{"id":2652,"text":"So <EXPRESSION>, <EXPRESSION>.","label":[[3,15,"expression"],[17,29,"expression"]],"Comments":[]}
+{"id":2653,"text":"I don't want to slow.","label":[],"Comments":[]}
+{"id":2654,"text":"So the question is, well, how do we apply calculus to surfaces? Because actually, let me bring that thing out again.","label":[],"Comments":[]}
+{"id":2655,"text":"So let's say we wanted to hold <EXPRESSION> constant.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":2656,"text":"But I think the most intuitive and none of these are directly intuitive I think you have to really be able to visualize them.","label":[],"Comments":[]}
+{"id":2657,"text":"This wall is the equation <EQUATION>.","label":[[26,36,"equation"]],"Comments":[]}

@@ -1,0 +1,128 @@
+{"id":3620,"text":"And the way we write that it's the definite integral.","label":[],"Comments":[]}
+{"id":3621,"text":"<EQUATION>, from <EQUATION> to <EQUATION>.","label":[[0,10,"equation"],[17,27,"equation"],[31,41,"equation"]],"Comments":[]}
+{"id":3622,"text":"But what if and I'm just going to draw an abstract surface here let me draw some axis.","label":[],"Comments":[]}
+{"id":3623,"text":"Let's say we had a well, actually let me go the other way.","label":[],"Comments":[]}
+{"id":3624,"text":"Not <EXPRESSION>, <EXPRESSION>.","label":[[4,16,"expression"],[18,30,"expression"]],"Comments":[]}
+{"id":3625,"text":"Let's say that I had some constant <EXPRESSION>.","label":[[35,47,"expression"]],"Comments":[]}
+{"id":3626,"text":"This = the area under the curve.","label":[],"Comments":[]}
+{"id":3627,"text":"Let's call that, you know, this is <EQUATION>.","label":[[35,45,"equation"]],"Comments":[]}
+{"id":3628,"text":"So you can kind of view it as the domain.","label":[],"Comments":[]}
+{"id":3629,"text":"So now, before, our domain was just at least, you know, for most of what we dealt with was just the x-axis, or kind of the real number line in the <EXPRESSION> direction.","label":[[147,159,"expression"]],"Comments":[]}
+{"id":3630,"text":"That's this line right here.","label":[],"Comments":[]}
+{"id":3631,"text":"Some surface.","label":[],"Comments":[]}
+{"id":3632,"text":"So it would be the integral from <EXPRESSION> to <EXPRESSION>.","label":[[33,45,"expression"],[49,61,"expression"]],"Comments":[]}
+{"id":3633,"text":"That gives us the area of this blue sheet.","label":[],"Comments":[]}
+{"id":3634,"text":"If it's not, you might want to review the definite integration videos.","label":[],"Comments":[]}
+{"id":3635,"text":"But hopefully, you'll now see the parallel of how we extend this to taking the volume under a surface.","label":[],"Comments":[]}
+{"id":3636,"text":"And I think you're going to find out that actually calculating the volumes are pretty straightforward, especially when you have fixed <EXPRESSION> and <EXPRESSION> bounds.","label":[[134,146,"expression"],[151,163,"expression"]],"Comments":[]}
+{"id":3637,"text":"That's my z-axis.","label":[],"Comments":[]}
+{"id":3638,"text":"<EXPRESSION> is a function of <EXPRESSION> and <EXPRESSION>.","label":[[0,12,"expression"],[30,42,"expression"],[47,59,"expression"]],"Comments":[]}
+{"id":3639,"text":"A constant <EXPRESSION>, a line like that.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":3640,"text":"So let me just show you what a surface looks like, in case you don't remember.","label":[],"Comments":[]}
+{"id":3641,"text":"So what would be the volume of that sliver? The volume of that sliver will be this function of <EXPRESSION>, or <EXPRESSION>.","label":[[95,107,"expression"],[112,124,"expression"]],"Comments":[]}
+{"id":3642,"text":"Give me an <EXPRESSION> and I'll give you a <EXPRESSION>.","label":[[11,23,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":3643,"text":"If we have a constant <EXPRESSION>, it would be a line like that.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":3644,"text":"This would give us an expression so that I would know the area of this kind of sliver of the volume, for any given value of <EXPRESSION>.","label":[[124,136,"expression"]],"Comments":[]}
+{"id":3645,"text":"If I pick a <EXPRESSION> there, it'll be a different area.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":3646,"text":"I'll just draw something.","label":[],"Comments":[]}
+{"id":3647,"text":"OK.","label":[],"Comments":[]}
+{"id":3648,"text":"So far, we've used integrals to figure out the area under a curve.","label":[],"Comments":[]}
+{"id":3649,"text":"That's the intuition behind the definite integral.","label":[],"Comments":[]}
+{"id":3650,"text":"If I wanted to figure out the area under this curve, between, let's say, <EQUATION> and <EQUATION>.","label":[[73,83,"equation"],[88,98,"equation"]],"Comments":[]}
+{"id":3651,"text":"So <EXPRESSION>, a very small change in <EXPRESSION>.","label":[[3,15,"expression"],[40,52,"expression"]],"Comments":[]}
+{"id":3652,"text":"That's my y-axis.","label":[],"Comments":[]}
+{"id":3653,"text":"But if I have some function this is the <EXPRESSION> plane, that's the x-axis, that's the y-axis and I have some function.","label":[[40,52,"expression"]],"Comments":[]}
+{"id":3654,"text":"And then if we integrated it, from <EQUATION>, which was back here, all the way to <EQUATION>, what would it look like? It would look like that.","label":[[35,45,"equation"],[83,93,"equation"]],"Comments":[]}
+{"id":3655,"text":"So let's make a square bound first, because this keeps it a lot simpler.","label":[],"Comments":[]}
+{"id":3656,"text":"Say, here, I'll put it into the function and it'll give us a <EXPRESSION> value now.","label":[[61,73,"expression"]],"Comments":[]}
+{"id":3657,"text":"And let's just review a little bit of the intuition, although this should hopefully be second nature to you at this point.","label":[],"Comments":[]}
+{"id":3658,"text":"And if we wanted to take the sum of all of these rectangles right? There's just going to be a bunch of them.","label":[],"Comments":[]}
+{"id":3659,"text":"I'm making that that little cut that I took the area of by making it three dimensional.","label":[],"Comments":[]}
+{"id":3660,"text":"So this is what we're going to try to figure out the volume of.","label":[],"Comments":[]}
+{"id":3661,"text":"If you give me a <EXPRESSION>, I can tell you the area of the sliver that corresponds to that <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":3662,"text":"Now our domain is the <EXPRESSION> plane.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":3663,"text":"Now what could I do? If I know the area of any given sliver, what if I multiply the area of that sliver times <EXPRESSION>? This is a <EXPRESSION>.","label":[[110,122,"expression"],[134,146,"expression"]],"Comments":[]}
+{"id":3664,"text":"And this would actually give us a function of <EXPRESSION>.","label":[[46,58,"expression"]],"Comments":[]}
+{"id":3665,"text":"It's going to be <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":3666,"text":"And then we have the area in between it.","label":[],"Comments":[]}
+{"id":3667,"text":"And the sum, or the areas that we're summing up, are going to be the height is <EXPRESSION>, and the width is <EXPRESSION>.","label":[[110,122,"expression"]],"Comments":[]}
+{"id":3668,"text":"But let's just call the base of this rectangle <EXPRESSION>.","label":[[47,59,"expression"]],"Comments":[]}
+{"id":3669,"text":"We're going to take the sums of these rectangles, from <EQUATION>, to <EQUATION>.","label":[[55,65,"equation"],[70,80,"equation"]],"Comments":[]}
+{"id":3670,"text":"And we'll actually figure out the volume under this surface.","label":[],"Comments":[]}
+{"id":3671,"text":"So let's say I had some sliver.","label":[],"Comments":[]}
+{"id":3672,"text":"And then the height is going to be a function of the <EXPRESSION> I have and the <EXPRESSION> I picked.","label":[[53,65,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":3673,"text":"And we have to specify bounds, right? From here, we said <EQUATION>, to <EQUATION>.","label":[[57,67,"equation"],[72,82,"equation"]],"Comments":[]}
+{"id":3674,"text":"So we want to make them infinitely small.","label":[],"Comments":[]}
+{"id":3675,"text":"So how do we figure out the volume under a surface like this? How do we figure out the volume? It seems like a bit of a stretch, given what we've learned from this.","label":[],"Comments":[]}
+{"id":3676,"text":"So this is the <EXPRESSION> direction, this is the <EXPRESSION> direction.","label":[[15,27,"expression"],[51,63,"expression"]],"Comments":[]}
+{"id":3677,"text":"But for some constant <EXPRESSION>, what if I could just figure out the area under the curve there? How would I figure out just the area under that curve? It'll be a function of which y I pick, right? Because if I pick a <EXPRESSION> here, it'll be a different area.","label":[[22,34,"expression"],[221,233,"expression"]],"Comments":[]}
+{"id":3678,"text":"And that's just a little bit of review.","label":[],"Comments":[]}
+{"id":3679,"text":"So let's say that the domain or the region not the domain the region of the <EXPRESSION> and <EXPRESSION> region of this part of the surface under which we want to calculate the volume.","label":[[76,88,"expression"],[93,105,"expression"]],"Comments":[]}
+{"id":3680,"text":"And then it'll pop out another number, and if we wanted to graph it, it'll be our height.","label":[],"Comments":[]}
+{"id":3681,"text":"So we can write a surface as, instead of <EXPRESSION> is a function of <EXPRESSION> I'm sorry.","label":[[41,53,"expression"],[71,83,"expression"]],"Comments":[]}
+{"id":3682,"text":"If I multiplied this area times a small <EXPRESSION>, then all of a sudden I have a sliver of volume.","label":[[40,52,"expression"]],"Comments":[]}
+{"id":3683,"text":"But anyway, I didn't want to confuse you.","label":[],"Comments":[]}
+{"id":3684,"text":"It depends which <EXPRESSION> and <EXPRESSION> we pick down here.","label":[[17,29,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":3685,"text":"I don't practice these videos ahead of time, so I'm often wondering what I'm about to draw.","label":[],"Comments":[]}
+{"id":3686,"text":"<EXPRESSION> is going from <EXPRESSION> to <EXPRESSION>.","label":[[0,12,"expression"],[27,39,"expression"],[43,55,"expression"]],"Comments":[]}
+{"id":3687,"text":"And so that could be the height of a surface.","label":[],"Comments":[]}
+{"id":3688,"text":"And then the height of this rectangle is going to be <EXPRESSION>, at that point.","label":[[53,65,"expression"]],"Comments":[]}
+{"id":3689,"text":"But that's the intuition of what we're going to do.","label":[],"Comments":[]}
+{"id":3690,"text":"Where you could review that's maybe <EXPRESSION> of the rectangles.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":3691,"text":"This little area that I'm shading right here gets depth of that sheet.","label":[],"Comments":[]}
+{"id":3692,"text":"I could have my <EXPRESSION> let me pick a vibrant color so you can see it.","label":[[16,28,"expression"]],"Comments":[]}
+{"id":3693,"text":"It gets some depth.","label":[],"Comments":[]}
+{"id":3694,"text":"Let's see, that's my x-axis.","label":[],"Comments":[]}
+{"id":3695,"text":"One there, one there.","label":[],"Comments":[]}
+{"id":3696,"text":"Let's say that this is <EXPRESSION> = I don't know, that's <EQUATION>.","label":[[23,35,"expression"],[59,69,"equation"]],"Comments":[]}
+{"id":3697,"text":"Well, the area of the rectangle is just base times height, right? Well, we're going to make these rectangles really skinny and just sum up an infinite number of them.","label":[],"Comments":[]}
+{"id":3698,"text":"Well, it would be we said the height of each of these rectangles is <EXPRESSION>, right? That's the height.","label":[[68,80,"expression"]],"Comments":[]}
+{"id":3699,"text":"I just want to give you the intuition.","label":[],"Comments":[]}
+{"id":3700,"text":"I don't know what that is.","label":[],"Comments":[]}
+{"id":3701,"text":"Let me try my best to draw this neatly.","label":[],"Comments":[]}
+{"id":3702,"text":"This is our surface.","label":[],"Comments":[]}
+{"id":3703,"text":"And then its width is going to be <EXPRESSION>.","label":[[34,46,"expression"]],"Comments":[]}
+{"id":3704,"text":"But I could view this now as a very similar problem to this one up here.","label":[],"Comments":[]}
+{"id":3705,"text":"Let me do it in a vibrant color.","label":[],"Comments":[]}
+{"id":3706,"text":"I don't know what it is.","label":[],"Comments":[]}
+{"id":3707,"text":"What I do is, I split it up into a bunch of columns or a bunch of rectangles.","label":[],"Comments":[]}
+{"id":3708,"text":"It's an arbitrary <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":3709,"text":"You know, let's say.","label":[],"Comments":[]}
+{"id":3710,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":3711,"text":"So this is a surface.","label":[],"Comments":[]}
+{"id":3712,"text":"Let's say we had a constant <EXPRESSION>.","label":[[28,40,"expression"]],"Comments":[]}
+{"id":3713,"text":"It's going to be <EXPRESSION> of if this is <EXPRESSION>, or whatever, you can just call it <EXPRESSION>, right? That's the height of that rectangle.","label":[[17,29,"expression"],[44,56,"expression"],[92,104,"expression"]],"Comments":[]}
+{"id":3714,"text":"So that's <EXPRESSION>, that's <EXPRESSION>, and that's <EXPRESSION>.","label":[[10,22,"expression"],[31,43,"expression"],[56,68,"expression"]],"Comments":[]}
+{"id":3715,"text":"It's part of it's a sheet of paper within this volume, you can kind of view it.","label":[],"Comments":[]}
+{"id":3716,"text":"And that's what we're going to do in the next video.","label":[],"Comments":[]}
+{"id":3717,"text":"So how do we figure out the volume under this? Well, if I just wanted to figure out the area of let's just say, this sliver.","label":[],"Comments":[]}
+{"id":3718,"text":"And I'll plot it there and it'll be a point on the surface.","label":[],"Comments":[]}
+{"id":3719,"text":"So this is the area I want to figure out.","label":[],"Comments":[]}
+{"id":3720,"text":"Then we'll get the area, and if we have infinite number of these rectangles, and they're infinitely skinny, we have exactly the area under that curve.","label":[],"Comments":[]}
+{"id":3721,"text":"I don't want to confuse you.","label":[],"Comments":[]}
+{"id":3722,"text":"Hopefully that makes some sense.","label":[],"Comments":[]}
+{"id":3723,"text":"We can give any <EXPRESSION> and any <EXPRESSION> and we'll just deal with the reals right now, I don't want to get too technical.","label":[[16,28,"expression"],[37,49,"expression"]],"Comments":[]}
+{"id":3724,"text":"Instead of saying that <EXPRESSION> is a function of <EXPRESSION>, we can write a surface as <EQUATION>.","label":[[23,35,"expression"],[53,65,"expression"],[93,103,"equation"]],"Comments":[]}
+{"id":3725,"text":"And let's say I have some surface.","label":[],"Comments":[]}
+{"id":3726,"text":"So what we want to figure out is the volume under the surface.","label":[],"Comments":[]}
+{"id":3727,"text":"Although I'm assuming, to some degree, that that's a constant <EXPRESSION>.","label":[[62,74,"expression"]],"Comments":[]}
+{"id":3728,"text":"And the height is a function of where we are in the <EXPRESSION> plane.","label":[[52,64,"expression"]],"Comments":[]}
+{"id":3729,"text":"I'll tell you its function in a second, but it's pretty neat to look at.","label":[],"Comments":[]}
+{"id":3730,"text":"So, for example, you give me a coordinate in the <EXPRESSION> plane.","label":[[49,61,"expression"]],"Comments":[]}
+{"id":3731,"text":"So what would be the area of this sheet of paper? It's kind of a constant <EXPRESSION>.","label":[[74,86,"expression"]],"Comments":[]}
+{"id":3732,"text":"Now if I added all of those sheets that now have depth, if I took the infinite sum so if I took the integral of this from my lower <EXPRESSION> bound from <EXPRESSION> to my upper <EXPRESSION> bound, <EXPRESSION>, then at least based on our intuition here maybe I will have figured out the volume under this surface.","label":[[131,143,"expression"],[155,167,"expression"],[180,192,"expression"],[200,212,"expression"]],"Comments":[]}
+{"id":3733,"text":"See you soon.","label":[],"Comments":[]}
+{"id":3734,"text":"Let's say that's <EXPRESSION>, right? That's a change in <EXPRESSION>.","label":[[17,29,"expression"],[57,69,"expression"]],"Comments":[]}
+{"id":3735,"text":"So first of all, what is a surface? Well, if we're thinking in <EXPRESSION> dimensions, a surface is going to be a function of <EXPRESSION> and <EXPRESSION>.","label":[[63,75,"expression"],[127,139,"expression"],[144,156,"expression"]],"Comments":[]}
+{"id":3736,"text":"But as you can see, it's a server.","label":[],"Comments":[]}
+{"id":3737,"text":"Let's see, let me rotate it to its traditional form.","label":[],"Comments":[]}
+{"id":3738,"text":"Right? The domain is all of the set of valid things that you can input into a function.","label":[],"Comments":[]}
+{"id":3739,"text":"What are the bounds? You can almost view what are the bounds of the domain? Well, let's say that this point let's say that this right here, that's <EXPRESSION>, <EXPRESSION> in the <EXPRESSION> plane.","label":[[147,159,"expression"],[161,173,"expression"],[181,193,"expression"]],"Comments":[]}
+{"id":3740,"text":"Let's say, the shadow if the sun was right above the surface, the shadow would be right there.","label":[],"Comments":[]}
+{"id":3741,"text":"It's like a piece of paper that's bent.","label":[],"Comments":[]}
+{"id":3742,"text":"Now if I multiply this whole thing times <EXPRESSION>, I get this volume.","label":[[41,53,"expression"]],"Comments":[]}
+{"id":3743,"text":"And let's say that this line right here is <EQUATION>.","label":[[43,53,"equation"]],"Comments":[]}
+{"id":3744,"text":"Where let me draw one of those rectangles where you could view and there's different ways to do this, but this is just a review.","label":[],"Comments":[]}
+{"id":3745,"text":"And let's say so, if we wanted to draw it in the <EXPRESSION> plane, like you can kind of view the projection of the surface of the <EXPRESSION> plane, or the shadow of the surface of the <EXPRESSION> plane.","label":[[49,61,"expression"],[132,144,"expression"],[188,200,"expression"]],"Comments":[]}
+{"id":3746,"text":"Fair enough.","label":[],"Comments":[]}
+{"id":3747,"text":"Hope you get that, right? This is the <EXPRESSION> plane.","label":[[38,50,"expression"]],"Comments":[]}

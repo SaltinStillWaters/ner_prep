@@ -1,0 +1,89 @@
+{"id":3034,"text":"But a common mnemonic to remember the operation of diverge and is to write the upside down triangle, which was the same notation we used for gradient, but take the dot product of that and the vector.","label":[],"Comments":[]}
+{"id":3035,"text":"If I have a particle here, it's velocity in the x-direction is going to be <EXPRESSION> to the right.","label":[[75,87,"expression"]],"Comments":[]}
+{"id":3036,"text":"When you take the divergence of something, you're going in the opposite direction, in some ways.","label":[],"Comments":[]}
+{"id":3037,"text":"And when <EQUATION> I could have picked any points, but I'm just picking the numbers that's easy to calculate when <EQUATION>, what is the magnitude of the vector? It's <EXPRESSION>, which is <EXPRESSION>.","label":[[9,19,"equation"],[115,125,"equation"],[169,181,"expression"],[192,204,"expression"]],"Comments":[]}
+{"id":3038,"text":"Or we can even, let's do it in two dimensions, but I'll make it constant in the <EXPRESSION>.","label":[[80,92,"expression"]],"Comments":[]}
+{"id":3039,"text":"And then its velocity in the y-direction, I don't know maybe it's just <EXPRESSION>.","label":[[71,83,"expression"]],"Comments":[]}
+{"id":3040,"text":"You start with the vector field, right? And what's a factor field? It's something that if you give me any point <EXPRESSION> and <EXPRESSION>, I'll give you a vector.","label":[[112,124,"expression"],[129,141,"expression"]],"Comments":[]}
+{"id":3041,"text":"And then if we went to three dimensions, the partial derivative with respect to <EXPRESSION> and the k-direction, et cetera, et cetera.","label":[[80,92,"expression"]],"Comments":[]}
+{"id":3042,"text":"Well, what's the derivative of this with respect to <EXPRESSION>? If <EXPRESSION> is just a constant, <EXPRESSION> is just a number.","label":[[52,64,"expression"],[69,81,"expression"],[102,114,"expression"]],"Comments":[]}
+{"id":3043,"text":"OK, oh, I didn't want to do that dot.","label":[],"Comments":[]}
+{"id":3044,"text":"So for any <EXPRESSION>, the magnitude of the vector doesn't change, right? It's only dependent on <EXPRESSION>.","label":[[11,23,"expression"],[99,111,"expression"]],"Comments":[]}
+{"id":3045,"text":"So it's going to be twice as big.","label":[],"Comments":[]}
+{"id":3046,"text":"So its velocity in the x-direction is actually a function of <EXPRESSION> and <EXPRESSION>.","label":[[61,73,"expression"],[78,90,"expression"]],"Comments":[]}
+{"id":3047,"text":"Let me do it in one dimension.","label":[],"Comments":[]}
+{"id":3048,"text":"And let's say this vector field, just for the purposes of visualization it could be anything, but let's say it represents the velocity of particles of fluid of any point in two dimensions.","label":[],"Comments":[]}
+{"id":3049,"text":"And remember, if I have a particle right here in my fluid, if this is a particle, its velocity in the x-direction is going to be 1 meter per second to the right.","label":[],"Comments":[]}
+{"id":3050,"text":"And so that is the divergence.","label":[],"Comments":[]}
+{"id":3051,"text":"So the derivative of <EXPRESSION>, <EXPRESSION> with respect to <EXPRESSION> is just <EXPRESSION>.","label":[[21,33,"expression"],[35,47,"expression"],[64,76,"expression"],[85,97,"expression"]],"Comments":[]}
+{"id":3052,"text":"So at any point in the x-direction, at any point <EXPRESSION> comma <EXPRESSION>, its velocity in the x-direction will be <EXPRESSION>.","label":[[49,61,"expression"],[68,80,"expression"],[122,134,"expression"]],"Comments":[]}
+{"id":3053,"text":"So this is the divergence at a point <EXPRESSION>, <EXPRESSION>.","label":[[37,49,"expression"],[51,63,"expression"]],"Comments":[]}
+{"id":3054,"text":"So the derivative of this with respect to <EXPRESSION> is just <EXPRESSION> plus what's the derivative of this with respect to <EXPRESSION>? Well, you could just do <EXPRESSION>, since it's a constant, as the coefficient on <EXPRESSION>.","label":[[42,54,"expression"],[63,75,"expression"],[127,139,"expression"],[165,177,"expression"],[224,236,"expression"]],"Comments":[]}
+{"id":3055,"text":"The correct way to write it is the divergence of our vector field, <EXPRESSION>.","label":[[67,79,"expression"]],"Comments":[]}
+{"id":3056,"text":"So then oh, that's difficult because I have these <EXPRESSION> and these <EXPRESSION>.","label":[[50,62,"expression"],[73,85,"expression"]],"Comments":[]}
+{"id":3057,"text":"And then the derivative of <EXPRESSION> is <EXPRESSION>.","label":[[27,39,"expression"],[43,55,"expression"]],"Comments":[]}
+{"id":3058,"text":"It's going to be a function of <EXPRESSION> and <EXPRESSION>, so the velocity at any point it's a vector field let's say it is, and I'm just going to make up something.","label":[[31,43,"expression"],[48,60,"expression"]],"Comments":[]}
+{"id":3059,"text":"So first, like I did with gradients, I'll show you the mechanics, which are actually pretty straightforward.","label":[],"Comments":[]}
+{"id":3060,"text":"So there's never a y component to the velocity vector.","label":[],"Comments":[]}
+{"id":3061,"text":"And then for example, here, it'll be even longer.","label":[],"Comments":[]}
+{"id":3062,"text":"Let's say it's <EXPRESSION>.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":3063,"text":"What's the partial derivative of this with respect to <EXPRESSION>? We just pretended y is a constant, just a number, so the derivative of this with respect to <EXPRESSION>, would be <EXPRESSION>.","label":[[54,66,"expression"],[160,172,"expression"],[183,195,"expression"]],"Comments":[]}
+{"id":3064,"text":"So if you took the dot product of that and that, it would be the partial derivative with respect to <EXPRESSION> of that expression, of <EXPRESSION>, <EXPRESSION> and then plus the partial derivative with respect to <EXPRESSION> of that second expression, the <EXPRESSION> component of <EXPRESSION>, and then you would evaluate it.","label":[[100,112,"expression"],[136,148,"expression"],[150,162,"expression"],[216,228,"expression"],[260,272,"expression"],[286,298,"expression"]],"Comments":[]}
+{"id":3065,"text":"OK let's say the velocity of fluid, or the particles in fluid, at any point in the <EXPRESSION>, <EXPRESSION> plane, let's say it = <EXPRESSION> plus, I don't know, <EXPRESSION> there's never any, sorry <EXPRESSION>, right? <EXPRESSION> is the unit vector in the y-direction.","label":[[83,95,"expression"],[97,109,"expression"],[132,144,"expression"],[165,177,"expression"],[203,215,"expression"],[224,236,"expression"]],"Comments":[]}
+{"id":3066,"text":"You just take the partial derivative of the <EXPRESSION> component with respect to <EXPRESSION>, and you add that to the partial derivative to the y component with respect to <EXPRESSION>.","label":[[44,56,"expression"],[83,95,"expression"],[175,187,"expression"]],"Comments":[]}
+{"id":3067,"text":"Let's make this <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
+{"id":3068,"text":"And then I'll try to give you the intuition.","label":[],"Comments":[]}
+{"id":3069,"text":"So let's see what divergence is.","label":[],"Comments":[]}
+{"id":3070,"text":"So now let's try to get a little bit of intuition.","label":[],"Comments":[]}
+{"id":3071,"text":"Let's say I have a vector field.","label":[],"Comments":[]}
+{"id":3072,"text":"So what would that look like? I don't need a computer to draw this.","label":[],"Comments":[]}
+{"id":3073,"text":"It has no <EXPRESSION> component; ignore this right here.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":3074,"text":"One thing to immediately realize, even before we work on the intuition, is when we did gradient I gave you a surface and it gave us a vector field.","label":[],"Comments":[]}
+{"id":3075,"text":"I can handle this one myself I think.","label":[],"Comments":[]}
+{"id":3076,"text":"So let's say that <EQUATION>.","label":[[18,28,"equation"]],"Comments":[]}
+{"id":3077,"text":"But we'll see; if you just keep your head straight on what's constant and what's not, it's not too bad.","label":[],"Comments":[]}
+{"id":3078,"text":"Or I gave you a scalar field and you got a vector field.","label":[],"Comments":[]}
+{"id":3079,"text":"Let's just do one more point.","label":[],"Comments":[]}
+{"id":3080,"text":"That we just have an expression that if you give me a point anywhere in this vector field, I can tell you the divergence at that point.","label":[],"Comments":[]}
+{"id":3081,"text":"So I think you'll find that the computation of divergence isn't too difficult.","label":[],"Comments":[]}
+{"id":3082,"text":"So if you wanted to graph it, in the <EXPRESSION>, <EXPRESSION> plane you'd have a bunch of vectors, and I'll show you how that looks in a second when we go over to intuition.","label":[[37,49,"expression"],[51,63,"expression"]],"Comments":[]}
+{"id":3083,"text":"Actually, let me do just do one more just hit the point home, and then we'll work on intuition.","label":[],"Comments":[]}
+{"id":3084,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":3085,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":3086,"text":"I think you get the point.","label":[],"Comments":[]}
+{"id":3087,"text":"I just did the chain rule.","label":[],"Comments":[]}
+{"id":3088,"text":"So when <EXPRESSION> is = I'll just sample some points and draw some vectors when <EQUATION> let's say <EXPRESSION> is <EXPRESSION> there what's the magnitude of this vector? It'll be <EXPRESSION>, right? Actually, let me make this a different number, because it'll make it hard to do.","label":[[8,20,"expression"],[82,92,"equation"],[103,115,"expression"],[119,131,"expression"],[184,196,"expression"]],"Comments":[]}
+{"id":3089,"text":"That's its velocity in the x-direction.","label":[],"Comments":[]}
+{"id":3090,"text":"Well, when you take the divergence of it, you get a value for any point <EXPRESSION>, <EXPRESSION>.","label":[[72,84,"expression"],[86,98,"expression"]],"Comments":[]}
+{"id":3091,"text":"There's going to be <EQUATION>; it's going to be even longer.","label":[[20,30,"equation"]],"Comments":[]}
+{"id":3092,"text":"So let's say that my let me erase this; I'll probably need some space.","label":[],"Comments":[]}
+{"id":3093,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":3094,"text":"But we're dealing with a two-dimensional vector here, so let's just stick with two dimensions, <EXPRESSION> and <EXPRESSION>.","label":[[95,107,"expression"],[112,124,"expression"]],"Comments":[]}
+{"id":3095,"text":"So it's going to be a two-dimensional vector field.","label":[],"Comments":[]}
+{"id":3096,"text":"So if I said that I had, I don't know, let's say, my vector field is <EXPRESSION> plus so it's interesting; my x-direction is dependent on my y-coordinate plus, I don't know, <EXPRESSION>.","label":[[69,81,"expression"],[175,187,"expression"]],"Comments":[]}
+{"id":3097,"text":"Only in the x-direction.","label":[],"Comments":[]}
+{"id":3098,"text":"So what would this turn out to be? If you took the dot product of this, which is this upside down triangle, with this vector field, what would you get? Well, you would just get the partial derivative of the <EXPRESSION> dimension with respect to <EXPRESSION>, so you would get it's actually pretty straight forward to memorize; you might not even need this mnemonic right here, this abuse of notation; you might just know it off hand the <EXPRESSION> component, you take the partial derivative with respect to <EXPRESSION>, and the <EXPRESSION> component, you take the partial derivative with respect to <EXPRESSION>.","label":[[207,219,"expression"],[246,258,"expression"],[510,522,"expression"],[532,544,"expression"],[604,616,"expression"]],"Comments":[]}
+{"id":3099,"text":"What's my velocity to the right? I'll do it in a different color just so that you don't get confused.","label":[],"Comments":[]}
+{"id":3100,"text":"The further you go to the right, the faster the particles are moving towards the right.","label":[],"Comments":[]}
+{"id":3101,"text":"So it'll be <EXPRESSION> plus what's the partial derivative of <EXPRESSION> with respect to <EXPRESSION>? Well, there's nothing else to hold constant, so it's just like taking the derivative with respect to <EXPRESSION> so it's <EXPRESSION>.","label":[[12,24,"expression"],[63,75,"expression"],[92,104,"expression"],[207,219,"expression"],[228,240,"expression"]],"Comments":[]}
+{"id":3102,"text":"But it once you get it, you're like oh, that's it.","label":[],"Comments":[]}
+{"id":3103,"text":"You could almost view it as a function of <EXPRESSION> and <EXPRESSION>.","label":[[42,54,"expression"],[59,71,"expression"]],"Comments":[]}
+{"id":3104,"text":"So if that's the y-axis, that's my x-axis.","label":[],"Comments":[]}
+{"id":3105,"text":"And once you have the intuition, at first it will seemed very, I don't know, unintuitive, maybe.","label":[],"Comments":[]}
+{"id":3106,"text":"So even though a vector field has all these vectors on it, the divergence tells you an actual scalar number at any point in the field.","label":[],"Comments":[]}
+{"id":3107,"text":"So you could just ignore this.","label":[],"Comments":[]}
+{"id":3108,"text":"Let's try to get our heads around the idea of divergence.","label":[],"Comments":[]}
+{"id":3109,"text":"So the divergence of <EQUATION>.","label":[[21,31,"equation"]],"Comments":[]}
+{"id":3110,"text":"But I'll show you why it looks like the dot product.","label":[],"Comments":[]}
+{"id":3111,"text":"So what is the divergence? So a couple of ways we can write it.","label":[],"Comments":[]}
+{"id":3112,"text":"its velocity in the y-direction is just a function of <EXPRESSION>.","label":[[54,66,"expression"]],"Comments":[]}
+{"id":3113,"text":"So let's get a little bit of intuition of what a divergence actually is.","label":[],"Comments":[]}
+{"id":3114,"text":"And if you had the <EXPRESSION>, you would do the same thing, so on and so forth.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":3115,"text":"So when <EXPRESSION> is <EXPRESSION>, the magnitude of my vector is <EXPRESSION>.","label":[[8,20,"expression"],[24,36,"expression"],[68,80,"expression"]],"Comments":[]}
+{"id":3116,"text":"Oh, I just realized that I ran out of time, so I will continue this in the next video.","label":[],"Comments":[]}
+{"id":3117,"text":"And if you remember from the gradient discussion, we said that you can view, although it's kind of an abuse of notation, but you could view this upside down triangle as being = the partial derivative with respect to <EXPRESSION> in the x-direction plus the partial derivative with respect to <EXPRESSION> in the y-direction, which is the j-unit vector.","label":[[216,228,"expression"],[292,304,"expression"]],"Comments":[]}
+{"id":3118,"text":"But the general idea here, and as we move up in <EXPRESSION> it doesn't change much, right? It doesn't change at all.","label":[[48,60,"expression"]],"Comments":[]}
+{"id":3119,"text":"Or you could just say <EXPRESSION>.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":3120,"text":"Our <EXPRESSION> value doesn't [COUGHS].","label":[[4,16,"expression"]],"Comments":[]}
+{"id":3121,"text":"If we draw the vector here it'll be even longer, right? If you do it here.","label":[],"Comments":[]}
+{"id":3122,"text":"So you could almost say you know, that the divergence of <EXPRESSION> I'm going to make up some notation here as long as you get the point across, you can say that the divergence of <EXPRESSION>, that this is a function of <EXPRESSION> and <EXPRESSION>.","label":[[57,69,"expression"],[182,194,"expression"],[223,235,"expression"],[240,252,"expression"]],"Comments":[]}

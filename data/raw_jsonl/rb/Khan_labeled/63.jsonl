@@ -1,0 +1,89 @@
+{"id":4109,"text":"So this is <EXPRESSION> and then I would take the derivative of <EXPRESSION>.","label":[[11,23,"expression"],[64,76,"expression"]],"Comments":[]}
+{"id":4110,"text":"The anti-derivative of this function is once again just <EXPRESSION> and then f times that function unchanged time <EXPRESSION>.","label":[[56,68,"expression"],[115,127,"expression"]],"Comments":[]}
+{"id":4111,"text":"Although we could do this problem the other way.","label":[],"Comments":[]}
+{"id":4112,"text":"So this is the original problem, <EXPRESSION> =, and now let me switch back to this color, it = <EXPRESSION>, and then I can just this parentheses doesn't matter because I'm just adding everything in the parentheses <EXPRESSION>.","label":[[33,45,"expression"],[96,108,"expression"],[216,228,"expression"]],"Comments":[]}
+{"id":4113,"text":"I should actually do some integration by parts problems without <EXPRESSION>.","label":[[64,76,"expression"]],"Comments":[]}
+{"id":4114,"text":"Let's take integration by parts again, see what happens.","label":[],"Comments":[]}
+{"id":4115,"text":"Which = <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":4116,"text":"Let's take the integral of <EXPRESSION> you probably never heard of someone call a math problem a classic, but hopefully I will instill in you this love for mathematics and you will also consider this to be a classic problem.","label":[[27,39,"expression"]],"Comments":[]}
+{"id":4117,"text":"Which doesn't really make a difference because whenever I take the anti-derivative of it to <EXPRESSION>, it stays the same.","label":[],"Comments":[]}
+{"id":4118,"text":"If this is <EXPRESSION>, what's <EXPRESSION>.","label":[[11,23,"expression"],[32,44,"expression"]],"Comments":[]}
+{"id":4119,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":4120,"text":"So integration by parts, as we take the original functions, <EXPRESSION> and <EXPRESSION>.","label":[],"Comments":[]}
+{"id":4121,"text":"I think it's just a fun problem to see because one, it's the example a lot of people use, sometimes even a trick problem that's given on a really hard math exam, or if you go to calculus competitions like I used to in high school.","label":[],"Comments":[]}
+{"id":4122,"text":"It seems like I just keep adding terms, making it more and more complicated.","label":[],"Comments":[]}
+{"id":4123,"text":"It's just use <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":4124,"text":"So let me write it out, this is very exciting, it's the home stretch.","label":[],"Comments":[]}
+{"id":4125,"text":"The same thing happens when you take the anti-derivative.","label":[],"Comments":[]}
+{"id":4126,"text":"So this is derivative.","label":[],"Comments":[]}
+{"id":4127,"text":"Hopefully I haven't confused you too much.","label":[],"Comments":[]}
+{"id":4128,"text":"And what I also think is cool is even if you just look at this solution, it's kind of neat, right? The anti-derivative of <EXPRESSION> and actually never forget the plus <EXPRESSION>, that would've given me minus <EXPRESSION> point on the exam.","label":[[122,134,"expression"],[170,182,"expression"],[213,225,"expression"]],"Comments":[]}
+{"id":4129,"text":"So I get the <EQUATION>.","label":[[13,23,"equation"]],"Comments":[]}
+{"id":4130,"text":"That <EXPRESSION> is <EXPRESSION>, because <EXPRESSION> literally doesn't change.","label":[[5,17,"expression"],[21,33,"expression"],[43,55,"expression"]],"Comments":[]}
+{"id":4131,"text":"Then I want to subtract the indefinite integral of <EXPRESSION>.","label":[[51,63,"expression"]],"Comments":[]}
+{"id":4132,"text":"I think you might already see where I'm going with this, because these are both fun functions, because <EXPRESSION> you can take the derivative, you could take the anti-derivative and it still stays <EXPRESSION>.","label":[[103,115,"expression"],[199,211,"expression"]],"Comments":[]}
+{"id":4133,"text":"I'm now going to do it integration by parts problems.","label":[],"Comments":[]}
+{"id":4134,"text":"I actually took the anti-derivative of it, but it's the same exact thing.","label":[],"Comments":[]}
+{"id":4135,"text":"I think that's a pretty neat property, and you might want to graph them and play with them, but it's kind of neat.","label":[],"Comments":[]}
+{"id":4136,"text":"What's the anti-derivative of <EXPRESSION>.","label":[[30,42,"expression"]],"Comments":[]}
+{"id":4137,"text":"This is the same as this, which are both the anti-derivative of this, although they are all the same.","label":[],"Comments":[]}
+{"id":4138,"text":"What's the derivative of <EXPRESSION>? It's <EXPRESSION>.","label":[[25,37,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":4139,"text":"We actually never even have to evaluate this integral.","label":[],"Comments":[]}
+{"id":4140,"text":"Let's see if we're getting anywhere.","label":[],"Comments":[]}
+{"id":4141,"text":"One, <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":4142,"text":"Maybe I'll experiment doing it the other way.","label":[],"Comments":[]}
+{"id":4143,"text":"I know it's really messy.","label":[],"Comments":[]}
+{"id":4144,"text":"If you take <EXPRESSION> anti-derivatives you get back to the negative of itself.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":4145,"text":"What's the derivative of <EXPRESSION>? It's <EXPRESSION>.","label":[[25,37,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":4146,"text":"And if you take <EXPRESSION> derivatives, you get back to the negative of itself.","label":[[16,28,"expression"]],"Comments":[]}
+{"id":4147,"text":"Let me use a new color.","label":[],"Comments":[]}
+{"id":4148,"text":"It's also a pretty cool function and I think you can start to see how integration by parts might be cool here.","label":[],"Comments":[]}
+{"id":4149,"text":"I'm going to switch colors, I don't like this blue.","label":[],"Comments":[]}
+{"id":4150,"text":"I could put the minus here, that'll make it look messy, I could put the minus here that'll make it messy or I could just put minus here and make these minuses cancel out and I get a plus here.","label":[],"Comments":[]}
+{"id":4151,"text":"I think that's pretty neat.","label":[],"Comments":[]}
+{"id":4152,"text":"This is <EXPRESSION>, this is <EXPRESSION>.","label":[[8,20,"expression"],[30,42,"expression"]],"Comments":[]}
+{"id":4153,"text":"So let's say we want to take the integral it's a bit of a classic.","label":[],"Comments":[]}
+{"id":4154,"text":"What's kind of cool, <EXPRESSION> is this expression that's <EXPRESSION>.","label":[[21,33,"expression"],[60,72,"expression"]],"Comments":[]}
+{"id":4155,"text":"I'm just going to write this first part <EXPRESSION> plus and now let's do integration by parts again.","label":[[40,52,"expression"]],"Comments":[]}
+{"id":4156,"text":"This is the same thing as this, just a minus right? So we're going to do something what I think to be fairly cool.","label":[],"Comments":[]}
+{"id":4157,"text":"So <EXPRESSION>, it's <EXPRESSION>.","label":[[3,15,"expression"],[22,34,"expression"]],"Comments":[]}
+{"id":4158,"text":"This is the anti-derivative.","label":[],"Comments":[]}
+{"id":4159,"text":"But anyway, this is just a fun integration by parts problem because you actually never have to evaluate the final integral.","label":[],"Comments":[]}
+{"id":4160,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":4161,"text":"Hopefully I have convinced you that is a classic of a problem, and you also find it neat, and I'll see you in the next presentation.","label":[],"Comments":[]}
+{"id":4162,"text":"Not to make myself too I was actually not that geeky as a high school student, but I have to admit, I was a mathlete.","label":[],"Comments":[]}
+{"id":4163,"text":"And you can think about why that happened, right? Because these trick functions cycle.","label":[],"Comments":[]}
+{"id":4164,"text":"It's not as cool as <EXPRESSION>, it doesn't stay exactly the same, but it kind of cycles.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":4165,"text":"So we had to do integration by parts twice to get back to where we were before.","label":[],"Comments":[]}
+{"id":4166,"text":"See anything interesting? Exactly.","label":[],"Comments":[]}
+{"id":4167,"text":"Now you might think that I arbitrarily switched colors here when I rewrote this, but if you look you might see why I actually did switch colors here.","label":[],"Comments":[]}
+{"id":4168,"text":"And then times <EXPRESSION>.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":4169,"text":"In order to see if we're getting anywhere, let me just rewrite the whole thing and maybe get rid of these parenthesis, because it's just a plus, so we can get rid of the parenthesis.","label":[],"Comments":[]}
+{"id":4170,"text":"I wouldn't be surprised if your math teacher does the same problem for you, just to show you integration by parts.","label":[],"Comments":[]}
+{"id":4171,"text":"So this is <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":4172,"text":"For this round of integration by parts this was <EXPRESSION>, but now, for this around, I'm going to assume it's <EXPRESSION>.","label":[[48,60,"expression"],[113,125,"expression"]],"Comments":[]}
+{"id":4173,"text":"That's just the same thing as <EXPRESSION> times the integral of <EXPRESSION>.","label":[[30,42,"expression"],[65,77,"expression"]],"Comments":[]}
+{"id":4174,"text":"Whenever I do integration by parts I always like to assume that this is the <EXPRESSION>.","label":[[76,88,"expression"]],"Comments":[]}
+{"id":4175,"text":"All I have to do now to solve this integral is divide both sides by <EXPRESSION> and I'm done.","label":[[68,80,"expression"]],"Comments":[]}
+{"id":4176,"text":"So once again we are not clear whether we've made any progress.","label":[],"Comments":[]}
+{"id":4177,"text":"We've gone from <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
+{"id":4178,"text":"Let's add this term to both sides of the equation.","label":[],"Comments":[]}
+{"id":4179,"text":"It's neat how integration by parts allowed us to do this.","label":[],"Comments":[]}
+{"id":4180,"text":"It's the average of <EXPRESSION> and <EXPRESSION>.","label":[[20,32,"expression"],[37,49,"expression"]],"Comments":[]}
+{"id":4181,"text":"OK.","label":[],"Comments":[]}
+{"id":4182,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":4183,"text":"So integration by parts tells us we take <EXPRESSION>, so I take this function and the anti-derivative of this function.","label":[[41,53,"expression"]],"Comments":[]}
+{"id":4184,"text":"It's like this cycle.","label":[],"Comments":[]}
+{"id":4185,"text":"If I take this and put it on this side of the equation, what happens? I then have <EXPRESSION> of these on the left side equation, so that becomes I mean I could write it out it's <EXPRESSION> plus, right? Because I'm taking this and I'm putting it on that side of the equation, <EXPRESSION>.","label":[[82,94,"expression"],[180,192,"expression"],[279,291,"expression"]],"Comments":[]}
+{"id":4186,"text":"Let's take this and let's put it on to this side of the equation.","label":[],"Comments":[]}
+{"id":4187,"text":"It's very hard to keep track of what I've done here.","label":[],"Comments":[]}
+{"id":4188,"text":"I'm just going to write on the right side of the = sign, because this might get a little long.","label":[],"Comments":[]}
+{"id":4189,"text":"And then we use that to solve it without actually having to evaluate the integral.","label":[],"Comments":[]}
+{"id":4190,"text":"We said, this integral is just the original problem again.","label":[],"Comments":[]}
+{"id":4191,"text":"If I divide both sides by <EXPRESSION>, I get and I'm going to try to write it so you can see everything <EXPRESSION> = and on that side I have <EXPRESSION>.","label":[[26,38,"expression"],[105,117,"expression"],[144,156,"expression"]],"Comments":[]}
+{"id":4192,"text":"And then I'm going to assume that this is <EXPRESSION>.","label":[[42,54,"expression"]],"Comments":[]}
+{"id":4193,"text":"This is the anti-derivative and this is also the anti-derivative.","label":[],"Comments":[]}
+{"id":4194,"text":"And then that = this term.","label":[],"Comments":[]}
+{"id":4195,"text":"<EXPRESSION> you take the derivative, you go to minus sign of <EXPRESSION>, you take the derivative again then you to <EXPRESSION>, then you take the derivative again then you get a <EXPRESSION>.","label":[[0,12,"expression"],[62,74,"expression"],[118,130,"expression"],[182,194,"expression"]],"Comments":[]}
+{"id":4196,"text":"From that I subtract the integral of the anti-derivative of this or I take <EXPRESSION> which is <EXPRESSION>, and then the derivative of <EXPRESSION>, <EXPRESSION>.","label":[[75,87,"expression"],[97,109,"expression"],[138,150,"expression"],[152,164,"expression"]],"Comments":[]}
+{"id":4197,"text":"but let's assume this is <EXPRESSION>, and let's assume this <EXPRESSION>.","label":[[25,37,"expression"],[61,73,"expression"]],"Comments":[]}

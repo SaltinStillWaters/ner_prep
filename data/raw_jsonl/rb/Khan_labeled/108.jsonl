@@ -1,0 +1,158 @@
+{"id":2305,"text":"Let me see if I can let's see, I can erase all of that.","label":[],"Comments":[]}
+{"id":2306,"text":"So what's the average of <EXPRESSION> and <EXPRESSION>? Well, the average of <EXPRESSION> and <EXPRESSION> let's see.","label":[[25,37,"expression"],[42,54,"expression"],[77,89,"expression"],[94,106,"expression"]],"Comments":[]}
+{"id":2307,"text":"Welcome back.","label":[],"Comments":[]}
+{"id":2308,"text":"And so, use trapezoidal sum with <EXPRESSION> subintervals to estimate the average number of people that sounds very complicated.","label":[[33,45,"expression"]],"Comments":[]}
+{"id":2309,"text":"So it's <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":2310,"text":"So there had to be a sign change, and so it had to pass through <EXPRESSION>.","label":[[64,76,"expression"]],"Comments":[]}
+{"id":2311,"text":"or from <EQUATION> to <EQUATION>.","label":[[8,18,"equation"],[22,32,"equation"]],"Comments":[]}
+{"id":2312,"text":"So from here to here, we have a sign change.","label":[],"Comments":[]}
+{"id":2313,"text":"Let's see.","label":[],"Comments":[]}
+{"id":2314,"text":"So what's the area of this first trapezoid? Well, what do you do to find an area of a trapezoid? It's the base.","label":[],"Comments":[]}
+{"id":2315,"text":"Use yellow.","label":[],"Comments":[]}
+{"id":2316,"text":"That's another way to view it.","label":[],"Comments":[]}
+{"id":2317,"text":"We're not doing velocity in this problem.","label":[],"Comments":[]}
+{"id":2318,"text":"Enter.","label":[],"Comments":[]}
+{"id":2319,"text":"Let's see.","label":[],"Comments":[]}
+{"id":2320,"text":"Sorry, <EXPRESSION>, not <EXPRESSION>.","label":[[7,19,"equation"],[25,37,"equation"]],"Comments":[]}
+{"id":2321,"text":"So <EQUATION>.","label":[[3,13,"equation"]],"Comments":[]}
+{"id":2322,"text":"So what I would write down at the AP exam, is, I was like, well, the function is twice differentiable, which means its derivative is continuous.","label":[],"Comments":[]}
+{"id":2323,"text":"Just want to make it as neat as possible.","label":[],"Comments":[]}
+{"id":2324,"text":"And we'll have the average value of over the first <EXPRESSION> hours of the people in line.","label":[[51,63,"expression"]],"Comments":[]}
+{"id":2325,"text":"And my reason and actually, you could use Rolle's Theorem or the mean value theorem, but the simplest reason is that here we have <EXPRESSION> sign changes in the average velocity.","label":[[130,142,"expression"]],"Comments":[]}
+{"id":2326,"text":"Trusty TI-85 emulator.","label":[],"Comments":[]}
+{"id":2327,"text":"OK.","label":[],"Comments":[]}
+{"id":2328,"text":"Or corollary to the fundamental theorem of calculus, whatever.","label":[],"Comments":[]}
+{"id":2329,"text":"So it's <EXPRESSION> or it's just <EXPRESSION>.","label":[[8,20,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":2330,"text":"So let's do that.","label":[],"Comments":[]}
+{"id":2331,"text":"We're doing part b and part of problem number two.","label":[],"Comments":[]}
+{"id":2332,"text":"So <EXPRESSION>, that's the derivative of this.","label":[[3,15,"expression"]],"Comments":[]}
+{"id":2333,"text":"So it's going to be <EXPRESSION>.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":2334,"text":"So this area right here is <EXPRESSION>, or <EXPRESSION>.","label":[[27,39,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":2335,"text":"That's good enough, I think.","label":[],"Comments":[]}
+{"id":2336,"text":"And that's my answer.","label":[],"Comments":[]}
+{"id":2337,"text":"So at some point, since the derivative is continuous it doesn't jump around it had to be positive someplace in this range.","label":[],"Comments":[]}
+{"id":2338,"text":"That's an easier one, right? <EXPRESSION> is right in between those two, and we don't have to do much.","label":[],"Comments":[]}
+{"id":2339,"text":"And what's the average value? Well, it's going to be the average value between <EXPRESSION> and <EXPRESSION>.","label":[[79,91,"expression"],[96,108,"expression"]],"Comments":[]}
+{"id":2340,"text":"I think this graph is going to come in useful in part c, by just glancing at it.","label":[],"Comments":[]}
+{"id":2341,"text":"So, you know, the way I drew it, it looks like the slope is <EXPRESSION> there.","label":[[60,72,"expression"]],"Comments":[]}
+{"id":2342,"text":"I can erase this, I can erase that.","label":[],"Comments":[]}
+{"id":2343,"text":"Its base is <EXPRESSION>.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":2344,"text":"Which tells us the derivative is continuous.","label":[],"Comments":[]}
+{"id":2345,"text":"So from here let me use a thicker line.","label":[],"Comments":[]}
+{"id":2346,"text":"And I will continue part d in the next video, because I'm already over 10 minutes.","label":[],"Comments":[]}
+{"id":2347,"text":"Let me copy and paste it.","label":[],"Comments":[]}
+{"id":2348,"text":"Or the average, not the average velocity, the rate the <EXPRESSION>.","label":[[55,67,"expression"]],"Comments":[]}
+{"id":2349,"text":"Then it comes up like this.","label":[],"Comments":[]}
+{"id":2350,"text":"Let me see if I can draw that a little bit I drew them in different colors, just so you can see the trapezoids.","label":[],"Comments":[]}
+{"id":2351,"text":"So this trapezoid goes goes from oh, I don't know if I'm doing this right.","label":[],"Comments":[]}
+{"id":2352,"text":"This is one subinterval.","label":[],"Comments":[]}
+{"id":2353,"text":"So that's the total area under those trapezoids.","label":[],"Comments":[]}
+{"id":2354,"text":"But you really just have to think about what they're saying, and it's not that daunting.","label":[],"Comments":[]}
+{"id":2355,"text":"<EXPRESSION> times <EXPRESSION>.","label":[[0,12,"expression"],[19,31,"expression"]],"Comments":[]}
+{"id":2356,"text":"The base is <EXPRESSION>, right? From noon to 4:00 p.m.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":2357,"text":"We have this one, we have this one, and we have this trapezoid.","label":[],"Comments":[]}
+{"id":2358,"text":"So <EXPRESSION> and <EXPRESSION>.","label":[[3,15,"expression"],[20,32,"expression"]],"Comments":[]}
+{"id":2359,"text":"Or in that case, <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>.","label":[[17,29,"expression"],[33,45,"expression"],[47,59,"expression"],[63,75,"expression"]],"Comments":[]}
+{"id":2360,"text":"I don't know, a curve and then it maxes out at some point, comes down.","label":[],"Comments":[]}
+{"id":2361,"text":"Like there.","label":[],"Comments":[]}
+{"id":2362,"text":"But then they ask us, well, what's the average value of the function? Well, the average value is just the area divided by the base.","label":[],"Comments":[]}
+{"id":2363,"text":"I think that's going to use this graph, too.","label":[],"Comments":[]}
+{"id":2364,"text":"So part c.","label":[],"Comments":[]}
+{"id":2365,"text":"So let me erase at least this top part.","label":[],"Comments":[]}
+{"id":2366,"text":"What's the area of this trapezoid right here? This bigger one? Well, its base is <EXPRESSION>, right? <EXPRESSION>, <EXPRESSION>.","label":[[81,93,"expression"],[101,114,"expression"],[116,128,"expression"]],"Comments":[]}
+{"id":2367,"text":"So this is one.","label":[],"Comments":[]}
+{"id":2368,"text":"And then another trapezoid there.","label":[],"Comments":[]}
+{"id":2369,"text":"So what's the total area? It's just going to be the sum of these <EXPRESSION> trapezoids.","label":[[65,77,"expression"]],"Comments":[]}
+{"id":2370,"text":"<EXPRESSION>.","label":[],"Comments":[]}
+{"id":2371,"text":"Part c.","label":[],"Comments":[]}
+{"id":2372,"text":"<EXPRESSION>.","label":[],"Comments":[]}
+{"id":2373,"text":"I want to erase all the unnecessary things.","label":[],"Comments":[]}
+{"id":2374,"text":"It'll be a curve, right? Anyway, they say, what is the fewest number of times that <EXPRESSION> must be = <EXPRESSION>? Well, what happens when <EQUATION>? That means that we are at a local minima or a local maxima, or sometimes an inflection point.","label":[[83,95,"expression"],[106,118,"expression"],[144,154,"equation"]],"Comments":[]}
+{"id":2375,"text":"Right here it's <EXPRESSION>, and this is <EXPRESSION>.","label":[[16,28,"expression"],[42,54,"expression"]],"Comments":[]}
+{"id":2376,"text":"And between here and here, it looks like the slope is also going to have to bottom out at some point.","label":[],"Comments":[]}
+{"id":2377,"text":"I'll use a line tool.","label":[],"Comments":[]}
+{"id":2378,"text":"It could be very confusing.","label":[],"Comments":[]}
+{"id":2379,"text":"Right? Because another way to think about it, if you just took the average value of the function so if the function was, say, this, and you just multiplied that average value times the base, you would get the same area as the integral.","label":[],"Comments":[]}
+{"id":2380,"text":"It says a trapezoidal sum with <EXPRESSION> subintervals.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":2381,"text":"So this area of the trapezoid right here, this first one, is the base.","label":[],"Comments":[]}
+{"id":2382,"text":"Divided by <EXPRESSION>, = <EXPRESSION>.","label":[[11,23,"expression"],[27,39,"expression"]],"Comments":[]}
+{"id":2383,"text":"From <EXPRESSION> to <EXPRESSION>.","label":[[5,17,"expression"],[20,33,"expression"]],"Comments":[]}
+{"id":2384,"text":"But at minima and maxima point, we know for sure that <EQUATION>.","label":[],"Comments":[]}
+{"id":2385,"text":"So let's say <EXPRESSION> = essentially let's say, between <EXPRESSION> points, <EXPRESSION> and <EXPRESSION> it's the difference between the <EXPRESSION> points divided by the area under the curve of <EXPRESSION>.","label":[[13,25,"expression"],[59,71,"expression"],[80,92,"expression"],[97,109,"expression"],[142,154,"expression"],[201,213,"expression"]],"Comments":[]}
+{"id":2386,"text":"From here to here, we have a sign change.","label":[],"Comments":[]}
+{"id":2387,"text":"This is another subinterval.","label":[],"Comments":[]}
+{"id":2388,"text":"That's the area of that trapezoid.","label":[],"Comments":[]}
+{"id":2389,"text":"So let's just apply that here.","label":[],"Comments":[]}
+{"id":2390,"text":"Right? Between here and here.","label":[],"Comments":[]}
+{"id":2391,"text":"So 1 trapezoid here, and another trapezoid there.","label":[],"Comments":[]}
+{"id":2392,"text":"It's actually twice differentiable.","label":[],"Comments":[]}
+{"id":2393,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2394,"text":"OK, let's do part c.","label":[],"Comments":[]}
+{"id":2395,"text":"Right? The average value of a function = the area under the curve divided by, you could kind of say, the base of the figure.","label":[],"Comments":[]}
+{"id":2396,"text":"And so we can just eyeball it.","label":[],"Comments":[]}
+{"id":2397,"text":"OK, copied it.","label":[],"Comments":[]}
+{"id":2398,"text":"For <EXPRESSION> is greater than <EXPRESSION>, is less than <EXPRESSION>, right? What is the fewest number of times at which <EXPRESSION> must be = <EXPRESSION>? Give a reason for your answer.","label":[[4,16,"expression"],[33,45,"expression"],[60,72,"expression"],[125,137,"expression"],[148,160,"expression"]],"Comments":[]}
+{"id":2399,"text":"OK.","label":[],"Comments":[]}
+{"id":2400,"text":"You could rewrite this as <EXPRESSION>.","label":[[10,17,"command"],[26,38,"expression"]],"Comments":[]}
+{"id":2401,"text":"And finally, what's the average value of this trap or what's the area in this trapezoid? Well, the base is <EXPRESSION>, right? It's going from <EXPRESSION> to <EXPRESSION>.","label":[[144,156,"command"],[160,172,"command"]],"Comments":[]}
+{"id":2402,"text":"They don't tell us to round it or anything, so I'm assuming that's, you know, if we're saying the average number of people, I guess we can have a fraction there.","label":[],"Comments":[]}
+{"id":2403,"text":"Right? So it's the average.","label":[],"Comments":[]}
+{"id":2404,"text":"We have three trapezoids.","label":[],"Comments":[]}
+{"id":2405,"text":"Well, I see, there's <EXPRESSION> very natural subintervals here.","label":[[21,33,"expression"]],"Comments":[]}
+{"id":2406,"text":"But it makes sense.","label":[],"Comments":[]}
+{"id":2407,"text":"So it says, <EXPRESSION> intervals.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":2408,"text":"We're actually not going to use an interval.","label":[],"Comments":[]}
+{"id":2409,"text":"<EXPRESSION>.","label":[],"Comments":[]}
+{"id":2410,"text":"The top part I can erase.","label":[],"Comments":[]}
+{"id":2411,"text":"Let me erase it.","label":[],"Comments":[]}
+{"id":2412,"text":"And then it, maybe it maxes out, and it comes down like that.","label":[],"Comments":[]}
+{"id":2413,"text":"So we just divide this value by <EXPRESSION>.","label":[[32,44,"expression"]],"Comments":[]}
+{"id":2414,"text":"You know, it might look something like this.","label":[],"Comments":[]}
+{"id":2415,"text":"OK.","label":[],"Comments":[]}
+{"id":2416,"text":"And so I just took the data they gave, graphed it.","label":[],"Comments":[]}
+{"id":2417,"text":"So it's the sum of those <EXPRESSION> trapezoids.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":2418,"text":"It had to be negative someplace in this range.","label":[],"Comments":[]}
+{"id":2419,"text":"So let me write down the important points.","label":[],"Comments":[]}
+{"id":2420,"text":"You might not remember it.","label":[],"Comments":[]}
+{"id":2421,"text":"And that same argument could be used between here and here, and here and here.","label":[],"Comments":[]}
+{"id":2422,"text":"Like boy, I don't that sounds yeah, you know, I didn't learn trapezoidal sums, or however you want to think about it.","label":[],"Comments":[]}
+{"id":2423,"text":"So that's reasonable.","label":[],"Comments":[]}
+{"id":2424,"text":"Let's use the trapezoidal sum to figure out the area under this curve, or an estimate of the area under <EXPRESSION>, and then we can divide by <EXPRESSION>.","label":[[104,116,"expression"],[144,156,"expression"]],"Comments":[]}
+{"id":2425,"text":"Let's see, what part are we? We're on part c.","label":[],"Comments":[]}
+{"id":2426,"text":"The base times the average value is the same thing as the area under the curve.","label":[],"Comments":[]}
+{"id":2427,"text":"So the real graph of this is going to look something you know, let me do it in a bold color like magenta.","label":[],"Comments":[]}
+{"id":2428,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2429,"text":"And we have <EXPRESSION> sign changes in the derivative, right? The derivative is positive over this interval, or at least its average is positive, then it goes negative.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":2430,"text":"It's continuous.","label":[],"Comments":[]}
+{"id":2431,"text":"Which is just <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":2432,"text":"But we don't know that for sure.","label":[],"Comments":[]}
+{"id":2433,"text":"But it's really a curve.","label":[],"Comments":[]}
+{"id":2434,"text":"We get <EQUATION>.","label":[[7,17,"equation"]],"Comments":[]}
+{"id":2435,"text":"We could look at this graph and we could say, well, you know, there has to be a minima point someplace in this range.","label":[],"Comments":[]}
+{"id":2436,"text":"Or the average value between this height and this height.","label":[],"Comments":[]}
+{"id":2437,"text":"So that's another way to view it.","label":[],"Comments":[]}
+{"id":2438,"text":"And there we have it.","label":[],"Comments":[]}
+{"id":2439,"text":"We're going to use a trapezoidal sum to estimate the integral.","label":[],"Comments":[]}
+{"id":2440,"text":"And then I just divide it by <EXPRESSION>, and I'm done.","label":[[29,41,"expression"]],"Comments":[]}
+{"id":2441,"text":"And it says, use a trapezoidal sum with <EXPRESSION> subintervals to estimate the average number of people waiting in line during the first <EXPRESSION> hours.","label":[[40,52,"expression"],[129,141,"expression"]],"Comments":[]}
+{"id":2442,"text":"So we essentially just have to figure out the area of each of these trapezoids.","label":[],"Comments":[]}
+{"id":2443,"text":"Edit, paste.","label":[],"Comments":[]}
+{"id":2444,"text":"Part b.","label":[],"Comments":[]}
+{"id":2445,"text":"And I just need to figure out the areas of each of these trapezoids, and that's my estimate of the area under the curve of <EXPRESSION>, from <EXPRESSION> to <EXPRESSION>.","label":[[123,135,"expression"],[142,154,"expression"],[158,170,"expression"]],"Comments":[]}
+{"id":2446,"text":"Give us a reason.","label":[],"Comments":[]}
+{"id":2447,"text":"So what's the average value of a function? And you learned this in calculus.","label":[],"Comments":[]}
+{"id":2448,"text":"So when I just eyeball it, I say, well, I have <EXPRESSION> maximum points, and one minima point, so the slope is going to = <EXPRESSION> at at least <EXPRESSION> points, right? But they tell us, give us a reason for your answer.","label":[[47,59,"expression"],[125,137,"expression"],[150,162,"expression"]],"Comments":[]}
+{"id":2449,"text":"Actually let me I'll draw the dotted lines.","label":[],"Comments":[]}
+{"id":2450,"text":"I did that in the last video.","label":[],"Comments":[]}
+{"id":2451,"text":"So the answer to part b is <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
+{"id":2452,"text":"And then there's a maximum point right someplace in this range, and it's going to max out.","label":[],"Comments":[]}
+{"id":2453,"text":"So they say, use a trapezoidal sum with <EXPRESSION> subintervals to estimate the average number of people waiting in line during the first <EXPRESSION> hours that the tickets were on sale.","label":[[40,52,"expression"],[140,152,"expression"]],"Comments":[]}
+{"id":2454,"text":"When I connected these dots, I just kind of wanted to get a shape of the curve.","label":[],"Comments":[]}
+{"id":2455,"text":"And you can be more formal when you write it.","label":[],"Comments":[]}
+{"id":2456,"text":"And frankly, I haven't taken calculus in <EXPRESSION> years.","label":[[41,53,"expression"]],"Comments":[]}
+{"id":2457,"text":"So derivative is continuous.","label":[],"Comments":[]}
+{"id":2458,"text":"It's not like this sharp edged line, right? And how do we know it's a curve? Because it's differentiable.","label":[],"Comments":[]}
+{"id":2459,"text":"So that is <EXPRESSION>? Let me use a calculator, just so I don't make any mistakes.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":2460,"text":"And let me draw them.","label":[],"Comments":[]}
+{"id":2461,"text":"Right? That's, I think they call that the second fundamental theorem of calculus.","label":[],"Comments":[]}
+{"id":2462,"text":"And from here to here, we could have a sign change.","label":[],"Comments":[]}

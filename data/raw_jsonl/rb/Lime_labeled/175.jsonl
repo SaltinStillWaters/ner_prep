@@ -1,0 +1,72 @@
+{"id":13045,"text":"PROFESSOR: Hi, and welcome.","label":[],"Comments":[]}
+{"id":13046,"text":"Today we're going to do a problem about least squares approximations.","label":[],"Comments":[]}
+{"id":13047,"text":"Here's the question.","label":[],"Comments":[]}
+{"id":13048,"text":"Find the quadratic equation through the origin that is a best fit for these three points: (1, 1), (2, 5), and (-1, -2).","label":[[90,96,"term"],[98,104,"term"],[110,118,"term"]],"Comments":[]}
+{"id":13049,"text":"I'll give you a minute to work that out on your own.","label":[],"Comments":[]}
+{"id":13050,"text":"You can hit the pause button now, and we'll be back in a minute to work the problem out together.","label":[],"Comments":[]}
+{"id":13051,"text":"OK and we're back.","label":[],"Comments":[]}
+{"id":13052,"text":"So what's the first step in a problem like this?","label":[],"Comments":[]}
+{"id":13053,"text":"The first step is figuring out what our equation looks like, the one that we're going to find.","label":[],"Comments":[]}
+{"id":13054,"text":"So our equation is going to look like <EQUATION>.","label":[[38,48,"equation"]],"Comments":[]}
+{"id":13055,"text":"So that's what we're looking for.","label":[],"Comments":[]}
+{"id":13056,"text":"We're looking for a quadratic equation through the origin.","label":[],"Comments":[]}
+{"id":13057,"text":"Now, if it were just any quadratic equation, then we would have a constant term, but through the origin just means that the constant term is <EXPRESSION>.","label":[[141,153,"expression"]],"Comments":[]}
+{"id":13058,"text":"Now, what's the next step?","label":[],"Comments":[]}
+{"id":13059,"text":"Next we need to set up a matrix equation.","label":[],"Comments":[]}
+{"id":13060,"text":"So we need an <EXPRESSION>, a matrix <EXPRESSION>.","label":[[14,26,"expression"],[37,49,"expression"]],"Comments":[]}
+{"id":13061,"text":"And which matrix is that going to be?","label":[],"Comments":[]}
+{"id":13062,"text":"Well, let me start with the first coordinate of these three points.","label":[],"Comments":[]}
+{"id":13063,"text":"And I'm going to put them in the first column of this matrix, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.","label":[[62,74,"expression"],[76,88,"expression"],[90,102,"expression"]],"Comments":[]}
+{"id":13064,"text":"And then my second column is going to be the squares of these coordinates, <EXPRESSION>, <EXPRESSION>, and <EXPRESSION>.","label":[[75,87,"expression"],[89,101,"expression"],[107,119,"expression"]],"Comments":[]}
+{"id":13065,"text":"And my <EXPRESSION>-- that's just <EXPRESSION> and <EXPRESSION>.","label":[[7,19,"expression"],[34,46,"expression"],[51,63,"expression"]],"Comments":[]}
+{"id":13066,"text":"And my <EXPRESSION>-- this is going to be the second coordinates, <EXPRESSION>, <EXPRESSION>, and <EXPRESSION>.","label":[[7,19,"expression"],[66,78,"expression"],[80,92,"expression"],[98,110,"expression"]],"Comments":[]}
+{"id":13067,"text":"OK, why did I set this problem up like that?","label":[],"Comments":[]}
+{"id":13068,"text":"Well, multiply <EXPRESSION>.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":13069,"text":"The first coordinate of <EXPRESSION> is <EXPRESSION>.","label":[[24,36,"expression"],[40,52,"expression"]],"Comments":[]}
+{"id":13070,"text":"It's just the same as plugging in this first point into the left-hand side of this equation.","label":[],"Comments":[]}
+{"id":13071,"text":"And similarly, if I took the second point and plugged it in here, I would just get <EXPRESSION>, which is just the same as the second coordinate in the multiplication <EXPRESSION>.","label":[[83,95,"expression"],[167,179,"expression"]],"Comments":[]}
+{"id":13072,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":13073,"text":"OK, and where did the <EXPRESSION> come from?","label":[[22,34,"expression"]],"Comments":[]}
+{"id":13074,"text":"Well, <EXPRESSION> came from plugging in these points to the right-hand side.","label":[[6,18,"expression"]],"Comments":[]}
+{"id":13075,"text":"So <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> are just the y-coordinates of these three points.","label":[[3,15,"expression"],[17,29,"expression"],[35,47,"expression"],[61,74,"term"]],"Comments":[]}
+{"id":13076,"text":"So it would be great if we could solve <EQUATION>.","label":[[33,38,"command"],[39,49,"term"]],"Comments":[]}
+{"id":13077,"text":"But we can't solve <EQUATION>, because there isn't a quadratic equation through the origin that contains these three points.","label":[[13,18,"command"],[19,29,"equation"]],"Comments":[]}
+{"id":13078,"text":"But we need to find the best approximation to that, so that's the same as solving <EXPRESSION> = the projection of <EXPRESSION> onto the column space of <EXPRESSION>.","label":[[82,94,"expression"],[115,127,"expression"],[153,165,"expression"]],"Comments":[]}
+{"id":13079,"text":"Because we only have a chance of solving <EXPRESSION> = something if it's in the column space of <EXPRESSION>.","label":[[41,53,"expression"],[97,109,"expression"]],"Comments":[]}
+{"id":13080,"text":"And remember from our projections part of the class that this is the same as solving <EQUATION>.","label":[[85,95,"equation"]],"Comments":[]}
+{"id":13081,"text":"So that's what we're really going to do.","label":[],"Comments":[]}
+{"id":13082,"text":"We're really going to solve <EQUATION>.","label":[[22,27,"command"],[28,38,"equation"]],"Comments":[]}
+{"id":13083,"text":"And now all we have to do is just a computation.","label":[],"Comments":[]}
+{"id":13084,"text":"So let's do it.","label":[],"Comments":[]}
+{"id":13085,"text":"So what is <EXPRESSION>?","label":[[11,23,"expression"]],"Comments":[]}
+{"id":13086,"text":"I'm going to do this kind of quickly, because you should be good at multiplying matrices by now.","label":[],"Comments":[]}
+{"id":13087,"text":"Oh this-- I have the negative in the wrong place, thank you.","label":[],"Comments":[]}
+{"id":13088,"text":"Thanks for that correction.","label":[],"Comments":[]}
+{"id":13089,"text":"I have the negative backwards there.","label":[],"Comments":[]}
+{"id":13090,"text":"And what do I get when I multiply these?","label":[],"Comments":[]}
+{"id":13091,"text":"I'll let you check.","label":[],"Comments":[]}
+{"id":13092,"text":"This is <EXPRESSION>, <EXPRESSION>; <EXPRESSION>, and <EXPRESSION>.","label":[[8,20,"expression"],[22,34,"expression"],[36,48,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id":13093,"text":"And what is <EXPRESSION>?","label":[[12,24,"expression"]],"Comments":[]}
+{"id":13094,"text":"Well, if you multiply this out, I'll let you check that you get <EXPRESSION> and <EXPRESSION>.","label":[[64,76,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":13095,"text":"So this is just some computation.","label":[],"Comments":[]}
+{"id":13096,"text":"And so what we're solving here is <EQUATION>.","label":[[34,44,"equation"]],"Comments":[]}
+{"id":13097,"text":"And we remember how to do this just by using elimination.","label":[],"Comments":[]}
+{"id":13098,"text":"We replace the second row by <EXPRESSION> times the second row minus <EXPRESSION> times the first row.","label":[[3,10,"command"],[15,25,"command_attribute"],[29,41,"expression"],[42,47,"command"],[52,62,"command_attribute"],[63,68,"command"],[69,81,"expression"],[82,87,"command"],[92,101,"command_attribute"]],"Comments":[]}
+{"id":13099,"text":"Again, I'm going to do this quickly because you know this from other parts of the class.","label":[],"Comments":[]}
+{"id":13100,"text":"You similarly change the b vector, and we backsolve to get <EXPRESSION> is <EXPRESSION> and <EXPRESSION> =-- let's plug that in and see-- think you're going to get <EXPRESSION>.","label":[[25,34,"term"],[59,71,"expression"],[75,87,"expression"],[92,104,"expression"],[115,119,"command"],[164,176,"expression"]],"Comments":[]}
+{"id":13101,"text":"So what's our final equation?","label":[],"Comments":[]}
+{"id":13102,"text":"Our final equation is <EQUATION>.","label":[[22,32,"equation"]],"Comments":[]}
+{"id":13103,"text":"OK.","label":[],"Comments":[]}
+{"id":13104,"text":"So this is our best fit quadratic equation through the origin.","label":[],"Comments":[]}
+{"id":13105,"text":"Now before I end, let me do a couple things.","label":[],"Comments":[]}
+{"id":13106,"text":"First, let me go back and review what the key steps were.","label":[],"Comments":[]}
+{"id":13107,"text":"Whenever you're faced with such a best fit equation, first, you want to see what the general form of the equation is.","label":[],"Comments":[]}
+{"id":13108,"text":"Next you want to write it in terms of matrices.","label":[[17,22,"command"]],"Comments":[]}
+{"id":13109,"text":"Write down your matrix <EXPRESSION> and your vector <EXPRESSION>.","label":[[0,5,"command"],[23,35,"expression"],[52,63,"expression"]],"Comments":[]}
+{"id":13110,"text":"And lastly, you set up your projection equation.","label":[],"Comments":[]}
+{"id":13111,"text":"And then all you have to do is just a computation.","label":[],"Comments":[]}
+{"id":13112,"text":"But it might also be worth noting that these three points certainly aren't on this quadratic equation.","label":[],"Comments":[]}
+{"id":13113,"text":"For instance, if I plug in <EXPRESSION> here, I don't get (1, 1), I get (1, 3).","label":[[19,26,"command"],[27,39,"expression"],[58,64,"term"],[72,78,"term"]],"Comments":[]}
+{"id":13114,"text":"But that's OK.","label":[],"Comments":[]}
+{"id":13115,"text":"This is as close as we can do.","label":[],"Comments":[]}
+{"id":13116,"text":"Thanks.","label":[],"Comments":[]}

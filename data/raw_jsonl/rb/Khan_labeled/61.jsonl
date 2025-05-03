@@ -1,0 +1,73 @@
+{"id":3953,"text":"That's just something you memorize.","label":[],"Comments":[]}
+{"id":3954,"text":"You always want to move from something that's complicated to something that's simpler.","label":[],"Comments":[]}
+{"id":3955,"text":"Let's say we want to take the indefinite integral of <EXPRESSION>.","label":[[53,65,"expression"]],"Comments":[]}
+{"id":3956,"text":"Now, if we were to integrate both sides of this equation, because we're still doing algebra on some levels, anything you do to <EXPRESSION> side of the equation, you can do to the other.","label":[[127,139,"expression"]],"Comments":[]}
+{"id":3957,"text":"Well we can make this a minus, we can make this a minus sign of <EXPRESSION> and make this a plus.","label":[[64,76,"expression"]],"Comments":[]}
+{"id":3958,"text":"The derivative of <EXPRESSION> simplifies things a lot.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":3959,"text":"So that's <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":3960,"text":"Well, everything we have in our integration tool kit so far I don't think help us here, right? Because we don't have a function and its derivative, so we can't do substitution or which is the same thing as the reverse chain rule this isn't a simple polynomial.","label":[],"Comments":[]}
+{"id":3961,"text":"I haven't proven it to you yet, but it's usually in the inside cover of your calculus book.","label":[],"Comments":[]}
+{"id":3962,"text":"So what's <EXPRESSION>? It was the <EXPRESSION>.","label":[[10,22,"expression"],[35,47,"expression"]],"Comments":[]}
+{"id":3963,"text":"We always, in math in general, you always want to simplify.","label":[],"Comments":[]}
+{"id":3964,"text":"So that's the intuition, and let me just solve through it, and hopefully it'll make a little bit more sense.","label":[],"Comments":[]}
+{"id":3965,"text":"What's the antiderivative of <EXPRESSION>? Well, yeah, it's just <EXPRESSION>.","label":[[29,41,"expression"],[65,77,"expression"]],"Comments":[]}
+{"id":3966,"text":"So what did I just do? It looks like I just well, I am just essentially playing with the product rule from differentiation.","label":[],"Comments":[]}
+{"id":3967,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":3968,"text":"I guess if you have this in your tool kit and actually you have it beyond the exam on this type of integral, and you actually keep it and you retain it, then you, I think, will become an integration jock.","label":[],"Comments":[]}
+{"id":3969,"text":"What's the antiderivative of <EXPRESSION>? We can ignore this <EXPRESSION>.","label":[[29,41,"expression"],[62,74,"expression"]],"Comments":[]}
+{"id":3970,"text":"That's all I did.","label":[],"Comments":[]}
+{"id":3971,"text":"So if I assume that <EXPRESSION>, and <EXPRESSION> is <EXPRESSION>, then <EXPRESSION> this yellow term, let me write it in yellow, just for fun so <EXPRESSION> so I'm saying that <EXPRESSION> is <EXPRESSION>.","label":[[20,32,"expression"],[38,50,"expression"],[54,66,"expression"],[73,85,"expression"],[147,159,"expression"],[179,191,"expression"],[195,207,"expression"]],"Comments":[]}
+{"id":3972,"text":"This is the same exact thing.","label":[],"Comments":[]}
+{"id":3973,"text":"So that's <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":3974,"text":"I don't even have to look it up.","label":[],"Comments":[]}
+{"id":3975,"text":"But let's just move forward.","label":[],"Comments":[]}
+{"id":3976,"text":"It's not making it any more complicated.","label":[],"Comments":[]}
+{"id":3977,"text":"Transcript for: Indefinite Integration (part V) I'm not going to do a presentation on a type of integral.","label":[],"Comments":[]}
+{"id":3978,"text":"See, I'm saying that <EXPRESSION> is <EXPRESSION> and I'm saying that <EXPRESSION> is <EXPRESSION>.","label":[[21,33,"expression"],[37,49,"expression"],[70,82,"expression"],[86,98,"expression"]],"Comments":[]}
+{"id":3979,"text":"We want to take the antiderivative of <EXPRESSION>.","label":[[38,50,"expression"]],"Comments":[]}
+{"id":3980,"text":"I'll see you in the next presentation.","label":[],"Comments":[]}
+{"id":3981,"text":"And let's say <EXPRESSION> is <EXPRESSION>, right? I'm sorry, <EXPRESSION> is <EXPRESSION>.","label":[[14,26,"expression"],[30,42,"expression"],[62,74,"expression"],[78,90,"expression"]],"Comments":[]}
+{"id":3982,"text":"And I think you would agree that we've now simplified this a good bit, because this is just the integral of <EXPRESSION>, right? So this is just = <EXPRESSION> this is just this first term right here minus and what's the integral of <EXPRESSION>? Well, the derivative of well, let me make it even simpler.","label":[[108,120,"expression"],[147,159,"expression"],[233,245,"expression"]],"Comments":[]}
+{"id":3983,"text":"So that's an introduction to integration by parts.","label":[],"Comments":[]}
+{"id":3984,"text":"Well, I already said that <EXPRESSION> is <EXPRESSION>.","label":[[26,38,"expression"],[42,54,"expression"]],"Comments":[]}
+{"id":3985,"text":"So if you encounter this when you're doing integrals, kind of the last tool kit and this is pretty sophisticated is to do integration by parts.","label":[],"Comments":[]}
+{"id":3986,"text":"And now this might seem a little bit arbitrary, and it is a little bit arbitrary, let me take well, I could take either of these but let me just take this <EXPRESSION> and move it to this side of the equation.","label":[[155,167,"expression"]],"Comments":[]}
+{"id":3987,"text":"This can be a little confusing.","label":[],"Comments":[]}
+{"id":3988,"text":"So the derivative of <EXPRESSION> is <EXPRESSION>.","label":[[21,33,"expression"],[37,49,"expression"]],"Comments":[]}
+{"id":3989,"text":"And I'll show you where this is useful.","label":[],"Comments":[]}
+{"id":3990,"text":"But anyway, let me show you what I'm talking about.","label":[],"Comments":[]}
+{"id":3991,"text":"So let's say I had <EXPRESSION> functions, let's say <EXPRESSION>, and I wanted to take the derivative of this.","label":[[19,31,"expression"],[53,65,"expression"]],"Comments":[]}
+{"id":3992,"text":"And now it's really easy.","label":[],"Comments":[]}
+{"id":3993,"text":"And so, we could say this so let me change colors, because this could get confusing this term right here, we could say that term <EXPRESSION> = this term let me switch back to the yellow = <EXPRESSION> minus this term.","label":[[129,141,"expression"],[189,201,"expression"]],"Comments":[]}
+{"id":3994,"text":"So I'm going to subtract this term from both sides of this equation.","label":[],"Comments":[]}
+{"id":3995,"text":"And the reason why I knew <EXPRESSION> is <EXPRESSION> is because I said the derivative, I said <EXPRESSION>, is <EXPRESSION>.","label":[[26,38,"expression"],[42,54,"expression"],[96,108,"expression"],[113,125,"expression"]],"Comments":[]}
+{"id":3996,"text":"Well what's the derivative of <EXPRESSION>? Well, we said <EXPRESSION> is <EXPRESSION>, right? So the derivative is just <EXPRESSION>.","label":[[30,42,"expression"],[58,70,"expression"],[74,86,"expression"],[121,133,"expression"]],"Comments":[]}
+{"id":3997,"text":"I like this more, because it naturally makes more sense to me.","label":[],"Comments":[]}
+{"id":3998,"text":"And we also want to take the integral of <EXPRESSION>.","label":[[41,53,"expression"]],"Comments":[]}
+{"id":3999,"text":"And we should never forget the <EXPRESSION>.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":4000,"text":"But when you do calculus it's been about fifteen years since I learned it and I just remember integration by parts is just really a derivation of the product rule, and that gets me back to the format.","label":[],"Comments":[]}
+{"id":4001,"text":"And the antiderivative of <EXPRESSION> is <EXPRESSION>, which is just as complicated.","label":[[26,38,"expression"],[42,54,"expression"]],"Comments":[]}
+{"id":4002,"text":"The reason why I'm going to assume that <EXPRESSION> is <EXPRESSION>, and I'm going to assume <EXPRESSION> is <EXPRESSION>, is because later we want to take the derivative of <EXPRESSION>.","label":[[40,52,"expression"],[56,68,"expression"],[94,106,"expression"],[110,122,"expression"],[175,187,"expression"]],"Comments":[]}
+{"id":4003,"text":"You might want to memorize it for the exam, because it's faster for when you take the AP exam.","label":[],"Comments":[]}
+{"id":4004,"text":"So that's the integral of <EXPRESSION>.","label":[[26,38,"expression"]],"Comments":[]}
+{"id":4005,"text":"Actually, well I'm running out of space, but I'll write it in the corner right down here.","label":[],"Comments":[]}
+{"id":4006,"text":"And then I can use it.","label":[],"Comments":[]}
+{"id":4007,"text":"So what I'm going to do and you might view this as, well, Sal, how did you know to do this? And I'll tell you my thought process actually after I show you what I did.","label":[],"Comments":[]}
+{"id":4008,"text":"You get <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":4009,"text":"So we just used the product rule to derive this formula for integration by parts, and in a lot of calculus books they do this <EXPRESSION> and <EXPRESSION> and <EXPRESSION>.","label":[[126,138,"expression"],[143,155,"expression"],[160,172,"expression"]],"Comments":[]}
+{"id":4010,"text":"And you probably wondering, well, Sal, this is all nice and it looks fancy, but what good is this going to do me? Well, what I essentially just did is I kind of proved this you could call this a formula, but I often forget it, especially once I haven't done it a long time, and then I actually just reprove it to myself just by remembering the product rule but this is called integration by parts.","label":[],"Comments":[]}
+{"id":4011,"text":"Well the chain rule just told us that this is just the same thing as, let's say, the derivative of the first function <EXPRESSION> times the second function <EXPRESSION> plus now the first function <EXPRESSION> times the derivative of the second function.","label":[[118,130,"expression"],[157,169,"expression"],[198,210,"expression"]],"Comments":[]}
+{"id":4012,"text":"I hope you understand what I'm saying.","label":[],"Comments":[]}
+{"id":4013,"text":"And I'll show you where I'm going with this in a second.","label":[],"Comments":[]}
+{"id":4014,"text":"In the next presentation, I will do a bunch of examples well, as many as I can fit in to <EXPRESSION> minutes of actually using integration by parts to solve fairly fancy integrals.","label":[[89,101,"expression"]],"Comments":[]}
+{"id":4015,"text":"So in this situation, we could assume that <EXPRESSION> is <EXPRESSION>, and we could assume that <EXPRESSION> is <EXPRESSION>, or we could assume the other way around.","label":[[43,55,"expression"],[59,71,"expression"],[98,110,"expression"],[114,126,"expression"]],"Comments":[]}
+{"id":4016,"text":"Because I put it onto this side of the equation.","label":[],"Comments":[]}
+{"id":4017,"text":"Let me write it separately here.","label":[],"Comments":[]}
+{"id":4018,"text":"And actually, try it the other way around, and you'll see that if you took the antiderivative of <EXPRESSION>, you would get something that's more complicated.","label":[[97,109,"expression"]],"Comments":[]}
+{"id":4019,"text":"And then this is minus the integral of the derivative of <EXPRESSION>.","label":[[57,69,"expression"]],"Comments":[]}
+{"id":4020,"text":"So let's just remember what the product rule of differentiation was.","label":[],"Comments":[]}
+{"id":4021,"text":"And so how can we use this for integration by parts? Well, integration by parts tells us that if we have an integral where we have a function and then the derivative of another function, then we could use this formula to hopefully simplify it.","label":[],"Comments":[]}
+{"id":4022,"text":"So you know, if the function if the derivative of a function is cosine, then we know the function itself is sine.","label":[],"Comments":[]}
+{"id":4023,"text":"It's easier for me to read, and I can derive at any time, just from the product rule.","label":[],"Comments":[]}
+{"id":4024,"text":"So if we were to integrate both sides well if you integrate this side, you're taking the integral of a derivative, you just get back to what you took the derivative originally of, so this just becomes <EXPRESSION>, and then we have to integrate the right hand side, well that just becomes and we're doing the indefinite integral, kind of the antiderivative, but we can use this tool when we do definite integrals as well.","label":[[201,213,"expression"]],"Comments":[]}
+{"id":4025,"text":"So I don't have to necessarily memorize it.","label":[],"Comments":[]}

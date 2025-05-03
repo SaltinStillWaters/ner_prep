@@ -1,0 +1,113 @@
+{"id":2921,"text":"So let's say the temperature in a room is a function of where I am in the room.","label":[],"Comments":[]}
+{"id":2922,"text":"So the gradient of <EXPRESSION> = now you might be daunted.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":2923,"text":"Or you can kind of view it as almost a three-dimensional slope.","label":[],"Comments":[]}
+{"id":2924,"text":"All a scalar field means is that in any point in this base and in this case we're dealing with three-dimensional space at any point in that space we can associate a value.","label":[],"Comments":[]}
+{"id":2925,"text":"Associated with every coordinate is just a temperature.","label":[],"Comments":[]}
+{"id":2926,"text":"This is actually the gradient of the function that we just solved for.","label":[],"Comments":[]}
+{"id":2927,"text":"So let's write our temperature function.","label":[],"Comments":[]}
+{"id":2928,"text":"So the derivative of that with respect to <EXPRESSION> is just going to be these are just constants, so the derivative with respect to <EXPRESSION> is just <EXPRESSION>.","label":[[42,54,"expression"],[135,147,"expression"],[156,168,"expression"]],"Comments":[]}
+{"id":2929,"text":"And that makes sense.","label":[],"Comments":[]}
+{"id":2930,"text":"You would just get a temperature.","label":[],"Comments":[]}
+{"id":2931,"text":"So how would we view the gradient of this function? Well the gradient of this function is going to tell us in which direction and actually, the gradient of this function is going to generate a vector field, because it's going to tell us in which direction do we have the largest increase in temperature.","label":[],"Comments":[]}
+{"id":2932,"text":"So let's say it's a function of my <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> coordinates.","label":[[35,47,"expression"],[49,61,"expression"],[67,79,"expression"]],"Comments":[]}
+{"id":2933,"text":"So the derivative of the outside expression, the way I imagine it, = <EXPRESSION>.","label":[[69,81,"expression"]],"Comments":[]}
+{"id":2934,"text":"So what's a scalar field? One that I find fairly intuitive is temperature in a three-dimensional room.","label":[],"Comments":[]}
+{"id":2935,"text":"But that's not what we're learning here.","label":[],"Comments":[]}
+{"id":2936,"text":"So let's do that.","label":[],"Comments":[]}
+{"id":2937,"text":"If you wanted to know the gradient at any point in space, you would substitute an <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> in here.","label":[[82,94,"expression"],[96,108,"expression"],[114,126,"expression"]],"Comments":[]}
+{"id":2938,"text":"And let me make it bigger so we can explore it a little bit.","label":[],"Comments":[]}
+{"id":2939,"text":"So the radius away from the center, that's just going to be <EXPRESSION>.","label":[[60,72,"expression"]],"Comments":[]}
+{"id":2940,"text":"Well, what's the derivative of <EXPRESSION>? The derivative of <EXPRESSION> is <EXPRESSION>.","label":[[31,43,"expression"],[63,75,"expression"],[79,91,"expression"]],"Comments":[]}
+{"id":2941,"text":"Anyway, I'll see you in the next video.","label":[],"Comments":[]}
+{"id":2942,"text":"<EXPRESSION> times the derivative of the outside.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2943,"text":"And let's see what it looks like.","label":[],"Comments":[]}
+{"id":2944,"text":"So <EXPRESSION>, with respect to <EXPRESSION>.","label":[[3,15,"expression"],[33,45,"expression"]],"Comments":[]}
+{"id":2945,"text":"So what's the radial distance away? And this actually isn't that relevant to learning gradients, but let's get a little intuition about what that actual temperature function how it actually changes as you go through the room.","label":[],"Comments":[]}
+{"id":2946,"text":"Let me erase this thing down here.","label":[],"Comments":[]}
+{"id":2947,"text":"Let's say we have a <EXPRESSION> kelvin heat force in the center of our room.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":2948,"text":"So let's say that the temperature function.","label":[],"Comments":[]}
+{"id":2949,"text":"And then all of that times <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
+{"id":2950,"text":"So what would happen.","label":[],"Comments":[]}
+{"id":2951,"text":"Now let's try to get our heads around what the gradient of a function of three variables looks like.","label":[],"Comments":[]}
+{"id":2952,"text":"Let's actually fly in to the vector field.","label":[],"Comments":[]}
+{"id":2953,"text":"And then all of that times the unit vector in the <EXPRESSION> direction.","label":[[50,62,"expression"]],"Comments":[]}
+{"id":2954,"text":"The harder part is the intuition.","label":[],"Comments":[]}
+{"id":2955,"text":"As you get closer and closer to our heat source, the rate at which the temperature increases, increases! Right? The vectors as you get closer, get bigger and bigger.","label":[],"Comments":[]}
+{"id":2956,"text":"Remember, <EXPRESSION>, the temperature at any point, was a scalar field.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":2957,"text":"In the last video we had a three-dimensional surface, where the height <EXPRESSION> was a function of <EXPRESSION> and <EXPRESSION>.","label":[[71,83,"expression"],[102,114,"expression"],[119,131,"expression"]],"Comments":[]}
+{"id":2958,"text":"When I first learned gradients, I think the computation is relatively straightforward.","label":[],"Comments":[]}
+{"id":2959,"text":"And I'm going to switch from this blue color, because it's a little nauseating.","label":[],"Comments":[]}
+{"id":2960,"text":"And then the derivative of the whole thing is just itself again.","label":[],"Comments":[]}
+{"id":2961,"text":"Where the magnitude are the partial derivatives, and then the direction is given by <EXPRESSION>, <EXPRESSION>, and <EXPRESSION>.","label":[[84,96,"expression"],[98,110,"expression"],[116,128,"expression"]],"Comments":[]}
+{"id":2962,"text":"Oh, I have an e to this three variable function, how do I take the partial derivative? Remember, if you're taking the partial derivative with respect to <EXPRESSION> you just pretend like the <EXPRESSION> and the <EXPRESSION> are constants.","label":[[153,165,"expression"],[192,204,"expression"],[213,225,"expression"]],"Comments":[]}
+{"id":2963,"text":"You wouldn't get a temperature and a direction, so it's not a vector field.","label":[],"Comments":[]}
+{"id":2964,"text":"So it's <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":2965,"text":"The partial derivative of this inner function with respect to <EXPRESSION>, it's <EXPRESSION>.","label":[[62,74,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":2966,"text":"But the intuition is always the interesting thing.","label":[],"Comments":[]}
+{"id":2967,"text":"So the derivative is <EXPRESSION>.","label":[[21,33,"expression"]],"Comments":[]}
+{"id":2968,"text":"Kind of radially further and further away from that source.","label":[],"Comments":[]}
+{"id":2969,"text":"And also, the magnitude of those vectors in that vector field will tell us how large of an increase in temperature we are looking at.","label":[],"Comments":[]}
+{"id":2970,"text":"And now we just plug and chug and figure out the partial derivatives.","label":[],"Comments":[]}
+{"id":2971,"text":"And let's say that center of the room is at the coordinates <EQUATION>.","label":[[60,70,"equation"]],"Comments":[]}
+{"id":2972,"text":"This is just the chain rule.","label":[],"Comments":[]}
+{"id":2973,"text":"And hopefully this temperature analogy and not even analogy this temperature model will make a little sense to you.","label":[],"Comments":[]}
+{"id":2974,"text":"But anyway, the more important thing is I always find with gradients it's easy to calculate them, but the intuition oh sorry.","label":[],"Comments":[]}
+{"id":2975,"text":"And let me zoom in.","label":[],"Comments":[]}
+{"id":2976,"text":"So we're now within the vector field.","label":[],"Comments":[]}
+{"id":2977,"text":"So you could write it as the gradient function is a function of <EXPRESSION>, <EXPRESSION>, and <EXPRESSION>.","label":[[64,76,"expression"],[78,90,"expression"],[96,108,"expression"]],"Comments":[]}
+{"id":2978,"text":"It's just partial derivatives.","label":[],"Comments":[]}
+{"id":2979,"text":"But it applies to pretty much any scalar field.","label":[],"Comments":[]}
+{"id":2980,"text":"That's why <EXPRESSION> is such an amazing number.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":2981,"text":"And that's just <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
+{"id":2982,"text":"Hope that doesn't confuse you.","label":[],"Comments":[]}
+{"id":2983,"text":"At any point in three dimensions it just gave you a number.","label":[],"Comments":[]}
+{"id":2984,"text":"And actually, I'm not going to go into that, because I realize I'm running out of time.","label":[],"Comments":[]}
+{"id":2985,"text":"And then the direction is given by the relative weighting of the <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> components.","label":[[65,77,"expression"],[79,91,"expression"],[97,109,"expression"]],"Comments":[]}
+{"id":2986,"text":"So plus what's the partial derivative of this with respect to <EXPRESSION>? Well it's going to look very similar.","label":[[62,74,"expression"]],"Comments":[]}
+{"id":2987,"text":"And then you add them together like you would add any vectors.","label":[],"Comments":[]}
+{"id":2988,"text":"Now when you have the gradient, at any point in three dimensions it gives you a vector.","label":[],"Comments":[]}
+{"id":2989,"text":"This is also included.","label":[],"Comments":[]}
+{"id":2990,"text":"So the easiest one for me to imagine is a scalar field.","label":[],"Comments":[]}
+{"id":2991,"text":"That's just the Pythagorean theorem in three dimensions.","label":[],"Comments":[]}
+{"id":2992,"text":"So it'd be <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":2993,"text":"So times <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":2994,"text":"So this is the vector field.","label":[],"Comments":[]}
+{"id":2995,"text":"Right? And now we can do the same thing for the <EXPRESSION> direction.","label":[[48,60,"expression"]],"Comments":[]}
+{"id":2996,"text":"Right? <EXPRESSION> is the derivative of <EXPRESSION>.","label":[[7,19,"expression"],[41,53,"expression"]],"Comments":[]}
+{"id":2997,"text":"Well I'm just saying that it exponentially decays as you get further and further away from that source.","label":[],"Comments":[]}
+{"id":2998,"text":"Instead of <EXPRESSION>, I wrote <EXPRESSION>, just to kind of give you the intuition that this expression is just saying the square of the distance as we get away from the center of our room, or from the coordinate <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.","label":[[11,23,"expression"],[33,45,"expression"],[216,228,"expression"],[230,242,"expression"],[244,256,"expression"]],"Comments":[]}
+{"id":2999,"text":"I think you can simplify this algebraically.","label":[],"Comments":[]}
+{"id":3000,"text":"And I don't know, I have never actually modeled temperature.","label":[],"Comments":[]}
+{"id":3001,"text":"And it gave us surface in three-dimensional space.","label":[],"Comments":[]}
+{"id":3002,"text":"So let's get an intuition of what this gradient function will actually look like.","label":[],"Comments":[]}
+{"id":3003,"text":"I think that's pretty good.","label":[],"Comments":[]}
+{"id":3004,"text":"So let's write temperature as a function of <EQUATION> which is exactly what I wrote up here.","label":[[44,54,"equation"]],"Comments":[]}
+{"id":3005,"text":"Anyway, I hope I didn't confuse you.","label":[],"Comments":[]}
+{"id":3006,"text":"And then finally, the partial derivative of the temperature function with respect to <EXPRESSION>.","label":[[85,97,"expression"]],"Comments":[]}
+{"id":3007,"text":"So let's say our temperature function I'm just making this up, I don't know if this is an accurate model of temperature it's = <EXPRESSION>.","label":[[127,139,"expression"]],"Comments":[]}
+{"id":3008,"text":"And that's why it's called a scalar field.","label":[],"Comments":[]}
+{"id":3009,"text":"I can imagine as you go further and further away from that heat source it's going to get colder and colder.","label":[],"Comments":[]}
+{"id":3010,"text":"So let's take the derivative of the inside function.","label":[],"Comments":[]}
+{"id":3011,"text":"So we've gone from having a scalar field to a vector field.","label":[],"Comments":[]}
+{"id":3012,"text":"So let's compute the gradient, and then I'll show you a diagram that might make things a little bit more intuitive.","label":[],"Comments":[]}
+{"id":3013,"text":"Now why did I say r? I said it's a function of <EXPRESSION>, <EXPRESSION>, and <EXPRESSION>.","label":[[47,59,"expression"],[61,73,"expression"],[79,91,"expression"]],"Comments":[]}
+{"id":3014,"text":"But let's say I have, I don't know, a <EXPRESSION> kelvin actually, let me make it so that our vector field works out right.","label":[[38,50,"expression"]],"Comments":[]}
+{"id":3015,"text":"And as you can see, at any point and when this graphing program that did it, it just picked different points and it calculated the gradients at that point, and then it graphed them as vectors.","label":[],"Comments":[]}
+{"id":3016,"text":"And then all of that times the unit vector in the <EXPRESSION> direction.","label":[[50,62,"expression"]],"Comments":[]}
+{"id":3017,"text":"That's the way I view it.","label":[],"Comments":[]}
+{"id":3018,"text":"And you can see as we get closer and closer to the center of our heat source, the vectors, the rate at which the temperature increases, gets bigger and bigger and bigger.","label":[],"Comments":[]}
+{"id":3019,"text":"That's <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":3020,"text":"Right? Because it has <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> components.","label":[[22,34,"expression"],[36,48,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id":3021,"text":"This is a <EXPRESSION> right here.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":3022,"text":"So the length of the vectors are just the magnitudes of the <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> components.","label":[[60,72,"expression"],[74,86,"expression"],[92,104,"expression"]],"Comments":[]}
+{"id":3023,"text":"But I want you to understand, at least conceptualize this, it's hard to draw a scalar field.","label":[],"Comments":[]}
+{"id":3024,"text":"So the gradient of <EXPRESSION> is going to be <EQUATION>.","label":[[19,31,"expression"],[47,57,"equation"]],"Comments":[]}
+{"id":3025,"text":"So you could distribute this minus if you like.","label":[],"Comments":[]}
+{"id":3026,"text":"You could have <EXPRESSION>.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":3027,"text":"And we could simplify this a little bit.","label":[],"Comments":[]}
+{"id":3028,"text":"If you were to take a thermometer and measure any point in space in the room that you're in right now, you would get a temperature.","label":[],"Comments":[]}
+{"id":3029,"text":"Let me write it up here.","label":[],"Comments":[]}
+{"id":3030,"text":"And this <EXPRESSION> here, this is just a constant that when you take the derivative of a constant times something the constant carries over.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":3031,"text":"So the gradient of the temperature function <EXPRESSION>.","label":[[44,56,"expression"]],"Comments":[]}
+{"id":3032,"text":"And I'm treating the other two variables that I'm not taking the partial derivative with respect to, as constants.","label":[],"Comments":[]}
+{"id":3033,"text":"And as you can see, the intuition is pretty interesting.","label":[],"Comments":[]}

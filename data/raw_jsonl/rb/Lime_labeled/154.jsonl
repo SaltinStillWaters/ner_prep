@@ -1,0 +1,495 @@
+{"id":12067,"text":"The task for today is to find particular solutions.","label":[],"Comments":[]}
+{"id":12068,"text":"So, let me remind you where we've gotten to.","label":[],"Comments":[]}
+{"id":12069,"text":"We're talking about the second-order equation with constant coefficients, which you can think of as modeling springs, or simple electrical circuits.","label":[],"Comments":[]}
+{"id":12070,"text":"But, what's different now is that the right-hand side is an input which is not <EXPRESSION>.","label":[[79,91,"expression"]],"Comments":[]}
+{"id":12071,"text":"So, we are considering, I'm going to use <EXPRESSION> as your book does, keeping to a neutral letter.","label":[[41,53,"expression"]],"Comments":[]}
+{"id":12072,"text":"But, again, in the applications, and in many of the applications at any rate, it wants to be <EXPRESSION>.","label":[],"Comments":[]}
+{"id":12073,"text":"But, I make it <EXPRESSION>.","label":[[7,11,"command"],[12,14,"command_attribute"],[15,27,"expression"]],"Comments":[]}
+{"id":12074,"text":"So, the independent variable is <EXPRESSION>, and the problem is, remember, that to find a particular solution, and the reason why we want to do that is then the general solution will be of the form <EXPRESSION> = that particular solution plus the complementary solution, the general solution to the reduced equation, which we can write this way.","label":[[32,44,"expression"],[199,211,"expression"]],"Comments":[]}
+{"id":12075,"text":"So, all the work depends upon finding out what that <EXPRESSION> is, and that's what we're going to talk about today, or rather, talk about for two weeks.","label":[[52,64,"expression"]],"Comments":[]}
+{"id":12076,"text":"But, the point is, not all functions that you could write on the right-hand side are equally interesting.","label":[],"Comments":[]}
+{"id":12077,"text":"There's one kind, which is far more interesting, but more important in the applications than all the others.","label":[],"Comments":[]}
+{"id":12078,"text":"And, that's the one out of which, in fact, as you will see later on this week and into next week, an arbitrary function can be built out of these simple functions.","label":[],"Comments":[]}
+{"id":12079,"text":"So, the important function is on the right-hand side to be able to solve it when it's a simple exponential.","label":[],"Comments":[]}
+{"id":12080,"text":"But, if you allow me to make it a complex exponential, so, here are the important right-hand sides where we want, we want to be able to do it when it's of the form, <EXPRESSION>.","label":[[165,177,"expression"]],"Comments":[]}
+{"id":12081,"text":"In general, that will be, in most applications, a is not a growing exponential, but a decaying exponential.","label":[],"Comments":[]}
+{"id":12082,"text":"So, typically, <EXPRESSION> is negative.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":12083,"text":"But, it doesn't have to be.","label":[],"Comments":[]}
+{"id":12084,"text":"I'll put it in parentheses, though, often.","label":[[5,8,"command"]],"Comments":[]}
+{"id":12085,"text":"That's not any assumption that I'm going to make today.","label":[],"Comments":[]}
+{"id":12086,"text":"It's just culture.","label":[],"Comments":[]}
+{"id":12087,"text":"But, we want to be able to do it for <EXPRESSION> and <EXPRESSION>.","label":[[37,49,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id":12088,"text":"In other words, when the right-hand side is a pure oscillation, that's another important type of input both for electrical circuits, think alternating current, or the spring systems.","label":[],"Comments":[]}
+{"id":12089,"text":"That's a pure vibration is you're imposing pure vibration on the spring-mass-dashpot system, and you want to see how it responds to that.","label":[],"Comments":[]}
+{"id":12090,"text":"Or, you could put them together, and make these decaying oscillations.","label":[],"Comments":[]}
+{"id":12091,"text":"So, we could also have something like e to the <EXPRESSION>, or <EXPRESSION>.","label":[[47,59,"expression"],[64,76,"expression"]],"Comments":[]}
+{"id":12092,"text":"Now, the point is, all of these together are really just special cases of one general thing, exponential, if you allow the exponent not to be a real number, but to be a complex number.","label":[],"Comments":[]}
+{"id":12093,"text":"So, they're all special cases of e to the, I'll write it <EXPRESSION>, well, why don't we write it <EXPRESSION>, right?","label":[[48,53,"command"],[57,69,"expression"]],"Comments":[]}
+{"id":12094,"text":"If <EXPRESSION> is <EXPRESSION>, then I've got this case.","label":[[3,15,"expression"],[19,31,"expression"]],"Comments":[]}
+{"id":12095,"text":"If <EXPRESSION> is <EXPRESSION>, I got this case separating into its real and imaginary parts.","label":[[3,15,"expression"],[19,31,"expression"]],"Comments":[]}
+{"id":12096,"text":"And, if neither is <EXPRESSION>, I have this case.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":12097,"text":"But, I don't want to keep writing <EXPRESSION> all the time.","label":[[34,46,"expression"]],"Comments":[]}
+{"id":12098,"text":"So, I'm going to write that simply as <EXPRESSION>.","label":[[17,22,"command"],[38,50,"expression"]],"Comments":[]}
+{"id":12099,"text":"And, you understand that <EXPRESSION> is a complex number now.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":12100,"text":"It doesn't look like a real number.","label":[],"Comments":[]}
+{"id":12101,"text":"Okay, so the complex number.","label":[],"Comments":[]}
+{"id":12102,"text":"So, the equation we are solving is which one?","label":[],"Comments":[]}
+{"id":12103,"text":"This pretty purple equation.","label":[],"Comments":[]}
+{"id":12104,"text":"And, we are trying to find a particular solution of it.","label":[],"Comments":[]}
+{"id":12105,"text":"And, the special functions we are going to use are these, well, this one in particular, <EXPRESSION>.","label":[[88,100,"expression"]],"Comments":[]}
+{"id":12106,"text":"That's going to be our input.","label":[],"Comments":[]}
+{"id":12107,"text":"Now, it turns out this is amazingly easy to do because it's an exponential because I write it in exponential form.","label":[[85,90,"command"]],"Comments":[]}
+{"id":12108,"text":"The idea is simply to use a rule which, in fact, you know already, the rule of substitution.","label":[],"Comments":[]}
+{"id":12109,"text":"So, I'm going to write the equation in the form, so, there it is.","label":[[17,22,"command"],[27,35,"command_attribute"]],"Comments":[]}
+{"id":12110,"text":"It's <EQUATION>.","label":[[5,15,"equation"]],"Comments":[]}
+{"id":12111,"text":"But, I'm going to think of the left-hand side as the polynomial operator, <EXPRESSION>.","label":[[74,86,"expression"]],"Comments":[]}
+{"id":12112,"text":"<EXPRESSION> and <EXPRESSION> are constants, applied to <EQUATION>.","label":[[0,12,"expression"],[17,29,"expression"],[56,66,"equation"]],"Comments":[]}
+{"id":12113,"text":"That's the way I write the thing.","label":[[17,22,"command"]],"Comments":[]}
+{"id":12114,"text":"And, this part, I'm going to think of in the form.","label":[],"Comments":[]}
+{"id":12115,"text":"This is <EXPRESSION>, a polynomial in <EXPRESSION>.","label":[[8,20,"expression"],[38,50,"expression"]],"Comments":[]}
+{"id":12116,"text":"In fact, it's a simple quadratic polynomial.","label":[],"Comments":[]}
+{"id":12117,"text":"But, most of what I'm going to say today would apply equally well if we were a higher order polynomial, a polynomial of higher degree.","label":[],"Comments":[]}
+{"id":12118,"text":"And, just to reinforce the idea, I've given you one problem in your problem set when <EXPRESSION> is a polynomial of higher degree.","label":[[85,97,"expression"]],"Comments":[]}
+{"id":12119,"text":"I should say, the notes are written for general polynomials, not just for quadratic ones.","label":[],"Comments":[]}
+{"id":12120,"text":"I'm simplifying it by leaving it, today, I'll do what's in the notes, but I'll do it in the quadratic case to save a little time, and because that's the one you will be most concerned with in the problems.","label":[],"Comments":[]}
+{"id":12121,"text":"All right, so <EQUATION>.","label":[[14,24,"equation"]],"Comments":[]}
+{"id":12122,"text":"And now, there are just a couple of basic formulas that we're going to use all the time.","label":[],"Comments":[]}
+{"id":12123,"text":"The first is that if you apply <EXPRESSION> to a complex exponential, or a real one, it doesn't matter, the answer is you get just what you started with, with <EXPRESSION> substituted by <EXPRESSION>.","label":[[25,30,"command"],[31,43,"expression"],[159,171,"expression"],[187,199,"expression"]],"Comments":[]}
+{"id":12124,"text":"So, it's <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":12125,"text":"In other words, put an alpha wherever you saw a <EXPRESSION> in the polynomial.","label":[[48,60,"expression"]],"Comments":[]}
+{"id":12126,"text":"And, what is this?","label":[],"Comments":[]}
+{"id":12127,"text":"Well, this is now just an ordinary complex number, and multiply that by what you started with, <EXPRESSION>.","label":[[95,107,"expression"]],"Comments":[]}
+{"id":12128,"text":"So, that's a basic formula.","label":[],"Comments":[]}
+{"id":12129,"text":"It's called in the notes the substitution rule because the heart of it is, you substitute for the <EXPRESSION>, you substitute <EXPRESSION>.","label":[[29,46,"method"],[79,89,"command"],[98,110,"expression"],[116,126,"command"],[127,139,"expression"]],"Comments":[]}
+{"id":12130,"text":"Now, this hardly requires proof.","label":[],"Comments":[]}
+{"id":12131,"text":"But, let's prove it just so you see, to reinforce things and make things go a little more slowly to make sure you are on board all the time.","label":[],"Comments":[]}
+{"id":12132,"text":"How would I prove that?","label":[],"Comments":[]}
+{"id":12133,"text":"Well, just calculate it out, what in fact is <EXPRESSION>.","label":[[45,57,"expression"]],"Comments":[]}
+{"id":12134,"text":"Well, it's <EXPRESSION> by linearity plus <EXPRESSION>.","label":[[11,23,"expression"],[37,41,"command"],[42,54,"expression"]],"Comments":[]}
+{"id":12135,"text":"Well, what are these?","label":[],"Comments":[]}
+{"id":12136,"text":"What's the derivative of <EXPRESSION>?","label":[[25,37,"expression"]],"Comments":[]}
+{"id":12137,"text":"It's just <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":12138,"text":"What's a second derivative?","label":[],"Comments":[]}
+{"id":12139,"text":"Well, if you remember from the exam, you can do tenth derivatives now.","label":[],"Comments":[]}
+{"id":12140,"text":"So, the second derivative is easy.","label":[],"Comments":[]}
+{"id":12141,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":12142,"text":"In other words, this law, what I'm saying really is that this law is obviously, quote unquote, \"true.","label":[],"Comments":[]}
+{"id":12143,"text":"\" Okay, I'm not even going to put it in quotes.","label":[],"Comments":[]}
+{"id":12144,"text":"It's obviously true for the operator, <EXPRESSION>, and the operator <EXPRESSION>.","label":[[38,50,"expression"],[69,81,"expression"]],"Comments":[]}
+{"id":12145,"text":"In other words, <EQUATION>.","label":[[16,26,"equation"]],"Comments":[]}
+{"id":12146,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":12147,"text":"And, therefore, it's true for linear combinations of these as well by linearity.","label":[],"Comments":[]}
+{"id":12148,"text":"So, therefore, also true for <EXPRESSION>.","label":[[29,41,"expression"]],"Comments":[]}
+{"id":12149,"text":"And, in fact, so if you calculate it out, what is it?","label":[],"Comments":[]}
+{"id":12150,"text":"This is <EXPRESSION> times the coefficient plus <EXPRESSION>.","label":[[8,20,"expression"],[21,26,"command"],[31,42,"command_attribute"],[43,47,"command"],[48,60,"expression"]],"Comments":[]}
+{"id":12151,"text":"So, it's in fact exactly this.","label":[],"Comments":[]}
+{"id":12152,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":12153,"text":"Now, how are we going to use this?","label":[],"Comments":[]}
+{"id":12154,"text":"Well, the idea is very simple.","label":[],"Comments":[]}
+{"id":12155,"text":"Remember, we're trying to solve this, I should have some consistent notation for these equations.","label":[[26,31,"command"]],"Comments":[]}
+{"id":12156,"text":"Purple, I think, will be the right thing here.","label":[],"Comments":[]}
+{"id":12157,"text":"You are solving purple equations.","label":[],"Comments":[]}
+{"id":12158,"text":"The formulas which will solve them will be orange formulas, and we will see what we need as we go along.","label":[],"Comments":[]}
+{"id":12159,"text":"So, I would like to just formulate it, this solution, the particular solution now.","label":[[25,34,"command"]],"Comments":[]}
+{"id":12160,"text":"I'm going to call it a theorem.","label":[[13,17,"command"]],"Comments":[]}
+{"id":12161,"text":"It's really too simple to be a theorem.","label":[],"Comments":[]}
+{"id":12162,"text":"On the other hand, it's too important not to be a theorem.","label":[],"Comments":[]}
+{"id":12163,"text":"So, let's call it, as I called it in the notes, the exponential input theorem, which says it all.","label":[],"Comments":[]}
+{"id":12164,"text":"Theorem says it's important.","label":[],"Comments":[]}
+{"id":12165,"text":"Exponential input means it's taking <EXPRESSION> to be an exponential.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":12166,"text":"It's an exponential input, and the theorem tells you what the response is.","label":[],"Comments":[]}
+{"id":12167,"text":"So, for that equation, I'm not going to recopy the equation for the purple equation, adequately indicated this way.","label":[],"Comments":[]}
+{"id":12168,"text":"There.","label":[],"Comments":[]}
+{"id":12169,"text":"Now try to take notes.","label":[],"Comments":[]}
+{"id":12170,"text":"For the purple equation, a solution is <EXPRESSION>.","label":[[39,51,"expression"]],"Comments":[]}
+{"id":12171,"text":"Somewhere I neglected to say that <EXPRESSION>, all right, so for the purple = <EXPRESSION>, how about that?","label":[[34,46,"expression"],[79,91,"expression"]],"Comments":[]}
+{"id":12172,"text":"That equation, <EQUATION>.","label":[[15,25,"equation"]],"Comments":[]}
+{"id":12173,"text":"So, here's the exponential input.","label":[],"Comments":[]}
+{"id":12174,"text":"The solution is <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
+{"id":12175,"text":"Now, that's a very useful formula.","label":[],"Comments":[]}
+{"id":12176,"text":"In fact, Haynes Miller, who also teaches this course, in his notes calls of the most important theorem in the course.","label":[],"Comments":[]}
+{"id":12177,"text":"Well, I don't have to totally agree with him, but it's certainly important.","label":[],"Comments":[]}
+{"id":12178,"text":"It's probably the most important theorem for these two weeks, anyway.","label":[],"Comments":[]}
+{"id":12179,"text":"But, you will have others as well.","label":[],"Comments":[]}
+{"id":12180,"text":"Okay, so that's a theorem.","label":[],"Comments":[]}
+{"id":12181,"text":"The theorem is going green.","label":[],"Comments":[]}
+{"id":12182,"text":"You can tell what they are by their color code.","label":[],"Comments":[]}
+{"id":12183,"text":"Well, in other words, what I've done is simply write down the solution for you, write down the particular solution.","label":[[47,52,"command"],[80,85,"command"]],"Comments":[]}
+{"id":12184,"text":"But let's verify it in general.","label":[],"Comments":[]}
+{"id":12185,"text":"So, the proof would be what?","label":[],"Comments":[]}
+{"id":12186,"text":"Well, I have to substitute it into the equation.","label":[[16,26,"command"]],"Comments":[]}
+{"id":12187,"text":"So, the equation is <EQUATION>.","label":[[20,30,"equation"]],"Comments":[]}
+{"id":12188,"text":"And, I want to know, when I substitute that expression in, is it the case that when I plug it in, that the right-hand side, I calculate it out, apply <EXPRESSION> to it.","label":[[28,38,"command"],[86,90,"command"],[126,135,"command"],[144,149,"command"],[150,162,"expression"]],"Comments":[]}
+{"id":12189,"text":"Is it the case that I get <EXPRESSION> on the right?","label":[[26,38,"expression"]],"Comments":[]}
+{"id":12190,"text":"Well, all you have to do is do it.","label":[],"Comments":[]}
+{"id":12191,"text":"What is <EXPRESSION>?","label":[[8,20,"expression"]],"Comments":[]}
+{"id":12192,"text":"Well, <EXPRESSION> is <EXPRESSION>.","label":[[6,18,"expression"],[22,34,"expression"]],"Comments":[]}
+{"id":12193,"text":"That's the substitution rule.","label":[[11,28,"method"]],"Comments":[]}
+{"id":12194,"text":"What about this guy?","label":[],"Comments":[]}
+{"id":12195,"text":"This guy is a constant, so it just gets dragged along because this operator is linear.","label":[],"Comments":[]}
+{"id":12196,"text":"If this applied to that is this, then if I apply it to one half that, I get one half the answer, and so on.","label":[[43,48,"command"]],"Comments":[]}
+{"id":12197,"text":"So, the <EXPRESSION> is a constant and just gets dragged along.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":12198,"text":"And now, they cancel each other, and the answer is, indeed, <EXPRESSION>.","label":[[14,20,"command"],[60,72,"expression"]],"Comments":[]}
+{"id":12199,"text":"That's not much of a proof.","label":[],"Comments":[]}
+{"id":12200,"text":"I hope that to at least half this class, you're wondering, yes, but what if Peter had not caught the wolf?","label":[],"Comments":[]}
+{"id":12201,"text":"I mean, what if?","label":[],"Comments":[]}
+{"id":12202,"text":"What if?","label":[],"Comments":[]}
+{"id":12203,"text":"I'm looking stern.","label":[],"Comments":[]}
+{"id":12204,"text":"Okay, we will take care of it in the simplest possible way.","label":[],"Comments":[]}
+{"id":12205,"text":"We will assume that <EXPRESSION> is not <EXPRESSION>.","label":[[8,14,"command"],[20,32,"expression"],[40,52,"expression"]],"Comments":[]}
+{"id":12206,"text":"The case <EXPRESSION> is <EXPRESSION> is, in fact, an extremely important case, one that makes the world go 'round, one that contributes to all sorts of catastrophes, and they occur first here in the solution of differential equations, and that's what controls all the catastrophes.","label":[[9,21,"expression"],[25,37,"expression"]],"Comments":[]}
+{"id":12207,"text":"But, there's a good side to it, too.","label":[],"Comments":[]}
+{"id":12208,"text":"It also makes a lot of good things happen.","label":[],"Comments":[]}
+{"id":12209,"text":"So, there are no moral judgments in mathematics.","label":[],"Comments":[]}
+{"id":12210,"text":"For the time being, let's assume <EXPRESSION> is not <EXPRESSION>.","label":[[26,32,"command"],[33,45,"expression"],[53,65,"expression"]],"Comments":[]}
+{"id":12211,"text":"And, that proof is okay because the <EXPRESSION>, being in the denominator, it's okay to be in the denominator if you're not <EXPRESSION>.","label":[[36,48,"expression"],[125,137,"expression"]],"Comments":[]}
+{"id":12212,"text":"Okay, let's work in a simple example.","label":[],"Comments":[]}
+{"id":12213,"text":"Well, I'm picking the most complicated example I can think of.","label":[],"Comments":[]}
+{"id":12214,"text":"Simple examples, I'll leave for your practice and for the recitations, can start off with simple examples if you are confused by this.","label":[],"Comments":[]}
+{"id":12215,"text":"But, let's solve an equation, find a particular solution.","label":[[11,16,"command"]],"Comments":[]}
+{"id":12216,"text":"So, <EQUATION>.","label":[[4,14,"equation"]],"Comments":[]}
+{"id":12217,"text":"Gulp.","label":[],"Comments":[]}
+{"id":12218,"text":"Okay, so, the input is this function, <EXPRESSION>, it's a decaying oscillation.","label":[[38,50,"expression"]],"Comments":[]}
+{"id":12219,"text":"You're seeing those already on the computer screen if you started your homework, if you've done problem one on your homework.","label":[],"Comments":[]}
+{"id":12220,"text":"It's a decaying exponential, and I want to find a particular solution.","label":[],"Comments":[]}
+{"id":12221,"text":"Well, let's find a particular and the general solution.","label":[],"Comments":[]}
+{"id":12222,"text":"Find the general solution.","label":[],"Comments":[]}
+{"id":12223,"text":"Well, the main part of the work is finding the particular solution, but let's quickly, the general solution, let's find first the complementary part of it, in other words, the solution to the homogeneous equation.","label":[],"Comments":[]}
+{"id":12224,"text":"That's <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":12225,"text":"No, let's not.","label":[],"Comments":[]}
+{"id":12226,"text":"I don't want to solve messy quadratics.","label":[[16,21,"command"]],"Comments":[]}
+{"id":12227,"text":"Okay, we're going to find a particular solution.","label":[[21,25,"command"]],"Comments":[]}
+{"id":12228,"text":"I thought it was going to come out easy, and then I realized it wasn't because I picked the wrong signs.","label":[],"Comments":[]}
+{"id":12229,"text":"Okay, so if you don't like, just change the problem.","label":[],"Comments":[]}
+{"id":12230,"text":"I can do that, but you cannot.","label":[],"Comments":[]}
+{"id":12231,"text":"Don't forget that.","label":[],"Comments":[]}
+{"id":12232,"text":"So, we want a particular solution in our equation.","label":[],"Comments":[]}
+{"id":12233,"text":"It is this = that.","label":[],"Comments":[]}
+{"id":12234,"text":"Now, let's complexify it to make this part of a complex exponential.","label":[],"Comments":[]}
+{"id":12235,"text":"So, the complex exponential that's relevant is <EXPRESSION>, you see that?","label":[[47,59,"expression"]],"Comments":[]}
+{"id":12236,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":12237,"text":"What is this?","label":[],"Comments":[]}
+{"id":12238,"text":"This is the imaginary part of this complex exponential.","label":[],"Comments":[]}
+{"id":12239,"text":"So, this is imaginary part of that guy, <EXPRESSION>, and the imaginary part of <EXPRESSION>.","label":[[40,52,"expression"],[80,92,"expression"]],"Comments":[]}
+{"id":12240,"text":"The <EXPRESSION>, of course, just comes along for the ride.","label":[[4,16,"expression"]],"Comments":[]}
+{"id":12241,"text":"Okay, well, now, since this is a complex equation, I shouldn't call this <EXPRESSION> anymore by my notation.","label":[[63,67,"command"],[73,85,"expression"]],"Comments":[]}
+{"id":12242,"text":"I like to call it <EXPRESSION> to indicate that the solution we get to this is not going to be the original solution to the original problem, but you will have to take the imaginary part of it to get it.","label":[[10,14,"command"],[18,30,"expression"]],"Comments":[]}
+{"id":12243,"text":"So, we are looking, now, for the complex solution to this complexified equation.","label":[],"Comments":[]}
+{"id":12244,"text":"Okay, what is it?","label":[],"Comments":[]}
+{"id":12245,"text":"Well, the complex particular solution I can write down immediately.","label":[],"Comments":[]}
+{"id":12246,"text":"It is <EXPRESSION>, that, of course, just gets dragged along by linearity, times <EXPRESSION>.","label":[[6,18,"expression"],[75,80,"command"],[81,93,"expression"]],"Comments":[]}
+{"id":12247,"text":"And, it's over this polynomial evaluated at this <EXPRESSION>.","label":[[49,61,"expression"]],"Comments":[]}
+{"id":12248,"text":"So, just write it down with, have faith.","label":[[9,14,"command"]],"Comments":[]}
+{"id":12249,"text":"So, what do I get?","label":[],"Comments":[]}
+{"id":12250,"text":"The <EXPRESSION> is <EXPRESSION>.","label":[[4,16,"expression"],[20,32,"expression"]],"Comments":[]}
+{"id":12251,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":12252,"text":"square that, because I'm substituting this <EXPRESSION> into that polynomial.","label":[[43,55,"expression"]],"Comments":[]}
+{"id":12253,"text":"The reason I'm doing that is because the formula tells me to do it.","label":[],"Comments":[]}
+{"id":12254,"text":"That's going to be that solution.","label":[],"Comments":[]}
+{"id":12255,"text":"Okay, so it's <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":12256,"text":"All I've done is substitute <EXPRESSION> for <EXPRESSION> in that polynomial, the quadratic polynomial.","label":[[17,27,"command"],[28,40,"expression"],[45,57,"expression"]],"Comments":[]}
+{"id":12257,"text":"And now, all I want is the imaginary part of this.","label":[],"Comments":[]}
+{"id":12258,"text":"The imaginary part of this will be the solution to the original problem because this was the right hand side with the imaginary part of the complexified right hand side.","label":[],"Comments":[]}
+{"id":12259,"text":"Okay, now, let's make it look a little better, <EXPRESSION>.","label":[[47,59,"expression"]],"Comments":[]}
+{"id":12260,"text":"Clearly, what we have to do something nice to the denominator.","label":[],"Comments":[]}
+{"id":12261,"text":"So, I'll copy the numerator.","label":[[9,13,"command"],[18,27,"command_attribute"]],"Comments":[]}
+{"id":12262,"text":"That's <EXPRESSION> and how about the denominator?","label":[[7,19,"expression"]],"Comments":[]}
+{"id":12263,"text":"Well, again, don't expand things out because it's already this long.","label":[],"Comments":[]}
+{"id":12264,"text":"And, what's the point of making it this long?","label":[],"Comments":[]}
+{"id":12265,"text":"You want to make it as long, right?","label":[],"Comments":[]}
+{"id":12266,"text":"Okay, then there is room here for one real number, and another real number times <EXPRESSION>, there's no more room.","label":[[81,93,"expression"]],"Comments":[]}
+{"id":12267,"text":"Okay, what's the real number?","label":[],"Comments":[]}
+{"id":12268,"text":"Okay, we're looking for the real part of this expression.","label":[],"Comments":[]}
+{"id":12269,"text":"So, just put it in and keep it mentally.","label":[],"Comments":[]}
+{"id":12270,"text":"So, <EXPRESSION>: that's <EXPRESSION>, that's <EXPRESSION>.","label":[[4,16,"expression"],[25,37,"expression"],[46,58,"expression"]],"Comments":[]}
+{"id":12271,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
+{"id":12272,"text":"I can forget about that term.","label":[],"Comments":[]}
+{"id":12273,"text":"The term gives me <EXPRESSION> for the real part, plus <EXPRESSION>.","label":[[18,30,"expression"],[50,54,"command"],[55,67,"expression"]],"Comments":[]}
+{"id":12274,"text":"The answer is that the real part is <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":12275,"text":"How about the imaginary part?","label":[],"Comments":[]}
+{"id":12276,"text":"Well, from here, there's <EXPRESSION>, <EXPRESSION>.","label":[[25,37,"expression"],[39,51,"expression"]],"Comments":[]}
+{"id":12277,"text":"I'm expanding that out by the binomial theorem, or whatever you like to call that, <EXPRESSION>.","label":[[72,76,"command"],[83,95,"expression"]],"Comments":[]}
+{"id":12278,"text":"Is that right?","label":[],"Comments":[]}
+{"id":12279,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":12280,"text":"So, it is <EXPRESSION>, and now in the denominator I have <EXPRESSION>.","label":[[10,22,"expression"],[58,70,"expression"]],"Comments":[]}
+{"id":12281,"text":"I'll put that in the numerator, make it <EXPRESSION>, but I have to divide by the product of <EXPRESSION> and its complex conjugate.","label":[[5,8,"command"],[21,30,"command_attribute"],[40,52,"expression"],[68,77,"command"],[82,89,"command_attribute"],[93,105,"expression"]],"Comments":[]}
+{"id":12282,"text":"In other words, I'm multiplying both top and bottom by <EXPRESSION>.","label":[[55,67,"expression"]],"Comments":[]}
+{"id":12283,"text":"And so, that makes here <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
+{"id":12284,"text":"And now, what's left is <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
+{"id":12285,"text":"Now, of that, what we want is just the imaginary part.","label":[],"Comments":[]}
+{"id":12286,"text":"Well, let's see.","label":[],"Comments":[]}
+{"id":12287,"text":"<EXPRESSION> goes into <EXPRESSION> makes <EXPRESSION>, so that's <EXPRESSION>.","label":[[0,12,"expression"],[23,35,"expression"],[42,54,"expression"],[66,78,"expression"]],"Comments":[]}
+{"id":12288,"text":"So, we're practically at our solution.","label":[],"Comments":[]}
+{"id":12289,"text":"The solution, then, finally, is going to be <EXPRESSION> is the imaginary part of <EXPRESSION>.","label":[[44,56,"expression"],[82,94,"expression"]],"Comments":[]}
+{"id":12290,"text":"And, what's that?","label":[],"Comments":[]}
+{"id":12291,"text":"Well, what's the coefficient out front, first of all?","label":[],"Comments":[]}
+{"id":12292,"text":"It's <EXPRESSION>, so let's pull out to <EXPRESSION> before we forget it.","label":[[5,17,"expression"],[28,36,"command"],[40,52,"expression"]],"Comments":[]}
+{"id":12293,"text":"And, we'll pull out the <EXPRESSION> before we forget that.","label":[[11,19,"command"],[24,36,"expression"]],"Comments":[]}
+{"id":12294,"text":"And then, the rest is simply a question of seeing what's left.","label":[],"Comments":[]}
+{"id":12295,"text":"Well, it's <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":12296,"text":"I want the imaginary part.","label":[],"Comments":[]}
+{"id":12297,"text":"So, the imaginary part is going to be <EXPRESSION>, and then the other imaginary part comes from these <EXPRESSION> pieces, which is <EXPRESSION>.","label":[[38,50,"expression"],[103,115,"expression"],[133,145,"expression"]],"Comments":[]}
+{"id":12298,"text":"And, that should be the particular solution.","label":[],"Comments":[]}
+{"id":12299,"text":"Notice that most of the work is not getting this thing.","label":[],"Comments":[]}
+{"id":12300,"text":"It's turning it into something human that you can take the real and imaginary parts of.","label":[],"Comments":[]}
+{"id":12301,"text":"If we don't like this form, you can put it in the other form, which many engineers would do almost automatically, make it <EXPRESSION>, and what will that be?","label":[[122,134,"expression"]],"Comments":[]}
+{"id":12302,"text":"Well, you can use the general formula if you want.","label":[],"Comments":[]}
+{"id":12303,"text":"Remember, <EXPRESSION>, the <EXPRESSION> coefficients are <EXPRESSION> and <EXPRESSION>, so it's <EXPRESSION> and <EXPRESSION>.","label":[[10,22,"expression"],[28,40,"expression"],[58,70,"expression"],[75,87,"expression"],[98,109,"expression"],[114,126,"expression"]],"Comments":[]}
+{"id":12304,"text":"So, this is <EXPRESSION>.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":12305,"text":"So, it is times, this part makes <EXPRESSION> over the angle.","label":[[33,45,"expression"]],"Comments":[]}
+{"id":12306,"text":"This is a <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":12307,"text":"So, that's <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":12308,"text":"Okay, all right, now let's address the case which is going to occupy a lot of the rest of today, and in a certain sense, all of next time.","label":[],"Comments":[]}
+{"id":12309,"text":"What happens when <EXPRESSION> is <EXPRESSION>?","label":[[18,30,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":12310,"text":"Well, in order to be able to handle this decently, it's necessary to have one more formula, which is very slightly more complicated than the substitution rule.","label":[],"Comments":[]}
+{"id":12311,"text":"But, it's the same kind of rule.","label":[],"Comments":[]}
+{"id":12312,"text":"I'm going to call this, or it is called the exponential.","label":[[13,17,"command"]],"Comments":[]}
+{"id":12313,"text":"So, I'm going to first prove a formula, which is the analog of that, and then I will prove a green formula, which is what to do here if <EXPRESSION> turns out to be <EXPRESSION>.","label":[[23,28,"command"],[85,90,"command"],[136,148,"expression"],[165,177,"expression"]],"Comments":[]}
+{"id":12314,"text":"But, in order to be able to prove that, we're going to be the analog of the orange formula.","label":[[28,33,"command"]],"Comments":[]}
+{"id":12315,"text":"And, the analogue of the orange formula, that tells you how to apply <EXPRESSION> to a simple exponential.","label":[[63,68,"command"],[69,81,"expression"]],"Comments":[]}
+{"id":12316,"text":"I need a formula which applies <EXPRESSION> to that simple exponential times another function.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":12317,"text":"Now, I found I got into trouble by continuing to call that <EXPRESSION>.","label":[[49,53,"command"],[59,71,"expression"]],"Comments":[]}
+{"id":12318,"text":"So, I'm now going to change the name of <EXPRESSION> to change <EXPRESSION> name to <EXPRESSION>.","label":[[40,52,"expression"],[56,62,"command"],[63,75,"expression"],[84,96,"equation"]],"Comments":[]}
+{"id":12319,"text":"But, it's still complex.","label":[],"Comments":[]}
+{"id":12320,"text":"I don't mean it's guaranteed to be complex.","label":[],"Comments":[]}
+{"id":12321,"text":"I mean it's allowed to be complex.","label":[],"Comments":[]}
+{"id":12322,"text":"So, a is now allowed to be a complex number.","label":[[4,5,"term"]],"Comments":[]}
+{"id":12323,"text":"I'm thinking of it, in general, as a complex number, okay?","label":[],"Comments":[]}
+{"id":12324,"text":"I hope this doesn't upset you too much, but you know, you change <EXPRESSION> to <EXPRESSION>, and <EXPRESSION> to <EXPRESSION>.","label":[[58,64,"command"],[65,77,"expression"],[81,93,"term"],[99,111,"expression"],[115,127,"expression"]],"Comments":[]}
+{"id":12325,"text":"This is no worse.","label":[],"Comments":[]}
+{"id":12326,"text":"All right, what we going to do?","label":[],"Comments":[]}
+{"id":12327,"text":"Well, I'm going to use this exponential shift rule, I'll call it, exponential shift rule or formula or law.","label":[[28,50,"method"],[57,61,"command"],[66,88,"method"]],"Comments":[]}
+{"id":12328,"text":"That's the substitution rule for me.","label":[[11,28,"method"]],"Comments":[]}
+{"id":12329,"text":"So, this is going to be exponential shift law.","label":[[24,45,"method"]],"Comments":[]}
+{"id":12330,"text":"And, to apply, it tells you how to apply the polynomial to not <EXPRESSION>, not just the exponential, but the exponential times some function of <EXPRESSION>.","label":[[8,13,"command"],[35,40,"command"],[63,75,"expression"],[146,158,"expression"]],"Comments":[]}
+{"id":12331,"text":"What's that?","label":[],"Comments":[]}
+{"id":12332,"text":"And now, the rule is very simple.","label":[],"Comments":[]}
+{"id":12333,"text":"See, you can understand the difficulty.","label":[],"Comments":[]}
+{"id":12334,"text":"If you try to start differentiating, you're going to have to calculate second derivatives of the stuff, and God forbid, higher order equations.","label":[],"Comments":[]}
+{"id":12335,"text":"You would have to calculate fourth derivatives, fifth derivatives.","label":[[18,27,"command"],[28,46,"command_attribute"],[48,65,"command_attribute"]],"Comments":[]}
+{"id":12336,"text":"You barely even want to calculate the first derivative.","label":[[24,33,"command"],[38,54,"command"]],"Comments":[]}
+{"id":12337,"text":"That's okay.","label":[],"Comments":[]}
+{"id":12338,"text":"But, second derivative, do I have to?","label":[],"Comments":[]}
+{"id":12339,"text":"No, not if you know the exponential shift rule, which says you can get rid of the <EXPRESSION>, make it pass to the left of the operator where it's not in any position to do any harm any longer, or upset the differentiation.","label":[[24,46,"method"],[67,74,"command"],[82,94,"expression"]],"Comments":[]}
+{"id":12340,"text":"And, all you have to do is, when it passes over that operator, it changes <EXPRESSION> to <EXPRESSION>.","label":[[74,86,"expression"],[90,102,"expression"]],"Comments":[]}
+{"id":12341,"text":"So, the answer is, <EXPRESSION>.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":12342,"text":"There, it's passed over.","label":[],"Comments":[]}
+{"id":12343,"text":"But, when it did so, it changed <EXPRESSION> to <EXPRESSION>.","label":[[32,44,"expression"],[48,60,"expression"]],"Comments":[]}
+{"id":12344,"text":"And, what about the u?","label":[[20,21,"term"]],"Comments":[]}
+{"id":12345,"text":"Well, the u just stayed there.","label":[[10,11,"term"]],"Comments":[]}
+{"id":12346,"text":"Nothing happened to it.","label":[],"Comments":[]}
+{"id":12347,"text":"Okay, there's our orange formula.","label":[],"Comments":[]}
+{"id":12348,"text":"I guess we better put the thing around the whole business.","label":[],"Comments":[]}
+{"id":12349,"text":"Should I prove that, or the proof is quite easy.","label":[],"Comments":[]}
+{"id":12350,"text":"So, let's do it just again to give you a chance to try to see, now, if somebody gives you a formula like that, you first stare at it.","label":[],"Comments":[]}
+{"id":12351,"text":"You might try a couple of special cases, try it on a function and see if it works, but already, you probably don't want to do that.","label":[],"Comments":[]}
+{"id":12352,"text":"I mean, even if you took a function like <EXPRESSION> here, you'd have to do a certain amount of differentiating, and some quadratic thing here.","label":[[41,53,"expression"]],"Comments":[]}
+{"id":12353,"text":"You'd calculate and calculate away for a little while, and then if you did it correctly, the two would in fact turn out to be =.","label":[[6,15,"command"],[20,29,"command"]],"Comments":[]}
+{"id":12354,"text":"But, you would not necessarily feel any the wiser.","label":[],"Comments":[]}
+{"id":12355,"text":"A better procedure in trying to understand something like this is say, well, let's keep the u general.","label":[],"Comments":[]}
+{"id":12356,"text":"Suppose we make <EXPRESSION> simple.","label":[[16,28,"expression"]],"Comments":[]}
+{"id":12357,"text":"For example, well, if <EXPRESSION> is a constant, of course there's nothing to happen because if this is just a constant, both sides of these are the same.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":12358,"text":"This doesn't make any sense if <EXPRESSION> doesn't really have a <EXPRESSION> in it.","label":[[31,43,"expression"],[66,78,"expression"]],"Comments":[]}
+{"id":12359,"text":"Well, what's the simplest polynomial which would have a <EXPRESSION> in it?","label":[[56,68,"expression"]],"Comments":[]}
+{"id":12360,"text":"Well, <EXPRESSION> itself.","label":[[6,18,"expression"]],"Comments":[]}
+{"id":12361,"text":"So, let's take a special case.","label":[[10,14,"command"]],"Comments":[]}
+{"id":12362,"text":"<EQUATION>, and check the formula in that case; see if it works.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":12363,"text":"So, the formula is asking us, what is <EXPRESSION>, that's the <EXPRESSION>?","label":[[38,50,"expression"],[63,75,"expression"]],"Comments":[]}
+{"id":12364,"text":"I'm not going to put in the variable here because it's just a waste of chalk.","label":[],"Comments":[]}
+{"id":12365,"text":"Well, what is that?","label":[],"Comments":[]}
+{"id":12366,"text":"I know how to calculate that.","label":[[14,23,"command"]],"Comments":[]}
+{"id":12367,"text":"I'll use the product rule.","label":[[5,8,"command"],[13,25,"method"]],"Comments":[]}
+{"id":12368,"text":"So, it's the derivative.","label":[],"Comments":[]}
+{"id":12369,"text":"I'll tell you what; let's do the other order first.","label":[],"Comments":[]}
+{"id":12370,"text":"So, it's <EXPRESSION>, which is <EXPRESSION>.","label":[[9,21,"expression"],[32,44,"expression"]],"Comments":[]}
+{"id":12371,"text":"Do you follow that?","label":[],"Comments":[]}
+{"id":12372,"text":"This is the product rule.","label":[[12,24,"method"]],"Comments":[]}
+{"id":12373,"text":"It's <EXPRESSION>, which is this thing times <EXPRESSION>, the other factor.","label":[[5,17,"expression"],[39,44,"command"],[45,57,"expression"]],"Comments":[]}
+{"id":12374,"text":"Now, is that right?","label":[],"Comments":[]}
+{"id":12375,"text":"I want to make it look like that.","label":[],"Comments":[]}
+{"id":12376,"text":"Well, to make it look like that I should first factor <EXPRESSION>.","label":[[54,66,"expression"]],"Comments":[]}
+{"id":12377,"text":"And now, what's left?","label":[],"Comments":[]}
+{"id":12378,"text":"Well, if I factor <EXPRESSION>, what's left is <EXPRESSION>, which is exactly <EXPRESSION> operating on <EXPRESSION>, <EXPRESSION>.","label":[[11,17,"command"],[18,30,"expression"],[47,59,"expression"],[78,90,"expression"],[104,116,"expression"],[118,130,"expression"]],"Comments":[]}
+{"id":12379,"text":"Well, hey, that's just what the formula said it should be.","label":[],"Comments":[]}
+{"id":12380,"text":"If you make <EXPRESSION> pass over <EXPRESSION>, it changes <EXPRESSION> to <EXPRESSION>.","label":[[12,24,"expression"],[35,47,"expression"],[60,72,"expression"],[76,88,"expression"]],"Comments":[]}
+{"id":12381,"text":"Okay, now here's the main thing I want to show you.","label":[],"Comments":[]}
+{"id":12382,"text":"All right, now, well let's try, if this is true, also works out for <EXPRESSION>, then the formula is clearly true by linearity because an arbitrary <EXPRESSION> is just a linear combination with constant coefficients of <EXPRESSION>, <EXPRESSION>, and that constant thing, which we agreed there was nothing to prove about.","label":[[68,80,"expression"],[149,161,"expression"],[221,233,"expression"],[235,247,"expression"]],"Comments":[]}
+{"id":12383,"text":"Now, hack, you're a hack if you take <EXPRESSION> and start calculating the second derivative of this.","label":[[37,49,"expression"]],"Comments":[]}
+{"id":12384,"text":"Okay, it's question about hacks.","label":[],"Comments":[]}
+{"id":12385,"text":"I mean, it's just, you haven't learned the right thing to do.","label":[],"Comments":[]}
+{"id":12386,"text":"Okay, that will work, but it's not what you want to do.","label":[],"Comments":[]}
+{"id":12387,"text":"Instead, you bootstrap your way up.","label":[],"Comments":[]}
+{"id":12388,"text":"I have already a formula telling me how to handle this.","label":[],"Comments":[]}
+{"id":12389,"text":"And, you can be anything.","label":[],"Comments":[]}
+{"id":12390,"text":"Look at this not as <EXPRESSION> all by itself.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":12391,"text":"Calculate, instead, <EXPRESSION>.","label":[[0,9,"command"],[20,32,"expression"]],"Comments":[]}
+{"id":12392,"text":"Think of that as <EXPRESSION>, the derivative of the derivative of <EXPRESSION>.","label":[[17,29,"expression"],[67,79,"expression"]],"Comments":[]}
+{"id":12393,"text":"In other words, we will do it one step at a time.","label":[],"Comments":[]}
+{"id":12394,"text":"But you see now immediately the advantage of this.","label":[],"Comments":[]}
+{"id":12395,"text":"What's <EXPRESSION>?","label":[[7,19,"expression"]],"Comments":[]}
+{"id":12396,"text":"Well, I just calculated that.","label":[],"Comments":[]}
+{"id":12397,"text":"Now, don't go back to the beginning.","label":[],"Comments":[]}
+{"id":12398,"text":"Don't go back to here.","label":[],"Comments":[]}
+{"id":12399,"text":"Use the formula.","label":[[0,3,"command"],[4,15,"command_attribute"]],"Comments":[]}
+{"id":12400,"text":"After all, you worked to calculate it, or I did.","label":[[25,34,"command"]],"Comments":[]}
+{"id":12401,"text":"So, it's <EXPRESSION> of, and what's this inside?","label":[[9,21,"expression"]],"Comments":[]}
+{"id":12402,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":12403,"text":"Well, that looks like a mess, but it isn't because I'm taking <EXPRESSION> times something.","label":[[62,74,"expression"]],"Comments":[]}
+{"id":12404,"text":"And I already know how to take <EXPRESSION> times something.","label":[[26,30,"command"],[31,43,"expression"]],"Comments":[]}
+{"id":12405,"text":"It doesn't matter what that something is.","label":[],"Comments":[]}
+{"id":12406,"text":"Here, the something was <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
+{"id":12407,"text":"Here, the something is <EXPRESSION> operating on <EXPRESSION>.","label":[[23,35,"expression"],[49,61,"expression"]],"Comments":[]}
+{"id":12408,"text":"But, the principle is the same, and the answer is what?","label":[],"Comments":[]}
+{"id":12409,"text":"Well, to take <EXPRESSION> times something, you pass the <EXPRESSION> over the <EXPRESSION>.","label":[[9,13,"command"],[14,26,"expression"],[57,69,"expression"],[79,91,"expression"]],"Comments":[]}
+{"id":12410,"text":"That changes <EXPRESSION> to <EXPRESSION>.","label":[[13,25,"expression"],[29,41,"expression"]],"Comments":[]}
+{"id":12411,"text":"And, you apply that to the other guy, which is <EXPRESSION> applied to <EXPRESSION>.","label":[[9,14,"command"],[47,59,"expression"],[71,83,"expression"]],"Comments":[]}
+{"id":12412,"text":"What's the answer?","label":[],"Comments":[]}
+{"id":12413,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":12414,"text":"It's just what you would have gotten if you had taken <EXPRESSION> to the <EXPRESSION>, pass it over, and then changed <EXPRESSION> to <EXPRESSION>.","label":[[54,66,"expression"],[74,86,"expression"],[119,131,"expression"],[135,147,"expression"]],"Comments":[]}
+{"id":12415,"text":"Now, another advantage to doing it this way is you can see that this argument is going to generalize to <EXPRESSION>.","label":[[104,116,"expression"]],"Comments":[]}
+{"id":12416,"text":"In other words, you would continue on in the same way by the process of mathematical, one word, mathematical, begins with an I, induction.","label":[],"Comments":[]}
+{"id":12417,"text":"By induction, you would prove the same formula for the nth derivative.","label":[],"Comments":[]}
+{"id":12418,"text":"If you don't know what mathematical induction is, shame on you.","label":[],"Comments":[]}
+{"id":12419,"text":"But it's okay.","label":[],"Comments":[]}
+{"id":12420,"text":"A lot of you will be able to go through life without ever having to learn what it is.","label":[],"Comments":[]}
+{"id":12421,"text":"And, the rest of you will be computer scientists.","label":[],"Comments":[]}
+{"id":12422,"text":"Okay, so that's the idea of this rule.","label":[],"Comments":[]}
+{"id":12423,"text":"Now, we can use it to calculate something.","label":[],"Comments":[]}
+{"id":12424,"text":"Let's see, I'm going to need green for this, I guess, for our better formula.","label":[],"Comments":[]}
+{"id":12425,"text":"The formula, now, that tells you what to do if <EXPRESSION> is <EXPRESSION>.","label":[[47,59,"expression"],[63,75,"expression"]],"Comments":[]}
+{"id":12426,"text":"So, we're trying to solve the equation, <EXPRESSION>, we are trying to find a particular solution, <EXPRESSION>, let's say.","label":[[20,25,"command"],[30,38,"command_attribute"],[40,52,"expression"],[99,111,"expression"]],"Comments":[]}
+{"id":12427,"text":"Remember, <EXPRESSION> is complex.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":12428,"text":"<EXPRESSION> could be complex.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":12429,"text":"It doesn't have to be real.","label":[],"Comments":[]}
+{"id":12430,"text":"But, the problem is that <EXPRESSION> is <EXPRESSION>.","label":[[25,37,"expression"],[41,53,"expression"]],"Comments":[]}
+{"id":12431,"text":"How do I get a particular solution?","label":[],"Comments":[]}
+{"id":12432,"text":"Well, I will write it down for you.","label":[[13,18,"command"]],"Comments":[]}
+{"id":12433,"text":"So, this is part of that exponential input theorem.","label":[],"Comments":[]}
+{"id":12434,"text":"I think that's the way it is in the notes.","label":[],"Comments":[]}
+{"id":12435,"text":"I gave all the cases together, but I thought pedagogically it's probably a little better to do the simplest case first, and then build up on the complexity.","label":[],"Comments":[]}
+{"id":12436,"text":"So, what's <EXPRESSION>?","label":[[11,23,"expression"]],"Comments":[]}
+{"id":12437,"text":"The answer is <EXPRESSION> is <EXPRESSION>, except now you have to multiply it by <EXPRESSION> out front.","label":[[14,26,"expression"],[30,42,"expression"],[67,75,"command"],[82,94,"expression"]],"Comments":[]}
+{"id":12438,"text":"Where have you done something like that before?","label":[],"Comments":[]}
+{"id":12439,"text":"Yes, don't tell me.","label":[],"Comments":[]}
+{"id":12440,"text":"I know you know.","label":[],"Comments":[]}
+{"id":12441,"text":"But, what should go in the denominator?","label":[],"Comments":[]}
+{"id":12442,"text":"Clearly not <EXPRESSION>.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":12443,"text":"What goes in the denominator is the derivative.","label":[],"Comments":[]}
+{"id":12444,"text":"Okay, but what if <EXPRESSION> is <EXPRESSION>?","label":[[18,30,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":12445,"text":"Couldn't that happen?","label":[],"Comments":[]}
+{"id":12446,"text":"Yes, it could happen.","label":[],"Comments":[]}
+{"id":12447,"text":"So, we better make cases.","label":[],"Comments":[]}
+{"id":12448,"text":"This case is, the case where this is okay corresponds to the case where we're going to assume that alpha is a simple root, is a simple root of the polynomial, <EXPRESSION>.","label":[[99,104,"term"],[159,171,"expression"]],"Comments":[]}
+{"id":12449,"text":"I don't know what to call the variable, <EXPRESSION> is okay.","label":[[40,52,"expression"]],"Comments":[]}
+{"id":12450,"text":"A simple <EXPRESSION>, in other words, it's not double.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":12451,"text":"Well, suppose is double.","label":[],"Comments":[]}
+{"id":12452,"text":"One of the consequences you will see just in a second, if it's a simple <EXPRESSION>, that means this derivative is not going to be <EXPRESSION>.","label":[[72,84,"expression"],[132,144,"expression"]],"Comments":[]}
+{"id":12453,"text":"That's automatic.","label":[],"Comments":[]}
+{"id":12454,"text":"Yeah, well, suppose it's not as simple.","label":[],"Comments":[]}
+{"id":12455,"text":"Well, suppose is a double root.","label":[],"Comments":[]}
+{"id":12456,"text":"How did a-- How did that get changed to, argh! [LAUGHTER] That's not an <EXPRESSION>.","label":[[72,84,"expression"]],"Comments":[]}
+{"id":12457,"text":"Oh, well, yes it is, obviously.","label":[],"Comments":[]}
+{"id":12458,"text":"Change! All of you, I want you to change.","label":[],"Comments":[]}
+{"id":12459,"text":"They should have something like in a search key where <EXPRESSION> occurrences of alpha have been changed to a with a stroke of a, just your thumb.","label":[[54,66,"expression"]],"Comments":[]}
+{"id":12460,"text":"They don't have that for the blackboard, unfortunately.","label":[],"Comments":[]}
+{"id":12461,"text":"Well, too bad, for the future.","label":[],"Comments":[]}
+{"id":12462,"text":"Correctable blackboards.","label":[],"Comments":[]}
+{"id":12463,"text":"Well, what if a is double root?","label":[],"Comments":[]}
+{"id":12464,"text":"It can't be more than a double root because you've only got a quadratic polynomial.","label":[],"Comments":[]}
+{"id":12465,"text":"Quadratic polynomials only have two roots.","label":[],"Comments":[]}
+{"id":12466,"text":"So, the worst that can happen is that both of them are <EXPRESSION>.","label":[[55,67,"expression"]],"Comments":[]}
+{"id":12467,"text":"All right, in that case the formula should be <EXPRESSION> =, you are now going to need <EXPRESSION> up there times <EXPRESSION>, and in the denominator what you are going to need is the second derivative of, evaluated at <EXPRESSION>.","label":[[46,58,"expression"],[88,100,"expression"],[110,115,"command"],[116,128,"expression"],[222,234,"expression"]],"Comments":[]}
+{"id":12468,"text":"Now, you can guess the way this going to go on.","label":[],"Comments":[]}
+{"id":12469,"text":"For higher degree things, if you've got a triple root, you will need here <EXPRESSION>, except you're going to need a factorial there, too.","label":[[74,86,"expression"]],"Comments":[]}
+{"id":12470,"text":"So, don't worry about it.","label":[],"Comments":[]}
+{"id":12471,"text":"It's in the notes, but I'm not going to give you that for higher roots.","label":[],"Comments":[]}
+{"id":12472,"text":"I don't even know if I will give it to you for double root.","label":[],"Comments":[]}
+{"id":12473,"text":"Yes, I already did, so it's too late.","label":[],"Comments":[]}
+{"id":12474,"text":"It's too late.","label":[],"Comments":[]}
+{"id":12475,"text":"Okay, so we will make this two formulas according to whether a is a single or a double root.","label":[],"Comments":[]}
+{"id":12476,"text":"Okay, let's prove one of these, and all of that will be good enough for my conscience.","label":[],"Comments":[]}
+{"id":12477,"text":"Let's prove the first one.","label":[],"Comments":[]}
+{"id":12478,"text":"Mostly, it's an exercise in using the first exponential shift rule.","label":[],"Comments":[]}
+{"id":12479,"text":"Okay, this will be a first example actually seeing a work in practice as opposed to proving it.","label":[],"Comments":[]}
+{"id":12480,"text":"Okay, so what does that thing look like?","label":[],"Comments":[]}
+{"id":12481,"text":"So, what does the polynomial look like, which has a as a simple root?","label":[],"Comments":[]}
+{"id":12482,"text":"So, we're going to try to prove the simple root case.","label":[],"Comments":[]}
+{"id":12483,"text":"So, I'm just going to calculate what those guys actually look like.","label":[],"Comments":[]}
+{"id":12484,"text":"What does <EXPRESSION> look like if a is a simple root?","label":[[10,22,"expression"]],"Comments":[]}
+{"id":12485,"text":"Well, if it's a simple root, that means it has a factor.","label":[],"Comments":[]}
+{"id":12486,"text":"When it factors, it factors into the product of <EXPRESSION> times something which isn't, <EXPRESSION> minus some other root.","label":[[48,60,"expression"],[61,66,"command"],[90,102,"expression"],[103,108,"command"]],"Comments":[]}
+{"id":12487,"text":"And, the point is that <EXPRESSION> is not = <EXPRESSION>.","label":[[23,35,"expression"],[45,57,"expression"]],"Comments":[]}
+{"id":12488,"text":"The roots are really distinct.","label":[],"Comments":[]}
+{"id":12489,"text":"Okay, what's, then, <EXPRESSION>, I'm going to have to calculate <EXPRESSION>.","label":[[20,32,"expression"],[55,64,"command"],[65,77,"expression"]],"Comments":[]}
+{"id":12490,"text":"What is that?","label":[],"Comments":[]}
+{"id":12491,"text":"Well, let's calculate <EXPRESSION> first.","label":[[12,21,"command"],[22,34,"expression"]],"Comments":[]}
+{"id":12492,"text":"It is, well, by the ordinary product rule, it's the derivative of this times, which is <EXPRESSION> plus, that's one thing plus the same thing on the other side, the derivative of this, which is <EXPRESSION>.","label":[[29,41,"method"],[87,99,"expression"],[100,104,"command"],[123,127,"command"],[195,207,"expression"]],"Comments":[]}
+{"id":12493,"text":"So, that's <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":12494,"text":"And therefore, what's <EXPRESSION>?","label":[[22,34,"expression"]],"Comments":[]}
+{"id":12495,"text":"It's nothing but, this part is <EXPRESSION>, and that's <EXPRESSION>.","label":[[31,43,"expression"],[56,68,"expression"]],"Comments":[]}
+{"id":12496,"text":"Of course, this is not <EXPRESSION> because it's a simple root.","label":[[23,35,"expression"]],"Comments":[]}
+{"id":12497,"text":"And, that's the proof for you if you want, that if the root is simple, that p prime of a is guaranteed not to be <EXPRESSION>.","label":[[113,125,"expression"]],"Comments":[]}
+{"id":12498,"text":"And, you can see, it's going to be <EXPRESSION> exactly when <EQUATION>, and that root occurs twice.","label":[[35,47,"expression"],[61,71,"equation"]],"Comments":[]}
+{"id":12499,"text":"But, I'm assuming that didn't happen.","label":[],"Comments":[]}
+{"id":12500,"text":"Okay, then all the rest we have to do is calculate, do the calculation.","label":[],"Comments":[]}
+{"id":12501,"text":"So, what I want to prove now is that with this <EXPRESSION>, what I'm trying to calculate that <EXPRESSION> times that guy, <EXPRESSION>, except I'm going to write it as <EXPRESSION>, guess why, divided by <EXPRESSION>.","label":[[47,59,"expression"],[80,89,"command"],[95,107,"expression"],[108,113,"command"],[124,136,"expression"],[158,163,"command"],[170,182,"expression"],[195,205,"command"],[206,218,"expression"]],"Comments":[]}
+{"id":12502,"text":"This is my proposed particular solution.","label":[],"Comments":[]}
+{"id":12503,"text":"So, what I have to do is calculate it, and see that it turns out to be, what do I hope it turns out to be?","label":[[25,34,"command"]],"Comments":[]}
+{"id":12504,"text":"What the right hand side of the equation, the input?","label":[],"Comments":[]}
+{"id":12505,"text":"The input is <EXPRESSION>.","label":[[13,25,"expression"]],"Comments":[]}
+{"id":12506,"text":"If this is true, then <EXPRESSION>, a particular solution, indeed, nothing will be a particular solution.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":12507,"text":"Of course, there could be others, but in this game, I only have to find one particular solution, and that certainly by far is the simple as one you could possibly find.","label":[],"Comments":[]}
+{"id":12508,"text":"So, I have to calculate this.","label":[[14,23,"command"]],"Comments":[]}
+{"id":12509,"text":"And now, you see why I did the exponential shift rule because this is begging to be differentiated by something simpler than hack.","label":[],"Comments":[]}
+{"id":12510,"text":"Okay, you can also see why I violated the natural order of things and put the e to the ax on the left in order that it pass over more easily.","label":[],"Comments":[]}
+{"id":12511,"text":"So, the answer on the left-hand side is <EXPRESSION>.","label":[[40,52,"expression"]],"Comments":[]}
+{"id":12512,"text":"Now, what is <EXPRESSION>?","label":[[13,25,"expression"]],"Comments":[]}
+{"id":12513,"text":"Write it in this form.","label":[],"Comments":[]}
+{"id":12514,"text":"It's going to be <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":12515,"text":"So, <EXPRESSION> is, change <EXPRESSION> to <EXPRESSION>.","label":[[4,16,"expression"],[21,28,"command"],[28,40,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":12516,"text":"So, the first factor is going to be <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":12517,"text":"And, what's the second factor?","label":[],"Comments":[]}
+{"id":12518,"text":"Change <EXPRESSION> to <EXPRESSION>.","label":[[0,6,"command"],[7,19,"expression"],[23,35,"expression"]],"Comments":[]}
+{"id":12519,"text":"It turns into <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":12520,"text":"All this is the result of taking that <EXPRESSION>, and changing <EXPRESSION>.","label":[[38,50,"expression"],[65,77,"expression"]],"Comments":[]}
+{"id":12521,"text":"And now, this is to be applied to what?","label":[],"Comments":[]}
+{"id":12522,"text":"Well, <EXPRESSION> is already passed over.","label":[[6,18,"expression"]],"Comments":[]}
+{"id":12523,"text":"So, what's left is <EXPRESSION>.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":12524,"text":"And, that's to be divided by the constant, <EXPRESSION>.","label":[[18,28,"command"],[29,41,"command_attribute"],[43,55,"expression"]],"Comments":[]}
+{"id":12525,"text":"Now, what does this all come out to be?","label":[],"Comments":[]}
+{"id":12526,"text":"<EXPRESSION>, what's <EXPRESSION> applied to <EXPRESSION>?","label":[[0,12,"expression"],[21,33,"expression"],[45,57,"expression"]],"Comments":[]}
+{"id":12527,"text":"One, right?","label":[],"Comments":[]}
+{"id":12528,"text":"And now, what's this thing applied to the constant one?","label":[],"Comments":[]}
+{"id":12529,"text":"Well, the <EXPRESSION> kills it, so it has no effect.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":12530,"text":"It makes it <EXPRESSION>.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":12531,"text":"The rest just multiplies it by <EXPRESSION>.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":12532,"text":"So, the answer to the top is <EXPRESSION>.","label":[[29,41,"expression"]],"Comments":[]}
+{"id":12533,"text":"And, the answer to the bottom is <EXPRESSION>, which I showed you by just explicit calculation is <EXPRESSION>.","label":[[33,45,"expression"],[98,110,"expression"]],"Comments":[]}
+{"id":12534,"text":"And so the answer is, <EXPRESSION> comes out right.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":12535,"text":"Now, the other one, the other formula comes out the same way.","label":[],"Comments":[]}
+{"id":12536,"text":"I'll leave that as an exercise.","label":[],"Comments":[]}
+{"id":12537,"text":"Also, I don't dare do it because it's much too close to the problem I asked you to do for homework.","label":[],"Comments":[]}
+{"id":12538,"text":"So, let's by way of conclusion, I'll do one more simple example, okay?","label":[],"Comments":[]}
+{"id":12539,"text":"And then, you can feel you understand something.","label":[],"Comments":[]}
+{"id":12540,"text":"I'm sort of bothered that I haven't done any examples of this more complicated case.","label":[],"Comments":[]}
+{"id":12541,"text":"So, I'll pick an easy version instead of the one that you have in your notes, which is the one you have for homework, which is even easier.","label":[],"Comments":[]}
+{"id":12542,"text":"So, this one's epsilon less easy.","label":[],"Comments":[]}
+{"id":12543,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":12544,"text":"Okay, notice that one is a simple root.","label":[],"Comments":[]}
+{"id":12545,"text":"The one I'm talking about is the a here, which is one.","label":[],"Comments":[]}
+{"id":12546,"text":"One is a simple root of the polynomial <EXPRESSION>, isn't it?","label":[[38,51,"expression"]],"Comments":[]}
+{"id":12547,"text":"It's a <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":12548,"text":"Put <EQUATION> and you get <EQUATION>.","label":[[0,3,"command"],[4,14,"equation"],[27,37,"equation"]],"Comments":[]}
+{"id":12549,"text":"It's a simple root because anybody can see that one is not a double root because you know from critical damping, if one were a double root, you know just what the polynomial would look like, and it wouldn't look like that at all.","label":[],"Comments":[]}
+{"id":12550,"text":"It would not look like <EXPRESSION>.","label":[[23,35,"expression"]],"Comments":[]}
+{"id":12551,"text":"It would look differently.","label":[],"Comments":[]}
+{"id":12552,"text":"Therefore, that proves that <EXPRESSION> is a simple root.","label":[[28,40,"expression"]],"Comments":[]}
+{"id":12553,"text":"Okay, what's the particular solution, therefore?","label":[],"Comments":[]}
+{"id":12554,"text":"The particular solution is <EXPRESSION> divided by the derivative, the derivative evaluated at the point, so, what's <EXPRESSION>?","label":[[27,39,"expression"],[40,50,"command"],[51,65,"command_attribute"]],"Comments":[]}
+{"id":12555,"text":"It is <EXPRESSION>.","label":[[6,18,"expression"]],"Comments":[]}
+{"id":12556,"text":"If I evaluate it at the point, <EXPRESSION>, it is <EXPRESSION>.","label":[[5,13,"command"],[31,43,"expression"],[51,63,"expression"]],"Comments":[]}
+{"id":12557,"text":"So, if this is to be divided by <EXPRESSION>, in other words, it's <EXPRESSION>.","label":[[21,31,"command"],[32,44,"expression"],[67,79,"expression"]],"Comments":[]}
+{"id":12558,"text":"And, if you don't believe it, you could plug it in and check it out.","label":[[40,44,"command"]],"Comments":[]}
+{"id":12559,"text":"Okay, I'm letting you out one minute early.","label":[],"Comments":[]}
+{"id":12560,"text":"Remember that.","label":[],"Comments":[]}
+{"id":12561,"text":"I'm trying to pay off the accumulated debt.","label":[],"Comments":[]}

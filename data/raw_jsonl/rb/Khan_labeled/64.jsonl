@@ -1,0 +1,75 @@
+{"id":4198,"text":"You can view this as a <EXPRESSION> or, this negative divided by a negative, they're going to cancel out.","label":[[23,35,"expression"]],"Comments":[]}
+{"id":4199,"text":"So it's <EXPRESSION>, and then you want to divide by <EXPRESSION>, and I'll do it explicitly here.","label":[[8,20,"expression"],[53,65,"expression"]],"Comments":[]}
+{"id":4200,"text":"Minus one.","label":[],"Comments":[]}
+{"id":4201,"text":"You could rewrite this, this = let's say <EXPRESSION>.","label":[[41,53,"expression"]],"Comments":[]}
+{"id":4202,"text":"So <EXPRESSION> = what? What's the derivative of <EXPRESSION>? it's not quite <EXPRESSION>, right? It's <EXPRESSION>.","label":[[3,15,"expression"],[49,61,"expression"],[78,90,"expression"],[104,116,"expression"]],"Comments":[]}
+{"id":4203,"text":"You're like wow, this <EXPRESSION> was just an <EXPRESSION>, or if it was just a <EXPRESSION>, this would be a really easy integral to do.","label":[[22,34,"expression"],[47,59,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":4204,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":4205,"text":"There you go.","label":[],"Comments":[]}
+{"id":4206,"text":"And then of course this has the exact same form as this thing right here.","label":[],"Comments":[]}
+{"id":4207,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":4208,"text":"And you kind of do see a pattern.","label":[],"Comments":[]}
+{"id":4209,"text":"All of that over <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":4210,"text":"And then up here we have <EXPRESSION>.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":4211,"text":"This it also be written as he wrote it in email, so I don't know how he exactly saw it, but it can also be written as <EXPRESSION>.","label":[[118,130,"expression"]],"Comments":[]}
+{"id":4212,"text":"And then <EXPRESSION> right up there, what is that =? Well we just solved for it here.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":4213,"text":"That would just be the antiderivative of <EXPRESSION>.","label":[[41,53,"expression"]],"Comments":[]}
+{"id":4214,"text":"But in general you know to do <EXPRESSION> substitution, or integration by substitution when you see something and you see its derivative sitting there.","label":[[30,42,"expression"]],"Comments":[]}
+{"id":4215,"text":"The same thing as <EXPRESSION> to the <EXPRESSION>.","label":[[18,30,"expression"],[38,50,"expression"]],"Comments":[]}
+{"id":4216,"text":"Right.","label":[],"Comments":[]}
+{"id":4217,"text":"Let me do it on the side.","label":[],"Comments":[]}
+{"id":4218,"text":"So we know that <EQUATION>, so let's do that.","label":[[16,26,"equation"]],"Comments":[]}
+{"id":4219,"text":"I just multiplied both sides by <EXPRESSION>.","label":[[32,44,"expression"]],"Comments":[]}
+{"id":4220,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":4221,"text":"You increase your exponent by <EXPRESSION>, and then you divide by whatever your new exponent is.","label":[[30,42,"expression"]],"Comments":[]}
+{"id":4222,"text":"There we have <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":4223,"text":"And then when you divide this by <EXPRESSION> you get this minus out front, and then of course you'd have the plus <EXPRESSION>.","label":[[33,45,"expression"],[115,127,"expression"]],"Comments":[]}
+{"id":4224,"text":"So let's rewrite this original problem.","label":[],"Comments":[]}
+{"id":4225,"text":"And then here we do the same thing we did up here, although now we have a minus out front, that actually makes it a little bit cleaner.","label":[],"Comments":[]}
+{"id":4226,"text":"You increase the exponent by <EXPRESSION> and then you multiply by what your new exponent is.","label":[[29,41,"expression"]],"Comments":[]}
+{"id":4227,"text":"Let's multiply both sides of this by a <EXPRESSION>, and you get <EQUATION>.","label":[[39,51,"expression"],[65,75,"equation"]],"Comments":[]}
+{"id":4228,"text":"This is the same thing as the antiderivative of <EXPRESSION>, and we know how to take the antiderivative of something like that.","label":[[48,60,"expression"]],"Comments":[]}
+{"id":4229,"text":"We know how to do that.","label":[],"Comments":[]}
+{"id":4230,"text":"Now I know I'm running out of space.","label":[],"Comments":[]}
+{"id":4231,"text":"So if we say <EXPRESSION>, and let's take the derivative of <EXPRESSION> with respect to <EXPRESSION>.","label":[[13,25,"expression"],[60,72,"expression"],[89,101,"expression"]],"Comments":[]}
+{"id":4232,"text":"Transcript for: Another u-subsitution example Evan from Norway has asked me to do another <EXPRESSION> substitution problem, and I like these because it gets my momentum going for doing other things that maybe take a little bit more preparation.","label":[[90,102,"expression"]],"Comments":[]}
+{"id":4233,"text":"So you would, [? let me do the, ?] increasing the exponent <EXPRESSION>, you'd increase the exponent, you'd get <EXPRESSION>.","label":[[59,71,"expression"],[112,124,"expression"]],"Comments":[]}
+{"id":4234,"text":"Sometimes it's written like that.","label":[],"Comments":[]}
+{"id":4235,"text":"So that's over <EXPRESSION>.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":4236,"text":"What was our substitution that we started with? <EQUATION>.","label":[[48,58,"equation"]],"Comments":[]}
+{"id":4237,"text":"To take the antiderivative, we raise <EXPRESSION> it was to the <EXPRESSION> power, let's raise it to <EXPRESSION> power higher than that so <EXPRESSION> is <EXPRESSION>.","label":[[37,49,"expression"],[64,76,"expression"],[102,114,"expression"],[141,153,"expression"],[157,169,"expression"]],"Comments":[]}
+{"id":4238,"text":"And then you had this negative that was sitting out there before, so that negative is still going to be there.","label":[],"Comments":[]}
+{"id":4239,"text":"Where this <EXPRESSION> is you have a cosine there, and then we have cosines derivative there.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":4240,"text":"We know how to do this integral.","label":[],"Comments":[]}
+{"id":4241,"text":"<EXPRESSION> becomes <EXPRESSION>.","label":[[0,12,"expression"],[21,33,"expression"]],"Comments":[]}
+{"id":4242,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":4243,"text":"And then we can multiply both sides by <EXPRESSION>, and you get <EXPRESSION>.","label":[[39,51,"expression"],[65,77,"expression"]],"Comments":[]}
+{"id":4244,"text":"So if we want to substitute for this, here we have a minus.","label":[],"Comments":[]}
+{"id":4245,"text":"We don't have <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":4246,"text":"So it would be <EXPRESSION> I'm sorry.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":4247,"text":"Whatever is easier for you to conceptualize.","label":[],"Comments":[]}
+{"id":4248,"text":"So if we could get it in a form that looks like this, we'd be all set.","label":[],"Comments":[]}
+{"id":4249,"text":"So that we can replace with this, minus du.","label":[],"Comments":[]}
+{"id":4250,"text":"Let me rewrite it.","label":[],"Comments":[]}
+{"id":4251,"text":"So now this integral becomes and the denominator, instead of <EXPRESSION>, <EXPRESSION> is <EXPRESSION>.","label":[[61,73,"expression"],[75,87,"expression"],[91,103,"expression"]],"Comments":[]}
+{"id":4252,"text":"That's = minus du.","label":[],"Comments":[]}
+{"id":4253,"text":"So let's do that.","label":[],"Comments":[]}
+{"id":4254,"text":"And the problem he sent me and I hope I pronounced his name right was the <EXPRESSION>.","label":[[74,86,"expression"]],"Comments":[]}
+{"id":4255,"text":"It's a little bit less ambiguous.","label":[],"Comments":[]}
+{"id":4256,"text":"So if <EQUATION>, this thing = <EXPRESSION> = the antiderivative of our original problem, which was <EXPRESSION>.","label":[[6,16,"equation"],[31,43,"expression"],[100,112,"expression"]],"Comments":[]}
+{"id":4257,"text":"Either way, I like looking at this a bit better.","label":[],"Comments":[]}
+{"id":4258,"text":"And so you're just left with <EXPRESSION> to the <EXPRESSION>, or <EXPRESSION> is the antiderivative oh sorry, we're not done yet.","label":[[29,41,"expression"],[49,61,"expression"],[66,78,"expression"]],"Comments":[]}
+{"id":4259,"text":"And then you'd decrease the exponent by <EXPRESSION>, you get <EXPRESSION>.","label":[[40,52,"expression"],[62,74,"expression"]],"Comments":[]}
+{"id":4260,"text":"This integral would be easy.","label":[],"Comments":[]}
+{"id":4261,"text":"That's <EXPRESSION>, right? We made that definition.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":4262,"text":"And of course you're going to have a <EXPRESSION>.","label":[[37,49,"expression"]],"Comments":[]}
+{"id":4263,"text":"See you in the next video.","label":[],"Comments":[]}
+{"id":4264,"text":"If you don't believe it take the derivative.","label":[],"Comments":[]}
+{"id":4265,"text":"That's just the antiderivative of this.","label":[],"Comments":[]}
+{"id":4266,"text":"And now we have our substitution to deal with.","label":[],"Comments":[]}
+{"id":4267,"text":"So that's the big clue that we should be using <EXPRESSION> substitution.","label":[[47,59,"expression"]],"Comments":[]}
+{"id":4268,"text":"And what we're going to do is we're going to substitute <EXPRESSION> for <EXPRESSION>.","label":[[45,55,"command"],[56,68,"expression"],[73,85,"expression"]],"Comments":[]}
+{"id":4269,"text":"And let's see.","label":[],"Comments":[]}
+{"id":4270,"text":"We could have rewritten this top integral, we could have rewritten it like this.","label":[],"Comments":[]}
+{"id":4271,"text":"That's a positive.","label":[],"Comments":[]}
+{"id":4272,"text":"I'm just writing it a bunch of different ways.","label":[],"Comments":[]}

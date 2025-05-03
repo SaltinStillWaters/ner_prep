@@ -1,0 +1,105 @@
+{"id":4632,"text":"Hope I didn't confuse you.","label":[],"Comments":[]}
+{"id":4633,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":4634,"text":"So what is that? That's <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
+{"id":4635,"text":"And then multiply that by <EXPRESSION>.","label":[[26,38,"expression"]],"Comments":[]}
+{"id":4636,"text":"That's kind of neat.","label":[],"Comments":[]}
+{"id":4637,"text":"That's <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":4638,"text":"<EXPRESSION> or <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
+{"id":4639,"text":"See you soon.","label":[],"Comments":[]}
+{"id":4640,"text":"And I just want to make a point.","label":[],"Comments":[]}
+{"id":4641,"text":"That's just a fraction problem there.","label":[],"Comments":[]}
+{"id":4642,"text":"So what's a function that's a line that just goes straight at <EQUATION>? I think I just gave you the answer.","label":[[62,72,"equation"]],"Comments":[]}
+{"id":4643,"text":"And actually instead of doing this, I think you could see that there's symmetry here, so we could just figure out this area and multiply by <EXPRESSION>.","label":[[140,152,"expression"]],"Comments":[]}
+{"id":4644,"text":"Let's figure out the entire area under <EXPRESSION> from <EXPRESSION> to <EXPRESSION>, and we can subtract from that, this purple area, which is the area under <EXPRESSION>.","label":[[39,51,"expression"],[57,69,"expression"],[73,85,"expression"],[160,172,"expression"]],"Comments":[]}
+{"id":4645,"text":"Let me stick with that greenish color.","label":[],"Comments":[]}
+{"id":4646,"text":"Who knows, maybe it'll involve some you know a circle involves pi, which is this really messy number, so maybe all curves have these kind of messy areas.","label":[],"Comments":[]}
+{"id":4647,"text":"The area under just the <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
+{"id":4648,"text":"And then when <EQUATION> what is this expression =? Well that's easy too.","label":[[14,24,"equation"]],"Comments":[]}
+{"id":4649,"text":"Let me do it in a loud color.","label":[],"Comments":[]}
+{"id":4650,"text":"And we're going to evaluate it from <EXPRESSION> and <EXPRESSION> at <EXPRESSION>.","label":[[36,48,"expression"],[53,65,"expression"],[69,81,"expression"]],"Comments":[]}
+{"id":4651,"text":"I just put <EXPRESSION> in for <EXPRESSION>.","label":[[11,23,"expression"],[31,43,"expression"]],"Comments":[]}
+{"id":4652,"text":"Well I guess we could figure it out.","label":[],"Comments":[]}
+{"id":4653,"text":"So instead of doing that, let's do the integral from <EXPRESSION> to <EXPRESSION> of <EXPRESSION>.","label":[[53,65,"expression"],[69,81,"expression"],[85,97,"expression"]],"Comments":[]}
+{"id":4654,"text":"And we're going to have to evaluate this thing at <EXPRESSION> and <EXPRESSION> and subtract the difference.","label":[[50,62,"expression"],[67,79,"expression"]],"Comments":[]}
+{"id":4655,"text":"Where I had just left off we were trying to figure out this area between these <EXPRESSION> curves, and we figured out that it's really the area between the curves between the point <EXPRESSION>, <EQUATION> and <EQUATION>.","label":[[79,91,"expression"],[182,194,"expression"],[196,206,"equation"],[211,221,"equation"]],"Comments":[]}
+{"id":4656,"text":"And then we divide by this new exponent.","label":[],"Comments":[]}
+{"id":4657,"text":"Welcome back.","label":[],"Comments":[]}
+{"id":4658,"text":"I mean, you might actually find this easy, but let's figure out the area between <EXPRESSION> = I don't know, <EXPRESSION>.","label":[[81,93,"expression"],[110,122,"expression"]],"Comments":[]}
+{"id":4659,"text":"You know I find is this of exciting because if just my intuition I was like, oh I have these <EXPRESSION> curves, and I mean they do intersect at the nice integer number, but you know what it's probably going to be some really messy number of what the areas between these <EXPRESSION> curves, right.","label":[[93,105,"expression"],[272,284,"expression"]],"Comments":[]}
+{"id":4660,"text":"So I want to figure out this area inside the curve.","label":[],"Comments":[]}
+{"id":4661,"text":"It's <EQUATION>.","label":[[5,15,"equation"]],"Comments":[]}
+{"id":4662,"text":"I should have done something with an even exponent so I could have had this cup shape, but anyway the absolute value solved my problem.","label":[],"Comments":[]}
+{"id":4663,"text":"So if I say <EQUATION>, I think you see where I realized my mistake.","label":[[12,22,"equation"]],"Comments":[]}
+{"id":4664,"text":"This problem's a little hairy, just because I had a bad choice of initial function.","label":[],"Comments":[]}
+{"id":4665,"text":"But I have committed so much to this cup shape that I'll make it <EXPRESSION>.","label":[[65,77,"expression"]],"Comments":[]}
+{"id":4666,"text":"Let's say I want to figure out the area inside of the curve where the height here is <EXPRESSION>.","label":[[85,97,"expression"]],"Comments":[]}
+{"id":4667,"text":"Oh, and that's half of it, right? So we want to multiply that by <EXPRESSION>.","label":[[65,77,"expression"]],"Comments":[]}
+{"id":4668,"text":"And I don't know what that is.","label":[],"Comments":[]}
+{"id":4669,"text":"But this <EXPRESSION> it's just <EXPRESSION> of those neat things about math.","label":[[9,21,"expression"],[32,44,"expression"]],"Comments":[]}
+{"id":4670,"text":"I'm about to run out of time.","label":[],"Comments":[]}
+{"id":4671,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":4672,"text":"Exactly.","label":[],"Comments":[]}
+{"id":4673,"text":"Actually that might be even simpler because when you evaluate it from <EXPRESSION> to <EXPRESSION> it simplify things a little bit.","label":[[70,82,"expression"],[86,98,"expression"]],"Comments":[]}
+{"id":4674,"text":"This could have just been rewritten this way.","label":[],"Comments":[]}
+{"id":4675,"text":"We raise it <EXPRESSION> more power so it becomes <EXPRESSION>.","label":[[12,24,"expression"],[50,62,"expression"]],"Comments":[]}
+{"id":4676,"text":"You could have said this.","label":[],"Comments":[]}
+{"id":4677,"text":"How do we do that? Well <EXPRESSION> way we could do it is just like we did the last <EXPRESSION>, we can figure out some function that's essentially a line, a horizontal line that goes straight across here.","label":[[24,36,"expression"],[85,97,"expression"]],"Comments":[]}
+{"id":4678,"text":"It's <EXPRESSION> or <EXPRESSION>.","label":[[5,17,"expression"],[21,33,"expression"]],"Comments":[]}
+{"id":4679,"text":"I think I'm running out of space.","label":[],"Comments":[]}
+{"id":4680,"text":"And I was proposing of a way to do it.","label":[],"Comments":[]}
+{"id":4681,"text":"It's the indefinite integral for <EXPRESSION> to <EXPRESSION> of the top function, the top boundary, <EXPRESSION>, minus the bottom boundary.","label":[[33,45,"expression"],[49,61,"expression"],[101,113,"expression"]],"Comments":[]}
+{"id":4682,"text":"Not exactly what I wanted, but we'll work on forward.","label":[],"Comments":[]}
+{"id":4683,"text":"Because the mistake, obviously <EXPRESSION> is not a parabola looking thing.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":4684,"text":"In fact, some people start this way.","label":[],"Comments":[]}
+{"id":4685,"text":"So dividing by a fraction is like multiplying by its reciprocal.","label":[],"Comments":[]}
+{"id":4686,"text":"But if I say <EXPRESSION> is <EXPRESSION>, there's <EXPRESSION> places where that's true.","label":[[13,25,"expression"],[29,41,"expression"],[51,63,"expression"]],"Comments":[]}
+{"id":4687,"text":"That's Kind of like the combined area.","label":[],"Comments":[]}
+{"id":4688,"text":"You could just rewrite a new function, which is the difference of these <EXPRESSION> functions, and it would have been equivalent.","label":[[72,84,"expression"]],"Comments":[]}
+{"id":4689,"text":"I'm going to do something simple.","label":[],"Comments":[]}
+{"id":4690,"text":"Right, it was <EXPRESSION>, we added <EXPRESSION> to it.","label":[[14,26,"expression"],[37,49,"expression"]],"Comments":[]}
+{"id":4691,"text":"Subtract this expression evaluated at <EXPRESSION> from this expression evaluated at <EXPRESSION>.","label":[[38,50,"expression"],[85,97,"expression"]],"Comments":[]}
+{"id":4692,"text":"So if we multiply that by <EXPRESSION>, we get <EXPRESSION>.","label":[[26,38,"expression"],[47,59,"expression"]],"Comments":[]}
+{"id":4693,"text":"It's a bit of a trick problem.","label":[],"Comments":[]}
+{"id":4694,"text":"And I want to subtract from that the area from <EXPRESSION> to <EXPRESSION> what's under <EXPRESSION>.","label":[[47,59,"expression"],[63,75,"expression"],[89,101,"expression"]],"Comments":[]}
+{"id":4695,"text":"It's going to go up real fast.","label":[],"Comments":[]}
+{"id":4696,"text":"Actually let me do <EXPRESSION> more problem since I have time.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":4697,"text":"Well that's just from <EXPRESSION> to <EXPRESSION>, the integral of <EXPRESSION>, because <EXPRESSION> is the green function, <EXPRESSION>.","label":[[22,34,"expression"],[38,50,"expression"],[68,80,"expression"],[90,102,"expression"],[126,138,"expression"]],"Comments":[]}
+{"id":4698,"text":"<EXPRESSION> is <EXPRESSION>, and then <EXPRESSION> is <EXPRESSION> and the next is <EXPRESSION>, that's <EXPRESSION>, so the answer is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"],[39,51,"expression"],[55,67,"expression"],[84,96,"expression"],[105,117,"expression"],[136,148,"expression"]],"Comments":[]}
+{"id":4699,"text":"So what is this area? We know it's between <EXPRESSION> and <EXPRESSION>, so we just set up the indefinite integral.","label":[[43,55,"expression"],[60,72,"expression"]],"Comments":[]}
+{"id":4700,"text":"I can multiply if I wanted to, but I have <EXPRESSION> seconds left so I'll leave you there.","label":[[42,54,"expression"]],"Comments":[]}
+{"id":4701,"text":"So first of all we just have to figure out what the antiderivative of this inner expression is.","label":[],"Comments":[]}
+{"id":4702,"text":"So you could do this <EXPRESSION> separate problems, <EXPRESSION> separate indefinite integrals, or you could do it as <EXPRESSION> indefinite integral.","label":[[21,33,"expression"],[53,65,"expression"],[119,131,"expression"]],"Comments":[]}
+{"id":4703,"text":"So it's <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":4704,"text":"So let's stick with the second one.","label":[],"Comments":[]}
+{"id":4705,"text":"So just based on the last example we did, we could just write the indefinite integral, and I'm not going to rewrite the fundamental theorem from calculus, because I think you know that by now.","label":[],"Comments":[]}
+{"id":4706,"text":"And we'll essentially just be figuring out the area between the <EXPRESSION> functions.","label":[[64,76,"expression"]],"Comments":[]}
+{"id":4707,"text":"x to the fifth goes negative like this.","label":[],"Comments":[]}
+{"id":4708,"text":"And then we need to figure out what the area is between the <EXPRESSION>, so we need to figure out what are these <EXPRESSION> points.","label":[[60,72,"expression"],[114,126,"expression"]],"Comments":[]}
+{"id":4709,"text":"Let's say that <EQUATION>.","label":[[15,25,"equation"]],"Comments":[]}
+{"id":4710,"text":"It just goes straight across.","label":[],"Comments":[]}
+{"id":4711,"text":"Let's say that this is not = <EXPRESSION>.","label":[[29,41,"expression"]],"Comments":[]}
+{"id":4712,"text":"What happens when <EXPRESSION>? <EXPRESSION> is <EXPRESSION>.","label":[[18,30,"expression"],[32,44,"expression"],[48,60,"expression"]],"Comments":[]}
+{"id":4713,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
+{"id":4714,"text":"That's the antiderivative of <EXPRESSION>.","label":[[29,41,"expression"]],"Comments":[]}
+{"id":4715,"text":"<EQUATION>, and actually, you know what? I made a mistake.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":4716,"text":"Let me draw it actually.","label":[],"Comments":[]}
+{"id":4717,"text":"I haven't figured out what it is.","label":[],"Comments":[]}
+{"id":4718,"text":"These are the <EXPRESSION> points.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":4719,"text":"Well that's easy.","label":[],"Comments":[]}
+{"id":4720,"text":"See those are the same thing as the integral from <EXPRESSION> to <EXPRESSION> of <EXPRESSION>.","label":[[50,62,"expression"],[66,78,"expression"],[82,94,"expression"]],"Comments":[]}
+{"id":4721,"text":"So we could say <EQUATION>","label":[[16,26,"equation"]],"Comments":[]}
+{"id":4722,"text":"So there you go.","label":[],"Comments":[]}
+{"id":4723,"text":"Well, this will be a little bit tricky, but <EXPRESSION>.","label":[[44,56,"expression"]],"Comments":[]}
+{"id":4724,"text":"So you haven't seen <EXPRESSION> yet.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":4725,"text":"So when does <EQUATION>? I mean you could solve it algebraically, you know, you could say <EQUATION>.","label":[[13,23,"equation"],[90,100,"equation"]],"Comments":[]}
+{"id":4726,"text":"The area between the <EXPRESSION> and <EXPRESSION> is <EXPRESSION>, which is a pretty clean number.","label":[[21,33,"expression"],[38,50,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id":4727,"text":"x to the fifth is going to go up super fast, something like that.","label":[],"Comments":[]}
+{"id":4728,"text":"Let's say I wanted to figure out the areas this side's going to go real fast too between that, and instead of figuring out the area between x-axis and that, <EXPRESSION>, I want to figure out the area between <EXPRESSION> and Instead of figuring out this bottom area, right? Like the normal problems we've done, we would figure out this type of area, you know, between <EXPRESSION> points.","label":[[157,169,"expression"],[209,221,"expression"],[369,381,"expression"]],"Comments":[]}
+{"id":4729,"text":"Do you think you know how to do it? Well, I think you do.","label":[],"Comments":[]}
+{"id":4730,"text":"OK, I'm going to draw the x-axis.","label":[],"Comments":[]}
+{"id":4731,"text":"This isn't kind of a step of the problem, but you could have done it this way.","label":[],"Comments":[]}
+{"id":4732,"text":"So I want to know the larger area, right.","label":[],"Comments":[]}
+{"id":4733,"text":"Magenta.","label":[],"Comments":[]}
+{"id":4734,"text":"Let's say that = <EXPRESSION> is just <EXPRESSION>, right? So we just use the same antiderivative rules we've always used.","label":[[17,29,"expression"],[38,50,"expression"]],"Comments":[]}
+{"id":4735,"text":"So it's <EXPRESSION> and then minus I think the second term is pretty easy for you <EXPRESSION>.","label":[[8,20,"expression"],[83,95,"expression"]],"Comments":[]}
+{"id":4736,"text":"It's just a constant function.","label":[],"Comments":[]}

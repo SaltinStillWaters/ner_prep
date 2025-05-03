@@ -1,0 +1,102 @@
+{"id":3123,"text":"But I just wanted you to see something in two dimensions.","label":[],"Comments":[]}
+{"id":3124,"text":"It's always going to be <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
+{"id":3125,"text":"What's happening? On the right hand side, I have particles exiting really, really fast, right? And let's say in a given amount of time, let's say in one second, in one second out of the right side, since the particles are moving really fast, I'm going to have a bunch of particles leave the right hand side, right? And in the same amount of time, I will have some particles come in through the left hand side, but it's going to be a fewer number of particles.","label":[],"Comments":[]}
+{"id":3126,"text":"So what's the partial derivative? So it's = <EXPRESSION>.","label":[[44,56,"expression"]],"Comments":[]}
+{"id":3127,"text":"There's going to be more and more particles in that space over time.","label":[],"Comments":[]}
+{"id":3128,"text":"Now what does it mean if we have a <EXPRESSION> divergence? So let's try to create a vector field that has a <EXPRESSION> divergence.","label":[[35,47,"expression"],[109,121,"expression"]],"Comments":[]}
+{"id":3129,"text":"So we're going to be getting less dense at any given point.","label":[],"Comments":[]}
+{"id":3130,"text":"When it's positive, if I have a positive divergence, the particles or the field is diverting out of that point.","label":[],"Comments":[]}
+{"id":3131,"text":"It makes sense, right? Because if as we move to the right, and it kind of gets funky if you go into the other quadrant, so we'll stick to the first quadrant while we're trying to get our intuition.","label":[],"Comments":[]}
+{"id":3132,"text":"But the classic example of a divergence is a field that looks something like this.","label":[],"Comments":[]}
+{"id":3133,"text":"So where we left off I was attempting to give you the intuition of divergence and then I ran out of time.","label":[],"Comments":[]}
+{"id":3134,"text":"So clearly this area is going to become less dense.","label":[],"Comments":[]}
+{"id":3135,"text":"So at any given point has no <EXPRESSION> component.","label":[[29,41,"expression"]],"Comments":[]}
+{"id":3136,"text":"Or since we know that this is the velocity of particles, as we go in the <EXPRESSION> direction, the particles go faster and faster to the right.","label":[[73,85,"expression"]],"Comments":[]}
+{"id":3137,"text":"It only depends on <EXPRESSION>.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":3138,"text":"But even here, if I were to draw some region, the same amount is entering as exiting.","label":[],"Comments":[]}
+{"id":3139,"text":"Well, that's also <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":3140,"text":"So the further we go to the right, or the more we go to the right, the faster the particles are moving to the right.","label":[],"Comments":[]}
+{"id":3141,"text":"I said OK, when <EQUATION>, the magnitude of the velocity is <EXPRESSION> maybe meters per second, if that's our unit.","label":[[16,26,"equation"],[61,73,"expression"]],"Comments":[]}
+{"id":3142,"text":"Plus the partial derivative of <EXPRESSION> with respect to <EXPRESSION>.","label":[[31,43,"expression"],[60,72,"expression"]],"Comments":[]}
+{"id":3143,"text":"And I was drawing it out.","label":[],"Comments":[]}
+{"id":3144,"text":"So the magnitude of the vectors, no matter what my value of <EXPRESSION>, is always going to be the same.","label":[[60,72,"expression"]],"Comments":[]}
+{"id":3145,"text":"You know it doesn't depend on <EXPRESSION>.","label":[[30,42,"expression"]],"Comments":[]}
+{"id":3146,"text":"And then the classic example of a divergence, although I wanted to show you that what matters is the net that's coming in to a certain area.","label":[],"Comments":[]}
+{"id":3147,"text":"So all of the velocity is only in the <EXPRESSION> direction there is no upwards movement in the <EXPRESSION> plane.","label":[[38,50,"expression"],[97,109,"expression"]],"Comments":[]}
+{"id":3148,"text":"In the previous example it was a source of particles more were coming out than going in.","label":[],"Comments":[]}
+{"id":3149,"text":"If I take an arbitrarily I'm going to draw it in a different color and this circle could be arbitrarily small, but I'm drawing it pretty large so it can include some of our vectors that I've drawn.","label":[],"Comments":[]}
+{"id":3150,"text":"So the magnitude is always <EXPRESSION> in the <EXPRESSION> direction.","label":[[27,39,"expression"],[47,59,"expression"]],"Comments":[]}
+{"id":3151,"text":"So that means that the partial derivative with respect to <EXPRESSION> is <EXPRESSION>.","label":[[58,70,"expression"],[74,86,"expression"]],"Comments":[]}
+{"id":3152,"text":"All the points would be, the vectors would have a slope of <EXPRESSION>.","label":[[59,71,"expression"]],"Comments":[]}
+{"id":3153,"text":"Now more going in through the right than coming out.","label":[],"Comments":[]}
+{"id":3154,"text":"Now what does that tell us? Well, if you just look at the definition, right, we essentially just took the how much does the magnitude of the field increase in the <EXPRESSION> direction? And we see it visually.","label":[[163,175,"expression"]],"Comments":[]}
+{"id":3155,"text":"So it's not getting any denser at any point.","label":[],"Comments":[]}
+{"id":3156,"text":"I'll do a fancier example in the next video.","label":[],"Comments":[]}
+{"id":3157,"text":"So obviously, in any given amount of time, that point is getting more and more dense.","label":[],"Comments":[]}
+{"id":3158,"text":"So after a certain amount of time what's happening? Let's say after a second.","label":[],"Comments":[]}
+{"id":3159,"text":"More are leaving than are coming in.","label":[],"Comments":[]}
+{"id":3160,"text":"If I were to graph it this is my y-axis, this is my x-axis.","label":[],"Comments":[]}
+{"id":3161,"text":"This one half I had all these scratch offs.","label":[],"Comments":[]}
+{"id":3162,"text":"But it makes sense, because as we move to the right our particles are getting faster and faster.","label":[],"Comments":[]}
+{"id":3163,"text":"And so the divergence I'll use this notation the divergence of our vector field is just a partial derivative with respect to <EXPRESSION>, which is just <EXPRESSION>.","label":[[125,137,"expression"],[153,165,"expression"]],"Comments":[]}
+{"id":3164,"text":"Let's draw it here.","label":[],"Comments":[]}
+{"id":3165,"text":"So this positive divergence tells us that at that point, or really at any point in this vector field since the divergence is <EXPRESSION> everywhere, at any point in this vector field, the field is becoming less dense.","label":[[125,137,"expression"]],"Comments":[]}
+{"id":3166,"text":"The slope of how much our <EXPRESSION> component is increasing is positive.","label":[[26,38,"expression"]],"Comments":[]}
+{"id":3167,"text":"So now let's try to get our handle on what divergence means.","label":[],"Comments":[]}
+{"id":3168,"text":"Anyway, I've run out of time again.","label":[],"Comments":[]}
+{"id":3169,"text":"I've never actually heard it this way, but maybe a negative divergence we view as a convergence, right? Converge is the opposite of diverge.","label":[],"Comments":[]}
+{"id":3170,"text":"So that divergence of <EXPRESSION>, of our velocity vector field you could also view that if you want to abuse some notation, is our del vector, dot <EXPRESSION>.","label":[[22,34,"expression"],[149,161,"expression"]],"Comments":[]}
+{"id":3171,"text":"And the classic example of a positive divergence is a point where from every direction things are leaving it.","label":[],"Comments":[]}
+{"id":3172,"text":"So let's say my vector field is <EXPRESSION>.","label":[[32,44,"expression"]],"Comments":[]}
+{"id":3173,"text":"So when you have a divergence of <EXPRESSION>, that means that that part of the field is not becoming any more or less dense.","label":[[33,45,"expression"]],"Comments":[]}
+{"id":3174,"text":"So here at like, say, the point <EXPRESSION>, my velocity is going to be the left <EXPRESSION>.","label":[[32,44,"expression"],[82,94,"expression"]],"Comments":[]}
+{"id":3175,"text":"Or you could say that more is flowing out of any point than flowing in.","label":[],"Comments":[]}
+{"id":3176,"text":"And let me clean it up a little bit.","label":[],"Comments":[]}
+{"id":3177,"text":"So let me draw that.","label":[],"Comments":[]}
+{"id":3178,"text":"Vector field is always <EXPRESSION>.","label":[[23,35,"expression"]],"Comments":[]}
+{"id":3179,"text":"If we're talking about velocity of particles, after any moment in time, more particles are leaving than coming in because no particles are coming in.","label":[],"Comments":[]}
+{"id":3180,"text":"When <EQUATION>, the velocity to the right will be <EXPRESSION>.","label":[[5,15,"equation"],[51,63,"expression"]],"Comments":[]}
+{"id":3181,"text":"So in any given amount of time, in my defined space, it's going to get denser and denser.","label":[],"Comments":[]}
+{"id":3182,"text":"I will see you in the next video.","label":[],"Comments":[]}
+{"id":3183,"text":"So if I were to draw a region, what's happening here? Are more particles entering than leaving or leaving than entering? No.","label":[],"Comments":[]}
+{"id":3184,"text":"It's still a constant, right? So this velocity field or vector field will look something like this.","label":[],"Comments":[]}
+{"id":3185,"text":"So it's getting denser or you could almost view it as this space is sucking up particles.","label":[],"Comments":[]}
+{"id":3186,"text":"The velocity, I'm just going to rewrite it, <EQUATION>.","label":[[44,54,"equation"]],"Comments":[]}
+{"id":3187,"text":"I think it'll start to make sense once I draw the circle.","label":[],"Comments":[]}
+{"id":3188,"text":"If you have a field that looks something like this, this is the classical example of a negative divergence, right? Where from every direction you have particles entering, nothing's leaving.","label":[],"Comments":[]}
+{"id":3189,"text":"And that kind of just falls out of the fact that our derivative with respect to <EXPRESSION> is positive.","label":[[80,92,"expression"]],"Comments":[]}
+{"id":3190,"text":"And that's this example here.","label":[],"Comments":[]}
+{"id":3191,"text":"Where maybe that's the <EXPRESSION> that's the <EXPRESSION>, this is the <EXPRESSION>.","label":[[23,35,"expression"],[47,59,"expression"],[73,85,"expression"]],"Comments":[]}
+{"id":3192,"text":"So first of all, let's take that the divergence of this function.","label":[],"Comments":[]}
+{"id":3193,"text":"And that makes sense because the divergence of this vector field well, both of them actually, the divergence of that vector field.","label":[],"Comments":[]}
+{"id":3194,"text":"And we'll just stay at a one-dimension just for the intuition.","label":[],"Comments":[]}
+{"id":3195,"text":"But if we only have one dimension, so it's the partial derivative of the <EXPRESSION> magnitude with respect to <EXPRESSION>.","label":[[73,85,"expression"],[112,124,"expression"]],"Comments":[]}
+{"id":3196,"text":"Let's say that the vector field = is <EXPRESSION>.","label":[[37,49,"expression"]],"Comments":[]}
+{"id":3197,"text":"So that divergence of this vector field at any point is <EXPRESSION>.","label":[[56,68,"expression"]],"Comments":[]}
+{"id":3198,"text":"At the point <EXPRESSION>, my velocity is going to be the left <EXPRESSION>.","label":[[13,25,"expression"],[63,75,"expression"]],"Comments":[]}
+{"id":3199,"text":"So every point is getting denser and denser actually everywhere in this field.","label":[],"Comments":[]}
+{"id":3200,"text":"It's infinitely small, but we're just trying to get some intuition.","label":[],"Comments":[]}
+{"id":3201,"text":"If I have a negative divergence maybe let's define a new term.","label":[],"Comments":[]}
+{"id":3202,"text":"And that's what a negative divergence.","label":[],"Comments":[]}
+{"id":3203,"text":"Now what this tells us, what this positive divergence tells us is if we were to take let's just take an arbitrarily small circle.","label":[],"Comments":[]}
+{"id":3204,"text":"So it's = well the derivative of this with respect to <EXPRESSION> is just = <EXPRESSION>.","label":[[54,66,"expression"],[77,89,"expression"]],"Comments":[]}
+{"id":3205,"text":"So you could view a positive divergence as you could kind of say well, the field is becoming less dense at that point, or the point is a source of the field, or it's a source of particles, depending on what model you want to use.","label":[],"Comments":[]}
+{"id":3206,"text":"For any amount that's coming in, an = amount are coming out in a certain amount of time, if we use velocity as our example.","label":[],"Comments":[]}
+{"id":3207,"text":"And actually at every point in this field we have a negative divergence.","label":[],"Comments":[]}
+{"id":3208,"text":"Now, with that said, let's take the opposite situation.","label":[],"Comments":[]}
+{"id":3209,"text":"So now let's draw a little circle and see what's happening.","label":[],"Comments":[]}
+{"id":3210,"text":"So the way you could think about it is in any given amount of time, what's happening? In this space, I have a few particles entering in through the left, and I have a much larger number of particle leaving through the right.","label":[],"Comments":[]}
+{"id":3211,"text":"But anyway, I had defined this fairly straightforward vector field that tells us the velocity of particles in a fluid at any given point.","label":[],"Comments":[]}
+{"id":3212,"text":"At the velocity <EXPRESSION>, it's going to be <EXPRESSION>.","label":[[16,28,"expression"],[47,59,"expression"]],"Comments":[]}
+{"id":3213,"text":"The partial derivative of <EXPRESSION> with respect to <EXPRESSION>, well that's <EXPRESSION>.","label":[[26,38,"expression"],[55,67,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":3214,"text":"Well, I'm having a few particles leave through the left hand side, right, but I have many more particles entering this little region that I've defined, this little circle, I'm having many more particles enter through the right in a given amount of time.","label":[],"Comments":[]}
+{"id":3215,"text":"Another way to think of it if you have a constant vector field.","label":[],"Comments":[]}
+{"id":3216,"text":"And you could have done it let me show you another.","label":[],"Comments":[]}
+{"id":3217,"text":"As we go, increase in the <EXPRESSION> direction, the field gets stronger and stronger.","label":[[26,38,"expression"]],"Comments":[]}
+{"id":3218,"text":"So here, even though some particles are leaving through the left, many more particles are coming through the right, so it's getting denser and denser.","label":[],"Comments":[]}
+{"id":3219,"text":"So what's going to happen in this space? It's going to become less dense, right? Because in that space is going to be fewer particles after a certain amount of time.","label":[],"Comments":[]}
+{"id":3220,"text":"It could be anywhere.","label":[],"Comments":[]}
+{"id":3221,"text":"So as we go to the right, our velocities are going getting faster and faster, which means if we were to draw a circle anywhere, we're always going to have more exiting the right than entering through the left.","label":[],"Comments":[]}
+{"id":3222,"text":"If my function was, let's say it = <EXPRESSION>.","label":[[35,47,"expression"]],"Comments":[]}
+{"id":3223,"text":"Or you could almost view it as any given point is almost a source of particles, or if you have a sphere, more particles are going to be coming out of the sphere through the right, than coming in through the sphere to the left.","label":[],"Comments":[]}
+{"id":3224,"text":"You could almost say let's think about the word, divergence.","label":[],"Comments":[]}

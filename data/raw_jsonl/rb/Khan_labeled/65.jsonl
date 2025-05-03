@@ -1,0 +1,81 @@
+{"id":4273,"text":"Keep that in mind.","label":[],"Comments":[]}
+{"id":4274,"text":"So actually, if you look at it, I mean you could just eyeball it.","label":[],"Comments":[]}
+{"id":4275,"text":"Well let's look at this.","label":[],"Comments":[]}
+{"id":4276,"text":"And let me graph that as well.","label":[],"Comments":[]}
+{"id":4277,"text":"Right, this is the velocity, so say we had over this very small change in time, we have this roughly constant velocity that's on this graph.","label":[],"Comments":[]}
+{"id":4278,"text":"So let actually use an example from physics.","label":[],"Comments":[]}
+{"id":4279,"text":"Let me write this in the corner.","label":[],"Comments":[]}
+{"id":4280,"text":"So <EQUATION>, and then <EQUATION>.","label":[[3,13,"equation"],[24,34,"equation"]],"Comments":[]}
+{"id":4281,"text":"That's a horrible line.","label":[],"Comments":[]}
+{"id":4282,"text":"In this case, the object started at position of <EXPRESSION>, but it could be, you know, at any constant, right? You could have started here and then curved up.","label":[[48,60,"expression"]],"Comments":[]}
+{"id":4283,"text":"I won't draw it that steep because I'm going to use this for an illustration.","label":[],"Comments":[]}
+{"id":4284,"text":"For the purposes of this lecture, you can't go back in time.","label":[],"Comments":[]}
+{"id":4285,"text":"So it's actually a pretty steep line.","label":[],"Comments":[]}
+{"id":4286,"text":"We have this roughly constant velocity.","label":[],"Comments":[]}
+{"id":4287,"text":"I don't know why the convention is to use s as the variable for distance.","label":[],"Comments":[]}
+{"id":4288,"text":"Let me switch to something more pleasant.","label":[],"Comments":[]}
+{"id":4289,"text":"So this is just a formula that tells us the position, kind of how far has something gone, after <EXPRESSION> many, let's say, seconds, right? So after like, <EXPRESSION> seconds, we would have gone, let's say the distance is in feet, this is in seconds.","label":[[157,169,"expression"]],"Comments":[]}
+{"id":4290,"text":"And I guess if you view it the other way, if you have the velocity, it's antiderivative is distance.","label":[],"Comments":[]}
+{"id":4291,"text":"You can kind of view this as a very small change in time.","label":[],"Comments":[]}
+{"id":4292,"text":"But if you have to distance formula, it's derivative is just velocity.","label":[],"Comments":[]}
+{"id":4293,"text":"So we want to find the change, the instantaneous change with respect to time of this formula, right? Because this is the distance formula.","label":[],"Comments":[]}
+{"id":4294,"text":"It'll get pretty close to, as you can imagine, the area under this curve, or in this case a line.","label":[],"Comments":[]}
+{"id":4295,"text":"It's slightly better.","label":[],"Comments":[]}
+{"id":4296,"text":"And we want to figure out what the distance is after, you know, <EXPRESSION> seconds, right? So this is the t-axis, this is the velocity axis, right? So let's say we were only given this, and let's say we didn't know that the antiderivative of the velocity function is the distance function.","label":[[64,76,"expression"]],"Comments":[]}
+{"id":4297,"text":"So this is how much time goes by.","label":[],"Comments":[]}
+{"id":4298,"text":"Let's say that <EXPRESSION> =, I don't know, <EXPRESSION>.","label":[[15,27,"expression"],[45,57,"expression"]],"Comments":[]}
+{"id":4299,"text":"In this presentation, I actually want to show you how we can use the antiderivative to figure out the area under a curve.","label":[],"Comments":[]}
+{"id":4300,"text":"And then we draw the x-axis.","label":[],"Comments":[]}
+{"id":4301,"text":"If we have a constant, this red is kind of bloody.","label":[],"Comments":[]}
+{"id":4302,"text":"Skinny and tall, right? It's almost infinitely skinny, but it's, we're assuming for these purposes it has some very notional amount of width.","label":[],"Comments":[]}
+{"id":4303,"text":"Actually I'm going to focus more a little bit more on the intuition.","label":[],"Comments":[]}
+{"id":4304,"text":"Maybe I should switch back to, let me write that, <EQUATION>.","label":[[50,60,"equation"]],"Comments":[]}
+{"id":4305,"text":"Actually, let me undo that too, because I just want to do it for <EXPRESSION>, right? Because you can't really go back in time.","label":[[65,77,"expression"]],"Comments":[]}
+{"id":4306,"text":"So the distance that the object travels over the small time would be the small time times the velocity, right? It would be whatever the value of this red line is, times the width of this distance, right? So what's another way? Visually I kind of did it ahead of time, but what's happening here? If I take this change in time, right, which is kind of the base of this rectangle, and I multiply it times the velocity which is really just the height of this rectangle, what have I figured out? Well I figured out the area of this rectangle, right? Right, the velocity this moment, times the change in time at this moment, is nothing but the area of this very skinny rectangle.","label":[],"Comments":[]}
+{"id":4307,"text":"If we have, over any small period of time, right, or if we have a constant velocity, when you have a constant velocity, distance is just velocity times time, right? So let's say we had a very small time fragment here, right? I'll draw it big, but let's say this time fragment it is really small.","label":[],"Comments":[]}
+{"id":4308,"text":"This is velocity.","label":[],"Comments":[]}
+{"id":4309,"text":"So this curve will essentially just be a parabola, right? It'll look something like this.","label":[],"Comments":[]}
+{"id":4310,"text":"So if we know the instant rate of change of distance with respect to time, we'll know the velocity, right? So <EXPRESSION>, <EXPRESSION>, =? So what's the derivative here? It's <EXPRESSION>, right? And this is the velocity.","label":[[110,122,"expression"],[124,136,"expression"],[177,189,"expression"]],"Comments":[]}
+{"id":4311,"text":"Or you can actually view it as instantaneous.","label":[],"Comments":[]}
+{"id":4312,"text":"Actually, let me take do it here.","label":[],"Comments":[]}
+{"id":4313,"text":"But it would also get you pretty much the exact amount of distance you've traveled after <EXPRESSION> seconds.","label":[[89,101,"expression"]],"Comments":[]}
+{"id":4314,"text":"And that's actually <EXPRESSION> of the initial uses of what made derivatives so useful.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":4315,"text":"I'll use distance and velocity.","label":[],"Comments":[]}
+{"id":4316,"text":"So this, I'll draw it in red, this is this going to be a line, right? <EXPRESSION> it's a line with slope <EXPRESSION>.","label":[[70,82,"expression"],[106,118,"expression"]],"Comments":[]}
+{"id":4317,"text":"So I think I'm running into the <EXPRESSION> minute wall, so I'm just going to pause here, and I'm going to continue this in the next presentation.","label":[[32,44,"expression"]],"Comments":[]}
+{"id":4318,"text":"And so what if we wanted to figure out what the velocity of this object, right? This is, let's see, this is <EXPRESSION>, this is <EXPRESSION>, right? And this is, I don't know if it's clear, but this is kind of <EXPRESSION> a parabola.","label":[[108,120,"expression"],[130,142,"expression"],[212,224,"expression"]],"Comments":[]}
+{"id":4319,"text":"But anyway, let's just assume we started at <EXPRESSION>.","label":[[44,56,"expression"]],"Comments":[]}
+{"id":4320,"text":"So let's graph this function.","label":[[9,28,"command"]],"Comments":[]}
+{"id":4321,"text":"OK.","label":[],"Comments":[]}
+{"id":4322,"text":"That's all that says.","label":[],"Comments":[]}
+{"id":4323,"text":"After <EXPRESSION> seconds, we would have gone <EXPRESSION> feet.","label":[[6,18,"expression"],[47,59,"expression"]],"Comments":[]}
+{"id":4324,"text":"It's pretty straight.","label":[],"Comments":[]}
+{"id":4325,"text":"After <EXPRESSION> seconds, right? Well then, all we would have to do is, we would have to just figure, we would just do a bunch of <EXPRESSION>'s, right? You'd do another <EXPRESSION> here, you'd figure out the area of this column, you'd figure out the area of this column, the area of this column, right? Because each of these areas of each of these columns represents the distance that the object travels over that <EXPRESSION>, right? So if you wanted to know how far you traveled after <EXPRESSION> seconds, you'd essentially get, or an approximation would be, the sum of all of these areas.","label":[[6,18,"expression"],[132,144,"expression"],[172,184,"expression"],[418,430,"expression"],[491,503,"expression"]],"Comments":[]}
+{"id":4326,"text":"So the derivative of distance is velocity, the antiderivative of velocity is distance.","label":[],"Comments":[]}
+{"id":4327,"text":"I'm doing pretty good.","label":[],"Comments":[]}
+{"id":4328,"text":"This is that graph, and this is distance, right? So in case you hadn't learned already, and maybe I'll do a whole presentation on kind of using calculus for physics, and using derivatives for physics.","label":[],"Comments":[]}
+{"id":4329,"text":"What would the velocity be? Well the velocity is just, what's velocity? It's distance divided by time, right? And since this velocity is always changing, we want to figure out the instantaneous velocity.","label":[],"Comments":[]}
+{"id":4330,"text":"The object, every second you go, it's going a little bit further, right? So it's actually accelerating.","label":[],"Comments":[]}
+{"id":4331,"text":"So this is the velocity.","label":[],"Comments":[]}
+{"id":4332,"text":"So that'll have to do.","label":[],"Comments":[]}
+{"id":4333,"text":"Have to use the line tool, might have better luck.","label":[],"Comments":[]}
+{"id":4334,"text":"And actually this could be a good review for derivatives, or actually an application of derivatives.","label":[],"Comments":[]}
+{"id":4335,"text":"Graph it.","label":[],"Comments":[]}
+{"id":4336,"text":"How would we figure out, how would we figure out what the distance would be at any given time? Well let's think about it.","label":[],"Comments":[]}
+{"id":4337,"text":"This will actually be a fairly straightforward graph to draw.","label":[],"Comments":[]}
+{"id":4338,"text":"So there we figured out the area of this column, right? Well, if we wanted to figure out the distance that you travel after, let's say, you know, I don't know, let's say <EXPRESSION>, let's say <EXPRESSION>, right? This is just a particular <EXPRESSION>.","label":[[170,182,"expression"],[194,206,"expression"],[241,253,"expression"]],"Comments":[]}
+{"id":4339,"text":"So if we have a very small change of time, and over that very small change in time, we have a roughly constant velocity, let's say the roughly constant velocity is this.","label":[],"Comments":[]}
+{"id":4340,"text":"Right? So s is distance.","label":[],"Comments":[]}
+{"id":4341,"text":"So let's say that I described the position of something moving.","label":[],"Comments":[]}
+{"id":4342,"text":"Let's assume that we were only given this graph.","label":[],"Comments":[]}
+{"id":4343,"text":"The way I've used <EXPRESSION> is like, it's like a change in time that's unbelievably small, right? So it's like almost instantaneous, but not quite.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":4344,"text":"I don't know why I switched colors, but I'll stick with the yellow.","label":[],"Comments":[]}
+{"id":4345,"text":"One would think, well actually, I know, why won't they use <EXPRESSION>? Because <EXPRESSION> is the letter used for differential, I guess.","label":[[59,71,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":4346,"text":"So this is the distance function.","label":[],"Comments":[]}
+{"id":4347,"text":"Let's say it's <EXPRESSION>.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":4348,"text":"And as you got more and more, as you made the dt's smaller and smaller, skinnier, skinnier, skinnier.","label":[],"Comments":[]}
+{"id":4349,"text":"And let's called this very small time fragment, let call this delta <EXPRESSION>, or <EXPRESSION> actually.","label":[[68,80,"expression"],[85,97,"expression"]],"Comments":[]}
+{"id":4350,"text":"Although you won't know where, at what position, the object started.","label":[],"Comments":[]}
+{"id":4351,"text":"Transcript for: Introduction to definite integrals Welcome back.","label":[],"Comments":[]}
+{"id":4352,"text":"And we said, you know, this is the graph of the velocity of some object.","label":[],"Comments":[]}
+{"id":4353,"text":"And you had more and more and more and more of these rectangles, then your approximation will get pretty close to, well, <EXPRESSION> things.","label":[[121,133,"expression"]],"Comments":[]}

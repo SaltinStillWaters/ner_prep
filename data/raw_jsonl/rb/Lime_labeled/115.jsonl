@@ -1,0 +1,77 @@
+{"id":8796,"text":"- [Voiceover] Let's now introduce ourselves to the idea of a differential equation.","label":[],"Comments":[]}
+{"id":8797,"text":"And as we'll see, differential equations are super useful for modeling and simulating phenomena and understanding how they operate.","label":[],"Comments":[]}
+{"id":8798,"text":"But we'll get into that later.","label":[],"Comments":[]}
+{"id":8799,"text":"For now let's just think about or at least look at what a differential equation actually is.","label":[],"Comments":[]}
+{"id":8800,"text":"So if I were to write, so let's see here is an example of differential equation, if I were to write that the second derivative of <EXPRESSION> times the first derivative of <EQUATION>, this right over here is a differential equation.","label":[[130,142,"expression"],[173,183,"equation"]],"Comments":[]}
+{"id":8801,"text":"Another way we could write it if we said that <EXPRESSION> is a function of <EXPRESSION>, we could write this in function notation.","label":[[46,58,"expression"],[76,88,"expression"],[99,130,"command"]],"Comments":[]}
+{"id":8802,"text":"We could write the second derivative of our function with respect to <EXPRESSION> times the first derivative of our function = <EXPRESSION> times our function.","label":[[9,14,"command"],[69,81,"expression"],[127,139,"expression"]],"Comments":[]}
+{"id":8803,"text":"Or if we wanted to use the Leibniz notation, we could also write, the second derivative of <EXPRESSION> with respect to <EXPRESSION> times the first derivative of <EXPRESSION> with respect to <EXPRESSION> is = <EXPRESSION>.","label":[[91,103,"expression"],[120,132,"expression"],[163,175,"expression"],[192,204,"expression"],[210,222,"expression"]],"Comments":[]}
+{"id":8804,"text":"All three of these equations are really representing the same thing, they're saying OK, can I find functions where the second derivative of the function plus <EXPRESSION> times the first derivative of the function = <EXPRESSION> times the function itself.","label":[[158,170,"expression"],[216,228,"expression"]],"Comments":[]}
+{"id":8805,"text":"So just to be clear, these are all essentially saying the same thing.","label":[],"Comments":[]}
+{"id":8806,"text":"And you might have just caught from how I described it that the solution to a differential equation is a function, or a class of functions.","label":[],"Comments":[]}
+{"id":8807,"text":"It's not just a value or a set of values.","label":[],"Comments":[]}
+{"id":8808,"text":"So the solution here, so the solution to a differential equation is a function, or a set of functions, or a class of functions.","label":[],"Comments":[]}
+{"id":8809,"text":"It's important to contrast this relative to a traditional equation.","label":[],"Comments":[]}
+{"id":8810,"text":"So let me write that down.","label":[[10,15,"command"]],"Comments":[]}
+{"id":8811,"text":"So a traditional equation, maybe I shouldn't say traditional equation, differential equations have been around for a while.","label":[],"Comments":[]}
+{"id":8812,"text":"So let me write this as maybe an algebraic equation that you're familiar with.","label":[],"Comments":[]}
+{"id":8813,"text":"An algebraic equation might look something like, and I'll just write up a simple quadratic.","label":[],"Comments":[]}
+{"id":8814,"text":"Say <EQUATION>.","label":[[4,14,"equation"]],"Comments":[]}
+{"id":8815,"text":"The solutions to this algebraic equation are going to be numbers, or a set of numbers.","label":[],"Comments":[]}
+{"id":8816,"text":"We can solve this, it's going to be <EQUATION>.","label":[[36,46,"equation"]],"Comments":[]}
+{"id":8817,"text":"So <EXPRESSION> could be = <EXPRESSION> or <EXPRESSION> could be = <EXPRESSION>.","label":[[3,15,"expression"],[27,39,"expression"],[43,55,"expression"],[67,79,"expression"]],"Comments":[]}
+{"id":8818,"text":"The solutions here are numbers, or a set of values that satisfy the equation.","label":[],"Comments":[]}
+{"id":8819,"text":"Here it's a relationship between a function and its derivatives.","label":[],"Comments":[]}
+{"id":8820,"text":"And so the solutions, or the solution, is going to be a function or a set of functions.","label":[],"Comments":[]}
+{"id":8821,"text":"Now let's make that a little more tangible.","label":[],"Comments":[]}
+{"id":8822,"text":"What would a solution to something like any of these three, which really represent the same thing, what would a solution actually look like?","label":[],"Comments":[]}
+{"id":8823,"text":"Actually let me move this over a little bit.","label":[],"Comments":[]}
+{"id":8824,"text":"Move this over a little bit.","label":[],"Comments":[]}
+{"id":8825,"text":"So we can take a look at what some of these solutions could look like.","label":[],"Comments":[]}
+{"id":8826,"text":"Let me erase this a little.","label":[[7,12,"command"]],"Comments":[]}
+{"id":8827,"text":"This little stuff that I have right over here.","label":[],"Comments":[]}
+{"id":8828,"text":"So I'm just gonna give you examples of solutions here.","label":[],"Comments":[]}
+{"id":8829,"text":"We'll verify that these indeed are solutions for I guess this is really just one differential equation represented in different ways.","label":[],"Comments":[]}
+{"id":8830,"text":"But you'll hopefully appreciate what a solution to a differential equation looks like.","label":[],"Comments":[]}
+{"id":8831,"text":"And that there is often more than one solution.","label":[],"Comments":[]}
+{"id":8832,"text":"There's a whole class of functions that could be a solution.","label":[],"Comments":[]}
+{"id":8833,"text":"So one solution to this differential equation, and I'll just write it as our first one.","label":[],"Comments":[]}
+{"id":8834,"text":"So one solution, I'll call it y one.","label":[[30,35,"term"]],"Comments":[]}
+{"id":8835,"text":"And I could even write it as <EXPRESSION> to make it explicit that it is a function of <EXPRESSION>.","label":[[17,22,"command"],[29,41,"expression"],[87,99,"expression"]],"Comments":[]}
+{"id":8836,"text":"One solutions is <EQUATION> to the <EQUATION>.","label":[[17,27,"equation"],[35,45,"equation"]],"Comments":[]}
+{"id":8837,"text":"And I encourage you to pause this video right now and find the first derivative of <EXPRESSION>, and the second derivative of <EXPRESSION>, and verify that it does indeed satisfy this differential equation.","label":[[54,82,"command"],[83,95,"expression"],[126,138,"expression"]],"Comments":[]}
+{"id":8838,"text":"So I'm assuming you've had a go at it.","label":[],"Comments":[]}
+{"id":8839,"text":"So let's work through this together.","label":[],"Comments":[]}
+{"id":8840,"text":"So that's <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":8841,"text":"So the first derivative of <EXPRESSION>, so we just have to do the chain rule here, the derivative of <EXPRESSION> with respect to <EXPRESSION> is just <EXPRESSION>.","label":[[27,39,"expression"],[60,62,"command"],[67,77,"method"],[102,114,"expression"],[131,143,"expression"],[152,164,"expression"]],"Comments":[]}
+{"id":8842,"text":"And the derivative of <EXPRESSION> to the <EXPRESSION> with respect to <EXPRESSION> is just <EXPRESSION>.","label":[[22,34,"expression"],[42,54,"expression"],[71,83,"expression"],[92,104,"expression"]],"Comments":[]}
+{"id":8843,"text":"And if we take the second derivative of <EXPRESSION>, this = the same exact idea, the derivative of this is <EXPRESSION> is going to be <EXPRESSION> to the <EXPRESSION>.","label":[[10,36,"command"],[40,52,"expression"],[108,120,"expression"],[136,148,"expression"],[156,168,"expression"]],"Comments":[]}
+{"id":8844,"text":"And now we could just substitute these values into the differential equation, or these expressions into the differential equation to verify that this is indeed going to be true for this function.","label":[],"Comments":[]}
+{"id":8845,"text":"So let's verify that.","label":[],"Comments":[]}
+{"id":8846,"text":"So we first have the second derivative of <EXPRESSION>.","label":[[42,54,"expression"]],"Comments":[]}
+{"id":8847,"text":"So that's that term right over there.","label":[],"Comments":[]}
+{"id":8848,"text":"So we have <EXPRESSION> times the first derivative.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":8849,"text":"So that's going to be <EXPRESSION> times this right over here.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":8850,"text":"So it's going to be <EXPRESSION>, I'll just write <EXPRESSION>.","label":[[20,32,"expression"],[44,49,"command"],[50,62,"expression"]],"Comments":[]}
+{"id":8851,"text":"Notice I just took this two times the first derivative.","label":[],"Comments":[]}
+{"id":8852,"text":"<EXPRESSION> times the first derivative is going to be =, or needs to be =, if this indeed does satisfy, if <EXPRESSION> does indeed satisfy the differential equation, this needs to be = <EXPRESSION>.","label":[[0,12,"expression"],[108,120,"expression"],[187,199,"expression"]],"Comments":[]}
+{"id":8853,"text":"Well <EXPRESSION> is <EXPRESSION> to the <EXPRESSION>.","label":[[5,17,"expression"],[21,33,"expression"],[41,53,"expression"]],"Comments":[]}
+{"id":8854,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":8855,"text":"Let's see if that indeed is true.","label":[],"Comments":[]}
+{"id":8856,"text":"So these <EXPRESSION> terms right over here, <EXPRESSION>, essentially <EXPRESSION>, that's gonna be <EXPRESSION>.","label":[[9,21,"expression"],[45,57,"expression"],[71,83,"expression"],[101,113,"expression"]],"Comments":[]}
+{"id":8857,"text":"Which is indeed = <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":8858,"text":"So <EXPRESSION> is indeed a solution to this differential equation.","label":[[3,15,"expression"]],"Comments":[]}
+{"id":8859,"text":"But as we'll see, it is not the only solution to this differential equation.","label":[],"Comments":[]}
+{"id":8860,"text":"For example, let's say <EQUATION> is also a solution to this differential equation.","label":[[23,33,"equation"]],"Comments":[]}
+{"id":8861,"text":"And I encourage you to pause the video again and verify that it's a solution.","label":[],"Comments":[]}
+{"id":8862,"text":"So assuming you've had a go at it.","label":[],"Comments":[]}
+{"id":8863,"text":"So the first derivative of this is pretty straight-forward, is <EXPRESSION>.","label":[[63,75,"expression"]],"Comments":[]}
+{"id":8864,"text":"Second derivative, one of the profound things of the exponential function, the second derivative here is also <EXPRESSION>.","label":[[110,122,"expression"]],"Comments":[]}
+{"id":8865,"text":"So the second derivative, let me just do it in those same colors.","label":[],"Comments":[]}
+{"id":8866,"text":"So the second derivative is going to be <EXPRESSION> is indeed going to be = to <EXPRESSION>.","label":[[40,52,"expression"],[80,92,"expression"]],"Comments":[]}
+{"id":8867,"text":"This is absolutely going to be true.","label":[],"Comments":[]}
+{"id":8868,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":8869,"text":"So <EXPRESSION> is also a solution to this differential equation.","label":[[4,14,"expression"]],"Comments":[]}
+{"id":8870,"text":"So that's a start.","label":[],"Comments":[]}
+{"id":8871,"text":"In the next few videos, we'll explore this more.","label":[],"Comments":[]}
+{"id":8872,"text":"We'll start to see what the solutions look like, what classes of solutions are, techniques for solving them, visualizing solutions to differential equations, and a whole toolkit for kind of digging in deeper.","label":[],"Comments":[]}

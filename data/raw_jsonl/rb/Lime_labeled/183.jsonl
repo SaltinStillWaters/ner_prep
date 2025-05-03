@@ -1,0 +1,597 @@
+{"id":13117,"text":"PROFESSOR: So again, welcome back.","label":[],"Comments":[]}
+{"id":13118,"text":"And today's topic is a continuation of what we did last time.","label":[],"Comments":[]}
+{"id":13119,"text":"We still have a little bit of work and thinking to do concerning polar coordinates.","label":[],"Comments":[]}
+{"id":13120,"text":"So we're going to talk about polar coordinates.","label":[],"Comments":[]}
+{"id":13121,"text":"And my first job today is to talk a little bit about area.","label":[],"Comments":[]}
+{"id":13122,"text":"That's something we didn't mention last time.","label":[],"Comments":[]}
+{"id":13123,"text":"And since we're all back from Thanksgiving, we can certainly talk about it in terms of a pie.","label":[],"Comments":[]}
+{"id":13124,"text":"Which is the basic idea for area in polar coordinates.","label":[],"Comments":[]}
+{"id":13125,"text":"Here's our pie, and here's a slice of the pie.","label":[],"Comments":[]}
+{"id":13126,"text":"The slice has a piece of arc length on it, which I'm going to call <EXPRESSION>.","label":[[62,66,"command"],[67,79,"expression"]],"Comments":[]}
+{"id":13127,"text":"And the area of that shaded-in slice, I'm going to call <EXPRESSION>.","label":[[51,55,"command"],[56,68,"expression"]],"Comments":[]}
+{"id":13128,"text":"And let's suppose that the radius is <EXPRESSION>.","label":[[37,49,"expression"]],"Comments":[]}
+{"id":13129,"text":"Little <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":13130,"text":"So this is a pie of radius <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
+{"id":13131,"text":"That's our picture.","label":[],"Comments":[]}
+{"id":13132,"text":"Now, it's pretty easy to figure out what the area that slice of pie is.","label":[],"Comments":[]}
+{"id":13133,"text":"The total area is, of course, <EXPRESSION>.","label":[[30,42,"expression"]],"Comments":[]}
+{"id":13134,"text":"We know that.","label":[],"Comments":[]}
+{"id":13135,"text":"And to get this fraction, <EXPRESSION>, all we have to do is take the percentage of the arc of the total circumference.","label":[[26,38,"expression"]],"Comments":[]}
+{"id":13136,"text":"That's <EXPRESSION> \/ This is the fraction of area-- sorry, fraction of the total circumference, the total length around the rim.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":13137,"text":"And then we multiply that by <EXPRESSION>.","label":[[29,41,"expression"]],"Comments":[]}
+{"id":13138,"text":"And that's giving us the total area.","label":[],"Comments":[]}
+{"id":13139,"text":"And if you work that out, that's <EXPRESSION> =, the <EXPRESSION> cancel and we have <EXPRESSION>.","label":[[33,45,"expression"],[53,65,"expression"],[66,72,"command"],[85,97,"expression"]],"Comments":[]}
+{"id":13140,"text":"So here's the basic formula.","label":[],"Comments":[]}
+{"id":13141,"text":"And now what we need to do is to talk about a variable pie here.","label":[],"Comments":[]}
+{"id":13142,"text":"That would be a pie with a kind of a wavy crust.","label":[],"Comments":[]}
+{"id":13143,"text":"Which is coming around like this.","label":[],"Comments":[]}
+{"id":13144,"text":"So <EQUATION>.","label":[[3,13,"equation"]],"Comments":[]}
+{"id":13145,"text":"The distance from the center is varying with the place where we are, the angle where we're shooting out.","label":[],"Comments":[]}
+{"id":13146,"text":"And now I want to subdivide that into little chunks here.","label":[],"Comments":[]}
+{"id":13147,"text":"Now, the idea for adding up the area, the total area of this piece that's swept out, is to break it up into little slices whose areas are almost easy to calculate.","label":[],"Comments":[]}
+{"id":13148,"text":"Namely, what we're going to do is to take, and I'm going to label it this way.","label":[],"Comments":[]}
+{"id":13149,"text":"I'm going to take these little circular arcs, which go-- So I'm going to extend past where this goes.","label":[],"Comments":[]}
+{"id":13150,"text":"And then I'm going to take each circular arc here.","label":[],"Comments":[]}
+{"id":13151,"text":"So here's a circular arc.","label":[],"Comments":[]}
+{"id":13152,"text":"And then here's another circular arc.","label":[],"Comments":[]}
+{"id":13153,"text":"And here's another circular arc.","label":[],"Comments":[]}
+{"id":13154,"text":"It's just right on the nose in that case.","label":[],"Comments":[]}
+{"id":13155,"text":"Now, in these two cases, so basically the picture that I'm trying to draw for you is this.","label":[],"Comments":[]}
+{"id":13156,"text":"I have some sector.","label":[],"Comments":[]}
+{"id":13157,"text":"And then I have some circular arc.","label":[],"Comments":[]}
+{"id":13158,"text":"And maybe it takes a little extra.","label":[],"Comments":[]}
+{"id":13159,"text":"There's a little extra area, I'm making an error in the area.","label":[],"Comments":[]}
+{"id":13160,"text":"This is a little extra area.","label":[],"Comments":[]}
+{"id":13161,"text":"And maybe to draw it the other way.","label":[],"Comments":[]}
+{"id":13162,"text":"I'm a little short on this one.","label":[],"Comments":[]}
+{"id":13163,"text":"And let's say on this one I'm right on the nose.","label":[],"Comments":[]}
+{"id":13164,"text":"I have the same arc as the curve of the surface.","label":[],"Comments":[]}
+{"id":13165,"text":"Now this is a little bit like the step functions that we used in Riemann sums.","label":[],"Comments":[]}
+{"id":13166,"text":"It's practically the same.","label":[],"Comments":[]}
+{"id":13167,"text":"Eventually, this little band of stuff that we're missing by, if we take very, very narrow little slices here, is going to be negligible.","label":[],"Comments":[]}
+{"id":13168,"text":"It'll get closer and closer to the curve itself.","label":[],"Comments":[]}
+{"id":13169,"text":"So that area will tend to <EXPRESSION> in the limit.","label":[[26,38,"expression"]],"Comments":[]}
+{"id":13170,"text":"So we don't have to worry about it.","label":[],"Comments":[]}
+{"id":13171,"text":"And the approximate relationship is sitting here.","label":[],"Comments":[]}
+{"id":13172,"text":"Where this distance now is <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
+{"id":13173,"text":"So this radius is <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":13174,"text":"And this is this <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":13175,"text":"And so in the approximate case, what we have is that <EXPRESSION> is approximately <EXPRESSION>.","label":[[53,65,"expression"],[83,95,"expression"]],"Comments":[]}
+{"id":13176,"text":"Which is practically the same thing we had here.","label":[],"Comments":[]}
+{"id":13177,"text":"Except that that <EXPRESSION> is replacing the constant there.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":13178,"text":"And it's approximately true, because <EXPRESSION> is varying.","label":[[37,49,"expression"]],"Comments":[]}
+{"id":13179,"text":"And then in the limit, we have the exact formula for the differential.","label":[],"Comments":[]}
+{"id":13180,"text":"Which is this one.","label":[],"Comments":[]}
+{"id":13181,"text":"So this is the main formula for area.","label":[],"Comments":[]}
+{"id":13182,"text":"And if you like, the total area then is going to be the integral from some starting place to some end place of <EXPRESSION>.","label":[[111,123,"expression"]],"Comments":[]}
+{"id":13183,"text":"Now, this is only useful in the situation that we're in.","label":[],"Comments":[]}
+{"id":13184,"text":"Namely-- So this is the other important formula.","label":[],"Comments":[]}
+{"id":13185,"text":"And this is only useful when <EXPRESSION> is a function of <EXPRESSION>.","label":[[29,41,"expression"],[59,71,"expression"]],"Comments":[]}
+{"id":13186,"text":"When this is the way in which the region is presented to us.","label":[],"Comments":[]}
+{"id":13187,"text":"So that's the setup.","label":[],"Comments":[]}
+{"id":13188,"text":"And that's our main formula.","label":[],"Comments":[]}
+{"id":13189,"text":"Let's do what example.","label":[],"Comments":[]}
+{"id":13190,"text":"The example that I'm going to take is the one that we did at the end of last time, or near the end of last time.","label":[],"Comments":[]}
+{"id":13191,"text":"Which was this formula here.","label":[],"Comments":[]}
+{"id":13192,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":13193,"text":"Remember, that was the same as <EQUATION>.","label":[[31,41,"equation"]],"Comments":[]}
+{"id":13194,"text":"So this is what we did last time.","label":[],"Comments":[]}
+{"id":13195,"text":"We connected this rectangular representation to that polar representation.","label":[],"Comments":[]}
+{"id":13196,"text":"And the picture is of a circle.","label":[],"Comments":[]}
+{"id":13197,"text":"Where this is the point (2a, 0).","label":[[24,31,"term"]],"Comments":[]}
+{"id":13198,"text":"So let's figure out what the area is.","label":[],"Comments":[]}
+{"id":13199,"text":"Well, first of all, we have to figure out when we sweep out the area, we have to realize that we only go from <EXPRESSION> to <EXPRESSION>.","label":[[110,122,"expression"],[126,138,"expression"]],"Comments":[]}
+{"id":13200,"text":"So that's something we can get from the picture.","label":[],"Comments":[]}
+{"id":13201,"text":"You can also get it directly from this formula if you realize that <EXPRESSION> is positive in this range here.","label":[[67,79,"expression"]],"Comments":[]}
+{"id":13202,"text":"And at the ends, it's <EXPRESSION>.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":13203,"text":"So the thing encloses a region at these ends.","label":[],"Comments":[]}
+{"id":13204,"text":"So at the ends, <EQUATION>.","label":[[16,26,"equation"]],"Comments":[]}
+{"id":13205,"text":"That's what cinches this up like a little sack, if you like.","label":[],"Comments":[]}
+{"id":13206,"text":"So the area is now going to be the integral from <EXPRESSION> to <EXPRESSION>, that's <EXPRESSION>.","label":[[49,61,"expression"],[65,77,"expression"],[86,98,"expression"]],"Comments":[]}
+{"id":13207,"text":"Question.","label":[],"Comments":[]}
+{"id":13208,"text":"STUDENT: [INAUDIBLE] PROFESSOR: How do I know from looking at the picture that I'm going from <EXPRESSION> to <EXPRESSION>, is the question.","label":[[94,106,"expression"],[110,122,"expression"]],"Comments":[]}
+{"id":13209,"text":"I do it with my whole body.","label":[],"Comments":[]}
+{"id":13210,"text":"I say, here I am pointing down.","label":[],"Comments":[]}
+{"id":13211,"text":"That's <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":13212,"text":"I sweep up, that's <EXPRESSION>.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":13213,"text":"And I get all the way up to here.","label":[],"Comments":[]}
+{"id":13214,"text":"that's <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":13215,"text":"So that's the way I do it.","label":[],"Comments":[]}
+{"id":13216,"text":"That's really the way I do it, I'm being honest.","label":[],"Comments":[]}
+{"id":13217,"text":"Now if you're a machine, you can't actually look.","label":[],"Comments":[]}
+{"id":13218,"text":"And you don't have a body, so you can't point your arms.","label":[],"Comments":[]}
+{"id":13219,"text":"Then you would have to go by the formulas.","label":[],"Comments":[]}
+{"id":13220,"text":"And you'd have to actually use something like this formula here.","label":[],"Comments":[]}
+{"id":13221,"text":"The fact that this is where the loop cinches up.","label":[],"Comments":[]}
+{"id":13222,"text":"This is where the radius comes into <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":13223,"text":"At <EXPRESSION>.","label":[[3,15,"expression"]],"Comments":[]}
+{"id":13224,"text":"So you need to know that in order to understand the range.","label":[],"Comments":[]}
+{"id":13225,"text":"Another question.","label":[],"Comments":[]}
+{"id":13226,"text":"STUDENT: [INAUDIBLE] PROFESSOR: So when we're doing these, should we just guess that it's going to be a loop?","label":[],"Comments":[]}
+{"id":13227,"text":"I'm probably going to give you some clues as to what's going on.","label":[],"Comments":[]}
+{"id":13228,"text":"Because it's very hard to figure these things out.","label":[],"Comments":[]}
+{"id":13229,"text":"Sometimes it'll be bounded by one curve and another curve, and I'll say it's the thing in between those two curves.","label":[],"Comments":[]}
+{"id":13230,"text":"That's the kind of thing that I could do.","label":[],"Comments":[]}
+{"id":13231,"text":"Here, you really should know this one in advance.","label":[],"Comments":[]}
+{"id":13232,"text":"This is by far the most-- or this is one of the typical cases, anyway.","label":[],"Comments":[]}
+{"id":13233,"text":"I'm going to give you a couple more examples.","label":[],"Comments":[]}
+{"id":13234,"text":"Don't get too worked up over this.","label":[],"Comments":[]}
+{"id":13235,"text":"You will somehow be able to visualize it.","label":[[28,37,"command"]],"Comments":[]}
+{"id":13236,"text":"I'll give you some examples to help you out with it later.","label":[],"Comments":[]}
+{"id":13237,"text":"So here's the situation.","label":[],"Comments":[]}
+{"id":13238,"text":"Here's my integral.","label":[],"Comments":[]}
+{"id":13239,"text":"And now we're faced with a trig integral.","label":[],"Comments":[]}
+{"id":13240,"text":"Which we have to remember how to do.","label":[],"Comments":[]}
+{"id":13241,"text":"Now, the trig integral here-- so first let me factor out the constants.","label":[],"Comments":[]}
+{"id":13242,"text":"This is <EXPRESSION>, so it's <EXPRESSION> integral from <EXPRESSION> to <EXPRESSION>.","label":[[8,20,"expression"],[30,42,"expression"],[57,69,"expression"],[73,85,"expression"]],"Comments":[]}
+{"id":13243,"text":"And now you have to remember what you're supposed to do at this point.","label":[],"Comments":[]}
+{"id":13244,"text":"So think, if you haven't done it yet, this is practice you need to do.","label":[],"Comments":[]}
+{"id":13245,"text":"This trig integral is handled by a double angle formula.","label":[],"Comments":[]}
+{"id":13246,"text":"As it happens, I'm going to be giving you these formulas on the review sheet.","label":[],"Comments":[]}
+{"id":13247,"text":"You'll see they're written on the review sheet.","label":[],"Comments":[]}
+{"id":13248,"text":"At least in some form.","label":[],"Comments":[]}
+{"id":13249,"text":"So for example, there's a formula, and this will be on the exam, too.","label":[],"Comments":[]}
+{"id":13250,"text":"So this is the correct formula to use here.","label":[],"Comments":[]}
+{"id":13251,"text":"Is that this is <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
+{"id":13252,"text":"So that's the substitution that you use for the <EXPRESSION> in order to integrate it.","label":[[48,60,"expression"],[73,82,"command"]],"Comments":[]}
+{"id":13253,"text":"That serves as a little review of trig integrals.","label":[],"Comments":[]}
+{"id":13254,"text":"And now, this is quite easy.","label":[],"Comments":[]}
+{"id":13255,"text":"This integral now is easy.","label":[],"Comments":[]}
+{"id":13256,"text":"Why is it easy?","label":[],"Comments":[]}
+{"id":13257,"text":"Well, because it's the antiderivative of a constant, <EXPRESSION>, its antiderivative you're supposed to be able to write down.","label":[[53,65,"expression"],[116,121,"command"]],"Comments":[]}
+{"id":13258,"text":"So the antiderivative of <EXPRESSION> is <EXPRESSION>.","label":[[25,37,"expression"],[41,53,"expression"]],"Comments":[]}
+{"id":13259,"text":"And the antiderivative of the <EXPRESSION> is <EXPRESSION> the sine when it's <EXPRESSION>.","label":[[30,42,"expression"],[46,58,"expression"],[78,90,"expression"]],"Comments":[]}
+{"id":13260,"text":"And that is <EXPRESSION>.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":13261,"text":"And the signs go away because they're both <EXPRESSION>.","label":[[43,55,"expression"]],"Comments":[]}
+{"id":13262,"text":"So all told we get <EXPRESSION>, which is certainly what we would like it to be.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":13263,"text":"It's the area of the circle.","label":[],"Comments":[]}
+{"id":13264,"text":"Another question?","label":[],"Comments":[]}
+{"id":13265,"text":"STUDENT: [INAUDIBLE] PROFESSOR: The question, so I'm not sure which question you're asking.","label":[],"Comments":[]}
+{"id":13266,"text":"I pivoted my arm around (0, 0).","label":[[24,30,"term"]],"Comments":[]}
+{"id":13267,"text":"This point, this is the point we're talking about, (0, 0), is a key point.","label":[[51,57,"term"]],"Comments":[]}
+{"id":13268,"text":"It's where I guess you could say I stuck my elbow there.","label":[],"Comments":[]}
+{"id":13269,"text":"Now, the reason is that it's the place where <EQUATION>.","label":[[45,55,"equation"]],"Comments":[]}
+{"id":13270,"text":"So it's more or less the center of the universe from the point of view of this problem.","label":[],"Comments":[]}
+{"id":13271,"text":"So it's the reference point and if you like, when you're doing this, it's a little bit like a radar screen.","label":[],"Comments":[]}
+{"id":13272,"text":"Everything is centered at the origin and you're taking rays coming out from it.","label":[],"Comments":[]}
+{"id":13273,"text":"And seeing where they're going to go.","label":[],"Comments":[]}
+{"id":13274,"text":"So for example, this is the <EQUATION> ray, this is the <EQUATION> ray.","label":[[28,38,"equation"],[56,66,"equation"]],"Comments":[]}
+{"id":13275,"text":"This the <EQUATION> ray.","label":[[9,19,"equation"]],"Comments":[]}
+{"id":13276,"text":"And indeed, if my elbow is right at this center here, I'm pointing in those various directions.","label":[],"Comments":[]}
+{"id":13277,"text":"So that's what I had in mind when I did that.","label":[],"Comments":[]}
+{"id":13278,"text":"You can always get these formulas, by the way, from the original business, <EQUATION>, <EQUATION>.","label":[[75,85,"equation"],[87,97,"equation"]],"Comments":[]}
+{"id":13279,"text":"But it's useful to have the geometric picture as well.","label":[],"Comments":[]}
+{"id":13280,"text":"In other words, if you were a machine you'd have to rely on these formulas.","label":[],"Comments":[]}
+{"id":13281,"text":"And plot things using these.","label":[],"Comments":[]}
+{"id":13282,"text":"Always.","label":[],"Comments":[]}
+{"id":13283,"text":"Now, in terms of plotting I want to expand your brain a little bit.","label":[],"Comments":[]}
+{"id":13284,"text":"So we need just a little bit more practice with plotting.","label":[],"Comments":[]}
+{"id":13285,"text":"In polar coordinates.","label":[],"Comments":[]}
+{"id":13286,"text":"And so, the first question that I want to ask you is, what happens outside of this range of <EXPRESSION>?","label":[],"Comments":[]}
+{"id":13287,"text":"In other words, what happens if <EXPRESSION> beyond <EXPRESSION>?","label":[[32,44,"expression"],[52,64,"expression"]],"Comments":[]}
+{"id":13288,"text":"Can somebody see what's happening to the formulas in that case?","label":[],"Comments":[]}
+{"id":13289,"text":"So what I'm looking at now, let's go back to it.","label":[],"Comments":[]}
+{"id":13290,"text":"What I'm looking at is this formula here.","label":[],"Comments":[]}
+{"id":13291,"text":"But to use the elbow analogy here, I'm swept around like this.","label":[],"Comments":[]}
+{"id":13292,"text":"But now I'm going to point this way.","label":[],"Comments":[]}
+{"id":13293,"text":"I'm going to point out over there.","label":[],"Comments":[]}
+{"id":13294,"text":"My hand is up here in the northwest direction.","label":[],"Comments":[]}
+{"id":13295,"text":"So what's going to happen?","label":[],"Comments":[]}
+{"id":13296,"text":"Somebody want to tell me?","label":[],"Comments":[]}
+{"id":13297,"text":"STUDENT: [INAUDIBLE] PROFESSOR: It goes around itself.","label":[],"Comments":[]}
+{"id":13298,"text":"That's right.","label":[],"Comments":[]}
+{"id":13299,"text":"What happens is that when <EXPRESSION> crosses this vertical, <EQUATION>, when it crosses over here it goes negative.","label":[[26,38,"expression"],[62,72,"equation"]],"Comments":[]}
+{"id":13300,"text":"So although my theta is pointing me this way, the thing is going to go backwards.","label":[],"Comments":[]}
+{"id":13301,"text":"And there's another clue.","label":[],"Comments":[]}
+{"id":13302,"text":"Which is very important.","label":[],"Comments":[]}
+{"id":13303,"text":"How far backwards is it going?","label":[],"Comments":[]}
+{"id":13304,"text":"Well, you don't actually need to know anything but this equation here, to understand that it has to be on the same circle.","label":[],"Comments":[]}
+{"id":13305,"text":"So when I'm pointing this way, the things points backwards to this point over there.","label":[],"Comments":[]}
+{"id":13306,"text":"So what happens is, it goes around once.","label":[],"Comments":[]}
+{"id":13307,"text":"And then when I point out this way, it sweeps around a second time.","label":[],"Comments":[]}
+{"id":13308,"text":"It just keeps on going around the same circle.","label":[],"Comments":[]}
+{"id":13309,"text":"So over here it's empty.","label":[],"Comments":[]}
+{"id":13310,"text":"Because it's pointing the other way and it's sweeping around the same curve.","label":[],"Comments":[]}
+{"id":13311,"text":"A second time.","label":[],"Comments":[]}
+{"id":13312,"text":"Now, if you were foolish enough to integrate, say, from <EXPRESSION> to <EXPRESSION> or some wider range, what would happen is you would just double the area.","label":[[56,68,"expression"],[72,84,"expression"]],"Comments":[]}
+{"id":13313,"text":"Because you would have swept it out twice.","label":[],"Comments":[]}
+{"id":13314,"text":"So that's the mistake that you'll make.","label":[],"Comments":[]}
+{"id":13315,"text":"Sometimes you'll count things as negative and positive.","label":[],"Comments":[]}
+{"id":13316,"text":"But because there's a square here, it's always a positive quantity.","label":[],"Comments":[]}
+{"id":13317,"text":"And you'll always over-count if you go too far.","label":[],"Comments":[]}
+{"id":13318,"text":"So that's what happens.","label":[],"Comments":[]}
+{"id":13319,"text":"Again, it sweeps out the same region.","label":[],"Comments":[]}
+{"id":13320,"text":"That's because these two equations really are equivalent to each other.","label":[],"Comments":[]}
+{"id":13321,"text":"It's just that this one sweeps it out twice.","label":[],"Comments":[]}
+{"id":13322,"text":"And this one doesn't say how it's sweeping it out.","label":[],"Comments":[]}
+{"id":13323,"text":"Yeah, another question.","label":[],"Comments":[]}
+{"id":13324,"text":"STUDENT: Doesn't this equation also work if you just go from <EXPRESSION> to <EXPRESSION>?","label":[[61,73,"expression"],[77,89,"expression"]],"Comments":[]}
+{"id":13325,"text":"PROFESSOR: Does the integration work if you just go from <EXPRESSION> to <EXPRESSION>?","label":[[57,69,"expression"],[73,85,"expression"]],"Comments":[]}
+{"id":13326,"text":"The answer is yes.","label":[],"Comments":[]}
+{"id":13327,"text":"That's a very weird object, though.","label":[],"Comments":[]}
+{"id":13328,"text":"Let me just show you what that is.","label":[],"Comments":[]}
+{"id":13329,"text":"If you started from <EXPRESSION> to <EXPRESSION>.","label":[[20,32,"expression"],[36,48,"expression"]],"Comments":[]}
+{"id":13330,"text":"So I'll illustrate it on here.","label":[],"Comments":[]}
+{"id":13331,"text":"The first thing that you swept out between <EXPRESSION> and <EXPRESSION> is this part here.","label":[[43,55,"expression"],[60,72,"expression"]],"Comments":[]}
+{"id":13332,"text":"That was swept out.","label":[],"Comments":[]}
+{"id":13333,"text":"And then, when you're going around this next quadrant here, you're actually sweeping out this underside here.","label":[],"Comments":[]}
+{"id":13334,"text":"So actually, you're getting it because you're getting half of it on one half, and getting the other half on the other quadrant.","label":[],"Comments":[]}
+{"id":13335,"text":"So it's actually giving you the right answer.","label":[],"Comments":[]}
+{"id":13336,"text":"That turns out to be OK.","label":[],"Comments":[]}
+{"id":13337,"text":"It's a little weird way to chop up a circle.","label":[],"Comments":[]}
+{"id":13338,"text":"But it's legal.","label":[],"Comments":[]}
+{"id":13339,"text":"But of course, that's an accident of this particular figure.","label":[],"Comments":[]}
+{"id":13340,"text":"You can't count on that happening.","label":[],"Comments":[]}
+{"id":13341,"text":"It's much better to line it up exactly with what the figure does.","label":[],"Comments":[]}
+{"id":13342,"text":"So don't do that too often.","label":[],"Comments":[]}
+{"id":13343,"text":"You might run into troubles.","label":[],"Comments":[]}
+{"id":13344,"text":"So I'm going to give you a couple more examples of practice with these pictures.","label":[],"Comments":[]}
+{"id":13345,"text":"And maybe I'm going to get rid of this one up here.","label":[],"Comments":[]}
+{"id":13346,"text":"So here's another favorite.","label":[],"Comments":[]}
+{"id":13347,"text":"Here's another favorite.","label":[],"Comments":[]}
+{"id":13348,"text":"So this, if you like, is Example 2.","label":[],"Comments":[]}
+{"id":13349,"text":"I guess we had an Example 1 up there.","label":[],"Comments":[]}
+{"id":13350,"text":"And now we're really not going to try to do any more area examples.","label":[],"Comments":[]}
+{"id":13351,"text":"The area examples are actually straightforward.","label":[],"Comments":[]}
+{"id":13352,"text":"It's really just figuring out what the picture looks like.","label":[],"Comments":[]}
+{"id":13353,"text":"So this is examples of drawings.","label":[],"Comments":[]}
+{"id":13354,"text":"So this one is one that's kind of fun to do.","label":[],"Comments":[]}
+{"id":13355,"text":"This is <EQUATION>.","label":[[8,17,"equation"]],"Comments":[]}
+{"id":13356,"text":"Something like this is on your homework.","label":[],"Comments":[]}
+{"id":13357,"text":"And so what happens here is the following.","label":[],"Comments":[]}
+{"id":13358,"text":"What happens here is that at <EQUATION>, that's the first place.","label":[[29,39,"equation"]],"Comments":[]}
+{"id":13359,"text":"So let's just plot a few places here.","label":[],"Comments":[]}
+{"id":13360,"text":"I'm not going to plot very many.","label":[],"Comments":[]}
+{"id":13361,"text":"<EQUATION>, I get <EXPRESSION> is <EXPRESSION>.","label":[[0,10,"equation"],[18,30,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":13362,"text":"Whoops, I get <EXPRESSION> is <EXPRESSION>.","label":[[14,26,"expression"],[30,42,"expression"]],"Comments":[]}
+{"id":13363,"text":"Sorry.","label":[],"Comments":[]}
+{"id":13364,"text":"And then <EXPRESSION>, that's where I get <EXPRESSION>, I get <EXPRESSION> here.","label":[[9,21,"expression"],[42,54,"expression"],[62,74,"expression"]],"Comments":[]}
+{"id":13365,"text":"For this.","label":[],"Comments":[]}
+{"id":13366,"text":"And then again, at <EXPRESSION> I get <EXPRESSION>, which is back at <EXPRESSION> again.","label":[[19,31,"expression"],[38,50,"expression"],[69,81,"expression"]],"Comments":[]}
+{"id":13367,"text":"So it's-- And the other thing to say is in between here it's positive.","label":[],"Comments":[]}
+{"id":13368,"text":"In between.","label":[],"Comments":[]}
+{"id":13369,"text":"So what it does is, it starts out at <EXPRESSION> and it goes out to the radius <EXPRESSION> over here.","label":[[37,49,"expression"],[80,92,"expression"]],"Comments":[]}
+{"id":13370,"text":"And then it comes back.","label":[],"Comments":[]}
+{"id":13371,"text":"So it does something like this.","label":[],"Comments":[]}
+{"id":13372,"text":"It goes out, and it comes back.","label":[],"Comments":[]}
+{"id":13373,"text":"Now because of the symmetries of the sine function, this is pretty much all you need to know.","label":[],"Comments":[]}
+{"id":13374,"text":"It does something similar in all of the quadrants.","label":[],"Comments":[]}
+{"id":13375,"text":"But in order to see what it's doing, it's useful for you to watch me draw it.","label":[],"Comments":[]}
+{"id":13376,"text":"Because the order is very important for understanding what it's doing.","label":[],"Comments":[]}
+{"id":13377,"text":"It's similar to this weird business with the circle here.","label":[],"Comments":[]}
+{"id":13378,"text":"So watch me draw this guy.","label":[],"Comments":[]}
+{"id":13379,"text":"I'll draw it in red because it usually has a name.","label":[],"Comments":[]}
+{"id":13380,"text":"So here it is.","label":[],"Comments":[]}
+{"id":13381,"text":"It does this thing.","label":[],"Comments":[]}
+{"id":13382,"text":"And then it does this.","label":[],"Comments":[]}
+{"id":13383,"text":"And then it does this.","label":[],"Comments":[]}
+{"id":13384,"text":"And then it does that.","label":[],"Comments":[]}
+{"id":13385,"text":"So it's called a four-leaf rose.","label":[],"Comments":[]}
+{"id":13386,"text":"I drew it in pink because it's kind of a rose here.","label":[],"Comments":[]}
+{"id":13387,"text":"So it started out over here.","label":[],"Comments":[]}
+{"id":13388,"text":"This is Step 1.","label":[],"Comments":[]}
+{"id":13389,"text":"And this is the range <EXPRESSION>; <EXPRESSION>; <EXPRESSION>.","label":[[22,34,"expression"],[36,48,"expression"],[50,62,"expression"]],"Comments":[]}
+{"id":13390,"text":"It did this part here.","label":[],"Comments":[]}
+{"id":13391,"text":"And then it went <EXPRESSION> here.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":13392,"text":"So I should draw these in white, because they're harder to read in red.","label":[],"Comments":[]}
+{"id":13393,"text":"But now look at what it did.","label":[],"Comments":[]}
+{"id":13394,"text":"It did not make a right angle turn.","label":[],"Comments":[]}
+{"id":13395,"text":"It was nice and smooth.","label":[],"Comments":[]}
+{"id":13396,"text":"It went around here and then it went down here.","label":[],"Comments":[]}
+{"id":13397,"text":"This is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":13398,"text":"Back here, that's <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":13399,"text":"And then over here, that's <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
+{"id":13400,"text":"Back up here, that's <EXPRESSION>.","label":[[21,33,"expression"]],"Comments":[]}
+{"id":13401,"text":"And then around here, that's <EXPRESSION>.","label":[[29,41,"expression"]],"Comments":[]}
+{"id":13402,"text":"And down here, that's <EXPRESSION>.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":13403,"text":"And then back where it started and goes around again.","label":[],"Comments":[]}
+{"id":13404,"text":"And this is because actually it's switching sign when it crosses the origin.","label":[],"Comments":[]}
+{"id":13405,"text":"When it was over in this quadrant the first time, it actually was tracing what's directly behind it.","label":[],"Comments":[]}
+{"id":13406,"text":"So this is kind of amusing.","label":[],"Comments":[]}
+{"id":13407,"text":"From this little tiny formula you get this pretty diagram here.","label":[],"Comments":[]}
+{"id":13408,"text":"Anyway that's, as I say, an old favorite.","label":[],"Comments":[]}
+{"id":13409,"text":"And here if you want to do the area of one leaf, you've got to make sure you understand that it's a small piece of the whole.","label":[],"Comments":[]}
+{"id":13410,"text":"OK, now I have one last drawing example that I want to discuss with you.","label":[],"Comments":[]}
+{"id":13411,"text":"And it involves another skill that we haven't quite gotten enough practice with.","label":[],"Comments":[]}
+{"id":13412,"text":"So I'm going to do that one.","label":[],"Comments":[]}
+{"id":13413,"text":"And it's also preparation for an exercise.","label":[],"Comments":[]}
+{"id":13414,"text":"But one that we're going to do after the test.","label":[],"Comments":[]}
+{"id":13415,"text":"So here's my last example.","label":[],"Comments":[]}
+{"id":13416,"text":"We're going to discuss what happens with this function here.","label":[],"Comments":[]}
+{"id":13417,"text":"Sorry, that's not legible, is it.","label":[],"Comments":[]}
+{"id":13418,"text":"That's a <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":13419,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":13420,"text":"Now, the first thing I want to do is just take our time a little bit and plot a few points.","label":[],"Comments":[]}
+{"id":13421,"text":"So here's the values of <EXPRESSION> and here are the values of <EXPRESSION>, and we'll see what happens.","label":[[24,36,"expression"],[64,76,"expression"]],"Comments":[]}
+{"id":13422,"text":"And we'll try to figure out what it's doing.","label":[],"Comments":[]}
+{"id":13423,"text":"When <EQUATION>, <EXPRESSION> is <EXPRESSION>.","label":[[5,15,"equation"],[17,29,"expression"],[33,45,"expression"]],"Comments":[]}
+{"id":13424,"text":"So <EQUATION>.","label":[[3,13,"equation"]],"Comments":[]}
+{"id":13425,"text":"The denominator is <EXPRESSION>, so it's <EXPRESSION>.","label":[[19,31,"expression"],[41,53,"expression"]],"Comments":[]}
+{"id":13426,"text":"If theta-- I'm going to make it easy, we're not going to do so many.","label":[],"Comments":[]}
+{"id":13427,"text":"I'm going to do <EXPRESSION>, that's an easy value of the <EXPRESSION>.","label":[[16,28,"expression"],[58,70,"expression"]],"Comments":[]}
+{"id":13428,"text":"That's <EQUATION>.","label":[[7,17,"equation"]],"Comments":[]}
+{"id":13429,"text":"So that value of <EQUATION>.","label":[[17,27,"equation"]],"Comments":[]}
+{"id":13430,"text":"And now I'm going to back up and do <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":13431,"text":"<EXPRESSION>, again, <EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[21,33,"expression"],[37,49,"expression"]],"Comments":[]}
+{"id":13432,"text":"And <EQUATION>.","label":[[4,14,"equation"]],"Comments":[]}
+{"id":13433,"text":"So now I'd like to just plot those points anyway, and see what's going on with this expression here.","label":[],"Comments":[]}
+{"id":13434,"text":"The first one is a rectangular-- I'm going to write the rectangular coordinates here, not the polar coordinates.","label":[[46,51,"expression"]],"Comments":[]}
+{"id":13435,"text":"The rectangular coordinates here are <EXPRESSION> out at the horizontal, so it's (1\/3, 0).","label":[[37,49,"expression"],[81,89,"term"]],"Comments":[]}
+{"id":13436,"text":"The polar coordinates is (1\/3, 0), but the rectangular coordinate is also that.","label":[[25,33,"term"]],"Comments":[]}
+{"id":13437,"text":"And over here, at <EXPRESSION>, the distance is <EXPRESSION>.","label":[[18,30,"expression"],[48,60,"expression"]],"Comments":[]}
+{"id":13438,"text":"So this is the point (0, 1) in x-y coordinates.","label":[[21,27,"term"],[31,46,"term"]],"Comments":[]}
+{"id":13439,"text":"And then down here at, <EXPRESSION>, it's (0, -1).","label":[[23,35,"expression"],[42,49,"term"]],"Comments":[]}
+{"id":13440,"text":"Let me just emphasize.","label":[],"Comments":[]}
+{"id":13441,"text":"You should be able to think of this visually if you can crank your arm around and think it.","label":[],"Comments":[]}
+{"id":13442,"text":"Or if you're right-handed you'll bend that way, no.","label":[],"Comments":[]}
+{"id":13443,"text":"Anyway.","label":[],"Comments":[]}
+{"id":13444,"text":"Or you'll have to use-- But this also works using this formulas <EQUATION>, <EQUATION>.","label":[[64,74,"equation"],[76,86,"equation"]],"Comments":[]}
+{"id":13445,"text":"Notice that in this case, <EXPRESSION> was <EXPRESSION> but the <EXPRESSION> was <EXPRESSION>.","label":[[26,38,"expression"],[43,55,"expression"],[64,76,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":13446,"text":"So you plug in <EQUATION>.","label":[[7,14,"command"],[15,25,"equation"]],"Comments":[]}
+{"id":13447,"text":"And <EQUATION>.","label":[[4,14,"equation"]],"Comments":[]}
+{"id":13448,"text":"And lo and behold, you get <EXPRESSION> here.","label":[[27,39,"expression"]],"Comments":[]}
+{"id":13449,"text":"And here you get <EXPRESSION> here you get <EXPRESSION>.","label":[[17,29,"expression"],[43,55,"expression"]],"Comments":[]}
+{"id":13450,"text":"So this is <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":13451,"text":"So this is an example.","label":[],"Comments":[]}
+{"id":13452,"text":"I did it purely visually or sort of organically.","label":[],"Comments":[]}
+{"id":13453,"text":"But you can also do it by plugging in the numbers.","label":[],"Comments":[]}
+{"id":13454,"text":"Now in between, the denominator is positive.","label":[],"Comments":[]}
+{"id":13455,"text":"And it's something in between.","label":[],"Comments":[]}
+{"id":13456,"text":"It's going to sweep around something like this.","label":[],"Comments":[]}
+{"id":13457,"text":"That's what happens in between.","label":[],"Comments":[]}
+{"id":13458,"text":"As <EXPRESSION> increases from <EXPRESSION> to <EXPRESSION>.","label":[[3,15,"expression"],[31,43,"expression"],[47,59,"expression"]],"Comments":[]}
+{"id":13459,"text":"And now something interesting happens with this particular function, which is that we notice that the denominator is <EXPRESSION> at a certain place.","label":[[117,129,"expression"]],"Comments":[]}
+{"id":13460,"text":"Namely, if I solve <EQUATION>, then the denominator is going to be <EXPRESSION> there.","label":[[13,18,"command"],[19,29,"equation"],[67,79,"expression"]],"Comments":[]}
+{"id":13461,"text":"That's <EQUATION>, so <EXPRESSION> =, it turns out, plus or minus <EXPRESSION>.","label":[[7,17,"equation"],[22,34,"expression"],[66,78,"expression"]],"Comments":[]}
+{"id":13462,"text":"Those are the values here.","label":[],"Comments":[]}
+{"id":13463,"text":"So when we're out here somewhere, in these directions, there's nothing.","label":[],"Comments":[]}
+{"id":13464,"text":"It's going infinitely far out.","label":[],"Comments":[]}
+{"id":13465,"text":"Those ways.","label":[],"Comments":[]}
+{"id":13466,"text":"OK that's about as much as we'll be able to figure out of this diagram without doing some analytic work.","label":[],"Comments":[]}
+{"id":13467,"text":"And that's the other little piece that I want to explain.","label":[],"Comments":[]}
+{"id":13468,"text":"Namely, going backwards from polar coordinates to rectangular coordinates.","label":[],"Comments":[]}
+{"id":13469,"text":"Which is one thing that we haven't done.","label":[],"Comments":[]}
+{"id":13470,"text":"So let's do that.","label":[],"Comments":[]}
+{"id":13471,"text":"So what is the rectangular equation?","label":[],"Comments":[]}
+{"id":13472,"text":"That means the (x, y) equation for this <EQUATION>.","label":[[15,21,"term"],[40,50,"equation"]],"Comments":[]}
+{"id":13473,"text":"And let's see what it is.","label":[],"Comments":[]}
+{"id":13474,"text":"Well, first I'm going to clear the denominator here.","label":[],"Comments":[]}
+{"id":13475,"text":"This is <EQUATION>.","label":[[8,18,"equation"]],"Comments":[]}
+{"id":13476,"text":"And now I'm going to rewrite it as <EQUATION>.","label":[[21,28,"command"],[35,45,"equation"]],"Comments":[]}
+{"id":13477,"text":"And the reason for that is that in a minute I'll explain to you why.","label":[],"Comments":[]}
+{"id":13478,"text":"This is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":13479,"text":"And this guy, I'm going to square now.","label":[[27,33,"command"]],"Comments":[]}
+{"id":13480,"text":"I'm going to make this <EQUATION>.","label":[[13,17,"command"],[23,33,"equation"]],"Comments":[]}
+{"id":13481,"text":"And now, with an <EXPRESSION>, I can plug in <EXPRESSION>.","label":[[17,29,"expression"],[37,44,"command"],[45,57,"expression"]],"Comments":[]}
+{"id":13482,"text":"So this is a standard thing to do.","label":[],"Comments":[]}
+{"id":13483,"text":"And it's basically what you're going to do any time you're faced with an equation like this.","label":[],"Comments":[]}
+{"id":13484,"text":"Is try to work it out.","label":[],"Comments":[]}
+{"id":13485,"text":"And, in these situations where you have <EXPRESSION>, or <EXPRESSION>, you'll always come out with some quadratic expression like this.","label":[[40,52,"expression"],[57,69,"expression"]],"Comments":[]}
+{"id":13486,"text":"Now, I'm going to combine terms.","label":[],"Comments":[]}
+{"id":13487,"text":"So here I have <EXPRESSION>, and put everything on the the left side.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":13488,"text":"So that's this.","label":[],"Comments":[]}
+{"id":13489,"text":"And we recognize, well you're supposed to recognize, that this is what's known as a hyperbola.","label":[],"Comments":[]}
+{"id":13490,"text":"If the signs are the same, it's an ellipse.","label":[],"Comments":[]}
+{"id":13491,"text":"If the the signs are opposite it's a hyperbola.","label":[],"Comments":[]}
+{"id":13492,"text":"And in between, if one of the coefficients on the quadratic is <EXPRESSION>, it's a parabola.","label":[[63,75,"expression"]],"Comments":[]}
+{"id":13493,"text":"So now we see that the picture that we drew there is actually, turns out it's going to have asymptotes, it's going to be a hyperbola.","label":[],"Comments":[]}
+{"id":13494,"text":"So now, let me ask you the last little mind-bending question that I want to ask.","label":[],"Comments":[]}
+{"id":13495,"text":"Which is, what happens-- So now I'm using my right arm, I guess.","label":[],"Comments":[]}
+{"id":13496,"text":"But my elbow's at the origin here.","label":[],"Comments":[]}
+{"id":13497,"text":"What happens if I pass outside, to the range where this denominator is negative.","label":[],"Comments":[]}
+{"id":13498,"text":"It crossed <EXPRESSION> and it went to negative.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":13499,"text":"It's sweeping out something over here.","label":[],"Comments":[]}
+{"id":13500,"text":"Is it sweeping out the same curve?","label":[],"Comments":[]}
+{"id":13501,"text":"Anybody have any idea what it's doing?","label":[],"Comments":[]}
+{"id":13502,"text":"Yeah.","label":[],"Comments":[]}
+{"id":13503,"text":"STUDENT: [INAUDIBLE] PROFESSOR: Yeah, exactly.","label":[],"Comments":[]}
+{"id":13504,"text":"Good answer.","label":[],"Comments":[]}
+{"id":13505,"text":"It's the other branch of the hyperbola.","label":[],"Comments":[]}
+{"id":13506,"text":"So what's actually happening is in disguise, there's another branch of the hyperbola which is being swept up by the other piece of this thing.","label":[],"Comments":[]}
+{"id":13507,"text":"Now, that is consistent with these algebraic equations.","label":[],"Comments":[]}
+{"id":13508,"text":"The algebraic equation that I got here doesn't say which branch of the hyperbola I've got.","label":[],"Comments":[]}
+{"id":13509,"text":"It's actually got two branches.","label":[],"Comments":[]}
+{"id":13510,"text":"And the curve really was, in disguise, capturing both of them.","label":[],"Comments":[]}
+{"id":13511,"text":"I want to make the connection now with the basic formula for area here.","label":[],"Comments":[]}
+{"id":13512,"text":"Because this is a really beautiful connection.","label":[],"Comments":[]}
+{"id":13513,"text":"And I want to make that connection in connection also with this example.","label":[],"Comments":[]}
+{"id":13514,"text":"The hyperbolas, as you probably know, are the trajectories of comets.","label":[],"Comments":[]}
+{"id":13515,"text":"And ellipses, which is what you would get if maybe you put <EXPRESSION> here instead of a <EXPRESSION>, would be the trajectories of planets or asteroids.","label":[[59,71,"expression"],[90,102,"expression"]],"Comments":[]}
+{"id":13516,"text":"But there's actually something much more important, physically that goes on.","label":[],"Comments":[]}
+{"id":13517,"text":"That's special about this particular representation of the hyperbola.","label":[],"Comments":[]}
+{"id":13518,"text":"And what happens when you get the ellipses as well.","label":[],"Comments":[]}
+{"id":13519,"text":"Which is that in this case, <EQUATION> is the focus of the hyperbola.","label":[[28,38,"equation"]],"Comments":[]}
+{"id":13520,"text":"And what that means is that it's actually the place where the sun is.","label":[],"Comments":[]}
+{"id":13521,"text":"So this is the right representation, if you want the center of gravity in the center of your picture.","label":[],"Comments":[]}
+{"id":13522,"text":"And pretty much any other.","label":[],"Comments":[]}
+{"id":13523,"text":"I mean, you can't tell that at all from the algebraic equations here.","label":[],"Comments":[]}
+{"id":13524,"text":"So this hyperbola is going to be the trajectory of some comet going by here.","label":[],"Comments":[]}
+{"id":13525,"text":"And this formula here is actually a rather central formula in astronomy.","label":[],"Comments":[]}
+{"id":13526,"text":"Namely, there's something called Kepler's Law.","label":[],"Comments":[]}
+{"id":13527,"text":"Which says that the rate of change of area which is swept out is constant.","label":[],"Comments":[]}
+{"id":13528,"text":"The rate of change of area relative to the center of mass, relative to the sun.","label":[],"Comments":[]}
+{"id":13529,"text":"So in = areas, this is amount of area.","label":[],"Comments":[]}
+{"id":13530,"text":"So this tells you now that when a comet goes around the sun like this, its speed varies.","label":[],"Comments":[]}
+{"id":13531,"text":"And it's speed varies according to a very specific rule.","label":[],"Comments":[]}
+{"id":13532,"text":"Namely, this one here.","label":[],"Comments":[]}
+{"id":13533,"text":"And this rule was observed by Kepler.","label":[],"Comments":[]}
+{"id":13534,"text":"But if you have this connection here, we also have something else.","label":[],"Comments":[]}
+{"id":13535,"text":"We also know that <EQUATION>.","label":[[18,28,"equation"]],"Comments":[]}
+{"id":13536,"text":"So that's this formula here, formally dividing by <EXPRESSION>.","label":[[50,62,"expression"]],"Comments":[]}
+{"id":13537,"text":"That's the rate of change with respect to this time parameter, which is the honest to goodness time.","label":[],"Comments":[]}
+{"id":13538,"text":"Real physical time.","label":[],"Comments":[]}
+{"id":13539,"text":"And that means, this quantity here is constant.","label":[],"Comments":[]}
+{"id":13540,"text":"And this is one of the key insights that physicists had, long after Kepler made his physical observations, they realized that he had managed to get the best physics experiment of all, because it's a frictionless setup.","label":[],"Comments":[]}
+{"id":13541,"text":"Outer space, there's no air.","label":[],"Comments":[]}
+{"id":13542,"text":"Nothing is going on.","label":[],"Comments":[]}
+{"id":13543,"text":"This is what's known nowadays as conservation of angular momentum.","label":[],"Comments":[]}
+{"id":13544,"text":"This is the expression for angular momentum.","label":[],"Comments":[]}
+{"id":13545,"text":"And what Kepler was observing, it turns out, is what we see all the time in real life.","label":[],"Comments":[]}
+{"id":13546,"text":"Which is when you start something spinning around it continues to spin at roughly the same rate.","label":[],"Comments":[]}
+{"id":13547,"text":"Or, if you're an ice skater and you get yourself scrunched together a little bit more, you can spin faster.","label":[],"Comments":[]}
+{"id":13548,"text":"And there's an exact quantitative rule that does that.","label":[],"Comments":[]}
+{"id":13549,"text":"And it's exactly this polar formula here.","label":[],"Comments":[]}
+{"id":13550,"text":"So that's a neat thing.","label":[],"Comments":[]}
+{"id":13551,"text":"And we will do a little exercise on this rate of change after the exam.","label":[],"Comments":[]}
+{"id":13552,"text":"So that's it for generalities and a little pep talk on what's coming up to you when you learn a little more physics.","label":[],"Comments":[]}
+{"id":13553,"text":"Right now we need to talk about the exam.","label":[],"Comments":[]}
+{"id":13554,"text":"So first of all, let me tell you what the topics are.","label":[],"Comments":[]}
+{"id":13555,"text":"They're the same as last year's test.","label":[],"Comments":[]}
+{"id":13556,"text":"Which you can take a look at.","label":[],"Comments":[]}
+{"id":13557,"text":"And let's see.","label":[],"Comments":[]}
+{"id":13558,"text":"So what did we do?","label":[],"Comments":[]}
+{"id":13559,"text":"One of the main topics of this unit were techniques of integration.","label":[],"Comments":[]}
+{"id":13560,"text":"And there are three, which we will test.","label":[],"Comments":[]}
+{"id":13561,"text":"One is trig substitution.","label":[],"Comments":[]}
+{"id":13562,"text":"One is integration by parts.","label":[],"Comments":[]}
+{"id":13563,"text":"And one is partial fractions.","label":[],"Comments":[]}
+{"id":13564,"text":"So that's more than half of the exam, right there.","label":[],"Comments":[]}
+{"id":13565,"text":"The other half of the exam is parametric curves.","label":[],"Comments":[]}
+{"id":13566,"text":"Arc length.","label":[],"Comments":[]}
+{"id":13567,"text":"These are all interrelated.","label":[],"Comments":[]}
+{"id":13568,"text":"And area of surfaces of revolution.","label":[],"Comments":[]}
+{"id":13569,"text":"Those are the only kind that we can handle.","label":[],"Comments":[]}
+{"id":13570,"text":"Just as we did with volume of surfaces of revolution.","label":[],"Comments":[]}
+{"id":13571,"text":"And then there's a final topic, which is polar coordinates.","label":[],"Comments":[]}
+{"id":13572,"text":"And area in polar coordinates, including area.","label":[],"Comments":[]}
+{"id":13573,"text":"That's it.","label":[],"Comments":[]}
+{"id":13574,"text":"That's what's on the test, there are six problems.","label":[],"Comments":[]}
+{"id":13575,"text":"They're very similar.","label":[],"Comments":[]}
+{"id":13576,"text":"Well, they're not actually that similar.","label":[],"Comments":[]}
+{"id":13577,"text":"But they're somewhat similar to last year's.","label":[],"Comments":[]}
+{"id":13578,"text":"I'd say the test is similar.","label":[],"Comments":[]}
+{"id":13579,"text":"Maybe a tiny bit more difficult.","label":[],"Comments":[]}
+{"id":13580,"text":"We'll see.","label":[],"Comments":[]}
+{"id":13581,"text":"We'll see.","label":[],"Comments":[]}
+{"id":13582,"text":"Yeah.","label":[],"Comments":[]}
+{"id":13583,"text":"STUDENT: [INAUDIBLE] PROFESSOR: The question was, we didn't do arc length in polar coordinates, did we?","label":[],"Comments":[]}
+{"id":13584,"text":"And the answer is no, we did not.","label":[],"Comments":[]}
+{"id":13585,"text":"We did not do arc length in polar coordinates.","label":[],"Comments":[]}
+{"id":13586,"text":"When I give you an exercise, I'm going to ask you about, if you know the speed of a comet here, what's the speed of the comet there.","label":[],"Comments":[]}
+{"id":13587,"text":"And we'll have to know about arc length for that.","label":[],"Comments":[]}
+{"id":13588,"text":"But we're not doing it on this exam.","label":[],"Comments":[]}
+{"id":13589,"text":"Other questions.","label":[],"Comments":[]}
+{"id":13590,"text":"STUDENT: [INAUDIBLE] PROFESSOR: The question is, will I expect you to know <EXPRESSION> =--- so let's see if I can formulate this question.","label":[[75,87,"expression"]],"Comments":[]}
+{"id":13591,"text":"It's related to this four-leaf rose here.","label":[],"Comments":[]}
+{"id":13592,"text":"So the question is, suppose I gave you something that looked like this.","label":[],"Comments":[]}
+{"id":13593,"text":"Would I expect you to be able to know what it is.","label":[],"Comments":[]}
+{"id":13594,"text":"I think the answer, the fair answer to give you, is if it's this complicated, I only have two possibilities.","label":[],"Comments":[]}
+{"id":13595,"text":"I can give you a long time to sketch this out.","label":[],"Comments":[]}
+{"id":13596,"text":"And think about what it does.","label":[],"Comments":[]}
+{"id":13597,"text":"Or I can tell you that it happens to be a three-leaf rose.","label":[],"Comments":[]}
+{"id":13598,"text":"And then you have some clue as to what it's doing.","label":[],"Comments":[]}
+{"id":13599,"text":"It doesn't have six.","label":[],"Comments":[]}
+{"id":13600,"text":"Because of some weird thing, having to do with repetitions.","label":[],"Comments":[]}
+{"id":13601,"text":"But the odds and evens work differently.","label":[],"Comments":[]}
+{"id":13602,"text":"So, in fact I would have to tell you what the picture looks like, if it's going to be this complicated.","label":[],"Comments":[]}
+{"id":13603,"text":"Similarly, so this is an important point to make, when we come to techniques of integration, any integral that you have, I'm not going to tell you which of these three techniques to use on the ones which are straightforward integrals.","label":[],"Comments":[]}
+{"id":13604,"text":"But if it's an integral that I think you're going to get stuck on, either I'm going to give you a hint, tell you how to do it.","label":[],"Comments":[]}
+{"id":13605,"text":"Or I'm going to tell you, don't do it.","label":[],"Comments":[]}
+{"id":13606,"text":"If I tell you don't do it, don't try to do it.","label":[],"Comments":[]}
+{"id":13607,"text":"It may be impossible.","label":[],"Comments":[]}
+{"id":13608,"text":"And even if it's possible, it's going to be very long.","label":[],"Comments":[]}
+{"id":13609,"text":"Like an hour.","label":[],"Comments":[]}
+{"id":13610,"text":"So don't do it unless I tell you to.","label":[],"Comments":[]}
+{"id":13611,"text":"On the other hand, all of these setups in this second half of this unit, they involve somehow setting something up.","label":[],"Comments":[]}
+{"id":13612,"text":"And they're basically three issues.","label":[],"Comments":[]}
+{"id":13613,"text":"One is what the integrand is.","label":[],"Comments":[]}
+{"id":13614,"text":"One is what the lower limit is, what is the upper limit.","label":[],"Comments":[]}
+{"id":13615,"text":"They're just three things, three inputs, to setting up an integral.","label":[],"Comments":[]}
+{"id":13616,"text":"All integrals, this is going to be the setup for all of them.","label":[],"Comments":[]}
+{"id":13617,"text":"And then the second step is evaluating.","label":[],"Comments":[]}
+{"id":13618,"text":"Which really is what we did in the first half here.","label":[],"Comments":[]}
+{"id":13619,"text":"And, unfortunately, we don't have infinitely many techniques and indeed there's some integrals that can't be evaluated and some that are too long.","label":[],"Comments":[]}
+{"id":13620,"text":"So we'll just try to avoid those.","label":[],"Comments":[]}
+{"id":13621,"text":"I'm not trying to give you ones which are hopelessly long.","label":[],"Comments":[]}
+{"id":13622,"text":"Alright, other questions.","label":[],"Comments":[]}
+{"id":13623,"text":"Yes.","label":[],"Comments":[]}
+{"id":13624,"text":"STUDENT: [INAUDIBLE] PROFESSOR: The question is, will the percentages be the same.","label":[],"Comments":[]}
+{"id":13625,"text":"And the answer is, no.","label":[],"Comments":[]}
+{"id":13626,"text":"I'll tell you exactly.","label":[],"Comments":[]}
+{"id":13627,"text":"This is <EXPRESSION> points.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":13628,"text":"Unless I change the point values.","label":[[9,15,"command"],[26,32,"command_attribute"]],"Comments":[]}
+{"id":13629,"text":"This is <EXPRESSION>, and this is <EXPRESSION>.","label":[[8,20,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":13630,"text":"That's what it came out to be.","label":[],"Comments":[]}
+{"id":13631,"text":"You are going to want to know about all of the things that I've written down here.","label":[],"Comments":[]}
+{"id":13632,"text":"You're definitely going to want to know, for example, surfaces of revolution.","label":[],"Comments":[]}
+{"id":13633,"text":"How to set those up.","label":[],"Comments":[]}
+{"id":13634,"text":"Yes.","label":[],"Comments":[]}
+{"id":13635,"text":"there was another question I saw.","label":[],"Comments":[]}
+{"id":13636,"text":"Yes.","label":[],"Comments":[]}
+{"id":13637,"text":"STUDENT: [INAUDIBLE] PROFESSOR: So if you have a partial fraction with something like <EXPRESSION> and maybe an <EXPRESSION> and maybe an <EXPRESSION>, and you're interested in what happens with this denominator here?","label":[[86,98,"expression"],[112,124,"expression"],[138,150,"expression"]],"Comments":[]}
+{"id":13638,"text":"So what's going to happen is, you're going to need a coefficient for each degree of this.","label":[],"Comments":[]}
+{"id":13639,"text":"So altogether, the setup is going to be this.","label":[],"Comments":[]}
+{"id":13640,"text":"<EXPRESSION> for <EXPRESSION>.","label":[[0,12,"expression"],[17,29,"expression"]],"Comments":[]}
+{"id":13641,"text":"And <EXPRESSION> for <EXPRESSION>.","label":[[4,16,"expression"],[21,33,"expression"]],"Comments":[]}
+{"id":13642,"text":"This is the setup.","label":[],"Comments":[]}
+{"id":13643,"text":"So you need-- STUDENT: [INAUDIBLE] PROFESSOR: So if I change this to being a <EXPRESSION> here, then I need, I guess I'll have to call it <EXPRESSION>, <EXPRESSION>.","label":[[77,89,"expression"],[130,134,"command"],[138,150,"expression"],[152,164,"expression"]],"Comments":[]}
+{"id":13644,"text":"I need that.","label":[],"Comments":[]}
+{"id":13645,"text":"Now, it gets harder and harder.","label":[],"Comments":[]}
+{"id":13646,"text":"The more repeated roots there are, the more repeated factors there are, the harder it is.","label":[],"Comments":[]}
+{"id":13647,"text":"Because the ones you can pick off by the cover-up method are, is just the top one here.","label":[],"Comments":[]}
+{"id":13648,"text":"And these two.","label":[],"Comments":[]}
+{"id":13649,"text":"So <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> you can get.","label":[[3,15,"expression"],[17,29,"expression"],[35,47,"expression"]],"Comments":[]}
+{"id":13650,"text":"But <EXPRESSION> and <EXPRESSION> you're going to have to do by either plugging in or some other, more elaborate, algebra.","label":[[4,16,"expression"],[21,33,"expression"]],"Comments":[]}
+{"id":13651,"text":"So the more of these lower terms there are, the worse off you are.","label":[],"Comments":[]}
+{"id":13652,"text":"STUDENT: [INAUDIBLE] PROFESSOR: The question is, does this <EXPRESSION> affect this setup.","label":[[59,71,"expression"]],"Comments":[]}
+{"id":13653,"text":"And the answer is almost no.","label":[],"Comments":[]}
+{"id":13654,"text":"That is, not at all.","label":[],"Comments":[]}
+{"id":13655,"text":"It's the same setup exactly.","label":[],"Comments":[]}
+{"id":13656,"text":"But, there's one thing.","label":[],"Comments":[]}
+{"id":13657,"text":"If the degree gets too big, then you've got to use long division first to knock it down.","label":[[47,50,"command"],[51,64,"method"]],"Comments":[]}
+{"id":13658,"text":"I'll give you an example of this type of practice.","label":[],"Comments":[]}
+{"id":13659,"text":"Unless there are more question.","label":[],"Comments":[]}
+{"id":13660,"text":"Yes.","label":[],"Comments":[]}
+{"id":13661,"text":"STUDENT: [INAUDIBLE] PROFESSOR: Are you going to have to know how to do reduction formulas?","label":[],"Comments":[]}
+{"id":13662,"text":"Anything that's a little out of the ordinary like a reduction formula, I will have to coach you to do.","label":[],"Comments":[]}
+{"id":13663,"text":"So, in other words, what you'll have to be able to do in that situation is follow directions.","label":[],"Comments":[]}
+{"id":13664,"text":"If I tell you OK, you're faced with this, then do an integration by parts.","label":[[47,49,"command"],[53,73,"method"]],"Comments":[]}
+{"id":13665,"text":"And do that, then get the reduction formula.","label":[[18,21,"command"],[26,43,"command_attribute"]],"Comments":[]}
+{"id":13666,"text":"STUDENT: [INAUDIBLE] PROFESSOR: Yeah.","label":[],"Comments":[]}
+{"id":13667,"text":"OK, so the question had do with the partial fractions method.","label":[],"Comments":[]}
+{"id":13668,"text":"And what happens if you have a quadratic.","label":[],"Comments":[]}
+{"id":13669,"text":"So, for instance, if it were this, this one's too disgusting.","label":[],"Comments":[]}
+{"id":13670,"text":"I'm going to just do it with two of them.","label":[],"Comments":[]}
+{"id":13671,"text":"So the parts with <EXPRESSION> and <EXPRESSION> are the same.","label":[[18,30,"expression"],[35,47,"expression"]],"Comments":[]}
+{"id":13672,"text":"But now you have linear factors here.","label":[],"Comments":[]}
+{"id":13673,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":13674,"text":"And <EXPRESSION>-- maybe I'll call them <EXPRESSION>, and <EXPRESSION>.","label":[[4,16,"expression"],[30,34,"command"],[40,52,"expression"],[58,70,"expression"]],"Comments":[]}
+{"id":13675,"text":"This is the way it works.","label":[],"Comments":[]}
+{"id":13676,"text":"OK, I'm going to give you one more quick example of an integration technique just to liven things up.","label":[],"Comments":[]}
+{"id":13677,"text":"Let's see.","label":[],"Comments":[]}
+{"id":13678,"text":"So here's a somewhat tricky example.","label":[],"Comments":[]}
+{"id":13679,"text":"This is just a little trickier than I would give you on a test.","label":[],"Comments":[]}
+{"id":13680,"text":"But it's the same principle, and I may do this on a final exam.","label":[],"Comments":[]}
+{"id":13681,"text":"So suppose you're faced with this integral.","label":[],"Comments":[]}
+{"id":13682,"text":"What are you going to do?","label":[],"Comments":[]}
+{"id":13683,"text":"Integration by parts, great.","label":[],"Comments":[]}
+{"id":13684,"text":"That's right, that's because this guy is begging to be differentiated, to be made simpler.","label":[],"Comments":[]}
+{"id":13685,"text":"So that means that I want this one to be <EXPRESSION>, and I want this one to be <EXPRESSION>.","label":[[41,53,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":13686,"text":"And I want to use integration by parts.","label":[[14,17,"command"],[18,38,"method"]],"Comments":[]}
+{"id":13687,"text":"And then <EQUATION>, and <EQUATION>.","label":[[9,19,"equation"],[25,35,"equation"]],"Comments":[]}
+{"id":13688,"text":"So the answer is now, <EXPRESSION> minus the integral of this guy.","label":[[22,34,"expression"],[35,40,"command"],[45,53,"command_attribute"]],"Comments":[]}
+{"id":13689,"text":"Which is going to be <EXPRESSION>.","label":[[21,33,"expression"]],"Comments":[]}
+{"id":13690,"text":"And then I have <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
+{"id":13691,"text":"Now, you are not done at this point.","label":[],"Comments":[]}
+{"id":13692,"text":"You're still in slightly hot water.","label":[],"Comments":[]}
+{"id":13693,"text":"You're in tepid water, anyway.","label":[],"Comments":[]}
+{"id":13694,"text":"So what is it that you have to do here?","label":[],"Comments":[]}
+{"id":13695,"text":"You're faced with this integral, which I'll put on the next board.","label":[],"Comments":[]}
+{"id":13696,"text":"It's a lot simpler than the other one, but as I say you're not quite out of the woods.","label":[],"Comments":[]}
+{"id":13697,"text":"You're faced with the integral of <EXPRESSION>.","label":[[34,46,"expression"]],"Comments":[]}
+{"id":13698,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":13699,"text":"STUDENT: [INAUDIBLE] PROFESSOR: Trig substitution actually, interestingly, will work.","label":[],"Comments":[]}
+{"id":13700,"text":"But that wasn't what I wanted you to do.","label":[],"Comments":[]}
+{"id":13701,"text":"I wanted you to, yeah, go ahead.","label":[],"Comments":[]}
+{"id":13702,"text":"STUDENT: [INAUDIBLE] PROFESSOR: Add and subtract <EXPRESSION> to the numerator.","label":[[32,35,"command"],[40,48,"command"],[49,61,"expression"],[69,78,"command_attribute"]],"Comments":[]}
+{"id":13703,"text":"So now, that's the correct answer.","label":[],"Comments":[]}
+{"id":13704,"text":"This is the case where the numerator and the denominator are tied.","label":[],"Comments":[]}
+{"id":13705,"text":"And so you have to use long division.","label":[[19,22,"command"],[23,36,"method"]],"Comments":[]}
+{"id":13706,"text":"But a shortcut is just to observe that the result of long division is the same thing as doing this.","label":[],"Comments":[]}
+{"id":13707,"text":"And then noticing that this is <EXPRESSION>.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":13708,"text":"So this is the same as long division, in this case.","label":[],"Comments":[]}
+{"id":13709,"text":"Because when you divide in, it goes in with a quotient of <EXPRESSION>.","label":[[17,23,"command"],[58,70,"expression"]],"Comments":[]}
+{"id":13710,"text":"And so this guy turns out to be <EXPRESSION> the integral of <EXPRESSION>.","label":[[32,44,"expression"],[61,73,"expression"]],"Comments":[]}
+{"id":13711,"text":"Which is <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":13712,"text":"So this is one extra step that you may be faced with someday in your life.","label":[],"Comments":[]}
+{"id":13713,"text":"And just keep that in mind.","label":[],"Comments":[]}

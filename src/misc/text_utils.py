@@ -36,8 +36,9 @@ def concat_jsonl_data(in_root_dir: str, out_file: str):
     save_jsonl(out_file, result)
     
 def convert_jsonl_structure(in_dir):
-    dir = Path(in_dir)
-    for jsonl_file in dir.glob('*.jsonl'):
+    dir_path = Path(in_dir)
+    print('started')
+    for jsonl_file in dir.rglob('*.jsonl'):
         orig = read_jsonl(jsonl_file)
         result = []
         for line in orig:
@@ -56,7 +57,8 @@ def convert_jsonl_structure(in_dir):
                 'entities': ents
             }
             result.append(new_line)
-        save_jsonl(f'{in_dir.split('.')[0]}-new.json', result)
-        
+            print('appended', result)
+        out_path = jsonl_file.with_stem(jsonl_file.stem + '-new')
+        save_jsonl(out_path, result)
 
-convert_jsonl_structure('test.jsonl')
+convert_jsonl_structure('data/raw_jsonl/rb/')

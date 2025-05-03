@@ -1,0 +1,76 @@
+{"id":3405,"text":"Don't want to make that mistake; this is <EXPRESSION>.","label":[[41,53,"expression"]],"Comments":[]}
+{"id":3406,"text":"So this is maybe messier than I originally intended.","label":[],"Comments":[]}
+{"id":3407,"text":"Erase that.","label":[],"Comments":[]}
+{"id":3408,"text":"So you in the next video.","label":[],"Comments":[]}
+{"id":3409,"text":"What's the partial derivative of this with respect to <EXPRESSION>? Well, <EXPRESSION> is just a constant, so it's going to be well, we can just put the <EXPRESSION> out front, but eventually we want to write our magnitude before the vector so it's <EXPRESSION> times the partial of this with respect to <EXPRESSION> with our constant.","label":[[54,66,"expression"],[74,86,"expression"],[153,165,"expression"],[249,261,"expression"],[304,316,"expression"]],"Comments":[]}
+{"id":3410,"text":"So then this becomes plus, plus, plus.","label":[],"Comments":[]}
+{"id":3411,"text":"This is just a constant, so it's <EXPRESSION>.","label":[[33,45,"expression"]],"Comments":[]}
+{"id":3412,"text":"We'll take the curl of a fairly fancy vector field.","label":[],"Comments":[]}
+{"id":3413,"text":"And then finally our <EXPRESSION> component.","label":[[21,33,"expression"]],"Comments":[]}
+{"id":3414,"text":"And you'll get something fairly hairy, although this was, I think, a hairier than average problem.","label":[],"Comments":[]}
+{"id":3415,"text":"Then here it's <EXPRESSION> I should written all of this bigger and then the third column, the <EXPRESSION> component is <EXPRESSION>.","label":[[15,27,"expression"],[95,107,"expression"],[121,133,"expression"]],"Comments":[]}
+{"id":3416,"text":"Yeah, that's pretty much it.","label":[],"Comments":[]}
+{"id":3417,"text":"That's what I wanted to do.","label":[],"Comments":[]}
+{"id":3418,"text":"This is just kind of the algorithm of how do you take a determinant.","label":[],"Comments":[]}
+{"id":3419,"text":"And that's the magnitude in our k-direction.","label":[],"Comments":[]}
+{"id":3420,"text":"Well the partial of this with respect to <EXPRESSION>, <EXPRESSION> is just a constant, right? So the partial of this with respect to <EXPRESSION> is just <EXPRESSION>.","label":[[41,53,"expression"],[55,67,"expression"],[134,146,"expression"],[155,167,"expression"]],"Comments":[]}
+{"id":3421,"text":"No, that's not what I wanted to do; I wanted to do it in a darker color.","label":[],"Comments":[]}
+{"id":3422,"text":"So how do we do this? So the cross product is going to be = I didn't have to draw a straight line so how you take the cross product of this vector field and the gradient operator? Well, you write <EXPRESSION>, <EXPRESSION>, <EXPRESSION> on top like you're taking the cross product of any two three dimensional vectors, and then you take the first vector but it's really a vector operator, but it's this del operator.","label":[[196,208,"expression"],[210,222,"expression"],[224,236,"expression"]],"Comments":[]}
+{"id":3423,"text":"Well, when you were using this engineering notation, when you have a vector broken down into it <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> components, or it's <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> components, you can take the determinant of that matrix when I showed you how to compute the cross product to figure out the cross product.","label":[[96,108,"expression"],[110,122,"expression"],[128,140,"expression"],[161,173,"expression"],[175,187,"expression"],[193,205,"expression"]],"Comments":[]}
+{"id":3424,"text":"<EXPRESSION>, <EXPRESSION>, cross these columns there, minus the partial with respect to <EXPRESSION>.","label":[[0,12,"expression"],[14,26,"expression"],[89,101,"expression"]],"Comments":[]}
+{"id":3425,"text":"Just the <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> components.","label":[[9,21,"expression"],[23,35,"expression"],[41,53,"expression"]],"Comments":[]}
+{"id":3426,"text":"So this = the <EXPRESSION> let me use a more vibrant color the <EXPRESSION>.","label":[[14,26,"expression"],[63,75,"expression"]],"Comments":[]}
+{"id":3427,"text":"Maybe we'll graph it for fun just to see how messed up it looks but we said this curl, you could view it as a cross product of our del operator and the vector field.","label":[],"Comments":[]}
+{"id":3428,"text":"OK, then finally we have <EXPRESSION>.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":3429,"text":"If you multiply the partial with respect to <EXPRESSION> operator times that expression, you're really just taking, since it's an operator and not an expression, you're really just going to take the partial of this with respect to y, but I'll write it down.","label":[[44,56,"expression"]],"Comments":[]}
+{"id":3430,"text":"This is the curl of the vector field <EXPRESSION> at any <EXPRESSION>, <EXPRESSION>, and <EXPRESSION>.","label":[[37,49,"expression"],[57,69,"expression"],[71,83,"expression"],[89,101,"expression"]],"Comments":[]}
+{"id":3431,"text":"And now we have minus because minus in the j-direction what's the partial derivative of this with respect to <EXPRESSION>? Well, the partial of <EXPRESSION>.","label":[[109,121,"expression"],[144,156,"expression"]],"Comments":[]}
+{"id":3432,"text":"Why don't we take this row and columns, and this is the submatrix of <EXPRESSION>.","label":[[69,81,"expression"]],"Comments":[]}
+{"id":3433,"text":"We're almost there.","label":[],"Comments":[]}
+{"id":3434,"text":"And now finally, plus, what's the partial of this with respect to <EXPRESSION>? Well, these are just constants, so it's <EXPRESSION> once again, we just have a <EXPRESSION> term; everything else is a constant so the partial with respect to <EXPRESSION>.","label":[[66,78,"expression"],[120,132,"expression"],[160,172,"expression"],[240,252,"expression"]],"Comments":[]}
+{"id":3435,"text":"<EXPRESSION> is just a constant.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":3436,"text":"So you cross out it's row and column, and so you take the determinant of this expression, so it's going to be times this times this, but it's really the partial.","label":[],"Comments":[]}
+{"id":3437,"text":"And we're pretty much done.","label":[],"Comments":[]}
+{"id":3438,"text":"I mean we can simplify it a little bit just to make it clean.","label":[],"Comments":[]}
+{"id":3439,"text":"So the partial with respect to <EXPRESSION> of this, sorry, we take out it's row and column, so <EXPRESSION> of this.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":3440,"text":"So let me just take this expression and I'll multiply it by <EXPRESSION>.","label":[[60,72,"expression"]],"Comments":[]}
+{"id":3441,"text":"Now let's actually compute it because if your sole goal is to pass a test and not understand the nature of the universe, which I think would be sad, but if that is your goal you at least need to know how to calculate these things.","label":[],"Comments":[]}
+{"id":3442,"text":"Well, the derivative of <EQUATION>.","label":[[24,34,"equation"]],"Comments":[]}
+{"id":3443,"text":"Hopefully you understood what I did here and now we got this.","label":[],"Comments":[]}
+{"id":3444,"text":"And now I think I can erase all of this and just so I can have some room to simplify things in.","label":[],"Comments":[]}
+{"id":3445,"text":"All right, now let me try to simplify it, and I'll have to get some space.","label":[],"Comments":[]}
+{"id":3446,"text":"And now we are ready to take the determinant, which will probably, well, it'll probably get pretty messy, but let's try it.","label":[],"Comments":[]}
+{"id":3447,"text":"In the next video, we'll do a little bit of this, but I think it'll give you more intuition and less of just the algorithm and the computation of how do you do it.","label":[],"Comments":[]}
+{"id":3448,"text":"So its <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> components are the partials with respect to <EXPRESSION>, with respect to <EXPRESSION>, with respect to <EXPRESSION>.","label":[[7,19,"expression"],[21,33,"expression"],[39,51,"expression"],[96,108,"expression"],[126,138,"expression"],[156,168,"expression"]],"Comments":[]}
+{"id":3449,"text":"And then you'll hopefully never forget it.","label":[],"Comments":[]}
+{"id":3450,"text":"But it's even more fun when you have the intuition.","label":[],"Comments":[]}
+{"id":3451,"text":"And what are the components of the del operator? It's the partial derivative with respect to <EXPRESSION>, the partial derivative with respect to <EXPRESSION>, partial derivative with respect to , right? Let me just rewrite the del operator.","label":[[93,105,"expression"],[146,158,"expression"]],"Comments":[]}
+{"id":3452,"text":"Now we just have to simplify it, taking a bunch of partial derivatives.","label":[],"Comments":[]}
+{"id":3453,"text":"You can view it as being = <EXPRESSION>.","label":[[27,39,"expression"]],"Comments":[]}
+{"id":3454,"text":"Now minus the partial of this with respect to <EXPRESSION>.","label":[[46,58,"expression"]],"Comments":[]}
+{"id":3455,"text":"And then the second, where we're taking this operator cross the vector field.","label":[],"Comments":[]}
+{"id":3456,"text":"Welcome back.","label":[],"Comments":[]}
+{"id":3457,"text":"Oh, and sorry, when you take the determinant, you use that and this is all kind of a bit of voodoo but you put a plus here, a minus here, a plus here, so it's kind of this checkered pattern.","label":[],"Comments":[]}
+{"id":3458,"text":"So <EXPRESSION>, and then we're going to have all of that; that's the magnitude in our i-direction.","label":[[3,15,"expression"]],"Comments":[]}
+{"id":3459,"text":"So now what's the magnitude of our curl in the j-direction? Let's cross out the row in the column of <EXPRESSION>.","label":[[101,113,"expression"]],"Comments":[]}
+{"id":3460,"text":"Now we said that you can view the curl of this vector field and I have no intuition of what this vector field looks like; I just made this up.","label":[],"Comments":[]}
+{"id":3461,"text":"And essentially we could just, I don't have to rewrite it, we can just multiply this by <EXPRESSION>.","label":[[88,100,"expression"]],"Comments":[]}
+{"id":3462,"text":"And then what's the derivative of this with respect to y? It's <EXPRESSION>.","label":[[63,75,"expression"]],"Comments":[]}
+{"id":3463,"text":"Let me start over, actually.","label":[],"Comments":[]}
+{"id":3464,"text":"Erase that.","label":[],"Comments":[]}
+{"id":3465,"text":"And that's the magnitude in the j-direction.","label":[],"Comments":[]}
+{"id":3466,"text":"So let's say our vector field and I'll do a three dimensional vector field just to do a fairly complicated example; I'm just going to make it up on the fly so let's say in the x-direction the magnitude of the field is, I don't know, let's say it's <EXPRESSION>, in the x-direction, plus I don't know let's make it <EXPRESSION> in the j-direction, or the y-direction.","label":[[248,260,"expression"],[314,326,"expression"]],"Comments":[]}
+{"id":3467,"text":"To this is <EXPRESSION>, this should actually be <EXPRESSION>.","label":[[11,23,"expression"],[49,61,"expression"]],"Comments":[]}
+{"id":3468,"text":"Hopefully you have a little intuition now of what the curl is.","label":[],"Comments":[]}
+{"id":3469,"text":"One that I have trouble visualizing but that we can mathematically chug through.","label":[],"Comments":[]}
+{"id":3470,"text":"So it's a partial with respect to <EXPRESSION> of this.","label":[[34,46,"expression"]],"Comments":[]}
+{"id":3471,"text":"You just literally take the cross product of that del operator and your vector field.","label":[],"Comments":[]}
+{"id":3472,"text":"So we'll write <EXPRESSION>, and let's put the minus out front; these are what's multiplied.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":3473,"text":"So what are the components of the vector field? I'll probably run out of space, but it's <EXPRESSION>.","label":[[89,101,"expression"]],"Comments":[]}
+{"id":3474,"text":"The partial of this with respect to <EXPRESSION> let's put the minus out front <EXPRESSION>.","label":[[36,48,"expression"],[79,91,"expression"]],"Comments":[]}
+{"id":3475,"text":"And <EXPRESSION> is just a constant, so it just carries over, <EXPRESSION>.","label":[[4,16,"expression"],[62,74,"expression"]],"Comments":[]}
+{"id":3476,"text":"OK, and then we have minus, now we stick the partial with respect sorry, actually, I forgot to do this part.","label":[],"Comments":[]}
+{"id":3477,"text":"And then that should be oh, there we go minus this expression, the partial of this with respect to <EXPRESSION>.","label":[[99,111,"expression"]],"Comments":[]}
+{"id":3478,"text":"So it's going to be the partial with respect to <EXPRESSION> and now we're on to our <EXPRESSION> component plus <EXPRESSION>.","label":[[48,60,"expression"],[85,97,"expression"],[113,125,"expression"]],"Comments":[]}
+{"id":3479,"text":"And in the z-direction, I don't know, let's make it <EXPRESSION>, in the z-direction.","label":[[52,64,"expression"]],"Comments":[]}
+{"id":3480,"text":"So that's how you calculate it.","label":[],"Comments":[]}

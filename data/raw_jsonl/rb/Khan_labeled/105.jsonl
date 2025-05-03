@@ -1,0 +1,83 @@
+{"id":1908,"text":"I want you see the key strokes so that you, ok turned on, exit out of this.","label":[],"Comments":[]}
+{"id":1909,"text":"So we're going to use the calculus function here, so second, calculus.","label":[],"Comments":[]}
+{"id":1910,"text":"And that gives us the volume for each of these, I guess, parts of the entire solid.","label":[],"Comments":[]}
+{"id":1911,"text":"So each base is going to be <EXPRESSION>, so <EXPRESSION> right switch the sign.","label":[[28,40,"expression"],[45,57,"expression"]],"Comments":[]}
+{"id":1912,"text":"Which you can do analytically, you but you have to know some power reduction formulas in trigonometry, you have to do some integration by parts, it would probably use up all of the time on the AP Exam.","label":[],"Comments":[]}
+{"id":1913,"text":"So the boundaries are pretty straightforward.","label":[],"Comments":[]}
+{"id":1914,"text":"The area of each of the squares, not just this distance.","label":[],"Comments":[]}
+{"id":1915,"text":"That's one.","label":[],"Comments":[]}
+{"id":1916,"text":"So how do we figure out the volume of this solid? Which is kind of hard to visualize.","label":[],"Comments":[]}
+{"id":1917,"text":"I have a couple of minutes.","label":[],"Comments":[]}
+{"id":1918,"text":"Let's see how much time I have left.","label":[],"Comments":[]}
+{"id":1919,"text":"So how do we figure out the volume of this? Over here, what is the depth? It's going to be <EXPRESSION>, right, <EXPRESSION>.","label":[[91,103,"expression"],[112,124,"expression"]],"Comments":[]}
+{"id":1920,"text":"But this is kind of, I think, what they wanted you to do, set up the integral, recognize that each of the squares, the area of each of the squares is just going to be this distance, the distance between the functions squared.","label":[],"Comments":[]}
+{"id":1921,"text":"And this bottom function, right here, that is <EQUATION>.","label":[[46,56,"equation"]],"Comments":[]}
+{"id":1922,"text":"So integrate from <EXPRESSION>, from <EQUATION>, to <EQUATION>.","label":[[18,30,"expression"],[37,47,"equation"],[52,62,"equation"]],"Comments":[]}
+{"id":1923,"text":"So the expression, let me move it down a little bit.","label":[],"Comments":[]}
+{"id":1924,"text":"So what is the area of each of these squares? Each of these cross-sections, what is the area? Well the base is going to be the difference between our two functions, right? This top function right here, that was <EXPRESSION>.","label":[[211,223,"expression"]],"Comments":[]}
+{"id":1925,"text":"So we were doing part c of the first problem on the Calculus BC exam, the free response part, and so what, I'll re-read it, it says the region r, this is the region r, is the base of a solid.","label":[],"Comments":[]}
+{"id":1926,"text":"So what does part d say? The region r models the surface of a small pond, so that's the surface now.","label":[],"Comments":[]}
+{"id":1927,"text":"This is the polynomial function below it.","label":[],"Comments":[]}
+{"id":1928,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":1929,"text":"And if we were to sum up all of these infinitely thin solids, we would get the volume for the whole thing.","label":[],"Comments":[]}
+{"id":1930,"text":"Same thing here.","label":[],"Comments":[]}
+{"id":1931,"text":"Let's see what it ends up with.","label":[],"Comments":[]}
+{"id":1932,"text":"So since they said that a graphing calculator is required for some parts of the problem, I say why not use our graphing calculator? Because the graphing calculator is very good at numerically evaluating definite integrals like this.","label":[],"Comments":[]}
+{"id":1933,"text":"So here, the height will be really high, because this is kind of maybe our maximum point in terms of the base width.","label":[],"Comments":[]}
+{"id":1934,"text":"This is <EXPRESSION>, this is <EXPRESSION>.","label":[[8,20,"expression"],[30,42,"expression"]],"Comments":[]}
+{"id":1935,"text":"And then what are our boundaries of integration? Well it's the same thing as in part a.","label":[],"Comments":[]}
+{"id":1936,"text":"OK, so I wanted to make this a little smaller.","label":[],"Comments":[]}
+{"id":1937,"text":"This is <EQUATION>.","label":[[8,18,"equation"]],"Comments":[]}
+{"id":1938,"text":"that's the answer, that is the volume of this solid it's <EXPRESSION>.","label":[[57,69,"expression"]],"Comments":[]}
+{"id":1939,"text":"So they say, each cross-section perpendicular to the x-axis is a square.","label":[],"Comments":[]}
+{"id":1940,"text":"And the pond essentially gets shallower and shallower as we go to the right.","label":[],"Comments":[]}
+{"id":1941,"text":"I know that's kind of hard to visualize.","label":[],"Comments":[]}
+{"id":1942,"text":"So let's do part d.","label":[],"Comments":[]}
+{"id":1943,"text":"And then this definite integral function, you have to tell it which is the independent variable, or kind of, you know, what variable are we integrating across, and that's the variable x.","label":[],"Comments":[]}
+{"id":1944,"text":"So it says for this solid, each cross section perpendicular to the x-axis, right? There's two ways you can do a cross-section, you could do them, you could cut this way, but that would be parallel to the x-axis.","label":[],"Comments":[]}
+{"id":1945,"text":"But anyway, how do we figure out what the volume of this lake is? But actually, I realize I'm pushing nine minutes, so I will continue this in the next video.","label":[],"Comments":[]}
+{"id":1946,"text":"So if we take the cross-section just along the x-axis, the depth is going to look something like this, but then this is the top of it.","label":[],"Comments":[]}
+{"id":1947,"text":"But anyway, what we do is, we take the area of each of these squares, and I drew one of them here.","label":[],"Comments":[]}
+{"id":1948,"text":"And I'm pretty sure they want you to use a calculator, because frankly, computing the integral, that's kind of just chug math, you know, very mechanical math, although it's pretty sophisticated, but it would take you forever.","label":[],"Comments":[]}
+{"id":1949,"text":"So what's the area? It's going to be this <EXPRESSION>, so we have to square this entire thing.","label":[[42,54,"expression"]],"Comments":[]}
+{"id":1950,"text":"OK, <EXPRESSION>.","label":[[4,16,"expression"]],"Comments":[]}
+{"id":1951,"text":"And at this point, the depth is <EXPRESSION> which is <EXPRESSION>.","label":[[32,44,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id":1952,"text":"So the base of the functions, the base of this distance right here is going to be the difference between the top function and the bottom function.","label":[],"Comments":[]}
+{"id":1953,"text":"And then we just type in the expression.","label":[],"Comments":[]}
+{"id":1954,"text":"And then you just tell it the boundaries of integration, and we're done.","label":[],"Comments":[]}
+{"id":1955,"text":"I redrew the region r here, but with a little perspective, so we can hopefully visualize it in three dimensions.","label":[],"Comments":[]}
+{"id":1956,"text":"You could almost imagine it, let me see if I can draw it again.","label":[],"Comments":[]}
+{"id":1957,"text":"<EXPRESSION> So you could write that this = <EXPRESSION>.","label":[[0,12,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":1958,"text":"So essentially <EXPRESSION> is the depth, right? So at this point of this pond, the depth is just <EXPRESSION>, right <EXPRESSION>.","label":[[15,27,"expression"],[98,110,"expression"],[118,130,"expression"]],"Comments":[]}
+{"id":1959,"text":"At all points <EXPRESSION> at a distance <EXPRESSION> from the y-axis, the depth of the water is given by <EQUATION>.","label":[[14,26,"expression"],[41,53,"expression"],[106,116,"equation"]],"Comments":[]}
+{"id":1960,"text":"Press F5, definite integral.","label":[],"Comments":[]}
+{"id":1961,"text":"So we essentially just have to evaluate this now.","label":[],"Comments":[]}
+{"id":1962,"text":"So that's the area of each of these squares, and then we have to multiply them times a little bit of <EXPRESSION>.","label":[[101,113,"expression"]],"Comments":[]}
+{"id":1963,"text":"So here, this would be the base, and since we know the cross-section is the square, the height has to be the same length as the base.","label":[],"Comments":[]}
+{"id":1964,"text":"And so here, the depth of the pond is given by the function <EQUATION>.","label":[[60,70,"equation"]],"Comments":[]}
+{"id":1965,"text":"And this function right here, this is definite integral, a very useful function to use.","label":[],"Comments":[]}
+{"id":1966,"text":"And then you integrate that from <EXPRESSION> to <EXPRESSION>.","label":[[33,45,"expression"],[49,61,"expression"]],"Comments":[]}
+{"id":1967,"text":"You take you each of the area of each of these squares, multiply them by a super small change in <EXPRESSION>, and that we know, from everything we've learned in calculus hopefully, that that super small change in <EXPRESSION>, I'm trying to draw a little perspective, is <EXPRESSION>.","label":[[97,109,"expression"],[214,226,"expression"],[272,284,"expression"]],"Comments":[]}
+{"id":1968,"text":"This is, it's probably drawn in, that's the x-axis.","label":[],"Comments":[]}
+{"id":1969,"text":"So let's get out my TI-85 emulator again.","label":[],"Comments":[]}
+{"id":1970,"text":"The region r models, let me, paste, oh, I didn't want to do that, edit, undo, edit, paste, there you go.","label":[],"Comments":[]}
+{"id":1971,"text":"And it's in some ways you easier to visualize it than it is to draw, so you have to give me some credit.","label":[],"Comments":[]}
+{"id":1972,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":1973,"text":"So it's open parentheses sin of where is pi? Pi is I haven't used one of these calculators in a long, long time oh there it is.","label":[],"Comments":[]}
+{"id":1974,"text":"This is the y-axis.","label":[],"Comments":[]}
+{"id":1975,"text":"So far this might look pretty similar to part a, but what's the twist here? We want the area.","label":[],"Comments":[]}
+{"id":1976,"text":"Second <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":1977,"text":"But it's still pretty wide, then it gets narrow again.","label":[],"Comments":[]}
+{"id":1978,"text":"So this is the sin function with some perspective.","label":[],"Comments":[]}
+{"id":1979,"text":"So if we multiply <EXPRESSION> times <EXPRESSION>, that is the volume of this kind of part the entire solid.","label":[[18,30,"expression"],[37,49,"expression"]],"Comments":[]}
+{"id":1980,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":1981,"text":"We wanted to cut perpendicular to the x-axis, or parallel to the y-axis, right? So if we cut it along the line like that.","label":[],"Comments":[]}
+{"id":1982,"text":"So how do we do that? Well let's write our integral expression.","label":[],"Comments":[]}
+{"id":1983,"text":"So I drew a couple of squares here.","label":[],"Comments":[]}
+{"id":1984,"text":"So over here, the depth is <EXPRESSION>, so if I were to draw, so if I were to go straight down the depth is, you know maybe it's <EXPRESSION>.","label":[[27,39,"expression"],[130,142,"expression"]],"Comments":[]}
+{"id":1985,"text":"Here we go.","label":[],"Comments":[]}
+{"id":1986,"text":"If I haven't made a mistake, I can hit enter, and let the calculator do the rest of the work.","label":[],"Comments":[]}
+{"id":1987,"text":"So here the depth is going to be <EXPRESSION>.","label":[[33,45,"expression"]],"Comments":[]}
+{"id":1988,"text":"So essentially the pond is going to get shallower and shallower or as we go further to the right.","label":[],"Comments":[]}
+{"id":1989,"text":"And just like in part b, I've first tried to evaluate this analytically, and you end up getting a very, very, very hairy integral.","label":[],"Comments":[]}
+{"id":1990,"text":"See you soon.","label":[],"Comments":[]}

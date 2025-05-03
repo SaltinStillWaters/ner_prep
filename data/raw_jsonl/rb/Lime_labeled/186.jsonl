@@ -1,0 +1,504 @@
+{"id":13714,"text":"JERISON: We're starting a new unit today.","label":[],"Comments":[]}
+{"id":13715,"text":"And, so this is Unit 2, and it's called Applications of Differentiation.","label":[],"Comments":[]}
+{"id":13716,"text":"OK.","label":[],"Comments":[]}
+{"id":13717,"text":"So, the first application, and we're going to do two today, is what are known as linear approximations.","label":[],"Comments":[]}
+{"id":13718,"text":"Whoops, that should have two p's in it.","label":[],"Comments":[]}
+{"id":13719,"text":"Approximations.","label":[],"Comments":[]}
+{"id":13720,"text":"So, that can be summarized with one formula, but it's going to take us at least half an hour to explain how this formula is used.","label":[],"Comments":[]}
+{"id":13721,"text":"So here's the formula.","label":[],"Comments":[]}
+{"id":13722,"text":"It's <EXPRESSION> is approximately = to its value at a base point plus the derivative times <EXPRESSION>.","label":[[5,17,"expression"],[66,70,"command"],[71,85,"command_attribute"],[86,91,"command"],[92,104,"expression"]],"Comments":[]}
+{"id":13723,"text":"Right?","label":[],"Comments":[]}
+{"id":13724,"text":"So this is the main formula.","label":[],"Comments":[]}
+{"id":13725,"text":"For right now.","label":[],"Comments":[]}
+{"id":13726,"text":"Put it in a box.","label":[[0,3,"command"]],"Comments":[]}
+{"id":13727,"text":"And let me just describe what it means, first.","label":[],"Comments":[]}
+{"id":13728,"text":"And then I'll describe what it means again, and several other times.","label":[],"Comments":[]}
+{"id":13729,"text":"So, first of all, what it means is that if you have a curve, which is <EQUATION>, it's approximately the same as its tangent line.","label":[[70,80,"equation"]],"Comments":[]}
+{"id":13730,"text":"So this other side is the equation of the tangent line.","label":[],"Comments":[]}
+{"id":13731,"text":"So let's give an example.","label":[],"Comments":[]}
+{"id":13732,"text":"I'm going to take the function <EXPRESSION>, which is <EXPRESSION>, and then its derivative is <EXPRESSION>.","label":[[13,17,"command"],[22,30,"command_attribute"],[31,43,"expression"],[54,66,"expression"],[95,107,"expression"]],"Comments":[]}
+{"id":13733,"text":"And, so let's take the base point <EQUATION>.","label":[[14,18,"command"],[23,33,"command_attribute"],[34,44,"equation"]],"Comments":[]}
+{"id":13734,"text":"That's pretty much the only place where we know the logarithm for sure.","label":[],"Comments":[]}
+{"id":13735,"text":"And so, what we plug in here now, are the values.","label":[[16,23,"command"]],"Comments":[]}
+{"id":13736,"text":"So <EXPRESSION> is <EXPRESSION>.","label":[[3,15,"expression"],[19,31,"expression"]],"Comments":[]}
+{"id":13737,"text":"Or, sorry, <EXPRESSION>, which is <EXPRESSION>.","label":[[11,23,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":13738,"text":"And <EXPRESSION>, well, that's <EXPRESSION>, which is <EXPRESSION>.","label":[[4,16,"expression"],[31,43,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id":13739,"text":"So now we have an approximation formula which, if I copy down what's right up here, it's going to be <EXPRESSION> is approximately, so <EXPRESSION> is <EXPRESSION>, right?","label":[[52,56,"command"],[101,113,"expression"],[135,147,"expression"],[151,163,"expression"]],"Comments":[]}
+{"id":13740,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":13741,"text":"So I plugged in here, for <EXPRESSION>, <EXPRESSION> places.","label":[[26,38,"expression"],[40,52,"expression"]],"Comments":[]}
+{"id":13742,"text":"I evaluated the coefficients and this is the dependent variable.","label":[],"Comments":[]}
+{"id":13743,"text":"So, all told, if you like, what I have here is that the logarithm of <EXPRESSION> is approximately <EXPRESSION>.","label":[[69,81,"expression"],[99,111,"expression"]],"Comments":[]}
+{"id":13744,"text":"And let me draw a picture of this.","label":[],"Comments":[]}
+{"id":13745,"text":"So here's the graph of <EXPRESSION>.","label":[[23,35,"expression"]],"Comments":[]}
+{"id":13746,"text":"And then, I'll draw in the tangent line at the place that we're considering, which is <EQUATION>.","label":[[86,96,"equation"]],"Comments":[]}
+{"id":13747,"text":"So here's the tangent line.","label":[],"Comments":[]}
+{"id":13748,"text":"And I've separated a little bit, but really I probably should have drawn it a little closer there, to show you.","label":[],"Comments":[]}
+{"id":13749,"text":"The whole point is that these two are nearby.","label":[],"Comments":[]}
+{"id":13750,"text":"But they're not nearby everywhere.","label":[],"Comments":[]}
+{"id":13751,"text":"So this is the line <EQUATION>.","label":[[20,30,"equation"]],"Comments":[]}
+{"id":13752,"text":"Right, that's the tangent line.","label":[],"Comments":[]}
+{"id":13753,"text":"They're nearby only when <EXPRESSION> is near <EXPRESSION>.","label":[[25,37,"expression"],[46,58,"expression"]],"Comments":[]}
+{"id":13754,"text":"So say in this little realm here.","label":[],"Comments":[]}
+{"id":13755,"text":"So when <EXPRESSION> is approximately <EXPRESSION>, this is true.","label":[[8,20,"expression"],[38,50,"expression"]],"Comments":[]}
+{"id":13756,"text":"Once you get a little farther away, this straight line, this straight green line will separate from the graph.","label":[],"Comments":[]}
+{"id":13757,"text":"But near this place they're close together.","label":[],"Comments":[]}
+{"id":13758,"text":"So the idea, again, is that the curve, the curved line, is approximately the tangent line.","label":[],"Comments":[]}
+{"id":13759,"text":"And this is one example of it.","label":[],"Comments":[]}
+{"id":13760,"text":"All right, so I want to explain this in one more way.","label":[],"Comments":[]}
+{"id":13761,"text":"And then we want to discuss it systematically.","label":[],"Comments":[]}
+{"id":13762,"text":"So the second way that I want to describe this requires me to remind you what the definition of the derivative is.","label":[],"Comments":[]}
+{"id":13763,"text":"So, the definition of a derivative is that it's the limit, as <EXPRESSION> goes to <EXPRESSION>, of <EXPRESSION>, that's one way of writing it, all right?","label":[[62,74,"expression"],[83,95,"expression"],[100,112,"expression"]],"Comments":[]}
+{"id":13764,"text":"And this is the way we defined it.","label":[],"Comments":[]}
+{"id":13765,"text":"And one of the things that we did in the first unit was we looked at this backwards.","label":[],"Comments":[]}
+{"id":13766,"text":"We used the derivative knowing the derivatives of functions to evaluate some limits.","label":[[63,71,"command"],[77,83,"command_attribute"]],"Comments":[]}
+{"id":13767,"text":"So you were supposed to do that on your.","label":[],"Comments":[]}
+{"id":13768,"text":"In our test, there were some examples there, at least one example, where that was the easiest way to do the problem.","label":[],"Comments":[]}
+{"id":13769,"text":"So in other words, you can read this equation both ways.","label":[],"Comments":[]}
+{"id":13770,"text":"This is really, of course, the same equation written twice.","label":[],"Comments":[]}
+{"id":13771,"text":"Now, what's new about what we're going to do now is that we're going to take this expression here, <EXPRESSION>, and we're going to say well, when <EXPRESSION> is fairly near <EXPRESSION>, this expression is going to be fairly close to the limiting value.","label":[[72,76,"command"],[82,92,"command_attribute"],[99,111,"expression"],[147,159,"expression"],[175,187,"expression"]],"Comments":[]}
+{"id":13772,"text":"So this is approximately <EXPRESSION>.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":13773,"text":"So that, I claim, is the same as what's in the box in pink that I have over here.","label":[],"Comments":[]}
+{"id":13774,"text":"So this approximation formula here is the same as this one.","label":[],"Comments":[]}
+{"id":13775,"text":"This is an average rate of change, and this is an infinitesimal rate of change.","label":[],"Comments":[]}
+{"id":13776,"text":"And they're nearly the same.","label":[],"Comments":[]}
+{"id":13777,"text":"That's the claim.","label":[],"Comments":[]}
+{"id":13778,"text":"So you'll have various exercises in which this approximation is the useful one to use.","label":[],"Comments":[]}
+{"id":13779,"text":"And I will, as I said, I'll be illustrating this a little bit today.","label":[],"Comments":[]}
+{"id":13780,"text":"Now, let me just explain why those two formulas in the boxes are the same.","label":[],"Comments":[]}
+{"id":13781,"text":"So let's just start over here and explain that.","label":[],"Comments":[]}
+{"id":13782,"text":"So the smaller box is the same thing if I multiply through by <EXPRESSION>, as <EXPRESSION> is approximately <EXPRESSION>.","label":[[62,74,"expression"],[79,91,"expression"],[109,121,"expression"]],"Comments":[]}
+{"id":13783,"text":"And now if I just write out what this is, it's <EXPRESSION>, right, <EXPRESSION>, I'm going to write it this way.","label":[[18,27,"command"],[47,59,"expression"],[68,80,"expression"],[95,100,"command"]],"Comments":[]}
+{"id":13784,"text":"Which is approximately <EXPRESSION>, and this is <EXPRESSION>.","label":[[23,35,"expression"],[49,61,"expression"]],"Comments":[]}
+{"id":13785,"text":"So here I'm using the notations <EXPRESSION> is <EXPRESSION>.","label":[[32,44,"expression"],[48,60,"expression"]],"Comments":[]}
+{"id":13786,"text":"And so this is the change in <EXPRESSION>, this is just rewriting what <EXPRESSION> is.","label":[[29,41,"expression"],[71,83,"expression"]],"Comments":[]}
+{"id":13787,"text":"And now the last step is just to put the constant on the other side.","label":[],"Comments":[]}
+{"id":13788,"text":"So <EXPRESSION> is approximately <EXPRESSION>.","label":[[3,15,"expression"],[33,45,"expression"]],"Comments":[]}
+{"id":13789,"text":"So this is exactly what I had just to begin with, right?","label":[],"Comments":[]}
+{"id":13790,"text":"So these two are just algebraically the same statement.","label":[],"Comments":[]}
+{"id":13791,"text":"That's one another way of looking at it.","label":[],"Comments":[]}
+{"id":13792,"text":"All right, so now, I want to go through some systematic discussion here of several linear approximations, which you're going to be wanting to memorize.","label":[],"Comments":[]}
+{"id":13793,"text":"And rather than it's being hard to memorize these, it's supposed to remind you.","label":[],"Comments":[]}
+{"id":13794,"text":"So that you'll have a lot of extra reinforcement in remembering derivatives of all kinds.","label":[],"Comments":[]}
+{"id":13795,"text":"So, when we carry out these systematic discussions, we want to make things absolutely as simple as possible.","label":[],"Comments":[]}
+{"id":13796,"text":"And so one of the things that we do is we always use the base point to be <EXPRESSION>.","label":[[74,86,"expression"]],"Comments":[]}
+{"id":13797,"text":"So I'm always going to have <EQUATION> in this standard list of formulas that I'm going to use.","label":[[28,38,"equation"]],"Comments":[]}
+{"id":13798,"text":"And if I put <EQUATION>, then this formula becomes <EXPRESSION>, a little bit simpler to read.","label":[[9,12,"command"],[13,23,"equation"],[51,63,"expression"]],"Comments":[]}
+{"id":13799,"text":"It becomes <EXPRESSION> is <EXPRESSION>.","label":[[11,23,"expression"],[27,39,"expression"]],"Comments":[]}
+{"id":13800,"text":"So this is probably the form that you'll want to remember most.","label":[],"Comments":[]}
+{"id":13801,"text":"That's again, just the linear approximation.","label":[],"Comments":[]}
+{"id":13802,"text":"But one always has to remember, and this is a very important thing, this one only worked near <EXPRESSION> is <EXPRESSION>.","label":[[94,106,"expression"],[110,122,"expression"]],"Comments":[]}
+{"id":13803,"text":"This approximation here really only works when <EXPRESSION> is near <EXPRESSION>.","label":[[47,59,"expression"],[68,80,"expression"]],"Comments":[]}
+{"id":13804,"text":"So that's a little addition that you need to throw in.","label":[],"Comments":[]}
+{"id":13805,"text":"So this one works when <EXPRESSION> is near <EXPRESSION>.","label":[[23,35,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":13806,"text":"You can't expect it to be true far away.","label":[],"Comments":[]}
+{"id":13807,"text":"The curve can go anywhere it wants, when it's far away from the point of tangency.","label":[],"Comments":[]}
+{"id":13808,"text":"So, OK, so let's work this out.","label":[],"Comments":[]}
+{"id":13809,"text":"Let's do it for the sine function, for the cosine function, and for <EXPRESSION>, to begin with.","label":[[68,80,"expression"]],"Comments":[]}
+{"id":13810,"text":"Yeah.","label":[],"Comments":[]}
+{"id":13811,"text":"Question.","label":[],"Comments":[]}
+{"id":13812,"text":"STUDENT: [INAUDIBLE] PROF.","label":[],"Comments":[]}
+{"id":13813,"text":"JERISON: Yeah.","label":[],"Comments":[]}
+{"id":13814,"text":"When does this one work.","label":[],"Comments":[]}
+{"id":13815,"text":"Well, so the question was, when does this one work.","label":[],"Comments":[]}
+{"id":13816,"text":"Again, this is when <EXPRESSION> is approximately <EXPRESSION>.","label":[[20,32,"expression"],[50,62,"expression"]],"Comments":[]}
+{"id":13817,"text":"Because it's actually the same as this one over here.","label":[],"Comments":[]}
+{"id":13818,"text":"OK.","label":[],"Comments":[]}
+{"id":13819,"text":"And indeed, that's what's going on when we take this limiting value.","label":[],"Comments":[]}
+{"id":13820,"text":"<EXPRESSION> going to <EXPRESSION> is the same.","label":[[0,12,"expression"],[22,34,"expression"]],"Comments":[]}
+{"id":13821,"text":"<EXPRESSION> small.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":13822,"text":"So another way of saying it is, the <EXPRESSION> is small.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":13823,"text":"Now, exactly what we mean by small will also be explained.","label":[],"Comments":[]}
+{"id":13824,"text":"But it is a matter to some extent of intuition as to how much, how good it is.","label":[],"Comments":[]}
+{"id":13825,"text":"In practical cases, people will really care about how small it is before the approximation is useful.","label":[],"Comments":[]}
+{"id":13826,"text":"And that's a serious issue.","label":[],"Comments":[]}
+{"id":13827,"text":"All right, so let me carry out these approximations for <EXPRESSION>.","label":[[56,68,"expression"]],"Comments":[]}
+{"id":13828,"text":"Again, this is always for <EXPRESSION> near <EXPRESSION>.","label":[[26,38,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":13829,"text":"So all of these are going to be for <EXPRESSION> near <EXPRESSION>.","label":[[36,48,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id":13830,"text":"So in order to make this computation, I have to evaluate the function.","label":[[48,56,"command"],[57,69,"command_attribute"]],"Comments":[]}
+{"id":13831,"text":"I need to plug in two numbers here.","label":[[10,17,"command"]],"Comments":[]}
+{"id":13832,"text":"In order to get this expression.","label":[],"Comments":[]}
+{"id":13833,"text":"I need to know what <EXPRESSION> is and I need to know what <EXPRESSION> is.","label":[[20,32,"expression"],[60,72,"expression"]],"Comments":[]}
+{"id":13834,"text":"If this is the function <EXPRESSION>, then I'm going to make a little table over to the right here with <EXPRESSION> and then I'm going to evaluate <EXPRESSION>, and then I'm going to evaluate <EXPRESSION>, and then read off what the answers are.","label":[[24,36,"expression"],[104,116,"expression"],[139,147,"command"],[148,160,"command"],[184,192,"command"],[193,205,"expression"]],"Comments":[]}
+{"id":13835,"text":"Right, so first of all if the function is <EXPRESSION>, the derivative is <EXPRESSION>.","label":[[42,54,"expression"],[74,86,"expression"]],"Comments":[]}
+{"id":13836,"text":"The value of <EXPRESSION>, that's <EXPRESSION>, is <EXPRESSION>.","label":[[13,25,"expression"],[34,46,"expression"],[51,63,"expression"]],"Comments":[]}
+{"id":13837,"text":"The derivative is <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":13838,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
+{"id":13839,"text":"So there we go.","label":[],"Comments":[]}
+{"id":13840,"text":"So now we have the coefficients <EXPRESSION> and <EXPRESSION>.","label":[[32,44,"expression"],[49,61,"expression"]],"Comments":[]}
+{"id":13841,"text":"So this number is <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":13842,"text":"And this number is <EXPRESSION>.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":13843,"text":"So what we get here is <EXPRESSION>, so this is approximately <EXPRESSION>.","label":[[23,35,"expression"],[62,74,"expression"]],"Comments":[]}
+{"id":13844,"text":"There's the linear approximation to <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":13845,"text":"Similarly, so now this is a routine matter to just read this off for this table.","label":[],"Comments":[]}
+{"id":13846,"text":"We'll do it for the cosine function.","label":[],"Comments":[]}
+{"id":13847,"text":"If you differentiate the cosine, what you get is <EXPRESSION>.","label":[[49,61,"expression"]],"Comments":[]}
+{"id":13848,"text":"The value at <EXPRESSION> is <EXPRESSION>, so that's <EXPRESSION>.","label":[[13,25,"expression"],[29,41,"expression"],[53,65,"expression"]],"Comments":[]}
+{"id":13849,"text":"The value of this <EXPRESSION> is <EXPRESSION>.","label":[[18,30,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":13850,"text":"So this is going back over here, <EXPRESSION>, so this is approximately <EXPRESSION>.","label":[[33,45,"expression"],[72,84,"expression"]],"Comments":[]}
+{"id":13851,"text":"This linear function happens to be constant.","label":[],"Comments":[]}
+{"id":13852,"text":"And finally, if I do need <EXPRESSION>, its derivative is again <EXPRESSION>, and its value at <EXPRESSION> is ,<EXPRESSION> the value of the derivative at <EXPRESSION> is also <EXPRESSION>.","label":[[26,38,"expression"],[64,76,"expression"],[95,107,"expression"],[112,124,"expression"],[156,168,"expression"],[177,189,"expression"]],"Comments":[]}
+{"id":13853,"text":"So both of the terms here, <EXPRESSION> and <EXPRESSION>, they're both <EXPRESSION> and we get <EXPRESSION>.","label":[[27,39,"expression"],[44,56,"expression"],[71,83,"expression"],[95,107,"expression"]],"Comments":[]}
+{"id":13854,"text":"So these are the linear approximations.","label":[],"Comments":[]}
+{"id":13855,"text":"You can memorize these.","label":[],"Comments":[]}
+{"id":13856,"text":"You'll probably remember them either this way or that way.","label":[],"Comments":[]}
+{"id":13857,"text":"This collection of information here encodes the same collection of information as we have over here.","label":[],"Comments":[]}
+{"id":13858,"text":"For the values of the function and the values of their derivatives at <EXPRESSION>.","label":[[70,82,"expression"]],"Comments":[]}
+{"id":13859,"text":"So let me just emphasize again the geometric point of view by drawing pictures of these results.","label":[],"Comments":[]}
+{"id":13860,"text":"So first of all, for the sine function, here's the sine - well, close enough.","label":[],"Comments":[]}
+{"id":13861,"text":"So that's - boy, now that is quite some sine, isn't it?","label":[],"Comments":[]}
+{"id":13862,"text":"I should try to make the two bumps be the same height, roughly speaking.","label":[],"Comments":[]}
+{"id":13863,"text":"Anyway the tangent line we're talking about is here.","label":[],"Comments":[]}
+{"id":13864,"text":"And this is <EQUATION>.","label":[[12,22,"equation"]],"Comments":[]}
+{"id":13865,"text":"And this is the function <EXPRESSION>.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":13866,"text":"And near <EXPRESSION>, those things coincide pretty closely.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":13867,"text":"The cosine function, I'll put that underneath, I guess.","label":[],"Comments":[]}
+{"id":13868,"text":"I think I can fit it.","label":[],"Comments":[]}
+{"id":13869,"text":"Make it a little smaller here.","label":[],"Comments":[]}
+{"id":13870,"text":"So for the cosine function, we're up here.","label":[],"Comments":[]}
+{"id":13871,"text":"It's <EQUATION>.","label":[[5,15,"equation"]],"Comments":[]}
+{"id":13872,"text":"Well, no wonder the tangent line is constant.","label":[],"Comments":[]}
+{"id":13873,"text":"It's horizontal.","label":[],"Comments":[]}
+{"id":13874,"text":"The tangent line is horizontal, so the function corresponding is constant.","label":[],"Comments":[]}
+{"id":13875,"text":"So this is <EQUATION>.","label":[[11,21,"equation"]],"Comments":[]}
+{"id":13876,"text":"And finally, if I draw <EQUATION>, that's coming down like this.","label":[[18,22,"command"],[23,33,"equation"]],"Comments":[]}
+{"id":13877,"text":"And the tangent line is here.","label":[],"Comments":[]}
+{"id":13878,"text":"And it's <EQUATION>.","label":[[9,19,"equation"]],"Comments":[]}
+{"id":13879,"text":"The value is <EXPRESSION> and the slope is <EXPRESSION>.","label":[[13,25,"expression"],[43,55,"expression"]],"Comments":[]}
+{"id":13880,"text":"So this is how to remember it graphically if you like.","label":[],"Comments":[]}
+{"id":13881,"text":"This analytic picture is extremely important and will help you to deal with sines, cosines and exponentials.","label":[],"Comments":[]}
+{"id":13882,"text":"Yes, question.","label":[],"Comments":[]}
+{"id":13883,"text":"STUDENT: [INAUDIBLE] PROF.","label":[],"Comments":[]}
+{"id":13884,"text":"JERISON: The question is what do you normally use linear approximations for.","label":[],"Comments":[]}
+{"id":13885,"text":"Good question.","label":[],"Comments":[]}
+{"id":13886,"text":"We're getting there.","label":[],"Comments":[]}
+{"id":13887,"text":"First, we're getting a little library of them and I'll give you a few examples.","label":[],"Comments":[]}
+{"id":13888,"text":"OK, so now, I need to finish the catalog with two more examples which are just a little bit, slightly more challenging.","label":[],"Comments":[]}
+{"id":13889,"text":"And a little bit less obvious.","label":[],"Comments":[]}
+{"id":13890,"text":"So, the next couple that we're going to do are <EXPRESSION> and <EXPRESSION>.","label":[[47,59,"expression"],[64,76,"expression"]],"Comments":[]}
+{"id":13891,"text":"OK, these are the last two that we're going to write down.","label":[[47,52,"command"]],"Comments":[]}
+{"id":13892,"text":"And that you need to think about.","label":[],"Comments":[]}
+{"id":13893,"text":"Now, the procedure is the same as over here.","label":[],"Comments":[]}
+{"id":13894,"text":"Namely, I have to write down <EXPRESSION> and I have to write down <EXPRESSION> and I have to write down <EXPRESSION>.","label":[[29,41,"expression"],[56,61,"command"],[67,79,"expression"],[94,99,"command"],[105,117,"expression"]],"Comments":[]}
+{"id":13895,"text":"And then I'll have the coefficients to be able to fill in what the approximation is.","label":[],"Comments":[]}
+{"id":13896,"text":"So <EQUATION>, in the case of the logarithm.","label":[[3,13,"equation"]],"Comments":[]}
+{"id":13897,"text":"And <EXPRESSION>, if I plug in, that's <EXPRESSION>, which is <EXPRESSION>.","label":[[4,16,"expression"],[23,30,"command"],[39,51,"expression"],[62,74,"expression"]],"Comments":[]}
+{"id":13898,"text":"And f' if I plug in <EXPRESSION> here, I get <EXPRESSION>.","label":[[12,19,"command"],[20,32,"expression"],[45,57,"expression"]],"Comments":[]}
+{"id":13899,"text":"And similarly if I do it for this one, I get <EXPRESSION>.","label":[[45,57,"expression"]],"Comments":[]}
+{"id":13900,"text":"And when I plug in <EXPRESSION>, I get <EXPRESSION>, which is <EXPRESSION>.","label":[[11,18,"command"],[19,31,"expression"],[39,51,"expression"],[62,74,"expression"]],"Comments":[]}
+{"id":13901,"text":"And here I get <EXPRESSION>, which is <EXPRESSION>.","label":[[15,27,"expression"],[38,50,"expression"]],"Comments":[]}
+{"id":13902,"text":"So the corresponding statement here is that <EXPRESSION> is approximately <EXPRESSION>.","label":[[44,56,"expression"],[74,86,"expression"]],"Comments":[]}
+{"id":13903,"text":"And <EXPRESSION> is approximately <EXPRESSION>.","label":[[4,16,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":13904,"text":"That's <EXPRESSION> and here we have <EXPRESSION>.","label":[[7,19,"expression"],[37,49,"expression"]],"Comments":[]}
+{"id":13905,"text":"And now, I do want to make a connection, explain to you what's going on here and the connection with the first example.","label":[],"Comments":[]}
+{"id":13906,"text":"We already did the logarithm once.","label":[],"Comments":[]}
+{"id":13907,"text":"And let's just point out that these two computations are the same, or practically the same.","label":[],"Comments":[]}
+{"id":13908,"text":"Here I use the base point <EXPRESSION>, but because of my, sort of, convenient form, which will end up, I claim, being much more convenient for pretty much every purpose, we want to do these things near <EXPRESSION> is approximately <EXPRESSION>.","label":[[7,10,"command"],[15,25,"command_attribute"],[26,38,"expression"],[203,215,"expression"],[233,245,"expression"]],"Comments":[]}
+{"id":13909,"text":"You cannot expand the logarithm and understand a tangent line for it at <EQUATION>, because it goes down to minus infinity.","label":[[72,82,"equation"],[108,122,"term"]],"Comments":[]}
+{"id":13910,"text":"Similarly, if you try to graph <EXPRESSION>, <EXPRESSION> without the <EXPRESSION> here, you'll discover that sometimes the slope is infinite, and so forth.","label":[[25,30,"command"],[31,43,"expression"],[45,57,"expression"],[70,82,"expression"]],"Comments":[]}
+{"id":13911,"text":"So this is a bad choice of point.","label":[],"Comments":[]}
+{"id":13912,"text":"1 is a much better choice of a place to expand around.","label":[[0,1,"term"]],"Comments":[]}
+{"id":13913,"text":"And then we shift things so that it looks like it's <EQUATION>, by shifting by the <EXPRESSION>.","label":[[12,17,"command"],[52,62,"equation"],[83,95,"expression"]],"Comments":[]}
+{"id":13914,"text":"So the connection with the previous example is that the-- what we wrote before I could write as <EQUATION>.","label":[[87,92,"command"],[96,106,"equation"]],"Comments":[]}
+{"id":13915,"text":"Right, that's just recopying what I have over here.","label":[],"Comments":[]}
+{"id":13916,"text":"Except with the letter <EXPRESSION> rather than the letter <EXPRESSION>.","label":[[23,35,"expression"],[59,71,"expression"]],"Comments":[]}
+{"id":13917,"text":"And then I plug in, <EQUATION>.","label":[[11,18,"command"],[20,30,"equation"]],"Comments":[]}
+{"id":13918,"text":"And then that, if I copy it down, you see that I have a <EXPRESSION> in place of <EXPRESSION>, that's the same as this.","label":[[20,24,"command"],[56,68,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":13919,"text":"And if I write out <EXPRESSION>, if I subtract <EXPRESSION> from <EXPRESSION>, that means that it's <EXPRESSION>.","label":[[9,14,"command"],[19,31,"expression"],[38,46,"command"],[47,59,"expression"],[65,77,"expression"],[100,112,"expression"]],"Comments":[]}
+{"id":13920,"text":"So that's what's on the right-hand side there.","label":[],"Comments":[]}
+{"id":13921,"text":"So these are the same computation, I've just changed the variable.","label":[],"Comments":[]}
+{"id":13922,"text":"So now I want to try to address the question that was asked about how this is used.","label":[],"Comments":[]}
+{"id":13923,"text":"And what the importance is.","label":[],"Comments":[]}
+{"id":13924,"text":"And what I'm going to do is just give you one example here.","label":[],"Comments":[]}
+{"id":13925,"text":"And then try to emphasize.","label":[],"Comments":[]}
+{"id":13926,"text":"The first way in which this is a useful idea.","label":[],"Comments":[]}
+{"id":13927,"text":"So, or maybe this is the second example.","label":[],"Comments":[]}
+{"id":13928,"text":"If you like.","label":[],"Comments":[]}
+{"id":13929,"text":"So we'll call this Example 2, maybe.","label":[],"Comments":[]}
+{"id":13930,"text":"So let's just take the logarithm of <EXPRESSION>.","label":[[14,18,"command"],[19,32,"command_attribute"],[36,48,"expression"]],"Comments":[]}
+{"id":13931,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":13932,"text":"Just a second.","label":[],"Comments":[]}
+{"id":13933,"text":"Let's take the logarithm of <EXPRESSION>.","label":[[6,10,"command"],[11,24,"command_attribute"],[28,40,"expression"]],"Comments":[]}
+{"id":13934,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":13935,"text":"So I claim that, according to our rules, I can glance at this and I can immediately see that it's approximately <EXPRESSION>.","label":[[112,124,"expression"]],"Comments":[]}
+{"id":13936,"text":"So what did I use here?","label":[],"Comments":[]}
+{"id":13937,"text":"I used that <EXPRESSION> is approximately <EXPRESSION>, and the value of <EXPRESSION> that I used was <EXPRESSION>.","label":[[12,24,"expression"],[42,54,"expression"],[73,85,"expression"],[102,114,"expression"]],"Comments":[]}
+{"id":13938,"text":"Right?","label":[],"Comments":[]}
+{"id":13939,"text":"So that is the formula, so I should put a box around these two formulas too.","label":[],"Comments":[]}
+{"id":13940,"text":"That's this formula here, applied with <EQUATION>.","label":[[39,49,"expression"]],"Comments":[]}
+{"id":13941,"text":"And I'm claiming that <EXPRESSION> is a sufficiently small number, sufficiently close to <EXPRESSION>, that this is an OK statement.","label":[[22,34,"expression"],[89,101,"expression"]],"Comments":[]}
+{"id":13942,"text":"So the first question that I want to ask you is, which do you think is a more complicated thing.","label":[],"Comments":[]}
+{"id":13943,"text":"The left-hand side or the right-hand side.","label":[],"Comments":[]}
+{"id":13944,"text":"I claim that this is a more complicated thing, you'd have to go to a calculator to punch out and figure out what this thing is.","label":[],"Comments":[]}
+{"id":13945,"text":"This is easy.","label":[],"Comments":[]}
+{"id":13946,"text":"You know what a tenth is.","label":[],"Comments":[]}
+{"id":13947,"text":"So the distinction that I want to make is that this half, this part, this is hard.","label":[],"Comments":[]}
+{"id":13948,"text":"And this is easy.","label":[],"Comments":[]}
+{"id":13949,"text":"Now, that may look contradictory, but I want to just do it right above as well.","label":[],"Comments":[]}
+{"id":13950,"text":"This is hard.","label":[],"Comments":[]}
+{"id":13951,"text":"And this is easy.","label":[],"Comments":[]}
+{"id":13952,"text":"OK.","label":[],"Comments":[]}
+{"id":13953,"text":"This looks uglier, but actually this is the hard one.","label":[],"Comments":[]}
+{"id":13954,"text":"And this is giving us information about it.","label":[],"Comments":[]}
+{"id":13955,"text":"Now, let me show you why that's true.","label":[],"Comments":[]}
+{"id":13956,"text":"Look down this column here.","label":[],"Comments":[]}
+{"id":13957,"text":"These are the hard ones, hard functions.","label":[],"Comments":[]}
+{"id":13958,"text":"These are the easy functions.","label":[],"Comments":[]}
+{"id":13959,"text":"What's easier than this?","label":[],"Comments":[]}
+{"id":13960,"text":"Nothing.","label":[],"Comments":[]}
+{"id":13961,"text":"OK.","label":[],"Comments":[]}
+{"id":13962,"text":"Well, yeah, <EXPRESSION>.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":13963,"text":"That's easier.","label":[],"Comments":[]}
+{"id":13964,"text":"Over here it gets even worse.","label":[],"Comments":[]}
+{"id":13965,"text":"These are the hard functions and these are the easy ones.","label":[],"Comments":[]}
+{"id":13966,"text":"So that's the main advantage of linear approximation is you get something much simpler to deal with.","label":[],"Comments":[]}
+{"id":13967,"text":"And if you've made a valid approximation you can make much progress on problems.","label":[],"Comments":[]}
+{"id":13968,"text":"OK, we'll be doing some more examples, but I saw some more questions before I made that point.","label":[],"Comments":[]}
+{"id":13969,"text":"Yeah.","label":[],"Comments":[]}
+{"id":13970,"text":"STUDENT: [INAUDIBLE] PROF.","label":[],"Comments":[]}
+{"id":13971,"text":"JERISON: Is this <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":13972,"text":"<EXPRESSION> or what?","label":[[0,12,"expression"]],"Comments":[]}
+{"id":13973,"text":"STUDENT: [INAUDIBLE] PROF.","label":[],"Comments":[]}
+{"id":13974,"text":"JERISON: This is a parens there.","label":[],"Comments":[]}
+{"id":13975,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":13976,"text":"<EXPRESSION>, it's the digital number, right.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":13977,"text":"I guess I've never used that before a decimal point, have I?","label":[],"Comments":[]}
+{"id":13978,"text":"I don't know.","label":[],"Comments":[]}
+{"id":13979,"text":"Other questions.","label":[],"Comments":[]}
+{"id":13980,"text":"STUDENT: [INAUDIBLE] PROF.","label":[],"Comments":[]}
+{"id":13981,"text":"JERISON: OK.","label":[],"Comments":[]}
+{"id":13982,"text":"So let's continue here.","label":[],"Comments":[]}
+{"id":13983,"text":"Let me give you some more examples, where it becomes even more vivid if you like.","label":[],"Comments":[]}
+{"id":13984,"text":"That this approximation is giving us something a little simpler to deal with.","label":[],"Comments":[]}
+{"id":13985,"text":"So here's Example 3.","label":[],"Comments":[]}
+{"id":13986,"text":"I want to, I'll find the linear approximation near <EQUATION>.","label":[[16,20,"command"],[21,45,"command_attribute"],[51,61,"equation"]],"Comments":[]}
+{"id":13987,"text":"I also - when I write this expression near <EQUATION>, that's the same thing as this.","label":[[16,21,"command"],[27,37,"command_attribute"],[43,53,"equation"]],"Comments":[]}
+{"id":13988,"text":"That's the same thing as saying <EXPRESSION> is approximately <EXPRESSION> - of the function <EQUATION>.","label":[[32,44,"expression"],[62,74,"expression"],[93,103,"equation"]],"Comments":[]}
+{"id":13989,"text":"So here's a function.","label":[],"Comments":[]}
+{"id":13990,"text":"OK.","label":[],"Comments":[]}
+{"id":13991,"text":"Now, what I claim I want to use for the purposes of this approximation, are just the sum of the approximation formulas that we've already derived.","label":[],"Comments":[]}
+{"id":13992,"text":"And just to combine them algebraically.","label":[[12,19,"command"]],"Comments":[]}
+{"id":13993,"text":"So I'm not going to do any calculus, I'm just going to remember.","label":[],"Comments":[]}
+{"id":13994,"text":"So with <EXPRESSION>, it's pretty clear that I should be using this formula for <EXPRESSION>.","label":[[8,20,"expression"],[80,92,"expression"]],"Comments":[]}
+{"id":13995,"text":"For the other one, it may be slightly less obvious but we have powers of <EXPRESSION> over here.","label":[[73,85,"expression"]],"Comments":[]}
+{"id":13996,"text":"So let's plug those in.","label":[[9,13,"command"]],"Comments":[]}
+{"id":13997,"text":"I'll put this up so that you can remember it.","label":[[5,8,"command"]],"Comments":[]}
+{"id":13998,"text":"And we're going to carry out this approximation.","label":[],"Comments":[]}
+{"id":13999,"text":"So, first of all, I'm going to write this so that it's slightly more suggestive.","label":[[31,36,"command"]],"Comments":[]}
+{"id":14000,"text":"Namely, I'm going to write it as a product.","label":[[21,26,"command"]],"Comments":[]}
+{"id":14001,"text":"And there you can now see the exponent.","label":[],"Comments":[]}
+{"id":14002,"text":"In this case, <EQUATION>, eh <EXPRESSION>, that we're going to use.","label":[[14,24,"equation"],[29,41,"expression"]],"Comments":[]}
+{"id":14003,"text":"OK.","label":[],"Comments":[]}
+{"id":14004,"text":"So now I have <EXPRESSION>, and that's going to be approximately-- well I'm going to use this formula.","label":[[14,26,"expression"],[85,88,"command"],[94,101,"command_attribute"]],"Comments":[]}
+{"id":14005,"text":"I have to use it correctly.","label":[[10,13,"command"]],"Comments":[]}
+{"id":14006,"text":"x is replaced by <EXPRESSION>, so this is <EXPRESSION>.","label":[[0,1,"term"],[17,29,"expression"],[42,54,"expression"]],"Comments":[]}
+{"id":14007,"text":"And then over here, I can just copy verbatim the other approximation formula with <EQUATION>.","label":[[31,35,"command"],[55,76,"command_attribute"],[82,92,"equation"]],"Comments":[]}
+{"id":14008,"text":"So this is times <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":14009,"text":"And now I'm going to carry out the multiplication.","label":[[21,30,"command"],[31,49,"command_attribute"]],"Comments":[]}
+{"id":14010,"text":"So this is <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":14011,"text":"So now, here's our formula.","label":[],"Comments":[]}
+{"id":14012,"text":"So now this isn't where things stop.","label":[],"Comments":[]}
+{"id":14013,"text":"And indeed, in this kind of arithmetic that I'm describing now, things are easier than they are in ordinary algebra, in arithmetic.","label":[],"Comments":[]}
+{"id":14014,"text":"The reason is that there's another step, which I'm now going to perform.","label":[],"Comments":[]}
+{"id":14015,"text":"Which is that I'm going to throw away this term here.","label":[],"Comments":[]}
+{"id":14016,"text":"I'm going to ignore it.","label":[[13,19,"command"]],"Comments":[]}
+{"id":14017,"text":"In fact, I didn't even have to work it out.","label":[],"Comments":[]}
+{"id":14018,"text":"Because I'm going to throw it away.","label":[],"Comments":[]}
+{"id":14019,"text":"So the reason is that already, when I passed from this expression to this one, that is from this type of thing to this thing, I was already throwing away quadratic and higher-ordered terms.","label":[],"Comments":[]}
+{"id":14020,"text":"So this isn't the only quadratic term.","label":[],"Comments":[]}
+{"id":14021,"text":"There are tons of them.","label":[],"Comments":[]}
+{"id":14022,"text":"I have to ignore all of them if I'm going to ignore some of them.","label":[],"Comments":[]}
+{"id":14023,"text":"And in fact, I only want to be left with the linear stuff.","label":[],"Comments":[]}
+{"id":14024,"text":"Because that's all I'm really getting a valid computation for.","label":[],"Comments":[]}
+{"id":14025,"text":"So, this is approximately <EXPRESSION> minus, so let's see.","label":[[26,38,"expression"]],"Comments":[]}
+{"id":14026,"text":"It's a total of <EXPRESSION>.","label":[[16,28,"expression"]],"Comments":[]}
+{"id":14027,"text":"And this is the answer.","label":[],"Comments":[]}
+{"id":14028,"text":"This is the linear part.","label":[],"Comments":[]}
+{"id":14029,"text":"So the <EXPRESSION> term is negligible.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":14030,"text":"So we drop <EXPRESSION> term.","label":[[6,10,"command"],[11,23,"expression"]],"Comments":[]}
+{"id":14031,"text":"Terms, and higher.","label":[],"Comments":[]}
+{"id":14032,"text":"All of those terms should be lower-order.","label":[],"Comments":[]}
+{"id":14033,"text":"If you imagine <EXPRESSION> is <EXPRESSION>, or maybe <EXPRESSION>, then these terms will end up being much smaller.","label":[[15,27,"expression"],[31,43,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id":14034,"text":"So we have a rather crude approach.","label":[],"Comments":[]}
+{"id":14035,"text":"And that's really the simplicity, and that's the savings.","label":[],"Comments":[]}
+{"id":14036,"text":"So now, since this unit is called Applications, and these are indeed applications to math, I also wanted to give you a real-life application.","label":[],"Comments":[]}
+{"id":14037,"text":"Or a place where linear approximations come up in real life.","label":[],"Comments":[]}
+{"id":14038,"text":"So maybe we'll call this Example 4.","label":[],"Comments":[]}
+{"id":14039,"text":"This is supposedly a real-life example.","label":[],"Comments":[]}
+{"id":14040,"text":"I'll try to persuade you that it is.","label":[],"Comments":[]}
+{"id":14041,"text":"So I like this example because it's got a lot of math, as well as physics in it.","label":[],"Comments":[]}
+{"id":14042,"text":"So here I am, on the surface of the earth.","label":[],"Comments":[]}
+{"id":14043,"text":"And here is a satellite going this way.","label":[],"Comments":[]}
+{"id":14044,"text":"At some velocity, <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":14045,"text":"And this satellite has a clock on it because this is a GPS satellite.","label":[],"Comments":[]}
+{"id":14046,"text":"And it has a time, <EXPRESSION>, OK?","label":[[19,31,"expression"]],"Comments":[]}
+{"id":14047,"text":"But I have a watch, in fact it's right here.","label":[],"Comments":[]}
+{"id":14048,"text":"And I have a time which I keep.","label":[],"Comments":[]}
+{"id":14049,"text":"Which is <EXPRESSION>, And there's an interesting relationship between <EXPRESSION> and <EXPRESSION>, which is called time dilation.","label":[[9,21,"expression"],[71,83,"expression"],[88,100,"expression"]],"Comments":[]}
+{"id":14050,"text":"And this is from special relativity.","label":[],"Comments":[]}
+{"id":14051,"text":"And it's the following formula.","label":[],"Comments":[]}
+{"id":14052,"text":"<EQUATION>, where <EXPRESSION> is the velocity of the satellite, and <EXPRESSION> is the speed of light.","label":[[0,10,"equation"],[18,30,"expression"],[69,81,"expression"]],"Comments":[]}
+{"id":14053,"text":"So now I'd like to get a rough idea of how different my watch is from the clock on the satellite.","label":[],"Comments":[]}
+{"id":14054,"text":"So I'm going to use this same approximation, we've already used it once.","label":[],"Comments":[]}
+{"id":14055,"text":"I'm going to write <EXPRESSION>.","label":[[13,18,"command"],[19,31,"expression"]],"Comments":[]}
+{"id":14056,"text":"But now let me just remind you.","label":[],"Comments":[]}
+{"id":14057,"text":"The situation here is, we have something of the form <EXPRESSION>.","label":[[53,65,"expression"]],"Comments":[]}
+{"id":14058,"text":"That's what's happening when I multiply through here.","label":[],"Comments":[]}
+{"id":14059,"text":"So with <EQUATION>.","label":[[8,18,"equation"]],"Comments":[]}
+{"id":14060,"text":"So in real life, of course, the expression that you're going to use the linear approximation on isn't necessarily itself linear.","label":[],"Comments":[]}
+{"id":14061,"text":"It can be any physical quantity.","label":[],"Comments":[]}
+{"id":14062,"text":"So in this case it's <EXPRESSION>.","label":[[21,33,"expression"]],"Comments":[]}
+{"id":14063,"text":"And now the approximation formula says that if this is approximately =, well again it's the same rule.","label":[],"Comments":[]}
+{"id":14064,"text":"There's an <EXPRESSION> and then <EXPRESSION> is <EXPRESSION>, so this is <EXPRESSION>, so it's <EXPRESSION>.","label":[[11,23,"expression"],[33,45,"expression"],[49,61,"expression"],[74,86,"expression"],[96,108,"expression"]],"Comments":[]}
+{"id":14065,"text":"So this is approximately, by the same rule, this is <EXPRESSION>, <EXPRESSION> is approximately <EXPRESSION> Now, I promised you that this would be a real-life problem.","label":[[52,64,"expression"],[66,78,"expression"],[96,108,"expression"]],"Comments":[]}
+{"id":14066,"text":"So the question is when people were designing these GPS systems, they run clocks in the satellites.","label":[],"Comments":[]}
+{"id":14067,"text":"You're down there, you're making your measurements, you're talking to the satellite by-- or you're receiving its signals from its radio.","label":[],"Comments":[]}
+{"id":14068,"text":"The question is, is this going to cause problems in the transmission.","label":[],"Comments":[]}
+{"id":14069,"text":"And there are dozens of such problems that you have to check for.","label":[],"Comments":[]}
+{"id":14070,"text":"So in this case, what actually happened is that <EXPRESSION> is about <EXPRESSION> kilometers per second.","label":[[48,60,"expression"],[70,82,"expression"]],"Comments":[]}
+{"id":14071,"text":"That's how fast the GPS satellites actually go.","label":[],"Comments":[]}
+{"id":14072,"text":"In fact, they had to decide to put them at a certain altitude and they could've tweaked this if they had put them at different places.","label":[],"Comments":[]}
+{"id":14073,"text":"Anyway, the speed of light is <EXPRESSION> kilometers per second.","label":[[30,42,"expression"]],"Comments":[]}
+{"id":14074,"text":"So this number, <EXPRESSION> is approximately <EXPRESSION>.","label":[[16,28,"expression"],[46,58,"expression"]],"Comments":[]}
+{"id":14075,"text":"Now, if you actually keep track of how much of an error that would make in a GPS location, what you would find is maybe it's a millimeter or something like that.","label":[],"Comments":[]}
+{"id":14076,"text":"So in fact it doesn't matter.","label":[],"Comments":[]}
+{"id":14077,"text":"So that's nice.","label":[],"Comments":[]}
+{"id":14078,"text":"But in fact the engineers who were designing these systems actually did use this very computation.","label":[],"Comments":[]}
+{"id":14079,"text":"Exactly this.","label":[],"Comments":[]}
+{"id":14080,"text":"And the way that they used it was, they decided that because the clocks were different, when the satellite broadcasts its radio frequency, that frequency would be shifted.","label":[],"Comments":[]}
+{"id":14081,"text":"Would be offset.","label":[],"Comments":[]}
+{"id":14082,"text":"And they decided that the fidelity was so important that they would send the satellites off with this kind of, exactly this, offset.","label":[],"Comments":[]}
+{"id":14083,"text":"To compensate for the way the signal is.","label":[],"Comments":[]}
+{"id":14084,"text":"So from the point of view of good reception on your little GPS device, they changed the frequency at which the transmitter in the satellites, according to exactly this rule.","label":[],"Comments":[]}
+{"id":14085,"text":"And incidentally, the reason why they didn't-- they ignored higher-order terms, the sort of quadratic terms, is that if you take <EXPRESSION> that's a size <EXPRESSION>.","label":[[124,128,"command"],[129,141,"expression"],[156,168,"expression"]],"Comments":[]}
+{"id":14086,"text":"And that really is totally negligible.","label":[],"Comments":[]}
+{"id":14087,"text":"That doesn't matter to any measurement at all.","label":[],"Comments":[]}
+{"id":14088,"text":"That's on the order of nanometers, and it's not important for any of the uses to which GPS is put.","label":[],"Comments":[]}
+{"id":14089,"text":"OK, so that's a real example of a use of linear approximations.","label":[],"Comments":[]}
+{"id":14090,"text":"So.","label":[],"Comments":[]}
+{"id":14091,"text":"let's take a little pause here.","label":[],"Comments":[]}
+{"id":14092,"text":"I'm going to switch gears and talk about quadratic approximations.","label":[],"Comments":[]}
+{"id":14093,"text":"But before I do that, let's have some more questions.","label":[],"Comments":[]}
+{"id":14094,"text":"Yeah.","label":[],"Comments":[]}
+{"id":14095,"text":"STUDENT: [INAUDIBLE] PROF.","label":[],"Comments":[]}
+{"id":14096,"text":"JERISON: OK, so the question was asked, suppose I did this by different method.","label":[],"Comments":[]}
+{"id":14097,"text":"Suppose I applied the original formula here.","label":[],"Comments":[]}
+{"id":14098,"text":"Namely, I define the function <EXPRESSION>, which was this function here.","label":[[10,16,"command"],[17,29,"command_attribute"],[30,42,"expression"]],"Comments":[]}
+{"id":14099,"text":"And then I plugged in its value at <EQUATION> and the value of its derivative at <EQUATION>.","label":[[35,45,"equation"],[81,91,"equation"]],"Comments":[]}
+{"id":14100,"text":"So the answer is, yes, it's also true that if I call this function <EXPRESSION>, then it must be true that the linear approximation is <EXPRESSION> of - I'm sorry, it's at <EXPRESSION>, so it's <EXPRESSION>, <EXPRESSION>.","label":[[67,79,"expression"],[135,147,"expression"],[172,184,"expression"],[194,206,"expression"],[208,220,"expression"]],"Comments":[]}
+{"id":14101,"text":"So that should be true.","label":[],"Comments":[]}
+{"id":14102,"text":"That's the formula that we're using.","label":[],"Comments":[]}
+{"id":14103,"text":"It's up there in the pink also.","label":[],"Comments":[]}
+{"id":14104,"text":"So this is the formula.","label":[],"Comments":[]}
+{"id":14105,"text":"So now, what about <EXPRESSION>?","label":[[19,31,"expression"]],"Comments":[]}
+{"id":14106,"text":"Well, if I plug in <EXPRESSION> here, I get <EXPRESSION>.","label":[[11,18,"command"],[19,31,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":14107,"text":"So this thing is <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":14108,"text":"So that's no surprise.","label":[],"Comments":[]}
+{"id":14109,"text":"And that's what I got.","label":[],"Comments":[]}
+{"id":14110,"text":"If I computed <EXPRESSION>, by the product rule it would be an annoying, somewhat long, computation.","label":[[5,13,"expression"],[14,26,"expression"],[35,47,"method"]],"Comments":[]}
+{"id":14111,"text":"And because of what we just done, we know what it has to be.","label":[],"Comments":[]}
+{"id":14112,"text":"It has to be <EXPRESSION>.","label":[[13,25,"expression"]],"Comments":[]}
+{"id":14113,"text":"Because this is a shortcut for doing it.","label":[],"Comments":[]}
+{"id":14114,"text":"This is faster than doing that.","label":[],"Comments":[]}
+{"id":14115,"text":"But of course, that's a legal way of doing it.","label":[],"Comments":[]}
+{"id":14116,"text":"When you get to second derivatives, you'll quickly discover that this method that I've just described is complicated, but far superior to differentiating this expression twice.","label":[],"Comments":[]}
+{"id":14117,"text":"STUDENT: [INAUDIBLE] PROF.","label":[],"Comments":[]}
+{"id":14118,"text":"JERISON: Would you have to throw away an <EXPRESSION> term if you differentiated?","label":[[41,53,"expression"]],"Comments":[]}
+{"id":14119,"text":"No.","label":[],"Comments":[]}
+{"id":14120,"text":"And in fact, we didn't really have to do that here.","label":[],"Comments":[]}
+{"id":14121,"text":"If you differentiate and then plug in <EQUATION>.","label":[[30,37,"command"],[38,48,"equation"]],"Comments":[]}
+{"id":14122,"text":"So if you differentiate this and you plug in <EQUATION>, you get <EXPRESSION>.","label":[[10,23,"command"],[37,44,"command"],[45,55,"equation"],[65,77,"expression"]],"Comments":[]}
+{"id":14123,"text":"You differentiate this and you plug in <EQUATION>, this term still drops out because it's just a <EXPRESSION> when you differentiate.","label":[[4,17,"command"],[31,38,"command"],[39,49,"equation"],[97,109,"expression"],[119,132,"command"]],"Comments":[]}
+{"id":14124,"text":"And then you plug in <EQUATION>, it's gone too.","label":[[13,20,"command"],[21,31,"equation"]],"Comments":[]}
+{"id":14125,"text":"And similarly, if you're up here, it goes away and similarly over here it goes away.","label":[],"Comments":[]}
+{"id":14126,"text":"So the higher-order terms never influence this computation here.","label":[],"Comments":[]}
+{"id":14127,"text":"This just captures the linear features of the function.","label":[],"Comments":[]}
+{"id":14128,"text":"So now I want to go on to quadratic approximation.","label":[],"Comments":[]}
+{"id":14129,"text":"And now we're going to elaborate on this formula.","label":[],"Comments":[]}
+{"id":14130,"text":"So, linear approximation.","label":[],"Comments":[]}
+{"id":14131,"text":"Well, that should have been linear approximation.","label":[],"Comments":[]}
+{"id":14132,"text":"Liner.","label":[],"Comments":[]}
+{"id":14133,"text":"That's interesting.","label":[],"Comments":[]}
+{"id":14134,"text":"OK, so that was wrong.","label":[],"Comments":[]}
+{"id":14135,"text":"But now we're going to change it to quadratic.","label":[],"Comments":[]}
+{"id":14136,"text":"So, suppose we talk about a quadratic approximation here.","label":[],"Comments":[]}
+{"id":14137,"text":"Now, the quadratic approximation is going to be just an elaboration, one more step of detail.","label":[],"Comments":[]}
+{"id":14138,"text":"From the linear.","label":[],"Comments":[]}
+{"id":14139,"text":"In other words, it's an extension of the linear approximation.","label":[],"Comments":[]}
+{"id":14140,"text":"And so we're adding one more term here.","label":[],"Comments":[]}
+{"id":14141,"text":"And the extra term turns out to be related to the second derivative.","label":[],"Comments":[]}
+{"id":14142,"text":"But there's a factor of <EXPRESSION>.","label":[],"Comments":[]}
+{"id":14143,"text":"So this is the formula for the quadratic approximation.","label":[],"Comments":[]}
+{"id":14144,"text":"And this chunk of it, of course, is the linear part.","label":[],"Comments":[]}
+{"id":14145,"text":"This time I'll spell 'linear' correctly.","label":[],"Comments":[]}
+{"id":14146,"text":"So the linear part is the first piece.","label":[],"Comments":[]}
+{"id":14147,"text":"And the quadratic part is the second piece.","label":[],"Comments":[]}
+{"id":14148,"text":"I want to develop this same catalog of functions as I had before.","label":[],"Comments":[]}
+{"id":14149,"text":"In other words, I want to extend our formulas to the higher-order terms.","label":[[26,32,"command"],[37,45,"command_attribute"]],"Comments":[]}
+{"id":14150,"text":"And if you do that for this example here, maybe I'll even illustrate with this example before I go on, if you do it with this example here, just to give you a flavor for what goes on, what turns out to be the case.","label":[],"Comments":[]}
+{"id":14151,"text":"So this is the linear version.","label":[],"Comments":[]}
+{"id":14152,"text":"And now I'm going to compare it to the quadratic version.","label":[[21,28,"command"]],"Comments":[]}
+{"id":14153,"text":"So the quadratic version turns out to be this.","label":[],"Comments":[]}
+{"id":14154,"text":"That's what turns out to be the quadratic approximation.","label":[],"Comments":[]}
+{"id":14155,"text":"And when I use this example here, so this is <EXPRESSION>.","label":[[11,14,"command"],[45,57,"expression"]],"Comments":[]}
+{"id":14156,"text":"<EXPRESSION>, which is the same as <EXPRESSION>, right?","label":[[0,12,"expression"],[35,47,"expression"]],"Comments":[]}
+{"id":14157,"text":"So that's approximately <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
+{"id":14158,"text":"So <EXPRESSION>.","label":[[3,15,"expression"]],"Comments":[]}
+{"id":14159,"text":"So that turns out, instead of being <EXPRESSION>, that's point, what is it, .","label":[[36,48,"expression"]],"Comments":[]}
+{"id":14160,"text":"<EXPRESSION> or something like that.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":14161,"text":"It's a little bit less.","label":[],"Comments":[]}
+{"id":14162,"text":"It's not.","label":[],"Comments":[]}
+{"id":14163,"text":"<EXPRESSION>, but it's pretty close.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":14164,"text":"So if you like, the correction is lower in the decimal expansion.","label":[],"Comments":[]}
+{"id":14165,"text":"Now let me actually check a few of these.","label":[],"Comments":[]}
+{"id":14166,"text":"I'll carry them out.","label":[[5,10,"command"]],"Comments":[]}
+{"id":14167,"text":"And what I'm going to probably save for next time is explaining to you, so this is why this factor of <EXPRESSION>, and we're going to do this later.","label":[[102,114,"expression"]],"Comments":[]}
+{"id":14168,"text":"Do this next time.","label":[],"Comments":[]}
+{"id":14169,"text":"You can certainly do well to stick with this presentation for one more lecture.","label":[],"Comments":[]}
+{"id":14170,"text":"So we can see this reinforced.","label":[],"Comments":[]}
+{"id":14171,"text":"So now I'm going to work out these derivatives of the higher-order terms.","label":[],"Comments":[]}
+{"id":14172,"text":"And let me do it for the <EXPRESSION> approximately <EXPRESSION> case.","label":[[25,37,"expression"],[52,64,"expression"]],"Comments":[]}
+{"id":14173,"text":"So first of all, I want to add in the extra term here.","label":[[27,30,"command"],[44,48,"command_attribute"]],"Comments":[]}
+{"id":14174,"text":"Here's the extra term.","label":[],"Comments":[]}
+{"id":14175,"text":"For the quadratic part.","label":[],"Comments":[]}
+{"id":14176,"text":"And now in order to figure out what's going on, I'm going to need to compute, also, second derivatives.","label":[[69,76,"command"],[84,102,"command_attribute"]],"Comments":[]}
+{"id":14177,"text":"So here I need a second derivative.","label":[],"Comments":[]}
+{"id":14178,"text":"And I need to throw in the value of that second derivative at <EXPRESSION>.","label":[[14,22,"command"],[27,58,"command_attribute"],[62,74,"expression"]],"Comments":[]}
+{"id":14179,"text":"So this is what I'm going to need to compute.","label":[],"Comments":[]}
+{"id":14180,"text":"So if I do it, for example, for the sine function, I already have the linear part.","label":[],"Comments":[]}
+{"id":14181,"text":"I need this last bit.","label":[],"Comments":[]}
+{"id":14182,"text":"So I differentiate the sine function twice and I get, I claim minus the sine function.","label":[[5,18,"command"],[23,36,"command_attribute"],[56,61,"command"],[62,85,"command_attribute"]],"Comments":[]}
+{"id":14183,"text":"The first derivative is the cosine and the cosine derivative is minus the sine.","label":[],"Comments":[]}
+{"id":14184,"text":"And when I evaluate it at <EXPRESSION>, I get, lo and behold, <EXPRESSION>.","label":[[11,19,"command"],[26,38,"expression"],[62,74,"expression"]],"Comments":[]}
+{"id":14185,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
+{"id":14186,"text":"So actually the quadratic approximation is the same.","label":[],"Comments":[]}
+{"id":14187,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":14188,"text":"There's no <EXPRESSION> term here.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":14189,"text":"So that's why this is such a terrific approximation.","label":[],"Comments":[]}
+{"id":14190,"text":"It's also the quadratic approximation.","label":[],"Comments":[]}
+{"id":14191,"text":"For the cosine function, if you differentiate twice, you get the derivative is minus the sign and derivative of that is minus the cosine.","label":[],"Comments":[]}
+{"id":14192,"text":"So that's <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":14193,"text":"And now, if I evaluate that at <EXPRESSION>, I get <EXPRESSION>.","label":[[14,22,"command"],[31,43,"expression"],[51,63,"expression"]],"Comments":[]}
+{"id":14194,"text":"And so the term that I have to plug in here, this <EXPRESSION> is the coefficient that appears right here.","label":[[31,38,"expression"],[50,62,"expression"]],"Comments":[]}
+{"id":14195,"text":"So I need a <EXPRESSION> extra.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":14196,"text":"And if you do it for the <EXPRESSION>, you get an <EXPRESSION>, and you got a <EXPRESSION> and so you get <EXPRESSION> here.","label":[[25,37,"expression"],[50,62,"expression"],[78,90,"expression"],[106,118,"expression"]],"Comments":[]}
+{"id":14197,"text":"I'm going to finish these two in just a second, but I first want to tell you about the geometric significance of this quadratic term.","label":[],"Comments":[]}
+{"id":14198,"text":"So here we go.","label":[],"Comments":[]}
+{"id":14199,"text":"Geometric significance (of the quadratic term).","label":[],"Comments":[]}
+{"id":14200,"text":"So the geometric significance is best to describe just by drawing a picture here.","label":[],"Comments":[]}
+{"id":14201,"text":"And I'm going to draw the picture of the cosine function.","label":[[17,21,"command"],[37,56,"command_attribute"]],"Comments":[]}
+{"id":14202,"text":"And remember we already had the tangent line.","label":[],"Comments":[]}
+{"id":14203,"text":"So the tangent line was this horizontal here.","label":[],"Comments":[]}
+{"id":14204,"text":"And that was <EQUATION>.","label":[[13,23,"equation"]],"Comments":[]}
+{"id":14205,"text":"But you can see intuitively, that doesn't even tell you whether this function is above or below <EXPRESSION> there.","label":[[96,108,"expression"]],"Comments":[]}
+{"id":14206,"text":"Doesn't tell you much.","label":[],"Comments":[]}
+{"id":14207,"text":"It's sort of begging for there to be a little more information to tell us what the function is doing nearby.","label":[],"Comments":[]}
+{"id":14208,"text":"And indeed, that's what this second expression does for us.","label":[],"Comments":[]}
+{"id":14209,"text":"It's some kind of parabola underneath here.","label":[],"Comments":[]}
+{"id":14210,"text":"So this is <EQUATION>.","label":[[11,21,"equation"]],"Comments":[]}
+{"id":14211,"text":"Which is a much better fit to the curve than the horizontal line.","label":[],"Comments":[]}
+{"id":14212,"text":"And this is, if you like, this is the best fit parabola.","label":[],"Comments":[]}
+{"id":14213,"text":"So it's going to be the closest parabola to the curve.","label":[],"Comments":[]}
+{"id":14214,"text":"And that's more or less the significance.","label":[],"Comments":[]}
+{"id":14215,"text":"It's much, much closer.","label":[],"Comments":[]}
+{"id":14216,"text":"All right, I want to give you, well, I think we'll save these other derivations for next time because I think we're out of time now.","label":[],"Comments":[]}
+{"id":14217,"text":"So we'll do these next time.","label":[],"Comments":[]}

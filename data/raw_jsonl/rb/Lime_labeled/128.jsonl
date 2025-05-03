@@ -1,0 +1,395 @@
+{"id":9726,"text":"So far we have learned about partial derivatives and how to use them to find minima and maxima of functions of two variables or several variables.","label":[],"Comments":[]}
+{"id":9727,"text":"And now we are going to try to study, in more detail, how functions of several variables behave, how to compete their variations.","label":[],"Comments":[]}
+{"id":9728,"text":"How to estimate the variation in arbitrary directions.","label":[],"Comments":[]}
+{"id":9729,"text":"And so for that we are going to need some more tools actually to study this things.","label":[],"Comments":[]}
+{"id":9730,"text":"More tools to study functions.","label":[],"Comments":[]}
+{"id":9731,"text":"Today's topic is going to be differentials.","label":[],"Comments":[]}
+{"id":9732,"text":"And, just to motivate that, let me remind you about one trick that you probably know from single variable calculus, namely implicit differentiation.","label":[],"Comments":[]}
+{"id":9733,"text":"Let's say that you have a function <EQUATION> then you would sometimes write <EQUATION>.","label":[[35,45,"equation"],[71,76,"command"],[77,87,"equation"]],"Comments":[]}
+{"id":9734,"text":"And then maybe you would -- We use implicit differentiation to actually relate infinitesimal changes in y with infinitesimal changes in <EXPRESSION>.","label":[[104,105,"term"],[136,148,"expression"]],"Comments":[]}
+{"id":9735,"text":"And one thing we can do with that, for example, is actually figure out the rate of change <EXPRESSION> by , but also the reciprocal <EXPRESSION> by <EXPRESSION>.","label":[[90,102,"expression"],[132,144,"expression"],[148,160,"expression"]],"Comments":[]}
+{"id":9736,"text":"And so, for example, let's say that we have <EQUATION>.","label":[[44,54,"equation"]],"Comments":[]}
+{"id":9737,"text":"Then we can write <EQUATION>.","label":[[12,17,"command"],[18,28,"equation"]],"Comments":[]}
+{"id":9738,"text":"And, from there, we can actually find out what is the derivative of this function if we didn't know the answer already by writing <EQUATION>.","label":[[130,140,"equation"]],"Comments":[]}
+{"id":9739,"text":"That tells us that <EXPRESSION> is going to be <EXPRESSION>.","label":[[19,31,"expression"],[47,59,"expression"]],"Comments":[]}
+{"id":9740,"text":"And now <EXPRESSION> for relation to <EXPRESSION> is basically <EXPRESSION>.","label":[[8,20,"expression"],[37,49,"expression"],[63,75,"expression"]],"Comments":[]}
+{"id":9741,"text":"And that is how you find the formula for the derivative of the inverse sine function.","label":[],"Comments":[]}
+{"id":9742,"text":"A formula that you probably already knew, but that is one way to derive it.","label":[],"Comments":[]}
+{"id":9743,"text":"Now we are going to use also these kinds of notations, <EXPRESSION>, <EXPRESSION> and so on, but use them for functions of several variables.","label":[[55,67,"expression"],[69,81,"expression"]],"Comments":[]}
+{"id":9744,"text":"And, of course, we will have to learn what the rules of manipulation are and what we can do with them.","label":[],"Comments":[]}
+{"id":9745,"text":"The actual name of that is the total differential, as opposed to the partial derivatives.","label":[],"Comments":[]}
+{"id":9746,"text":"The total differential includes all of the various causes that can change -- Sorry.","label":[],"Comments":[]}
+{"id":9747,"text":"All the contributions that can cause the value of your function <EXPRESSION> to change.","label":[[64,76,"expression"]],"Comments":[]}
+{"id":9748,"text":"Namely, let's say that you have a function maybe of three variables, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, then you would write <EQUATION>.","label":[[69,81,"expression"],[83,95,"expression"],[97,109,"expression"],[126,131,"command"],[132,142,"equation"]],"Comments":[]}
+{"id":9749,"text":"Maybe, just to remind you of the other notation, partial <EXPRESSION>.","label":[[57,69,"expression"]],"Comments":[]}
+{"id":9750,"text":"Now, what is this object?","label":[],"Comments":[]}
+{"id":9751,"text":"What are the things on either side of this equality?","label":[],"Comments":[]}
+{"id":9752,"text":"Well, they are called differentials.","label":[],"Comments":[]}
+{"id":9753,"text":"And they are not numbers, they are not vectors, they are not matrices, they are a different kind of object.","label":[],"Comments":[]}
+{"id":9754,"text":"These things have their own rules of manipulations, and we have to learn what we can do with them.","label":[],"Comments":[]}
+{"id":9755,"text":"So how do we think about them?","label":[],"Comments":[]}
+{"id":9756,"text":"First of all, how do we not think about them?","label":[],"Comments":[]}
+{"id":9757,"text":"Here is an important thing to know.","label":[],"Comments":[]}
+{"id":9758,"text":"Important.","label":[],"Comments":[]}
+{"id":9759,"text":"<EXPRESSION> is not the same thing as <EXPRESSION>.","label":[[0,12,"expression"],[38,50,"expression"]],"Comments":[]}
+{"id":9760,"text":"That is meant to be a number.","label":[],"Comments":[]}
+{"id":9761,"text":"It is going to be a number once you have a small variation of <EXPRESSION>, a small variation of <EXPRESSION>, a small variation of <EXPRESSION>.","label":[[62,74,"expression"],[97,109,"expression"],[132,144,"expression"]],"Comments":[]}
+{"id":9762,"text":"These are numbers.","label":[],"Comments":[]}
+{"id":9763,"text":"<EXPRESSION>, <EXPRESSION> and <EXPRESSION> are actual numbers, and this becomes a number.","label":[[0,12,"expression"],[14,26,"expression"],[31,43,"expression"]],"Comments":[]}
+{"id":9764,"text":"This guy actually is not a number.","label":[],"Comments":[]}
+{"id":9765,"text":"You cannot give it a particular value.","label":[],"Comments":[]}
+{"id":9766,"text":"All you can do with a differential is express it in terms of other differentials.","label":[],"Comments":[]}
+{"id":9767,"text":"In fact, this <EXPRESSION>, <EXPRESSION> and <EXPRESSION>, well, they are mostly symbols out there.","label":[[14,26,"expression"],[28,40,"expression"],[45,57,"expression"]],"Comments":[]}
+{"id":9768,"text":"But if you want to think about them, they are the differentials of <EXPRESSION>, <EXPRESSION> and <EXPRESSION>.","label":[[67,80,"expression"],[81,93,"expression"],[98,110,"expression"]],"Comments":[]}
+{"id":9769,"text":"In fact, you can think of these differentials as placeholders where you will put other things.","label":[],"Comments":[]}
+{"id":9770,"text":"Of course, they represent, you know, there is this idea of changes in <EXPRESSION>, <EXPRESSION>, <EXPRESSION> and <EXPRESSION>.","label":[[70,82,"expression"],[84,96,"expression"],[98,110,"expression"],[115,127,"expression"]],"Comments":[]}
+{"id":9771,"text":"One way that one could explain it, and I don't really like it, is to say they represent infinitesimal changes.","label":[],"Comments":[]}
+{"id":9772,"text":"Another way to say it, and I think that is probably closer to the truth, is that these things are somehow placeholders to put values and get a tangent approximation.","label":[],"Comments":[]}
+{"id":9773,"text":"For example, if I do replace these symbols by <EXPRESSION>, <EXPRESSION> and <EXPRESSION> numbers then I will actually get a numerical quantity.","label":[[46,58,"expression"],[60,72,"expression"],[77,89,"expression"]],"Comments":[]}
+{"id":9774,"text":"And that will be an approximation formula for <EXPRESSION>.","label":[[46,58,"expression"]],"Comments":[]}
+{"id":9775,"text":"It will be the linear approximation, a tangent plane approximation.","label":[],"Comments":[]}
+{"id":9776,"text":"What we can do -- Well, let me start first with maybe something even before that.","label":[],"Comments":[]}
+{"id":9777,"text":"The first thing that it does is it can encode how changes in <EXPRESSION>, <EXPRESSION>, <EXPRESSION> affect the value of <EXPRESSION>.","label":[[61,73,"expression"],[75,87,"expression"],[89,101,"expression"],[122,134,"expression"]],"Comments":[]}
+{"id":9778,"text":"I would say that is the most general answer to what is this formula, what are these differentials.","label":[],"Comments":[]}
+{"id":9779,"text":"It is a relation between <EXPRESSION>, <EXPRESSION>, <EXPRESSION> and <EXPRESSION>.","label":[[25,37,"expression"],[39,51,"expression"],[53,65,"expression"],[70,82,"expression"]],"Comments":[]}
+{"id":9780,"text":"And this is a placeholder for small variations, <EXPRESSION>, <EXPRESSION> and <EXPRESSION> to get an approximation formula.","label":[[48,60,"expression"],[62,74,"expression"],[79,91,"expression"]],"Comments":[]}
+{"id":9781,"text":"Which is <EXPRESSION> is approximately = <EXPRESSION>.","label":[[9,21,"expression"],[41,53,"expression"]],"Comments":[]}
+{"id":9782,"text":"It is getting cramped, but I am sure you know what is going on here.","label":[],"Comments":[]}
+{"id":9783,"text":"And observe how this one is actually = while that one is approximately =.","label":[],"Comments":[]}
+{"id":9784,"text":"So they are really not the same.","label":[],"Comments":[]}
+{"id":9785,"text":"Another thing that the notation suggests we can do, and they claim we can do, is divide everything by some variable that everybody depends on.","label":[],"Comments":[]}
+{"id":9786,"text":"Say, for example, that <EXPRESSION>, <EXPRESSION> and <EXPRESSION> actually depend on some parameter <EXPRESSION> then they will vary, at a certain rate, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.","label":[[23,35,"expression"],[37,49,"expression"],[54,66,"expression"],[101,113,"expression"],[154,166,"expression"],[168,180,"expression"],[182,194,"expression"]],"Comments":[]}
+{"id":9787,"text":"And what the differential will tell us then is the rate of change of <EXPRESSION> as a function of <EXPRESSION>, when you plug in these values of <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, you will get <EXPRESSION> by dividing everything by <EXPRESSION> in here.","label":[[69,81,"expression"],[99,111,"expression"],[146,158,"expression"],[160,172,"expression"],[174,186,"expression"],[201,213,"expression"],[240,252,"expression"]],"Comments":[]}
+{"id":9788,"text":"The first thing we can do is divide by something like dt to get infinitesimal rate of change.","label":[],"Comments":[]}
+{"id":9789,"text":"Well, let me just say rate of change.","label":[],"Comments":[]}
+{"id":9790,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":9791,"text":"And that corresponds to the situation where <EXPRESSION> is a function of <EXPRESSION>, <EXPRESSION> is a function of <EXPRESSION> and <EXPRESSION> is a function of <EXPRESSION>.","label":[[44,56,"expression"],[74,86,"expression"],[88,100,"expression"],[118,130,"expression"],[135,147,"expression"],[165,177,"expression"]],"Comments":[]}
+{"id":9792,"text":"That means you can plug in these values into <EXPRESSION> to get, well, the value of <EXPRESSION> will depend on <EXPRESSION>, and then you can find the rate of change with <EXPRESSION> of a value of <EXPRESSION>.","label":[[19,26,"command"],[45,57,"expression"],[85,97,"expression"],[113,125,"expression"],[144,148,"command"],[153,167,"command_attribute"],[173,185,"expression"],[200,212,"expression"]],"Comments":[]}
+{"id":9793,"text":"These are the basic rules.","label":[],"Comments":[]}
+{"id":9794,"text":"And this is known as the chain rule.","label":[[25,35,"command_attribute"]],"Comments":[]}
+{"id":9795,"text":"It is one instance of a chain rule, which tells you when you have a function that depends on something, and that something in turn depends on something else, how to find the rate of change of a function on the new variable in terms of the derivatives of a function and also the dependence between the various variables.","label":[[24,34,"method"]],"Comments":[]}
+{"id":9796,"text":"Any questions so far?","label":[],"Comments":[]}
+{"id":9797,"text":"No.","label":[],"Comments":[]}
+{"id":9798,"text":"OK.","label":[],"Comments":[]}
+{"id":9799,"text":"A word of warming, in particular, about what I said up here.","label":[],"Comments":[]}
+{"id":9800,"text":"It is kind of unfortunate, but the textbook actually has a serious mistake on that.","label":[],"Comments":[]}
+{"id":9801,"text":"I mean they do have a couple of formulas where they mix a d with a delta, and I warn you not to do that, please.","label":[[58,59,"term"],[67,72,"term"]],"Comments":[]}
+{"id":9802,"text":"I mean there are d's and there are delta's, and basically they don't live in the same world.","label":[],"Comments":[]}
+{"id":9803,"text":"They don't see each other.","label":[],"Comments":[]}
+{"id":9804,"text":"The textbook is lying to you.","label":[],"Comments":[]}
+{"id":9805,"text":"Let's see.","label":[],"Comments":[]}
+{"id":9806,"text":"The first and the second claims, I don't really need to justify because the first one is just stating some general principle, but I am not making a precise mathematical claim.","label":[],"Comments":[]}
+{"id":9807,"text":"The second one, well, we know the approximation formula already, so I don't need to justify it for you.","label":[],"Comments":[]}
+{"id":9808,"text":"But, on the other hand, this formula here, I mean, you probably have a right to expect some reason for why this works.","label":[],"Comments":[]}
+{"id":9809,"text":"Why is this valid?","label":[],"Comments":[]}
+{"id":9810,"text":"After all, I first told you we have these new mysterious objects.","label":[],"Comments":[]}
+{"id":9811,"text":"And then I am telling you we can do that, but I kind of pulled it out of my hat.","label":[],"Comments":[]}
+{"id":9812,"text":"I mean I don't have a hat.","label":[],"Comments":[]}
+{"id":9813,"text":"Why is this valid?","label":[],"Comments":[]}
+{"id":9814,"text":"How can I get to this?","label":[],"Comments":[]}
+{"id":9815,"text":"Here is a first attempt of justifying how to get there.","label":[],"Comments":[]}
+{"id":9816,"text":"Let's see.","label":[],"Comments":[]}
+{"id":9817,"text":"Well, we said <EXPRESSION> is <EXPRESSION>.","label":[[14,26,"expression"],[30,42,"expression"]],"Comments":[]}
+{"id":9818,"text":"But we know if <EXPRESSION> is a function of <EXPRESSION> then <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>.","label":[[15,27,"expression"],[45,57,"expression"],[63,75,"expression"],[79,91,"expression"],[93,105,"expression"],[109,121,"expression"],[123,135,"expression"],[139,151,"expression"]],"Comments":[]}
+{"id":9819,"text":"If we plug these into that formula, we will get that <EXPRESSION> is <EXPRESSION>.","label":[[53,65,"expression"],[69,81,"expression"]],"Comments":[]}
+{"id":9820,"text":"And now I have a relation between <EXPRESSION> and <EXPRESSION>.","label":[[34,46,"expression"],[51,63,"expression"]],"Comments":[]}
+{"id":9821,"text":"See, I got <EXPRESSION> = sometimes times <EXPRESSION>.","label":[[11,23,"expression"],[42,54,"expression"]],"Comments":[]}
+{"id":9822,"text":"That means the rate of change of <EXPRESSION> with respect to <EXPRESSION> should be that coefficient.","label":[[33,45,"expression"],[62,74,"expression"]],"Comments":[]}
+{"id":9823,"text":"If I divide by <EXPRESSION> then I get the chain rule.","label":[[5,14,"command"],[15,27,"expression"],[43,53,"method"]],"Comments":[]}
+{"id":9824,"text":"That kind of works, but that shouldn't be completely satisfactory.","label":[],"Comments":[]}
+{"id":9825,"text":"Let's say that you are a true skeptic and you don't believe in differentials yet then it is maybe not very good that I actually used more of these differential notations in deriving the answer.","label":[],"Comments":[]}
+{"id":9826,"text":"That is actually not how it is proved.","label":[],"Comments":[]}
+{"id":9827,"text":"The way in which you prove the chain rule is not this way because we shouldn't have too much trust in differentials just yet.","label":[[31,41,"method"]],"Comments":[]}
+{"id":9828,"text":"I mean at the end of today's lecture, yes, probably we should believe in them, but so far we should be a little bit reluctant to believe these kind of strange objects telling us weird things.","label":[],"Comments":[]}
+{"id":9829,"text":"Here is a better way to think about it.","label":[],"Comments":[]}
+{"id":9830,"text":"One thing that we have trust in so far are approximation formulas.","label":[],"Comments":[]}
+{"id":9831,"text":"We should have trust in them.","label":[],"Comments":[]}
+{"id":9832,"text":"We should believe that if we change <EXPRESSION> a little bit, if we change <EXPRESSION> a little bit then we are actually going to get a change in <EXPRESSION> that is approximately given by these guys.","label":[[36,48,"expression"],[76,88,"expression"],[148,160,"expression"]],"Comments":[]}
+{"id":9833,"text":"And this is true for any changes in <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, but in particular let's look at the changes that we get if we just take these formulas as function of time and change time a little bit by <EXPRESSION>.","label":[[36,48,"expression"],[50,62,"expression"],[64,76,"expression"],[217,229,"expression"]],"Comments":[]}
+{"id":9834,"text":"We will actually use the changes in <EXPRESSION>, <EXPRESSION>, <EXPRESSION> in a small time <EXPRESSION>.","label":[[36,48,"expression"],[50,62,"expression"],[64,76,"expression"],[93,105,"expression"]],"Comments":[]}
+{"id":9835,"text":"Let's divide everybody by <EXPRESSION>.","label":[[6,12,"command"],[26,38,"expression"]],"Comments":[]}
+{"id":9836,"text":"Here I am just dividing numbers so I am not actually playing any tricks on you.","label":[],"Comments":[]}
+{"id":9837,"text":"I mean we don't really know what it means to divide differentials, but dividing numbers is something we know.","label":[],"Comments":[]}
+{"id":9838,"text":"And now, if I take <EXPRESSION> very small, this guy tends to the derivative, <EXPRESSION>.","label":[[14,18,"command"],[19,31,"expression"],[78,90,"expression"]],"Comments":[]}
+{"id":9839,"text":"Remember, the definition of <EXPRESSION> is the limit of this ratio when the time interval <EXPRESSION> tends to <EXPRESSION>.","label":[[28,40,"expression"],[91,103,"expression"],[113,125,"expression"]],"Comments":[]}
+{"id":9840,"text":"That means if I choose smaller and smaller values of <EXPRESSION> then these ratios of numbers will actually tend to some value, and that value is the derivative.","label":[[53,65,"expression"]],"Comments":[]}
+{"id":9841,"text":"Similarly, here <EXPRESSION>, when <EXPRESSION> is really small, will tend to the derivative <EXPRESSION>.","label":[[16,28,"expression"],[35,47,"expression"],[93,105,"expression"]],"Comments":[]}
+{"id":9842,"text":"And similarly for the others.","label":[],"Comments":[]}
+{"id":9843,"text":"That means, in particular, we take the limit as <EXPRESSION> tends to <EXPRESSION> and we get <EXPRESSION> on one side and on the other side we get <EXPRESSION>.","label":[[30,47,"command"],[48,60,"expression"],[70,82,"expression"],[94,106,"expression"],[148,160,"expression"]],"Comments":[]}
+{"id":9844,"text":"And the approximation becomes better and better.","label":[],"Comments":[]}
+{"id":9845,"text":"Remember when we write approximately = that means it is not quite the same, but if we take smaller variations then actually we will end up with values that are closer and closer.","label":[],"Comments":[]}
+{"id":9846,"text":"When we take the limit, as <EXPRESSION>, eventually we get an equality.","label":[[27,39,"expression"]],"Comments":[]}
+{"id":9847,"text":"I mean mathematicians have more complicated words to justify this statement.","label":[],"Comments":[]}
+{"id":9848,"text":"I will spare them for now, and you will see them when you take analysis if you go in that direction.","label":[],"Comments":[]}
+{"id":9849,"text":"Any questions so far?","label":[],"Comments":[]}
+{"id":9850,"text":"No.","label":[],"Comments":[]}
+{"id":9851,"text":"OK.","label":[],"Comments":[]}
+{"id":9852,"text":"Let's check this with an example.","label":[],"Comments":[]}
+{"id":9853,"text":"Let's say that we really don't have any faith in these things so let's try to do it.","label":[],"Comments":[]}
+{"id":9854,"text":"Let's say I give you a function that is <EXPRESSION>.","label":[[40,52,"expression"]],"Comments":[]}
+{"id":9855,"text":"And let's say that maybe <EXPRESSION> will be <EXPRESSION>, <EXPRESSION> will be <EXPRESSION> and <EXPRESSION> will be <EXPRESSION>.","label":[[25,37,"expression"],[46,58,"expression"],[60,72,"expression"],[81,93,"expression"],[98,110,"expression"],[119,131,"expression"]],"Comments":[]}
+{"id":9856,"text":"What does the chain rule say?","label":[[14,24,"method"]],"Comments":[]}
+{"id":9857,"text":"Well, the chain rule tells us that <EXPRESSION> is, we start with <EXPRESSION>, well, what is that?","label":[[10,20,"method"],[35,47,"expression"],[66,78,"expression"]],"Comments":[]}
+{"id":9858,"text":"That is <EXPRESSION>, and maybe I should point out that this is <EXPRESSION> -- Well, <EXPRESSION>, which is going to be just <EXPRESSION>.","label":[[8,20,"expression"],[64,76,"expression"],[86,98,"expression"],[126,138,"expression"]],"Comments":[]}
+{"id":9859,"text":"And so now let's plug in the actual values of these things.","label":[],"Comments":[]}
+{"id":9860,"text":"<EXPRESSION> is <EXPRESSION> and <EXPRESSION> is <EXPRESSION>, so that will be <EXPRESSION> is <EXPRESSION> is <EXPRESSION> is <EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"],[33,46,"expression"],[49,61,"expression"],[79,91,"expression"],[95,107,"expression"],[111,123,"expression"],[127,140,"expression"],[143,155,"expression"]],"Comments":[]}
+{"id":9861,"text":"At the end of calculation we get <EXPRESSION>.","label":[[33,45,"expression"]],"Comments":[]}
+{"id":9862,"text":"That is what the chain rule tells us.","label":[[17,27,"method"]],"Comments":[]}
+{"id":9863,"text":"How else could we find that?","label":[],"Comments":[]}
+{"id":9864,"text":"Well, we could just plug in values of <EXPRESSION>, <EXPRESSION> and <EXPRESSION>, <EXPRESSION> plus <EXPRESSION> is a function of <EXPRESSION>, and take its derivative.","label":[[20,27,"command"],[38,50,"expression"],[52,64,"expression"],[69,81,"expression"],[83,95,"expression"],[96,100,"command"],[101,113,"expression"],[131,143,"expression"]],"Comments":[]}
+{"id":9865,"text":"Let's do that just for verification.","label":[],"Comments":[]}
+{"id":9866,"text":"It should be exactly the same answer.","label":[],"Comments":[]}
+{"id":9867,"text":"And, in fact, in this case, the two calculations are roughly = in complication.","label":[],"Comments":[]}
+{"id":9868,"text":"But say that your function of <EXPRESSION>, <EXPRESSION>, <EXPRESSION> was much more complicated than that, or maybe you actually didn't know a formula for it, you only knew its partial derivatives, then you would need to use the chain rule.","label":[[30,42,"expression"],[44,56,"expression"],[58,70,"expression"],[222,225,"command"],[230,240,"method"]],"Comments":[]}
+{"id":9869,"text":"So, sometimes plugging in values is easier but not always.","label":[],"Comments":[]}
+{"id":9870,"text":"Let's just check quickly.","label":[],"Comments":[]}
+{"id":9871,"text":"The other method would be to substitute.","label":[],"Comments":[]}
+{"id":9872,"text":"<EXPRESSION> as a function of <EXPRESSION>.","label":[[0,12,"expression"],[30,42,"expression"]],"Comments":[]}
+{"id":9873,"text":"Remember <EXPRESSION> was <EXPRESSION>.","label":[[9,21,"expression"],[26,38,"expression"]],"Comments":[]}
+{"id":9874,"text":"<EXPRESSION> was <EXPRESSION>, so you get <EXPRESSION>, <EXPRESSION> is <EXPRESSION> was <EXPRESSION>.","label":[[0,12,"expression"],[17,29,"expression"],[42,54,"expression"],[56,68,"expression"],[72,84,"expression"],[89,101,"expression"]],"Comments":[]}
+{"id":9875,"text":"<EXPRESSION>, we know how to take the derivative using single variable calculus.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":9876,"text":"Well, we should know.","label":[],"Comments":[]}
+{"id":9877,"text":"If we don't know then we should take a look at <EXPRESSION>.","label":[[47,59,"expression"]],"Comments":[]}
+{"id":9878,"text":"<EXPRESSION> again.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":9879,"text":"The product rule that will be derivative of <EXPRESSION> is <EXPRESSION>.","label":[[4,16,"method"],[44,56,"expression"],[60,72,"expression"]],"Comments":[]}
+{"id":9880,"text":"And that is the same answer as over there.","label":[],"Comments":[]}
+{"id":9881,"text":"I ended up writing, you know, maybe I wrote slightly more here, but actually the amount of calculations really was pretty much the same.","label":[],"Comments":[]}
+{"id":9882,"text":"Any questions about that?","label":[],"Comments":[]}
+{"id":9883,"text":"Yes?","label":[],"Comments":[]}
+{"id":9884,"text":"What kind of object is <EXPRESSION>?","label":[[23,35,"expression"]],"Comments":[]}
+{"id":9885,"text":"Well, you can think of <EXPRESSION> as just another variable that is given as a function of <EXPRESSION>, <EXPRESSION> and <EXPRESSION>, for example.","label":[[23,35,"expression"],[92,104,"expression"],[106,119,"expression"],[123,135,"expression"]],"Comments":[]}
+{"id":9886,"text":"You would have a function of <EXPRESSION>, <EXPRESSION>, <EXPRESSION> defined by this formula, and I call it <EXPRESSION>.","label":[[29,41,"expression"],[43,55,"expression"],[57,69,"expression"],[109,121,"expression"]],"Comments":[]}
+{"id":9887,"text":"I call its value <EXPRESSION> so that I can substitute <EXPRESSION> instead of <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.","label":[[17,29,"expression"],[44,54,"command"],[55,67,"expression"],[79,91,"expression"],[93,105,"expression"],[107,119,"expression"]],"Comments":[]}
+{"id":9888,"text":"Well, let's think of <EXPRESSION> as a function of three variables.","label":[[21,33,"expression"]],"Comments":[]}
+{"id":9889,"text":"And then, when I plug in the dependents of these three variables on <EXPRESSION>, then it becomes just a function of <EXPRESSION>.","label":[[68,80,"expression"],[117,129,"expression"]],"Comments":[]}
+{"id":9890,"text":"I mean, really, my <EXPRESSION> here is pretty much what I called <EXPRESSION> before.","label":[[19,31,"expression"],[66,78,"expression"]],"Comments":[]}
+{"id":9891,"text":"There is no major difference between the two.","label":[],"Comments":[]}
+{"id":9892,"text":"Any other questions?","label":[],"Comments":[]}
+{"id":9893,"text":"No.","label":[],"Comments":[]}
+{"id":9894,"text":"OK.","label":[],"Comments":[]}
+{"id":9895,"text":"Let's see.","label":[],"Comments":[]}
+{"id":9896,"text":"Here is an application of what we have seen.","label":[],"Comments":[]}
+{"id":9897,"text":"Let's say that you want to understand actually all these rules about taking derivatives in single variable calculus.","label":[],"Comments":[]}
+{"id":9898,"text":"What I showed you at the beginning, and then erased, basically justifies how to take the derivative of a reciprocal function.","label":[],"Comments":[]}
+{"id":9899,"text":"And for that you didn't need multivariable calculus.","label":[],"Comments":[]}
+{"id":9900,"text":"But let's try to justify the product rule, for example, for the derivative.","label":[],"Comments":[]}
+{"id":9901,"text":"An application of this actually is to justify the product and quotient rules.","label":[],"Comments":[]}
+{"id":9902,"text":"Let's think, for example, of a function of two variables, <EXPRESSION> and <EXPRESSION>, that is just the product <EXPRESSION>.","label":[[58,70,"expression"],[75,87,"expression"],[114,126,"expression"]],"Comments":[]}
+{"id":9903,"text":"And let's say that <EXPRESSION> and <EXPRESSION> are actually functions of one variable <EXPRESSION>.","label":[[19,31,"expression"],[36,48,"expression"],[88,100,"expression"]],"Comments":[]}
+{"id":9904,"text":"Then, well, <EXPRESSION> is given by the chain rule applied to <EXPRESSION>.","label":[[12,24,"expression"],[41,51,"method"],[63,75,"expression"]],"Comments":[]}
+{"id":9905,"text":"This is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":9906,"text":"So <EXPRESSION> should be <EXPRESSION>.","label":[[3,15,"expression"],[26,38,"expression"]],"Comments":[]}
+{"id":9907,"text":"But now what is the partial of <EXPRESSION> with respect to <EXPRESSION>?","label":[[31,43,"expression"],[60,72,"expression"]],"Comments":[]}
+{"id":9908,"text":"It is <EXPRESSION>.","label":[[6,18,"expression"]],"Comments":[]}
+{"id":9909,"text":"That is <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":9910,"text":"And partial of <EXPRESSION> with respect to <EXPRESSION> is going to be just <EXPRESSION>.","label":[[15,27,"expression"],[44,56,"expression"],[77,89,"expression"]],"Comments":[]}
+{"id":9911,"text":"So you get back the usual product rule.","label":[[26,38,"method"]],"Comments":[]}
+{"id":9912,"text":"That is a slightly complicated way of deriving it, but that is a valid way of understanding how to take the derivative of a product by thinking of the product first as a function of variables, which are <EXPRESSION> and <EXPRESSION>.","label":[[203,215,"expression"],[220,232,"expression"]],"Comments":[]}
+{"id":9913,"text":"And then say, oh, but <EXPRESSION> and <EXPRESSION> were actually functions of a variable <EXPRESSION>.","label":[[22,34,"expression"],[39,51,"expression"],[90,102,"expression"]],"Comments":[]}
+{"id":9914,"text":"And then you do the differentiation in two stages using the chain rule.","label":[],"Comments":[]}
+{"id":9915,"text":"Similarly, you can do the quotient rule just for practice.","label":[],"Comments":[]}
+{"id":9916,"text":"If I give you the function <EQUATION>.","label":[[27,37,"equation"]],"Comments":[]}
+{"id":9917,"text":"Right now I am thinking of it as a function of two variables, <EXPRESSION> and <EXPRESSION>.","label":[[62,74,"expression"],[79,91,"expression"]],"Comments":[]}
+{"id":9918,"text":"<EXPRESSION> and <EXPRESSION> themselves are actually going to be functions of <EXPRESSION>.","label":[[0,12,"expression"],[17,29,"expression"],[79,91,"expression"]],"Comments":[]}
+{"id":9919,"text":"Then, well, <EXPRESSION> is going to be partial <EXPRESSION>, partial <EXPRESSION>.","label":[[12,24,"expression"],[48,60,"expression"],[70,82,"expression"]],"Comments":[]}
+{"id":9920,"text":"How much is that?","label":[],"Comments":[]}
+{"id":9921,"text":"How much is partial <EXPRESSION>, partial <EXPRESSION>?","label":[[20,32,"expression"],[42,54,"expression"]],"Comments":[]}
+{"id":9922,"text":"<EXPRESSION> -- Well, next we need to have partial <EXPRESSION> over partial <EXPRESSION>.","label":[[0,12,"expression"],[51,63,"expression"],[77,89,"expression"]],"Comments":[]}
+{"id":9923,"text":"Well, what is the derivative of this with respect to <EXPRESSION>?","label":[[53,65,"expression"]],"Comments":[]}
+{"id":9924,"text":"Here we need to know how to differentiate the inverse.","label":[],"Comments":[]}
+{"id":9925,"text":"It is <EXPRESSION>.","label":[[6,18,"expression"]],"Comments":[]}
+{"id":9926,"text":"And that is actually the usual quotient rule just written in a slightly different way.","label":[],"Comments":[]}
+{"id":9927,"text":"I mean, just in case you really want to see it, if you clear denominators for <EXPRESSION> then you will see basically <EXPRESSION>.","label":[[78,90,"expression"],[119,131,"expression"]],"Comments":[]}
+{"id":9928,"text":"Now let's go to something even more crazy.","label":[],"Comments":[]}
+{"id":9929,"text":"I claim we can do chain rules with more variables.","label":[[18,29,"method"]],"Comments":[]}
+{"id":9930,"text":"Let's say that I have a quantity.","label":[],"Comments":[]}
+{"id":9931,"text":"Let's call it <EXPRESSION> for now.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":9932,"text":"Let's say I have quantity <EXPRESSION> as a function of say variables <EXPRESSION> and <EXPRESSION>.","label":[[26,38,"expression"],[70,82,"expression"],[87,99,"expression"]],"Comments":[]}
+{"id":9933,"text":"And so in the previous setup <EXPRESSION> and <EXPRESSION> depended on some parameters <EXPRESSION>.","label":[[29,41,"expression"],[46,58,"expression"],[87,99,"expression"]],"Comments":[]}
+{"id":9934,"text":"But, actually, let's now look at the case where <EXPRESSION> and <EXPRESSION> themselves are functions of several variables.","label":[[48,60,"expression"],[65,77,"expression"]],"Comments":[]}
+{"id":9935,"text":"Let's say of two more variables.","label":[],"Comments":[]}
+{"id":9936,"text":"Let's call them <EXPRESSION> and <EXPRESSION>.","label":[[16,28,"expression"],[33,45,"expression"]],"Comments":[]}
+{"id":9937,"text":"I am going to stay with these abstract letters, but if it bothers you, if it sounds completely unmotivated think about it maybe in terms of something you might now.","label":[],"Comments":[]}
+{"id":9938,"text":"Say, polar coordinates.","label":[],"Comments":[]}
+{"id":9939,"text":"Let's say that I have a function but is defined in terms of the polar coordinate variables on <EXPRESSION>.","label":[[94,106,"expression"]],"Comments":[]}
+{"id":9940,"text":"And then I know I want to switch to usual coordinates <EXPRESSION> and <EXPRESSION>.","label":[[26,35,"command"],[54,66,"expression"],[71,83,"expression"]],"Comments":[]}
+{"id":9941,"text":"Or, the other way around, I have a function of <EXPRESSION> and <EXPRESSION> and I want to express it in terms of the polar coordinates <EXPRESSION> and <EXPRESSION>.","label":[[47,59,"expression"],[64,76,"expression"],[136,148,"expression"],[153,165,"expression"]],"Comments":[]}
+{"id":9942,"text":"Then I would want to know maybe how the derivatives, with respect to the various sets of variables, related to each other.","label":[],"Comments":[]}
+{"id":9943,"text":"One way I could do it is, of course, to say now if I plug the formula for <EXPRESSION> and the formula for <EXPRESSION> into the formula for <EXPRESSION> then <EXPRESSION> becomes a function of <EXPRESSION> and <EXPRESSION>, and it can try to take partial derivatives.","label":[[53,57,"command"],[74,86,"expression"],[107,119,"expression"],[141,153,"expression"],[159,171,"expression"],[194,206,"expression"],[211,223,"expression"]],"Comments":[]}
+{"id":9944,"text":"If I have explicit formulas, well, that could work.","label":[],"Comments":[]}
+{"id":9945,"text":"But maybe the formulas are complicated.","label":[],"Comments":[]}
+{"id":9946,"text":"Typically, if I switch between rectangular and polar coordinates, there might be inverse trig, there might be maybe arctangent to express the polar angle in terms of <EXPRESSION> and <EXPRESSION>.","label":[[166,178,"expression"],[183,195,"expression"]],"Comments":[]}
+{"id":9947,"text":"And when I don't really want to actually substitute arctangents everywhere, maybe I would rather deal with the derivatives.","label":[],"Comments":[]}
+{"id":9948,"text":"How do I do that?","label":[],"Comments":[]}
+{"id":9949,"text":"The question is what are partial <EXPRESSION> over partial <EXPRESSION> and partial <EXPRESSION> over partial <EXPRESSION> in terms of, let's see, what do we need to know to understand that?","label":[[33,45,"expression"],[59,71,"expression"],[84,96,"expression"],[110,122,"expression"]],"Comments":[]}
+{"id":9950,"text":"Well, probably we should know how <EXPRESSION> depends on <EXPRESSION> and <EXPRESSION>.","label":[[34,46,"expression"],[58,70,"expression"],[75,87,"expression"]],"Comments":[]}
+{"id":9951,"text":"If we don't know that then we are probably toast.","label":[],"Comments":[]}
+{"id":9952,"text":"Partial <EXPRESSION> over partial <EXPRESSION>, partial  over partial <EXPRESSION> should be required.","label":[[8,20,"expression"],[34,46,"expression"],[70,82,"expression"]],"Comments":[]}
+{"id":9953,"text":"What else should we know?","label":[],"Comments":[]}
+{"id":9954,"text":"Well, it would probably help to know how <EXPRESSION> and <EXPRESSION> depend on <EXPRESSION> and <EXPRESSION>.","label":[[41,53,"expression"],[58,71,"expression"],[81,93,"expression"],[98,110,"expression"]],"Comments":[]}
+{"id":9955,"text":"If we don't know that then we don't really know how to do it.","label":[],"Comments":[]}
+{"id":9956,"text":"We need also <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.","label":[[13,25,"expression"],[26,39,"expression"],[41,53,"expression"],[55,67,"expression"]],"Comments":[]}
+{"id":9957,"text":"We have a lot of partials in there.","label":[],"Comments":[]}
+{"id":9958,"text":"Well, let's see how we can do that.","label":[],"Comments":[]}
+{"id":9959,"text":"Let's start by writing <EXPRESSION>.","label":[[23,35,"expression"]],"Comments":[]}
+{"id":9960,"text":"We know that <EXPRESSION> is partial <EXPRESSION>, well, I don't know why I have two names, <EXPRESSION> and <EXPRESSION>.","label":[[13,25,"expression"],[37,49,"expression"],[92,104,"expression"],[109,121,"expression"]],"Comments":[]}
+{"id":9961,"text":"I mean <EXPRESSION> and <EXPRESSION> are really the same thing here, but let's say <EXPRESSION>.","label":[[7,19,"expression"],[24,36,"expression"],[83,95,"expression"]],"Comments":[]}
+{"id":9962,"text":"So far that is our new friend, the differential.","label":[],"Comments":[]}
+{"id":9963,"text":"Now what do we want to do with it?","label":[],"Comments":[]}
+{"id":9964,"text":"Well, we would like to get rid of <EXPRESSION> and <EXPRESSION> because we like to express things in terms of, you know, the question we are asking ourselves is let's say that I change <EXPRESSION> a little bit, how does <EXPRESSION> change?","label":[[34,46,"expression"],[51,63,"expression"],[185,197,"expression"],[221,233,"expression"]],"Comments":[]}
+{"id":9965,"text":"Of course, what happens, if I change <EXPRESSION> a little bit, is <EXPRESSION> and <EXPRESSION> will change.","label":[[30,36,"command"],[37,49,"expression"],[67,79,"expression"],[84,96,"expression"],[102,108,"command"]],"Comments":[]}
+{"id":9966,"text":"How do they change?","label":[],"Comments":[]}
+{"id":9967,"text":"Well, that is given to me by the differential.","label":[],"Comments":[]}
+{"id":9968,"text":"<EXPRESSION> is going to be, well, I can use the differential again.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":9969,"text":"Well, <EXPRESSION> is a function of <EXPRESSION> and <EXPRESSION>.","label":[[6,18,"expression"],[36,48,"expression"],[53,65,"expression"]],"Comments":[]}
+{"id":9970,"text":"That will be <EXPRESSION>.","label":[[13,25,"expression"]],"Comments":[]}
+{"id":9971,"text":"That is, again, taking the differential of a function of two variables.","label":[],"Comments":[]}
+{"id":9972,"text":"Does that make sense?","label":[],"Comments":[]}
+{"id":9973,"text":"And then we have the other guy, <EXPRESSION>, what is <EXPRESSION>?","label":[[32,44,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id":9974,"text":"Well, similarly <EXPRESSION> is <EXPRESSION>.","label":[[16,28,"expression"],[32,44,"expression"]],"Comments":[]}
+{"id":9975,"text":"And now we have a relation between <EXPRESSION> and <EXPRESSION> and <EXPRESSION>.","label":[[35,47,"expression"],[52,64,"expression"],[69,81,"expression"]],"Comments":[]}
+{"id":9976,"text":"We are expressing how <EXPRESSION> reacts to changes in <EXPRESSION> and <EXPRESSION>, which was our goal.","label":[[22,34,"expression"],[56,68,"expression"],[73,85,"expression"]],"Comments":[]}
+{"id":9977,"text":"Now, let's actually collect terms so that we see it a bit better.","label":[],"Comments":[]}
+{"id":9978,"text":"It is going to be <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":9979,"text":"Now we have <EXPRESSION> = something <EXPRESSION> plus something <EXPRESSION>.","label":[[12,24,"expression"],[37,49,"expression"],[65,77,"expression"]],"Comments":[]}
+{"id":9980,"text":"Well, the coefficient here has to be partial <EXPRESSION> over partial <EXPRESSION>.","label":[[45,57,"expression"],[71,83,"expression"]],"Comments":[]}
+{"id":9981,"text":"What else could it be?","label":[],"Comments":[]}
+{"id":9982,"text":"That's the rate of change of <EXPRESSION> with respect to <EXPRESSION> if I forget what happens when I change <EXPRESSION>.","label":[[29,41,"expression"],[58,70,"expression"],[110,122,"expression"]],"Comments":[]}
+{"id":9983,"text":"That is the definition of a partial.","label":[],"Comments":[]}
+{"id":9984,"text":"Similarly, this one has to be partial <EXPRESSION> over partial <EXPRESSION>.","label":[[38,50,"expression"],[64,76,"expression"]],"Comments":[]}
+{"id":9985,"text":"That is because it is the rate of change with respect to , if I keep <EXPRESSION> constant, so that these guys are completely ignored.","label":[[69,81,"expression"]],"Comments":[]}
+{"id":9986,"text":"Now you see how the total differential accounts for, somehow, all the partial derivatives that come as coefficients of the individual variables in these expressions.","label":[],"Comments":[]}
+{"id":9987,"text":"Let me maybe rewrite these formulas in a more visible way and then re-explain them to you.","label":[],"Comments":[]}
+{"id":9988,"text":"Here is the chain rule for this situation, with two intermediate variables and two variables that you express these in terms of.","label":[[12,22,"method"]],"Comments":[]}
+{"id":9989,"text":"In our setting, we get partial <EQUATION>.","label":[[31,41,"equation"]],"Comments":[]}
+{"id":9990,"text":"And the other one, the same thing with <EXPRESSION> instead of <EXPRESSION>, <EXPRESSION>.","label":[[39,51,"expression"],[63,75,"expression"],[77,89,"expression"]],"Comments":[]}
+{"id":9991,"text":"I have to explain various things about these formulas because they look complicated.","label":[],"Comments":[]}
+{"id":9992,"text":"And, actually, they are not that complicated.","label":[],"Comments":[]}
+{"id":9993,"text":"A couple of things to know.","label":[],"Comments":[]}
+{"id":9994,"text":"The first thing, how do we remember a formula like that?","label":[],"Comments":[]}
+{"id":9995,"text":"Well, that is easy.","label":[],"Comments":[]}
+{"id":9996,"text":"We want to know how <EXPRESSION> depends on <EXPRESSION>.","label":[[20,32,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":9997,"text":"Well, what does <EXPRESSION> depend on?","label":[[16,28,"expression"]],"Comments":[]}
+{"id":9998,"text":"It depends on <EXPRESSION> and <EXPRESSION>.","label":[[14,26,"expression"],[31,43,"expression"]],"Comments":[]}
+{"id":9999,"text":"So we will put partial <EXPRESSION> over partial <EXPRESSION> and partial <EXPRESSION> over partial <EXPRESSION>.","label":[[23,35,"expression"],[49,61,"expression"],[74,86,"expression"],[100,112,"expression"]],"Comments":[]}
+{"id":10000,"text":"Now, <EXPRESSION> and <EXPRESSION>, why are they here?","label":[[5,17,"expression"],[22,34,"expression"]],"Comments":[]}
+{"id":10001,"text":"Well, they are here because they actually depend on <EXPRESSION> as well.","label":[],"Comments":[]}
+{"id":10002,"text":"How does <EXPRESSION> depend on <EXPRESSION>?","label":[[9,21,"expression"],[32,44,"expression"]],"Comments":[]}
+{"id":10003,"text":"Well, the answer is <EXPRESSION>.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":10004,"text":"How does <EXPRESSION> depend on <EXPRESSION>?","label":[[9,21,"expression"],[32,44,"expression"]],"Comments":[]}
+{"id":10005,"text":"The answer is <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":10006,"text":"See, the structure of this formula is simple.","label":[],"Comments":[]}
+{"id":10007,"text":"To find the partial of f with respect to some new variable you use the partials with respect to the variables that <EXPRESSION> was initially defined in terms of <EXPRESSION> and <EXPRESSION>.","label":[[115,127,"expression"],[162,174,"expression"],[179,191,"expression"]],"Comments":[]}
+{"id":10008,"text":"And you multiply them by the partials of <EXPRESSION> and <EXPRESSION> in terms of the new variable that you want to look at, <EXPRESSION> here, and you sum these things together.","label":[[41,53,"expression"],[58,70,"expression"],[126,138,"expression"]],"Comments":[]}
+{"id":10009,"text":"That is the structure of the formula.","label":[],"Comments":[]}
+{"id":10010,"text":"Why does it work?","label":[],"Comments":[]}
+{"id":10011,"text":"Well, let me explain it to you in a slightly different language.","label":[],"Comments":[]}
+{"id":10012,"text":"This asks us how does <EXPRESSION> change if I change <EXPRESSION> a little bit?","label":[[22,34,"expression"],[47,53,"command"],[54,66,"expression"]],"Comments":[]}
+{"id":10013,"text":"Well, why would <EXPRESSION> change if <EXPRESSION> changes a little bit?","label":[[16,28,"expression"]],"Comments":[]}
+{"id":10014,"text":"Well, it would change because <EXPRESSION> actually depends on <EXPRESSION> and <EXPRESSION> and <EXPRESSION> and <EXPRESSION> depend on <EXPRESSION>.","label":[[30,42,"expression"],[63,75,"expression"],[80,92,"expression"],[97,109,"expression"],[114,126,"expression"],[137,149,"expression"]],"Comments":[]}
+{"id":10015,"text":"If I change <EXPRESSION>, how quickly does <EXPRESSION> change?","label":[[5,11,"command"],[12,24,"expression"],[43,55,"expression"]],"Comments":[]}
+{"id":10016,"text":"Well, the answer is <EXPRESSION>.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":10017,"text":"And now, if I change <EXPRESSION> at this rate, how does that have to change?","label":[[14,21,"command"],[21,33,"expression"]],"Comments":[]}
+{"id":10018,"text":"Well, the answer is <EXPRESSION> times this guy.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":10019,"text":"Well, at the same time, <EXPRESSION> is also changing.","label":[[24,36,"expression"]],"Comments":[]}
+{"id":10020,"text":"How fast is <EXPRESSION> changing if I change <EXPRESSION>?","label":[[12,24,"expression"],[39,45,"command"],[46,58,"expression"]],"Comments":[]}
+{"id":10021,"text":"Well, at the rate of <EXPRESSION>.","label":[[21,33,"expression"]],"Comments":[]}
+{"id":10022,"text":"But now if I change this how does <EXPRESSION> change?","label":[[13,19,"command"],[34,46,"expression"]],"Comments":[]}
+{"id":10023,"text":"Well, the rate of change is <EXPRESSION>.","label":[[28,40,"expression"]],"Comments":[]}
+{"id":10024,"text":"The product is the effect of how you change it, changing <EXPRESSION>, and therefore changing <EXPRESSION>.","label":[[57,69,"expression"],[94,106,"expression"]],"Comments":[]}
+{"id":10025,"text":"Now, what happens in real life, if I change <EXPRESSION> a little bit?","label":[[37,43,"command"],[44,56,"expression"]],"Comments":[]}
+{"id":10026,"text":"Well, both <EXPRESSION> and <EXPRESSION> change at the same time.","label":[[11,23,"expression"],[28,40,"expression"]],"Comments":[]}
+{"id":10027,"text":"So how does <EXPRESSION> change?","label":[[12,24,"expression"]],"Comments":[]}
+{"id":10028,"text":"Well, it is the sum of the two effects.","label":[],"Comments":[]}
+{"id":10029,"text":"Does that make sense?","label":[],"Comments":[]}
+{"id":10030,"text":"Good.","label":[],"Comments":[]}
+{"id":10031,"text":"Of course, if <EXPRESSION> depends on more variables then you just have more terms in here.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":10032,"text":"OK.","label":[],"Comments":[]}
+{"id":10033,"text":"Here is another thing that may be a little bit confusing.","label":[],"Comments":[]}
+{"id":10034,"text":"What is tempting?","label":[],"Comments":[]}
+{"id":10035,"text":"Well, what is tempting here would be to simplify these formulas by removing these partial x's.","label":[[90,91,"term"]],"Comments":[]}
+{"id":10036,"text":"Let's simplify by partial <EXPRESSION>.","label":[[6,14,"command"],[26,38,"expression"]],"Comments":[]}
+{"id":10037,"text":"Let's simplify by partial <EXPRESSION>.","label":[[6,14,"command"],[26,38,"expression"]],"Comments":[]}
+{"id":10038,"text":"We get partial <EQUATION>.","label":[[15,25,"equation"]],"Comments":[]}
+{"id":10039,"text":"Something is not working properly.","label":[],"Comments":[]}
+{"id":10040,"text":"Why doesn't it work?","label":[],"Comments":[]}
+{"id":10041,"text":"The answer is precisely because these are partial derivatives.","label":[],"Comments":[]}
+{"id":10042,"text":"These are not total derivatives.","label":[],"Comments":[]}
+{"id":10043,"text":"And so you cannot simplify them in that way.","label":[],"Comments":[]}
+{"id":10044,"text":"And that is actually the reason why we use this <EXPRESSION> rather than a <EXPRESSION>.","label":[[39,42,"command"],[48,60,"expression"],[75,87,"expression"]],"Comments":[]}
+{"id":10045,"text":"It is to remind us, beware, there are these simplifications that we can do with straight d's that are not legal here.","label":[],"Comments":[]}
+{"id":10046,"text":"Somehow, when you have a partial derivative, you must resist the urge of simplifying things.","label":[],"Comments":[]}
+{"id":10047,"text":"No simplifications in here.","label":[],"Comments":[]}
+{"id":10048,"text":"That is the simplest formula you can get.","label":[],"Comments":[]}
+{"id":10049,"text":"Any questions at this point?","label":[],"Comments":[]}
+{"id":10050,"text":"No.","label":[],"Comments":[]}
+{"id":10051,"text":"Yes?","label":[],"Comments":[]}
+{"id":10052,"text":"When would you use this and what does it describe?","label":[],"Comments":[]}
+{"id":10053,"text":"Well, it is basically when you have a function given in terms of a certain set of variables because maybe there is a simply expression in terms of those variables.","label":[],"Comments":[]}
+{"id":10054,"text":"But ultimately what you care about is not those variables, <EXPRESSION> and <EXPRESSION>, but another set of variables, here <EXPRESSION> and <EXPRESSION>.","label":[[59,71,"expression"],[76,88,"expression"],[125,137,"expression"],[142,154,"expression"]],"Comments":[]}
+{"id":10055,"text":"So <EXPRESSION> and <EXPRESSION> are giving you a nice formula for <EXPRESSION>, but actually the relevant variables for your problem are <EXPRESSION> and <EXPRESSION>.","label":[[3,15,"expression"],[20,32,"expression"],[67,79,"expression"],[138,150,"expression"],[155,167,"expression"]],"Comments":[]}
+{"id":10056,"text":"And you know <EXPRESSION> and <EXPRESSION> are related to <EXPRESSION> and <EXPRESSION>.","label":[[13,25,"expression"],[30,42,"expression"],[58,70,"expression"],[75,87,"expression"]],"Comments":[]}
+{"id":10057,"text":"So, of course, what you could do is plug the formulas the way that we did substituting.","label":[],"Comments":[]}
+{"id":10058,"text":"But maybe that will give you very complicated expressions.","label":[],"Comments":[]}
+{"id":10059,"text":"And maybe it is actually easier to just work with the derivates.","label":[],"Comments":[]}
+{"id":10060,"text":"The important claim here is basically we don't need to know the actual formulas.","label":[],"Comments":[]}
+{"id":10061,"text":"All we need to know are the rate of changes.","label":[],"Comments":[]}
+{"id":10062,"text":"If we know all these rates of change then we know how to take these derivatives without actually having to plug in values.","label":[],"Comments":[]}
+{"id":10063,"text":"Yes?","label":[],"Comments":[]}
+{"id":10064,"text":"Yes, you could certain do the same things in terms of <EXPRESSION>.","label":[[54,66,"expression"]],"Comments":[]}
+{"id":10065,"text":"If <EXPRESSION> and <EXPRESSION> were functions of <EXPRESSION> instead of being functions of <EXPRESSION> and <EXPRESSION> then it would be the same thing.","label":[[3,15,"expression"],[20,32,"expression"],[51,63,"expression"],[94,106,"expression"],[111,123,"expression"]],"Comments":[]}
+{"id":10066,"text":"And you would have the same formulas that I had, well, over there I still have it.","label":[],"Comments":[]}
+{"id":10067,"text":"Why does that one have straight d's?","label":[[32,33,"term"]],"Comments":[]}
+{"id":10068,"text":"Well, the answer is I could put <EXPRESSION> if I wanted, but I end up with a function of a single variable.","label":[[32,44,"expression"]],"Comments":[]}
+{"id":10069,"text":"If you have a single variable then the partial, with respect to that variable, is the same thing as the usual derivative.","label":[],"Comments":[]}
+{"id":10070,"text":"We don't actually need to worry about curly in that case.","label":[],"Comments":[]}
+{"id":10071,"text":"But that one is indeed special case of this one where instead of <EXPRESSION> and <EXPRESSION> depending on two variables, <EXPRESSION> and <EXPRESSION>, they depend on a single variable <EXPRESSION>.","label":[[65,77,"expression"],[82,94,"expression"],[123,135,"expression"],[140,152,"expression"],[187,199,"expression"]],"Comments":[]}
+{"id":10072,"text":"Now, of course, you can call variables any name you want.","label":[],"Comments":[]}
+{"id":10073,"text":"It doesn't matter.","label":[],"Comments":[]}
+{"id":10074,"text":"This is just a slight generalization of that.","label":[],"Comments":[]}
+{"id":10075,"text":"Well, not quite because here I also had a <EXPRESSION>.","label":[[42,54,"expression"]],"Comments":[]}
+{"id":10076,"text":"See, I am trying to just confuse you by giving you functions that depend on various numbers of variables.","label":[],"Comments":[]}
+{"id":10077,"text":"If you have a function of 30 variables, things work the same way, just longer, and you are going to run out of letters in the alphabet before the end.","label":[],"Comments":[]}
+{"id":10078,"text":"Any other questions?","label":[],"Comments":[]}
+{"id":10079,"text":"No.","label":[],"Comments":[]}
+{"id":10080,"text":"What?","label":[],"Comments":[]}
+{"id":10081,"text":"Yes?","label":[],"Comments":[]}
+{"id":10082,"text":"If <EXPRESSION> and <EXPRESSION> themselves depended on another variable then you would continue with your chain rules.","label":[[3,15,"expression"],[20,32,"expression"]],"Comments":[]}
+{"id":10083,"text":"Maybe you would know to express partial <EXPRESSION> over partial <EXPRESSION> in terms using that chain rule.","label":[[24,31,"command"],[40,52,"expression"],[66,78,"expression"]],"Comments":[]}
+{"id":10084,"text":"Sorry.","label":[],"Comments":[]}
+{"id":10085,"text":"If <EXPRESSION> and <EXPRESSION> are dependent on yet another variable then you could get the derivative with respect to that using first the chain rule to pass from <EXPRESSION> to that new variable, and then you would plug in these formulas for partials of f with respect to <EXPRESSION> and <EXPRESSION>.","label":[[3,15,"expression"],[20,32,"expression"],[142,152,"method"],[156,160,"command"],[166,178,"expression"],[277,289,"expression"],[294,306,"expression"]],"Comments":[]}
+{"id":10086,"text":"In fact, if you have several substitutions to do, you can always arrange to use one chain rule at a time.","label":[],"Comments":[]}
+{"id":10087,"text":"You just have to do them in sequence.","label":[],"Comments":[]}
+{"id":10088,"text":"That's why we don't actually learn that, but you can just do it be repeating the process.","label":[],"Comments":[]}
+{"id":10089,"text":"I mean, probably at that stage, the easiest to not get confused actually is to manipulate differentials because that is probably easier.","label":[],"Comments":[]}
+{"id":10090,"text":"Yes?","label":[],"Comments":[]}
+{"id":10091,"text":"<EXPRESSION> does not exist.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":10092,"text":"That's easy.","label":[],"Comments":[]}
+{"id":10093,"text":"<EXPRESSION> makes no sense by itself.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":10094,"text":"It doesn't exist alone.","label":[],"Comments":[]}
+{"id":10095,"text":"What exists is only <EXPRESSION> some variable.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":10096,"text":"And then that accounts only for the rate of change with respect to that variable leaving the others fixed, while straight <EXPRESSION> is somehow a total variation of <EXPRESSION>.","label":[[122,134,"expression"],[167,179,"expression"]],"Comments":[]}
+{"id":10097,"text":"It accounts for all of the partial derivatives and their combined effects.","label":[],"Comments":[]}
+{"id":10098,"text":"OK.","label":[],"Comments":[]}
+{"id":10099,"text":"Any more questions?","label":[],"Comments":[]}
+{"id":10100,"text":"No.","label":[],"Comments":[]}
+{"id":10101,"text":"Let me just finish up very quickly by telling you again one example where completely you might want to do this.","label":[],"Comments":[]}
+{"id":10102,"text":"You have a function that you want to switch between rectangular and polar coordinates.","label":[],"Comments":[]}
+{"id":10103,"text":"To make things a little bit concrete.","label":[],"Comments":[]}
+{"id":10104,"text":"If you have polar coordinates that means in the plane, instead of using <EXPRESSION> and <EXPRESSION>, you will use coordinates <EXPRESSION>, distance to the origin, and <EXPRESSION>, the angles from the x-axis.","label":[[72,84,"expression"],[89,101,"expression"],[112,115,"command"],[116,127,"command_attribute"],[128,140,"expression"],[170,182,"expression"],[204,205,"term"]],"Comments":[]}
+{"id":10105,"text":"The change of variables for that is <EQUATION> and <EQUATION>.","label":[[36,47,"equation"],[51,61,"equation"]],"Comments":[]}
+{"id":10106,"text":"And so that means if you have a function <EXPRESSION> that depends on <EXPRESSION> and <EXPRESSION>, in fact, you can plug these in as a function of <EXPRESSION> and <EXPRESSION>.","label":[[41,53,"expression"],[70,82,"expression"],[87,99,"expression"],[118,122,"command"],[149,161,"expression"],[166,178,"expression"]],"Comments":[]}
+{"id":10107,"text":"Then you can ask yourself, well, what is <EXPRESSION>?","label":[[41,53,"expression"]],"Comments":[]}
+{"id":10108,"text":"And that is going to be, well, you want to take <EXPRESSION>.","label":[[43,47,"command"],[48,60,"expression"]],"Comments":[]}
+{"id":10109,"text":"That will end up being actually <EXPRESSION>.","label":[[32,44,"expression"]],"Comments":[]}
+{"id":10110,"text":"And you can do the same thing to find <EXPRESSION>, <EXPRESSION>.","label":[[38,50,"expression"],[52,64,"expression"]],"Comments":[]}
+{"id":10111,"text":"And so you can express derivatives either in terms of <EXPRESSION>, <EXPRESSION> or in terms of <EXPRESSION> and <EXPRESSION> with simple relations between them.","label":[[54,66,"expression"],[68,80,"expression"],[96,108,"expression"],[113,125,"expression"]],"Comments":[]}
+{"id":10112,"text":"And the one last thing I should say.","label":[],"Comments":[]}
+{"id":10113,"text":"On Thursday we will learn about more tricks we can play with variations of functions.","label":[],"Comments":[]}
+{"id":10114,"text":"And one that is important, because you need to know it actually to do the p-set, is the gradient vector.","label":[],"Comments":[]}
+{"id":10115,"text":"The gradient vector is simply a vector.","label":[],"Comments":[]}
+{"id":10116,"text":"You use this downward pointing triangle as the notation for the gradient.","label":[],"Comments":[]}
+{"id":10117,"text":"It is simply is a vector whose components are the partial derivatives of a function.","label":[],"Comments":[]}
+{"id":10118,"text":"I mean, in a way, you can think of a differential as a way to package partial derivatives together into some weird object.","label":[],"Comments":[]}
+{"id":10119,"text":"Well, the gradient is also a way to package partials together.","label":[],"Comments":[]}
+{"id":10120,"text":"We will see on Thursday what it is good for, but some of the problems on the p-set use it.","label":[],"Comments":[]}

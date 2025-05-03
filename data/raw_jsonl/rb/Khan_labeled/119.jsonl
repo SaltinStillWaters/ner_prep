@@ -1,0 +1,139 @@
+{"id":3481,"text":"So that's our new vector field.","label":[],"Comments":[]}
+{"id":3482,"text":"If I had a little stick here, I'd be pushing in this direction, with not that much of a magnitude in that direction.","label":[],"Comments":[]}
+{"id":3483,"text":"Because the difference in magnitudes of these <EXPRESSION> you could almost view them as the torque producing forces the difference in magnitude is enough that you'd still have the same counterclockwise rotation here as you would have here.","label":[[46,58,"expression"]],"Comments":[]}
+{"id":3484,"text":"Now let's do a little experiment.","label":[],"Comments":[]}
+{"id":3485,"text":"So that's <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":3486,"text":"So the curl, at any point of this vector field, is <EXPRESSION>.","label":[[51,63,"expression"]],"Comments":[]}
+{"id":3487,"text":"Let's see if that makes sense.","label":[],"Comments":[]}
+{"id":3488,"text":"So this was our old graph.","label":[],"Comments":[]}
+{"id":3489,"text":"Or nothing would be entering into that circle, or in any given amount of time the concentration of that circle wouldn't change.","label":[],"Comments":[]}
+{"id":3490,"text":"Which would have meant that we would have had no rotation.","label":[],"Comments":[]}
+{"id":3491,"text":"So this term let's see, partial derivative of <EXPRESSION>.","label":[[46,58,"expression"]],"Comments":[]}
+{"id":3492,"text":"So this = the partial derivative of <EXPRESSION> with respect to <EXPRESSION>.","label":[[36,48,"expression"],[65,77,"expression"]],"Comments":[]}
+{"id":3493,"text":"Just because I have <EXPRESSION> minutes.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":3494,"text":"And even though this looks like a two dimensional vector field, we actually have to take the cross product in <EXPRESSION> dimensions.","label":[[110,122,"expression"]],"Comments":[]}
+{"id":3495,"text":"So we're done analyzing this vector field.","label":[],"Comments":[]}
+{"id":3496,"text":"So the [? ink ?] kind of holds.","label":[],"Comments":[]}
+{"id":3497,"text":"The <EXPRESSION> component is <EXPRESSION>.","label":[[4,16,"expression"],[30,42,"expression"]],"Comments":[]}
+{"id":3498,"text":"And actually, you could put a twig anywhere.","label":[],"Comments":[]}
+{"id":3499,"text":"Make the window bigger.","label":[],"Comments":[]}
+{"id":3500,"text":"I would have the forces or the fluids pushing in in this direction, but they're not helping to rotate, and pushing out in that direction.","label":[],"Comments":[]}
+{"id":3501,"text":"So it would be the <EXPRESSION> direction.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":3502,"text":"Well, that's not going to help me either.","label":[],"Comments":[]}
+{"id":3503,"text":"I think that's pretty neat.","label":[],"Comments":[]}
+{"id":3504,"text":"Well, that's just <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":3505,"text":"All of the if you think of it as force or velocity of the vector field is going to be applying translation to objects in that field.","label":[],"Comments":[]}
+{"id":3506,"text":"Let me actually change it to my new vector field.","label":[],"Comments":[]}
+{"id":3507,"text":"So where we are in the <EXPRESSION> coordinate and the <EXPRESSION> plane.","label":[[23,35,"expression"],[55,67,"expression"]],"Comments":[]}
+{"id":3508,"text":"So we do have some fluid or particles coming in at a certain velocity from the bottom right and the top left.","label":[],"Comments":[]}
+{"id":3509,"text":"Well, now I've run of time.","label":[],"Comments":[]}
+{"id":3510,"text":"And then I'd be pushing down to the right in this direction, so it would cause it to spin.","label":[],"Comments":[]}
+{"id":3511,"text":"And I know you can't read it, but that's that <EXPRESSION> there, and that's the <EXPRESSION> component.","label":[[46,58,"expression"],[81,93,"expression"]],"Comments":[]}
+{"id":3512,"text":"Fair enough.","label":[],"Comments":[]}
+{"id":3513,"text":"Partial derivative of <EXPRESSION> with respect to <EXPRESSION>, <EXPRESSION>.","label":[[22,34,"expression"],[51,63,"expression"],[65,77,"expression"]],"Comments":[]}
+{"id":3514,"text":"If I put a twig in the center, or some kind of stick in the center, let's see.","label":[],"Comments":[]}
+{"id":3515,"text":"Or partial derivative of <EXPRESSION> with respect to <EXPRESSION>, actually.","label":[[25,37,"expression"],[54,66,"expression"]],"Comments":[]}
+{"id":3516,"text":"So the curl of <EXPRESSION>.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":3517,"text":"So I'm definitely not going to rotate there.","label":[],"Comments":[]}
+{"id":3518,"text":"Minus that.","label":[],"Comments":[]}
+{"id":3519,"text":"That the torques must be just perfectly offsetting each other.","label":[],"Comments":[]}
+{"id":3520,"text":"Minus the partial derivative of <EXPRESSION>.","label":[[0,5,"command"],[6,31,"command_attribute"],[32,44,"expression"]],"Comments":[]}
+{"id":3521,"text":"For example, if I put a twig here, it's going to be pushed outward by the flow of the water, by the velocity of the water.","label":[],"Comments":[]}
+{"id":3522,"text":"So the divergence of this field is <EXPRESSION>.","label":[[35,47,"expression"]],"Comments":[]}
+{"id":3523,"text":"So the partial derivative with respect to <EXPRESSION> with respect to <EXPRESSION>.","label":[[42,53,"expression"],[71,83,"expression"]],"Comments":[]}
+{"id":3524,"text":"And actually, just for fun, let's think about the divergence of that field.","label":[],"Comments":[]}
+{"id":3525,"text":"So this is going to be = well, see the <EXPRESSION> component let's cross out its column and its row.","label":[[39,51,"expression"]],"Comments":[]}
+{"id":3526,"text":"Just to, I don't know.","label":[],"Comments":[]}
+{"id":3527,"text":"Why don't we just cross all of that out? And that makes intuitive sense, too, right? Because at least from <EXPRESSION> point of view, the rotation is although, the rotation, if you think about it, is going to be in the direction perpendicular to both the <EXPRESSION> direction and perpendicular to the direction in which it is changing.","label":[[107,119,"expression"],[256,268,"expression"]],"Comments":[]}
+{"id":3528,"text":"This one should be a little bit cleaner to calculate than the last example.","label":[],"Comments":[]}
+{"id":3529,"text":"As far as <EXPRESSION> concerned, <EXPRESSION> is also constant.","label":[[10,22,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":3530,"text":"And all of that times <EXPRESSION> minus and now it's going to be the <EXPRESSION> component.","label":[[22,34,"expression"],[70,82,"expression"]],"Comments":[]}
+{"id":3531,"text":"So because the curl is a constant positive number, when we look at <EXPRESSION> plane like this, if you put a twig that same twig anywhere where you put it on this plane it'll have the same counterclockwise rotation.","label":[[67,79,"expression"]],"Comments":[]}
+{"id":3532,"text":"Where you're not going to have any rotation here.","label":[],"Comments":[]}
+{"id":3533,"text":"It = our del vector operator, cross <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":3534,"text":"Well, in the middle, it definitely makes sense that something is spinning.","label":[],"Comments":[]}
+{"id":3535,"text":"It's a constant.","label":[],"Comments":[]}
+{"id":3536,"text":"So first, let's just chuck through this, and figure out it's curl.","label":[],"Comments":[]}
+{"id":3537,"text":"And now the curl is <EXPRESSION> everywhere.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":3538,"text":"If you were to stick something, especially in the middle, it's very clear that it would spin.","label":[],"Comments":[]}
+{"id":3539,"text":"You know, it wouldn't spin as much.","label":[],"Comments":[]}
+{"id":3540,"text":"Let's do the divergence of this one.","label":[],"Comments":[]}
+{"id":3541,"text":"And maybe a twig might be pushed in a direction.","label":[],"Comments":[]}
+{"id":3542,"text":"The curl is the same throughout this entire vector field.","label":[],"Comments":[]}
+{"id":3543,"text":"So that's just interesting.","label":[],"Comments":[]}
+{"id":3544,"text":"But what might be a little unintuitive you might think, wow, well, wouldn't something spin faster near the center than it would here? Why is the you know, the curl we got is <EXPRESSION>.","label":[[174,186,"expression"]],"Comments":[]}
+{"id":3545,"text":"That was pretty straightforward.","label":[],"Comments":[]}
+{"id":3546,"text":"But it's not going to rotate.","label":[],"Comments":[]}
+{"id":3547,"text":"If that confuses you, don't worry about it.","label":[],"Comments":[]}
+{"id":3548,"text":"If this was <EXPRESSION> then this would have been <EXPRESSION>, then this final term we would have taken the partial derivative with respect to <EXPRESSION> and so this would have been <EXPRESSION>.","label":[[12,24,"expression"],[51,63,"expression"],[145,157,"expression"],[186,198,"expression"]],"Comments":[]}
+{"id":3549,"text":"And does that make sense? Well, if we take a circle anywhere here let's take it in the center, because the center's the most interesting.","label":[],"Comments":[]}
+{"id":3550,"text":"Cross out its row and column, the partial derivative of <EXPRESSION> with respect to <EXPRESSION>.","label":[[56,68,"expression"],[85,97,"expression"]],"Comments":[]}
+{"id":3551,"text":"The <EXPRESSION> component is <EXPRESSION>.","label":[[4,16,"expression"],[30,42,"expression"]],"Comments":[]}
+{"id":3552,"text":"And the bottom left, I'm also pushing up and to the left.","label":[],"Comments":[]}
+{"id":3553,"text":"So this is <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":3554,"text":"Partial derivative of <EXPRESSION> with respect to <EXPRESSION>.","label":[],"Comments":[]}
+{"id":3555,"text":"Let's see what this vector field looks like, and let's see if that gives us if our intuition holds in this example.","label":[],"Comments":[]}
+{"id":3556,"text":"That's its <EXPRESSION> component.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":3557,"text":"Let's see what happens if I were to change.","label":[],"Comments":[]}
+{"id":3558,"text":"You could kind of view it orthogonally, to its direction of motion, which is <EXPRESSION>.","label":[[77,89,"expression"]],"Comments":[]}
+{"id":3559,"text":"Remember, you do plus minus plus.","label":[],"Comments":[]}
+{"id":3560,"text":"So when you take the cross product, you still have to do it in <EXPRESSION> dimensions.","label":[],"Comments":[]}
+{"id":3561,"text":"Row and column.","label":[],"Comments":[]}
+{"id":3562,"text":"It's going to be perpendicular to both of these vectors.","label":[],"Comments":[]}
+{"id":3563,"text":"Partial derivative of <EXPRESSION> with respect to <EXPRESSION>.","label":[[22,34,"expression"],[51,63,"expression"]],"Comments":[]}
+{"id":3564,"text":"Which is nothing but this.","label":[],"Comments":[]}
+{"id":3565,"text":"Let me erase this real fast.","label":[],"Comments":[]}
+{"id":3566,"text":"So if I had an infinitesimally small circle, or sphere, in this vector field, I would have no net density increasing.","label":[],"Comments":[]}
+{"id":3567,"text":"And finally, plus its <EXPRESSION> component.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":3568,"text":"Or the partial derivative of the [? vector ?] <EXPRESSION>.","label":[[46,58,"expression"]],"Comments":[]}
+{"id":3569,"text":"And actually, this is called an irrotational I think that's the word vector field.","label":[],"Comments":[]}
+{"id":3570,"text":"Let's say I have the vector field <EXPRESSION>.","label":[[34,46,"expression"]],"Comments":[]}
+{"id":3571,"text":"Well, as far as <EXPRESSION> concerned, <EXPRESSION> is a constant, so that's <EXPRESSION>.","label":[[16,28,"expression"],[40,52,"expression"],[78,90,"expression"]],"Comments":[]}
+{"id":3572,"text":"If I were to draw a circle here, because the divergence is 0, it's telling us that whatever's coming in in 1 direction is coming out in the other directions.","label":[],"Comments":[]}
+{"id":3573,"text":"Let's take a circle.","label":[],"Comments":[]}
+{"id":3574,"text":"If both of these only have <EXPRESSION> and <EXPRESSION> components, your actual result is going to be in the <EXPRESSION> direction.","label":[[27,39,"expression"],[44,56,"expression"],[110,122,"expression"]],"Comments":[]}
+{"id":3575,"text":"So it = <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":3576,"text":"So <EXPRESSION> is the same thing as our <EXPRESSION> dot our vector field, <EXPRESSION>.","label":[[3,15,"expression"],[41,53,"expression"],[76,88,"expression"]],"Comments":[]}
+{"id":3577,"text":"And now let's simplify it.","label":[],"Comments":[]}
+{"id":3578,"text":"Well, the partial derivative of <EXPRESSION> with respect to <EXPRESSION> is just <EXPRESSION>.","label":[[32,44,"expression"],[61,73,"expression"],[82,94,"expression"]],"Comments":[]}
+{"id":3579,"text":"Because a curl is just like torque, and when you like we did the right hand rule when we studied well, I hope you watched some of the videos on magnetism and torque but the torque actually goes in a direction that is perpendicular to both of the vectors in your cross product.","label":[],"Comments":[]}
+{"id":3580,"text":"And that's the partial derivative of this with respect to <EXPRESSION>.","label":[[58,70,"expression"]],"Comments":[]}
+{"id":3581,"text":"And even in the other case, when this was a minus, it still would have been <EXPRESSION>.","label":[[76,88,"expression"]],"Comments":[]}
+{"id":3582,"text":"So all we're left is with this last term.","label":[],"Comments":[]}
+{"id":3583,"text":"And let me try to make it a little bit bigger.","label":[],"Comments":[]}
+{"id":3584,"text":"So if I were to think about the divergence of that field, it's fairly easy to calculate.","label":[],"Comments":[]}
+{"id":3585,"text":"Well, I think it's clear, you know, right when you look at it, that this vector field looks like it's spinning.","label":[],"Comments":[]}
+{"id":3586,"text":"And then our curl would have been <EXPRESSION>.","label":[[34,46,"expression"]],"Comments":[]}
+{"id":3587,"text":"What would have happened if this was <EXPRESSION>.","label":[[37,49,"expression"]],"Comments":[]}
+{"id":3588,"text":"I'll simplify it above it.","label":[],"Comments":[]}
+{"id":3589,"text":"So minus and this is the <EXPRESSION> component.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":3590,"text":"And we have no <EXPRESSION> component.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":3591,"text":"This is our vector field <EXPRESSION>.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":3592,"text":"Whatever's coming in through here and here is leaving through there and there.","label":[],"Comments":[]}
+{"id":3593,"text":"So it's going to be the partial with respect to <EXPRESSION>.","label":[[48,60,"expression"]],"Comments":[]}
+{"id":3594,"text":"There you go.","label":[],"Comments":[]}
+{"id":3595,"text":"Plus the partial derivative of <EXPRESSION> with respect to <EXPRESSION>.","label":[[31,43,"expression"],[60,72,"expression"]],"Comments":[]}
+{"id":3596,"text":"So I'm not getting any denser, or any less dense.","label":[],"Comments":[]}
+{"id":3597,"text":"But anyway, lets simplify this.","label":[[17,25,"command"]],"Comments":[]}
+{"id":3598,"text":"And that's true pretty much anywhere.","label":[],"Comments":[]}
+{"id":3599,"text":"Well, that's just <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":3600,"text":"Plus and then my magnitude in the <EXPRESSION> direction is dependent on <EXPRESSION>.","label":[[34,46,"expression"],[73,85,"expression"]],"Comments":[]}
+{"id":3601,"text":"Minus the partial derivative of <EXPRESSION> with respect to <EXPRESSION>.","label":[[32,44,"expression"],[61,73,"expression"]],"Comments":[]}
+{"id":3602,"text":"But just as much is coming out through the top right and the bottom left.","label":[],"Comments":[]}
+{"id":3603,"text":"But what if I had that same stick here? You'd say, well, on the top right I'm pushing up, up and to the left.","label":[],"Comments":[]}
+{"id":3604,"text":"That's even though I kind of have curl in the <EXPRESSION> direction, or I have curl in the y direction, they're offsetting each other.","label":[[46,58,"expression"]],"Comments":[]}
+{"id":3605,"text":"So you'll be like, whoa, that's kind of implying that the field is making something spin equally, no matter where you are in the field.","label":[],"Comments":[]}
+{"id":3606,"text":"And what's the intuition of that? Well, if we just look at it mathematically, if we have <EXPRESSION> curl, somehow, the rotation in our <EXPRESSION> direction must be being offset by a rotation in the y direction.","label":[[89,101,"expression"],[137,149,"expression"]],"Comments":[]}
+{"id":3607,"text":"See you in the next video.","label":[],"Comments":[]}
+{"id":3608,"text":"But if it doesn't, then you could apply the same argument to the <EXPRESSION> vector.","label":[[65,77,"expression"]],"Comments":[]}
+{"id":3609,"text":"The vector at any given point = minus or the magnitude of my <EXPRESSION> direction is actually dependent on <EXPRESSION>.","label":[[61,73,"expression"],[109,121,"expression"]],"Comments":[]}
+{"id":3610,"text":"Let's see if that makes sense.","label":[],"Comments":[]}
+{"id":3611,"text":"So that in <EXPRESSION> dimensions, I actually end up having no rotation.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":3612,"text":"I have no divergence or convergence.","label":[],"Comments":[]}
+{"id":3613,"text":"It's always fun to just interpret a vector field to death.","label":[],"Comments":[]}
+{"id":3614,"text":"So <EXPRESSION>, partial with respect to <EXPRESSION>, partial with respect to <EXPRESSION>, partial with respect to <EXPRESSION>.","label":[[3,15,"expression"],[41,53,"expression"],[79,91,"expression"],[117,129,"expression"]],"Comments":[]}
+{"id":3615,"text":"Which implies, or which means, that I could put a twig anywhere here and I'm not going to get any kind of rotation.","label":[],"Comments":[]}
+{"id":3616,"text":"So let's just do that experiment.","label":[],"Comments":[]}
+{"id":3617,"text":"Well, that's <EXPRESSION>.","label":[[13,25,"expression"]],"Comments":[]}
+{"id":3618,"text":"But it would.","label":[],"Comments":[]}
+{"id":3619,"text":"So the divergence of that vector field, is just a partial derivative of this with respect to <EXPRESSION>.","label":[[93,105,"expression"]],"Comments":[]}

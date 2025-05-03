@@ -1,0 +1,557 @@
+{"id":15341,"text":"PROFESSOR: So we're going to continue to talk about trig integrals and trig substitutions.","label":[],"Comments":[]}
+{"id":15342,"text":"This is maybe the most technical part of this course, which maybe is why professor Jerison decided to just take a leave, go AWOL just now and let me take over for him.","label":[],"Comments":[]}
+{"id":15343,"text":"But I'll do my best to help you learn this technique and it'll be useful for you.","label":[],"Comments":[]}
+{"id":15344,"text":"So we've talked about trig integrals involving sines and cosines yesterday.","label":[[47,52,"term"],[57,64,"term"]],"Comments":[]}
+{"id":15345,"text":"There's another whole world out there that involves these other trig polynomials-- trig functions, secant and tangent.","label":[[99,105,"term"],[110,117,"term"]],"Comments":[]}
+{"id":15346,"text":"Let me just make a little table to remind you what they are.","label":[],"Comments":[]}
+{"id":15347,"text":"Because I have trouble remembering myself, so I enjoy the opportunity to go back to remind myself of this stuff.","label":[],"Comments":[]}
+{"id":15348,"text":"Let's see.","label":[],"Comments":[]}
+{"id":15349,"text":"The secant is one over one of those things, which one is it?","label":[[4,10,"term"],[14,17,"term"]],"Comments":[]}
+{"id":15350,"text":"It's weird, it's <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":15351,"text":"And the <EXPRESSION> is <EXPRESSION>.","label":[[8,20,"expression"],[24,36,"expression"]],"Comments":[]}
+{"id":15352,"text":"Of course the tangent, we know.","label":[[14,21,"term"]],"Comments":[]}
+{"id":15353,"text":"It's the <EXPRESSION> over the <EXPRESSION> and the <EXPRESSION> is the other way around.","label":[[9,21,"expression"],[31,43,"expression"],[52,64,"expression"]],"Comments":[]}
+{"id":15354,"text":"So when you put a \"co\" in front of it, it exchanges <EXPRESSION> and <EXPRESSION>.","label":[[12,15,"command"],[52,64,"expression"],[69,81,"expression"]],"Comments":[]}
+{"id":15355,"text":"Well, I have a few identities involving tangent and secant up there, in that little prepared blackboard up above.","label":[],"Comments":[]}
+{"id":15356,"text":"Maybe I'll just go through and check that out to make sure that we're all on the same page with them.","label":[],"Comments":[]}
+{"id":15357,"text":"So I'm going to claim that there's this trig identity at the top.","label":[],"Comments":[]}
+{"id":15358,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
+{"id":15359,"text":"So let's just check that out.","label":[],"Comments":[]}
+{"id":15360,"text":"So the <EXPRESSION> is <EXPRESSION>, so <EXPRESSION> is <EXPRESSION>.","label":[[7,19,"expression"],[23,35,"expression"],[40,52,"expression"],[56,68,"expression"]],"Comments":[]}
+{"id":15361,"text":"And then whenever you see a <EXPRESSION> in trigonometry, you'll always have the option of writing as <EXPRESSION>.","label":[[28,40,"expression"],[102,114,"expression"]],"Comments":[]}
+{"id":15362,"text":"And if I do that, then I can divide the <EXPRESSION> into that first term.","label":[[29,35,"command"],[40,52,"expression"]],"Comments":[]}
+{"id":15363,"text":"And I get <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":15364,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":15365,"text":"Which is the <EXPRESSION>.","label":[[13,25,"expression"]],"Comments":[]}
+{"id":15366,"text":"So there you go.","label":[],"Comments":[]}
+{"id":15367,"text":"That checks the first one.","label":[],"Comments":[]}
+{"id":15368,"text":"That's the main trig identity that's going to be behind what I talk about today.","label":[],"Comments":[]}
+{"id":15369,"text":"That's the trigonometry identity part.","label":[],"Comments":[]}
+{"id":15370,"text":"How about this piece of calculus.","label":[],"Comments":[]}
+{"id":15371,"text":"Can we calculate what the derivative of <EXPRESSION> is?","label":[[7,16,"command"],[22,36,"command_attribute"],[40,52,"expression"]],"Comments":[]}
+{"id":15372,"text":"Actually, I'm going to do that on this board.","label":[],"Comments":[]}
+{"id":15373,"text":"So <EQUATION>.","label":[[3,13,"equation"]],"Comments":[]}
+{"id":15374,"text":"So I think I was with you when we learned about the quotient rule.","label":[[52,65,"method"]],"Comments":[]}
+{"id":15375,"text":"Computing the derivative of a quotient.","label":[],"Comments":[]}
+{"id":15376,"text":"And the rule is, you take the numerator and you-- sorry, you take the derivative of the numerator, which is <EXPRESSION>.","label":[[21,25,"command"],[26,39,"command_attribute"],[61,65,"command"],[66,97,"command_attribute"],[108,120,"expression"]],"Comments":[]}
+{"id":15377,"text":"And you multiply it by the denominator, so that gives you <EXPRESSION>.","label":[[8,16,"command"],[58,70,"expression"]],"Comments":[]}
+{"id":15378,"text":"And then you take the numerator, take minus the numerator, and multiply that by the derivative of the denominator, which is <EXPRESSION>.","label":[[33,37,"command"],[38,57,"command_attribute"],[124,136,"expression"]],"Comments":[]}
+{"id":15379,"text":"And you put all that over the square of the denominator.","label":[[8,11,"command"]],"Comments":[]}
+{"id":15380,"text":"And now I look at that and before my eyes I see the same trig identity, <EQUATION>, appearing there.","label":[[72,82,"equation"]],"Comments":[]}
+{"id":15381,"text":"This is <EXPRESSION> which is <EXPRESSION>.","label":[[8,20,"expression"],[30,42,"expression"]],"Comments":[]}
+{"id":15382,"text":"And, good.","label":[],"Comments":[]}
+{"id":15383,"text":"So that's what the claim was.","label":[],"Comments":[]}
+{"id":15384,"text":"The derivative of the <EXPRESSION> is the <EXPRESSION>.","label":[[22,34,"expression"],[42,54,"expression"]],"Comments":[]}
+{"id":15385,"text":"That immediately gives you an integral.","label":[],"Comments":[]}
+{"id":15386,"text":"Namely, the integral of <EXPRESSION> is the <EXPRESSION>.","label":[[24,36,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":15387,"text":"That's the fundamental theorem of calculus.","label":[],"Comments":[]}
+{"id":15388,"text":"So we verified the first integral there.","label":[],"Comments":[]}
+{"id":15389,"text":"Well, let's just do the second one as well.","label":[],"Comments":[]}
+{"id":15390,"text":"So if I want to differentiate the <EXPRESSION>, derivative of the <EXPRESSION>.","label":[[16,29,"command"],[34,46,"expression"],[67,78,"expression"]],"Comments":[]}
+{"id":15391,"text":"So that's <EXPRESSION>.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":15392,"text":"And again, I have a quotient.","label":[],"Comments":[]}
+{"id":15393,"text":"This one's a little easier because the numerator's so simple.","label":[],"Comments":[]}
+{"id":15394,"text":"So I take the derivative of the numerator, which is <EXPRESSION>.","label":[[5,9,"command"],[10,41,"command_attribute"],[52,64,"expression"]],"Comments":[]}
+{"id":15395,"text":"And then I take the numerator, I take minus the numerator times the derivative of the denominator.","label":[[11,15,"command"],[20,29,"command_attribute"],[33,37,"command"],[38,57,"command_attribute"],[58,63,"command"],[64,97,"command_attribute"]],"Comments":[]}
+{"id":15396,"text":"Which is <EXPRESSION>, and put all that over the square of the same denominator.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":15397,"text":"So one minus sign came from the quotient rule, and the other one came because that's the derivative of the <EXPRESSION>.","label":[[32,45,"method"],[107,119,"expression"]],"Comments":[]}
+{"id":15398,"text":"But they cancel, and so I get <EXPRESSION>, which is <EXPRESSION> and so that's the <EXPRESSION>, that's <EXPRESSION>.","label":[[30,42,"expression"],[53,65,"expression"],[84,96,"expression"],[105,117,"expression"]],"Comments":[]}
+{"id":15399,"text":"So, not hard.","label":[],"Comments":[]}
+{"id":15400,"text":"That verifies that the derivative of <EXPRESSION> is <EXPRESSION>.","label":[[37,49,"expression"],[53,65,"expression"]],"Comments":[]}
+{"id":15401,"text":"And it tells you that the integral of that weird thing in case you ever want to know, the integral of the <EXPRESSION> is the <EXPRESSION>.","label":[[106,118,"expression"],[126,138,"expression"]],"Comments":[]}
+{"id":15402,"text":"Well, there are a couple more integrals that I want to do for you.","label":[],"Comments":[]}
+{"id":15403,"text":"Where I can't sort of work backwards like that.","label":[],"Comments":[]}
+{"id":15404,"text":"Let's calculate the integral of the <EXPRESSION>.","label":[[6,15,"command"],[20,28,"command_attribute"],[36,48,"expression"]],"Comments":[]}
+{"id":15405,"text":"Just do this straight out.","label":[],"Comments":[]}
+{"id":15406,"text":"So the <EXPRESSION> is the <EXPRESSION>.","label":[[7,19,"expression"],[27,39,"expression"]],"Comments":[]}
+{"id":15407,"text":"And now there's a habit of mind, that I hope you get into.","label":[],"Comments":[]}
+{"id":15408,"text":"When you see the <EXPRESSION> and you're calculating an integral like this, it's useful to remember what the derivative of the <EXPRESSION> is.","label":[[17,29,"expression"],[127,139,"expression"]],"Comments":[]}
+{"id":15409,"text":"Because maybe it shows up somewhere else in the integral.","label":[],"Comments":[]}
+{"id":15410,"text":"And that happens here.","label":[],"Comments":[]}
+{"id":15411,"text":"So that suggests we make a substitution.","label":[[20,24,"command"],[25,39,"command_attribute"]],"Comments":[]}
+{"id":15412,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":15413,"text":"Which means <EQUATION>.","label":[[12,22,"equation"]],"Comments":[]}
+{"id":15414,"text":"That's the numerator, except for the minus sign.","label":[],"Comments":[]}
+{"id":15415,"text":"And so I can rewrite this as, under the substitution, I can rewrite this as <EXPRESSION>, that's the numerator, <EXPRESSION> is <EXPRESSION>, divided by <EXPRESSION>.","label":[[13,20,"command"],[60,67,"command"],[76,88,"expression"],[112,124,"expression"],[128,140,"expression"],[142,152,"command"],[153,165,"expression"]],"Comments":[]}
+{"id":15416,"text":"Well, I know how to do that integral too.","label":[],"Comments":[]}
+{"id":15417,"text":"That gives me the natural log, doesn't it.","label":[],"Comments":[]}
+{"id":15418,"text":"So this is <EXPRESSION> plus a constant.","label":[[11,23,"expression"],[24,28,"command"],[31,39,"command_attribute"]],"Comments":[]}
+{"id":15419,"text":"I'm not quite done.","label":[],"Comments":[]}
+{"id":15420,"text":"I have to back-substitute and replace this new variable that I've made up, called <EXPRESSION>, with what it is.","label":[[10,25,"command"],[30,37,"command"],[82,94,"expression"]],"Comments":[]}
+{"id":15421,"text":"And what you get is <EXPRESSION>.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":15422,"text":"So the integral of the <EXPRESSION> is <EXPRESSION>.","label":[[23,35,"expression"],[39,51,"expression"]],"Comments":[]}
+{"id":15423,"text":"Now, you find these tables of integrals in the back of the book.","label":[],"Comments":[]}
+{"id":15424,"text":"Things like that.","label":[],"Comments":[]}
+{"id":15425,"text":"I'm not sure how much memorization Professor Jerison is going to ask of you, but there is a certain amount of memorization that goes on in calculus.","label":[],"Comments":[]}
+{"id":15426,"text":"And this is one of the kinds of things that you probably want to know.","label":[],"Comments":[]}
+{"id":15427,"text":"Let me do one more integral.","label":[],"Comments":[]}
+{"id":15428,"text":"I think I'm making my way through a prepared board here, let's see.","label":[],"Comments":[]}
+{"id":15429,"text":"Good.","label":[],"Comments":[]}
+{"id":15430,"text":"So the integral of the <EXPRESSION> is <EXPRESSION>.","label":[[23,35,"expression"],[39,51,"expression"]],"Comments":[]}
+{"id":15431,"text":"I'd also like to know what the integral of the <EXPRESSION> is.","label":[[47,59,"expression"]],"Comments":[]}
+{"id":15432,"text":"And I don't know a way to kind of go straight at this, but let me show you a way to think your way through to it.","label":[],"Comments":[]}
+{"id":15433,"text":"If I take these two facts, <EXPRESSION> is what it is, and <EXPRESSION> is what it is, and add them together, I get this fact.","label":[[5,9,"command"],[27,39,"expression"],[59,71,"expression"]],"Comments":[]}
+{"id":15434,"text":"That the derivative of the <EXPRESSION> is, well, it's the sum of these two things.","label":[[27,39,"expression"]],"Comments":[]}
+{"id":15435,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":15436,"text":"And there's a <EXPRESSION> that occurs in both of those terms.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":15437,"text":"So I'll factor it out.","label":[[8,14,"command"]],"Comments":[]}
+{"id":15438,"text":"And that gives me, I'll put it over here.","label":[],"Comments":[]}
+{"id":15439,"text":"There's the <EXPRESSION> that occurs in both terms.","label":[[12,24,"expression"]],"Comments":[]}
+{"id":15440,"text":"And then in one term, there's another <EXPRESSION>.","label":[[38,50,"expression"]],"Comments":[]}
+{"id":15441,"text":"And in the other term, there's a <EXPRESSION>.","label":[[33,45,"expression"]],"Comments":[]}
+{"id":15442,"text":"So that's interesting somehow, because this same term appears on both sides of this equation.","label":[],"Comments":[]}
+{"id":15443,"text":"Let's write <EXPRESSION>, for that <EXPRESSION>.","label":[[6,11,"command"],[12,24,"expression"],[35,47,"expression"]],"Comments":[]}
+{"id":15444,"text":"And so the equation that I get is <EQUATION>.","label":[[34,44,"equation"]],"Comments":[]}
+{"id":15445,"text":"I've just made a direct substitution.","label":[],"Comments":[]}
+{"id":15446,"text":"Just decide that I'm going to write <EXPRESSION> for that single thing that occurs on both sides of the equation.","label":[[30,35,"command"],[36,48,"expression"]],"Comments":[]}
+{"id":15447,"text":"So <EXPRESSION> is on the left, and <EXPRESSION> is on the right.","label":[[3,15,"expression"],[36,48,"expression"]],"Comments":[]}
+{"id":15448,"text":"Well, there's my secant.","label":[[17,23,"term"]],"Comments":[]}
+{"id":15449,"text":"That I was trying to integrate.","label":[[21,30,"command"]],"Comments":[]}
+{"id":15450,"text":"And what it tells you is that = <EXPRESSION>.","label":[[32,44,"expression"]],"Comments":[]}
+{"id":15451,"text":"Just divide both sides by <EXPRESSION>, and I get this equation.","label":[[5,11,"command"],[12,22,"command_attribute"],[26,38,"expression"]],"Comments":[]}
+{"id":15452,"text":"<EXPRESSION>, that has a name.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":15453,"text":"Not sure that professor Jerison's used this in this class, but <EXPRESSION>, we've actually used something like that.","label":[[63,75,"expression"]],"Comments":[]}
+{"id":15454,"text":"It's on the board right now.","label":[],"Comments":[]}
+{"id":15455,"text":"It's a logarithmic derivative.","label":[],"Comments":[]}
+{"id":15456,"text":"It is the derivative of <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
+{"id":15457,"text":"Maybe it's easier to read this from right to left, if I want to calculate the derivative of <EXPRESSION>, well, the chain rule says I get the derivative of <EXPRESSION> times the derivative of <EXPRESSION>, which is <EXPRESSION>.","label":[[64,73,"command"],[74,91,"command_attribute"],[92,104,"expression"],[116,126,"method"],[134,137,"command"],[138,155,"command_attribute"],[156,168,"expression"],[169,174,"command"],[175,192,"command_attribute"],[193,205,"expression"],[216,228,"expression"]],"Comments":[]}
+{"id":15458,"text":"So often <EXPRESSION> is called the logarithmic derivative.","label":[[9,21,"expression"],[36,58,"method"]],"Comments":[]}
+{"id":15459,"text":"But it's done what I wanted.","label":[],"Comments":[]}
+{"id":15460,"text":"Because it's expressed the secant as a derivative.","label":[],"Comments":[]}
+{"id":15461,"text":"And I guess I should put in what <EXPRESSION> is.","label":[[21,24,"command"],[33,45,"expression"]],"Comments":[]}
+{"id":15462,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":15463,"text":"And so that implies that the integral-- Integrate both sides.","label":[[40,49,"command"],[50,60,"command_attribute"]],"Comments":[]}
+{"id":15464,"text":"That says that the integral of <EXPRESSION>, is <EXPRESSION>.","label":[[31,43,"expression"],[48,60,"expression"]],"Comments":[]}
+{"id":15465,"text":"So that's the last line in this little memo that I created.","label":[],"Comments":[]}
+{"id":15466,"text":"That we can use now for the rest of the class.","label":[],"Comments":[]}
+{"id":15467,"text":"Any questions about that trick?","label":[],"Comments":[]}
+{"id":15468,"text":"It's a trick, I have nothing more to say about it.","label":[],"Comments":[]}
+{"id":15469,"text":"OK.","label":[],"Comments":[]}
+{"id":15470,"text":"So, the next thing I-- oh yes, so now I want to make the point that using these rules and some thought, you can now integrate most trigonometric polynomials.","label":[],"Comments":[]}
+{"id":15471,"text":"Most things that involve powers of <EXPRESSION> and <EXPRESSION> and <EXPRESSION> and <EXPRESSION> and everything else.","label":[[35,47,"expression"],[52,64,"expression"],[69,81,"expression"],[86,98,"expression"]],"Comments":[]}
+{"id":15472,"text":"For example, let's try to integrate the integral of <EXPRESSION>.","label":[[52,64,"expression"]],"Comments":[]}
+{"id":15473,"text":"Big power of the <EXPRESSION> function.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":15474,"text":"Well, there are too many <EXPRESSION> there for me.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":15475,"text":"So let's take some away.","label":[],"Comments":[]}
+{"id":15476,"text":"And I can take them away by using that trig identity, <EQUATION>.","label":[[54,64,"equation"]],"Comments":[]}
+{"id":15477,"text":"So I'm going to replace two of those <EXPRESSION> by <EXPRESSION>.","label":[[16,23,"command"],[37,49,"expression"],[53,65,"expression"]],"Comments":[]}
+{"id":15478,"text":"That leaves me with two left over.","label":[],"Comments":[]}
+{"id":15479,"text":"Now there was method to my madness.","label":[],"Comments":[]}
+{"id":15480,"text":"Because I've got a <EXPRESSION> left over there.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":15481,"text":"And <EXPRESSION> is the derivative of <EXPRESSION>.","label":[[4,16,"expression"],[38,50,"expression"]],"Comments":[]}
+{"id":15482,"text":"So that suggests a substitution.","label":[],"Comments":[]}
+{"id":15483,"text":"Namely, let's say, let's let <EQUATION>, so that <EQUATION>.","label":[[25,28,"command"],[29,39,"equation"],[49,59,"equation"]],"Comments":[]}
+{"id":15484,"text":"And I have both terms that occur in my integral sitting there very nicely.","label":[],"Comments":[]}
+{"id":15485,"text":"So this is the possibility of making this substitution and seeing a secant squared up here as part of the differential here.","label":[],"Comments":[]}
+{"id":15486,"text":"That's why it was a good idea for me to take two of the <EXPRESSION> and write them as <EXPRESSION>.","label":[[40,44,"command"],[56,68,"expression"],[73,78,"command"],[87,99,"expression"]],"Comments":[]}
+{"id":15487,"text":"So now I can continue this.","label":[],"Comments":[]}
+{"id":15488,"text":"Under that substitution, I get <EXPRESSION>.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":15489,"text":"Oh yeah, and I should add the other fact, that-- Well I guess it's obvious that <EXPRESSION> is <EXPRESSION>.","label":[[22,25,"command"],[80,92,"expression"],[96,108,"expression"]],"Comments":[]}
+{"id":15490,"text":"So I get <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":15491,"text":"And then <EXPRESSION>-- <EXPRESSION>, that is <EXPRESSION>.","label":[[9,21,"expression"],[24,36,"expression"],[46,58,"expression"]],"Comments":[]}
+{"id":15492,"text":"Well that's pretty easy to integrate.","label":[[27,36,"command"]],"Comments":[]}
+{"id":15493,"text":"So I get <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":15494,"text":"Plus a constant.","label":[[0,4,"command"],[5,15,"command_attribute"]],"Comments":[]}
+{"id":15495,"text":"And then I just have to back-substitute.","label":[[24,39,"command"]],"Comments":[]}
+{"id":15496,"text":"Put things back in terms of the original variables.","label":[[0,3,"command"]],"Comments":[]}
+{"id":15497,"text":"And that gives me <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":15498,"text":"And there's the answer.","label":[],"Comments":[]}
+{"id":15499,"text":"So we could spend a lot more time doing more examples of this kind of polynomial trig thing.","label":[],"Comments":[]}
+{"id":15500,"text":"It's probably best for you to do some practice on your own.","label":[],"Comments":[]}
+{"id":15501,"text":"Because I want to talk about other things, also.","label":[],"Comments":[]}
+{"id":15502,"text":"And what I want to talk about is the use of these trig identities in making really trig substitution integration.","label":[],"Comments":[]}
+{"id":15503,"text":"So we did a little bit of this yesterday, and I'll show you some more examples today.","label":[],"Comments":[]}
+{"id":15504,"text":"Let's start with a pretty hard example right off the bat.","label":[],"Comments":[]}
+{"id":15505,"text":"So this is going to be the integral of <EXPRESSION>.","label":[[39,51,"expression"]],"Comments":[]}
+{"id":15506,"text":"It's a pretty bad looking integral.","label":[],"Comments":[]}
+{"id":15507,"text":"So how can we approach this?","label":[],"Comments":[]}
+{"id":15508,"text":"Well, the square root is the ugliest part of the integral, I think.","label":[],"Comments":[]}
+{"id":15509,"text":"What we should try to do is write this square root in some nicer way.","label":[[28,33,"command"],[39,50,"command_attribute"]],"Comments":[]}
+{"id":15510,"text":"That is, figure out a way to write <EXPRESSION> as a square.","label":[[29,34,"command"],[35,47,"expression"]],"Comments":[]}
+{"id":15511,"text":"That'll get rid of the square root.","label":[[8,18,"command"],[19,34,"command_attribute"]],"Comments":[]}
+{"id":15512,"text":"So there is an example of a way to write <EXPRESSION> plus something squared in a different way.","label":[[35,40,"command"],[41,53,"expression"],[54,58,"command"]],"Comments":[]}
+{"id":15513,"text":"And it's right up there.","label":[],"Comments":[]}
+{"id":15514,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":15515,"text":"So I want to use that idea.","label":[],"Comments":[]}
+{"id":15516,"text":"And when I see this form, that suggests that we make a trig substitution and write <EXPRESSION> as the <EXPRESSION> of some new variable.","label":[[77,82,"command"],[83,95,"expression"],[103,115,"expression"]],"Comments":[]}
+{"id":15517,"text":"Which you might as well call <EXPRESSION>, to because it's like an angle.","label":[[24,28,"command"],[29,41,"expression"]],"Comments":[]}
+{"id":15518,"text":"Then <EXPRESSION> is the <EXPRESSION>.","label":[[5,17,"expression"],[25,37,"expression"]],"Comments":[]}
+{"id":15519,"text":"According to that trig identity.","label":[],"Comments":[]}
+{"id":15520,"text":"And so the <EXPRESSION> is <EXPRESSION>.","label":[[11,23,"expression"],[27,39,"expression"]],"Comments":[]}
+{"id":15521,"text":"Right?","label":[],"Comments":[]}
+{"id":15522,"text":"So this identity is the reason that the substitution is going to help us.","label":[],"Comments":[]}
+{"id":15523,"text":"Because it gets rid of the square root and replaces it by some other trig function.","label":[],"Comments":[]}
+{"id":15524,"text":"I'd better be able to get rid of the <EXPRESSION>, too.","label":[[37,49,"expression"]],"Comments":[]}
+{"id":15525,"text":"That's part of the substitution process.","label":[],"Comments":[]}
+{"id":15526,"text":"But we can do that, because I know what the derivative of the <EXPRESSION> is.","label":[[62,74,"expression"]],"Comments":[]}
+{"id":15527,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":15528,"text":"So <EXPRESSION> is <EXPRESSION>.","label":[[3,15,"expression"],[19,31,"expression"]],"Comments":[]}
+{"id":15529,"text":"So <EXPRESSION> is <EXPRESSION>.","label":[[3,15,"expression"],[19,31,"expression"]],"Comments":[]}
+{"id":15530,"text":"So let's just substitute all of that stuff in, and rewrite the entire integral in terms of our new variable, <EXPRESSION>.","label":[[14,24,"command"],[51,58,"command"],[109,121,"expression"]],"Comments":[]}
+{"id":15531,"text":"So <EXPRESSION> is in the numerator.","label":[[3,15,"expression"]],"Comments":[]}
+{"id":15532,"text":"That's <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":15533,"text":"And then the denominator, well, it has an <EXPRESSION>.","label":[[42,54,"expression"]],"Comments":[]}
+{"id":15534,"text":"That's <EXPRESSION>.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":15535,"text":"And then there's this square root.","label":[],"Comments":[]}
+{"id":15536,"text":"And we know what that is in terms of <EXPRESSION>.","label":[[37,49,"expression"]],"Comments":[]}
+{"id":15537,"text":"It's <EXPRESSION>.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":15538,"text":"OK, now.","label":[],"Comments":[]}
+{"id":15539,"text":"we've done the trig substitution.","label":[],"Comments":[]}
+{"id":15540,"text":"I've gotten rid of the square root, I've got everything in terms of trig functions of the new variable.","label":[],"Comments":[]}
+{"id":15541,"text":"Pretty complicated trig function.","label":[],"Comments":[]}
+{"id":15542,"text":"This often happens, you wind up with a complete scattering of different trig functions in the numerator and denominator and everything.","label":[],"Comments":[]}
+{"id":15543,"text":"A systematic thing to do here is to put everything in terms of <EXPRESSION> and <EXPRESSION>.","label":[[63,75,"expression"],[80,92,"expression"]],"Comments":[]}
+{"id":15544,"text":"Unless you can see right away, how it's going to simplify, the systematic thing to do is to rewrite in terms of <EXPRESSION> and <EXPRESSION>.","label":[[49,57,"command"],[92,99,"command"],[112,124,"expression"],[129,141,"expression"]],"Comments":[]}
+{"id":15545,"text":"So let's do that.","label":[],"Comments":[]}
+{"id":15546,"text":"So let's see.","label":[],"Comments":[]}
+{"id":15547,"text":"The <EXPRESSION>, <EXPRESSION> is <EXPRESSION>.","label":[[4,16,"expression"],[18,30,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":15548,"text":"So I'm going to put a <EXPRESSION> in the denominator.","label":[[16,19,"command"],[22,34,"expression"],[42,53,"command_attribute"]],"Comments":[]}
+{"id":15549,"text":"Oh, I guess the first thing I can do is cancel.","label":[],"Comments":[]}
+{"id":15550,"text":"Let's do that.","label":[],"Comments":[]}
+{"id":15551,"text":"That's clever.","label":[],"Comments":[]}
+{"id":15552,"text":"You were all thinking that too.","label":[],"Comments":[]}
+{"id":15553,"text":"Cancel those.","label":[],"Comments":[]}
+{"id":15554,"text":"So now I just get <EXPRESSION> denominator from <EXPRESSION> there in the numerator.","label":[[14,17,"command"],[18,30,"expression"],[48,60,"expression"]],"Comments":[]}
+{"id":15555,"text":"It's still pretty complicated, <EXPRESSION>, who knows.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":15556,"text":"Well, we'll find out.","label":[],"Comments":[]}
+{"id":15557,"text":"Because the <EXPRESSION> is <EXPRESSION>.","label":[[12,24,"expression"],[28,40,"expression"]],"Comments":[]}
+{"id":15558,"text":"So I should put a <EXPRESSION> where the <EXPRESSION> was, and <EXPRESSION> up there.","label":[[12,15,"command"],[18,30,"expression"],[41,53,"expression"],[63,75,"expression"]],"Comments":[]}
+{"id":15559,"text":"And I still have <EXPRESSION>.","label":[[17,29,"expression"]],"Comments":[]}
+{"id":15560,"text":"And now you see some more cancellation occurs.","label":[],"Comments":[]}
+{"id":15561,"text":"That's the virtue of writing things out in this way.","label":[],"Comments":[]}
+{"id":15562,"text":"So now, the square here cancels with this <EXPRESSION>.","label":[[42,54,"expression"]],"Comments":[]}
+{"id":15563,"text":"And I'm left with <EXPRESSION>.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":15564,"text":"That's a little simpler.","label":[],"Comments":[]}
+{"id":15565,"text":"And it puts me in a position to use the same idea I just used.","label":[],"Comments":[]}
+{"id":15566,"text":"I see the <EXPRESSION> here.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":15567,"text":"I might look around in this integral to see if its derivative occurs anywhere.","label":[],"Comments":[]}
+{"id":15568,"text":"The differential of the <EXPRESSION> is the <EXPRESSION>.","label":[[24,36,"expression"],[44,56,"expression"]],"Comments":[]}
+{"id":15569,"text":"And so I'm very much inclined to make another substitution.","label":[],"Comments":[]}
+{"id":15570,"text":"Say, <EXPRESSION>, direct substitution this time.","label":[[5,17,"expression"]],"Comments":[]}
+{"id":15571,"text":"And say <EXPRESSION> is the <EXPRESSION>.","label":[[8,20,"expression"],[28,40,"expression"]],"Comments":[]}
+{"id":15572,"text":"Because then <EXPRESSION>-- Oh, I'm sorry.","label":[[13,25,"expression"]],"Comments":[]}
+{"id":15573,"text":"Say, <EXPRESSION> is the <EXPRESSION>.","label":[[5,17,"expression"],[25,37,"expression"]],"Comments":[]}
+{"id":15574,"text":"Because then <EXPRESSION> is <EXPRESSION>.","label":[[13,25,"expression"],[29,41,"expression"]],"Comments":[]}
+{"id":15575,"text":"And then this integral becomes, well, the numerator just is <EXPRESSION>.","label":[[60,72,"expression"]],"Comments":[]}
+{"id":15576,"text":"The denominator is <EXPRESSION>.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":15577,"text":"And I think we can break out the champagne, because we can integrate that one.","label":[[59,68,"command"]],"Comments":[]}
+{"id":15578,"text":"Finally get rid of the integral sign.","label":[],"Comments":[]}
+{"id":15579,"text":"Yes sir.","label":[],"Comments":[]}
+{"id":15580,"text":"STUDENT: [INAUDIBLE] PROFESSOR: OK, how do I know to make <EQUATION> rather than <EXPRESSION>.","label":[[53,57,"command"],[58,68,"equation"],[81,93,"expression"]],"Comments":[]}
+{"id":15581,"text":"Because I want to see <EXPRESSION> appear up here.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":15582,"text":"If I'd had a <EXPRESSION> up here, that would be a signal to me that maybe I should say let <EXPRESSION> be the <EXPRESSION>.","label":[[13,25,"expression"],[92,104,"expression"],[112,124,"expression"]],"Comments":[]}
+{"id":15583,"text":"OK?","label":[],"Comments":[]}
+{"id":15584,"text":"Also, because this thing in the denominator is something I want to get rid of.","label":[],"Comments":[]}
+{"id":15585,"text":"It's in the denominator.","label":[],"Comments":[]}
+{"id":15586,"text":"So I'll get rid of it by wishful thinking and just call it something else.","label":[],"Comments":[]}
+{"id":15587,"text":"It works pretty well in this case.","label":[],"Comments":[]}
+{"id":15588,"text":"Wishful thinking doesn't always work so well.","label":[],"Comments":[]}
+{"id":15589,"text":"So I integrate <EXPRESSION>, and I get <EXPRESSION> plus a constant, and I'm done with the calculus part of this problem.","label":[[5,14,"command"],[15,27,"expression"],[39,51,"expression"],[52,56,"command"]],"Comments":[]}
+{"id":15590,"text":"I've done the integral now.","label":[],"Comments":[]}
+{"id":15591,"text":"Gotten rid of the integral sign.","label":[],"Comments":[]}
+{"id":15592,"text":"But I'm not quite done with the problem yet, because I have to work my way back through two substitutions.","label":[],"Comments":[]}
+{"id":15593,"text":"First, this one.","label":[],"Comments":[]}
+{"id":15594,"text":"And then this one.","label":[],"Comments":[]}
+{"id":15595,"text":"So this first substitution isn't so bad to get rid of, to undo, to back-substitute.","label":[[58,62,"command"],[67,82,"command"]],"Comments":[]}
+{"id":15596,"text":"Because <EXPRESSION> is just <EXPRESSION>.","label":[[8,20,"expression"],[29,41,"expression"]],"Comments":[]}
+{"id":15597,"text":"And so <EXPRESSION> is, I guess a fancy way to write it is the <EXPRESSION>.","label":[[7,19,"expression"],[47,52,"command"],[63,75,"expression"]],"Comments":[]}
+{"id":15598,"text":"<EXPRESSION> is the <EXPRESSION>.","label":[[0,12,"expression"],[20,32,"expression"]],"Comments":[]}
+{"id":15599,"text":"So I get <EXPRESSION> plus a constant.","label":[[9,21,"expression"],[22,26,"command"],[29,37,"command_attribute"]],"Comments":[]}
+{"id":15600,"text":"Is there a question in the back?","label":[],"Comments":[]}
+{"id":15601,"text":"Yes sir?","label":[],"Comments":[]}
+{"id":15602,"text":"STUDENT: [INAUDIBLE] PROFESSOR: I'm sorry, my hearing is so bad.","label":[],"Comments":[]}
+{"id":15603,"text":"STUDENT: [INAUDIBLE] PROFESSOR: How did I know this substitution in the first place.","label":[],"Comments":[]}
+{"id":15604,"text":"It's because of the <EXPRESSION>.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":15605,"text":"And I want to make use of the trig identity in the upper left-hand corner.","label":[[19,22,"expression"],[30,43,"method"]],"Comments":[]}
+{"id":15606,"text":"I'll make you a table in a few minutes that will put all this in a bigger context.","label":[],"Comments":[]}
+{"id":15607,"text":"And I think it'll help you then.","label":[],"Comments":[]}
+{"id":15608,"text":"OK, I'll promise.","label":[],"Comments":[]}
+{"id":15609,"text":"So, what I want to try to talk about right now is how to rewrite a term like this.","label":[[57,64,"command"],[67,71,"command_attribute"]],"Comments":[]}
+{"id":15610,"text":"A trig term like this, back in terms of <EXPRESSION>.","label":[[40,52,"expression"]],"Comments":[]}
+{"id":15611,"text":"So I want to undo this trick substitution.","label":[[13,17,"command"],[29,41,"command_attribute"]],"Comments":[]}
+{"id":15612,"text":"This is a trig sub.","label":[],"Comments":[]}
+{"id":15613,"text":"And what I want to do now is try to undo that trig sub.","label":[[36,40,"command"],[46,54,"command_attribute"]],"Comments":[]}
+{"id":15614,"text":"And I'll show you a general method for undoing trig substitutions.","label":[],"Comments":[]}
+{"id":15615,"text":"This happens quite often.","label":[],"Comments":[]}
+{"id":15616,"text":"I don't know what the <EXPRESSION> is.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":15617,"text":"But I do know what the <EXPRESSION> is.","label":[[23,35,"expression"]],"Comments":[]}
+{"id":15618,"text":"So I want to make a relation between them.","label":[[13,17,"command"],[20,28,"command_attribute"]],"Comments":[]}
+{"id":15619,"text":"OK, so undoing.","label":[],"Comments":[]}
+{"id":15620,"text":"Trig subs.","label":[],"Comments":[]}
+{"id":15621,"text":"So let's go back to where trigonometry always comes from, this right angled triangle.","label":[],"Comments":[]}
+{"id":15622,"text":"The <EXPRESSION> in the corner, and then these three sides.","label":[[4,16,"expression"]],"Comments":[]}
+{"id":15623,"text":"This one's called the <EXPRESSION>.","label":[[22,34,"expression"]],"Comments":[]}
+{"id":15624,"text":"This one is called the <EXPRESSION>, and that one's called the <EXPRESSION>.","label":[[23,35,"expression"],[63,75,"expression"]],"Comments":[]}
+{"id":15625,"text":"And now, let's find out where <EXPRESSION> lies in this triangle.","label":[[15,23,"command"],[30,42,"expression"]],"Comments":[]}
+{"id":15626,"text":"Let's try to write the sides of this triangle in terms of <EXPRESSION>.","label":[[13,18,"command"],[58,70,"expression"]],"Comments":[]}
+{"id":15627,"text":"And what I know is, <EXPRESSION> is the <EXPRESSION>.","label":[[20,32,"expression"],[40,52,"expression"]],"Comments":[]}
+{"id":15628,"text":"So the tangent of <EXPRESSION>, tangent of this angle, is opposite divided by adjacent.","label":[[18,30,"expression"],[67,77,"command"]],"Comments":[]}
+{"id":15629,"text":"Did you learn SOH CAH TOA?","label":[[14,25,"method"]],"Comments":[]}
+{"id":15630,"text":"OK, so it's opposite divided by adjacent.","label":[],"Comments":[]}
+{"id":15631,"text":"Is the tangent.","label":[[7,14,"term"]],"Comments":[]}
+{"id":15632,"text":"So there are different ways to do that, but why not just do it in the simplest way and suppose that the adjacent is <EXPRESSION>, and the opposite is <EXPRESSION>.","label":[[116,128,"expression"],[150,162,"expression"]],"Comments":[]}
+{"id":15633,"text":"This is correct now, isn't it?","label":[],"Comments":[]}
+{"id":15634,"text":"I get the correct value for the tangent of theta by saying that the lengths of those are <EXPRESSION> and <EXPRESSION>.","label":[[89,101,"expression"],[106,118,"expression"]],"Comments":[]}
+{"id":15635,"text":"And that means that the hypotenuse has length <EXPRESSION>.","label":[[46,58,"expression"]],"Comments":[]}
+{"id":15636,"text":"Well, here's a triangle.","label":[],"Comments":[]}
+{"id":15637,"text":"I'm interested in computing the <EXPRESSION>.","label":[[32,44,"expression"]],"Comments":[]}
+{"id":15638,"text":"Where's that appear in the triangle?","label":[],"Comments":[]}
+{"id":15639,"text":"Well, let's see.","label":[],"Comments":[]}
+{"id":15640,"text":"The <EXPRESSION> is <EXPRESSION>.","label":[[4,16,"expression"],[20,32,"expression"]],"Comments":[]}
+{"id":15641,"text":"And the <EXPRESSION> is opposite over hypotenuse.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":15642,"text":"So the cosecant is hypotenuse over opposite.","label":[],"Comments":[]}
+{"id":15643,"text":"And the hypotenuse is <EXPRESSION>, and the opposite is <EXPRESSION>.","label":[[22,34,"expression"],[56,68,"expression"]],"Comments":[]}
+{"id":15644,"text":"And so I've done it.","label":[],"Comments":[]}
+{"id":15645,"text":"I've undone the trig substitution.","label":[],"Comments":[]}
+{"id":15646,"text":"I've figured out what this cosecant of <EXPRESSION> is, in terms of <EXPRESSION>.","label":[[39,51,"expression"],[67,80,"expression"]],"Comments":[]}
+{"id":15647,"text":"And so the final answer is minus the <EXPRESSION>, plus a constant, and there's an answer to the original problem.","label":[[27,32,"command"],[37,49,"expression"],[51,55,"command"],[56,66,"command_attribute"]],"Comments":[]}
+{"id":15648,"text":"This took two boards to go through this.","label":[],"Comments":[]}
+{"id":15649,"text":"I illustrated several things.","label":[],"Comments":[]}
+{"id":15650,"text":"Actually, this three half boards.","label":[],"Comments":[]}
+{"id":15651,"text":"I illustrated this use of trig substitution, and I'll come back to that in a second.","label":[],"Comments":[]}
+{"id":15652,"text":"I illustrated patience.","label":[],"Comments":[]}
+{"id":15653,"text":"I illustrated rewriting things in terms of sines and cosines, and then making a direct substitution to evaluate an integral like this.","label":[[103,111,"command"]],"Comments":[]}
+{"id":15654,"text":"And then there's this undoing all of those substitutions.","label":[],"Comments":[]}
+{"id":15655,"text":"And it culminated with undoing the trig sub.","label":[],"Comments":[]}
+{"id":15656,"text":"So let's play a game here.","label":[],"Comments":[]}
+{"id":15657,"text":"Why don't we play the game where you give me-- So, there's a step in here that I should have done.","label":[],"Comments":[]}
+{"id":15658,"text":"I should've said this is <EXPRESSION> plus a constant.","label":[[25,37,"expression"],[38,42,"command"],[43,53,"command_attribute"]],"Comments":[]}
+{"id":15659,"text":"The most straightforward thing you can do is to say since <EXPRESSION> is the tangent of <EXPRESSION>, that means that-- sorry, if <EXPRESSION>, that means that <EXPRESSION> is the arctangent of <EXPRESSION>.","label":[[58,70,"expression"],[89,101,"expression"],[131,143,"expression"],[161,173,"expression"],[195,207,"expression"]],"Comments":[]}
+{"id":15660,"text":"And so let's just put in <EXPRESSION> as the arctangent of <EXPRESSION>, and that's what you get.","label":[[18,21,"command"],[25,37,"expression"],[59,71,"expression"]],"Comments":[]}
+{"id":15661,"text":"So really, what I just did for you was to show you a way to compute some trig function applied to the inverse of another trig function.","label":[[60,67,"command"],[73,86,"command_attribute"]],"Comments":[]}
+{"id":15662,"text":"I computed cosecant of the arctangent by this trick.","label":[],"Comments":[]}
+{"id":15663,"text":"So now, let's play the game where you give me a trig function and an inverse trig function, and I try to compute what the composite is.","label":[],"Comments":[]}
+{"id":15664,"text":"OK.","label":[],"Comments":[]}
+{"id":15665,"text":"So who can give me a trig function.","label":[],"Comments":[]}
+{"id":15666,"text":"Has to be one of these standard ones.","label":[],"Comments":[]}
+{"id":15667,"text":"STUDENT: Tan.","label":[],"Comments":[]}
+{"id":15668,"text":"PROFESSOR: Tangent.","label":[],"Comments":[]}
+{"id":15669,"text":"Alright.","label":[],"Comments":[]}
+{"id":15670,"text":"How about another one?","label":[],"Comments":[]}
+{"id":15671,"text":"STUDENT: <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":15672,"text":"PROFESSOR: <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":15673,"text":"Do we have agreement on <EXPRESSION>.","label":[[24,36,"expression"]],"Comments":[]}
+{"id":15674,"text":"STUDENT: [INAUDIBLE] PROFESSOR: <EXPRESSION>?","label":[[32,44,"expression"]],"Comments":[]}
+{"id":15675,"text":"STUDENT: [INAUDIBLE] PROFESSOR: Right, <EXPRESSION> has the best cheer.","label":[[39,51,"expression"]],"Comments":[]}
+{"id":15676,"text":"So that's the game.","label":[],"Comments":[]}
+{"id":15677,"text":"We have to compute, try to compute, that composite.","label":[[11,18,"command"],[27,34,"command"],[41,50,"command_attribute"]],"Comments":[]}
+{"id":15678,"text":"Something wrong with this?","label":[],"Comments":[]}
+{"id":15679,"text":"STUDENT: [INAUDIBLE] PROFESSOR: What does acceptable mean?","label":[],"Comments":[]}
+{"id":15680,"text":"Don't you think-- so the question is, isn't this a perfectly acceptable final answer.","label":[],"Comments":[]}
+{"id":15681,"text":"It's a correct final answer.","label":[],"Comments":[]}
+{"id":15682,"text":"But this is much more insightful.","label":[],"Comments":[]}
+{"id":15683,"text":"And after all the original thing was involving square roots and things, this is the kind of thing you might hope for is an answer.","label":[],"Comments":[]}
+{"id":15684,"text":"This is just a nicer answer for sure.","label":[],"Comments":[]}
+{"id":15685,"text":"And likely to be more useful to you when you go on and use that answer for something else.","label":[],"Comments":[]}
+{"id":15686,"text":"OK, so let's try to do this this.","label":[],"Comments":[]}
+{"id":15687,"text":"Undo a trig substitution that involved a cosecant.","label":[[0,4,"command"],[7,24,"command_attribute"]],"Comments":[]}
+{"id":15688,"text":"And I manipulate around, and I find myself trying to find out what's the tangent of <EXPRESSION>.","label":[[6,16,"command"],[73,80,"term"],[84,96,"expression"]],"Comments":[]}
+{"id":15689,"text":"So here's how we go about it.","label":[],"Comments":[]}
+{"id":15690,"text":"I draw this triangle.","label":[],"Comments":[]}
+{"id":15691,"text":"<EXPRESSION> is the angle here.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":15692,"text":"This is the adjacent, opposite, hypotenuse.","label":[[12,20,"term"],[22,30,"term"],[32,42,"term"]],"Comments":[]}
+{"id":15693,"text":"So, the first thing is how can I make the cosecant appear here, <EXPRESSION>.","label":[[64,76,"expression"]],"Comments":[]}
+{"id":15694,"text":"What dimensions should I give to the sides in order for the cosecant of <EXPRESSION>, sorry, in order for <EXPRESSION> to be the cosecant of <EXPRESSION>.","label":[[60,68,"term"],[72,84,"expression"],[106,118,"expression"],[129,137,"term"],[141,153,"expression"]],"Comments":[]}
+{"id":15695,"text":"This thing is <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":15696,"text":"So, that means that the cosecant of <EXPRESSION>-- that means the cosecant of <EXPRESSION> should be <EXPRESSION>.","label":[[36,48,"expression"],[66,74,"term"],[78,90,"expression"],[101,113,"expression"]],"Comments":[]}
+{"id":15697,"text":"<EXPRESSION> is the arccosecant, so <EXPRESSION> is the cosecant of <EXPRESSION>.","label":[[0,12,"expression"],[20,31,"term"],[36,48,"expression"],[56,64,"term"],[68,80,"expression"]],"Comments":[]}
+{"id":15698,"text":"So, what'll I take the sides to be, to get the cosecant?","label":[[47,55,"term"]],"Comments":[]}
+{"id":15699,"text":"The cosecant is <EXPRESSION>.","label":[[4,12,"term"],[16,28,"expression"]],"Comments":[]}
+{"id":15700,"text":"And the <EXPRESSION> is the opposite over the hypotenuse.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":15701,"text":"So I get hypotenuse over opposite.","label":[],"Comments":[]}
+{"id":15702,"text":"And that's supposed to be what <EXPRESSION> is.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":15703,"text":"So I could make the opposite anything I want, but the simplest thing is to make it <EXPRESSION>.","label":[[83,95,"expression"]],"Comments":[]}
+{"id":15704,"text":"Let's do that.","label":[],"Comments":[]}
+{"id":15705,"text":"And then what does that mean about the rest of the sides?","label":[],"Comments":[]}
+{"id":15706,"text":"Hypotenuse had better be <EXPRESSION>.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":15707,"text":"And then I've recovered this.","label":[],"Comments":[]}
+{"id":15708,"text":"So here's a triangle that exhibits the correct angle.","label":[],"Comments":[]}
+{"id":15709,"text":"This remaining side is going to be useful to us.","label":[],"Comments":[]}
+{"id":15710,"text":"And it is the <EXPRESSION>.","label":[[14,26,"expression"]],"Comments":[]}
+{"id":15711,"text":"So I've got a triangle of the correct angle <EXPRESSION>, and now I want to compute the tangent of that angle.","label":[[44,56,"expression"]],"Comments":[]}
+{"id":15712,"text":"Well, that's easy.","label":[],"Comments":[]}
+{"id":15713,"text":"That's opposite divided by adjacent.","label":[],"Comments":[]}
+{"id":15714,"text":"So I get <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":15715,"text":"Very flexible tool that'll be useful to you in many different times.","label":[],"Comments":[]}
+{"id":15716,"text":"Whenever you have to undo a trig substitution, this is likely to be useful.","label":[],"Comments":[]}
+{"id":15717,"text":"OK, that was a good game.","label":[],"Comments":[]}
+{"id":15718,"text":"No winners in this game.","label":[],"Comments":[]}
+{"id":15719,"text":"We're all winners.","label":[],"Comments":[]}
+{"id":15720,"text":"No losers, we're all winners.","label":[],"Comments":[]}
+{"id":15721,"text":"OK.","label":[],"Comments":[]}
+{"id":15722,"text":"So, good.","label":[],"Comments":[]}
+{"id":15723,"text":"So let me make this table of the different trig substitutions, and how they can be useful.","label":[],"Comments":[]}
+{"id":15724,"text":"Summary of trig substitutions.","label":[],"Comments":[]}
+{"id":15725,"text":"So over here, we have, if you see, so if your integrand contains, make a substitution to get.","label":[],"Comments":[]}
+{"id":15726,"text":"So if your integrand contains, I'll write these things out as square roots.","label":[],"Comments":[]}
+{"id":15727,"text":"If it contains the <EXPRESSION>, this is what we talked about on Thursday.","label":[[19,31,"expression"]],"Comments":[]}
+{"id":15728,"text":"When I was trying to find the area of that piece of a circle.","label":[],"Comments":[]}
+{"id":15729,"text":"There, I suggested that we should make the substitution <EQUATION>.","label":[[56,66,"equation"]],"Comments":[]}
+{"id":15730,"text":"Or, <EQUATION>.","label":[[4,14,"equation"]],"Comments":[]}
+{"id":15731,"text":"Either one works just as well.","label":[],"Comments":[]}
+{"id":15732,"text":"And there's no way to prefer one over the other.","label":[],"Comments":[]}
+{"id":15733,"text":"And when you make the substitution, <EQUATION>, you get <EXPRESSION>.","label":[[36,46,"equation"],[56,68,"expression"]],"Comments":[]}
+{"id":15734,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":15735,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
+{"id":15736,"text":"So you get <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":15737,"text":"So this expression becomes = this expression under that substitution.","label":[],"Comments":[]}
+{"id":15738,"text":"And then you go on.","label":[],"Comments":[]}
+{"id":15739,"text":"Then you've gotten rid of the square root, and you've got a trigonometric integral that you have to try to do.","label":[],"Comments":[]}
+{"id":15740,"text":"If you made the substitution <EXPRESSION>, you'd get <EXPRESSION>, which is <EXPRESSION>.","label":[[29,41,"expression"],[53,65,"expression"],[76,88,"expression"]],"Comments":[]}
+{"id":15741,"text":"And then you can go ahead as well.","label":[],"Comments":[]}
+{"id":15742,"text":"We just saw another example.","label":[],"Comments":[]}
+{"id":15743,"text":"Namely, if you have <EXPRESSION>.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":15744,"text":"That's like the example we had up here.","label":[],"Comments":[]}
+{"id":15745,"text":"<EQUATION> in this example.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":15746,"text":"What did we do?","label":[],"Comments":[]}
+{"id":15747,"text":"We tried the substitution <EQUATION>.","label":[[26,35,"equation"]],"Comments":[]}
+{"id":15748,"text":"And the reason is that I can plug into the trig identity up here in the upper left.","label":[[29,33,"command"]],"Comments":[]}
+{"id":15749,"text":"And replace <EXPRESSION> by <EXPRESSION>.","label":[[4,11,"command"],[12,24,"expression"],[28,40,"expression"]],"Comments":[]}
+{"id":15750,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":15751,"text":"There's one more thing in this table.","label":[],"Comments":[]}
+{"id":15752,"text":"Sort of, the only remaining sum or difference of terms like this.","label":[],"Comments":[]}
+{"id":15753,"text":"And that's what happens if you have <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":15754,"text":"So there, I think we can make a substitution a <EXPRESSION>.","label":[[47,59,"expression"]],"Comments":[]}
+{"id":15755,"text":"Because, after all, <EXPRESSION>-- so <EXPRESSION> - <EXPRESSION>-- Sorry.","label":[[20,32,"expression"],[38,50,"expression"],[53,65,"expression"]],"Comments":[]}
+{"id":15756,"text":"Let's see what happens when I make that substitution.","label":[[30,34,"command"],[40,52,"command_attribute"]],"Comments":[]}
+{"id":15757,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":15758,"text":"Under this substitution.","label":[],"Comments":[]}
+{"id":15759,"text":"That's <EXPRESSION>.","label":[],"Comments":[]}
+{"id":15760,"text":"Well, put the <EXPRESSION> on the other side.","label":[[6,9,"command"],[14,26,"expression"]],"Comments":[]}
+{"id":15761,"text":"And you find <EXPRESSION>, coming out.","label":[[13,25,"expression"]],"Comments":[]}
+{"id":15762,"text":"So this is <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":15763,"text":"And so that's what you get, <EXPRESSION>.","label":[[28,40,"expression"]],"Comments":[]}
+{"id":15764,"text":"After I take the square root, I get <EXPRESSION>.","label":[[8,12,"command"],[13,28,"command_attribute"],[36,48,"expression"]],"Comments":[]}
+{"id":15765,"text":"So these are the three basic trig substitution forms.","label":[],"Comments":[]}
+{"id":15766,"text":"Where trig substitutions are useful to get rid of expressions like this, and replace them by trigonometric expressions.","label":[],"Comments":[]}
+{"id":15767,"text":"And then you use this trick, you do the integral if you can and then you use this trick to get rid of the <EXPRESSION> at the end.","label":[[91,101,"command"],[106,118,"expression"]],"Comments":[]}
+{"id":15768,"text":"So now, the last thing I want to talk about today is called completing the square.","label":[],"Comments":[]}
+{"id":15769,"text":"And that comes in because unfortunately, not every square root of a quadratic has such a simple form.","label":[],"Comments":[]}
+{"id":15770,"text":"You will often encounter things that are not just the square root of something simple.","label":[],"Comments":[]}
+{"id":15771,"text":"Like one of these forms.","label":[],"Comments":[]}
+{"id":15772,"text":"Like there might be a middle term in there.","label":[],"Comments":[]}
+{"id":15773,"text":"I don't actually have time to show you an example of how this comes out in a sort of practical example.","label":[],"Comments":[]}
+{"id":15774,"text":"But it does happen quite frequently.","label":[],"Comments":[]}
+{"id":15775,"text":"And so I want to show you how to deal with things like the following example.","label":[],"Comments":[]}
+{"id":15776,"text":"Let's try to integrate <EXPRESSION>.","label":[[13,22,"command"],[23,35,"expression"]],"Comments":[]}
+{"id":15777,"text":"So there's a square root of some square, some quadratic.","label":[],"Comments":[]}
+{"id":15778,"text":"It's very much like this business.","label":[],"Comments":[]}
+{"id":15779,"text":"But it isn't of any of these forms.","label":[],"Comments":[]}
+{"id":15780,"text":"And so what I want to do is show you how to rewrite it in one of those forms using substitution, again.","label":[],"Comments":[]}
+{"id":15781,"text":"All this is about substitution.","label":[],"Comments":[]}
+{"id":15782,"text":"So the game is to rewrite quadratic as something like <EXPRESSION> plus something or other.","label":[[18,25,"command"],[26,35,"command_attribute"],[54,66,"expression"],[67,71,"command"]],"Comments":[]}
+{"id":15783,"text":"Plus some other constant.","label":[[0,4,"command"],[16,24,"command_attribute"]],"Comments":[]}
+{"id":15784,"text":"So write it, try to write it, in the form of a square plus or minus another constant.","label":[[3,8,"command"],[20,25,"command"]],"Comments":[]}
+{"id":15785,"text":"And then we'll go on from there.","label":[],"Comments":[]}
+{"id":15786,"text":"So let's do that in this case.","label":[],"Comments":[]}
+{"id":15787,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":15788,"text":"Well, if you square this form out, then the middle term is going to be <EXPRESSION>.","label":[[71,83,"expression"]],"Comments":[]}
+{"id":15789,"text":"So that, since I have a middle term here, I pretty much know what a has to be.","label":[],"Comments":[]}
+{"id":15790,"text":"The only choice in order to get something like <EXPRESSION> out of this, is to take a to be <EXPRESSION>.","label":[[47,59,"expression"],[92,104,"expression"]],"Comments":[]}
+{"id":15791,"text":"Because then, this is what you get.","label":[],"Comments":[]}
+{"id":15792,"text":"This isn't quite right yet, but let's compute what I have here.","label":[[38,45,"command"]],"Comments":[]}
+{"id":15793,"text":"<EXPRESSION>, so far so good, plus <EXPRESSION>, and I don't have a plus <EXPRESSION> here.","label":[[0,12,"expression"],[30,34,"command"],[35,47,"expression"],[68,72,"command"],[73,85,"expression"]],"Comments":[]}
+{"id":15794,"text":"So I have to fix that by subtracting <EXPRESSION>.","label":[[37,49,"expression"]],"Comments":[]}
+{"id":15795,"text":"So that's what I mean.","label":[],"Comments":[]}
+{"id":15796,"text":"I've completed the square.","label":[],"Comments":[]}
+{"id":15797,"text":"The word for this process of eliminating the middle term by using the square of an expression like that.","label":[],"Comments":[]}
+{"id":15798,"text":"That's called completing the square.","label":[],"Comments":[]}
+{"id":15799,"text":"And we can use that process to compute this integral.","label":[],"Comments":[]}
+{"id":15800,"text":"So let's do that.","label":[],"Comments":[]}
+{"id":15801,"text":"So I can rewrite this integral, rewrite this denominator like this.","label":[[9,16,"command"]],"Comments":[]}
+{"id":15802,"text":"And then I'm going to try to use one of these forms over here.","label":[],"Comments":[]}
+{"id":15803,"text":"So in order to get a single variable there, instead of something complicated like <EXPRESSION>, I'm inclined to come up with another variable name and write it =, write <EXPRESSION> as that other variable name.","label":[[82,94,"expression"],[163,168,"command"],[169,181,"expression"]],"Comments":[]}
+{"id":15804,"text":"So here's another little direct substitution.","label":[],"Comments":[]}
+{"id":15805,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":15806,"text":"Figure out what du is.","label":[[16,18,"term"]],"Comments":[]}
+{"id":15807,"text":"That's pretty easy.","label":[],"Comments":[]}
+{"id":15808,"text":"And then rewrite the integral in those terms.","label":[[9,16,"command"],[20,29,"command_attribute"]],"Comments":[]}
+{"id":15809,"text":"So <EQUATION>.","label":[[3,13,"equation"]],"Comments":[]}
+{"id":15810,"text":"And then in the denominator I have, well, I have the square root of that.","label":[],"Comments":[]}
+{"id":15811,"text":"Oh yeah, so I think as part of this I'll write out what <EXPRESSION> is.","label":[[41,46,"command"],[56,68,"expression"]],"Comments":[]}
+{"id":15812,"text":"The point is, it's = <EXPRESSION>.","label":[[21,33,"expression"]],"Comments":[]}
+{"id":15813,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":15814,"text":"There's the data box containing the substitution data.","label":[],"Comments":[]}
+{"id":15815,"text":"And so now I can put that in.","label":[[17,20,"command"]],"Comments":[]}
+{"id":15816,"text":"I have <EXPRESSION> there.","label":[[7,19,"expression"]],"Comments":[]}
+{"id":15817,"text":"In terms of <EXPRESSION>, that's <EXPRESSION>.","label":[[12,24,"expression"],[33,45,"expression"]],"Comments":[]}
+{"id":15818,"text":"Well, now I'm in a happier position because I can look for <EXPRESSION> for something like that in my table here.","label":[[59,71,"expression"]],"Comments":[]}
+{"id":15819,"text":"And it actually sits down here.","label":[],"Comments":[]}
+{"id":15820,"text":"So except for the use of the letter <EXPRESSION> here instead of <EXPRESSION> over there.","label":[[18,21,"command"],[36,48,"expression"],[65,77,"expression"]],"Comments":[]}
+{"id":15821,"text":"That tells me what I want.","label":[],"Comments":[]}
+{"id":15822,"text":"So to handle this, what I should use is a trig substitution.","label":[],"Comments":[]}
+{"id":15823,"text":"And the trig substitution that's suggested is, according to the bottom line with <EQUATION>, so <EQUATION>.","label":[[81,91,"equation"],[96,106,"equation"]],"Comments":[]}
+{"id":15824,"text":"The suggestion is, I should take <EXPRESSION>-- But I'd better not use the letter x any more.","label":[[33,45,"expression"],[82,83,"term"]],"Comments":[]}
+{"id":15825,"text":"But I don't have a letter <EXPRESSION>, I have the letter <EXPRESSION>.","label":[[26,38,"expression"],[58,70,"expression"]],"Comments":[]}
+{"id":15826,"text":"I should take <EQUATION>.","label":[[9,13,"command"],[14,24,"equation"]],"Comments":[]}
+{"id":15827,"text":"And then some letter I haven't used before.","label":[],"Comments":[]}
+{"id":15828,"text":"And <EXPRESSION> is available.","label":[[4,16,"expression"]],"Comments":[]}
+{"id":15829,"text":"This is a look-up table process.","label":[],"Comments":[]}
+{"id":15830,"text":"I see the <EXPRESSION>, I see that that's of this form.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":15831,"text":"I'm instructed to make this substitution.","label":[[18,22,"command"],[28,40,"command_attribute"]],"Comments":[]}
+{"id":15832,"text":"And that's what I just did.","label":[],"Comments":[]}
+{"id":15833,"text":"Let's see how it works out.","label":[],"Comments":[]}
+{"id":15834,"text":"So that means the <EXPRESSION> is <EXPRESSION>, OK.","label":[[18,30,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":15835,"text":"What's the derivative of the <EXPRESSION>?","label":[[29,41,"expression"]],"Comments":[]}
+{"id":15836,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":15837,"text":"So <EQUATION>.","label":[[3,13,"equation"]],"Comments":[]}
+{"id":15838,"text":"And <EXPRESSION> is, here's the payoff.","label":[[4,16,"expression"]],"Comments":[]}
+{"id":15839,"text":"I'm supposed to be able to rewrite that in terms of the <EXPRESSION>.","label":[[27,34,"command"],[56,68,"expression"]],"Comments":[]}
+{"id":15840,"text":"According to this.","label":[],"Comments":[]}
+{"id":15841,"text":"<EXPRESSION> is <EXPRESSION>.","label":[[0,12,"expression"],[16,28,"expression"]],"Comments":[]}
+{"id":15842,"text":"And <EXPRESSION> is <EXPRESSION>.","label":[[4,16,"expression"],[20,32,"expression"]],"Comments":[]}
+{"id":15843,"text":"So this is <EXPRESSION>.","label":[[11,23,"expression"]],"Comments":[]}
+{"id":15844,"text":"Right, yeah?","label":[],"Comments":[]}
+{"id":15845,"text":"STUDENT: [INAUDIBLE] PROFESSOR: But I squared it.","label":[],"Comments":[]}
+{"id":15846,"text":"And now I'll square root it.","label":[[13,24,"command"]],"Comments":[]}
+{"id":15847,"text":"And I'll get a <EXPRESSION> and this tangent will go away.","label":[[9,12,"command"],[15,27,"expression"]],"Comments":[]}
+{"id":15848,"text":"So there's my data box for this substitution.","label":[],"Comments":[]}
+{"id":15849,"text":"And let's go on to another board.","label":[],"Comments":[]}
+{"id":15850,"text":"So where I'm at is the integral of <EXPRESSION>.","label":[[35,47,"expression"]],"Comments":[]}
+{"id":15851,"text":"And I have all the data I need here to rewrite that in terms of <EXPRESSION>.","label":[[39,46,"command"],[64,76,"expression"]],"Comments":[]}
+{"id":15852,"text":"So <EXPRESSION>.","label":[[3,15,"expression"]],"Comments":[]}
+{"id":15853,"text":"And the denominator is <EXPRESSION>.","label":[[23,35,"expression"]],"Comments":[]}
+{"id":15854,"text":"Ha.","label":[],"Comments":[]}
+{"id":15855,"text":"Well, so some very nice simplification happens here.","label":[],"Comments":[]}
+{"id":15856,"text":"The <EXPRESSION>'s cancel.","label":[[4,16,"expression"]],"Comments":[]}
+{"id":15857,"text":"And the <EXPRESSION> cancel.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":15858,"text":"And I'm left with trying to work with the integral, <EXPRESSION>.","label":[[52,64,"expression"]],"Comments":[]}
+{"id":15859,"text":"And luckily enough at the very beginning of the hour, I worked out how to compute the integral of the <EXPRESSION>.","label":[[102,114,"expression"]],"Comments":[]}
+{"id":15860,"text":"And there it is.","label":[],"Comments":[]}
+{"id":15861,"text":"So this is <EXPRESSION> plus a constant.","label":[[11,23,"expression"],[24,28,"command"],[29,39,"command_attribute"]],"Comments":[]}
+{"id":15862,"text":"And we're done with the calculus part.","label":[],"Comments":[]}
+{"id":15863,"text":"There's no more integral there.","label":[],"Comments":[]}
+{"id":15864,"text":"But I still am not quite done with the problem, because again I have these two substitutions to try to undo.","label":[[103,107,"command"]],"Comments":[]}
+{"id":15865,"text":"So let's undo them one by one.","label":[[9,13,"command"]],"Comments":[]}
+{"id":15866,"text":"Let's see.","label":[],"Comments":[]}
+{"id":15867,"text":"I have this trig substitution here.","label":[],"Comments":[]}
+{"id":15868,"text":"And I could use my triangle trick, if I need to.","label":[],"Comments":[]}
+{"id":15869,"text":"But maybe I don't need to.","label":[],"Comments":[]}
+{"id":15870,"text":"Let's see, do I know what the <EXPRESSION> is in terms of <EXPRESSION>?","label":[[30,42,"expression"],[58,70,"expression"]],"Comments":[]}
+{"id":15871,"text":"Well, I do.","label":[],"Comments":[]}
+{"id":15872,"text":"So I get <EXPRESSION>.","label":[[9,21,"expression"]],"Comments":[]}
+{"id":15873,"text":"Do I know what the <EXPRESSION> is in terms of <EXPRESSION>?","label":[[19,31,"expression"],[47,59,"expression"]],"Comments":[]}
+{"id":15874,"text":"Well, I do.","label":[],"Comments":[]}
+{"id":15875,"text":"It's here.","label":[],"Comments":[]}
+{"id":15876,"text":"So I lucked out, in this case.","label":[],"Comments":[]}
+{"id":15877,"text":"And I don't have to go through and use that triangle trick.","label":[],"Comments":[]}
+{"id":15878,"text":"So the <EXPRESSION> is the <EXPRESSION>.","label":[[7,19,"expression"],[27,39,"expression"]],"Comments":[]}
+{"id":15879,"text":"Good.","label":[],"Comments":[]}
+{"id":15880,"text":"So I've undone this trig substitution.","label":[],"Comments":[]}
+{"id":15881,"text":"I'm not quite done yet because my answer is involved with <EXPRESSION>.","label":[[58,70,"expression"]],"Comments":[]}
+{"id":15882,"text":"And what I wanted originally was <EXPRESSION>.","label":[[33,45,"expression"]],"Comments":[]}
+{"id":15883,"text":"But this direct substitution that I started with is really easy to deal with.","label":[],"Comments":[]}
+{"id":15884,"text":"I can just put <EXPRESSION> every time I see a <EXPRESSION>.","label":[[11,14,"command"],[15,27,"expression"],[47,59,"expression"]],"Comments":[]}
+{"id":15885,"text":"So this is <EXPRESSION> plus the square root.","label":[[11,23,"expression"],[24,28,"command"],[33,44,"command_attribute"]],"Comments":[]}
+{"id":15886,"text":".","label":[],"Comments":[]}
+{"id":15887,"text":".","label":[],"Comments":[]}
+{"id":15888,"text":"What's going to happen when I put <EXPRESSION> in place for <EXPRESSION> here?","label":[],"Comments":[]}
+{"id":15889,"text":"You know what you get.","label":[],"Comments":[]}
+{"id":15890,"text":"You get exactly what we started with.","label":[],"Comments":[]}
+{"id":15891,"text":"Right?","label":[],"Comments":[]}
+{"id":15892,"text":"I put <EXPRESSION> in place of the <EXPRESSION> here.","label":[[2,5,"command"],[6,18,"expression"],[35,47,"expression"]],"Comments":[]}
+{"id":15893,"text":"I get <EXPRESSION>.","label":[[6,18,"expression"]],"Comments":[]}
+{"id":15894,"text":"So I've gotten back to a function purely in terms of <EXPRESSION> OK, that's a good place to quit.","label":[[53,65,"expression"]],"Comments":[]}
+{"id":15895,"text":"Have a great little one-day break.","label":[],"Comments":[]}
+{"id":15896,"text":"I guess this class doesn't meet on Monday anyway.","label":[],"Comments":[]}
+{"id":15897,"text":"Bye.","label":[],"Comments":[]}

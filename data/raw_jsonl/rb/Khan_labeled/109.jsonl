@@ -1,0 +1,35 @@
+{"id":2463,"text":"This would have taken you quite a while if you had to actually do the integral yourself.","label":[],"Comments":[]}
+{"id":2464,"text":"Right? That's it.","label":[],"Comments":[]}
+{"id":2465,"text":"And let's see.","label":[],"Comments":[]}
+{"id":2466,"text":"And we're done.","label":[],"Comments":[]}
+{"id":2467,"text":"And so if we want to know how many tickets were sold at <EQUATION>, that's just = the definite integral from <EXPRESSION> to <EXPRESSION>, or we could also view it as the area under this curve, from <EQUATION> to <EQUATION>.","label":[[56,66,"equation"],[86,103,"command"],[109,121,"expression"],[125,137,"expression"],[199,209,"equation"],[213,223,"equation"]],"Comments":[]}
+{"id":2468,"text":"So that's <EQUATION>.","label":[[10,20,"equation"]],"Comments":[]}
+{"id":2469,"text":"My independent variable is <EXPRESSION>, I've just swapped <EXPRESSION> for <EXPRESSION> there, and I'm taking the integral from <EXPRESSION> to <EXPRESSION>.","label":[[51,58,"command"],[115,123,"command"]],"Comments":[]}
+{"id":2470,"text":"That only took us four minutes.","label":[],"Comments":[]}
+{"id":2471,"text":"It's copy and pasted.","label":[[5,9,"command"]],"Comments":[]}
+{"id":2472,"text":"I will see you in problem number three.","label":[],"Comments":[]}
+{"id":2473,"text":"<EXPRESSION>, and they want us to round to the nearest whole number.","label":[[0,12,"expression"],[34,39,"command"],[47,67,"command_attribute"]],"Comments":[]}
+{"id":2474,"text":"So this is the derivative of the total tickets sold function.","label":[],"Comments":[]}
+{"id":2475,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2476,"text":"Or another way that we could write it is the total tickets sold so let's call that, I don't know, capital T sub well let me I don't want to do <EXPRESSION>, that's [UNINTELLIGIBLE] So let's say the tickets sold as a function of time is going to be = the definite integral well, we could say is at any time <EXPRESSION>, the tickets sold and this is the fundamental theorems calculus, I think it might be one of its correlaries or actually sometimes it is the fundamental theorem of calculus, I always forget my definitions.","label":[[143,155,"expression"],[306,318,"expression"]],"Comments":[]}
+{"id":2477,"text":"Now this integral right here, you can solve it analytically using integration of parts, which I just called the reverse product rule, but you only have <EXPRESSION> minutes to do all three of these problems, and they'll let you use your graphing calculator, and your graphic calculator is excellent at doing definite integrals, and they just want the number, right? So let's use our graphic calculators to get that number.","label":[[152,164,"expression"]],"Comments":[]}
+{"id":2478,"text":"Let's see.","label":[],"Comments":[]}
+{"id":2479,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":2480,"text":"So this is the rate at which tickets are sold.","label":[],"Comments":[]}
+{"id":2481,"text":"OK.","label":[],"Comments":[]}
+{"id":2482,"text":"Between <EQUATION> and <EXPRESSION> or if we want to know the tickets sold, between <EQUATION> and <EQUATION>.","label":[[8,18,"equation"],[23,35,"expression"],[84,94,"equation"],[99,109,"equation"]],"Comments":[]}
+{"id":2483,"text":"Based on the model, how many tickets were sold by 3:00 PM? So my <EQUATION> to the nearest whole number? So that's sometimes important.","label":[[65,75,"equation"]],"Comments":[]}
+{"id":2484,"text":"So the nearest whole number is <EXPRESSION>.","label":[[31,43,"expression"]],"Comments":[]}
+{"id":2485,"text":"I don't want to copy, so how do we do that? We just do second the division button but that's calc definite, let me use the definite integral, and like what was, let's see, let me make sure I have that <EXPRESSION> let's just use <EXPRESSION>.","label":[[201,213,"expression"],[229,241,"expression"]],"Comments":[]}
+{"id":2486,"text":"You don't want to give a decimal answer.","label":[],"Comments":[]}
+{"id":2487,"text":"We're ready to do part D, and let me copy and paste that in as well.","label":[],"Comments":[]}
+{"id":2488,"text":"<EQUATION> per hour.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":2489,"text":"See, I don't think that's going to need this graph, so let me just remove that with a color other than yellow.","label":[],"Comments":[]}
+{"id":2490,"text":"The rate at which tickets were sold for t for over this range is modeled by <EXPRESSION> let me write that in case you can't see it is the rate at which tickets were sold.","label":[[76,88,"expression"]],"Comments":[]}
+{"id":2491,"text":"And it would have taken us even less if we didn't have to explain it.","label":[],"Comments":[]}
+{"id":2492,"text":"Welcome back.","label":[],"Comments":[]}
+{"id":2493,"text":"Anyway.","label":[],"Comments":[]}
+{"id":2494,"text":"So we say <EXPRESSION> tickets sold by 3:00 PM.","label":[[10,22,"expression"]],"Comments":[]}
+{"id":2495,"text":"Click enter, let the calculator do the work.","label":[],"Comments":[]}
+{"id":2496,"text":"I think that's the whole function.","label":[],"Comments":[]}
+{"id":2497,"text":"I don't know if you can read it, but it's helpful for me to review the problem on our clipboard.","label":[],"Comments":[]}

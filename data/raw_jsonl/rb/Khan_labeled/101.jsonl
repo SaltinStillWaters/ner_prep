@@ -1,0 +1,192 @@
+{"id":1315,"text":"Let me add that.","label":[[7,10,"command"]],"Comments":[]}
+{"id":1316,"text":"All this is, is saying, we are constructing a polynomial that, at some point <EXPRESSION> that we've picked, this polynomial's zeroth, first, second, third, fourth, fifth, and so on-th derivative is going to be = our function.","label":[[77,89,"expression"]],"Comments":[]}
+{"id":1317,"text":"So hopefully that didn't confuse you.","label":[],"Comments":[]}
+{"id":1318,"text":"Let me type it in.","label":[],"Comments":[]}
+{"id":1319,"text":"So what is the Taylor approximation, or the Taylor polynomial? Well, we could just chug through this one.","label":[],"Comments":[]}
+{"id":1320,"text":"<EXPRESSION>, so that's <EXPRESSION>, we'll just have a <EXPRESSION> in the denominator.","label":[[0,12,"expression"],[24,36,"expression"],[56,68,"expression"]],"Comments":[]}
+{"id":1321,"text":"So let me type in the next term.","label":[],"Comments":[]}
+{"id":1322,"text":"Right? The last time, the line just went up, and here it was a really bad approximation.","label":[],"Comments":[]}
+{"id":1323,"text":"They do that so that you see the pattern that emerges.","label":[],"Comments":[]}
+{"id":1324,"text":"And notice, every term, the scaling factor, right? Here's <EXPRESSION>, then <EXPRESSION>, then <EXPRESSION>, <EXPRESSION> it becomes a smaller impact on it.","label":[[58,70,"expression"],[77,89,"expression"],[96,108,"expression"],[110,122,"expression"]],"Comments":[]}
+{"id":1325,"text":"So now, just to show you, I just typed in the second term, and now let's look at the graph.","label":[],"Comments":[]}
+{"id":1326,"text":"If all you saw is from here to here, it would be hard to tell them apart.","label":[],"Comments":[]}
+{"id":1327,"text":"And we've actually already touched on this.","label":[],"Comments":[]}
+{"id":1328,"text":"Right? And actually, if we just had a Taylor polynomial with just that first term, what would it look like? Well, it would just be a horizontal line right there.","label":[],"Comments":[]}
+{"id":1329,"text":"But let's keep adding terms.","label":[],"Comments":[]}
+{"id":1330,"text":"just so you believe that I'm doing it.","label":[],"Comments":[]}
+{"id":1331,"text":"<EXPRESSION>, I'll do it in yellow.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":1332,"text":"But anyway.","label":[],"Comments":[]}
+{"id":1333,"text":"And then, plus <EXPRESSION>.","label":[[10,14,"command"],[15,27,"expression"]],"Comments":[]}
+{"id":1334,"text":"So it's <EXPRESSION>, right? c is one, that's we're approximating around.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":1335,"text":"Let's add that last term we calculated.","label":[[6,9,"command"],[15,24,"command_attribute"]],"Comments":[]}
+{"id":1336,"text":"This is over <EXPRESSION>, really, and this is over <EXPRESSION>, really.","label":[[13,25,"expression"],[52,64,"expression"]],"Comments":[]}
+{"id":1337,"text":"Let me graph it.","label":[[7,12,"command"]],"Comments":[]}
+{"id":1338,"text":"So the derivative of this function evaluated at <EQUATION>.","label":[[48,58,"equation"]],"Comments":[]}
+{"id":1339,"text":"But as we can see, it approximates the function even better.","label":[],"Comments":[]}
+{"id":1340,"text":"Even neater! And if you have some spare time, you might just want to keep adding terms to this.","label":[],"Comments":[]}
+{"id":1341,"text":"So this is neat.","label":[],"Comments":[]}
+{"id":1342,"text":"Whatever, whatever.","label":[],"Comments":[]}
+{"id":1343,"text":"I think when you see me do an example, you'll see that it's not so bad.","label":[],"Comments":[]}
+{"id":1344,"text":"Well, what is the derivative of <EXPRESSION>? It's <EXPRESSION>, right? <EXPRESSION>, and we want to evaluate it at <EXPRESSION>.","label":[[32,44,"expression"],[51,63,"expression"],[72,84,"expression"],[101,109,"command"],[116,128,"expression"]],"Comments":[]}
+{"id":1345,"text":"And so then we, the line was just essentially the tangent line, we only had <EXPRESSION> terms.","label":[[76,88,"expression"]],"Comments":[]}
+{"id":1346,"text":"So what do they do for us? Well, the second term actually ensures that the derivative of this polynomial, evaluated at <EQUATION>.","label":[[119,129,"equation"]],"Comments":[]}
+{"id":1347,"text":"So you could almost just view this as <EXPRESSION> which is a constant, whatever.","label":[[38,50,"expression"]],"Comments":[]}
+{"id":1348,"text":"This term would be <EXPRESSION>, <EXPRESSION>.","label":[[19,31,"expression"],[33,45,"expression"]],"Comments":[]}
+{"id":1349,"text":"And actually, we'll see that there's actually a whole class of functions, that the Taylor polynomial, if you were to take the infinite series, is actually = that function at all points.","label":[],"Comments":[]}
+{"id":1350,"text":"But hopefully that gave you some intuition.","label":[],"Comments":[]}
+{"id":1351,"text":"And this is the graph of <EXPRESSION>.","label":[[25,37,"expression"]],"Comments":[]}
+{"id":1352,"text":"So it's <EXPRESSION>, and then plus, let's see.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":1353,"text":"I know when you see the formula at first, it can be kind of daunting, and especially, sometimes it's even more daunting when someone even explains it to you.","label":[],"Comments":[]}
+{"id":1354,"text":"So let's approximate, I don't know, <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":1355,"text":"If all of these terms weren't here, the polynomial would just be a constant, right? <EXPRESSION>.","label":[[84,96,"expression"]],"Comments":[]}
+{"id":1356,"text":"Right? Because this <EXPRESSION> sorry, just had some walnuts.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":1357,"text":"Just the first term of the polynomial.","label":[],"Comments":[]}
+{"id":1358,"text":"And actually, I talk a little bit about that when I prove that <EXPRESSION> to the <EQUATION>, which to me was the most amazing result in mathematics.","label":[[63,75,"expression"],[83,93,"equation"]],"Comments":[]}
+{"id":1359,"text":"Let's add the second term to it.","label":[[6,9,"command"]],"Comments":[]}
+{"id":1360,"text":"And I realize, this is probably one of longest videos I've done.","label":[],"Comments":[]}
+{"id":1361,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":1362,"text":"So what's the second derivative? What's going to be the derivative of minus sine, which is <EXPRESSION>? So it's <EXPRESSION>.","label":[[91,103,"expression"],[113,125,"expression"]],"Comments":[]}
+{"id":1363,"text":"Now what's the intuition? So first of all, what happens to this polynomial at <EXPRESSION>? So what's <EXPRESSION>? <EXPRESSION> = if <EXPRESSION>, everywhere where you see an x here, you have to put a <EXPRESSION>, right? So this term would be <EXPRESSION>, so that would go to <EXPRESSION>, or it would be <EXPRESSION>.","label":[[78,90,"expression"],[102,114,"expression"],[116,128,"expression"],[134,146,"expression"],[202,214,"expression"],[245,257,"expression"],[279,291,"expression"],[308,320,"expression"]],"Comments":[]}
+{"id":1364,"text":"But pretty close.","label":[],"Comments":[]}
+{"id":1365,"text":"Let's keep going.","label":[],"Comments":[]}
+{"id":1366,"text":"<EQUATION> over, they say <EXPRESSION>, which is just <EXPRESSION>, but OK, I'll write <EXPRESSION>.","label":[[0,10,"equation"],[26,38,"expression"],[54,66,"expression"],[87,99,"expression"]],"Comments":[]}
+{"id":1367,"text":"hrw.","label":[],"Comments":[]}
+{"id":1368,"text":"And if you do it around something other than <EXPRESSION>, it's kind of the more general case, and we're dealing with the Taylor polynomial.","label":[[45,57,"expression"]],"Comments":[]}
+{"id":1369,"text":"Undo, edit, undo.","label":[[0,4,"command"],[6,10,"command"],[12,16,"command"]],"Comments":[]}
+{"id":1370,"text":"This term would be <EXPRESSION>, so it would be <EXPRESSION>.","label":[[19,31,"expression"],[48,60,"expression"]],"Comments":[]}
+{"id":1371,"text":"And I would want to approximate it, I would want to create a polynomial that can approximate the function around this point.","label":[],"Comments":[]}
+{"id":1372,"text":"And this looks really complicated, but when you do some examples, you'll see it's not so bad.","label":[],"Comments":[]}
+{"id":1373,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":1374,"text":"If you put the <EXPRESSION> here, they drop out.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":1375,"text":"And notice that this green graph is concave downwards, right? Which means that, and so is the function at <EXPRESSION>.","label":[[106,118,"expression"]],"Comments":[]}
+{"id":1376,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":1377,"text":"See you soon.","label":[],"Comments":[]}
+{"id":1378,"text":"Let me just show you, just to hit the point home.","label":[],"Comments":[]}
+{"id":1379,"text":"But we're evaluating it at <EXPRESSION>, so there's actually going to be a number, right? So <EXPRESSION> is <EXPRESSION>.","label":[[27,39,"expression"],[93,105,"expression"],[109,121,"expression"]],"Comments":[]}
+{"id":1380,"text":"No, <EXPRESSION>.","label":[[4,16,"expression"]],"Comments":[]}
+{"id":1381,"text":"So the next term is <EXPRESSION>.","label":[[20,32,"expression"]],"Comments":[]}
+{"id":1382,"text":"Remember when we went out far to the left? Starting to approximate the function better around here.","label":[],"Comments":[]}
+{"id":1383,"text":"So let's say that <EXPRESSION> =, let me do it in a different color.","label":[[18,30,"expression"]],"Comments":[]}
+{"id":1384,"text":"Let's not pick some number that works well with trigonometric functions.","label":[],"Comments":[]}
+{"id":1385,"text":"As you can see, I just want to show you that I'm just typing in the actual terms.","label":[],"Comments":[]}
+{"id":1386,"text":"And then, what is this? What's the derivative of this? Well, we could use, this is a constant term, and the derivative of this is just <EXPRESSION>.","label":[[135,147,"expression"]],"Comments":[]}
+{"id":1387,"text":"But the first term was essentially well, you get the point.","label":[],"Comments":[]}
+{"id":1388,"text":"And every term you add to the Taylor polynomial actually makes it so that that term, derivative, of the polynomial evaluated at <EXPRESSION>, = the function.","label":[[128,140,"expression"]],"Comments":[]}
+{"id":1389,"text":"What is the derivative of this polynomial when you evaluate it at <EXPRESSION>? Well, when you put <EXPRESSION> into this derivative function, all these other terms are going to drop off, and you're just left with this one.","label":[[66,78,"expression"],[99,111,"expression"]],"Comments":[]}
+{"id":1390,"text":"Let's add our third term.","label":[[6,9,"command"]],"Comments":[]}
+{"id":1391,"text":"The slope of the polynomial is also = the slope of the function at <EQUATION>.","label":[[67,77,"equation"]],"Comments":[]}
+{"id":1392,"text":"<EXPRESSION>, oh, sorry, this should be a one, right? I said, <EQUATION>.","label":[[0,12,"expression"],[62,72,"equation"]],"Comments":[]}
+{"id":1393,"text":"In this case <EXPRESSION>, right.","label":[[13,25,"expression"]],"Comments":[]}
+{"id":1394,"text":"OK.","label":[],"Comments":[]}
+{"id":1395,"text":"So the next term, we'll have to see it.","label":[],"Comments":[]}
+{"id":1396,"text":"I should have some water with it.","label":[],"Comments":[]}
+{"id":1397,"text":"But, what does this second term do us? Because we know that if we just evaluated c.","label":[],"Comments":[]}
+{"id":1398,"text":"<EXPRESSION>, right? And then, let's do one more term, just for fun.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":1399,"text":"So let's say that that's my axes, this is my function <EXPRESSION>.","label":[[54,66,"expression"]],"Comments":[]}
+{"id":1400,"text":"So great.","label":[],"Comments":[]}
+{"id":1401,"text":"There you go.","label":[],"Comments":[]}
+{"id":1402,"text":"So that's all the Taylor polynomial is.","label":[],"Comments":[]}
+{"id":1403,"text":"Then the second term made sure that at least the first derivative was the same.","label":[],"Comments":[]}
+{"id":1404,"text":"Just to show you, I just typed it in, right there.","label":[],"Comments":[]}
+{"id":1405,"text":"The further out you go, when you're close to your point that you've picked.","label":[],"Comments":[]}
+{"id":1406,"text":"We already know that, at least at the value of <EXPRESSION>, <EQUATION>.","label":[[47,59,"expression"],[61,71,"equation"]],"Comments":[]}
+{"id":1407,"text":"But let's add another term.","label":[[10,13,"command"]],"Comments":[]}
+{"id":1408,"text":"So it would be a pretty bad approximation.","label":[],"Comments":[]}
+{"id":1409,"text":"You could go on like this for infinity.","label":[],"Comments":[]}
+{"id":1410,"text":"these other terms don't matter much, right? Because you're doing <EXPRESSION>, and then <EXPRESSION>, et cetera et cetera.","label":[[65,77,"expression"],[88,100,"expression"]],"Comments":[]}
+{"id":1411,"text":"Times <EXPRESSION>, I'm already running out of space, <EXPRESSION>, I think at this point people just write a <EXPRESSION> in parentheses, of the function evaluated at  <EXPRESSION>, and you could just keep adding terms.","label":[[0,5,"command"],[6,18,"expression"],[53,66,"expression"],[110,122,"expression"],[169,181,"expression"]],"Comments":[]}
+{"id":1412,"text":"So, what does this thing look like? And what I'm going to do, is I'm going to show you how this polynomial develops as we add terms.","label":[],"Comments":[]}
+{"id":1413,"text":"We want to approximate <EQUATION>.","label":[[11,22,"command"],[23,33,"equation"]],"Comments":[]}
+{"id":1414,"text":"Obviously, if we get far away, out here, this is a horrible approximation for the function.","label":[],"Comments":[]}
+{"id":1415,"text":"So a Taylor polynomial says that if I have a differentiable function <EXPRESSION>, and I want to approximate it with a polynomial at <EXPRESSION>, so at some value of <EQUATION>, I want to approximate this function.","label":[[69,81,"expression"],[97,108,"command"],[133,145,"expression"],[167,177,"equation"]],"Comments":[]}
+{"id":1416,"text":"Let me graph it.","label":[[7,12,"command"]],"Comments":[]}
+{"id":1417,"text":"And all you'd be left with is this <EXPRESSION>.","label":[[35,47,"expression"]],"Comments":[]}
+{"id":1418,"text":"<EXPRESSION> evaluated at <EXPRESSION>, and just keep adding, but then it will take us forever, et cetera, et cetera.","label":[[0,12,"expression"],[26,38,"expression"]],"Comments":[]}
+{"id":1419,"text":"If it didn't, ignore this video.","label":[],"Comments":[]}
+{"id":1420,"text":"But in general, you could approximate a function around any value.","label":[],"Comments":[]}
+{"id":1421,"text":"Plus the third derivative, plus, what's the third derivative of <EXPRESSION>? Well, it's the derivative of <EXPRESSION>, so that's plus sign.","label":[[0,4,"command"],[27,31,"command"],[64,76,"expression"],[107,119,"expression"]],"Comments":[]}
+{"id":1422,"text":"<EXPRESSION> evaluated at <EXPRESSION> what's <EXPRESSION>? It's <EXPRESSION>.","label":[[0,12,"expression"],[26,38,"expression"],[46,58,"expression"],[65,77,"expression"]],"Comments":[]}
+{"id":1423,"text":"But we're already starting to approximate this pretty well, right? Now the third derivative of the polynomial = the third derivative of the function at the point <EQUATION>, and we haven't even studied third derivatives.","label":[[30,41,"command"],[162,172,"equation"]],"Comments":[]}
+{"id":1424,"text":"So plus <EXPRESSION> evaluated at <EXPRESSION>.","label":[[3,7,"command"],[8,20,"expression"],[34,46,"expression"]],"Comments":[]}
+{"id":1425,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":1426,"text":"So it gives a something.","label":[],"Comments":[]}
+{"id":1427,"text":"And then, we could just keep going.","label":[],"Comments":[]}
+{"id":1428,"text":"I have this graphing calculator that I so this thing I got from, just to give them credit, it's my.","label":[],"Comments":[]}
+{"id":1429,"text":"And so, that's <EXPRESSION>.","label":[[15,27,"expression"]],"Comments":[]}
+{"id":1430,"text":"And we just pick, we approximate the function around <EQUATION> when we did the Maclaurin series.","label":[[21,32,"command"],[53,63,"equation"]],"Comments":[]}
+{"id":1431,"text":"I'm pushing 17 minutes.","label":[],"Comments":[]}
+{"id":1432,"text":"So the function evaluated at <EXPRESSION> is just <EXPRESSION>, right? <EXPRESSION>.","label":[[29,41,"expression"],[50,62,"expression"],[71,83,"expression"]],"Comments":[]}
+{"id":1433,"text":"So then we're going to take the fourth derivative, which is the derivative of the third derivative, so the third derivative was <EXPRESSION>, so now we're going to be <EXPRESSION>.","label":[[23,27,"expression"],[32,49,"command_attribute"],[128,140,"expression"],[167,179,"expression"]],"Comments":[]}
+{"id":1434,"text":"So <EXPRESSION>.","label":[[3,15,"expression"]],"Comments":[]}
+{"id":1435,"text":"So this is this is pretty neat.","label":[],"Comments":[]}
+{"id":1436,"text":"And this should be pretty neat.","label":[],"Comments":[]}
+{"id":1437,"text":"So as you can see, what's neat about this Taylor polynomial is, it's = the function at <EXPRESSION>, its derivative = the function at <EXPRESSION>, the second derivative = the function at <EXPRESSION>.","label":[[87,99,"expression"],[134,146,"expression"],[188,200,"expression"]],"Comments":[]}
+{"id":1438,"text":"I'm even going to erase this fourth term.","label":[[18,23,"command"]],"Comments":[]}
+{"id":1439,"text":"And we could just keep going.","label":[],"Comments":[]}
+{"id":1440,"text":"So what was the second term? It was <EXPRESSION>.","label":[[36,48,"expression"]],"Comments":[]}
+{"id":1441,"text":"Now the third term makes sure that the second derivative of our polynomial at <EQUATION> = the second derivative of the polynomial of the function.","label":[[78,88,"equation"]],"Comments":[]}
+{"id":1442,"text":"Times <EXPRESSION>.","label":[[0,5,"command"],[6,18,"expression"]],"Comments":[]}
+{"id":1443,"text":"It's closer, at least.","label":[],"Comments":[]}
+{"id":1444,"text":"But let's add some terms.","label":[[10,13,"command"]],"Comments":[]}
+{"id":1445,"text":"The last term.","label":[],"Comments":[]}
+{"id":1446,"text":"So just the first term here.","label":[],"Comments":[]}
+{"id":1447,"text":"But I wanted just to show you one thing.","label":[],"Comments":[]}
+{"id":1448,"text":"And let me graph it.","label":[[11,16,"command"]],"Comments":[]}
+{"id":1449,"text":"So this is a better approximation.","label":[],"Comments":[]}
+{"id":1450,"text":"If this function is infinitely differentiable, meaning that I can take the first, second, third, fourth, you know, all the way to infinity derivative of this function, I could construct a polynomial like this, and i can just keep going by adding more and more terms, so that this polynomial's, you know, zeroth derivative, which is means the function, the <EXPRESSION>, first, second, third, fourth, all of this polynomial's derivatives are going to be = the function.","label":[[356,368,"expression"]],"Comments":[]}
+{"id":1451,"text":"And it only starts to matter as you move really, really far away from your chosen <EXPRESSION>.","label":[[82,94,"expression"]],"Comments":[]}
+{"id":1452,"text":"Let's see.","label":[],"Comments":[]}
+{"id":1453,"text":"That is neat.","label":[],"Comments":[]}
+{"id":1454,"text":"That's kind of like the concativity of the derivative, or whatever.","label":[],"Comments":[]}
+{"id":1455,"text":"So let's see.","label":[],"Comments":[]}
+{"id":1456,"text":"Just with three terms on our polynomial, well, actually, that's the fourth term, officially.","label":[],"Comments":[]}
+{"id":1457,"text":"This term would be <EXPRESSION>, it would be <EXPRESSION>.","label":[[19,31,"expression"],[45,57,"expression"]],"Comments":[]}
+{"id":1458,"text":"When we did the videos on approximating functions with polynomials, we used Maclaurin series, which is actually a special case of the Taylor polynomial or the Taylor Theorem.","label":[],"Comments":[]}
+{"id":1459,"text":"So I could pick some value <EXPRESSION>, some value <EQUATION>, maybe it's right there.","label":[[27,39,"expression"],[52,62,"expression"]],"Comments":[]}
+{"id":1460,"text":"It's getting a little bit better.","label":[],"Comments":[]}
+{"id":1461,"text":"So over <EXPRESSION>.","label":[[8,20,"expression"]],"Comments":[]}
+{"id":1462,"text":"Graph it.","label":[[0,5,"command"]],"Comments":[]}
+{"id":1463,"text":"We're getting a little bit, so it's kind of approximating the curve here.","label":[],"Comments":[]}
+{"id":1464,"text":"<EQUATION>.","label":[[0,10,"equation"]],"Comments":[]}
+{"id":1465,"text":"What is <EXPRESSION>? <EXPRESSION>.","label":[[8,20,"expression"],[22,34,"expression"]],"Comments":[]}
+{"id":1466,"text":"And now the slope is also = the function.","label":[],"Comments":[]}
+{"id":1467,"text":"So what is that? Let me just write the definition down, and then we'll do a couple of examples, and then we'll graph it to get the intuition.","label":[[29,34,"command"],[111,116,"command"],[123,126,"command"]],"Comments":[]}
+{"id":1468,"text":"And the Taylor Theorem tells us that the Taylor polynomial to approximate this is, and then I'll give you the intuition for it in a second.","label":[[62,73,"command"]],"Comments":[]}
+{"id":1469,"text":"Divided by <EXPRESSION>, so that's <EXPRESSION>.","label":[[11,23,"expression"],[35,47,"expression"]],"Comments":[]}
+{"id":1470,"text":"It might look like a function, but it's a function evaluated at c, so it's just a constant term.","label":[],"Comments":[]}
+{"id":1471,"text":"So when you just added <EXPRESSION> terms, what did we say? The polynomial will be = the function at <EQUATION>.","label":[[23,35,"expression"],[101,111,"equation"]],"Comments":[]}
+{"id":1472,"text":"If we were to just to graph the first term of this polynomial, what does it look like? So I'll just type in <EXPRESSION>, and graph it.","label":[[108,120,"expression"],[126,131,"command"]],"Comments":[]}
+{"id":1473,"text":"But let me give you the intuition of what this is.","label":[],"Comments":[]}
+{"id":1474,"text":"But as you get further and further away, these terms become more significant, right? As <EXPRESSION> gets further and further away from <EXPRESSION>, and then that's where these start to play in, and you see that in the approximation.","label":[[88,100,"expression"],[136,148,"expression"]],"Comments":[]}
+{"id":1475,"text":"Sorry, my brain is really, I ate too many walnuts.","label":[],"Comments":[]}
+{"id":1476,"text":"<EXPRESSION>.","label":[[0,12,"expression"]],"Comments":[]}
+{"id":1477,"text":"The particulars are always the more fun.","label":[],"Comments":[]}
+{"id":1478,"text":"So we're going to approximate <EXPRESSION> around <EXPRESSION>.","label":[[18,29,"command"],[30,42,"expression"],[50,62,"expression"]],"Comments":[]}
+{"id":1479,"text":"And let's pick some arbitrary number.","label":[],"Comments":[]}
+{"id":1480,"text":"com.","label":[],"Comments":[]}
+{"id":1481,"text":"Our third term, I can see it, it's right there.","label":[],"Comments":[]}
+{"id":1482,"text":"This might have been a little confusing for you, so let's do a particular example.","label":[],"Comments":[]}
+{"id":1483,"text":"And it's a pretty bad approximation, but at least it = the function at this point.","label":[],"Comments":[]}
+{"id":1484,"text":"The big picture is, the whole thinking behind, I guess, what Taylor thought of, was, wow.","label":[],"Comments":[]}
+{"id":1485,"text":"Obviously, though, when we go further away, it starts to break down again.","label":[],"Comments":[]}
+{"id":1486,"text":"And actually, if we did 10 terms, or if we did all of the derivatives, these would start to actually = each other.","label":[],"Comments":[]}
+{"id":1487,"text":"So that's c.","label":[],"Comments":[]}
+{"id":1488,"text":"Hope I didn't confuse you.","label":[],"Comments":[]}
+{"id":1489,"text":"What do I mean there? Well, what's <EXPRESSION>? <EXPRESSION> =, well, this is just a constant term.","label":[[35,47,"expression"],[49,61,"expression"]],"Comments":[]}
+{"id":1490,"text":"So it's going to intersect this line.","label":[],"Comments":[]}
+{"id":1491,"text":"At least around that point.","label":[],"Comments":[]}
+{"id":1492,"text":"Times <EXPRESSION>.","label":[[0,5,"command"],[6,18,"expression"]],"Comments":[]}
+{"id":1493,"text":"Over <EXPRESSION>, right? <EXPRESSION> is just <EXPRESSION>.","label":[[5,17,"expression"],[26,38,"expression"],[47,59,"expression"]],"Comments":[]}
+{"id":1494,"text":"At least if we stay pretty close to our chosen c, it's a decent approximation for the function.","label":[],"Comments":[]}
+{"id":1495,"text":"So the derivative of this expression is <EXPRESSION>, and then plus the derivative of this expression, and that's = what? <EXPRESSION>, which is just <EXPRESSION>.","label":[[40,52,"expression"],[122,134,"expression"],[150,162,"expression"]],"Comments":[]}
+{"id":1496,"text":"All these other terms just drop out.","label":[],"Comments":[]}
+{"id":1497,"text":"So there you go.","label":[],"Comments":[]}
+{"id":1498,"text":"<EXPRESSION>, what was it, <EXPRESSION> And you don't have to worry about all of this.","label":[[0,12,"expression"],[27,39,"expression"]],"Comments":[]}
+{"id":1499,"text":"Let's pick around, let's say <EQUATION>.","label":[[29,39,"equation"]],"Comments":[]}
+{"id":1500,"text":"Plus <EXPRESSION>.","label":[[0,4,"command"],[5,17,"expression"]],"Comments":[]}
+{"id":1501,"text":"Anyway, let me graph it.","label":[[15,20,"command"]],"Comments":[]}
+{"id":1502,"text":"Now this is neat, right? So the first term got us a horizontal line that just intersected the point at cosine of 1, and it was a really bad approximation.","label":[],"Comments":[]}
+{"id":1503,"text":"Then you could plus the fourth derivative of the function evaluated at <EXPRESSION>.","label":[[15,19,"command"],[71,83,"expression"]],"Comments":[]}
+{"id":1504,"text":"So <EXPRESSION>.","label":[[3,15,"expression"]],"Comments":[]}
+{"id":1505,"text":"So let me just draw a quick and dirty one, and we'll actually draw an accurate one later.","label":[],"Comments":[]}
+{"id":1506,"text":"It's a little confusing at first, because it gives you this huge formula, and they give you the <EXPRESSION>, and you're like, what is that <EXPRESSION>, and how do I take the derivative? But when you actually try to chug through it, you just have to realize, oh.","label":[[96,108,"expression"],[140,152,"expression"]],"Comments":[]}

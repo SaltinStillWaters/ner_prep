@@ -16,6 +16,10 @@ def save_jsonl(out_file: str, data: list[dict]):
         for x in data:
             f.write(f'{json.dumps(x)}\n')
 
+def save_text(out_file: str, data: str):
+    with open(out_file, 'w', encoding='utf-8') as f:
+        f.write(data)
+
 def read_pkl(in_file: str):
     with open(in_file, 'rb') as f:
         return pickle.load(f)

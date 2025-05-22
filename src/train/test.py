@@ -5,7 +5,7 @@ checkpoint_path = 'model_out/test_slimmed' #Change this to your desired model
 model = AutoModelForTokenClassification.from_pretrained(checkpoint_path)
 tokenizer = AutoTokenizer.from_pretrained(checkpoint_path)
 
-sentences = ['apply the chain rule on <expression>', "graph the function of <equation>", 'add <expression> and <expression']
+sentences = ['transpose everything to the left side', 'transpose everything to the left hand side', "so transpose all the terms to the left hand side", 'okay now we transpose all the terms to the right side']
 
 for sentence in sentences:
     inputs = tokenizer(sentence, return_tensors = 'pt')

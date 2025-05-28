@@ -1,9 +1,15 @@
 import os
 os.environ["RAY_DISABLE_DASHBOARD"] = "1"
+os.environ["RAY_ENABLE_AIOHTTP_SERVER"] = "0"
+
+os.environ["RAY_LOG_TO_STDERR"] = "1"   
 from src.misc.globals import *
 from src.pre_process import stage_3
 from src.misc.metrics import *
 from transformers import TrainingArguments, AutoModelForTokenClassification, Trainer
+import ray
+ray.init(include_dashboard=False)
+ray.init(dashboard_host=None)
 from ray import tune
 from ray.tune.schedulers import ASHAScheduler
 

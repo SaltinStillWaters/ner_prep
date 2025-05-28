@@ -2,6 +2,7 @@ from src.misc.globals import *
 from src.pre_process import stage_3
 from src.misc.metrics import *
 from transformers import TrainingArguments, AutoModelForTokenClassification, Trainer
+
 import transformers
 
 import torch
@@ -15,6 +16,14 @@ batch = data_collator([dataset['train'][x] for x in range(2)])
 print(batch)
 
 model = AutoModelForTokenClassification.from_pretrained(model_checkpoint, id2label=index2tag, label2id=tag2index)
+
+
+
+scheduler = ASHAScheduler(
+    max_t=7,             # max epochs (should match your max num_train_epochs)
+    grace_period=1,      # min epochs to run before considering stopping
+    reduction_factor=2,  # halving factor to decide how many trials to stop
+)
 
 args = TrainingArguments(
     output_dir='distilbert-ner-high-acc',

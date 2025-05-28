@@ -53,7 +53,7 @@ def model_init():
 def hp_space(trial):
     return {
         "learning_rate": trial.suggest_float("learning_rate", 1e-5, 5e-5, log=True),
-        "num_train_epochs": trial.suggest_int("num_train_epochs", 3, 10),
+        "num_train_epochs": trial.suggest_categorical("num_train_epochs", 3, 10),
         "per_device_train_batch_size": trial.suggest_categorical("per_device_train_batch_size", [16, 32]),
         "weight_decay": trial.suggest_float("weight_decay", 0.0, 0.3),
     }

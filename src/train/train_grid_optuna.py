@@ -67,7 +67,6 @@ args = TrainingArguments(
     logging_dir="new_runs",
     logging_strategy="epoch",
     report_to="tensorboard",
-    run_name='v1'
 )
 
 trainer = Trainer(

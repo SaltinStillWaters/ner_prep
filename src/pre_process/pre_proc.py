@@ -14,8 +14,8 @@ from src.misc.globals import *
 out = 'temp/'
 ## Pipeline
 print('Merging raw data...')
-concat_jsonl_data('data/lime_only', 'data/lime_only_combined.jsonl')
-raw_jsonl = read_jsonl('data/lime_only_combined.jsonl')
+# concat_jsonl_data('data/lime_only', 'data/lime_only_combined.jsonl')
+raw_jsonl = read_jsonl('data/combined_raw.jsonl')
 print('Finished merging\n')
 
 print('Started pre-processing stage 1/3...')

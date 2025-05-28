@@ -1,10 +1,30 @@
 import torch
-from transformers import AutoTokenizer, AutoModelForTokenClassification
+from src.pre_process import stage_3
+from src.misc.metrics import *
+from transformers import AutoTokenizer, AutoModelForTokenClassification, Trainer
 
 checkpoint_path = 'model_out/test_slimmed' #Change this to your desired model
 model = AutoModelForTokenClassification.from_pretrained(checkpoint_path)
 tokenizer = AutoTokenizer.from_pretrained(checkpoint_path)
 
+dir_path = ''
+models = [
+    
+]
+def evaluate_model(model_path, tokenizer, test_dataset, data_collator, compute_metrics):
+    model = AutoModelForTokenClassification.from_pretrained(model_path)
+
+    trainer = Trainer(
+        model=model,
+        tokenizer=tokenizer,
+        data_collator=data_collator,
+        compute_metrics=compute_metrics,
+    )
+
+    results = trainer.evaluate(eval_dataset=test_dataset)
+    print(f"Results for {model_path}:")
+    print(results)
+    
 sentences = ['transpose everything to the left side', 'transpose everything to the left hand side', "so transpose all the terms to the left hand side", 'okay now we transpose all the terms to the right side']
 
 for sentence in sentences:

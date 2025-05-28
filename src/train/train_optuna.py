@@ -4,7 +4,7 @@ from src.misc.metrics import *
 from transformers import TrainingArguments, AutoModelForTokenClassification, Trainer
 import transformers
 
-import torch
+import torch, torchvision
 import optuna 
 import random
 import numpy as np
@@ -16,6 +16,9 @@ if torch.cuda.is_available():
     torch.cuda.manual_seed_all(42)
     
 print(torch.version.cuda)
+print('---->Torch version:', torch.__version__)
+print('->>>>', 'torch and torch vision must be the same')
+print('---->Torch Vision version', torchvision.__version__)
 print("CUDA available:", torch.cuda.is_available())
 print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
 print(transformers.__version__)

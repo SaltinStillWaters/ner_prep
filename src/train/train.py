@@ -1,3 +1,5 @@
+import os
+os.environ["RAY_DISABLE_DASHBOARD"] = "1"
 from src.misc.globals import *
 from src.pre_process import stage_3
 from src.misc.metrics import *

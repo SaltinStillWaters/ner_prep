@@ -18,18 +18,21 @@ model = AutoModelForTokenClassification.from_pretrained(model_checkpoint, id2lab
 
 args = TrainingArguments('distilbert-finetuned-ner',
                           eval_strategy = 'epoch',
-                          save_strategy = 'epoch',
-                          logging_dir = "runs",
-                          logging_strategy = "epoch",
                           learning_rate = 2e-5,
                           num_train_epochs = 5,
                           per_device_train_batch_size=16,
                           per_device_eval_batch_size=16,
-                          save_total_limit=2,
                           weight_decay = 0.01,
+                          
+                          save_total_limit=2,
+                          save_strategy = 'epoch',
+                          
                           load_best_model_at_end=True,
                           metric_for_best_model="f1",
                           greater_is_better=True,
+                          
+                          logging_dir = "runs",
+                          logging_strategy = "epoch",
                           report_to="tensorboard",
                         )
 

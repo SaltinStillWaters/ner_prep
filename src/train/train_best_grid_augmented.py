@@ -22,7 +22,7 @@ print('bf16 is available:', torch.cuda.is_bf16_supported())
 print(transformers.__version__)
 print('='*30)
 
-dataset = stage_3.load('lime_processed/3')
+dataset = stage_3.load('combined_processed')
 batch = data_collator([dataset['train'][x] for x in range(2)])
 print(batch)
     

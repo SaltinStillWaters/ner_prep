@@ -1,6 +1,6 @@
 from src.pre_process import stage_3
 
-dataset_dict = stage_3.load('temp/3')
+dataset_dict = stage_3.load('temp_khan/3')
 print(dataset_dict)
 
 print(dataset_dict["train"][0])

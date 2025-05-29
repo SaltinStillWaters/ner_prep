@@ -1,0 +1,89 @@
+{"id": 4109, "text": "So this is <EXPRESSION> and then I would take the derivative of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 4110, "text": "The anti-derivative of this function is once again just <EXPRESSION> and then f times that function unchanged time <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 56, "end_offset": 68}, {"label": "expression", "start_offset": 115, "end_offset": 127}]}
+{"id": 4111, "text": "Although we could do this problem the other way.", "entities": []}
+{"id": 4112, "text": "So this is the original problem, <EXPRESSION> =, and now let me switch back to this color, it = <EXPRESSION>, and then I can just this parentheses doesn't matter because I'm just adding everything in the parentheses <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 96, "end_offset": 108}, {"label": "expression", "start_offset": 216, "end_offset": 228}]}
+{"id": 4113, "text": "I should actually do some integration by parts problems without <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 4114, "text": "Let's take integration by parts again, see what happens.", "entities": []}
+{"id": 4115, "text": "Which = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 4116, "text": "Let's take the integral of <EXPRESSION> you probably never heard of someone call a math problem a classic, but hopefully I will instill in you this love for mathematics and you will also consider this to be a classic problem.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 4117, "text": "Which doesn't really make a difference because whenever I take the anti-derivative of it to <EXPRESSION>, it stays the same.", "entities": []}
+{"id": 4118, "text": "If this is <EXPRESSION>, what's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 4119, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 4120, "text": "So integration by parts, as we take the original functions, <EXPRESSION> and <EXPRESSION>.", "entities": []}
+{"id": 4121, "text": "I think it's just a fun problem to see because one, it's the example a lot of people use, sometimes even a trick problem that's given on a really hard math exam, or if you go to calculus competitions like I used to in high school.", "entities": []}
+{"id": 4122, "text": "It seems like I just keep adding terms, making it more and more complicated.", "entities": []}
+{"id": 4123, "text": "It's just use <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 4124, "text": "So let me write it out, this is very exciting, it's the home stretch.", "entities": []}
+{"id": 4125, "text": "The same thing happens when you take the anti-derivative.", "entities": []}
+{"id": 4126, "text": "So this is derivative.", "entities": []}
+{"id": 4127, "text": "Hopefully I haven't confused you too much.", "entities": []}
+{"id": 4128, "text": "And what I also think is cool is even if you just look at this solution, it's kind of neat, right? The anti-derivative of <EXPRESSION> and actually never forget the plus <EXPRESSION>, that would've given me minus <EXPRESSION> point on the exam.", "entities": [{"label": "expression", "start_offset": 122, "end_offset": 134}, {"label": "expression", "start_offset": 170, "end_offset": 182}, {"label": "expression", "start_offset": 213, "end_offset": 225}]}
+{"id": 4129, "text": "So I get the <EQUATION>.", "entities": [{"label": "equation", "start_offset": 13, "end_offset": 23}]}
+{"id": 4130, "text": "That <EXPRESSION> is <EXPRESSION>, because <EXPRESSION> literally doesn't change.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}, {"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 43, "end_offset": 55}]}
+{"id": 4131, "text": "Then I want to subtract the indefinite integral of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 4132, "text": "I think you might already see where I'm going with this, because these are both fun functions, because <EXPRESSION> you can take the derivative, you could take the anti-derivative and it still stays <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 103, "end_offset": 115}, {"label": "expression", "start_offset": 199, "end_offset": 211}]}
+{"id": 4133, "text": "I'm now going to do it integration by parts problems.", "entities": []}
+{"id": 4134, "text": "I actually took the anti-derivative of it, but it's the same exact thing.", "entities": []}
+{"id": 4135, "text": "I think that's a pretty neat property, and you might want to graph them and play with them, but it's kind of neat.", "entities": []}
+{"id": 4136, "text": "What's the anti-derivative of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 4137, "text": "This is the same as this, which are both the anti-derivative of this, although they are all the same.", "entities": []}
+{"id": 4138, "text": "What's the derivative of <EXPRESSION>? It's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 4139, "text": "We actually never even have to evaluate this integral.", "entities": []}
+{"id": 4140, "text": "Let's see if we're getting anywhere.", "entities": []}
+{"id": 4141, "text": "One, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}]}
+{"id": 4142, "text": "Maybe I'll experiment doing it the other way.", "entities": []}
+{"id": 4143, "text": "I know it's really messy.", "entities": []}
+{"id": 4144, "text": "If you take <EXPRESSION> anti-derivatives you get back to the negative of itself.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 4145, "text": "What's the derivative of <EXPRESSION>? It's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 4146, "text": "And if you take <EXPRESSION> derivatives, you get back to the negative of itself.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 4147, "text": "Let me use a new color.", "entities": []}
+{"id": 4148, "text": "It's also a pretty cool function and I think you can start to see how integration by parts might be cool here.", "entities": []}
+{"id": 4149, "text": "I'm going to switch colors, I don't like this blue.", "entities": []}
+{"id": 4150, "text": "I could put the minus here, that'll make it look messy, I could put the minus here that'll make it messy or I could just put minus here and make these minuses cancel out and I get a plus here.", "entities": []}
+{"id": 4151, "text": "I think that's pretty neat.", "entities": []}
+{"id": 4152, "text": "This is <EXPRESSION>, this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 4153, "text": "So let's say we want to take the integral it's a bit of a classic.", "entities": []}
+{"id": 4154, "text": "What's kind of cool, <EXPRESSION> is this expression that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 4155, "text": "I'm just going to write this first part <EXPRESSION> plus and now let's do integration by parts again.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 4156, "text": "This is the same thing as this, just a minus right? So we're going to do something what I think to be fairly cool.", "entities": []}
+{"id": 4157, "text": "So <EXPRESSION>, it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 4158, "text": "This is the anti-derivative.", "entities": []}
+{"id": 4159, "text": "But anyway, this is just a fun integration by parts problem because you actually never have to evaluate the final integral.", "entities": []}
+{"id": 4160, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 4161, "text": "Hopefully I have convinced you that is a classic of a problem, and you also find it neat, and I'll see you in the next presentation.", "entities": []}
+{"id": 4162, "text": "Not to make myself too I was actually not that geeky as a high school student, but I have to admit, I was a mathlete.", "entities": []}
+{"id": 4163, "text": "And you can think about why that happened, right? Because these trick functions cycle.", "entities": []}
+{"id": 4164, "text": "It's not as cool as <EXPRESSION>, it doesn't stay exactly the same, but it kind of cycles.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 4165, "text": "So we had to do integration by parts twice to get back to where we were before.", "entities": []}
+{"id": 4166, "text": "See anything interesting? Exactly.", "entities": []}
+{"id": 4167, "text": "Now you might think that I arbitrarily switched colors here when I rewrote this, but if you look you might see why I actually did switch colors here.", "entities": []}
+{"id": 4168, "text": "And then times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 4169, "text": "In order to see if we're getting anywhere, let me just rewrite the whole thing and maybe get rid of these parenthesis, because it's just a plus, so we can get rid of the parenthesis.", "entities": []}
+{"id": 4170, "text": "I wouldn't be surprised if your math teacher does the same problem for you, just to show you integration by parts.", "entities": []}
+{"id": 4171, "text": "So this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 4172, "text": "For this round of integration by parts this was <EXPRESSION>, but now, for this around, I'm going to assume it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 113, "end_offset": 125}]}
+{"id": 4173, "text": "That's just the same thing as <EXPRESSION> times the integral of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 4174, "text": "Whenever I do integration by parts I always like to assume that this is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 4175, "text": "All I have to do now to solve this integral is divide both sides by <EXPRESSION> and I'm done.", "entities": [{"label": "expression", "start_offset": 68, "end_offset": 80}]}
+{"id": 4176, "text": "So once again we are not clear whether we've made any progress.", "entities": []}
+{"id": 4177, "text": "We've gone from <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 4178, "text": "Let's add this term to both sides of the equation.", "entities": []}
+{"id": 4179, "text": "It's neat how integration by parts allowed us to do this.", "entities": []}
+{"id": 4180, "text": "It's the average of <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 4181, "text": "OK.", "entities": []}
+{"id": 4182, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 4183, "text": "So integration by parts tells us we take <EXPRESSION>, so I take this function and the anti-derivative of this function.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 4184, "text": "It's like this cycle.", "entities": []}
+{"id": 4185, "text": "If I take this and put it on this side of the equation, what happens? I then have <EXPRESSION> of these on the left side equation, so that becomes I mean I could write it out it's <EXPRESSION> plus, right? Because I'm taking this and I'm putting it on that side of the equation, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 82, "end_offset": 94}, {"label": "expression", "start_offset": 180, "end_offset": 192}, {"label": "expression", "start_offset": 279, "end_offset": 291}]}
+{"id": 4186, "text": "Let's take this and let's put it on to this side of the equation.", "entities": []}
+{"id": 4187, "text": "It's very hard to keep track of what I've done here.", "entities": []}
+{"id": 4188, "text": "I'm just going to write on the right side of the = sign, because this might get a little long.", "entities": []}
+{"id": 4189, "text": "And then we use that to solve it without actually having to evaluate the integral.", "entities": []}
+{"id": 4190, "text": "We said, this integral is just the original problem again.", "entities": []}
+{"id": 4191, "text": "If I divide both sides by <EXPRESSION>, I get and I'm going to try to write it so you can see everything <EXPRESSION> = and on that side I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 105, "end_offset": 117}, {"label": "expression", "start_offset": 144, "end_offset": 156}]}
+{"id": 4192, "text": "And then I'm going to assume that this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 4193, "text": "This is the anti-derivative and this is also the anti-derivative.", "entities": []}
+{"id": 4194, "text": "And then that = this term.", "entities": []}
+{"id": 4195, "text": "<EXPRESSION> you take the derivative, you go to minus sign of <EXPRESSION>, you take the derivative again then you to <EXPRESSION>, then you take the derivative again then you get a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "expression", "start_offset": 118, "end_offset": 130}, {"label": "expression", "start_offset": 182, "end_offset": 194}]}
+{"id": 4196, "text": "From that I subtract the integral of the anti-derivative of this or I take <EXPRESSION> which is <EXPRESSION>, and then the derivative of <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 75, "end_offset": 87}, {"label": "expression", "start_offset": 97, "end_offset": 109}, {"label": "expression", "start_offset": 138, "end_offset": 150}, {"label": "expression", "start_offset": 152, "end_offset": 164}]}
+{"id": 4197, "text": "but let's assume this is <EXPRESSION>, and let's assume this <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 61, "end_offset": 73}]}

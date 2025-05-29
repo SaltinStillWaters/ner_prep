@@ -11,11 +11,11 @@ from src.pre_process import stage_3
 from src.misc.text_utils import *
 from src.misc.globals import *
 
-out = 'temp/'
+out = 'temp_khan/'
 ## Pipeline
 print('Merging raw data...')
-# concat_jsonl_data('data/lime_only', 'data/lime_only_combined.jsonl')
-raw_jsonl = read_jsonl('data/combined_raw.jsonl')
+concat_jsonl_data('data/khan_only', 'data/khan_combined.jsonl')
+raw_jsonl = read_jsonl('data/khan_combined.jsonl')
 print('Finished merging\n')
 
 print('Started pre-processing stage 1/3...')

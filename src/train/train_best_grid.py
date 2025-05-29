@@ -35,7 +35,7 @@ def model_init():
     
 # Use the best hyperparameters
 best_args = TrainingArguments(
-    output_dir='post_grid_models/best_grid',
+    output_dir='training_results/post_grid_models/best_grid',
     learning_rate=1.608840634195285e-05,
     weight_decay=0.024306886701424227,
     per_device_train_batch_size=8,
@@ -50,7 +50,7 @@ best_args = TrainingArguments(
     load_best_model_at_end=True,
     metric_for_best_model="f1",
     greater_is_better=True,
-    logging_dir="post_grid_runs/best_grid",
+    logging_dir="training_results/post_grid_runs/best_grid",
     logging_steps=500,
     logging_strategy="steps",
     report_to="tensorboard",
@@ -67,4 +67,4 @@ best_trainer = Trainer(
 )
 
 best_trainer.train()
-best_trainer.save_model("final_models/best_grid")
+best_trainer.save_model("training_results/final_models/best_grid")

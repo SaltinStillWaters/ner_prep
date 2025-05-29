@@ -15,7 +15,7 @@ np.random.seed(42)
 torch.manual_seed(42)
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(42)
-    
+
 print(torch.version.cuda)
 print('---->Torch version:', torch.__version__)
 print('->>>>', 'torch and torch vision must be the same')
@@ -30,11 +30,12 @@ print(batch)
 
 # model = AutoModelForTokenClassification.from_pretrained(model_checkpoint, id2label=index2tag, label2id=tag2index)
 
+root_dir = 'training_results/'
 training_args = TrainingArguments(
-    output_dir="bayesian_models",
+    output_dir="training_results/bayesian_models",
     evaluation_strategy="epoch",
     save_strategy="epoch",
-    logging_dir="bayesian_runs",
+    logging_dir="training_results/bayesian_runs",
     logging_strategy="epoch",
     save_total_limit=2,
     load_best_model_at_end=True,
@@ -79,10 +80,10 @@ print(best_trial)
 
 
 best_args = TrainingArguments(
-    output_dir="best_bayesian",
+    output_dir="training_results/best_bayesian",
     evaluation_strategy="epoch",
     save_strategy="epoch",
-    logging_dir="best_bayesian_runs",
+    logging_dir="training_results/best_bayesian_runs",
     logging_steps=100,
     logging_strategy="steps",
     save_total_limit=2,
@@ -115,4 +116,4 @@ trainer = Trainer(
 )
 
 trainer.train()
-trainer.save_model("final_models/best_bayesian")
+trainer.save_model("training_results/final_models/best_bayesian")

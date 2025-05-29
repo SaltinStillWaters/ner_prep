@@ -115,4 +115,4 @@ trainer = Trainer(
 )
 
 trainer.train()
-trainer.save_model("best_bayesian_model")
+trainer.save_model("final_models/best_bayesian")

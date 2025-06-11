@@ -1,0 +1,146 @@
+{"id": 15195, "text": "We hopefully know at this point what a differential equation is, so now let's try to solve some.", "entities": []}
+{"id": 15196, "text": "And this first class of differential equations I'll introduce you to, they're called separable equations.", "entities": []}
+{"id": 15197, "text": "And I think what you'll find is that we're not learning really anything new.", "entities": []}
+{"id": 15198, "text": "Using just your first year calculus derivative and integrating skills, you can solve a separable equation.", "entities": []}
+{"id": 15199, "text": "And the reason why they're called separable is because you can actually separate the x and y terms, and integrate them separately to get the solution of the differential equation.", "entities": [{"label": "command", "start_offset": 72, "end_offset": 80}, {"label": "command_attribute", "start_offset": 85, "end_offset": 98}, {"label": "command", "start_offset": 104, "end_offset": 113}]}
+{"id": 15200, "text": "So that's separable.", "entities": []}
+{"id": 15201, "text": "Separable equations.", "entities": []}
+{"id": 15202, "text": "So let's do a couple, and I think you'll get the point.", "entities": []}
+{"id": 15203, "text": "These often are really more of exercises in algebra than anything else.", "entities": []}
+{"id": 15204, "text": "So the first separable differential equation is: <EQUATION>.", "entities": [{"label": "equation", "start_offset": 49, "end_offset": 59}]}
+{"id": 15205, "text": "And actually, this is a good time to just review our terminology.", "entities": []}
+{"id": 15206, "text": "So first of all, what is the order of this differential equation?", "entities": []}
+{"id": 15207, "text": "Well, the highest derivative in it is just the first derivative, so the order = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 80, "end_offset": 92}]}
+{"id": 15208, "text": "So it's first order.", "entities": []}
+{"id": 15209, "text": "It's ordinary, because we only have a regular derivative, no partial derivatives here.", "entities": []}
+{"id": 15210, "text": "And then, is this linear or non-linear?", "entities": []}
+{"id": 15211, "text": "Well, first you say, oh well, you know, this looks linear.", "entities": []}
+{"id": 15212, "text": "I'm not multiplying the derivative times anything else.", "entities": []}
+{"id": 15213, "text": "But if you look carefully, something interesting is going on.", "entities": []}
+{"id": 15214, "text": "First of all, you have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 15215, "text": "And <EXPRESSION> is a dependent variable.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 15216, "text": "<EXPRESSION> is a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 15217, "text": "So to have the <EXPRESSION>, that makes it non-linear.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 15218, "text": "And even if this was <EXPRESSION>, if you were to actually multiply both sides of this equation times <EXPRESSION>, and get in the form that I showed you in the previous equation, you would have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "command_attribute", "start_offset": 87, "end_offset": 95}, {"label": "command", "start_offset": 96, "end_offset": 101}, {"label": "expression", "start_offset": 102, "end_offset": 114}, {"label": "expression", "start_offset": 195, "end_offset": 207}]}
+{"id": 15219, "text": "This is actually the first step of what we have to do anyways, so I'll write it down.", "entities": [{"label": "command", "start_offset": 71, "end_offset": 76}]}
+{"id": 15220, "text": "So if I'm just multiplying both sides of this equation times <EXPRESSION>, you get <EQUATION>.", "entities": [{"label": "command_attribute", "start_offset": 46, "end_offset": 54}, {"label": "command", "start_offset": 55, "end_offset": 60}, {"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "equation", "start_offset": 83, "end_offset": 93}]}
+{"id": 15221, "text": "And then you immediately see that even if this wasn't a squared here, you'd be multiplying the <EXPRESSION>, and that also makes it non-linear because you're multiplying the dependent variable times the derivative of itself.", "entities": [{"label": "expression", "start_offset": 95, "end_offset": 107}]}
+{"id": 15222, "text": "So that also makes this a non-linear equation.", "entities": []}
+{"id": 15223, "text": "But anyway, let's get back to solving this.", "entities": []}
+{"id": 15224, "text": "So this is the first step.", "entities": []}
+{"id": 15225, "text": "I just multiply both sides by <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 7, "end_offset": 15}, {"label": "command", "start_offset": 16, "end_offset": 26}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 15226, "text": "And the real end goal is just to separate the y's and the x's, and then integrate both sides.", "entities": [{"label": "term", "start_offset": 46, "end_offset": 47}, {"label": "term", "start_offset": 58, "end_offset": 59}, {"label": "command", "start_offset": 72, "end_offset": 81}]}
+{"id": 15227, "text": "So I'm almost there.", "entities": []}
+{"id": 15228, "text": "So now what I want to do is I want to multiply both sides of this equation times <EXPRESSION>, so I have a <EXPRESSION> here and get rid of this <EXPRESSION> there.", "entities": [{"label": "command_attribute", "start_offset": 66, "end_offset": 74}, {"label": "expression", "start_offset": 75, "end_offset": 80}, {"label": "expression", "start_offset": 81, "end_offset": 93}, {"label": "expression", "start_offset": 107, "end_offset": 119}, {"label": "expression", "start_offset": 145, "end_offset": 157}]}
+{"id": 15229, "text": "Let me go here, I don't want to waste too much space.", "entities": []}
+{"id": 15230, "text": "So you get <EQUATION>.", "entities": [{"label": "equation", "start_offset": 11, "end_offset": 21}]}
+{"id": 15231, "text": "I have separated the <EXPRESSION> and <EXPRESSION> variables and the differentials.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 15232, "text": "All I did is I multiplied both sides of this equation times <EXPRESSION> to get here.", "entities": [{"label": "command_attribute", "start_offset": 45, "end_offset": 53}, {"label": "command", "start_offset": 54, "end_offset": 59}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 15233, "text": "Now, I can just integrate both sides.", "entities": [{"label": "command", "start_offset": 16, "end_offset": 25}, {"label": "command_attribute", "start_offset": 26, "end_offset": 36}]}
+{"id": 15234, "text": "So let's do that.", "entities": []}
+{"id": 15235, "text": "Whatever you do to one side of the equation you have to do the other.", "entities": []}
+{"id": 15236, "text": "That's true with regular equations or differential equations.", "entities": []}
+{"id": 15237, "text": "So we're going to integrate both sides.", "entities": []}
+{"id": 15238, "text": "So what's the integral of this expression with respect to <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 15239, "text": "Let's see.", "entities": []}
+{"id": 15240, "text": "The integral of <EXPRESSION> is <EXPRESSION>, the integral of <EXPRESSION>, well that's minus <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "command", "start_offset": 88, "end_offset": 93}, {"label": "expression", "start_offset": 94, "end_offset": 106}]}
+{"id": 15241, "text": "And I'll write the plus <EXPRESSION> here just to kind of show you something, but you really don't have to write <EXPRESSION> on both sides.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 14}, {"label": "command_attribute", "start_offset": 19, "end_offset": 23}, {"label": "expression", "start_offset": 24, "end_offset": 36}, {"label": "expression", "start_offset": 113, "end_offset": 125}]}
+{"id": 15242, "text": "I'll call the plus the constant due to <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 9}, {"label": "command_attribute", "start_offset": 14, "end_offset": 18}, {"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 15243, "text": "The <EXPRESSION> integration.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 15244, "text": "You'll never see this in a calculus class, but I just want to make a point here.", "entities": []}
+{"id": 15245, "text": "I just want to show you that our plus c has never disappeared from when we were taking our traditional antiderivatives.", "entities": []}
+{"id": 15246, "text": "And what's the derivative of this?", "entities": []}
+{"id": 15247, "text": "Well that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 15248, "text": "And this is also going to have <EXPRESSION> due to the <EXPRESSION> variable.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 55, "end_offset": 67}]}
+{"id": 15249, "text": "Now, the reason why I did this magenta one in magenta and I labelled it like that, is because you really just have to write <EXPRESSION> on one side of the equation.", "entities": [{"label": "command", "start_offset": 118, "end_offset": 123}, {"label": "expression", "start_offset": 124, "end_offset": 136}]}
+{"id": 15250, "text": "And if that doesn't make a lot of sense, let's subtract this <EXPRESSION> from both sides, and we get <EXPRESSION> minus-- let me scroll down a little bit, my <EXPRESSION> looks like a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 102, "end_offset": 114}, {"label": "command", "start_offset": 115, "end_offset": 120}, {"label": "expression", "start_offset": 159, "end_offset": 171}, {"label": "expression", "start_offset": 185, "end_offset": 197}]}
+{"id": 15251, "text": "<EQUATION> plus the constant when we took the antiderivative of the <EXPRESSION>, minus the constant of the antiderivative when we took the <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}, {"label": "command", "start_offset": 11, "end_offset": 15}, {"label": "command_attribute", "start_offset": 20, "end_offset": 28}, {"label": "expression", "start_offset": 68, "end_offset": 80}, {"label": "command", "start_offset": 82, "end_offset": 87}, {"label": "command_attribute", "start_offset": 92, "end_offset": 122}, {"label": "expression", "start_offset": 140, "end_offset": 152}]}
+{"id": 15252, "text": "But these two constants, they're just constants.", "entities": []}
+{"id": 15253, "text": "I mean, we don't know what they are.", "entities": []}
+{"id": 15254, "text": "There are arbitrary constants.", "entities": []}
+{"id": 15255, "text": "So we could just write a general <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 15256, "text": "So you could have just-- you have to have a constant, but it doesn't have to be on both sides of the equation, because they're arbitrary.", "entities": []}
+{"id": 15257, "text": "<EXPRESSION>, well, that's still just another constant.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 15258, "text": "And then if we want to simplify this equation more, we can multiply both sides of this by <EXPRESSION>, just make it look nicer.", "entities": [{"label": "command", "start_offset": 23, "end_offset": 31}, {"label": "command_attribute", "start_offset": 37, "end_offset": 45}, {"label": "command", "start_offset": 59, "end_offset": 67}, {"label": "command_attribute", "start_offset": 68, "end_offset": 78}, {"label": "expression", "start_offset": 90, "end_offset": 102}]}
+{"id": 15259, "text": "And you get <EQUATION> plus-- well, I could write <EXPRESSION> here.", "entities": [{"label": "equation", "start_offset": 12, "end_offset": 22}, {"label": "command", "start_offset": 44, "end_offset": 49}, {"label": "expression", "start_offset": 50, "end_offset": 62}]}
+{"id": 15260, "text": "But once again, <EXPRESSION> is an arbitrary constant.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 15261, "text": "So <EXPRESSION> times an arbitrary constant, that's just another arbitrary constant.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 15262, "text": "So I'll write the <EXPRESSION> there.", "entities": [{"label": "command", "start_offset": 8, "end_offset": 13}, {"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 15263, "text": "And there you have it.", "entities": []}
+{"id": 15264, "text": "We have solved this differential equation.", "entities": []}
+{"id": 15265, "text": "Although it is in implicit form right now, and it's fairly hard to get it out of implicit form.", "entities": []}
+{"id": 15266, "text": "We could put the <EXPRESSION> on one side, so the solution could be <EQUATION>.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 12}, {"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "equation", "start_offset": 68, "end_offset": 78}]}
+{"id": 15267, "text": "Some people might like that little bit better.", "entities": []}
+{"id": 15268, "text": "But that's the solution.", "entities": []}
+{"id": 15269, "text": "And notice, the solution, just like when you take an antiderivative, the solution is a class of implicit functions, in this case.", "entities": []}
+{"id": 15270, "text": "And why is it a class?", "entities": []}
+{"id": 15271, "text": "Because we have that constant there.", "entities": []}
+{"id": 15272, "text": "Depending on what number you pick there, it will be another solution.", "entities": []}
+{"id": 15273, "text": "But any constant there will satisfy the original differential equation, which was up here.", "entities": []}
+{"id": 15274, "text": "This was the original differential equation.", "entities": []}
+{"id": 15275, "text": "And if you want to solve for that constant, someone has to give you an initial condition.", "entities": []}
+{"id": 15276, "text": "Someone has to say, well, when <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 47, "end_offset": 59}, {"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 15277, "text": "And then you could solve for <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 15278, "text": "Anyway, let's do another one that gives us an initial condition.", "entities": []}
+{"id": 15279, "text": "So this one's a little bit-- I'll start over.", "entities": []}
+{"id": 15280, "text": "Clear image, different colors, so I have optimal space.", "entities": []}
+{"id": 15281, "text": "So this one is the first derivative of <EXPRESSION> with respect to <EQUATION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "equation", "start_offset": 68, "end_offset": 78}]}
+{"id": 15282, "text": "This is a parentheses, not an absolute value.", "entities": []}
+{"id": 15283, "text": "And they give us initial conditions.", "entities": []}
+{"id": 15284, "text": "They say that <EXPRESSION> of <EXPRESSION> is = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 15285, "text": "So once we solve this differential equation, and this is a separable differential equation, then we can use this initial condition, when <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>, to figure out the constant.", "entities": [{"label": "expression", "start_offset": 137, "end_offset": 149}, {"label": "expression", "start_offset": 153, "end_offset": 165}, {"label": "expression", "start_offset": 167, "end_offset": 179}, {"label": "expression", "start_offset": 183, "end_offset": 195}]}
+{"id": 15286, "text": "So let's first separate this equation.", "entities": [{"label": "command", "start_offset": 15, "end_offset": 23}, {"label": "command_attribute", "start_offset": 29, "end_offset": 37}]}
+{"id": 15287, "text": "So let's multiply both sides by <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 17}, {"label": "command_attribute", "start_offset": 18, "end_offset": 28}, {"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 15288, "text": "And you get <EQUATION>.", "entities": [{"label": "equation", "start_offset": 12, "end_offset": 22}]}
+{"id": 15289, "text": "Multiply both sides times <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 0, "end_offset": 8}, {"label": "command_attribute", "start_offset": 9, "end_offset": 19}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 15290, "text": "This is really just an exercise in algebra.", "entities": []}
+{"id": 15291, "text": "And I can multiply this one out, too, you get <EXPRESSION>, that's just this, <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 10, "end_offset": 18}, {"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 78, "end_offset": 90}]}
+{"id": 15292, "text": "I multiplied both sides times <EXPRESSION>, so that = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 15293, "text": "I have separated the equations.", "entities": []}
+{"id": 15294, "text": "I've separated the independent from the dependent variable, and their relative differentials, and so now I can integrate.", "entities": [{"label": "command", "start_offset": 111, "end_offset": 120}]}
+{"id": 15295, "text": "And I can integrate in magenta.", "entities": [{"label": "command", "start_offset": 10, "end_offset": 20}]}
+{"id": 15296, "text": "What's the antiderivative of this expression with respect to <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}]}
+{"id": 15297, "text": "Well, let's just see.", "entities": []}
+{"id": 15298, "text": "It's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}]}
+{"id": 15299, "text": "I won't write the <EXPRESSION>, I'll just do it on the right hand side.", "entities": [{"label": "command", "start_offset": 8, "end_offset": 13}, {"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 15300, "text": "That = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 15301, "text": "Well, the antiderivative is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 15302, "text": "And that <EXPRESSION> kind of takes care of the constant for both sides of the equation, and hopefully you understand why from the last example.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 15303, "text": "But we can solve for <EXPRESSION> using the initial condition <EQUATION>.", "entities": [{"label": "command", "start_offset": 11, "end_offset": 20}, {"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "equation", "start_offset": 62, "end_offset": 72}]}
+{"id": 15304, "text": "So let's see.", "entities": []}
+{"id": 15305, "text": "When <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}, {"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 15306, "text": "So let's put <EXPRESSION> as <EXPRESSION>, so we get <EXPRESSION>, that's the value of <EXPRESSION>, = when <EQUATION>.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 12}, {"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "expression", "start_offset": 87, "end_offset": 99}, {"label": "equation", "start_offset": 108, "end_offset": 117}]}
+{"id": 15307, "text": "So when <EQUATION>, that's <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 8, "end_offset": 18}, {"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 15308, "text": "So this is fairly straightforward.", "entities": []}
+{"id": 15309, "text": "All of these, this is all <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 15310, "text": "This is, let's see, <EXPRESSION>, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 15311, "text": "<EXPRESSION>, that's plus <EXPRESSION>, = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "command", "start_offset": 21, "end_offset": 25}, {"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 15312, "text": "And we get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 15313, "text": "So, the implicit exact solution, the solution of our differential equation-- remember now, it's not a class, because they gave us an initial condition-- is <EQUATION>.", "entities": [{"label": "equation", "start_offset": 156, "end_offset": 166}]}
+{"id": 15314, "text": "We figured out that's what <EXPRESSION> was.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 15315, "text": "And actually, if you want, you could write this in an explicit form by completing the square.", "entities": [{"label": "command", "start_offset": 37, "end_offset": 42}]}
+{"id": 15316, "text": "This is just algebra this point.", "entities": []}
+{"id": 15317, "text": "You're done.", "entities": []}
+{"id": 15318, "text": "This is an implicit form.", "entities": []}
+{"id": 15319, "text": "If you wanted to make it explicit, you could add <EXPRESSION> to both sides.", "entities": [{"label": "command", "start_offset": 45, "end_offset": 48}, {"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 15320, "text": "I'm just completing the square here.", "entities": []}
+{"id": 15321, "text": "So <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 15322, "text": "If I add <EXPRESSION> to that side, I have to add <EXPRESSION> to this side, so it becomes <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 8}, {"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "command", "start_offset": 46, "end_offset": 49}, {"label": "expression", "start_offset": 50, "end_offset": 62}, {"label": "expression", "start_offset": 91, "end_offset": 103}]}
+{"id": 15323, "text": "I just added <EXPRESSION> to both sides of the equation.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}]}
+{"id": 15324, "text": "Why did I do that?", "entities": []}
+{"id": 15325, "text": "Because I wanted this side to be a perfect square in terms of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 15326, "text": "Then I can rewrite this side as <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 11, "end_offset": 18}, {"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 15327, "text": "Then I could say <EQUATION>.", "entities": [{"label": "equation", "start_offset": 17, "end_offset": 27}]}
+{"id": 15328, "text": "I can add <EXPRESSION> to both sides, and then I can get <EQUATION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 10}, {"label": "expression", "start_offset": 10, "end_offset": 22}, {"label": "equation", "start_offset": 57, "end_offset": 67}]}
+{"id": 15329, "text": "And it has plus or minus here, and if we have to pick one of the two, we'd go back to the initial condition.", "entities": []}
+{"id": 15330, "text": "Well, our initial condition told us that <EQUATION>.", "entities": [{"label": "equation", "start_offset": 41, "end_offset": 51}]}
+{"id": 15331, "text": "So if we put <EXPRESSION> here for <EXPRESSION>, we get <EQUATION>.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 12}, {"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "equation", "start_offset": 56, "end_offset": 66}]}
+{"id": 15332, "text": "So <EXPRESSION> plus or minus <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 15333, "text": "So if <EXPRESSION> is going to be = negative <EXPRESSION>, so we get <EQUATION>-- sorry, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}, {"label": "expression", "start_offset": 45, "end_offset": 57}, {"label": "equation", "start_offset": 69, "end_offset": 79}, {"label": "expression", "start_offset": 89, "end_offset": 101}]}
+{"id": 15334, "text": "If this is going to be = <EXPRESSION>, then this has to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 59, "end_offset": 71}]}
+{"id": 15335, "text": "So the explicit form that satisfies our initial condition, and we're getting a little geeky here, you could get rid of the plus, it's 1 minus this whole thing.", "entities": []}
+{"id": 15336, "text": "That's what satisfies our initial condition.", "entities": []}
+{"id": 15337, "text": "And you could figure out where it's satisfied, over what domain is it satisfied.", "entities": []}
+{"id": 15338, "text": "Well, that's satisfied when this term is positive, this becomes negative, and you get it's undefined in reals, and all of that.", "entities": []}
+{"id": 15339, "text": "But anyway, I've run out of time.", "entities": []}
+{"id": 15340, "text": "See you in the next video.", "entities": []}

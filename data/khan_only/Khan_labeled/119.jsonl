@@ -1,0 +1,139 @@
+{"id": 3481, "text": "So that's our new vector field.", "entities": []}
+{"id": 3482, "text": "If I had a little stick here, I'd be pushing in this direction, with not that much of a magnitude in that direction.", "entities": []}
+{"id": 3483, "text": "Because the difference in magnitudes of these <EXPRESSION> you could almost view them as the torque producing forces the difference in magnitude is enough that you'd still have the same counterclockwise rotation here as you would have here.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 3484, "text": "Now let's do a little experiment.", "entities": []}
+{"id": 3485, "text": "So that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 3486, "text": "So the curl, at any point of this vector field, is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 3487, "text": "Let's see if that makes sense.", "entities": []}
+{"id": 3488, "text": "So this was our old graph.", "entities": []}
+{"id": 3489, "text": "Or nothing would be entering into that circle, or in any given amount of time the concentration of that circle wouldn't change.", "entities": []}
+{"id": 3490, "text": "Which would have meant that we would have had no rotation.", "entities": []}
+{"id": 3491, "text": "So this term let's see, partial derivative of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 3492, "text": "So this = the partial derivative of <EXPRESSION> with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 3493, "text": "Just because I have <EXPRESSION> minutes.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 3494, "text": "And even though this looks like a two dimensional vector field, we actually have to take the cross product in <EXPRESSION> dimensions.", "entities": [{"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 3495, "text": "So we're done analyzing this vector field.", "entities": []}
+{"id": 3496, "text": "So the [? ink ?] kind of holds.", "entities": []}
+{"id": 3497, "text": "The <EXPRESSION> component is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 3498, "text": "And actually, you could put a twig anywhere.", "entities": []}
+{"id": 3499, "text": "Make the window bigger.", "entities": []}
+{"id": 3500, "text": "I would have the forces or the fluids pushing in in this direction, but they're not helping to rotate, and pushing out in that direction.", "entities": []}
+{"id": 3501, "text": "So it would be the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 3502, "text": "Well, that's not going to help me either.", "entities": []}
+{"id": 3503, "text": "I think that's pretty neat.", "entities": []}
+{"id": 3504, "text": "Well, that's just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 3505, "text": "All of the if you think of it as force or velocity of the vector field is going to be applying translation to objects in that field.", "entities": []}
+{"id": 3506, "text": "Let me actually change it to my new vector field.", "entities": []}
+{"id": 3507, "text": "So where we are in the <EXPRESSION> coordinate and the <EXPRESSION> plane.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 55, "end_offset": 67}]}
+{"id": 3508, "text": "So we do have some fluid or particles coming in at a certain velocity from the bottom right and the top left.", "entities": []}
+{"id": 3509, "text": "Well, now I've run of time.", "entities": []}
+{"id": 3510, "text": "And then I'd be pushing down to the right in this direction, so it would cause it to spin.", "entities": []}
+{"id": 3511, "text": "And I know you can't read it, but that's that <EXPRESSION> there, and that's the <EXPRESSION> component.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 3512, "text": "Fair enough.", "entities": []}
+{"id": 3513, "text": "Partial derivative of <EXPRESSION> with respect to <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 3514, "text": "If I put a twig in the center, or some kind of stick in the center, let's see.", "entities": []}
+{"id": 3515, "text": "Or partial derivative of <EXPRESSION> with respect to <EXPRESSION>, actually.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 3516, "text": "So the curl of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 3517, "text": "So I'm definitely not going to rotate there.", "entities": []}
+{"id": 3518, "text": "Minus that.", "entities": []}
+{"id": 3519, "text": "That the torques must be just perfectly offsetting each other.", "entities": []}
+{"id": 3520, "text": "Minus the partial derivative of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 0, "end_offset": 5}, {"label": "command_attribute", "start_offset": 6, "end_offset": 31}, {"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 3521, "text": "For example, if I put a twig here, it's going to be pushed outward by the flow of the water, by the velocity of the water.", "entities": []}
+{"id": 3522, "text": "So the divergence of this field is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 3523, "text": "So the partial derivative with respect to <EXPRESSION> with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 53}, {"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 3524, "text": "And actually, just for fun, let's think about the divergence of that field.", "entities": []}
+{"id": 3525, "text": "So this is going to be = well, see the <EXPRESSION> component let's cross out its column and its row.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 3526, "text": "Just to, I don't know.", "entities": []}
+{"id": 3527, "text": "Why don't we just cross all of that out? And that makes intuitive sense, too, right? Because at least from <EXPRESSION> point of view, the rotation is although, the rotation, if you think about it, is going to be in the direction perpendicular to both the <EXPRESSION> direction and perpendicular to the direction in which it is changing.", "entities": [{"label": "expression", "start_offset": 107, "end_offset": 119}, {"label": "expression", "start_offset": 256, "end_offset": 268}]}
+{"id": 3528, "text": "This one should be a little bit cleaner to calculate than the last example.", "entities": []}
+{"id": 3529, "text": "As far as <EXPRESSION> concerned, <EXPRESSION> is also constant.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}, {"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 3530, "text": "And all of that times <EXPRESSION> minus and now it's going to be the <EXPRESSION> component.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 3531, "text": "So because the curl is a constant positive number, when we look at <EXPRESSION> plane like this, if you put a twig that same twig anywhere where you put it on this plane it'll have the same counterclockwise rotation.", "entities": [{"label": "expression", "start_offset": 67, "end_offset": 79}]}
+{"id": 3532, "text": "Where you're not going to have any rotation here.", "entities": []}
+{"id": 3533, "text": "It = our del vector operator, cross <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 3534, "text": "Well, in the middle, it definitely makes sense that something is spinning.", "entities": []}
+{"id": 3535, "text": "It's a constant.", "entities": []}
+{"id": 3536, "text": "So first, let's just chuck through this, and figure out it's curl.", "entities": []}
+{"id": 3537, "text": "And now the curl is <EXPRESSION> everywhere.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 3538, "text": "If you were to stick something, especially in the middle, it's very clear that it would spin.", "entities": []}
+{"id": 3539, "text": "You know, it wouldn't spin as much.", "entities": []}
+{"id": 3540, "text": "Let's do the divergence of this one.", "entities": []}
+{"id": 3541, "text": "And maybe a twig might be pushed in a direction.", "entities": []}
+{"id": 3542, "text": "The curl is the same throughout this entire vector field.", "entities": []}
+{"id": 3543, "text": "So that's just interesting.", "entities": []}
+{"id": 3544, "text": "But what might be a little unintuitive you might think, wow, well, wouldn't something spin faster near the center than it would here? Why is the you know, the curl we got is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 174, "end_offset": 186}]}
+{"id": 3545, "text": "That was pretty straightforward.", "entities": []}
+{"id": 3546, "text": "But it's not going to rotate.", "entities": []}
+{"id": 3547, "text": "If that confuses you, don't worry about it.", "entities": []}
+{"id": 3548, "text": "If this was <EXPRESSION> then this would have been <EXPRESSION>, then this final term we would have taken the partial derivative with respect to <EXPRESSION> and so this would have been <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 145, "end_offset": 157}, {"label": "expression", "start_offset": 186, "end_offset": 198}]}
+{"id": 3549, "text": "And does that make sense? Well, if we take a circle anywhere here let's take it in the center, because the center's the most interesting.", "entities": []}
+{"id": 3550, "text": "Cross out its row and column, the partial derivative of <EXPRESSION> with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 56, "end_offset": 68}, {"label": "expression", "start_offset": 85, "end_offset": 97}]}
+{"id": 3551, "text": "The <EXPRESSION> component is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 3552, "text": "And the bottom left, I'm also pushing up and to the left.", "entities": []}
+{"id": 3553, "text": "So this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 3554, "text": "Partial derivative of <EXPRESSION> with respect to <EXPRESSION>.", "entities": []}
+{"id": 3555, "text": "Let's see what this vector field looks like, and let's see if that gives us if our intuition holds in this example.", "entities": []}
+{"id": 3556, "text": "That's its <EXPRESSION> component.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 3557, "text": "Let's see what happens if I were to change.", "entities": []}
+{"id": 3558, "text": "You could kind of view it orthogonally, to its direction of motion, which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 3559, "text": "Remember, you do plus minus plus.", "entities": []}
+{"id": 3560, "text": "So when you take the cross product, you still have to do it in <EXPRESSION> dimensions.", "entities": []}
+{"id": 3561, "text": "Row and column.", "entities": []}
+{"id": 3562, "text": "It's going to be perpendicular to both of these vectors.", "entities": []}
+{"id": 3563, "text": "Partial derivative of <EXPRESSION> with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 3564, "text": "Which is nothing but this.", "entities": []}
+{"id": 3565, "text": "Let me erase this real fast.", "entities": []}
+{"id": 3566, "text": "So if I had an infinitesimally small circle, or sphere, in this vector field, I would have no net density increasing.", "entities": []}
+{"id": 3567, "text": "And finally, plus its <EXPRESSION> component.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 3568, "text": "Or the partial derivative of the [? vector ?] <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 3569, "text": "And actually, this is called an irrotational I think that's the word vector field.", "entities": []}
+{"id": 3570, "text": "Let's say I have the vector field <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 3571, "text": "Well, as far as <EXPRESSION> concerned, <EXPRESSION> is a constant, so that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 78, "end_offset": 90}]}
+{"id": 3572, "text": "If I were to draw a circle here, because the divergence is 0, it's telling us that whatever's coming in in 1 direction is coming out in the other directions.", "entities": []}
+{"id": 3573, "text": "Let's take a circle.", "entities": []}
+{"id": 3574, "text": "If both of these only have <EXPRESSION> and <EXPRESSION> components, your actual result is going to be in the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}, {"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 3575, "text": "So it = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 3576, "text": "So <EXPRESSION> is the same thing as our <EXPRESSION> dot our vector field, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 3577, "text": "And now let's simplify it.", "entities": []}
+{"id": 3578, "text": "Well, the partial derivative of <EXPRESSION> with respect to <EXPRESSION> is just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 82, "end_offset": 94}]}
+{"id": 3579, "text": "Because a curl is just like torque, and when you like we did the right hand rule when we studied well, I hope you watched some of the videos on magnetism and torque but the torque actually goes in a direction that is perpendicular to both of the vectors in your cross product.", "entities": []}
+{"id": 3580, "text": "And that's the partial derivative of this with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 3581, "text": "And even in the other case, when this was a minus, it still would have been <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 3582, "text": "So all we're left is with this last term.", "entities": []}
+{"id": 3583, "text": "And let me try to make it a little bit bigger.", "entities": []}
+{"id": 3584, "text": "So if I were to think about the divergence of that field, it's fairly easy to calculate.", "entities": []}
+{"id": 3585, "text": "Well, I think it's clear, you know, right when you look at it, that this vector field looks like it's spinning.", "entities": []}
+{"id": 3586, "text": "And then our curl would have been <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 3587, "text": "What would have happened if this was <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 3588, "text": "I'll simplify it above it.", "entities": []}
+{"id": 3589, "text": "So minus and this is the <EXPRESSION> component.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 3590, "text": "And we have no <EXPRESSION> component.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 3591, "text": "This is our vector field <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 3592, "text": "Whatever's coming in through here and here is leaving through there and there.", "entities": []}
+{"id": 3593, "text": "So it's going to be the partial with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 3594, "text": "There you go.", "entities": []}
+{"id": 3595, "text": "Plus the partial derivative of <EXPRESSION> with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 3596, "text": "So I'm not getting any denser, or any less dense.", "entities": []}
+{"id": 3597, "text": "But anyway, lets simplify this.", "entities": [{"label": "command", "start_offset": 17, "end_offset": 25}]}
+{"id": 3598, "text": "And that's true pretty much anywhere.", "entities": []}
+{"id": 3599, "text": "Well, that's just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 3600, "text": "Plus and then my magnitude in the <EXPRESSION> direction is dependent on <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 3601, "text": "Minus the partial derivative of <EXPRESSION> with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 61, "end_offset": 73}]}
+{"id": 3602, "text": "But just as much is coming out through the top right and the bottom left.", "entities": []}
+{"id": 3603, "text": "But what if I had that same stick here? You'd say, well, on the top right I'm pushing up, up and to the left.", "entities": []}
+{"id": 3604, "text": "That's even though I kind of have curl in the <EXPRESSION> direction, or I have curl in the y direction, they're offsetting each other.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 3605, "text": "So you'll be like, whoa, that's kind of implying that the field is making something spin equally, no matter where you are in the field.", "entities": []}
+{"id": 3606, "text": "And what's the intuition of that? Well, if we just look at it mathematically, if we have <EXPRESSION> curl, somehow, the rotation in our <EXPRESSION> direction must be being offset by a rotation in the y direction.", "entities": [{"label": "expression", "start_offset": 89, "end_offset": 101}, {"label": "expression", "start_offset": 137, "end_offset": 149}]}
+{"id": 3607, "text": "See you in the next video.", "entities": []}
+{"id": 3608, "text": "But if it doesn't, then you could apply the same argument to the <EXPRESSION> vector.", "entities": [{"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 3609, "text": "The vector at any given point = minus or the magnitude of my <EXPRESSION> direction is actually dependent on <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 109, "end_offset": 121}]}
+{"id": 3610, "text": "Let's see if that makes sense.", "entities": []}
+{"id": 3611, "text": "So that in <EXPRESSION> dimensions, I actually end up having no rotation.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 3612, "text": "I have no divergence or convergence.", "entities": []}
+{"id": 3613, "text": "It's always fun to just interpret a vector field to death.", "entities": []}
+{"id": 3614, "text": "So <EXPRESSION>, partial with respect to <EXPRESSION>, partial with respect to <EXPRESSION>, partial with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 79, "end_offset": 91}, {"label": "expression", "start_offset": 117, "end_offset": 129}]}
+{"id": 3615, "text": "Which implies, or which means, that I could put a twig anywhere here and I'm not going to get any kind of rotation.", "entities": []}
+{"id": 3616, "text": "So let's just do that experiment.", "entities": []}
+{"id": 3617, "text": "Well, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}]}
+{"id": 3618, "text": "But it would.", "entities": []}
+{"id": 3619, "text": "So the divergence of that vector field, is just a partial derivative of this with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 93, "end_offset": 105}]}

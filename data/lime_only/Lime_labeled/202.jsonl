@@ -1,0 +1,557 @@
+{"id": 15341, "text": "PROFESSOR: So we're going to continue to talk about trig integrals and trig substitutions.", "entities": []}
+{"id": 15342, "text": "This is maybe the most technical part of this course, which maybe is why professor Jerison decided to just take a leave, go AWOL just now and let me take over for him.", "entities": []}
+{"id": 15343, "text": "But I'll do my best to help you learn this technique and it'll be useful for you.", "entities": []}
+{"id": 15344, "text": "So we've talked about trig integrals involving sines and cosines yesterday.", "entities": [{"label": "term", "start_offset": 47, "end_offset": 52}, {"label": "term", "start_offset": 57, "end_offset": 64}]}
+{"id": 15345, "text": "There's another whole world out there that involves these other trig polynomials-- trig functions, secant and tangent.", "entities": [{"label": "term", "start_offset": 99, "end_offset": 105}, {"label": "term", "start_offset": 110, "end_offset": 117}]}
+{"id": 15346, "text": "Let me just make a little table to remind you what they are.", "entities": []}
+{"id": 15347, "text": "Because I have trouble remembering myself, so I enjoy the opportunity to go back to remind myself of this stuff.", "entities": []}
+{"id": 15348, "text": "Let's see.", "entities": []}
+{"id": 15349, "text": "The secant is one over one of those things, which one is it?", "entities": [{"label": "term", "start_offset": 4, "end_offset": 10}, {"label": "term", "start_offset": 14, "end_offset": 17}]}
+{"id": 15350, "text": "It's weird, it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 15351, "text": "And the <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 15352, "text": "Of course the tangent, we know.", "entities": [{"label": "term", "start_offset": 14, "end_offset": 21}]}
+{"id": 15353, "text": "It's the <EXPRESSION> over the <EXPRESSION> and the <EXPRESSION> is the other way around.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 15354, "text": "So when you put a \"co\" in front of it, it exchanges <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 12, "end_offset": 15}, {"label": "expression", "start_offset": 52, "end_offset": 64}, {"label": "expression", "start_offset": 69, "end_offset": 81}]}
+{"id": 15355, "text": "Well, I have a few identities involving tangent and secant up there, in that little prepared blackboard up above.", "entities": []}
+{"id": 15356, "text": "Maybe I'll just go through and check that out to make sure that we're all on the same page with them.", "entities": []}
+{"id": 15357, "text": "So I'm going to claim that there's this trig identity at the top.", "entities": []}
+{"id": 15358, "text": "<EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 15359, "text": "So let's just check that out.", "entities": []}
+{"id": 15360, "text": "So the <EXPRESSION> is <EXPRESSION>, so <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 15361, "text": "And then whenever you see a <EXPRESSION> in trigonometry, you'll always have the option of writing as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 102, "end_offset": 114}]}
+{"id": 15362, "text": "And if I do that, then I can divide the <EXPRESSION> into that first term.", "entities": [{"label": "command", "start_offset": 29, "end_offset": 35}, {"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 15363, "text": "And I get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 15364, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 15365, "text": "Which is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}]}
+{"id": 15366, "text": "So there you go.", "entities": []}
+{"id": 15367, "text": "That checks the first one.", "entities": []}
+{"id": 15368, "text": "That's the main trig identity that's going to be behind what I talk about today.", "entities": []}
+{"id": 15369, "text": "That's the trigonometry identity part.", "entities": []}
+{"id": 15370, "text": "How about this piece of calculus.", "entities": []}
+{"id": 15371, "text": "Can we calculate what the derivative of <EXPRESSION> is?", "entities": [{"label": "command", "start_offset": 7, "end_offset": 16}, {"label": "command_attribute", "start_offset": 22, "end_offset": 36}, {"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 15372, "text": "Actually, I'm going to do that on this board.", "entities": []}
+{"id": 15373, "text": "So <EQUATION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}]}
+{"id": 15374, "text": "So I think I was with you when we learned about the quotient rule.", "entities": [{"label": "method", "start_offset": 52, "end_offset": 65}]}
+{"id": 15375, "text": "Computing the derivative of a quotient.", "entities": []}
+{"id": 15376, "text": "And the rule is, you take the numerator and you-- sorry, you take the derivative of the numerator, which is <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 21, "end_offset": 25}, {"label": "command_attribute", "start_offset": 26, "end_offset": 39}, {"label": "command", "start_offset": 61, "end_offset": 65}, {"label": "command_attribute", "start_offset": 66, "end_offset": 97}, {"label": "expression", "start_offset": 108, "end_offset": 120}]}
+{"id": 15377, "text": "And you multiply it by the denominator, so that gives you <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 8, "end_offset": 16}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 15378, "text": "And then you take the numerator, take minus the numerator, and multiply that by the derivative of the denominator, which is <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 33, "end_offset": 37}, {"label": "command_attribute", "start_offset": 38, "end_offset": 57}, {"label": "expression", "start_offset": 124, "end_offset": 136}]}
+{"id": 15379, "text": "And you put all that over the square of the denominator.", "entities": [{"label": "command", "start_offset": 8, "end_offset": 11}]}
+{"id": 15380, "text": "And now I look at that and before my eyes I see the same trig identity, <EQUATION>, appearing there.", "entities": [{"label": "equation", "start_offset": 72, "end_offset": 82}]}
+{"id": 15381, "text": "This is <EXPRESSION> which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 15382, "text": "And, good.", "entities": []}
+{"id": 15383, "text": "So that's what the claim was.", "entities": []}
+{"id": 15384, "text": "The derivative of the <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 15385, "text": "That immediately gives you an integral.", "entities": []}
+{"id": 15386, "text": "Namely, the integral of <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 15387, "text": "That's the fundamental theorem of calculus.", "entities": []}
+{"id": 15388, "text": "So we verified the first integral there.", "entities": []}
+{"id": 15389, "text": "Well, let's just do the second one as well.", "entities": []}
+{"id": 15390, "text": "So if I want to differentiate the <EXPRESSION>, derivative of the <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 16, "end_offset": 29}, {"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 67, "end_offset": 78}]}
+{"id": 15391, "text": "So that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 15392, "text": "And again, I have a quotient.", "entities": []}
+{"id": 15393, "text": "This one's a little easier because the numerator's so simple.", "entities": []}
+{"id": 15394, "text": "So I take the derivative of the numerator, which is <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 9}, {"label": "command_attribute", "start_offset": 10, "end_offset": 41}, {"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 15395, "text": "And then I take the numerator, I take minus the numerator times the derivative of the denominator.", "entities": [{"label": "command", "start_offset": 11, "end_offset": 15}, {"label": "command_attribute", "start_offset": 20, "end_offset": 29}, {"label": "command", "start_offset": 33, "end_offset": 37}, {"label": "command_attribute", "start_offset": 38, "end_offset": 57}, {"label": "command", "start_offset": 58, "end_offset": 63}, {"label": "command_attribute", "start_offset": 64, "end_offset": 97}]}
+{"id": 15396, "text": "Which is <EXPRESSION>, and put all that over the square of the same denominator.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 15397, "text": "So one minus sign came from the quotient rule, and the other one came because that's the derivative of the <EXPRESSION>.", "entities": [{"label": "method", "start_offset": 32, "end_offset": 45}, {"label": "expression", "start_offset": 107, "end_offset": 119}]}
+{"id": 15398, "text": "But they cancel, and so I get <EXPRESSION>, which is <EXPRESSION> and so that's the <EXPRESSION>, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "expression", "start_offset": 84, "end_offset": 96}, {"label": "expression", "start_offset": 105, "end_offset": 117}]}
+{"id": 15399, "text": "So, not hard.", "entities": []}
+{"id": 15400, "text": "That verifies that the derivative of <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 15401, "text": "And it tells you that the integral of that weird thing in case you ever want to know, the integral of the <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 106, "end_offset": 118}, {"label": "expression", "start_offset": 126, "end_offset": 138}]}
+{"id": 15402, "text": "Well, there are a couple more integrals that I want to do for you.", "entities": []}
+{"id": 15403, "text": "Where I can't sort of work backwards like that.", "entities": []}
+{"id": 15404, "text": "Let's calculate the integral of the <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 15}, {"label": "command_attribute", "start_offset": 20, "end_offset": 28}, {"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 15405, "text": "Just do this straight out.", "entities": []}
+{"id": 15406, "text": "So the <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 15407, "text": "And now there's a habit of mind, that I hope you get into.", "entities": []}
+{"id": 15408, "text": "When you see the <EXPRESSION> and you're calculating an integral like this, it's useful to remember what the derivative of the <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 127, "end_offset": 139}]}
+{"id": 15409, "text": "Because maybe it shows up somewhere else in the integral.", "entities": []}
+{"id": 15410, "text": "And that happens here.", "entities": []}
+{"id": 15411, "text": "So that suggests we make a substitution.", "entities": [{"label": "command", "start_offset": 20, "end_offset": 24}, {"label": "command_attribute", "start_offset": 25, "end_offset": 39}]}
+{"id": 15412, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 15413, "text": "Which means <EQUATION>.", "entities": [{"label": "equation", "start_offset": 12, "end_offset": 22}]}
+{"id": 15414, "text": "That's the numerator, except for the minus sign.", "entities": []}
+{"id": 15415, "text": "And so I can rewrite this as, under the substitution, I can rewrite this as <EXPRESSION>, that's the numerator, <EXPRESSION> is <EXPRESSION>, divided by <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 20}, {"label": "command", "start_offset": 60, "end_offset": 67}, {"label": "expression", "start_offset": 76, "end_offset": 88}, {"label": "expression", "start_offset": 112, "end_offset": 124}, {"label": "expression", "start_offset": 128, "end_offset": 140}, {"label": "command", "start_offset": 142, "end_offset": 152}, {"label": "expression", "start_offset": 153, "end_offset": 165}]}
+{"id": 15416, "text": "Well, I know how to do that integral too.", "entities": []}
+{"id": 15417, "text": "That gives me the natural log, doesn't it.", "entities": []}
+{"id": 15418, "text": "So this is <EXPRESSION> plus a constant.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "command", "start_offset": 24, "end_offset": 28}, {"label": "command_attribute", "start_offset": 31, "end_offset": 39}]}
+{"id": 15419, "text": "I'm not quite done.", "entities": []}
+{"id": 15420, "text": "I have to back-substitute and replace this new variable that I've made up, called <EXPRESSION>, with what it is.", "entities": [{"label": "command", "start_offset": 10, "end_offset": 25}, {"label": "command", "start_offset": 30, "end_offset": 37}, {"label": "expression", "start_offset": 82, "end_offset": 94}]}
+{"id": 15421, "text": "And what you get is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 15422, "text": "So the integral of the <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 15423, "text": "Now, you find these tables of integrals in the back of the book.", "entities": []}
+{"id": 15424, "text": "Things like that.", "entities": []}
+{"id": 15425, "text": "I'm not sure how much memorization Professor Jerison is going to ask of you, but there is a certain amount of memorization that goes on in calculus.", "entities": []}
+{"id": 15426, "text": "And this is one of the kinds of things that you probably want to know.", "entities": []}
+{"id": 15427, "text": "Let me do one more integral.", "entities": []}
+{"id": 15428, "text": "I think I'm making my way through a prepared board here, let's see.", "entities": []}
+{"id": 15429, "text": "Good.", "entities": []}
+{"id": 15430, "text": "So the integral of the <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 15431, "text": "I'd also like to know what the integral of the <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 15432, "text": "And I don't know a way to kind of go straight at this, but let me show you a way to think your way through to it.", "entities": []}
+{"id": 15433, "text": "If I take these two facts, <EXPRESSION> is what it is, and <EXPRESSION> is what it is, and add them together, I get this fact.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 9}, {"label": "expression", "start_offset": 27, "end_offset": 39}, {"label": "expression", "start_offset": 59, "end_offset": 71}]}
+{"id": 15434, "text": "That the derivative of the <EXPRESSION> is, well, it's the sum of these two things.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 15435, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 15436, "text": "And there's a <EXPRESSION> that occurs in both of those terms.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 15437, "text": "So I'll factor it out.", "entities": [{"label": "command", "start_offset": 8, "end_offset": 14}]}
+{"id": 15438, "text": "And that gives me, I'll put it over here.", "entities": []}
+{"id": 15439, "text": "There's the <EXPRESSION> that occurs in both terms.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 15440, "text": "And then in one term, there's another <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 15441, "text": "And in the other term, there's a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 15442, "text": "So that's interesting somehow, because this same term appears on both sides of this equation.", "entities": []}
+{"id": 15443, "text": "Let's write <EXPRESSION>, for that <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 11}, {"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 15444, "text": "And so the equation that I get is <EQUATION>.", "entities": [{"label": "equation", "start_offset": 34, "end_offset": 44}]}
+{"id": 15445, "text": "I've just made a direct substitution.", "entities": []}
+{"id": 15446, "text": "Just decide that I'm going to write <EXPRESSION> for that single thing that occurs on both sides of the equation.", "entities": [{"label": "command", "start_offset": 30, "end_offset": 35}, {"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 15447, "text": "So <EXPRESSION> is on the left, and <EXPRESSION> is on the right.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 15448, "text": "Well, there's my secant.", "entities": [{"label": "term", "start_offset": 17, "end_offset": 23}]}
+{"id": 15449, "text": "That I was trying to integrate.", "entities": [{"label": "command", "start_offset": 21, "end_offset": 30}]}
+{"id": 15450, "text": "And what it tells you is that = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 15451, "text": "Just divide both sides by <EXPRESSION>, and I get this equation.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 11}, {"label": "command_attribute", "start_offset": 12, "end_offset": 22}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 15452, "text": "<EXPRESSION>, that has a name.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 15453, "text": "Not sure that professor Jerison's used this in this class, but <EXPRESSION>, we've actually used something like that.", "entities": [{"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 15454, "text": "It's on the board right now.", "entities": []}
+{"id": 15455, "text": "It's a logarithmic derivative.", "entities": []}
+{"id": 15456, "text": "It is the derivative of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 15457, "text": "Maybe it's easier to read this from right to left, if I want to calculate the derivative of <EXPRESSION>, well, the chain rule says I get the derivative of <EXPRESSION> times the derivative of <EXPRESSION>, which is <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 64, "end_offset": 73}, {"label": "command_attribute", "start_offset": 74, "end_offset": 91}, {"label": "expression", "start_offset": 92, "end_offset": 104}, {"label": "method", "start_offset": 116, "end_offset": 126}, {"label": "command", "start_offset": 134, "end_offset": 137}, {"label": "command_attribute", "start_offset": 138, "end_offset": 155}, {"label": "expression", "start_offset": 156, "end_offset": 168}, {"label": "command", "start_offset": 169, "end_offset": 174}, {"label": "command_attribute", "start_offset": 175, "end_offset": 192}, {"label": "expression", "start_offset": 193, "end_offset": 205}, {"label": "expression", "start_offset": 216, "end_offset": 228}]}
+{"id": 15458, "text": "So often <EXPRESSION> is called the logarithmic derivative.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "method", "start_offset": 36, "end_offset": 58}]}
+{"id": 15459, "text": "But it's done what I wanted.", "entities": []}
+{"id": 15460, "text": "Because it's expressed the secant as a derivative.", "entities": []}
+{"id": 15461, "text": "And I guess I should put in what <EXPRESSION> is.", "entities": [{"label": "command", "start_offset": 21, "end_offset": 24}, {"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 15462, "text": "It's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}]}
+{"id": 15463, "text": "And so that implies that the integral-- Integrate both sides.", "entities": [{"label": "command", "start_offset": 40, "end_offset": 49}, {"label": "command_attribute", "start_offset": 50, "end_offset": 60}]}
+{"id": 15464, "text": "That says that the integral of <EXPRESSION>, is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 15465, "text": "So that's the last line in this little memo that I created.", "entities": []}
+{"id": 15466, "text": "That we can use now for the rest of the class.", "entities": []}
+{"id": 15467, "text": "Any questions about that trick?", "entities": []}
+{"id": 15468, "text": "It's a trick, I have nothing more to say about it.", "entities": []}
+{"id": 15469, "text": "OK.", "entities": []}
+{"id": 15470, "text": "So, the next thing I-- oh yes, so now I want to make the point that using these rules and some thought, you can now integrate most trigonometric polynomials.", "entities": []}
+{"id": 15471, "text": "Most things that involve powers of <EXPRESSION> and <EXPRESSION> and <EXPRESSION> and <EXPRESSION> and everything else.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 52, "end_offset": 64}, {"label": "expression", "start_offset": 69, "end_offset": 81}, {"label": "expression", "start_offset": 86, "end_offset": 98}]}
+{"id": 15472, "text": "For example, let's try to integrate the integral of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 15473, "text": "Big power of the <EXPRESSION> function.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 15474, "text": "Well, there are too many <EXPRESSION> there for me.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 15475, "text": "So let's take some away.", "entities": []}
+{"id": 15476, "text": "And I can take them away by using that trig identity, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 54, "end_offset": 64}]}
+{"id": 15477, "text": "So I'm going to replace two of those <EXPRESSION> by <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 16, "end_offset": 23}, {"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 15478, "text": "That leaves me with two left over.", "entities": []}
+{"id": 15479, "text": "Now there was method to my madness.", "entities": []}
+{"id": 15480, "text": "Because I've got a <EXPRESSION> left over there.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 15481, "text": "And <EXPRESSION> is the derivative of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 15482, "text": "So that suggests a substitution.", "entities": []}
+{"id": 15483, "text": "Namely, let's say, let's let <EQUATION>, so that <EQUATION>.", "entities": [{"label": "command", "start_offset": 25, "end_offset": 28}, {"label": "equation", "start_offset": 29, "end_offset": 39}, {"label": "equation", "start_offset": 49, "end_offset": 59}]}
+{"id": 15484, "text": "And I have both terms that occur in my integral sitting there very nicely.", "entities": []}
+{"id": 15485, "text": "So this is the possibility of making this substitution and seeing a secant squared up here as part of the differential here.", "entities": []}
+{"id": 15486, "text": "That's why it was a good idea for me to take two of the <EXPRESSION> and write them as <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 40, "end_offset": 44}, {"label": "expression", "start_offset": 56, "end_offset": 68}, {"label": "command", "start_offset": 73, "end_offset": 78}, {"label": "expression", "start_offset": 87, "end_offset": 99}]}
+{"id": 15487, "text": "So now I can continue this.", "entities": []}
+{"id": 15488, "text": "Under that substitution, I get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 15489, "text": "Oh yeah, and I should add the other fact, that-- Well I guess it's obvious that <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 22, "end_offset": 25}, {"label": "expression", "start_offset": 80, "end_offset": 92}, {"label": "expression", "start_offset": 96, "end_offset": 108}]}
+{"id": 15490, "text": "So I get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 15491, "text": "And then <EXPRESSION>-- <EXPRESSION>, that is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 24, "end_offset": 36}, {"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 15492, "text": "Well that's pretty easy to integrate.", "entities": [{"label": "command", "start_offset": 27, "end_offset": 36}]}
+{"id": 15493, "text": "So I get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 15494, "text": "Plus a constant.", "entities": [{"label": "command", "start_offset": 0, "end_offset": 4}, {"label": "command_attribute", "start_offset": 5, "end_offset": 15}]}
+{"id": 15495, "text": "And then I just have to back-substitute.", "entities": [{"label": "command", "start_offset": 24, "end_offset": 39}]}
+{"id": 15496, "text": "Put things back in terms of the original variables.", "entities": [{"label": "command", "start_offset": 0, "end_offset": 3}]}
+{"id": 15497, "text": "And that gives me <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 15498, "text": "And there's the answer.", "entities": []}
+{"id": 15499, "text": "So we could spend a lot more time doing more examples of this kind of polynomial trig thing.", "entities": []}
+{"id": 15500, "text": "It's probably best for you to do some practice on your own.", "entities": []}
+{"id": 15501, "text": "Because I want to talk about other things, also.", "entities": []}
+{"id": 15502, "text": "And what I want to talk about is the use of these trig identities in making really trig substitution integration.", "entities": []}
+{"id": 15503, "text": "So we did a little bit of this yesterday, and I'll show you some more examples today.", "entities": []}
+{"id": 15504, "text": "Let's start with a pretty hard example right off the bat.", "entities": []}
+{"id": 15505, "text": "So this is going to be the integral of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 15506, "text": "It's a pretty bad looking integral.", "entities": []}
+{"id": 15507, "text": "So how can we approach this?", "entities": []}
+{"id": 15508, "text": "Well, the square root is the ugliest part of the integral, I think.", "entities": []}
+{"id": 15509, "text": "What we should try to do is write this square root in some nicer way.", "entities": [{"label": "command", "start_offset": 28, "end_offset": 33}, {"label": "command_attribute", "start_offset": 39, "end_offset": 50}]}
+{"id": 15510, "text": "That is, figure out a way to write <EXPRESSION> as a square.", "entities": [{"label": "command", "start_offset": 29, "end_offset": 34}, {"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 15511, "text": "That'll get rid of the square root.", "entities": [{"label": "command", "start_offset": 8, "end_offset": 18}, {"label": "command_attribute", "start_offset": 19, "end_offset": 34}]}
+{"id": 15512, "text": "So there is an example of a way to write <EXPRESSION> plus something squared in a different way.", "entities": [{"label": "command", "start_offset": 35, "end_offset": 40}, {"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "command", "start_offset": 54, "end_offset": 58}]}
+{"id": 15513, "text": "And it's right up there.", "entities": []}
+{"id": 15514, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 15515, "text": "So I want to use that idea.", "entities": []}
+{"id": 15516, "text": "And when I see this form, that suggests that we make a trig substitution and write <EXPRESSION> as the <EXPRESSION> of some new variable.", "entities": [{"label": "command", "start_offset": 77, "end_offset": 82}, {"label": "expression", "start_offset": 83, "end_offset": 95}, {"label": "expression", "start_offset": 103, "end_offset": 115}]}
+{"id": 15517, "text": "Which you might as well call <EXPRESSION>, to because it's like an angle.", "entities": [{"label": "command", "start_offset": 24, "end_offset": 28}, {"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 15518, "text": "Then <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}, {"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 15519, "text": "According to that trig identity.", "entities": []}
+{"id": 15520, "text": "And so the <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 15521, "text": "Right?", "entities": []}
+{"id": 15522, "text": "So this identity is the reason that the substitution is going to help us.", "entities": []}
+{"id": 15523, "text": "Because it gets rid of the square root and replaces it by some other trig function.", "entities": []}
+{"id": 15524, "text": "I'd better be able to get rid of the <EXPRESSION>, too.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 15525, "text": "That's part of the substitution process.", "entities": []}
+{"id": 15526, "text": "But we can do that, because I know what the derivative of the <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 15527, "text": "It's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}]}
+{"id": 15528, "text": "So <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 15529, "text": "So <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 15530, "text": "So let's just substitute all of that stuff in, and rewrite the entire integral in terms of our new variable, <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 14, "end_offset": 24}, {"label": "command", "start_offset": 51, "end_offset": 58}, {"label": "expression", "start_offset": 109, "end_offset": 121}]}
+{"id": 15531, "text": "So <EXPRESSION> is in the numerator.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 15532, "text": "That's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 15533, "text": "And then the denominator, well, it has an <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 15534, "text": "That's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 15535, "text": "And then there's this square root.", "entities": []}
+{"id": 15536, "text": "And we know what that is in terms of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 15537, "text": "It's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}]}
+{"id": 15538, "text": "OK, now.", "entities": []}
+{"id": 15539, "text": "we've done the trig substitution.", "entities": []}
+{"id": 15540, "text": "I've gotten rid of the square root, I've got everything in terms of trig functions of the new variable.", "entities": []}
+{"id": 15541, "text": "Pretty complicated trig function.", "entities": []}
+{"id": 15542, "text": "This often happens, you wind up with a complete scattering of different trig functions in the numerator and denominator and everything.", "entities": []}
+{"id": 15543, "text": "A systematic thing to do here is to put everything in terms of <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "expression", "start_offset": 80, "end_offset": 92}]}
+{"id": 15544, "text": "Unless you can see right away, how it's going to simplify, the systematic thing to do is to rewrite in terms of <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 49, "end_offset": 57}, {"label": "command", "start_offset": 92, "end_offset": 99}, {"label": "expression", "start_offset": 112, "end_offset": 124}, {"label": "expression", "start_offset": 129, "end_offset": 141}]}
+{"id": 15545, "text": "So let's do that.", "entities": []}
+{"id": 15546, "text": "So let's see.", "entities": []}
+{"id": 15547, "text": "The <EXPRESSION>, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 15548, "text": "So I'm going to put a <EXPRESSION> in the denominator.", "entities": [{"label": "command", "start_offset": 16, "end_offset": 19}, {"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "command_attribute", "start_offset": 42, "end_offset": 53}]}
+{"id": 15549, "text": "Oh, I guess the first thing I can do is cancel.", "entities": []}
+{"id": 15550, "text": "Let's do that.", "entities": []}
+{"id": 15551, "text": "That's clever.", "entities": []}
+{"id": 15552, "text": "You were all thinking that too.", "entities": []}
+{"id": 15553, "text": "Cancel those.", "entities": []}
+{"id": 15554, "text": "So now I just get <EXPRESSION> denominator from <EXPRESSION> there in the numerator.", "entities": [{"label": "command", "start_offset": 14, "end_offset": 17}, {"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 15555, "text": "It's still pretty complicated, <EXPRESSION>, who knows.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 15556, "text": "Well, we'll find out.", "entities": []}
+{"id": 15557, "text": "Because the <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 15558, "text": "So I should put a <EXPRESSION> where the <EXPRESSION> was, and <EXPRESSION> up there.", "entities": [{"label": "command", "start_offset": 12, "end_offset": 15}, {"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 15559, "text": "And I still have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 15560, "text": "And now you see some more cancellation occurs.", "entities": []}
+{"id": 15561, "text": "That's the virtue of writing things out in this way.", "entities": []}
+{"id": 15562, "text": "So now, the square here cancels with this <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 15563, "text": "And I'm left with <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 15564, "text": "That's a little simpler.", "entities": []}
+{"id": 15565, "text": "And it puts me in a position to use the same idea I just used.", "entities": []}
+{"id": 15566, "text": "I see the <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 15567, "text": "I might look around in this integral to see if its derivative occurs anywhere.", "entities": []}
+{"id": 15568, "text": "The differential of the <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 15569, "text": "And so I'm very much inclined to make another substitution.", "entities": []}
+{"id": 15570, "text": "Say, <EXPRESSION>, direct substitution this time.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}]}
+{"id": 15571, "text": "And say <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 15572, "text": "Because then <EXPRESSION>-- Oh, I'm sorry.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}]}
+{"id": 15573, "text": "Say, <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}, {"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 15574, "text": "Because then <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 15575, "text": "And then this integral becomes, well, the numerator just is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 15576, "text": "The denominator is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 15577, "text": "And I think we can break out the champagne, because we can integrate that one.", "entities": [{"label": "command", "start_offset": 59, "end_offset": 68}]}
+{"id": 15578, "text": "Finally get rid of the integral sign.", "entities": []}
+{"id": 15579, "text": "Yes sir.", "entities": []}
+{"id": 15580, "text": "STUDENT: [INAUDIBLE] PROFESSOR: OK, how do I know to make <EQUATION> rather than <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 53, "end_offset": 57}, {"label": "equation", "start_offset": 58, "end_offset": 68}, {"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 15581, "text": "Because I want to see <EXPRESSION> appear up here.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 15582, "text": "If I'd had a <EXPRESSION> up here, that would be a signal to me that maybe I should say let <EXPRESSION> be the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 92, "end_offset": 104}, {"label": "expression", "start_offset": 112, "end_offset": 124}]}
+{"id": 15583, "text": "OK?", "entities": []}
+{"id": 15584, "text": "Also, because this thing in the denominator is something I want to get rid of.", "entities": []}
+{"id": 15585, "text": "It's in the denominator.", "entities": []}
+{"id": 15586, "text": "So I'll get rid of it by wishful thinking and just call it something else.", "entities": []}
+{"id": 15587, "text": "It works pretty well in this case.", "entities": []}
+{"id": 15588, "text": "Wishful thinking doesn't always work so well.", "entities": []}
+{"id": 15589, "text": "So I integrate <EXPRESSION>, and I get <EXPRESSION> plus a constant, and I'm done with the calculus part of this problem.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 14}, {"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "command", "start_offset": 52, "end_offset": 56}]}
+{"id": 15590, "text": "I've done the integral now.", "entities": []}
+{"id": 15591, "text": "Gotten rid of the integral sign.", "entities": []}
+{"id": 15592, "text": "But I'm not quite done with the problem yet, because I have to work my way back through two substitutions.", "entities": []}
+{"id": 15593, "text": "First, this one.", "entities": []}
+{"id": 15594, "text": "And then this one.", "entities": []}
+{"id": 15595, "text": "So this first substitution isn't so bad to get rid of, to undo, to back-substitute.", "entities": [{"label": "command", "start_offset": 58, "end_offset": 62}, {"label": "command", "start_offset": 67, "end_offset": 82}]}
+{"id": 15596, "text": "Because <EXPRESSION> is just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 15597, "text": "And so <EXPRESSION> is, I guess a fancy way to write it is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "command", "start_offset": 47, "end_offset": 52}, {"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 15598, "text": "<EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 15599, "text": "So I get <EXPRESSION> plus a constant.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "command", "start_offset": 22, "end_offset": 26}, {"label": "command_attribute", "start_offset": 29, "end_offset": 37}]}
+{"id": 15600, "text": "Is there a question in the back?", "entities": []}
+{"id": 15601, "text": "Yes sir?", "entities": []}
+{"id": 15602, "text": "STUDENT: [INAUDIBLE] PROFESSOR: I'm sorry, my hearing is so bad.", "entities": []}
+{"id": 15603, "text": "STUDENT: [INAUDIBLE] PROFESSOR: How did I know this substitution in the first place.", "entities": []}
+{"id": 15604, "text": "It's because of the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 15605, "text": "And I want to make use of the trig identity in the upper left-hand corner.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 22}, {"label": "method", "start_offset": 30, "end_offset": 43}]}
+{"id": 15606, "text": "I'll make you a table in a few minutes that will put all this in a bigger context.", "entities": []}
+{"id": 15607, "text": "And I think it'll help you then.", "entities": []}
+{"id": 15608, "text": "OK, I'll promise.", "entities": []}
+{"id": 15609, "text": "So, what I want to try to talk about right now is how to rewrite a term like this.", "entities": [{"label": "command", "start_offset": 57, "end_offset": 64}, {"label": "command_attribute", "start_offset": 67, "end_offset": 71}]}
+{"id": 15610, "text": "A trig term like this, back in terms of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 15611, "text": "So I want to undo this trick substitution.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 17}, {"label": "command_attribute", "start_offset": 29, "end_offset": 41}]}
+{"id": 15612, "text": "This is a trig sub.", "entities": []}
+{"id": 15613, "text": "And what I want to do now is try to undo that trig sub.", "entities": [{"label": "command", "start_offset": 36, "end_offset": 40}, {"label": "command_attribute", "start_offset": 46, "end_offset": 54}]}
+{"id": 15614, "text": "And I'll show you a general method for undoing trig substitutions.", "entities": []}
+{"id": 15615, "text": "This happens quite often.", "entities": []}
+{"id": 15616, "text": "I don't know what the <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 15617, "text": "But I do know what the <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 15618, "text": "So I want to make a relation between them.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 17}, {"label": "command_attribute", "start_offset": 20, "end_offset": 28}]}
+{"id": 15619, "text": "OK, so undoing.", "entities": []}
+{"id": 15620, "text": "Trig subs.", "entities": []}
+{"id": 15621, "text": "So let's go back to where trigonometry always comes from, this right angled triangle.", "entities": []}
+{"id": 15622, "text": "The <EXPRESSION> in the corner, and then these three sides.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 15623, "text": "This one's called the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 15624, "text": "This one is called the <EXPRESSION>, and that one's called the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 15625, "text": "And now, let's find out where <EXPRESSION> lies in this triangle.", "entities": [{"label": "command", "start_offset": 15, "end_offset": 23}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 15626, "text": "Let's try to write the sides of this triangle in terms of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 18}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 15627, "text": "And what I know is, <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 15628, "text": "So the tangent of <EXPRESSION>, tangent of this angle, is opposite divided by adjacent.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "command", "start_offset": 67, "end_offset": 77}]}
+{"id": 15629, "text": "Did you learn SOH CAH TOA?", "entities": [{"label": "method", "start_offset": 14, "end_offset": 25}]}
+{"id": 15630, "text": "OK, so it's opposite divided by adjacent.", "entities": []}
+{"id": 15631, "text": "Is the tangent.", "entities": [{"label": "term", "start_offset": 7, "end_offset": 14}]}
+{"id": 15632, "text": "So there are different ways to do that, but why not just do it in the simplest way and suppose that the adjacent is <EXPRESSION>, and the opposite is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 116, "end_offset": 128}, {"label": "expression", "start_offset": 150, "end_offset": 162}]}
+{"id": 15633, "text": "This is correct now, isn't it?", "entities": []}
+{"id": 15634, "text": "I get the correct value for the tangent of theta by saying that the lengths of those are <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 89, "end_offset": 101}, {"label": "expression", "start_offset": 106, "end_offset": 118}]}
+{"id": 15635, "text": "And that means that the hypotenuse has length <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 15636, "text": "Well, here's a triangle.", "entities": []}
+{"id": 15637, "text": "I'm interested in computing the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 15638, "text": "Where's that appear in the triangle?", "entities": []}
+{"id": 15639, "text": "Well, let's see.", "entities": []}
+{"id": 15640, "text": "The <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 15641, "text": "And the <EXPRESSION> is opposite over hypotenuse.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 15642, "text": "So the cosecant is hypotenuse over opposite.", "entities": []}
+{"id": 15643, "text": "And the hypotenuse is <EXPRESSION>, and the opposite is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 15644, "text": "And so I've done it.", "entities": []}
+{"id": 15645, "text": "I've undone the trig substitution.", "entities": []}
+{"id": 15646, "text": "I've figured out what this cosecant of <EXPRESSION> is, in terms of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 67, "end_offset": 80}]}
+{"id": 15647, "text": "And so the final answer is minus the <EXPRESSION>, plus a constant, and there's an answer to the original problem.", "entities": [{"label": "command", "start_offset": 27, "end_offset": 32}, {"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "command", "start_offset": 51, "end_offset": 55}, {"label": "command_attribute", "start_offset": 56, "end_offset": 66}]}
+{"id": 15648, "text": "This took two boards to go through this.", "entities": []}
+{"id": 15649, "text": "I illustrated several things.", "entities": []}
+{"id": 15650, "text": "Actually, this three half boards.", "entities": []}
+{"id": 15651, "text": "I illustrated this use of trig substitution, and I'll come back to that in a second.", "entities": []}
+{"id": 15652, "text": "I illustrated patience.", "entities": []}
+{"id": 15653, "text": "I illustrated rewriting things in terms of sines and cosines, and then making a direct substitution to evaluate an integral like this.", "entities": [{"label": "command", "start_offset": 103, "end_offset": 111}]}
+{"id": 15654, "text": "And then there's this undoing all of those substitutions.", "entities": []}
+{"id": 15655, "text": "And it culminated with undoing the trig sub.", "entities": []}
+{"id": 15656, "text": "So let's play a game here.", "entities": []}
+{"id": 15657, "text": "Why don't we play the game where you give me-- So, there's a step in here that I should have done.", "entities": []}
+{"id": 15658, "text": "I should've said this is <EXPRESSION> plus a constant.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "command", "start_offset": 38, "end_offset": 42}, {"label": "command_attribute", "start_offset": 43, "end_offset": 53}]}
+{"id": 15659, "text": "The most straightforward thing you can do is to say since <EXPRESSION> is the tangent of <EXPRESSION>, that means that-- sorry, if <EXPRESSION>, that means that <EXPRESSION> is the arctangent of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 58, "end_offset": 70}, {"label": "expression", "start_offset": 89, "end_offset": 101}, {"label": "expression", "start_offset": 131, "end_offset": 143}, {"label": "expression", "start_offset": 161, "end_offset": 173}, {"label": "expression", "start_offset": 195, "end_offset": 207}]}
+{"id": 15660, "text": "And so let's just put in <EXPRESSION> as the arctangent of <EXPRESSION>, and that's what you get.", "entities": [{"label": "command", "start_offset": 18, "end_offset": 21}, {"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 59, "end_offset": 71}]}
+{"id": 15661, "text": "So really, what I just did for you was to show you a way to compute some trig function applied to the inverse of another trig function.", "entities": [{"label": "command", "start_offset": 60, "end_offset": 67}, {"label": "command_attribute", "start_offset": 73, "end_offset": 86}]}
+{"id": 15662, "text": "I computed cosecant of the arctangent by this trick.", "entities": []}
+{"id": 15663, "text": "So now, let's play the game where you give me a trig function and an inverse trig function, and I try to compute what the composite is.", "entities": []}
+{"id": 15664, "text": "OK.", "entities": []}
+{"id": 15665, "text": "So who can give me a trig function.", "entities": []}
+{"id": 15666, "text": "Has to be one of these standard ones.", "entities": []}
+{"id": 15667, "text": "STUDENT: Tan.", "entities": []}
+{"id": 15668, "text": "PROFESSOR: Tangent.", "entities": []}
+{"id": 15669, "text": "Alright.", "entities": []}
+{"id": 15670, "text": "How about another one?", "entities": []}
+{"id": 15671, "text": "STUDENT: <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 15672, "text": "PROFESSOR: <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 15673, "text": "Do we have agreement on <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 15674, "text": "STUDENT: [INAUDIBLE] PROFESSOR: <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 15675, "text": "STUDENT: [INAUDIBLE] PROFESSOR: Right, <EXPRESSION> has the best cheer.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 15676, "text": "So that's the game.", "entities": []}
+{"id": 15677, "text": "We have to compute, try to compute, that composite.", "entities": [{"label": "command", "start_offset": 11, "end_offset": 18}, {"label": "command", "start_offset": 27, "end_offset": 34}, {"label": "command_attribute", "start_offset": 41, "end_offset": 50}]}
+{"id": 15678, "text": "Something wrong with this?", "entities": []}
+{"id": 15679, "text": "STUDENT: [INAUDIBLE] PROFESSOR: What does acceptable mean?", "entities": []}
+{"id": 15680, "text": "Don't you think-- so the question is, isn't this a perfectly acceptable final answer.", "entities": []}
+{"id": 15681, "text": "It's a correct final answer.", "entities": []}
+{"id": 15682, "text": "But this is much more insightful.", "entities": []}
+{"id": 15683, "text": "And after all the original thing was involving square roots and things, this is the kind of thing you might hope for is an answer.", "entities": []}
+{"id": 15684, "text": "This is just a nicer answer for sure.", "entities": []}
+{"id": 15685, "text": "And likely to be more useful to you when you go on and use that answer for something else.", "entities": []}
+{"id": 15686, "text": "OK, so let's try to do this this.", "entities": []}
+{"id": 15687, "text": "Undo a trig substitution that involved a cosecant.", "entities": [{"label": "command", "start_offset": 0, "end_offset": 4}, {"label": "command_attribute", "start_offset": 7, "end_offset": 24}]}
+{"id": 15688, "text": "And I manipulate around, and I find myself trying to find out what's the tangent of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 16}, {"label": "term", "start_offset": 73, "end_offset": 80}, {"label": "expression", "start_offset": 84, "end_offset": 96}]}
+{"id": 15689, "text": "So here's how we go about it.", "entities": []}
+{"id": 15690, "text": "I draw this triangle.", "entities": []}
+{"id": 15691, "text": "<EXPRESSION> is the angle here.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 15692, "text": "This is the adjacent, opposite, hypotenuse.", "entities": [{"label": "term", "start_offset": 12, "end_offset": 20}, {"label": "term", "start_offset": 22, "end_offset": 30}, {"label": "term", "start_offset": 32, "end_offset": 42}]}
+{"id": 15693, "text": "So, the first thing is how can I make the cosecant appear here, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 15694, "text": "What dimensions should I give to the sides in order for the cosecant of <EXPRESSION>, sorry, in order for <EXPRESSION> to be the cosecant of <EXPRESSION>.", "entities": [{"label": "term", "start_offset": 60, "end_offset": 68}, {"label": "expression", "start_offset": 72, "end_offset": 84}, {"label": "expression", "start_offset": 106, "end_offset": 118}, {"label": "term", "start_offset": 129, "end_offset": 137}, {"label": "expression", "start_offset": 141, "end_offset": 153}]}
+{"id": 15695, "text": "This thing is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 15696, "text": "So, that means that the cosecant of <EXPRESSION>-- that means the cosecant of <EXPRESSION> should be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "term", "start_offset": 66, "end_offset": 74}, {"label": "expression", "start_offset": 78, "end_offset": 90}, {"label": "expression", "start_offset": 101, "end_offset": 113}]}
+{"id": 15697, "text": "<EXPRESSION> is the arccosecant, so <EXPRESSION> is the cosecant of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "term", "start_offset": 20, "end_offset": 31}, {"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "term", "start_offset": 56, "end_offset": 64}, {"label": "expression", "start_offset": 68, "end_offset": 80}]}
+{"id": 15698, "text": "So, what'll I take the sides to be, to get the cosecant?", "entities": [{"label": "term", "start_offset": 47, "end_offset": 55}]}
+{"id": 15699, "text": "The cosecant is <EXPRESSION>.", "entities": [{"label": "term", "start_offset": 4, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 15700, "text": "And the <EXPRESSION> is the opposite over the hypotenuse.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 15701, "text": "So I get hypotenuse over opposite.", "entities": []}
+{"id": 15702, "text": "And that's supposed to be what <EXPRESSION> is.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 15703, "text": "So I could make the opposite anything I want, but the simplest thing is to make it <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 83, "end_offset": 95}]}
+{"id": 15704, "text": "Let's do that.", "entities": []}
+{"id": 15705, "text": "And then what does that mean about the rest of the sides?", "entities": []}
+{"id": 15706, "text": "Hypotenuse had better be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 15707, "text": "And then I've recovered this.", "entities": []}
+{"id": 15708, "text": "So here's a triangle that exhibits the correct angle.", "entities": []}
+{"id": 15709, "text": "This remaining side is going to be useful to us.", "entities": []}
+{"id": 15710, "text": "And it is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 15711, "text": "So I've got a triangle of the correct angle <EXPRESSION>, and now I want to compute the tangent of that angle.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 15712, "text": "Well, that's easy.", "entities": []}
+{"id": 15713, "text": "That's opposite divided by adjacent.", "entities": []}
+{"id": 15714, "text": "So I get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 15715, "text": "Very flexible tool that'll be useful to you in many different times.", "entities": []}
+{"id": 15716, "text": "Whenever you have to undo a trig substitution, this is likely to be useful.", "entities": []}
+{"id": 15717, "text": "OK, that was a good game.", "entities": []}
+{"id": 15718, "text": "No winners in this game.", "entities": []}
+{"id": 15719, "text": "We're all winners.", "entities": []}
+{"id": 15720, "text": "No losers, we're all winners.", "entities": []}
+{"id": 15721, "text": "OK.", "entities": []}
+{"id": 15722, "text": "So, good.", "entities": []}
+{"id": 15723, "text": "So let me make this table of the different trig substitutions, and how they can be useful.", "entities": []}
+{"id": 15724, "text": "Summary of trig substitutions.", "entities": []}
+{"id": 15725, "text": "So over here, we have, if you see, so if your integrand contains, make a substitution to get.", "entities": []}
+{"id": 15726, "text": "So if your integrand contains, I'll write these things out as square roots.", "entities": []}
+{"id": 15727, "text": "If it contains the <EXPRESSION>, this is what we talked about on Thursday.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 15728, "text": "When I was trying to find the area of that piece of a circle.", "entities": []}
+{"id": 15729, "text": "There, I suggested that we should make the substitution <EQUATION>.", "entities": [{"label": "equation", "start_offset": 56, "end_offset": 66}]}
+{"id": 15730, "text": "Or, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 4, "end_offset": 14}]}
+{"id": 15731, "text": "Either one works just as well.", "entities": []}
+{"id": 15732, "text": "And there's no way to prefer one over the other.", "entities": []}
+{"id": 15733, "text": "And when you make the substitution, <EQUATION>, you get <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 36, "end_offset": 46}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 15734, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 15735, "text": "<EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 15736, "text": "So you get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 15737, "text": "So this expression becomes = this expression under that substitution.", "entities": []}
+{"id": 15738, "text": "And then you go on.", "entities": []}
+{"id": 15739, "text": "Then you've gotten rid of the square root, and you've got a trigonometric integral that you have to try to do.", "entities": []}
+{"id": 15740, "text": "If you made the substitution <EXPRESSION>, you'd get <EXPRESSION>, which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 15741, "text": "And then you can go ahead as well.", "entities": []}
+{"id": 15742, "text": "We just saw another example.", "entities": []}
+{"id": 15743, "text": "Namely, if you have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 15744, "text": "That's like the example we had up here.", "entities": []}
+{"id": 15745, "text": "<EQUATION> in this example.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 15746, "text": "What did we do?", "entities": []}
+{"id": 15747, "text": "We tried the substitution <EQUATION>.", "entities": [{"label": "equation", "start_offset": 26, "end_offset": 35}]}
+{"id": 15748, "text": "And the reason is that I can plug into the trig identity up here in the upper left.", "entities": [{"label": "command", "start_offset": 29, "end_offset": 33}]}
+{"id": 15749, "text": "And replace <EXPRESSION> by <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 4, "end_offset": 11}, {"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 15750, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 15751, "text": "There's one more thing in this table.", "entities": []}
+{"id": 15752, "text": "Sort of, the only remaining sum or difference of terms like this.", "entities": []}
+{"id": 15753, "text": "And that's what happens if you have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 15754, "text": "So there, I think we can make a substitution a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 15755, "text": "Because, after all, <EXPRESSION>-- so <EXPRESSION> - <EXPRESSION>-- Sorry.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 38, "end_offset": 50}, {"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 15756, "text": "Let's see what happens when I make that substitution.", "entities": [{"label": "command", "start_offset": 30, "end_offset": 34}, {"label": "command_attribute", "start_offset": 40, "end_offset": 52}]}
+{"id": 15757, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 15758, "text": "Under this substitution.", "entities": []}
+{"id": 15759, "text": "That's <EXPRESSION>.", "entities": []}
+{"id": 15760, "text": "Well, put the <EXPRESSION> on the other side.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 9}, {"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 15761, "text": "And you find <EXPRESSION>, coming out.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}]}
+{"id": 15762, "text": "So this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 15763, "text": "And so that's what you get, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 15764, "text": "After I take the square root, I get <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 8, "end_offset": 12}, {"label": "command_attribute", "start_offset": 13, "end_offset": 28}, {"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 15765, "text": "So these are the three basic trig substitution forms.", "entities": []}
+{"id": 15766, "text": "Where trig substitutions are useful to get rid of expressions like this, and replace them by trigonometric expressions.", "entities": []}
+{"id": 15767, "text": "And then you use this trick, you do the integral if you can and then you use this trick to get rid of the <EXPRESSION> at the end.", "entities": [{"label": "command", "start_offset": 91, "end_offset": 101}, {"label": "expression", "start_offset": 106, "end_offset": 118}]}
+{"id": 15768, "text": "So now, the last thing I want to talk about today is called completing the square.", "entities": []}
+{"id": 15769, "text": "And that comes in because unfortunately, not every square root of a quadratic has such a simple form.", "entities": []}
+{"id": 15770, "text": "You will often encounter things that are not just the square root of something simple.", "entities": []}
+{"id": 15771, "text": "Like one of these forms.", "entities": []}
+{"id": 15772, "text": "Like there might be a middle term in there.", "entities": []}
+{"id": 15773, "text": "I don't actually have time to show you an example of how this comes out in a sort of practical example.", "entities": []}
+{"id": 15774, "text": "But it does happen quite frequently.", "entities": []}
+{"id": 15775, "text": "And so I want to show you how to deal with things like the following example.", "entities": []}
+{"id": 15776, "text": "Let's try to integrate <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 22}, {"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 15777, "text": "So there's a square root of some square, some quadratic.", "entities": []}
+{"id": 15778, "text": "It's very much like this business.", "entities": []}
+{"id": 15779, "text": "But it isn't of any of these forms.", "entities": []}
+{"id": 15780, "text": "And so what I want to do is show you how to rewrite it in one of those forms using substitution, again.", "entities": []}
+{"id": 15781, "text": "All this is about substitution.", "entities": []}
+{"id": 15782, "text": "So the game is to rewrite quadratic as something like <EXPRESSION> plus something or other.", "entities": [{"label": "command", "start_offset": 18, "end_offset": 25}, {"label": "command_attribute", "start_offset": 26, "end_offset": 35}, {"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "command", "start_offset": 67, "end_offset": 71}]}
+{"id": 15783, "text": "Plus some other constant.", "entities": [{"label": "command", "start_offset": 0, "end_offset": 4}, {"label": "command_attribute", "start_offset": 16, "end_offset": 24}]}
+{"id": 15784, "text": "So write it, try to write it, in the form of a square plus or minus another constant.", "entities": [{"label": "command", "start_offset": 3, "end_offset": 8}, {"label": "command", "start_offset": 20, "end_offset": 25}]}
+{"id": 15785, "text": "And then we'll go on from there.", "entities": []}
+{"id": 15786, "text": "So let's do that in this case.", "entities": []}
+{"id": 15787, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 15788, "text": "Well, if you square this form out, then the middle term is going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 15789, "text": "So that, since I have a middle term here, I pretty much know what a has to be.", "entities": []}
+{"id": 15790, "text": "The only choice in order to get something like <EXPRESSION> out of this, is to take a to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}, {"label": "expression", "start_offset": 92, "end_offset": 104}]}
+{"id": 15791, "text": "Because then, this is what you get.", "entities": []}
+{"id": 15792, "text": "This isn't quite right yet, but let's compute what I have here.", "entities": [{"label": "command", "start_offset": 38, "end_offset": 45}]}
+{"id": 15793, "text": "<EXPRESSION>, so far so good, plus <EXPRESSION>, and I don't have a plus <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "command", "start_offset": 30, "end_offset": 34}, {"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "command", "start_offset": 68, "end_offset": 72}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 15794, "text": "So I have to fix that by subtracting <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 15795, "text": "So that's what I mean.", "entities": []}
+{"id": 15796, "text": "I've completed the square.", "entities": []}
+{"id": 15797, "text": "The word for this process of eliminating the middle term by using the square of an expression like that.", "entities": []}
+{"id": 15798, "text": "That's called completing the square.", "entities": []}
+{"id": 15799, "text": "And we can use that process to compute this integral.", "entities": []}
+{"id": 15800, "text": "So let's do that.", "entities": []}
+{"id": 15801, "text": "So I can rewrite this integral, rewrite this denominator like this.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 16}]}
+{"id": 15802, "text": "And then I'm going to try to use one of these forms over here.", "entities": []}
+{"id": 15803, "text": "So in order to get a single variable there, instead of something complicated like <EXPRESSION>, I'm inclined to come up with another variable name and write it =, write <EXPRESSION> as that other variable name.", "entities": [{"label": "expression", "start_offset": 82, "end_offset": 94}, {"label": "command", "start_offset": 163, "end_offset": 168}, {"label": "expression", "start_offset": 169, "end_offset": 181}]}
+{"id": 15804, "text": "So here's another little direct substitution.", "entities": []}
+{"id": 15805, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 15806, "text": "Figure out what du is.", "entities": [{"label": "term", "start_offset": 16, "end_offset": 18}]}
+{"id": 15807, "text": "That's pretty easy.", "entities": []}
+{"id": 15808, "text": "And then rewrite the integral in those terms.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 16}, {"label": "command_attribute", "start_offset": 20, "end_offset": 29}]}
+{"id": 15809, "text": "So <EQUATION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}]}
+{"id": 15810, "text": "And then in the denominator I have, well, I have the square root of that.", "entities": []}
+{"id": 15811, "text": "Oh yeah, so I think as part of this I'll write out what <EXPRESSION> is.", "entities": [{"label": "command", "start_offset": 41, "end_offset": 46}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 15812, "text": "The point is, it's = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 15813, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 15814, "text": "There's the data box containing the substitution data.", "entities": []}
+{"id": 15815, "text": "And so now I can put that in.", "entities": [{"label": "command", "start_offset": 17, "end_offset": 20}]}
+{"id": 15816, "text": "I have <EXPRESSION> there.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 15817, "text": "In terms of <EXPRESSION>, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 15818, "text": "Well, now I'm in a happier position because I can look for <EXPRESSION> for something like that in my table here.", "entities": [{"label": "expression", "start_offset": 59, "end_offset": 71}]}
+{"id": 15819, "text": "And it actually sits down here.", "entities": []}
+{"id": 15820, "text": "So except for the use of the letter <EXPRESSION> here instead of <EXPRESSION> over there.", "entities": [{"label": "command", "start_offset": 18, "end_offset": 21}, {"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 15821, "text": "That tells me what I want.", "entities": []}
+{"id": 15822, "text": "So to handle this, what I should use is a trig substitution.", "entities": []}
+{"id": 15823, "text": "And the trig substitution that's suggested is, according to the bottom line with <EQUATION>, so <EQUATION>.", "entities": [{"label": "equation", "start_offset": 81, "end_offset": 91}, {"label": "equation", "start_offset": 96, "end_offset": 106}]}
+{"id": 15824, "text": "The suggestion is, I should take <EXPRESSION>-- But I'd better not use the letter x any more.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "term", "start_offset": 82, "end_offset": 83}]}
+{"id": 15825, "text": "But I don't have a letter <EXPRESSION>, I have the letter <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 15826, "text": "I should take <EQUATION>.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 13}, {"label": "equation", "start_offset": 14, "end_offset": 24}]}
+{"id": 15827, "text": "And then some letter I haven't used before.", "entities": []}
+{"id": 15828, "text": "And <EXPRESSION> is available.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 15829, "text": "This is a look-up table process.", "entities": []}
+{"id": 15830, "text": "I see the <EXPRESSION>, I see that that's of this form.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 15831, "text": "I'm instructed to make this substitution.", "entities": [{"label": "command", "start_offset": 18, "end_offset": 22}, {"label": "command_attribute", "start_offset": 28, "end_offset": 40}]}
+{"id": 15832, "text": "And that's what I just did.", "entities": []}
+{"id": 15833, "text": "Let's see how it works out.", "entities": []}
+{"id": 15834, "text": "So that means the <EXPRESSION> is <EXPRESSION>, OK.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 15835, "text": "What's the derivative of the <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 15836, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 15837, "text": "So <EQUATION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}]}
+{"id": 15838, "text": "And <EXPRESSION> is, here's the payoff.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 15839, "text": "I'm supposed to be able to rewrite that in terms of the <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 27, "end_offset": 34}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 15840, "text": "According to this.", "entities": []}
+{"id": 15841, "text": "<EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 15842, "text": "And <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 15843, "text": "So this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 15844, "text": "Right, yeah?", "entities": []}
+{"id": 15845, "text": "STUDENT: [INAUDIBLE] PROFESSOR: But I squared it.", "entities": []}
+{"id": 15846, "text": "And now I'll square root it.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 24}]}
+{"id": 15847, "text": "And I'll get a <EXPRESSION> and this tangent will go away.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 12}, {"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 15848, "text": "So there's my data box for this substitution.", "entities": []}
+{"id": 15849, "text": "And let's go on to another board.", "entities": []}
+{"id": 15850, "text": "So where I'm at is the integral of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 15851, "text": "And I have all the data I need here to rewrite that in terms of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 39, "end_offset": 46}, {"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 15852, "text": "So <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 15853, "text": "And the denominator is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 15854, "text": "Ha.", "entities": []}
+{"id": 15855, "text": "Well, so some very nice simplification happens here.", "entities": []}
+{"id": 15856, "text": "The <EXPRESSION>'s cancel.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}]}
+{"id": 15857, "text": "And the <EXPRESSION> cancel.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 15858, "text": "And I'm left with trying to work with the integral, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 15859, "text": "And luckily enough at the very beginning of the hour, I worked out how to compute the integral of the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 102, "end_offset": 114}]}
+{"id": 15860, "text": "And there it is.", "entities": []}
+{"id": 15861, "text": "So this is <EXPRESSION> plus a constant.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "command", "start_offset": 24, "end_offset": 28}, {"label": "command_attribute", "start_offset": 29, "end_offset": 39}]}
+{"id": 15862, "text": "And we're done with the calculus part.", "entities": []}
+{"id": 15863, "text": "There's no more integral there.", "entities": []}
+{"id": 15864, "text": "But I still am not quite done with the problem, because again I have these two substitutions to try to undo.", "entities": [{"label": "command", "start_offset": 103, "end_offset": 107}]}
+{"id": 15865, "text": "So let's undo them one by one.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 13}]}
+{"id": 15866, "text": "Let's see.", "entities": []}
+{"id": 15867, "text": "I have this trig substitution here.", "entities": []}
+{"id": 15868, "text": "And I could use my triangle trick, if I need to.", "entities": []}
+{"id": 15869, "text": "But maybe I don't need to.", "entities": []}
+{"id": 15870, "text": "Let's see, do I know what the <EXPRESSION> is in terms of <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 15871, "text": "Well, I do.", "entities": []}
+{"id": 15872, "text": "So I get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 15873, "text": "Do I know what the <EXPRESSION> is in terms of <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 15874, "text": "Well, I do.", "entities": []}
+{"id": 15875, "text": "It's here.", "entities": []}
+{"id": 15876, "text": "So I lucked out, in this case.", "entities": []}
+{"id": 15877, "text": "And I don't have to go through and use that triangle trick.", "entities": []}
+{"id": 15878, "text": "So the <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 15879, "text": "Good.", "entities": []}
+{"id": 15880, "text": "So I've undone this trig substitution.", "entities": []}
+{"id": 15881, "text": "I'm not quite done yet because my answer is involved with <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 15882, "text": "And what I wanted originally was <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 15883, "text": "But this direct substitution that I started with is really easy to deal with.", "entities": []}
+{"id": 15884, "text": "I can just put <EXPRESSION> every time I see a <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 11, "end_offset": 14}, {"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 15885, "text": "So this is <EXPRESSION> plus the square root.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "command", "start_offset": 24, "end_offset": 28}, {"label": "command_attribute", "start_offset": 33, "end_offset": 44}]}
+{"id": 15886, "text": ".", "entities": []}
+{"id": 15887, "text": ".", "entities": []}
+{"id": 15888, "text": "What's going to happen when I put <EXPRESSION> in place for <EXPRESSION> here?", "entities": []}
+{"id": 15889, "text": "You know what you get.", "entities": []}
+{"id": 15890, "text": "You get exactly what we started with.", "entities": []}
+{"id": 15891, "text": "Right?", "entities": []}
+{"id": 15892, "text": "I put <EXPRESSION> in place of the <EXPRESSION> here.", "entities": [{"label": "command", "start_offset": 2, "end_offset": 5}, {"label": "expression", "start_offset": 6, "end_offset": 18}, {"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 15893, "text": "I get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}]}
+{"id": 15894, "text": "So I've gotten back to a function purely in terms of <EXPRESSION> OK, that's a good place to quit.", "entities": [{"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 15895, "text": "Have a great little one-day break.", "entities": []}
+{"id": 15896, "text": "I guess this class doesn't meet on Monday anyway.", "entities": []}
+{"id": 15897, "text": "Bye.", "entities": []}

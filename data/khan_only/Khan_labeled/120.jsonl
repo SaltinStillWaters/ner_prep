@@ -1,0 +1,128 @@
+{"id": 3620, "text": "And the way we write that it's the definite integral.", "entities": []}
+{"id": 3621, "text": "<EQUATION>, from <EQUATION> to <EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}, {"label": "equation", "start_offset": 17, "end_offset": 27}, {"label": "equation", "start_offset": 31, "end_offset": 41}]}
+{"id": 3622, "text": "But what if and I'm just going to draw an abstract surface here let me draw some axis.", "entities": []}
+{"id": 3623, "text": "Let's say we had a well, actually let me go the other way.", "entities": []}
+{"id": 3624, "text": "Not <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 3625, "text": "Let's say that I had some constant <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 3626, "text": "This = the area under the curve.", "entities": []}
+{"id": 3627, "text": "Let's call that, you know, this is <EQUATION>.", "entities": [{"label": "equation", "start_offset": 35, "end_offset": 45}]}
+{"id": 3628, "text": "So you can kind of view it as the domain.", "entities": []}
+{"id": 3629, "text": "So now, before, our domain was just at least, you know, for most of what we dealt with was just the x-axis, or kind of the real number line in the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 147, "end_offset": 159}]}
+{"id": 3630, "text": "That's this line right here.", "entities": []}
+{"id": 3631, "text": "Some surface.", "entities": []}
+{"id": 3632, "text": "So it would be the integral from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 3633, "text": "That gives us the area of this blue sheet.", "entities": []}
+{"id": 3634, "text": "If it's not, you might want to review the definite integration videos.", "entities": []}
+{"id": 3635, "text": "But hopefully, you'll now see the parallel of how we extend this to taking the volume under a surface.", "entities": []}
+{"id": 3636, "text": "And I think you're going to find out that actually calculating the volumes are pretty straightforward, especially when you have fixed <EXPRESSION> and <EXPRESSION> bounds.", "entities": [{"label": "expression", "start_offset": 134, "end_offset": 146}, {"label": "expression", "start_offset": 151, "end_offset": 163}]}
+{"id": 3637, "text": "That's my z-axis.", "entities": []}
+{"id": 3638, "text": "<EXPRESSION> is a function of <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 3639, "text": "A constant <EXPRESSION>, a line like that.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 3640, "text": "So let me just show you what a surface looks like, in case you don't remember.", "entities": []}
+{"id": 3641, "text": "So what would be the volume of that sliver? The volume of that sliver will be this function of <EXPRESSION>, or <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 95, "end_offset": 107}, {"label": "expression", "start_offset": 112, "end_offset": 124}]}
+{"id": 3642, "text": "Give me an <EXPRESSION> and I'll give you a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 3643, "text": "If we have a constant <EXPRESSION>, it would be a line like that.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 3644, "text": "This would give us an expression so that I would know the area of this kind of sliver of the volume, for any given value of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 124, "end_offset": 136}]}
+{"id": 3645, "text": "If I pick a <EXPRESSION> there, it'll be a different area.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 3646, "text": "I'll just draw something.", "entities": []}
+{"id": 3647, "text": "OK.", "entities": []}
+{"id": 3648, "text": "So far, we've used integrals to figure out the area under a curve.", "entities": []}
+{"id": 3649, "text": "That's the intuition behind the definite integral.", "entities": []}
+{"id": 3650, "text": "If I wanted to figure out the area under this curve, between, let's say, <EQUATION> and <EQUATION>.", "entities": [{"label": "equation", "start_offset": 73, "end_offset": 83}, {"label": "equation", "start_offset": 88, "end_offset": 98}]}
+{"id": 3651, "text": "So <EXPRESSION>, a very small change in <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 3652, "text": "That's my y-axis.", "entities": []}
+{"id": 3653, "text": "But if I have some function this is the <EXPRESSION> plane, that's the x-axis, that's the y-axis and I have some function.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 3654, "text": "And then if we integrated it, from <EQUATION>, which was back here, all the way to <EQUATION>, what would it look like? It would look like that.", "entities": [{"label": "equation", "start_offset": 35, "end_offset": 45}, {"label": "equation", "start_offset": 83, "end_offset": 93}]}
+{"id": 3655, "text": "So let's make a square bound first, because this keeps it a lot simpler.", "entities": []}
+{"id": 3656, "text": "Say, here, I'll put it into the function and it'll give us a <EXPRESSION> value now.", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}]}
+{"id": 3657, "text": "And let's just review a little bit of the intuition, although this should hopefully be second nature to you at this point.", "entities": []}
+{"id": 3658, "text": "And if we wanted to take the sum of all of these rectangles right? There's just going to be a bunch of them.", "entities": []}
+{"id": 3659, "text": "I'm making that that little cut that I took the area of by making it three dimensional.", "entities": []}
+{"id": 3660, "text": "So this is what we're going to try to figure out the volume of.", "entities": []}
+{"id": 3661, "text": "If you give me a <EXPRESSION>, I can tell you the area of the sliver that corresponds to that <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 3662, "text": "Now our domain is the <EXPRESSION> plane.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 3663, "text": "Now what could I do? If I know the area of any given sliver, what if I multiply the area of that sliver times <EXPRESSION>? This is a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 110, "end_offset": 122}, {"label": "expression", "start_offset": 134, "end_offset": 146}]}
+{"id": 3664, "text": "And this would actually give us a function of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 3665, "text": "It's going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 3666, "text": "And then we have the area in between it.", "entities": []}
+{"id": 3667, "text": "And the sum, or the areas that we're summing up, are going to be the height is <EXPRESSION>, and the width is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 3668, "text": "But let's just call the base of this rectangle <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 3669, "text": "We're going to take the sums of these rectangles, from <EQUATION>, to <EQUATION>.", "entities": [{"label": "equation", "start_offset": 55, "end_offset": 65}, {"label": "equation", "start_offset": 70, "end_offset": 80}]}
+{"id": 3670, "text": "And we'll actually figure out the volume under this surface.", "entities": []}
+{"id": 3671, "text": "So let's say I had some sliver.", "entities": []}
+{"id": 3672, "text": "And then the height is going to be a function of the <EXPRESSION> I have and the <EXPRESSION> I picked.", "entities": [{"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 3673, "text": "And we have to specify bounds, right? From here, we said <EQUATION>, to <EQUATION>.", "entities": [{"label": "equation", "start_offset": 57, "end_offset": 67}, {"label": "equation", "start_offset": 72, "end_offset": 82}]}
+{"id": 3674, "text": "So we want to make them infinitely small.", "entities": []}
+{"id": 3675, "text": "So how do we figure out the volume under a surface like this? How do we figure out the volume? It seems like a bit of a stretch, given what we've learned from this.", "entities": []}
+{"id": 3676, "text": "So this is the <EXPRESSION> direction, this is the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 3677, "text": "But for some constant <EXPRESSION>, what if I could just figure out the area under the curve there? How would I figure out just the area under that curve? It'll be a function of which y I pick, right? Because if I pick a <EXPRESSION> here, it'll be a different area.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 221, "end_offset": 233}]}
+{"id": 3678, "text": "And that's just a little bit of review.", "entities": []}
+{"id": 3679, "text": "So let's say that the domain or the region not the domain the region of the <EXPRESSION> and <EXPRESSION> region of this part of the surface under which we want to calculate the volume.", "entities": [{"label": "expression", "start_offset": 76, "end_offset": 88}, {"label": "expression", "start_offset": 93, "end_offset": 105}]}
+{"id": 3680, "text": "And then it'll pop out another number, and if we wanted to graph it, it'll be our height.", "entities": []}
+{"id": 3681, "text": "So we can write a surface as, instead of <EXPRESSION> is a function of <EXPRESSION> I'm sorry.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 3682, "text": "If I multiplied this area times a small <EXPRESSION>, then all of a sudden I have a sliver of volume.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 3683, "text": "But anyway, I didn't want to confuse you.", "entities": []}
+{"id": 3684, "text": "It depends which <EXPRESSION> and <EXPRESSION> we pick down here.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 3685, "text": "I don't practice these videos ahead of time, so I'm often wondering what I'm about to draw.", "entities": []}
+{"id": 3686, "text": "<EXPRESSION> is going from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 27, "end_offset": 39}, {"label": "expression", "start_offset": 43, "end_offset": 55}]}
+{"id": 3687, "text": "And so that could be the height of a surface.", "entities": []}
+{"id": 3688, "text": "And then the height of this rectangle is going to be <EXPRESSION>, at that point.", "entities": [{"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 3689, "text": "But that's the intuition of what we're going to do.", "entities": []}
+{"id": 3690, "text": "Where you could review that's maybe <EXPRESSION> of the rectangles.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 3691, "text": "This little area that I'm shading right here gets depth of that sheet.", "entities": []}
+{"id": 3692, "text": "I could have my <EXPRESSION> let me pick a vibrant color so you can see it.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 3693, "text": "It gets some depth.", "entities": []}
+{"id": 3694, "text": "Let's see, that's my x-axis.", "entities": []}
+{"id": 3695, "text": "One there, one there.", "entities": []}
+{"id": 3696, "text": "Let's say that this is <EXPRESSION> = I don't know, that's <EQUATION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "equation", "start_offset": 59, "end_offset": 69}]}
+{"id": 3697, "text": "Well, the area of the rectangle is just base times height, right? Well, we're going to make these rectangles really skinny and just sum up an infinite number of them.", "entities": []}
+{"id": 3698, "text": "Well, it would be we said the height of each of these rectangles is <EXPRESSION>, right? That's the height.", "entities": [{"label": "expression", "start_offset": 68, "end_offset": 80}]}
+{"id": 3699, "text": "I just want to give you the intuition.", "entities": []}
+{"id": 3700, "text": "I don't know what that is.", "entities": []}
+{"id": 3701, "text": "Let me try my best to draw this neatly.", "entities": []}
+{"id": 3702, "text": "This is our surface.", "entities": []}
+{"id": 3703, "text": "And then its width is going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 3704, "text": "But I could view this now as a very similar problem to this one up here.", "entities": []}
+{"id": 3705, "text": "Let me do it in a vibrant color.", "entities": []}
+{"id": 3706, "text": "I don't know what it is.", "entities": []}
+{"id": 3707, "text": "What I do is, I split it up into a bunch of columns or a bunch of rectangles.", "entities": []}
+{"id": 3708, "text": "It's an arbitrary <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 3709, "text": "You know, let's say.", "entities": []}
+{"id": 3710, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 3711, "text": "So this is a surface.", "entities": []}
+{"id": 3712, "text": "Let's say we had a constant <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 3713, "text": "It's going to be <EXPRESSION> of if this is <EXPRESSION>, or whatever, you can just call it <EXPRESSION>, right? That's the height of that rectangle.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 92, "end_offset": 104}]}
+{"id": 3714, "text": "So that's <EXPRESSION>, that's <EXPRESSION>, and that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}, {"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 3715, "text": "It's part of it's a sheet of paper within this volume, you can kind of view it.", "entities": []}
+{"id": 3716, "text": "And that's what we're going to do in the next video.", "entities": []}
+{"id": 3717, "text": "So how do we figure out the volume under this? Well, if I just wanted to figure out the area of let's just say, this sliver.", "entities": []}
+{"id": 3718, "text": "And I'll plot it there and it'll be a point on the surface.", "entities": []}
+{"id": 3719, "text": "So this is the area I want to figure out.", "entities": []}
+{"id": 3720, "text": "Then we'll get the area, and if we have infinite number of these rectangles, and they're infinitely skinny, we have exactly the area under that curve.", "entities": []}
+{"id": 3721, "text": "I don't want to confuse you.", "entities": []}
+{"id": 3722, "text": "Hopefully that makes some sense.", "entities": []}
+{"id": 3723, "text": "We can give any <EXPRESSION> and any <EXPRESSION> and we'll just deal with the reals right now, I don't want to get too technical.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 3724, "text": "Instead of saying that <EXPRESSION> is a function of <EXPRESSION>, we can write a surface as <EQUATION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "equation", "start_offset": 93, "end_offset": 103}]}
+{"id": 3725, "text": "And let's say I have some surface.", "entities": []}
+{"id": 3726, "text": "So what we want to figure out is the volume under the surface.", "entities": []}
+{"id": 3727, "text": "Although I'm assuming, to some degree, that that's a constant <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 3728, "text": "And the height is a function of where we are in the <EXPRESSION> plane.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 3729, "text": "I'll tell you its function in a second, but it's pretty neat to look at.", "entities": []}
+{"id": 3730, "text": "So, for example, you give me a coordinate in the <EXPRESSION> plane.", "entities": [{"label": "expression", "start_offset": 49, "end_offset": 61}]}
+{"id": 3731, "text": "So what would be the area of this sheet of paper? It's kind of a constant <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 74, "end_offset": 86}]}
+{"id": 3732, "text": "Now if I added all of those sheets that now have depth, if I took the infinite sum so if I took the integral of this from my lower <EXPRESSION> bound from <EXPRESSION> to my upper <EXPRESSION> bound, <EXPRESSION>, then at least based on our intuition here maybe I will have figured out the volume under this surface.", "entities": [{"label": "expression", "start_offset": 131, "end_offset": 143}, {"label": "expression", "start_offset": 155, "end_offset": 167}, {"label": "expression", "start_offset": 180, "end_offset": 192}, {"label": "expression", "start_offset": 200, "end_offset": 212}]}
+{"id": 3733, "text": "See you soon.", "entities": []}
+{"id": 3734, "text": "Let's say that's <EXPRESSION>, right? That's a change in <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 57, "end_offset": 69}]}
+{"id": 3735, "text": "So first of all, what is a surface? Well, if we're thinking in <EXPRESSION> dimensions, a surface is going to be a function of <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "expression", "start_offset": 127, "end_offset": 139}, {"label": "expression", "start_offset": 144, "end_offset": 156}]}
+{"id": 3736, "text": "But as you can see, it's a server.", "entities": []}
+{"id": 3737, "text": "Let's see, let me rotate it to its traditional form.", "entities": []}
+{"id": 3738, "text": "Right? The domain is all of the set of valid things that you can input into a function.", "entities": []}
+{"id": 3739, "text": "What are the bounds? You can almost view what are the bounds of the domain? Well, let's say that this point let's say that this right here, that's <EXPRESSION>, <EXPRESSION> in the <EXPRESSION> plane.", "entities": [{"label": "expression", "start_offset": 147, "end_offset": 159}, {"label": "expression", "start_offset": 161, "end_offset": 173}, {"label": "expression", "start_offset": 181, "end_offset": 193}]}
+{"id": 3740, "text": "Let's say, the shadow if the sun was right above the surface, the shadow would be right there.", "entities": []}
+{"id": 3741, "text": "It's like a piece of paper that's bent.", "entities": []}
+{"id": 3742, "text": "Now if I multiply this whole thing times <EXPRESSION>, I get this volume.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 3743, "text": "And let's say that this line right here is <EQUATION>.", "entities": [{"label": "equation", "start_offset": 43, "end_offset": 53}]}
+{"id": 3744, "text": "Where let me draw one of those rectangles where you could view and there's different ways to do this, but this is just a review.", "entities": []}
+{"id": 3745, "text": "And let's say so, if we wanted to draw it in the <EXPRESSION> plane, like you can kind of view the projection of the surface of the <EXPRESSION> plane, or the shadow of the surface of the <EXPRESSION> plane.", "entities": [{"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "expression", "start_offset": 132, "end_offset": 144}, {"label": "expression", "start_offset": 188, "end_offset": 200}]}
+{"id": 3746, "text": "Fair enough.", "entities": []}
+{"id": 3747, "text": "Hope you get that, right? This is the <EXPRESSION> plane.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}

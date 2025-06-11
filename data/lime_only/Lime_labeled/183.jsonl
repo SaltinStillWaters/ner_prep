@@ -1,0 +1,597 @@
+{"id": 13117, "text": "PROFESSOR: So again, welcome back.", "entities": []}
+{"id": 13118, "text": "And today's topic is a continuation of what we did last time.", "entities": []}
+{"id": 13119, "text": "We still have a little bit of work and thinking to do concerning polar coordinates.", "entities": []}
+{"id": 13120, "text": "So we're going to talk about polar coordinates.", "entities": []}
+{"id": 13121, "text": "And my first job today is to talk a little bit about area.", "entities": []}
+{"id": 13122, "text": "That's something we didn't mention last time.", "entities": []}
+{"id": 13123, "text": "And since we're all back from Thanksgiving, we can certainly talk about it in terms of a pie.", "entities": []}
+{"id": 13124, "text": "Which is the basic idea for area in polar coordinates.", "entities": []}
+{"id": 13125, "text": "Here's our pie, and here's a slice of the pie.", "entities": []}
+{"id": 13126, "text": "The slice has a piece of arc length on it, which I'm going to call <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 62, "end_offset": 66}, {"label": "expression", "start_offset": 67, "end_offset": 79}]}
+{"id": 13127, "text": "And the area of that shaded-in slice, I'm going to call <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 51, "end_offset": 55}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 13128, "text": "And let's suppose that the radius is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 13129, "text": "Little <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 13130, "text": "So this is a pie of radius <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 13131, "text": "That's our picture.", "entities": []}
+{"id": 13132, "text": "Now, it's pretty easy to figure out what the area that slice of pie is.", "entities": []}
+{"id": 13133, "text": "The total area is, of course, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 13134, "text": "We know that.", "entities": []}
+{"id": 13135, "text": "And to get this fraction, <EXPRESSION>, all we have to do is take the percentage of the arc of the total circumference.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 13136, "text": "That's <EXPRESSION> / This is the fraction of area-- sorry, fraction of the total circumference, the total length around the rim.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 13137, "text": "And then we multiply that by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 13138, "text": "And that's giving us the total area.", "entities": []}
+{"id": 13139, "text": "And if you work that out, that's <EXPRESSION> =, the <EXPRESSION> cancel and we have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "command", "start_offset": 66, "end_offset": 72}, {"label": "expression", "start_offset": 85, "end_offset": 97}]}
+{"id": 13140, "text": "So here's the basic formula.", "entities": []}
+{"id": 13141, "text": "And now what we need to do is to talk about a variable pie here.", "entities": []}
+{"id": 13142, "text": "That would be a pie with a kind of a wavy crust.", "entities": []}
+{"id": 13143, "text": "Which is coming around like this.", "entities": []}
+{"id": 13144, "text": "So <EQUATION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}]}
+{"id": 13145, "text": "The distance from the center is varying with the place where we are, the angle where we're shooting out.", "entities": []}
+{"id": 13146, "text": "And now I want to subdivide that into little chunks here.", "entities": []}
+{"id": 13147, "text": "Now, the idea for adding up the area, the total area of this piece that's swept out, is to break it up into little slices whose areas are almost easy to calculate.", "entities": []}
+{"id": 13148, "text": "Namely, what we're going to do is to take, and I'm going to label it this way.", "entities": []}
+{"id": 13149, "text": "I'm going to take these little circular arcs, which go-- So I'm going to extend past where this goes.", "entities": []}
+{"id": 13150, "text": "And then I'm going to take each circular arc here.", "entities": []}
+{"id": 13151, "text": "So here's a circular arc.", "entities": []}
+{"id": 13152, "text": "And then here's another circular arc.", "entities": []}
+{"id": 13153, "text": "And here's another circular arc.", "entities": []}
+{"id": 13154, "text": "It's just right on the nose in that case.", "entities": []}
+{"id": 13155, "text": "Now, in these two cases, so basically the picture that I'm trying to draw for you is this.", "entities": []}
+{"id": 13156, "text": "I have some sector.", "entities": []}
+{"id": 13157, "text": "And then I have some circular arc.", "entities": []}
+{"id": 13158, "text": "And maybe it takes a little extra.", "entities": []}
+{"id": 13159, "text": "There's a little extra area, I'm making an error in the area.", "entities": []}
+{"id": 13160, "text": "This is a little extra area.", "entities": []}
+{"id": 13161, "text": "And maybe to draw it the other way.", "entities": []}
+{"id": 13162, "text": "I'm a little short on this one.", "entities": []}
+{"id": 13163, "text": "And let's say on this one I'm right on the nose.", "entities": []}
+{"id": 13164, "text": "I have the same arc as the curve of the surface.", "entities": []}
+{"id": 13165, "text": "Now this is a little bit like the step functions that we used in Riemann sums.", "entities": []}
+{"id": 13166, "text": "It's practically the same.", "entities": []}
+{"id": 13167, "text": "Eventually, this little band of stuff that we're missing by, if we take very, very narrow little slices here, is going to be negligible.", "entities": []}
+{"id": 13168, "text": "It'll get closer and closer to the curve itself.", "entities": []}
+{"id": 13169, "text": "So that area will tend to <EXPRESSION> in the limit.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 13170, "text": "So we don't have to worry about it.", "entities": []}
+{"id": 13171, "text": "And the approximate relationship is sitting here.", "entities": []}
+{"id": 13172, "text": "Where this distance now is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 13173, "text": "So this radius is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 13174, "text": "And this is this <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 13175, "text": "And so in the approximate case, what we have is that <EXPRESSION> is approximately <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "expression", "start_offset": 83, "end_offset": 95}]}
+{"id": 13176, "text": "Which is practically the same thing we had here.", "entities": []}
+{"id": 13177, "text": "Except that that <EXPRESSION> is replacing the constant there.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 13178, "text": "And it's approximately true, because <EXPRESSION> is varying.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 13179, "text": "And then in the limit, we have the exact formula for the differential.", "entities": []}
+{"id": 13180, "text": "Which is this one.", "entities": []}
+{"id": 13181, "text": "So this is the main formula for area.", "entities": []}
+{"id": 13182, "text": "And if you like, the total area then is going to be the integral from some starting place to some end place of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 111, "end_offset": 123}]}
+{"id": 13183, "text": "Now, this is only useful in the situation that we're in.", "entities": []}
+{"id": 13184, "text": "Namely-- So this is the other important formula.", "entities": []}
+{"id": 13185, "text": "And this is only useful when <EXPRESSION> is a function of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 59, "end_offset": 71}]}
+{"id": 13186, "text": "When this is the way in which the region is presented to us.", "entities": []}
+{"id": 13187, "text": "So that's the setup.", "entities": []}
+{"id": 13188, "text": "And that's our main formula.", "entities": []}
+{"id": 13189, "text": "Let's do what example.", "entities": []}
+{"id": 13190, "text": "The example that I'm going to take is the one that we did at the end of last time, or near the end of last time.", "entities": []}
+{"id": 13191, "text": "Which was this formula here.", "entities": []}
+{"id": 13192, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 13193, "text": "Remember, that was the same as <EQUATION>.", "entities": [{"label": "equation", "start_offset": 31, "end_offset": 41}]}
+{"id": 13194, "text": "So this is what we did last time.", "entities": []}
+{"id": 13195, "text": "We connected this rectangular representation to that polar representation.", "entities": []}
+{"id": 13196, "text": "And the picture is of a circle.", "entities": []}
+{"id": 13197, "text": "Where this is the point (2a, 0).", "entities": [{"label": "term", "start_offset": 24, "end_offset": 31}]}
+{"id": 13198, "text": "So let's figure out what the area is.", "entities": []}
+{"id": 13199, "text": "Well, first of all, we have to figure out when we sweep out the area, we have to realize that we only go from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 110, "end_offset": 122}, {"label": "expression", "start_offset": 126, "end_offset": 138}]}
+{"id": 13200, "text": "So that's something we can get from the picture.", "entities": []}
+{"id": 13201, "text": "You can also get it directly from this formula if you realize that <EXPRESSION> is positive in this range here.", "entities": [{"label": "expression", "start_offset": 67, "end_offset": 79}]}
+{"id": 13202, "text": "And at the ends, it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 13203, "text": "So the thing encloses a region at these ends.", "entities": []}
+{"id": 13204, "text": "So at the ends, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 16, "end_offset": 26}]}
+{"id": 13205, "text": "That's what cinches this up like a little sack, if you like.", "entities": []}
+{"id": 13206, "text": "So the area is now going to be the integral from <EXPRESSION> to <EXPRESSION>, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "expression", "start_offset": 65, "end_offset": 77}, {"label": "expression", "start_offset": 86, "end_offset": 98}]}
+{"id": 13207, "text": "Question.", "entities": []}
+{"id": 13208, "text": "STUDENT: [INAUDIBLE] PROFESSOR: How do I know from looking at the picture that I'm going from <EXPRESSION> to <EXPRESSION>, is the question.", "entities": [{"label": "expression", "start_offset": 94, "end_offset": 106}, {"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 13209, "text": "I do it with my whole body.", "entities": []}
+{"id": 13210, "text": "I say, here I am pointing down.", "entities": []}
+{"id": 13211, "text": "That's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 13212, "text": "I sweep up, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 13213, "text": "And I get all the way up to here.", "entities": []}
+{"id": 13214, "text": "that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 13215, "text": "So that's the way I do it.", "entities": []}
+{"id": 13216, "text": "That's really the way I do it, I'm being honest.", "entities": []}
+{"id": 13217, "text": "Now if you're a machine, you can't actually look.", "entities": []}
+{"id": 13218, "text": "And you don't have a body, so you can't point your arms.", "entities": []}
+{"id": 13219, "text": "Then you would have to go by the formulas.", "entities": []}
+{"id": 13220, "text": "And you'd have to actually use something like this formula here.", "entities": []}
+{"id": 13221, "text": "The fact that this is where the loop cinches up.", "entities": []}
+{"id": 13222, "text": "This is where the radius comes into <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 13223, "text": "At <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 13224, "text": "So you need to know that in order to understand the range.", "entities": []}
+{"id": 13225, "text": "Another question.", "entities": []}
+{"id": 13226, "text": "STUDENT: [INAUDIBLE] PROFESSOR: So when we're doing these, should we just guess that it's going to be a loop?", "entities": []}
+{"id": 13227, "text": "I'm probably going to give you some clues as to what's going on.", "entities": []}
+{"id": 13228, "text": "Because it's very hard to figure these things out.", "entities": []}
+{"id": 13229, "text": "Sometimes it'll be bounded by one curve and another curve, and I'll say it's the thing in between those two curves.", "entities": []}
+{"id": 13230, "text": "That's the kind of thing that I could do.", "entities": []}
+{"id": 13231, "text": "Here, you really should know this one in advance.", "entities": []}
+{"id": 13232, "text": "This is by far the most-- or this is one of the typical cases, anyway.", "entities": []}
+{"id": 13233, "text": "I'm going to give you a couple more examples.", "entities": []}
+{"id": 13234, "text": "Don't get too worked up over this.", "entities": []}
+{"id": 13235, "text": "You will somehow be able to visualize it.", "entities": [{"label": "command", "start_offset": 28, "end_offset": 37}]}
+{"id": 13236, "text": "I'll give you some examples to help you out with it later.", "entities": []}
+{"id": 13237, "text": "So here's the situation.", "entities": []}
+{"id": 13238, "text": "Here's my integral.", "entities": []}
+{"id": 13239, "text": "And now we're faced with a trig integral.", "entities": []}
+{"id": 13240, "text": "Which we have to remember how to do.", "entities": []}
+{"id": 13241, "text": "Now, the trig integral here-- so first let me factor out the constants.", "entities": []}
+{"id": 13242, "text": "This is <EXPRESSION>, so it's <EXPRESSION> integral from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 57, "end_offset": 69}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 13243, "text": "And now you have to remember what you're supposed to do at this point.", "entities": []}
+{"id": 13244, "text": "So think, if you haven't done it yet, this is practice you need to do.", "entities": []}
+{"id": 13245, "text": "This trig integral is handled by a double angle formula.", "entities": []}
+{"id": 13246, "text": "As it happens, I'm going to be giving you these formulas on the review sheet.", "entities": []}
+{"id": 13247, "text": "You'll see they're written on the review sheet.", "entities": []}
+{"id": 13248, "text": "At least in some form.", "entities": []}
+{"id": 13249, "text": "So for example, there's a formula, and this will be on the exam, too.", "entities": []}
+{"id": 13250, "text": "So this is the correct formula to use here.", "entities": []}
+{"id": 13251, "text": "Is that this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 13252, "text": "So that's the substitution that you use for the <EXPRESSION> in order to integrate it.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "command", "start_offset": 73, "end_offset": 82}]}
+{"id": 13253, "text": "That serves as a little review of trig integrals.", "entities": []}
+{"id": 13254, "text": "And now, this is quite easy.", "entities": []}
+{"id": 13255, "text": "This integral now is easy.", "entities": []}
+{"id": 13256, "text": "Why is it easy?", "entities": []}
+{"id": 13257, "text": "Well, because it's the antiderivative of a constant, <EXPRESSION>, its antiderivative you're supposed to be able to write down.", "entities": [{"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "command", "start_offset": 116, "end_offset": 121}]}
+{"id": 13258, "text": "So the antiderivative of <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 13259, "text": "And the antiderivative of the <EXPRESSION> is <EXPRESSION> the sine when it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 78, "end_offset": 90}]}
+{"id": 13260, "text": "And that is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 13261, "text": "And the signs go away because they're both <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 43, "end_offset": 55}]}
+{"id": 13262, "text": "So all told we get <EXPRESSION>, which is certainly what we would like it to be.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 13263, "text": "It's the area of the circle.", "entities": []}
+{"id": 13264, "text": "Another question?", "entities": []}
+{"id": 13265, "text": "STUDENT: [INAUDIBLE] PROFESSOR: The question, so I'm not sure which question you're asking.", "entities": []}
+{"id": 13266, "text": "I pivoted my arm around (0, 0).", "entities": [{"label": "term", "start_offset": 24, "end_offset": 30}]}
+{"id": 13267, "text": "This point, this is the point we're talking about, (0, 0), is a key point.", "entities": [{"label": "term", "start_offset": 51, "end_offset": 57}]}
+{"id": 13268, "text": "It's where I guess you could say I stuck my elbow there.", "entities": []}
+{"id": 13269, "text": "Now, the reason is that it's the place where <EQUATION>.", "entities": [{"label": "equation", "start_offset": 45, "end_offset": 55}]}
+{"id": 13270, "text": "So it's more or less the center of the universe from the point of view of this problem.", "entities": []}
+{"id": 13271, "text": "So it's the reference point and if you like, when you're doing this, it's a little bit like a radar screen.", "entities": []}
+{"id": 13272, "text": "Everything is centered at the origin and you're taking rays coming out from it.", "entities": []}
+{"id": 13273, "text": "And seeing where they're going to go.", "entities": []}
+{"id": 13274, "text": "So for example, this is the <EQUATION> ray, this is the <EQUATION> ray.", "entities": [{"label": "equation", "start_offset": 28, "end_offset": 38}, {"label": "equation", "start_offset": 56, "end_offset": 66}]}
+{"id": 13275, "text": "This the <EQUATION> ray.", "entities": [{"label": "equation", "start_offset": 9, "end_offset": 19}]}
+{"id": 13276, "text": "And indeed, if my elbow is right at this center here, I'm pointing in those various directions.", "entities": []}
+{"id": 13277, "text": "So that's what I had in mind when I did that.", "entities": []}
+{"id": 13278, "text": "You can always get these formulas, by the way, from the original business, <EQUATION>, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 75, "end_offset": 85}, {"label": "equation", "start_offset": 87, "end_offset": 97}]}
+{"id": 13279, "text": "But it's useful to have the geometric picture as well.", "entities": []}
+{"id": 13280, "text": "In other words, if you were a machine you'd have to rely on these formulas.", "entities": []}
+{"id": 13281, "text": "And plot things using these.", "entities": []}
+{"id": 13282, "text": "Always.", "entities": []}
+{"id": 13283, "text": "Now, in terms of plotting I want to expand your brain a little bit.", "entities": []}
+{"id": 13284, "text": "So we need just a little bit more practice with plotting.", "entities": []}
+{"id": 13285, "text": "In polar coordinates.", "entities": []}
+{"id": 13286, "text": "And so, the first question that I want to ask you is, what happens outside of this range of <EXPRESSION>?", "entities": []}
+{"id": 13287, "text": "In other words, what happens if <EXPRESSION> beyond <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 13288, "text": "Can somebody see what's happening to the formulas in that case?", "entities": []}
+{"id": 13289, "text": "So what I'm looking at now, let's go back to it.", "entities": []}
+{"id": 13290, "text": "What I'm looking at is this formula here.", "entities": []}
+{"id": 13291, "text": "But to use the elbow analogy here, I'm swept around like this.", "entities": []}
+{"id": 13292, "text": "But now I'm going to point this way.", "entities": []}
+{"id": 13293, "text": "I'm going to point out over there.", "entities": []}
+{"id": 13294, "text": "My hand is up here in the northwest direction.", "entities": []}
+{"id": 13295, "text": "So what's going to happen?", "entities": []}
+{"id": 13296, "text": "Somebody want to tell me?", "entities": []}
+{"id": 13297, "text": "STUDENT: [INAUDIBLE] PROFESSOR: It goes around itself.", "entities": []}
+{"id": 13298, "text": "That's right.", "entities": []}
+{"id": 13299, "text": "What happens is that when <EXPRESSION> crosses this vertical, <EQUATION>, when it crosses over here it goes negative.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "equation", "start_offset": 62, "end_offset": 72}]}
+{"id": 13300, "text": "So although my theta is pointing me this way, the thing is going to go backwards.", "entities": []}
+{"id": 13301, "text": "And there's another clue.", "entities": []}
+{"id": 13302, "text": "Which is very important.", "entities": []}
+{"id": 13303, "text": "How far backwards is it going?", "entities": []}
+{"id": 13304, "text": "Well, you don't actually need to know anything but this equation here, to understand that it has to be on the same circle.", "entities": []}
+{"id": 13305, "text": "So when I'm pointing this way, the things points backwards to this point over there.", "entities": []}
+{"id": 13306, "text": "So what happens is, it goes around once.", "entities": []}
+{"id": 13307, "text": "And then when I point out this way, it sweeps around a second time.", "entities": []}
+{"id": 13308, "text": "It just keeps on going around the same circle.", "entities": []}
+{"id": 13309, "text": "So over here it's empty.", "entities": []}
+{"id": 13310, "text": "Because it's pointing the other way and it's sweeping around the same curve.", "entities": []}
+{"id": 13311, "text": "A second time.", "entities": []}
+{"id": 13312, "text": "Now, if you were foolish enough to integrate, say, from <EXPRESSION> to <EXPRESSION> or some wider range, what would happen is you would just double the area.", "entities": [{"label": "expression", "start_offset": 56, "end_offset": 68}, {"label": "expression", "start_offset": 72, "end_offset": 84}]}
+{"id": 13313, "text": "Because you would have swept it out twice.", "entities": []}
+{"id": 13314, "text": "So that's the mistake that you'll make.", "entities": []}
+{"id": 13315, "text": "Sometimes you'll count things as negative and positive.", "entities": []}
+{"id": 13316, "text": "But because there's a square here, it's always a positive quantity.", "entities": []}
+{"id": 13317, "text": "And you'll always over-count if you go too far.", "entities": []}
+{"id": 13318, "text": "So that's what happens.", "entities": []}
+{"id": 13319, "text": "Again, it sweeps out the same region.", "entities": []}
+{"id": 13320, "text": "That's because these two equations really are equivalent to each other.", "entities": []}
+{"id": 13321, "text": "It's just that this one sweeps it out twice.", "entities": []}
+{"id": 13322, "text": "And this one doesn't say how it's sweeping it out.", "entities": []}
+{"id": 13323, "text": "Yeah, another question.", "entities": []}
+{"id": 13324, "text": "STUDENT: Doesn't this equation also work if you just go from <EXPRESSION> to <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 13325, "text": "PROFESSOR: Does the integration work if you just go from <EXPRESSION> to <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 57, "end_offset": 69}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 13326, "text": "The answer is yes.", "entities": []}
+{"id": 13327, "text": "That's a very weird object, though.", "entities": []}
+{"id": 13328, "text": "Let me just show you what that is.", "entities": []}
+{"id": 13329, "text": "If you started from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 13330, "text": "So I'll illustrate it on here.", "entities": []}
+{"id": 13331, "text": "The first thing that you swept out between <EXPRESSION> and <EXPRESSION> is this part here.", "entities": [{"label": "expression", "start_offset": 43, "end_offset": 55}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 13332, "text": "That was swept out.", "entities": []}
+{"id": 13333, "text": "And then, when you're going around this next quadrant here, you're actually sweeping out this underside here.", "entities": []}
+{"id": 13334, "text": "So actually, you're getting it because you're getting half of it on one half, and getting the other half on the other quadrant.", "entities": []}
+{"id": 13335, "text": "So it's actually giving you the right answer.", "entities": []}
+{"id": 13336, "text": "That turns out to be OK.", "entities": []}
+{"id": 13337, "text": "It's a little weird way to chop up a circle.", "entities": []}
+{"id": 13338, "text": "But it's legal.", "entities": []}
+{"id": 13339, "text": "But of course, that's an accident of this particular figure.", "entities": []}
+{"id": 13340, "text": "You can't count on that happening.", "entities": []}
+{"id": 13341, "text": "It's much better to line it up exactly with what the figure does.", "entities": []}
+{"id": 13342, "text": "So don't do that too often.", "entities": []}
+{"id": 13343, "text": "You might run into troubles.", "entities": []}
+{"id": 13344, "text": "So I'm going to give you a couple more examples of practice with these pictures.", "entities": []}
+{"id": 13345, "text": "And maybe I'm going to get rid of this one up here.", "entities": []}
+{"id": 13346, "text": "So here's another favorite.", "entities": []}
+{"id": 13347, "text": "Here's another favorite.", "entities": []}
+{"id": 13348, "text": "So this, if you like, is Example 2.", "entities": []}
+{"id": 13349, "text": "I guess we had an Example 1 up there.", "entities": []}
+{"id": 13350, "text": "And now we're really not going to try to do any more area examples.", "entities": []}
+{"id": 13351, "text": "The area examples are actually straightforward.", "entities": []}
+{"id": 13352, "text": "It's really just figuring out what the picture looks like.", "entities": []}
+{"id": 13353, "text": "So this is examples of drawings.", "entities": []}
+{"id": 13354, "text": "So this one is one that's kind of fun to do.", "entities": []}
+{"id": 13355, "text": "This is <EQUATION>.", "entities": [{"label": "equation", "start_offset": 8, "end_offset": 17}]}
+{"id": 13356, "text": "Something like this is on your homework.", "entities": []}
+{"id": 13357, "text": "And so what happens here is the following.", "entities": []}
+{"id": 13358, "text": "What happens here is that at <EQUATION>, that's the first place.", "entities": [{"label": "equation", "start_offset": 29, "end_offset": 39}]}
+{"id": 13359, "text": "So let's just plot a few places here.", "entities": []}
+{"id": 13360, "text": "I'm not going to plot very many.", "entities": []}
+{"id": 13361, "text": "<EQUATION>, I get <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}, {"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 13362, "text": "Whoops, I get <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 13363, "text": "Sorry.", "entities": []}
+{"id": 13364, "text": "And then <EXPRESSION>, that's where I get <EXPRESSION>, I get <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 42, "end_offset": 54}, {"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 13365, "text": "For this.", "entities": []}
+{"id": 13366, "text": "And then again, at <EXPRESSION> I get <EXPRESSION>, which is back at <EXPRESSION> again.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 38, "end_offset": 50}, {"label": "expression", "start_offset": 69, "end_offset": 81}]}
+{"id": 13367, "text": "So it's-- And the other thing to say is in between here it's positive.", "entities": []}
+{"id": 13368, "text": "In between.", "entities": []}
+{"id": 13369, "text": "So what it does is, it starts out at <EXPRESSION> and it goes out to the radius <EXPRESSION> over here.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 80, "end_offset": 92}]}
+{"id": 13370, "text": "And then it comes back.", "entities": []}
+{"id": 13371, "text": "So it does something like this.", "entities": []}
+{"id": 13372, "text": "It goes out, and it comes back.", "entities": []}
+{"id": 13373, "text": "Now because of the symmetries of the sine function, this is pretty much all you need to know.", "entities": []}
+{"id": 13374, "text": "It does something similar in all of the quadrants.", "entities": []}
+{"id": 13375, "text": "But in order to see what it's doing, it's useful for you to watch me draw it.", "entities": []}
+{"id": 13376, "text": "Because the order is very important for understanding what it's doing.", "entities": []}
+{"id": 13377, "text": "It's similar to this weird business with the circle here.", "entities": []}
+{"id": 13378, "text": "So watch me draw this guy.", "entities": []}
+{"id": 13379, "text": "I'll draw it in red because it usually has a name.", "entities": []}
+{"id": 13380, "text": "So here it is.", "entities": []}
+{"id": 13381, "text": "It does this thing.", "entities": []}
+{"id": 13382, "text": "And then it does this.", "entities": []}
+{"id": 13383, "text": "And then it does this.", "entities": []}
+{"id": 13384, "text": "And then it does that.", "entities": []}
+{"id": 13385, "text": "So it's called a four-leaf rose.", "entities": []}
+{"id": 13386, "text": "I drew it in pink because it's kind of a rose here.", "entities": []}
+{"id": 13387, "text": "So it started out over here.", "entities": []}
+{"id": 13388, "text": "This is Step 1.", "entities": []}
+{"id": 13389, "text": "And this is the range <EXPRESSION>; <EXPRESSION>; <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 50, "end_offset": 62}]}
+{"id": 13390, "text": "It did this part here.", "entities": []}
+{"id": 13391, "text": "And then it went <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 13392, "text": "So I should draw these in white, because they're harder to read in red.", "entities": []}
+{"id": 13393, "text": "But now look at what it did.", "entities": []}
+{"id": 13394, "text": "It did not make a right angle turn.", "entities": []}
+{"id": 13395, "text": "It was nice and smooth.", "entities": []}
+{"id": 13396, "text": "It went around here and then it went down here.", "entities": []}
+{"id": 13397, "text": "This is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 13398, "text": "Back here, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 13399, "text": "And then over here, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 13400, "text": "Back up here, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 13401, "text": "And then around here, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}]}
+{"id": 13402, "text": "And down here, that's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 13403, "text": "And then back where it started and goes around again.", "entities": []}
+{"id": 13404, "text": "And this is because actually it's switching sign when it crosses the origin.", "entities": []}
+{"id": 13405, "text": "When it was over in this quadrant the first time, it actually was tracing what's directly behind it.", "entities": []}
+{"id": 13406, "text": "So this is kind of amusing.", "entities": []}
+{"id": 13407, "text": "From this little tiny formula you get this pretty diagram here.", "entities": []}
+{"id": 13408, "text": "Anyway that's, as I say, an old favorite.", "entities": []}
+{"id": 13409, "text": "And here if you want to do the area of one leaf, you've got to make sure you understand that it's a small piece of the whole.", "entities": []}
+{"id": 13410, "text": "OK, now I have one last drawing example that I want to discuss with you.", "entities": []}
+{"id": 13411, "text": "And it involves another skill that we haven't quite gotten enough practice with.", "entities": []}
+{"id": 13412, "text": "So I'm going to do that one.", "entities": []}
+{"id": 13413, "text": "And it's also preparation for an exercise.", "entities": []}
+{"id": 13414, "text": "But one that we're going to do after the test.", "entities": []}
+{"id": 13415, "text": "So here's my last example.", "entities": []}
+{"id": 13416, "text": "We're going to discuss what happens with this function here.", "entities": []}
+{"id": 13417, "text": "Sorry, that's not legible, is it.", "entities": []}
+{"id": 13418, "text": "That's a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 13419, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 13420, "text": "Now, the first thing I want to do is just take our time a little bit and plot a few points.", "entities": []}
+{"id": 13421, "text": "So here's the values of <EXPRESSION> and here are the values of <EXPRESSION>, and we'll see what happens.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}, {"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 13422, "text": "And we'll try to figure out what it's doing.", "entities": []}
+{"id": 13423, "text": "When <EQUATION>, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 5, "end_offset": 15}, {"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 13424, "text": "So <EQUATION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}]}
+{"id": 13425, "text": "The denominator is <EXPRESSION>, so it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 13426, "text": "If theta-- I'm going to make it easy, we're not going to do so many.", "entities": []}
+{"id": 13427, "text": "I'm going to do <EXPRESSION>, that's an easy value of the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 13428, "text": "That's <EQUATION>.", "entities": [{"label": "equation", "start_offset": 7, "end_offset": 17}]}
+{"id": 13429, "text": "So that value of <EQUATION>.", "entities": [{"label": "equation", "start_offset": 17, "end_offset": 27}]}
+{"id": 13430, "text": "And now I'm going to back up and do <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}]}
+{"id": 13431, "text": "<EXPRESSION>, again, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 21, "end_offset": 33}, {"label": "expression", "start_offset": 37, "end_offset": 49}]}
+{"id": 13432, "text": "And <EQUATION>.", "entities": [{"label": "equation", "start_offset": 4, "end_offset": 14}]}
+{"id": 13433, "text": "So now I'd like to just plot those points anyway, and see what's going on with this expression here.", "entities": []}
+{"id": 13434, "text": "The first one is a rectangular-- I'm going to write the rectangular coordinates here, not the polar coordinates.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 51}]}
+{"id": 13435, "text": "The rectangular coordinates here are <EXPRESSION> out at the horizontal, so it's (1/3, 0).", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "term", "start_offset": 81, "end_offset": 89}]}
+{"id": 13436, "text": "The polar coordinates is (1/3, 0), but the rectangular coordinate is also that.", "entities": [{"label": "term", "start_offset": 25, "end_offset": 33}]}
+{"id": 13437, "text": "And over here, at <EXPRESSION>, the distance is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 13438, "text": "So this is the point (0, 1) in x-y coordinates.", "entities": [{"label": "term", "start_offset": 21, "end_offset": 27}, {"label": "term", "start_offset": 31, "end_offset": 46}]}
+{"id": 13439, "text": "And then down here at, <EXPRESSION>, it's (0, -1).", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "term", "start_offset": 42, "end_offset": 49}]}
+{"id": 13440, "text": "Let me just emphasize.", "entities": []}
+{"id": 13441, "text": "You should be able to think of this visually if you can crank your arm around and think it.", "entities": []}
+{"id": 13442, "text": "Or if you're right-handed you'll bend that way, no.", "entities": []}
+{"id": 13443, "text": "Anyway.", "entities": []}
+{"id": 13444, "text": "Or you'll have to use-- But this also works using this formulas <EQUATION>, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 64, "end_offset": 74}, {"label": "equation", "start_offset": 76, "end_offset": 86}]}
+{"id": 13445, "text": "Notice that in this case, <EXPRESSION> was <EXPRESSION> but the <EXPRESSION> was <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 43, "end_offset": 55}, {"label": "expression", "start_offset": 64, "end_offset": 76}, {"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 13446, "text": "So you plug in <EQUATION>.", "entities": [{"label": "command", "start_offset": 7, "end_offset": 14}, {"label": "equation", "start_offset": 15, "end_offset": 25}]}
+{"id": 13447, "text": "And <EQUATION>.", "entities": [{"label": "equation", "start_offset": 4, "end_offset": 14}]}
+{"id": 13448, "text": "And lo and behold, you get <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 13449, "text": "And here you get <EXPRESSION> here you get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 43, "end_offset": 55}]}
+{"id": 13450, "text": "So this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 13451, "text": "So this is an example.", "entities": []}
+{"id": 13452, "text": "I did it purely visually or sort of organically.", "entities": []}
+{"id": 13453, "text": "But you can also do it by plugging in the numbers.", "entities": []}
+{"id": 13454, "text": "Now in between, the denominator is positive.", "entities": []}
+{"id": 13455, "text": "And it's something in between.", "entities": []}
+{"id": 13456, "text": "It's going to sweep around something like this.", "entities": []}
+{"id": 13457, "text": "That's what happens in between.", "entities": []}
+{"id": 13458, "text": "As <EXPRESSION> increases from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 13459, "text": "And now something interesting happens with this particular function, which is that we notice that the denominator is <EXPRESSION> at a certain place.", "entities": [{"label": "expression", "start_offset": 117, "end_offset": 129}]}
+{"id": 13460, "text": "Namely, if I solve <EQUATION>, then the denominator is going to be <EXPRESSION> there.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 18}, {"label": "equation", "start_offset": 19, "end_offset": 29}, {"label": "expression", "start_offset": 67, "end_offset": 79}]}
+{"id": 13461, "text": "That's <EQUATION>, so <EXPRESSION> =, it turns out, plus or minus <EXPRESSION>.", "entities": [{"label": "equation", "start_offset": 7, "end_offset": 17}, {"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 66, "end_offset": 78}]}
+{"id": 13462, "text": "Those are the values here.", "entities": []}
+{"id": 13463, "text": "So when we're out here somewhere, in these directions, there's nothing.", "entities": []}
+{"id": 13464, "text": "It's going infinitely far out.", "entities": []}
+{"id": 13465, "text": "Those ways.", "entities": []}
+{"id": 13466, "text": "OK that's about as much as we'll be able to figure out of this diagram without doing some analytic work.", "entities": []}
+{"id": 13467, "text": "And that's the other little piece that I want to explain.", "entities": []}
+{"id": 13468, "text": "Namely, going backwards from polar coordinates to rectangular coordinates.", "entities": []}
+{"id": 13469, "text": "Which is one thing that we haven't done.", "entities": []}
+{"id": 13470, "text": "So let's do that.", "entities": []}
+{"id": 13471, "text": "So what is the rectangular equation?", "entities": []}
+{"id": 13472, "text": "That means the (x, y) equation for this <EQUATION>.", "entities": [{"label": "term", "start_offset": 15, "end_offset": 21}, {"label": "equation", "start_offset": 40, "end_offset": 50}]}
+{"id": 13473, "text": "And let's see what it is.", "entities": []}
+{"id": 13474, "text": "Well, first I'm going to clear the denominator here.", "entities": []}
+{"id": 13475, "text": "This is <EQUATION>.", "entities": [{"label": "equation", "start_offset": 8, "end_offset": 18}]}
+{"id": 13476, "text": "And now I'm going to rewrite it as <EQUATION>.", "entities": [{"label": "command", "start_offset": 21, "end_offset": 28}, {"label": "equation", "start_offset": 35, "end_offset": 45}]}
+{"id": 13477, "text": "And the reason for that is that in a minute I'll explain to you why.", "entities": []}
+{"id": 13478, "text": "This is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 13479, "text": "And this guy, I'm going to square now.", "entities": [{"label": "command", "start_offset": 27, "end_offset": 33}]}
+{"id": 13480, "text": "I'm going to make this <EQUATION>.", "entities": [{"label": "command", "start_offset": 13, "end_offset": 17}, {"label": "equation", "start_offset": 23, "end_offset": 33}]}
+{"id": 13481, "text": "And now, with an <EXPRESSION>, I can plug in <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "command", "start_offset": 37, "end_offset": 44}, {"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 13482, "text": "So this is a standard thing to do.", "entities": []}
+{"id": 13483, "text": "And it's basically what you're going to do any time you're faced with an equation like this.", "entities": []}
+{"id": 13484, "text": "Is try to work it out.", "entities": []}
+{"id": 13485, "text": "And, in these situations where you have <EXPRESSION>, or <EXPRESSION>, you'll always come out with some quadratic expression like this.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 57, "end_offset": 69}]}
+{"id": 13486, "text": "Now, I'm going to combine terms.", "entities": []}
+{"id": 13487, "text": "So here I have <EXPRESSION>, and put everything on the the left side.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 13488, "text": "So that's this.", "entities": []}
+{"id": 13489, "text": "And we recognize, well you're supposed to recognize, that this is what's known as a hyperbola.", "entities": []}
+{"id": 13490, "text": "If the signs are the same, it's an ellipse.", "entities": []}
+{"id": 13491, "text": "If the the signs are opposite it's a hyperbola.", "entities": []}
+{"id": 13492, "text": "And in between, if one of the coefficients on the quadratic is <EXPRESSION>, it's a parabola.", "entities": [{"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 13493, "text": "So now we see that the picture that we drew there is actually, turns out it's going to have asymptotes, it's going to be a hyperbola.", "entities": []}
+{"id": 13494, "text": "So now, let me ask you the last little mind-bending question that I want to ask.", "entities": []}
+{"id": 13495, "text": "Which is, what happens-- So now I'm using my right arm, I guess.", "entities": []}
+{"id": 13496, "text": "But my elbow's at the origin here.", "entities": []}
+{"id": 13497, "text": "What happens if I pass outside, to the range where this denominator is negative.", "entities": []}
+{"id": 13498, "text": "It crossed <EXPRESSION> and it went to negative.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}]}
+{"id": 13499, "text": "It's sweeping out something over here.", "entities": []}
+{"id": 13500, "text": "Is it sweeping out the same curve?", "entities": []}
+{"id": 13501, "text": "Anybody have any idea what it's doing?", "entities": []}
+{"id": 13502, "text": "Yeah.", "entities": []}
+{"id": 13503, "text": "STUDENT: [INAUDIBLE] PROFESSOR: Yeah, exactly.", "entities": []}
+{"id": 13504, "text": "Good answer.", "entities": []}
+{"id": 13505, "text": "It's the other branch of the hyperbola.", "entities": []}
+{"id": 13506, "text": "So what's actually happening is in disguise, there's another branch of the hyperbola which is being swept up by the other piece of this thing.", "entities": []}
+{"id": 13507, "text": "Now, that is consistent with these algebraic equations.", "entities": []}
+{"id": 13508, "text": "The algebraic equation that I got here doesn't say which branch of the hyperbola I've got.", "entities": []}
+{"id": 13509, "text": "It's actually got two branches.", "entities": []}
+{"id": 13510, "text": "And the curve really was, in disguise, capturing both of them.", "entities": []}
+{"id": 13511, "text": "I want to make the connection now with the basic formula for area here.", "entities": []}
+{"id": 13512, "text": "Because this is a really beautiful connection.", "entities": []}
+{"id": 13513, "text": "And I want to make that connection in connection also with this example.", "entities": []}
+{"id": 13514, "text": "The hyperbolas, as you probably know, are the trajectories of comets.", "entities": []}
+{"id": 13515, "text": "And ellipses, which is what you would get if maybe you put <EXPRESSION> here instead of a <EXPRESSION>, would be the trajectories of planets or asteroids.", "entities": [{"label": "expression", "start_offset": 59, "end_offset": 71}, {"label": "expression", "start_offset": 90, "end_offset": 102}]}
+{"id": 13516, "text": "But there's actually something much more important, physically that goes on.", "entities": []}
+{"id": 13517, "text": "That's special about this particular representation of the hyperbola.", "entities": []}
+{"id": 13518, "text": "And what happens when you get the ellipses as well.", "entities": []}
+{"id": 13519, "text": "Which is that in this case, <EQUATION> is the focus of the hyperbola.", "entities": [{"label": "equation", "start_offset": 28, "end_offset": 38}]}
+{"id": 13520, "text": "And what that means is that it's actually the place where the sun is.", "entities": []}
+{"id": 13521, "text": "So this is the right representation, if you want the center of gravity in the center of your picture.", "entities": []}
+{"id": 13522, "text": "And pretty much any other.", "entities": []}
+{"id": 13523, "text": "I mean, you can't tell that at all from the algebraic equations here.", "entities": []}
+{"id": 13524, "text": "So this hyperbola is going to be the trajectory of some comet going by here.", "entities": []}
+{"id": 13525, "text": "And this formula here is actually a rather central formula in astronomy.", "entities": []}
+{"id": 13526, "text": "Namely, there's something called Kepler's Law.", "entities": []}
+{"id": 13527, "text": "Which says that the rate of change of area which is swept out is constant.", "entities": []}
+{"id": 13528, "text": "The rate of change of area relative to the center of mass, relative to the sun.", "entities": []}
+{"id": 13529, "text": "So in = areas, this is amount of area.", "entities": []}
+{"id": 13530, "text": "So this tells you now that when a comet goes around the sun like this, its speed varies.", "entities": []}
+{"id": 13531, "text": "And it's speed varies according to a very specific rule.", "entities": []}
+{"id": 13532, "text": "Namely, this one here.", "entities": []}
+{"id": 13533, "text": "And this rule was observed by Kepler.", "entities": []}
+{"id": 13534, "text": "But if you have this connection here, we also have something else.", "entities": []}
+{"id": 13535, "text": "We also know that <EQUATION>.", "entities": [{"label": "equation", "start_offset": 18, "end_offset": 28}]}
+{"id": 13536, "text": "So that's this formula here, formally dividing by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 50, "end_offset": 62}]}
+{"id": 13537, "text": "That's the rate of change with respect to this time parameter, which is the honest to goodness time.", "entities": []}
+{"id": 13538, "text": "Real physical time.", "entities": []}
+{"id": 13539, "text": "And that means, this quantity here is constant.", "entities": []}
+{"id": 13540, "text": "And this is one of the key insights that physicists had, long after Kepler made his physical observations, they realized that he had managed to get the best physics experiment of all, because it's a frictionless setup.", "entities": []}
+{"id": 13541, "text": "Outer space, there's no air.", "entities": []}
+{"id": 13542, "text": "Nothing is going on.", "entities": []}
+{"id": 13543, "text": "This is what's known nowadays as conservation of angular momentum.", "entities": []}
+{"id": 13544, "text": "This is the expression for angular momentum.", "entities": []}
+{"id": 13545, "text": "And what Kepler was observing, it turns out, is what we see all the time in real life.", "entities": []}
+{"id": 13546, "text": "Which is when you start something spinning around it continues to spin at roughly the same rate.", "entities": []}
+{"id": 13547, "text": "Or, if you're an ice skater and you get yourself scrunched together a little bit more, you can spin faster.", "entities": []}
+{"id": 13548, "text": "And there's an exact quantitative rule that does that.", "entities": []}
+{"id": 13549, "text": "And it's exactly this polar formula here.", "entities": []}
+{"id": 13550, "text": "So that's a neat thing.", "entities": []}
+{"id": 13551, "text": "And we will do a little exercise on this rate of change after the exam.", "entities": []}
+{"id": 13552, "text": "So that's it for generalities and a little pep talk on what's coming up to you when you learn a little more physics.", "entities": []}
+{"id": 13553, "text": "Right now we need to talk about the exam.", "entities": []}
+{"id": 13554, "text": "So first of all, let me tell you what the topics are.", "entities": []}
+{"id": 13555, "text": "They're the same as last year's test.", "entities": []}
+{"id": 13556, "text": "Which you can take a look at.", "entities": []}
+{"id": 13557, "text": "And let's see.", "entities": []}
+{"id": 13558, "text": "So what did we do?", "entities": []}
+{"id": 13559, "text": "One of the main topics of this unit were techniques of integration.", "entities": []}
+{"id": 13560, "text": "And there are three, which we will test.", "entities": []}
+{"id": 13561, "text": "One is trig substitution.", "entities": []}
+{"id": 13562, "text": "One is integration by parts.", "entities": []}
+{"id": 13563, "text": "And one is partial fractions.", "entities": []}
+{"id": 13564, "text": "So that's more than half of the exam, right there.", "entities": []}
+{"id": 13565, "text": "The other half of the exam is parametric curves.", "entities": []}
+{"id": 13566, "text": "Arc length.", "entities": []}
+{"id": 13567, "text": "These are all interrelated.", "entities": []}
+{"id": 13568, "text": "And area of surfaces of revolution.", "entities": []}
+{"id": 13569, "text": "Those are the only kind that we can handle.", "entities": []}
+{"id": 13570, "text": "Just as we did with volume of surfaces of revolution.", "entities": []}
+{"id": 13571, "text": "And then there's a final topic, which is polar coordinates.", "entities": []}
+{"id": 13572, "text": "And area in polar coordinates, including area.", "entities": []}
+{"id": 13573, "text": "That's it.", "entities": []}
+{"id": 13574, "text": "That's what's on the test, there are six problems.", "entities": []}
+{"id": 13575, "text": "They're very similar.", "entities": []}
+{"id": 13576, "text": "Well, they're not actually that similar.", "entities": []}
+{"id": 13577, "text": "But they're somewhat similar to last year's.", "entities": []}
+{"id": 13578, "text": "I'd say the test is similar.", "entities": []}
+{"id": 13579, "text": "Maybe a tiny bit more difficult.", "entities": []}
+{"id": 13580, "text": "We'll see.", "entities": []}
+{"id": 13581, "text": "We'll see.", "entities": []}
+{"id": 13582, "text": "Yeah.", "entities": []}
+{"id": 13583, "text": "STUDENT: [INAUDIBLE] PROFESSOR: The question was, we didn't do arc length in polar coordinates, did we?", "entities": []}
+{"id": 13584, "text": "And the answer is no, we did not.", "entities": []}
+{"id": 13585, "text": "We did not do arc length in polar coordinates.", "entities": []}
+{"id": 13586, "text": "When I give you an exercise, I'm going to ask you about, if you know the speed of a comet here, what's the speed of the comet there.", "entities": []}
+{"id": 13587, "text": "And we'll have to know about arc length for that.", "entities": []}
+{"id": 13588, "text": "But we're not doing it on this exam.", "entities": []}
+{"id": 13589, "text": "Other questions.", "entities": []}
+{"id": 13590, "text": "STUDENT: [INAUDIBLE] PROFESSOR: The question is, will I expect you to know <EXPRESSION> =--- so let's see if I can formulate this question.", "entities": [{"label": "expression", "start_offset": 75, "end_offset": 87}]}
+{"id": 13591, "text": "It's related to this four-leaf rose here.", "entities": []}
+{"id": 13592, "text": "So the question is, suppose I gave you something that looked like this.", "entities": []}
+{"id": 13593, "text": "Would I expect you to be able to know what it is.", "entities": []}
+{"id": 13594, "text": "I think the answer, the fair answer to give you, is if it's this complicated, I only have two possibilities.", "entities": []}
+{"id": 13595, "text": "I can give you a long time to sketch this out.", "entities": []}
+{"id": 13596, "text": "And think about what it does.", "entities": []}
+{"id": 13597, "text": "Or I can tell you that it happens to be a three-leaf rose.", "entities": []}
+{"id": 13598, "text": "And then you have some clue as to what it's doing.", "entities": []}
+{"id": 13599, "text": "It doesn't have six.", "entities": []}
+{"id": 13600, "text": "Because of some weird thing, having to do with repetitions.", "entities": []}
+{"id": 13601, "text": "But the odds and evens work differently.", "entities": []}
+{"id": 13602, "text": "So, in fact I would have to tell you what the picture looks like, if it's going to be this complicated.", "entities": []}
+{"id": 13603, "text": "Similarly, so this is an important point to make, when we come to techniques of integration, any integral that you have, I'm not going to tell you which of these three techniques to use on the ones which are straightforward integrals.", "entities": []}
+{"id": 13604, "text": "But if it's an integral that I think you're going to get stuck on, either I'm going to give you a hint, tell you how to do it.", "entities": []}
+{"id": 13605, "text": "Or I'm going to tell you, don't do it.", "entities": []}
+{"id": 13606, "text": "If I tell you don't do it, don't try to do it.", "entities": []}
+{"id": 13607, "text": "It may be impossible.", "entities": []}
+{"id": 13608, "text": "And even if it's possible, it's going to be very long.", "entities": []}
+{"id": 13609, "text": "Like an hour.", "entities": []}
+{"id": 13610, "text": "So don't do it unless I tell you to.", "entities": []}
+{"id": 13611, "text": "On the other hand, all of these setups in this second half of this unit, they involve somehow setting something up.", "entities": []}
+{"id": 13612, "text": "And they're basically three issues.", "entities": []}
+{"id": 13613, "text": "One is what the integrand is.", "entities": []}
+{"id": 13614, "text": "One is what the lower limit is, what is the upper limit.", "entities": []}
+{"id": 13615, "text": "They're just three things, three inputs, to setting up an integral.", "entities": []}
+{"id": 13616, "text": "All integrals, this is going to be the setup for all of them.", "entities": []}
+{"id": 13617, "text": "And then the second step is evaluating.", "entities": []}
+{"id": 13618, "text": "Which really is what we did in the first half here.", "entities": []}
+{"id": 13619, "text": "And, unfortunately, we don't have infinitely many techniques and indeed there's some integrals that can't be evaluated and some that are too long.", "entities": []}
+{"id": 13620, "text": "So we'll just try to avoid those.", "entities": []}
+{"id": 13621, "text": "I'm not trying to give you ones which are hopelessly long.", "entities": []}
+{"id": 13622, "text": "Alright, other questions.", "entities": []}
+{"id": 13623, "text": "Yes.", "entities": []}
+{"id": 13624, "text": "STUDENT: [INAUDIBLE] PROFESSOR: The question is, will the percentages be the same.", "entities": []}
+{"id": 13625, "text": "And the answer is, no.", "entities": []}
+{"id": 13626, "text": "I'll tell you exactly.", "entities": []}
+{"id": 13627, "text": "This is <EXPRESSION> points.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 13628, "text": "Unless I change the point values.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 15}, {"label": "command_attribute", "start_offset": 26, "end_offset": 32}]}
+{"id": 13629, "text": "This is <EXPRESSION>, and this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 13630, "text": "That's what it came out to be.", "entities": []}
+{"id": 13631, "text": "You are going to want to know about all of the things that I've written down here.", "entities": []}
+{"id": 13632, "text": "You're definitely going to want to know, for example, surfaces of revolution.", "entities": []}
+{"id": 13633, "text": "How to set those up.", "entities": []}
+{"id": 13634, "text": "Yes.", "entities": []}
+{"id": 13635, "text": "there was another question I saw.", "entities": []}
+{"id": 13636, "text": "Yes.", "entities": []}
+{"id": 13637, "text": "STUDENT: [INAUDIBLE] PROFESSOR: So if you have a partial fraction with something like <EXPRESSION> and maybe an <EXPRESSION> and maybe an <EXPRESSION>, and you're interested in what happens with this denominator here?", "entities": [{"label": "expression", "start_offset": 86, "end_offset": 98}, {"label": "expression", "start_offset": 112, "end_offset": 124}, {"label": "expression", "start_offset": 138, "end_offset": 150}]}
+{"id": 13638, "text": "So what's going to happen is, you're going to need a coefficient for each degree of this.", "entities": []}
+{"id": 13639, "text": "So altogether, the setup is going to be this.", "entities": []}
+{"id": 13640, "text": "<EXPRESSION> for <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 13641, "text": "And <EXPRESSION> for <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 13642, "text": "This is the setup.", "entities": []}
+{"id": 13643, "text": "So you need-- STUDENT: [INAUDIBLE] PROFESSOR: So if I change this to being a <EXPRESSION> here, then I need, I guess I'll have to call it <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 77, "end_offset": 89}, {"label": "command", "start_offset": 130, "end_offset": 134}, {"label": "expression", "start_offset": 138, "end_offset": 150}, {"label": "expression", "start_offset": 152, "end_offset": 164}]}
+{"id": 13644, "text": "I need that.", "entities": []}
+{"id": 13645, "text": "Now, it gets harder and harder.", "entities": []}
+{"id": 13646, "text": "The more repeated roots there are, the more repeated factors there are, the harder it is.", "entities": []}
+{"id": 13647, "text": "Because the ones you can pick off by the cover-up method are, is just the top one here.", "entities": []}
+{"id": 13648, "text": "And these two.", "entities": []}
+{"id": 13649, "text": "So <EXPRESSION>, <EXPRESSION>, and <EXPRESSION> you can get.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 13650, "text": "But <EXPRESSION> and <EXPRESSION> you're going to have to do by either plugging in or some other, more elaborate, algebra.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 13651, "text": "So the more of these lower terms there are, the worse off you are.", "entities": []}
+{"id": 13652, "text": "STUDENT: [INAUDIBLE] PROFESSOR: The question is, does this <EXPRESSION> affect this setup.", "entities": [{"label": "expression", "start_offset": 59, "end_offset": 71}]}
+{"id": 13653, "text": "And the answer is almost no.", "entities": []}
+{"id": 13654, "text": "That is, not at all.", "entities": []}
+{"id": 13655, "text": "It's the same setup exactly.", "entities": []}
+{"id": 13656, "text": "But, there's one thing.", "entities": []}
+{"id": 13657, "text": "If the degree gets too big, then you've got to use long division first to knock it down.", "entities": [{"label": "command", "start_offset": 47, "end_offset": 50}, {"label": "method", "start_offset": 51, "end_offset": 64}]}
+{"id": 13658, "text": "I'll give you an example of this type of practice.", "entities": []}
+{"id": 13659, "text": "Unless there are more question.", "entities": []}
+{"id": 13660, "text": "Yes.", "entities": []}
+{"id": 13661, "text": "STUDENT: [INAUDIBLE] PROFESSOR: Are you going to have to know how to do reduction formulas?", "entities": []}
+{"id": 13662, "text": "Anything that's a little out of the ordinary like a reduction formula, I will have to coach you to do.", "entities": []}
+{"id": 13663, "text": "So, in other words, what you'll have to be able to do in that situation is follow directions.", "entities": []}
+{"id": 13664, "text": "If I tell you OK, you're faced with this, then do an integration by parts.", "entities": [{"label": "command", "start_offset": 47, "end_offset": 49}, {"label": "method", "start_offset": 53, "end_offset": 73}]}
+{"id": 13665, "text": "And do that, then get the reduction formula.", "entities": [{"label": "command", "start_offset": 18, "end_offset": 21}, {"label": "command_attribute", "start_offset": 26, "end_offset": 43}]}
+{"id": 13666, "text": "STUDENT: [INAUDIBLE] PROFESSOR: Yeah.", "entities": []}
+{"id": 13667, "text": "OK, so the question had do with the partial fractions method.", "entities": []}
+{"id": 13668, "text": "And what happens if you have a quadratic.", "entities": []}
+{"id": 13669, "text": "So, for instance, if it were this, this one's too disgusting.", "entities": []}
+{"id": 13670, "text": "I'm going to just do it with two of them.", "entities": []}
+{"id": 13671, "text": "So the parts with <EXPRESSION> and <EXPRESSION> are the same.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 35, "end_offset": 47}]}
+{"id": 13672, "text": "But now you have linear factors here.", "entities": []}
+{"id": 13673, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 13674, "text": "And <EXPRESSION>-- maybe I'll call them <EXPRESSION>, and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 4, "end_offset": 16}, {"label": "command", "start_offset": 30, "end_offset": 34}, {"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 13675, "text": "This is the way it works.", "entities": []}
+{"id": 13676, "text": "OK, I'm going to give you one more quick example of an integration technique just to liven things up.", "entities": []}
+{"id": 13677, "text": "Let's see.", "entities": []}
+{"id": 13678, "text": "So here's a somewhat tricky example.", "entities": []}
+{"id": 13679, "text": "This is just a little trickier than I would give you on a test.", "entities": []}
+{"id": 13680, "text": "But it's the same principle, and I may do this on a final exam.", "entities": []}
+{"id": 13681, "text": "So suppose you're faced with this integral.", "entities": []}
+{"id": 13682, "text": "What are you going to do?", "entities": []}
+{"id": 13683, "text": "Integration by parts, great.", "entities": []}
+{"id": 13684, "text": "That's right, that's because this guy is begging to be differentiated, to be made simpler.", "entities": []}
+{"id": 13685, "text": "So that means that I want this one to be <EXPRESSION>, and I want this one to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 13686, "text": "And I want to use integration by parts.", "entities": [{"label": "command", "start_offset": 14, "end_offset": 17}, {"label": "method", "start_offset": 18, "end_offset": 38}]}
+{"id": 13687, "text": "And then <EQUATION>, and <EQUATION>.", "entities": [{"label": "equation", "start_offset": 9, "end_offset": 19}, {"label": "equation", "start_offset": 25, "end_offset": 35}]}
+{"id": 13688, "text": "So the answer is now, <EXPRESSION> minus the integral of this guy.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "command", "start_offset": 35, "end_offset": 40}, {"label": "command_attribute", "start_offset": 45, "end_offset": 53}]}
+{"id": 13689, "text": "Which is going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 13690, "text": "And then I have <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 13691, "text": "Now, you are not done at this point.", "entities": []}
+{"id": 13692, "text": "You're still in slightly hot water.", "entities": []}
+{"id": 13693, "text": "You're in tepid water, anyway.", "entities": []}
+{"id": 13694, "text": "So what is it that you have to do here?", "entities": []}
+{"id": 13695, "text": "You're faced with this integral, which I'll put on the next board.", "entities": []}
+{"id": 13696, "text": "It's a lot simpler than the other one, but as I say you're not quite out of the woods.", "entities": []}
+{"id": 13697, "text": "You're faced with the integral of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 13698, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 13699, "text": "STUDENT: [INAUDIBLE] PROFESSOR: Trig substitution actually, interestingly, will work.", "entities": []}
+{"id": 13700, "text": "But that wasn't what I wanted you to do.", "entities": []}
+{"id": 13701, "text": "I wanted you to, yeah, go ahead.", "entities": []}
+{"id": 13702, "text": "STUDENT: [INAUDIBLE] PROFESSOR: Add and subtract <EXPRESSION> to the numerator.", "entities": [{"label": "command", "start_offset": 32, "end_offset": 35}, {"label": "command", "start_offset": 40, "end_offset": 48}, {"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "command_attribute", "start_offset": 69, "end_offset": 78}]}
+{"id": 13703, "text": "So now, that's the correct answer.", "entities": []}
+{"id": 13704, "text": "This is the case where the numerator and the denominator are tied.", "entities": []}
+{"id": 13705, "text": "And so you have to use long division.", "entities": [{"label": "command", "start_offset": 19, "end_offset": 22}, {"label": "method", "start_offset": 23, "end_offset": 36}]}
+{"id": 13706, "text": "But a shortcut is just to observe that the result of long division is the same thing as doing this.", "entities": []}
+{"id": 13707, "text": "And then noticing that this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 13708, "text": "So this is the same as long division, in this case.", "entities": []}
+{"id": 13709, "text": "Because when you divide in, it goes in with a quotient of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 17, "end_offset": 23}, {"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 13710, "text": "And so this guy turns out to be <EXPRESSION> the integral of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 61, "end_offset": 73}]}
+{"id": 13711, "text": "Which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 13712, "text": "So this is one extra step that you may be faced with someday in your life.", "entities": []}
+{"id": 13713, "text": "And just keep that in mind.", "entities": []}

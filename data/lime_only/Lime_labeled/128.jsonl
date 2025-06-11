@@ -1,0 +1,395 @@
+{"id": 9726, "text": "So far we have learned about partial derivatives and how to use them to find minima and maxima of functions of two variables or several variables.", "entities": []}
+{"id": 9727, "text": "And now we are going to try to study, in more detail, how functions of several variables behave, how to compete their variations.", "entities": []}
+{"id": 9728, "text": "How to estimate the variation in arbitrary directions.", "entities": []}
+{"id": 9729, "text": "And so for that we are going to need some more tools actually to study this things.", "entities": []}
+{"id": 9730, "text": "More tools to study functions.", "entities": []}
+{"id": 9731, "text": "Today's topic is going to be differentials.", "entities": []}
+{"id": 9732, "text": "And, just to motivate that, let me remind you about one trick that you probably know from single variable calculus, namely implicit differentiation.", "entities": []}
+{"id": 9733, "text": "Let's say that you have a function <EQUATION> then you would sometimes write <EQUATION>.", "entities": [{"label": "equation", "start_offset": 35, "end_offset": 45}, {"label": "command", "start_offset": 71, "end_offset": 76}, {"label": "equation", "start_offset": 77, "end_offset": 87}]}
+{"id": 9734, "text": "And then maybe you would -- We use implicit differentiation to actually relate infinitesimal changes in y with infinitesimal changes in <EXPRESSION>.", "entities": [{"label": "term", "start_offset": 104, "end_offset": 105}, {"label": "expression", "start_offset": 136, "end_offset": 148}]}
+{"id": 9735, "text": "And one thing we can do with that, for example, is actually figure out the rate of change <EXPRESSION> by , but also the reciprocal <EXPRESSION> by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 90, "end_offset": 102}, {"label": "expression", "start_offset": 132, "end_offset": 144}, {"label": "expression", "start_offset": 148, "end_offset": 160}]}
+{"id": 9736, "text": "And so, for example, let's say that we have <EQUATION>.", "entities": [{"label": "equation", "start_offset": 44, "end_offset": 54}]}
+{"id": 9737, "text": "Then we can write <EQUATION>.", "entities": [{"label": "command", "start_offset": 12, "end_offset": 17}, {"label": "equation", "start_offset": 18, "end_offset": 28}]}
+{"id": 9738, "text": "And, from there, we can actually find out what is the derivative of this function if we didn't know the answer already by writing <EQUATION>.", "entities": [{"label": "equation", "start_offset": 130, "end_offset": 140}]}
+{"id": 9739, "text": "That tells us that <EXPRESSION> is going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 9740, "text": "And now <EXPRESSION> for relation to <EXPRESSION> is basically <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 9741, "text": "And that is how you find the formula for the derivative of the inverse sine function.", "entities": []}
+{"id": 9742, "text": "A formula that you probably already knew, but that is one way to derive it.", "entities": []}
+{"id": 9743, "text": "Now we are going to use also these kinds of notations, <EXPRESSION>, <EXPRESSION> and so on, but use them for functions of several variables.", "entities": [{"label": "expression", "start_offset": 55, "end_offset": 67}, {"label": "expression", "start_offset": 69, "end_offset": 81}]}
+{"id": 9744, "text": "And, of course, we will have to learn what the rules of manipulation are and what we can do with them.", "entities": []}
+{"id": 9745, "text": "The actual name of that is the total differential, as opposed to the partial derivatives.", "entities": []}
+{"id": 9746, "text": "The total differential includes all of the various causes that can change -- Sorry.", "entities": []}
+{"id": 9747, "text": "All the contributions that can cause the value of your function <EXPRESSION> to change.", "entities": [{"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 9748, "text": "Namely, let's say that you have a function maybe of three variables, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, then you would write <EQUATION>.", "entities": [{"label": "expression", "start_offset": 69, "end_offset": 81}, {"label": "expression", "start_offset": 83, "end_offset": 95}, {"label": "expression", "start_offset": 97, "end_offset": 109}, {"label": "command", "start_offset": 126, "end_offset": 131}, {"label": "equation", "start_offset": 132, "end_offset": 142}]}
+{"id": 9749, "text": "Maybe, just to remind you of the other notation, partial <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 57, "end_offset": 69}]}
+{"id": 9750, "text": "Now, what is this object?", "entities": []}
+{"id": 9751, "text": "What are the things on either side of this equality?", "entities": []}
+{"id": 9752, "text": "Well, they are called differentials.", "entities": []}
+{"id": 9753, "text": "And they are not numbers, they are not vectors, they are not matrices, they are a different kind of object.", "entities": []}
+{"id": 9754, "text": "These things have their own rules of manipulations, and we have to learn what we can do with them.", "entities": []}
+{"id": 9755, "text": "So how do we think about them?", "entities": []}
+{"id": 9756, "text": "First of all, how do we not think about them?", "entities": []}
+{"id": 9757, "text": "Here is an important thing to know.", "entities": []}
+{"id": 9758, "text": "Important.", "entities": []}
+{"id": 9759, "text": "<EXPRESSION> is not the same thing as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 9760, "text": "That is meant to be a number.", "entities": []}
+{"id": 9761, "text": "It is going to be a number once you have a small variation of <EXPRESSION>, a small variation of <EXPRESSION>, a small variation of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "expression", "start_offset": 97, "end_offset": 109}, {"label": "expression", "start_offset": 132, "end_offset": 144}]}
+{"id": 9762, "text": "These are numbers.", "entities": []}
+{"id": 9763, "text": "<EXPRESSION>, <EXPRESSION> and <EXPRESSION> are actual numbers, and this becomes a number.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 9764, "text": "This guy actually is not a number.", "entities": []}
+{"id": 9765, "text": "You cannot give it a particular value.", "entities": []}
+{"id": 9766, "text": "All you can do with a differential is express it in terms of other differentials.", "entities": []}
+{"id": 9767, "text": "In fact, this <EXPRESSION>, <EXPRESSION> and <EXPRESSION>, well, they are mostly symbols out there.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 9768, "text": "But if you want to think about them, they are the differentials of <EXPRESSION>, <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 67, "end_offset": 80}, {"label": "expression", "start_offset": 81, "end_offset": 93}, {"label": "expression", "start_offset": 98, "end_offset": 110}]}
+{"id": 9769, "text": "In fact, you can think of these differentials as placeholders where you will put other things.", "entities": []}
+{"id": 9770, "text": "Of course, they represent, you know, there is this idea of changes in <EXPRESSION>, <EXPRESSION>, <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 70, "end_offset": 82}, {"label": "expression", "start_offset": 84, "end_offset": 96}, {"label": "expression", "start_offset": 98, "end_offset": 110}, {"label": "expression", "start_offset": 115, "end_offset": 127}]}
+{"id": 9771, "text": "One way that one could explain it, and I don't really like it, is to say they represent infinitesimal changes.", "entities": []}
+{"id": 9772, "text": "Another way to say it, and I think that is probably closer to the truth, is that these things are somehow placeholders to put values and get a tangent approximation.", "entities": []}
+{"id": 9773, "text": "For example, if I do replace these symbols by <EXPRESSION>, <EXPRESSION> and <EXPRESSION> numbers then I will actually get a numerical quantity.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 60, "end_offset": 72}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 9774, "text": "And that will be an approximation formula for <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 9775, "text": "It will be the linear approximation, a tangent plane approximation.", "entities": []}
+{"id": 9776, "text": "What we can do -- Well, let me start first with maybe something even before that.", "entities": []}
+{"id": 9777, "text": "The first thing that it does is it can encode how changes in <EXPRESSION>, <EXPRESSION>, <EXPRESSION> affect the value of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}, {"label": "expression", "start_offset": 75, "end_offset": 87}, {"label": "expression", "start_offset": 89, "end_offset": 101}, {"label": "expression", "start_offset": 122, "end_offset": 134}]}
+{"id": 9778, "text": "I would say that is the most general answer to what is this formula, what are these differentials.", "entities": []}
+{"id": 9779, "text": "It is a relation between <EXPRESSION>, <EXPRESSION>, <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 9780, "text": "And this is a placeholder for small variations, <EXPRESSION>, <EXPRESSION> and <EXPRESSION> to get an approximation formula.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "expression", "start_offset": 79, "end_offset": 91}]}
+{"id": 9781, "text": "Which is <EXPRESSION> is approximately = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 9782, "text": "It is getting cramped, but I am sure you know what is going on here.", "entities": []}
+{"id": 9783, "text": "And observe how this one is actually = while that one is approximately =.", "entities": []}
+{"id": 9784, "text": "So they are really not the same.", "entities": []}
+{"id": 9785, "text": "Another thing that the notation suggests we can do, and they claim we can do, is divide everything by some variable that everybody depends on.", "entities": []}
+{"id": 9786, "text": "Say, for example, that <EXPRESSION>, <EXPRESSION> and <EXPRESSION> actually depend on some parameter <EXPRESSION> then they will vary, at a certain rate, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "expression", "start_offset": 101, "end_offset": 113}, {"label": "expression", "start_offset": 154, "end_offset": 166}, {"label": "expression", "start_offset": 168, "end_offset": 180}, {"label": "expression", "start_offset": 182, "end_offset": 194}]}
+{"id": 9787, "text": "And what the differential will tell us then is the rate of change of <EXPRESSION> as a function of <EXPRESSION>, when you plug in these values of <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, you will get <EXPRESSION> by dividing everything by <EXPRESSION> in here.", "entities": [{"label": "expression", "start_offset": 69, "end_offset": 81}, {"label": "expression", "start_offset": 99, "end_offset": 111}, {"label": "expression", "start_offset": 146, "end_offset": 158}, {"label": "expression", "start_offset": 160, "end_offset": 172}, {"label": "expression", "start_offset": 174, "end_offset": 186}, {"label": "expression", "start_offset": 201, "end_offset": 213}, {"label": "expression", "start_offset": 240, "end_offset": 252}]}
+{"id": 9788, "text": "The first thing we can do is divide by something like dt to get infinitesimal rate of change.", "entities": []}
+{"id": 9789, "text": "Well, let me just say rate of change.", "entities": []}
+{"id": 9790, "text": "<EQUATION>.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 9791, "text": "And that corresponds to the situation where <EXPRESSION> is a function of <EXPRESSION>, <EXPRESSION> is a function of <EXPRESSION> and <EXPRESSION> is a function of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 74, "end_offset": 86}, {"label": "expression", "start_offset": 88, "end_offset": 100}, {"label": "expression", "start_offset": 118, "end_offset": 130}, {"label": "expression", "start_offset": 135, "end_offset": 147}, {"label": "expression", "start_offset": 165, "end_offset": 177}]}
+{"id": 9792, "text": "That means you can plug in these values into <EXPRESSION> to get, well, the value of <EXPRESSION> will depend on <EXPRESSION>, and then you can find the rate of change with <EXPRESSION> of a value of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 19, "end_offset": 26}, {"label": "expression", "start_offset": 45, "end_offset": 57}, {"label": "expression", "start_offset": 85, "end_offset": 97}, {"label": "expression", "start_offset": 113, "end_offset": 125}, {"label": "command", "start_offset": 144, "end_offset": 148}, {"label": "command_attribute", "start_offset": 153, "end_offset": 167}, {"label": "expression", "start_offset": 173, "end_offset": 185}, {"label": "expression", "start_offset": 200, "end_offset": 212}]}
+{"id": 9793, "text": "These are the basic rules.", "entities": []}
+{"id": 9794, "text": "And this is known as the chain rule.", "entities": [{"label": "command_attribute", "start_offset": 25, "end_offset": 35}]}
+{"id": 9795, "text": "It is one instance of a chain rule, which tells you when you have a function that depends on something, and that something in turn depends on something else, how to find the rate of change of a function on the new variable in terms of the derivatives of a function and also the dependence between the various variables.", "entities": [{"label": "method", "start_offset": 24, "end_offset": 34}]}
+{"id": 9796, "text": "Any questions so far?", "entities": []}
+{"id": 9797, "text": "No.", "entities": []}
+{"id": 9798, "text": "OK.", "entities": []}
+{"id": 9799, "text": "A word of warming, in particular, about what I said up here.", "entities": []}
+{"id": 9800, "text": "It is kind of unfortunate, but the textbook actually has a serious mistake on that.", "entities": []}
+{"id": 9801, "text": "I mean they do have a couple of formulas where they mix a d with a delta, and I warn you not to do that, please.", "entities": [{"label": "term", "start_offset": 58, "end_offset": 59}, {"label": "term", "start_offset": 67, "end_offset": 72}]}
+{"id": 9802, "text": "I mean there are d's and there are delta's, and basically they don't live in the same world.", "entities": []}
+{"id": 9803, "text": "They don't see each other.", "entities": []}
+{"id": 9804, "text": "The textbook is lying to you.", "entities": []}
+{"id": 9805, "text": "Let's see.", "entities": []}
+{"id": 9806, "text": "The first and the second claims, I don't really need to justify because the first one is just stating some general principle, but I am not making a precise mathematical claim.", "entities": []}
+{"id": 9807, "text": "The second one, well, we know the approximation formula already, so I don't need to justify it for you.", "entities": []}
+{"id": 9808, "text": "But, on the other hand, this formula here, I mean, you probably have a right to expect some reason for why this works.", "entities": []}
+{"id": 9809, "text": "Why is this valid?", "entities": []}
+{"id": 9810, "text": "After all, I first told you we have these new mysterious objects.", "entities": []}
+{"id": 9811, "text": "And then I am telling you we can do that, but I kind of pulled it out of my hat.", "entities": []}
+{"id": 9812, "text": "I mean I don't have a hat.", "entities": []}
+{"id": 9813, "text": "Why is this valid?", "entities": []}
+{"id": 9814, "text": "How can I get to this?", "entities": []}
+{"id": 9815, "text": "Here is a first attempt of justifying how to get there.", "entities": []}
+{"id": 9816, "text": "Let's see.", "entities": []}
+{"id": 9817, "text": "Well, we said <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 9818, "text": "But we know if <EXPRESSION> is a function of <EXPRESSION> then <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>, <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 45, "end_offset": 57}, {"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "expression", "start_offset": 79, "end_offset": 91}, {"label": "expression", "start_offset": 93, "end_offset": 105}, {"label": "expression", "start_offset": 109, "end_offset": 121}, {"label": "expression", "start_offset": 123, "end_offset": 135}, {"label": "expression", "start_offset": 139, "end_offset": 151}]}
+{"id": 9819, "text": "If we plug these into that formula, we will get that <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "expression", "start_offset": 69, "end_offset": 81}]}
+{"id": 9820, "text": "And now I have a relation between <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 51, "end_offset": 63}]}
+{"id": 9821, "text": "See, I got <EXPRESSION> = sometimes times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 9822, "text": "That means the rate of change of <EXPRESSION> with respect to <EXPRESSION> should be that coefficient.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 9823, "text": "If I divide by <EXPRESSION> then I get the chain rule.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 14}, {"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "method", "start_offset": 43, "end_offset": 53}]}
+{"id": 9824, "text": "That kind of works, but that shouldn't be completely satisfactory.", "entities": []}
+{"id": 9825, "text": "Let's say that you are a true skeptic and you don't believe in differentials yet then it is maybe not very good that I actually used more of these differential notations in deriving the answer.", "entities": []}
+{"id": 9826, "text": "That is actually not how it is proved.", "entities": []}
+{"id": 9827, "text": "The way in which you prove the chain rule is not this way because we shouldn't have too much trust in differentials just yet.", "entities": [{"label": "method", "start_offset": 31, "end_offset": 41}]}
+{"id": 9828, "text": "I mean at the end of today's lecture, yes, probably we should believe in them, but so far we should be a little bit reluctant to believe these kind of strange objects telling us weird things.", "entities": []}
+{"id": 9829, "text": "Here is a better way to think about it.", "entities": []}
+{"id": 9830, "text": "One thing that we have trust in so far are approximation formulas.", "entities": []}
+{"id": 9831, "text": "We should have trust in them.", "entities": []}
+{"id": 9832, "text": "We should believe that if we change <EXPRESSION> a little bit, if we change <EXPRESSION> a little bit then we are actually going to get a change in <EXPRESSION> that is approximately given by these guys.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 76, "end_offset": 88}, {"label": "expression", "start_offset": 148, "end_offset": 160}]}
+{"id": 9833, "text": "And this is true for any changes in <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, but in particular let's look at the changes that we get if we just take these formulas as function of time and change time a little bit by <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 50, "end_offset": 62}, {"label": "expression", "start_offset": 64, "end_offset": 76}, {"label": "expression", "start_offset": 217, "end_offset": 229}]}
+{"id": 9834, "text": "We will actually use the changes in <EXPRESSION>, <EXPRESSION>, <EXPRESSION> in a small time <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 50, "end_offset": 62}, {"label": "expression", "start_offset": 64, "end_offset": 76}, {"label": "expression", "start_offset": 93, "end_offset": 105}]}
+{"id": 9835, "text": "Let's divide everybody by <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 12}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 9836, "text": "Here I am just dividing numbers so I am not actually playing any tricks on you.", "entities": []}
+{"id": 9837, "text": "I mean we don't really know what it means to divide differentials, but dividing numbers is something we know.", "entities": []}
+{"id": 9838, "text": "And now, if I take <EXPRESSION> very small, this guy tends to the derivative, <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 14, "end_offset": 18}, {"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 78, "end_offset": 90}]}
+{"id": 9839, "text": "Remember, the definition of <EXPRESSION> is the limit of this ratio when the time interval <EXPRESSION> tends to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 91, "end_offset": 103}, {"label": "expression", "start_offset": 113, "end_offset": 125}]}
+{"id": 9840, "text": "That means if I choose smaller and smaller values of <EXPRESSION> then these ratios of numbers will actually tend to some value, and that value is the derivative.", "entities": [{"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 9841, "text": "Similarly, here <EXPRESSION>, when <EXPRESSION> is really small, will tend to the derivative <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 93, "end_offset": 105}]}
+{"id": 9842, "text": "And similarly for the others.", "entities": []}
+{"id": 9843, "text": "That means, in particular, we take the limit as <EXPRESSION> tends to <EXPRESSION> and we get <EXPRESSION> on one side and on the other side we get <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 30, "end_offset": 47}, {"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 70, "end_offset": 82}, {"label": "expression", "start_offset": 94, "end_offset": 106}, {"label": "expression", "start_offset": 148, "end_offset": 160}]}
+{"id": 9844, "text": "And the approximation becomes better and better.", "entities": []}
+{"id": 9845, "text": "Remember when we write approximately = that means it is not quite the same, but if we take smaller variations then actually we will end up with values that are closer and closer.", "entities": []}
+{"id": 9846, "text": "When we take the limit, as <EXPRESSION>, eventually we get an equality.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 9847, "text": "I mean mathematicians have more complicated words to justify this statement.", "entities": []}
+{"id": 9848, "text": "I will spare them for now, and you will see them when you take analysis if you go in that direction.", "entities": []}
+{"id": 9849, "text": "Any questions so far?", "entities": []}
+{"id": 9850, "text": "No.", "entities": []}
+{"id": 9851, "text": "OK.", "entities": []}
+{"id": 9852, "text": "Let's check this with an example.", "entities": []}
+{"id": 9853, "text": "Let's say that we really don't have any faith in these things so let's try to do it.", "entities": []}
+{"id": 9854, "text": "Let's say I give you a function that is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}]}
+{"id": 9855, "text": "And let's say that maybe <EXPRESSION> will be <EXPRESSION>, <EXPRESSION> will be <EXPRESSION> and <EXPRESSION> will be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 60, "end_offset": 72}, {"label": "expression", "start_offset": 81, "end_offset": 93}, {"label": "expression", "start_offset": 98, "end_offset": 110}, {"label": "expression", "start_offset": 119, "end_offset": 131}]}
+{"id": 9856, "text": "What does the chain rule say?", "entities": [{"label": "method", "start_offset": 14, "end_offset": 24}]}
+{"id": 9857, "text": "Well, the chain rule tells us that <EXPRESSION> is, we start with <EXPRESSION>, well, what is that?", "entities": [{"label": "method", "start_offset": 10, "end_offset": 20}, {"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 66, "end_offset": 78}]}
+{"id": 9858, "text": "That is <EXPRESSION>, and maybe I should point out that this is <EXPRESSION> -- Well, <EXPRESSION>, which is going to be just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 64, "end_offset": 76}, {"label": "expression", "start_offset": 86, "end_offset": 98}, {"label": "expression", "start_offset": 126, "end_offset": 138}]}
+{"id": 9859, "text": "And so now let's plug in the actual values of these things.", "entities": []}
+{"id": 9860, "text": "<EXPRESSION> is <EXPRESSION> and <EXPRESSION> is <EXPRESSION>, so that will be <EXPRESSION> is <EXPRESSION> is <EXPRESSION> is <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 33, "end_offset": 46}, {"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "expression", "start_offset": 79, "end_offset": 91}, {"label": "expression", "start_offset": 95, "end_offset": 107}, {"label": "expression", "start_offset": 111, "end_offset": 123}, {"label": "expression", "start_offset": 127, "end_offset": 140}, {"label": "expression", "start_offset": 143, "end_offset": 155}]}
+{"id": 9861, "text": "At the end of calculation we get <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 9862, "text": "That is what the chain rule tells us.", "entities": [{"label": "method", "start_offset": 17, "end_offset": 27}]}
+{"id": 9863, "text": "How else could we find that?", "entities": []}
+{"id": 9864, "text": "Well, we could just plug in values of <EXPRESSION>, <EXPRESSION> and <EXPRESSION>, <EXPRESSION> plus <EXPRESSION> is a function of <EXPRESSION>, and take its derivative.", "entities": [{"label": "command", "start_offset": 20, "end_offset": 27}, {"label": "expression", "start_offset": 38, "end_offset": 50}, {"label": "expression", "start_offset": 52, "end_offset": 64}, {"label": "expression", "start_offset": 69, "end_offset": 81}, {"label": "expression", "start_offset": 83, "end_offset": 95}, {"label": "command", "start_offset": 96, "end_offset": 100}, {"label": "expression", "start_offset": 101, "end_offset": 113}, {"label": "expression", "start_offset": 131, "end_offset": 143}]}
+{"id": 9865, "text": "Let's do that just for verification.", "entities": []}
+{"id": 9866, "text": "It should be exactly the same answer.", "entities": []}
+{"id": 9867, "text": "And, in fact, in this case, the two calculations are roughly = in complication.", "entities": []}
+{"id": 9868, "text": "But say that your function of <EXPRESSION>, <EXPRESSION>, <EXPRESSION> was much more complicated than that, or maybe you actually didn't know a formula for it, you only knew its partial derivatives, then you would need to use the chain rule.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 58, "end_offset": 70}, {"label": "command", "start_offset": 222, "end_offset": 225}, {"label": "method", "start_offset": 230, "end_offset": 240}]}
+{"id": 9869, "text": "So, sometimes plugging in values is easier but not always.", "entities": []}
+{"id": 9870, "text": "Let's just check quickly.", "entities": []}
+{"id": 9871, "text": "The other method would be to substitute.", "entities": []}
+{"id": 9872, "text": "<EXPRESSION> as a function of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 9873, "text": "Remember <EXPRESSION> was <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 9874, "text": "<EXPRESSION> was <EXPRESSION>, so you get <EXPRESSION>, <EXPRESSION> is <EXPRESSION> was <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 42, "end_offset": 54}, {"label": "expression", "start_offset": 56, "end_offset": 68}, {"label": "expression", "start_offset": 72, "end_offset": 84}, {"label": "expression", "start_offset": 89, "end_offset": 101}]}
+{"id": 9875, "text": "<EXPRESSION>, we know how to take the derivative using single variable calculus.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 9876, "text": "Well, we should know.", "entities": []}
+{"id": 9877, "text": "If we don't know then we should take a look at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 9878, "text": "<EXPRESSION> again.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 9879, "text": "The product rule that will be derivative of <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "method", "start_offset": 4, "end_offset": 16}, {"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 9880, "text": "And that is the same answer as over there.", "entities": []}
+{"id": 9881, "text": "I ended up writing, you know, maybe I wrote slightly more here, but actually the amount of calculations really was pretty much the same.", "entities": []}
+{"id": 9882, "text": "Any questions about that?", "entities": []}
+{"id": 9883, "text": "Yes?", "entities": []}
+{"id": 9884, "text": "What kind of object is <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 9885, "text": "Well, you can think of <EXPRESSION> as just another variable that is given as a function of <EXPRESSION>, <EXPRESSION> and <EXPRESSION>, for example.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 92, "end_offset": 104}, {"label": "expression", "start_offset": 106, "end_offset": 119}, {"label": "expression", "start_offset": 123, "end_offset": 135}]}
+{"id": 9886, "text": "You would have a function of <EXPRESSION>, <EXPRESSION>, <EXPRESSION> defined by this formula, and I call it <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 43, "end_offset": 55}, {"label": "expression", "start_offset": 57, "end_offset": 69}, {"label": "expression", "start_offset": 109, "end_offset": 121}]}
+{"id": 9887, "text": "I call its value <EXPRESSION> so that I can substitute <EXPRESSION> instead of <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "command", "start_offset": 44, "end_offset": 54}, {"label": "expression", "start_offset": 55, "end_offset": 67}, {"label": "expression", "start_offset": 79, "end_offset": 91}, {"label": "expression", "start_offset": 93, "end_offset": 105}, {"label": "expression", "start_offset": 107, "end_offset": 119}]}
+{"id": 9888, "text": "Well, let's think of <EXPRESSION> as a function of three variables.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 9889, "text": "And then, when I plug in the dependents of these three variables on <EXPRESSION>, then it becomes just a function of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 68, "end_offset": 80}, {"label": "expression", "start_offset": 117, "end_offset": 129}]}
+{"id": 9890, "text": "I mean, really, my <EXPRESSION> here is pretty much what I called <EXPRESSION> before.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 66, "end_offset": 78}]}
+{"id": 9891, "text": "There is no major difference between the two.", "entities": []}
+{"id": 9892, "text": "Any other questions?", "entities": []}
+{"id": 9893, "text": "No.", "entities": []}
+{"id": 9894, "text": "OK.", "entities": []}
+{"id": 9895, "text": "Let's see.", "entities": []}
+{"id": 9896, "text": "Here is an application of what we have seen.", "entities": []}
+{"id": 9897, "text": "Let's say that you want to understand actually all these rules about taking derivatives in single variable calculus.", "entities": []}
+{"id": 9898, "text": "What I showed you at the beginning, and then erased, basically justifies how to take the derivative of a reciprocal function.", "entities": []}
+{"id": 9899, "text": "And for that you didn't need multivariable calculus.", "entities": []}
+{"id": 9900, "text": "But let's try to justify the product rule, for example, for the derivative.", "entities": []}
+{"id": 9901, "text": "An application of this actually is to justify the product and quotient rules.", "entities": []}
+{"id": 9902, "text": "Let's think, for example, of a function of two variables, <EXPRESSION> and <EXPRESSION>, that is just the product <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 58, "end_offset": 70}, {"label": "expression", "start_offset": 75, "end_offset": 87}, {"label": "expression", "start_offset": 114, "end_offset": 126}]}
+{"id": 9903, "text": "And let's say that <EXPRESSION> and <EXPRESSION> are actually functions of one variable <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 88, "end_offset": 100}]}
+{"id": 9904, "text": "Then, well, <EXPRESSION> is given by the chain rule applied to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "method", "start_offset": 41, "end_offset": 51}, {"label": "expression", "start_offset": 63, "end_offset": 75}]}
+{"id": 9905, "text": "This is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 9906, "text": "So <EXPRESSION> should be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 9907, "text": "But now what is the partial of <EXPRESSION> with respect to <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 9908, "text": "It is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}]}
+{"id": 9909, "text": "That is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 9910, "text": "And partial of <EXPRESSION> with respect to <EXPRESSION> is going to be just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 9911, "text": "So you get back the usual product rule.", "entities": [{"label": "method", "start_offset": 26, "end_offset": 38}]}
+{"id": 9912, "text": "That is a slightly complicated way of deriving it, but that is a valid way of understanding how to take the derivative of a product by thinking of the product first as a function of variables, which are <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 203, "end_offset": 215}, {"label": "expression", "start_offset": 220, "end_offset": 232}]}
+{"id": 9913, "text": "And then say, oh, but <EXPRESSION> and <EXPRESSION> were actually functions of a variable <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 90, "end_offset": 102}]}
+{"id": 9914, "text": "And then you do the differentiation in two stages using the chain rule.", "entities": []}
+{"id": 9915, "text": "Similarly, you can do the quotient rule just for practice.", "entities": []}
+{"id": 9916, "text": "If I give you the function <EQUATION>.", "entities": [{"label": "equation", "start_offset": 27, "end_offset": 37}]}
+{"id": 9917, "text": "Right now I am thinking of it as a function of two variables, <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "expression", "start_offset": 79, "end_offset": 91}]}
+{"id": 9918, "text": "<EXPRESSION> and <EXPRESSION> themselves are actually going to be functions of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 79, "end_offset": 91}]}
+{"id": 9919, "text": "Then, well, <EXPRESSION> is going to be partial <EXPRESSION>, partial <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 9920, "text": "How much is that?", "entities": []}
+{"id": 9921, "text": "How much is partial <EXPRESSION>, partial <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 9922, "text": "<EXPRESSION> -- Well, next we need to have partial <EXPRESSION> over partial <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 9923, "text": "Well, what is the derivative of this with respect to <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 9924, "text": "Here we need to know how to differentiate the inverse.", "entities": []}
+{"id": 9925, "text": "It is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}]}
+{"id": 9926, "text": "And that is actually the usual quotient rule just written in a slightly different way.", "entities": []}
+{"id": 9927, "text": "I mean, just in case you really want to see it, if you clear denominators for <EXPRESSION> then you will see basically <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 78, "end_offset": 90}, {"label": "expression", "start_offset": 119, "end_offset": 131}]}
+{"id": 9928, "text": "Now let's go to something even more crazy.", "entities": []}
+{"id": 9929, "text": "I claim we can do chain rules with more variables.", "entities": [{"label": "method", "start_offset": 18, "end_offset": 29}]}
+{"id": 9930, "text": "Let's say that I have a quantity.", "entities": []}
+{"id": 9931, "text": "Let's call it <EXPRESSION> for now.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 9932, "text": "Let's say I have quantity <EXPRESSION> as a function of say variables <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 26, "end_offset": 38}, {"label": "expression", "start_offset": 70, "end_offset": 82}, {"label": "expression", "start_offset": 87, "end_offset": 99}]}
+{"id": 9933, "text": "And so in the previous setup <EXPRESSION> and <EXPRESSION> depended on some parameters <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 46, "end_offset": 58}, {"label": "expression", "start_offset": 87, "end_offset": 99}]}
+{"id": 9934, "text": "But, actually, let's now look at the case where <EXPRESSION> and <EXPRESSION> themselves are functions of several variables.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 9935, "text": "Let's say of two more variables.", "entities": []}
+{"id": 9936, "text": "Let's call them <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 9937, "text": "I am going to stay with these abstract letters, but if it bothers you, if it sounds completely unmotivated think about it maybe in terms of something you might now.", "entities": []}
+{"id": 9938, "text": "Say, polar coordinates.", "entities": []}
+{"id": 9939, "text": "Let's say that I have a function but is defined in terms of the polar coordinate variables on <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 94, "end_offset": 106}]}
+{"id": 9940, "text": "And then I know I want to switch to usual coordinates <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 26, "end_offset": 35}, {"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 9941, "text": "Or, the other way around, I have a function of <EXPRESSION> and <EXPRESSION> and I want to express it in terms of the polar coordinates <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 47, "end_offset": 59}, {"label": "expression", "start_offset": 64, "end_offset": 76}, {"label": "expression", "start_offset": 136, "end_offset": 148}, {"label": "expression", "start_offset": 153, "end_offset": 165}]}
+{"id": 9942, "text": "Then I would want to know maybe how the derivatives, with respect to the various sets of variables, related to each other.", "entities": []}
+{"id": 9943, "text": "One way I could do it is, of course, to say now if I plug the formula for <EXPRESSION> and the formula for <EXPRESSION> into the formula for <EXPRESSION> then <EXPRESSION> becomes a function of <EXPRESSION> and <EXPRESSION>, and it can try to take partial derivatives.", "entities": [{"label": "command", "start_offset": 53, "end_offset": 57}, {"label": "expression", "start_offset": 74, "end_offset": 86}, {"label": "expression", "start_offset": 107, "end_offset": 119}, {"label": "expression", "start_offset": 141, "end_offset": 153}, {"label": "expression", "start_offset": 159, "end_offset": 171}, {"label": "expression", "start_offset": 194, "end_offset": 206}, {"label": "expression", "start_offset": 211, "end_offset": 223}]}
+{"id": 9944, "text": "If I have explicit formulas, well, that could work.", "entities": []}
+{"id": 9945, "text": "But maybe the formulas are complicated.", "entities": []}
+{"id": 9946, "text": "Typically, if I switch between rectangular and polar coordinates, there might be inverse trig, there might be maybe arctangent to express the polar angle in terms of <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 166, "end_offset": 178}, {"label": "expression", "start_offset": 183, "end_offset": 195}]}
+{"id": 9947, "text": "And when I don't really want to actually substitute arctangents everywhere, maybe I would rather deal with the derivatives.", "entities": []}
+{"id": 9948, "text": "How do I do that?", "entities": []}
+{"id": 9949, "text": "The question is what are partial <EXPRESSION> over partial <EXPRESSION> and partial <EXPRESSION> over partial <EXPRESSION> in terms of, let's see, what do we need to know to understand that?", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 59, "end_offset": 71}, {"label": "expression", "start_offset": 84, "end_offset": 96}, {"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 9950, "text": "Well, probably we should know how <EXPRESSION> depends on <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 58, "end_offset": 70}, {"label": "expression", "start_offset": 75, "end_offset": 87}]}
+{"id": 9951, "text": "If we don't know that then we are probably toast.", "entities": []}
+{"id": 9952, "text": "Partial <EXPRESSION> over partial <EXPRESSION>, partial  over partial <EXPRESSION> should be required.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 9953, "text": "What else should we know?", "entities": []}
+{"id": 9954, "text": "Well, it would probably help to know how <EXPRESSION> and <EXPRESSION> depend on <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 58, "end_offset": 71}, {"label": "expression", "start_offset": 81, "end_offset": 93}, {"label": "expression", "start_offset": 98, "end_offset": 110}]}
+{"id": 9955, "text": "If we don't know that then we don't really know how to do it.", "entities": []}
+{"id": 9956, "text": "We need also <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 26, "end_offset": 39}, {"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 55, "end_offset": 67}]}
+{"id": 9957, "text": "We have a lot of partials in there.", "entities": []}
+{"id": 9958, "text": "Well, let's see how we can do that.", "entities": []}
+{"id": 9959, "text": "Let's start by writing <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 9960, "text": "We know that <EXPRESSION> is partial <EXPRESSION>, well, I don't know why I have two names, <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 92, "end_offset": 104}, {"label": "expression", "start_offset": 109, "end_offset": 121}]}
+{"id": 9961, "text": "I mean <EXPRESSION> and <EXPRESSION> are really the same thing here, but let's say <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}, {"label": "expression", "start_offset": 24, "end_offset": 36}, {"label": "expression", "start_offset": 83, "end_offset": 95}]}
+{"id": 9962, "text": "So far that is our new friend, the differential.", "entities": []}
+{"id": 9963, "text": "Now what do we want to do with it?", "entities": []}
+{"id": 9964, "text": "Well, we would like to get rid of <EXPRESSION> and <EXPRESSION> because we like to express things in terms of, you know, the question we are asking ourselves is let's say that I change <EXPRESSION> a little bit, how does <EXPRESSION> change?", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 185, "end_offset": 197}, {"label": "expression", "start_offset": 221, "end_offset": 233}]}
+{"id": 9965, "text": "Of course, what happens, if I change <EXPRESSION> a little bit, is <EXPRESSION> and <EXPRESSION> will change.", "entities": [{"label": "command", "start_offset": 30, "end_offset": 36}, {"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 67, "end_offset": 79}, {"label": "expression", "start_offset": 84, "end_offset": 96}, {"label": "command", "start_offset": 102, "end_offset": 108}]}
+{"id": 9966, "text": "How do they change?", "entities": []}
+{"id": 9967, "text": "Well, that is given to me by the differential.", "entities": []}
+{"id": 9968, "text": "<EXPRESSION> is going to be, well, I can use the differential again.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 9969, "text": "Well, <EXPRESSION> is a function of <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}, {"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 53, "end_offset": 65}]}
+{"id": 9970, "text": "That will be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}]}
+{"id": 9971, "text": "That is, again, taking the differential of a function of two variables.", "entities": []}
+{"id": 9972, "text": "Does that make sense?", "entities": []}
+{"id": 9973, "text": "And then we have the other guy, <EXPRESSION>, what is <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 9974, "text": "Well, similarly <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 9975, "text": "And now we have a relation between <EXPRESSION> and <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 35, "end_offset": 47}, {"label": "expression", "start_offset": 52, "end_offset": 64}, {"label": "expression", "start_offset": 69, "end_offset": 81}]}
+{"id": 9976, "text": "We are expressing how <EXPRESSION> reacts to changes in <EXPRESSION> and <EXPRESSION>, which was our goal.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 56, "end_offset": 68}, {"label": "expression", "start_offset": 73, "end_offset": 85}]}
+{"id": 9977, "text": "Now, let's actually collect terms so that we see it a bit better.", "entities": []}
+{"id": 9978, "text": "It is going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 9979, "text": "Now we have <EXPRESSION> = something <EXPRESSION> plus something <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 37, "end_offset": 49}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 9980, "text": "Well, the coefficient here has to be partial <EXPRESSION> over partial <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 45, "end_offset": 57}, {"label": "expression", "start_offset": 71, "end_offset": 83}]}
+{"id": 9981, "text": "What else could it be?", "entities": []}
+{"id": 9982, "text": "That's the rate of change of <EXPRESSION> with respect to <EXPRESSION> if I forget what happens when I change <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 29, "end_offset": 41}, {"label": "expression", "start_offset": 58, "end_offset": 70}, {"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 9983, "text": "That is the definition of a partial.", "entities": []}
+{"id": 9984, "text": "Similarly, this one has to be partial <EXPRESSION> over partial <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}, {"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 9985, "text": "That is because it is the rate of change with respect to , if I keep <EXPRESSION> constant, so that these guys are completely ignored.", "entities": [{"label": "expression", "start_offset": 69, "end_offset": 81}]}
+{"id": 9986, "text": "Now you see how the total differential accounts for, somehow, all the partial derivatives that come as coefficients of the individual variables in these expressions.", "entities": []}
+{"id": 9987, "text": "Let me maybe rewrite these formulas in a more visible way and then re-explain them to you.", "entities": []}
+{"id": 9988, "text": "Here is the chain rule for this situation, with two intermediate variables and two variables that you express these in terms of.", "entities": [{"label": "method", "start_offset": 12, "end_offset": 22}]}
+{"id": 9989, "text": "In our setting, we get partial <EQUATION>.", "entities": [{"label": "equation", "start_offset": 31, "end_offset": 41}]}
+{"id": 9990, "text": "And the other one, the same thing with <EXPRESSION> instead of <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "expression", "start_offset": 77, "end_offset": 89}]}
+{"id": 9991, "text": "I have to explain various things about these formulas because they look complicated.", "entities": []}
+{"id": 9992, "text": "And, actually, they are not that complicated.", "entities": []}
+{"id": 9993, "text": "A couple of things to know.", "entities": []}
+{"id": 9994, "text": "The first thing, how do we remember a formula like that?", "entities": []}
+{"id": 9995, "text": "Well, that is easy.", "entities": []}
+{"id": 9996, "text": "We want to know how <EXPRESSION> depends on <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 9997, "text": "Well, what does <EXPRESSION> depend on?", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 9998, "text": "It depends on <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}, {"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 9999, "text": "So we will put partial <EXPRESSION> over partial <EXPRESSION> and partial <EXPRESSION> over partial <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "expression", "start_offset": 74, "end_offset": 86}, {"label": "expression", "start_offset": 100, "end_offset": 112}]}
+{"id": 10000, "text": "Now, <EXPRESSION> and <EXPRESSION>, why are they here?", "entities": [{"label": "expression", "start_offset": 5, "end_offset": 17}, {"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 10001, "text": "Well, they are here because they actually depend on <EXPRESSION> as well.", "entities": []}
+{"id": 10002, "text": "How does <EXPRESSION> depend on <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 10003, "text": "Well, the answer is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 10004, "text": "How does <EXPRESSION> depend on <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}, {"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 10005, "text": "The answer is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 10006, "text": "See, the structure of this formula is simple.", "entities": []}
+{"id": 10007, "text": "To find the partial of f with respect to some new variable you use the partials with respect to the variables that <EXPRESSION> was initially defined in terms of <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 115, "end_offset": 127}, {"label": "expression", "start_offset": 162, "end_offset": 174}, {"label": "expression", "start_offset": 179, "end_offset": 191}]}
+{"id": 10008, "text": "And you multiply them by the partials of <EXPRESSION> and <EXPRESSION> in terms of the new variable that you want to look at, <EXPRESSION> here, and you sum these things together.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 58, "end_offset": 70}, {"label": "expression", "start_offset": 126, "end_offset": 138}]}
+{"id": 10009, "text": "That is the structure of the formula.", "entities": []}
+{"id": 10010, "text": "Why does it work?", "entities": []}
+{"id": 10011, "text": "Well, let me explain it to you in a slightly different language.", "entities": []}
+{"id": 10012, "text": "This asks us how does <EXPRESSION> change if I change <EXPRESSION> a little bit?", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "command", "start_offset": 47, "end_offset": 53}, {"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 10013, "text": "Well, why would <EXPRESSION> change if <EXPRESSION> changes a little bit?", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 10014, "text": "Well, it would change because <EXPRESSION> actually depends on <EXPRESSION> and <EXPRESSION> and <EXPRESSION> and <EXPRESSION> depend on <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "expression", "start_offset": 80, "end_offset": 92}, {"label": "expression", "start_offset": 97, "end_offset": 109}, {"label": "expression", "start_offset": 114, "end_offset": 126}, {"label": "expression", "start_offset": 137, "end_offset": 149}]}
+{"id": 10015, "text": "If I change <EXPRESSION>, how quickly does <EXPRESSION> change?", "entities": [{"label": "command", "start_offset": 5, "end_offset": 11}, {"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "expression", "start_offset": 43, "end_offset": 55}]}
+{"id": 10016, "text": "Well, the answer is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 10017, "text": "And now, if I change <EXPRESSION> at this rate, how does that have to change?", "entities": [{"label": "command", "start_offset": 14, "end_offset": 21}, {"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 10018, "text": "Well, the answer is <EXPRESSION> times this guy.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 10019, "text": "Well, at the same time, <EXPRESSION> is also changing.", "entities": [{"label": "expression", "start_offset": 24, "end_offset": 36}]}
+{"id": 10020, "text": "How fast is <EXPRESSION> changing if I change <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}, {"label": "command", "start_offset": 39, "end_offset": 45}, {"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 10021, "text": "Well, at the rate of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 10022, "text": "But now if I change this how does <EXPRESSION> change?", "entities": [{"label": "command", "start_offset": 13, "end_offset": 19}, {"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 10023, "text": "Well, the rate of change is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 10024, "text": "The product is the effect of how you change it, changing <EXPRESSION>, and therefore changing <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 57, "end_offset": 69}, {"label": "expression", "start_offset": 94, "end_offset": 106}]}
+{"id": 10025, "text": "Now, what happens in real life, if I change <EXPRESSION> a little bit?", "entities": [{"label": "command", "start_offset": 37, "end_offset": 43}, {"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 10026, "text": "Well, both <EXPRESSION> and <EXPRESSION> change at the same time.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 10027, "text": "So how does <EXPRESSION> change?", "entities": [{"label": "expression", "start_offset": 12, "end_offset": 24}]}
+{"id": 10028, "text": "Well, it is the sum of the two effects.", "entities": []}
+{"id": 10029, "text": "Does that make sense?", "entities": []}
+{"id": 10030, "text": "Good.", "entities": []}
+{"id": 10031, "text": "Of course, if <EXPRESSION> depends on more variables then you just have more terms in here.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 26}]}
+{"id": 10032, "text": "OK.", "entities": []}
+{"id": 10033, "text": "Here is another thing that may be a little bit confusing.", "entities": []}
+{"id": 10034, "text": "What is tempting?", "entities": []}
+{"id": 10035, "text": "Well, what is tempting here would be to simplify these formulas by removing these partial x's.", "entities": [{"label": "term", "start_offset": 90, "end_offset": 91}]}
+{"id": 10036, "text": "Let's simplify by partial <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 14}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 10037, "text": "Let's simplify by partial <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 14}, {"label": "expression", "start_offset": 26, "end_offset": 38}]}
+{"id": 10038, "text": "We get partial <EQUATION>.", "entities": [{"label": "equation", "start_offset": 15, "end_offset": 25}]}
+{"id": 10039, "text": "Something is not working properly.", "entities": []}
+{"id": 10040, "text": "Why doesn't it work?", "entities": []}
+{"id": 10041, "text": "The answer is precisely because these are partial derivatives.", "entities": []}
+{"id": 10042, "text": "These are not total derivatives.", "entities": []}
+{"id": 10043, "text": "And so you cannot simplify them in that way.", "entities": []}
+{"id": 10044, "text": "And that is actually the reason why we use this <EXPRESSION> rather than a <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 39, "end_offset": 42}, {"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 75, "end_offset": 87}]}
+{"id": 10045, "text": "It is to remind us, beware, there are these simplifications that we can do with straight d's that are not legal here.", "entities": []}
+{"id": 10046, "text": "Somehow, when you have a partial derivative, you must resist the urge of simplifying things.", "entities": []}
+{"id": 10047, "text": "No simplifications in here.", "entities": []}
+{"id": 10048, "text": "That is the simplest formula you can get.", "entities": []}
+{"id": 10049, "text": "Any questions at this point?", "entities": []}
+{"id": 10050, "text": "No.", "entities": []}
+{"id": 10051, "text": "Yes?", "entities": []}
+{"id": 10052, "text": "When would you use this and what does it describe?", "entities": []}
+{"id": 10053, "text": "Well, it is basically when you have a function given in terms of a certain set of variables because maybe there is a simply expression in terms of those variables.", "entities": []}
+{"id": 10054, "text": "But ultimately what you care about is not those variables, <EXPRESSION> and <EXPRESSION>, but another set of variables, here <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 59, "end_offset": 71}, {"label": "expression", "start_offset": 76, "end_offset": 88}, {"label": "expression", "start_offset": 125, "end_offset": 137}, {"label": "expression", "start_offset": 142, "end_offset": 154}]}
+{"id": 10055, "text": "So <EXPRESSION> and <EXPRESSION> are giving you a nice formula for <EXPRESSION>, but actually the relevant variables for your problem are <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 67, "end_offset": 79}, {"label": "expression", "start_offset": 138, "end_offset": 150}, {"label": "expression", "start_offset": 155, "end_offset": 167}]}
+{"id": 10056, "text": "And you know <EXPRESSION> and <EXPRESSION> are related to <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 13, "end_offset": 25}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 58, "end_offset": 70}, {"label": "expression", "start_offset": 75, "end_offset": 87}]}
+{"id": 10057, "text": "So, of course, what you could do is plug the formulas the way that we did substituting.", "entities": []}
+{"id": 10058, "text": "But maybe that will give you very complicated expressions.", "entities": []}
+{"id": 10059, "text": "And maybe it is actually easier to just work with the derivates.", "entities": []}
+{"id": 10060, "text": "The important claim here is basically we don't need to know the actual formulas.", "entities": []}
+{"id": 10061, "text": "All we need to know are the rate of changes.", "entities": []}
+{"id": 10062, "text": "If we know all these rates of change then we know how to take these derivatives without actually having to plug in values.", "entities": []}
+{"id": 10063, "text": "Yes?", "entities": []}
+{"id": 10064, "text": "Yes, you could certain do the same things in terms of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 54, "end_offset": 66}]}
+{"id": 10065, "text": "If <EXPRESSION> and <EXPRESSION> were functions of <EXPRESSION> instead of being functions of <EXPRESSION> and <EXPRESSION> then it would be the same thing.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 94, "end_offset": 106}, {"label": "expression", "start_offset": 111, "end_offset": 123}]}
+{"id": 10066, "text": "And you would have the same formulas that I had, well, over there I still have it.", "entities": []}
+{"id": 10067, "text": "Why does that one have straight d's?", "entities": [{"label": "term", "start_offset": 32, "end_offset": 33}]}
+{"id": 10068, "text": "Well, the answer is I could put <EXPRESSION> if I wanted, but I end up with a function of a single variable.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 10069, "text": "If you have a single variable then the partial, with respect to that variable, is the same thing as the usual derivative.", "entities": []}
+{"id": 10070, "text": "We don't actually need to worry about curly in that case.", "entities": []}
+{"id": 10071, "text": "But that one is indeed special case of this one where instead of <EXPRESSION> and <EXPRESSION> depending on two variables, <EXPRESSION> and <EXPRESSION>, they depend on a single variable <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 65, "end_offset": 77}, {"label": "expression", "start_offset": 82, "end_offset": 94}, {"label": "expression", "start_offset": 123, "end_offset": 135}, {"label": "expression", "start_offset": 140, "end_offset": 152}, {"label": "expression", "start_offset": 187, "end_offset": 199}]}
+{"id": 10072, "text": "Now, of course, you can call variables any name you want.", "entities": []}
+{"id": 10073, "text": "It doesn't matter.", "entities": []}
+{"id": 10074, "text": "This is just a slight generalization of that.", "entities": []}
+{"id": 10075, "text": "Well, not quite because here I also had a <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 10076, "text": "See, I am trying to just confuse you by giving you functions that depend on various numbers of variables.", "entities": []}
+{"id": 10077, "text": "If you have a function of 30 variables, things work the same way, just longer, and you are going to run out of letters in the alphabet before the end.", "entities": []}
+{"id": 10078, "text": "Any other questions?", "entities": []}
+{"id": 10079, "text": "No.", "entities": []}
+{"id": 10080, "text": "What?", "entities": []}
+{"id": 10081, "text": "Yes?", "entities": []}
+{"id": 10082, "text": "If <EXPRESSION> and <EXPRESSION> themselves depended on another variable then you would continue with your chain rules.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 10083, "text": "Maybe you would know to express partial <EXPRESSION> over partial <EXPRESSION> in terms using that chain rule.", "entities": [{"label": "command", "start_offset": 24, "end_offset": 31}, {"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 66, "end_offset": 78}]}
+{"id": 10084, "text": "Sorry.", "entities": []}
+{"id": 10085, "text": "If <EXPRESSION> and <EXPRESSION> are dependent on yet another variable then you could get the derivative with respect to that using first the chain rule to pass from <EXPRESSION> to that new variable, and then you would plug in these formulas for partials of f with respect to <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "method", "start_offset": 142, "end_offset": 152}, {"label": "command", "start_offset": 156, "end_offset": 160}, {"label": "expression", "start_offset": 166, "end_offset": 178}, {"label": "expression", "start_offset": 277, "end_offset": 289}, {"label": "expression", "start_offset": 294, "end_offset": 306}]}
+{"id": 10086, "text": "In fact, if you have several substitutions to do, you can always arrange to use one chain rule at a time.", "entities": []}
+{"id": 10087, "text": "You just have to do them in sequence.", "entities": []}
+{"id": 10088, "text": "That's why we don't actually learn that, but you can just do it be repeating the process.", "entities": []}
+{"id": 10089, "text": "I mean, probably at that stage, the easiest to not get confused actually is to manipulate differentials because that is probably easier.", "entities": []}
+{"id": 10090, "text": "Yes?", "entities": []}
+{"id": 10091, "text": "<EXPRESSION> does not exist.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 10092, "text": "That's easy.", "entities": []}
+{"id": 10093, "text": "<EXPRESSION> makes no sense by itself.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 10094, "text": "It doesn't exist alone.", "entities": []}
+{"id": 10095, "text": "What exists is only <EXPRESSION> some variable.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 10096, "text": "And then that accounts only for the rate of change with respect to that variable leaving the others fixed, while straight <EXPRESSION> is somehow a total variation of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 122, "end_offset": 134}, {"label": "expression", "start_offset": 167, "end_offset": 179}]}
+{"id": 10097, "text": "It accounts for all of the partial derivatives and their combined effects.", "entities": []}
+{"id": 10098, "text": "OK.", "entities": []}
+{"id": 10099, "text": "Any more questions?", "entities": []}
+{"id": 10100, "text": "No.", "entities": []}
+{"id": 10101, "text": "Let me just finish up very quickly by telling you again one example where completely you might want to do this.", "entities": []}
+{"id": 10102, "text": "You have a function that you want to switch between rectangular and polar coordinates.", "entities": []}
+{"id": 10103, "text": "To make things a little bit concrete.", "entities": []}
+{"id": 10104, "text": "If you have polar coordinates that means in the plane, instead of using <EXPRESSION> and <EXPRESSION>, you will use coordinates <EXPRESSION>, distance to the origin, and <EXPRESSION>, the angles from the x-axis.", "entities": [{"label": "expression", "start_offset": 72, "end_offset": 84}, {"label": "expression", "start_offset": 89, "end_offset": 101}, {"label": "command", "start_offset": 112, "end_offset": 115}, {"label": "command_attribute", "start_offset": 116, "end_offset": 127}, {"label": "expression", "start_offset": 128, "end_offset": 140}, {"label": "expression", "start_offset": 170, "end_offset": 182}, {"label": "term", "start_offset": 204, "end_offset": 205}]}
+{"id": 10105, "text": "The change of variables for that is <EQUATION> and <EQUATION>.", "entities": [{"label": "equation", "start_offset": 36, "end_offset": 47}, {"label": "equation", "start_offset": 51, "end_offset": 61}]}
+{"id": 10106, "text": "And so that means if you have a function <EXPRESSION> that depends on <EXPRESSION> and <EXPRESSION>, in fact, you can plug these in as a function of <EXPRESSION> and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 70, "end_offset": 82}, {"label": "expression", "start_offset": 87, "end_offset": 99}, {"label": "command", "start_offset": 118, "end_offset": 122}, {"label": "expression", "start_offset": 149, "end_offset": 161}, {"label": "expression", "start_offset": 166, "end_offset": 178}]}
+{"id": 10107, "text": "Then you can ask yourself, well, what is <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 10108, "text": "And that is going to be, well, you want to take <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 43, "end_offset": 47}, {"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 10109, "text": "That will end up being actually <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 10110, "text": "And you can do the same thing to find <EXPRESSION>, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}, {"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 10111, "text": "And so you can express derivatives either in terms of <EXPRESSION>, <EXPRESSION> or in terms of <EXPRESSION> and <EXPRESSION> with simple relations between them.", "entities": [{"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "expression", "start_offset": 68, "end_offset": 80}, {"label": "expression", "start_offset": 96, "end_offset": 108}, {"label": "expression", "start_offset": 113, "end_offset": 125}]}
+{"id": 10112, "text": "And the one last thing I should say.", "entities": []}
+{"id": 10113, "text": "On Thursday we will learn about more tricks we can play with variations of functions.", "entities": []}
+{"id": 10114, "text": "And one that is important, because you need to know it actually to do the p-set, is the gradient vector.", "entities": []}
+{"id": 10115, "text": "The gradient vector is simply a vector.", "entities": []}
+{"id": 10116, "text": "You use this downward pointing triangle as the notation for the gradient.", "entities": []}
+{"id": 10117, "text": "It is simply is a vector whose components are the partial derivatives of a function.", "entities": []}
+{"id": 10118, "text": "I mean, in a way, you can think of a differential as a way to package partial derivatives together into some weird object.", "entities": []}
+{"id": 10119, "text": "Well, the gradient is also a way to package partials together.", "entities": []}
+{"id": 10120, "text": "We will see on Thursday what it is good for, but some of the problems on the p-set use it.", "entities": []}

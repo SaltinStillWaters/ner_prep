@@ -1,0 +1,96 @@
+{"id": 2825, "text": "These are just points that the software has picked to actually display these vectors.", "entities": []}
+{"id": 2826, "text": "The magnitude of this vector is what is the slope in the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 57, "end_offset": 69}]}
+{"id": 2827, "text": "That might be useful.", "entities": []}
+{"id": 2828, "text": "See if I can show that to you.", "entities": []}
+{"id": 2829, "text": "And if you look at it, this is the x-axis.", "entities": []}
+{"id": 2830, "text": "And notice that none of these vectors have any dimensions in the <EXPRESSION> dimension.", "entities": [{"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 2831, "text": "I don't want to scale it anymore.", "entities": []}
+{"id": 2832, "text": "Because even though we're applying it to a three-dimensional surface, but then you can do the partial with respect to <EXPRESSION> vector.", "entities": [{"label": "expression", "start_offset": 118, "end_offset": 130}]}
+{"id": 2833, "text": "Another way to think about it.", "entities": []}
+{"id": 2834, "text": "So what does that look like? Well what are each of the components of this vector? What is <EXPRESSION> in the <EXPRESSION> direction? What does that vector look like? What is <EXPRESSION> in the <EXPRESSION> direction look like? And this I have graphed.", "entities": [{"label": "expression", "start_offset": 90, "end_offset": 102}, {"label": "expression", "start_offset": 110, "end_offset": 122}, {"label": "expression", "start_offset": 175, "end_offset": 187}, {"label": "expression", "start_offset": 195, "end_offset": 207}]}
+{"id": 2835, "text": "So it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}]}
+{"id": 2836, "text": "This parallel to this line is the vector in the x-axis, right? So at this point I've actually calculated the gradient.", "entities": []}
+{"id": 2837, "text": "And then the direction is just the i unit vector, or in the direction of increasing <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 84, "end_offset": 96}]}
+{"id": 2838, "text": "Maybe it's more clear if we look from below the graph.", "entities": []}
+{"id": 2839, "text": "So let me zoom out a little bit because I want you to see the actual axes There's the axes So all this says if I were to go in this direction, I get the maximum slope.", "entities": []}
+{"id": 2840, "text": "And obviously if there's a function of more variables you could keep going and you'd multiply the magnitude of the derivative in each of those dimension's directions times the unit vector in that dimension.", "entities": []}
+{"id": 2841, "text": "And I can rotate this.", "entities": []}
+{"id": 2842, "text": "But if I would have traveled this direction in the <EXPRESSION> <EXPRESSION> plane, then I will get the maximum increase in <EXPRESSION> per unit that I travel.", "entities": [{"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 64, "end_offset": 76}, {"label": "expression", "start_offset": 124, "end_offset": 136}]}
+{"id": 2843, "text": "And we saw there was some symmetry, so the magnitude of this vector is the same as the magnitude of this vector.", "entities": []}
+{"id": 2844, "text": "So the gradient of our particular function, it's a partial with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 75, "end_offset": 87}]}
+{"id": 2845, "text": "And it's direction, it just goes in the <EXPRESSION> direction, because it's that times the <EXPRESSION> unit vector.", "entities": [{"label": "expression", "start_offset": 40, "end_offset": 52}, {"label": "expression", "start_offset": 92, "end_offset": 104}]}
+{"id": 2846, "text": "And I want you to think about it a little bit more.", "entities": []}
+{"id": 2847, "text": "Now this is the y direction, or the same direction as the <EXPRESSION> unit vector.", "entities": [{"label": "expression", "start_offset": 58, "end_offset": 70}]}
+{"id": 2848, "text": "So I need to travel a little bit more in the <EXPRESSION> direction, and I'll get the maximum change in <EXPRESSION> if I travel there.", "entities": [{"label": "expression", "start_offset": 45, "end_offset": 57}, {"label": "expression", "start_offset": 104, "end_offset": 116}]}
+{"id": 2849, "text": "And we multiply that in the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}]}
+{"id": 2850, "text": "And you'll see what I mean.", "entities": []}
+{"id": 2851, "text": "If I go in that direction I get a maximum upward slope.", "entities": []}
+{"id": 2852, "text": "You can extend this to any dimension.", "entities": []}
+{"id": 2853, "text": "And then you could extend it to <EXPRESSION> dimensions, but it becomes very hard to visualize.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 2854, "text": "So the gradient that we use this vector differential operator this upside down triangle the gradient of <EQUATION> which is the unit vector in the <EXPRESSION> direction so it gives the magnitude of the slope and the <EXPRESSION> direction, and then it points the vector in that direction plus the partial with respect to <EXPRESSION> in the <EXPRESSION> direction.", "entities": [{"label": "equation", "start_offset": 104, "end_offset": 114}, {"label": "expression", "start_offset": 147, "end_offset": 159}, {"label": "expression", "start_offset": 217, "end_offset": 229}, {"label": "expression", "start_offset": 322, "end_offset": 334}, {"label": "expression", "start_offset": 342, "end_offset": 354}]}
+{"id": 2855, "text": "So we figure that out.", "entities": []}
+{"id": 2856, "text": "And why is that interesting? Well the gradient and this is the intuition the gradient tells you the direction in the <EXPRESSION> <EXPRESSION> plane you should travel in order to get the maximum slope in the <EXPRESSION> dimension.", "entities": [{"label": "expression", "start_offset": 117, "end_offset": 129}, {"label": "expression", "start_offset": 130, "end_offset": 142}, {"label": "expression", "start_offset": 208, "end_offset": 220}]}
+{"id": 2857, "text": "So this is the same surface we've been working with, but now I've plotted these points right here.", "entities": []}
+{"id": 2858, "text": "The plane defined by all of these vectors is all flat in the <EXPRESSION> dimension.", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}]}
+{"id": 2859, "text": "And then when you add them together, you get the gradient.", "entities": []}
+{"id": 2860, "text": "And let's actually show you what it looks like in the <EXPRESSION> <EXPRESSION> plane.", "entities": [{"label": "expression", "start_offset": 54, "end_offset": 66}, {"label": "expression", "start_offset": 67, "end_offset": 79}]}
+{"id": 2861, "text": "And we multiply that in the <EXPRESSION> direction, or in the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 2862, "text": "If I'm here notice here the <EXPRESSION> component of the gradient is much larger than the <EXPRESSION> component.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 91, "end_offset": 103}]}
+{"id": 2863, "text": "This is more of a bowl as opposed to a hill, but anyway.", "entities": []}
+{"id": 2864, "text": "We're going to take the gradient in two-dimensional space, and you'll see what that means in a second.", "entities": []}
+{"id": 2865, "text": "So if I just go head on so I'm above the graph looking straight down at the graph, and then the colors just show kind of you know where we are if I travel in this direction in the <EXPRESSION> <EXPRESSION> plane, I get my maximum increase in <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 180, "end_offset": 192}, {"label": "expression", "start_offset": 193, "end_offset": 205}, {"label": "expression", "start_offset": 242, "end_offset": 254}]}
+{"id": 2866, "text": "Well what does this mean? And another way to view it, you could have also written this as the gradient of <EQUATION> and then all of that in the i direction.", "entities": [{"label": "equation", "start_offset": 106, "end_offset": 116}]}
+{"id": 2867, "text": "Not times, operated on <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 2868, "text": "Zoom in, there you go.", "entities": []}
+{"id": 2869, "text": "So if I go in this direction, my <EXPRESSION> goes up like that.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}]}
+{"id": 2870, "text": "And I wanted to see the axes, which you can't see now that I'm zoomed in, but you took my word this was the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 108, "end_offset": 120}]}
+{"id": 2871, "text": "Let me see if I can actually zoom in a little bit.", "entities": []}
+{"id": 2872, "text": "And the gradient says, well, if I travel in this direction in the <EXPRESSION> <EXPRESSION> plane notice that none of these have any <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 66, "end_offset": 78}, {"label": "expression", "start_offset": 79, "end_offset": 91}, {"label": "expression", "start_offset": 133, "end_offset": 145}]}
+{"id": 2873, "text": "I think that's pretty neat.", "entities": []}
+{"id": 2874, "text": "Similarly, this vector right here I hope you can see it.", "entities": []}
+{"id": 2875, "text": "But in my opinion at least the intuition is a little bit harder to get your head around than the actual mechanics, but once you get it, it makes a lot of sense.", "entities": []}
+{"id": 2876, "text": "Plus the partial with respect to y, and this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 2877, "text": "Let's actually calculate the gradient of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 2878, "text": "And if you were to take any closed line where the <EXPRESSION> is constant well actually I don't want to get into that too much, but this gradient will actually be normal to any, or it'll be perpendicular to any curve where <EXPRESSION> is constant.", "entities": [{"label": "expression", "start_offset": 50, "end_offset": 62}, {"label": "expression", "start_offset": 224, "end_offset": 236}]}
+{"id": 2879, "text": "And that's the magnitude.", "entities": []}
+{"id": 2880, "text": "Actually it becomes hard to visualize beyond what we're doing right now.", "entities": []}
+{"id": 2881, "text": "So what does this mean? Well before I go into what it means, let's actually calculate it for this and then I'll show you what it means.", "entities": []}
+{"id": 2882, "text": "So this vector is the partial derivative of <EXPRESSION> at that point.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 2883, "text": "And then when you add the two vectors together, you get this vector.", "entities": []}
+{"id": 2884, "text": "And then if you wanted to do it into three space that's not going to apply to our problem because we only care about two dimensions right now.", "entities": []}
+{"id": 2885, "text": "The partial derivative with respect to <EXPRESSION> said what is the slope in the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 39, "end_offset": 51}, {"label": "expression", "start_offset": 82, "end_offset": 94}]}
+{"id": 2886, "text": "That's <EXPRESSION>, and then that doesn't matter anymore.", "entities": [{"label": "expression", "start_offset": 7, "end_offset": 19}]}
+{"id": 2887, "text": "They say that = the partial with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 2888, "text": "Let me see if I can rotate this a little bit.", "entities": []}
+{"id": 2889, "text": "And we'll do a few more problems where we just calculate gradients, just because I think it's useful to get the mechanics.", "entities": []}
+{"id": 2890, "text": "They're all kind of giving you directions in the <EXPRESSION> <EXPRESSION> plane.", "entities": [{"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "expression", "start_offset": 62, "end_offset": 74}]}
+{"id": 2891, "text": "I'll just rotate it around.", "entities": []}
+{"id": 2892, "text": "This is just different notation.", "entities": []}
+{"id": 2893, "text": "I will see you in the next video.", "entities": []}
+{"id": 2894, "text": "The j unit vector goes in the same direction as <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 2895, "text": "Let me do the rotated.", "entities": []}
+{"id": 2896, "text": "Let's learn a little bit about the gradient, and we'll use the same function we've been using since we're pretty familiar with it's graph and it's partial derivatives.", "entities": []}
+{"id": 2897, "text": "Now we're going to take the gradient of this, and then I'll give you a little bit of intuition on what a gradient is.", "entities": []}
+{"id": 2898, "text": "That's what the gradient tells you, how do you get the maximum upward slope.", "entities": []}
+{"id": 2899, "text": "And then I can spin it around.", "entities": []}
+{"id": 2900, "text": "And because of this notation, a lot of people view this delta operator and actually it's pretty consistent when we learn about the divergence and the curl a lot of people view this delta operator, they actually define it.", "entities": []}
+{"id": 2901, "text": "But you could take the partial derivative with respect to any direction, and the gradient gives you the direction in which the slope is the largest.", "entities": []}
+{"id": 2902, "text": "So if I go in that direction in the <EXPRESSION> <EXPRESSION> plane, I get maximum <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 36, "end_offset": 48}, {"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "expression", "start_offset": 83, "end_offset": 95}]}
+{"id": 2903, "text": "Remember the partial derivative with respect to <EXPRESSION> said what is the slope in the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 91, "end_offset": 103}]}
+{"id": 2904, "text": "And we calculated this in the two videos on the partial derivatives.", "entities": []}
+{"id": 2905, "text": "That's the partial of this function with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 2906, "text": "So if you go to this point right here, this is the magnitude of this vector, shows what is the slope in the <EXPRESSION> direction.", "entities": [{"label": "expression", "start_offset": 108, "end_offset": 120}]}
+{"id": 2907, "text": "If I'm on a hill, the gradient of that surface will tell you at any point what direction you need to travel in to go up the hill fastest.", "entities": []}
+{"id": 2908, "text": "Plus the partial with respect to <EXPRESSION> times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 33, "end_offset": 45}, {"label": "expression", "start_offset": 52, "end_offset": 64}]}
+{"id": 2909, "text": "So we just calculated the partial derivative at that point.", "entities": []}
+{"id": 2910, "text": "Hopefully that makes some sense.", "entities": []}
+{"id": 2911, "text": "I don't want to get too involved with that right now, so let's go back here.", "entities": []}
+{"id": 2912, "text": "This vector says, what is the magnitude of this vector is the partial derivative of the function, or the partial derivative of the surface, or the partial derivative of <EXPRESSION> with respect to <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 169, "end_offset": 181}, {"label": "expression", "start_offset": 198, "end_offset": 210}]}
+{"id": 2913, "text": "Or the direction which the steepness of the hill is maximum.", "entities": []}
+{"id": 2914, "text": "I can pull it down a little bit.", "entities": []}
+{"id": 2915, "text": "It gave this length.", "entities": []}
+{"id": 2916, "text": "So the partial of <EXPRESSION> with respect to <EXPRESSION> unit vector.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 2917, "text": "Or another way to view it.", "entities": []}
+{"id": 2918, "text": "But anyway.", "entities": []}
+{"id": 2919, "text": "So let's say that <EQUATION>.", "entities": [{"label": "equation", "start_offset": 18, "end_offset": 28}]}
+{"id": 2920, "text": "And the magnitude is determined by the partial derivative of <EXPRESSION> at that point.", "entities": [{"label": "expression", "start_offset": 61, "end_offset": 73}]}

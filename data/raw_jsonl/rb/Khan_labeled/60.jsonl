@@ -1,0 +1,66 @@
+{"id": 3887, "text": "Why didn't I substitute it the other way around? Why didn't I say this? Why didn't I say that this <EXPRESSION> is <EXPRESSION>, and why didn't I say this <EXPRESSION> is <EXPRESSION>? Well, as you can see, this would have been useless, right? Because then I can't multiply it times a <EXPRESSION>, and it gets all confusing.", "entities": [{"label": "expression", "start_offset": 115, "end_offset": 127}, {"label": "expression", "start_offset": 155, "end_offset": 167}, {"label": "expression", "start_offset": 171, "end_offset": 183}, {"label": "expression", "start_offset": 285, "end_offset": 297}]}
+{"id": 3888, "text": "So now we can make our substitutions.", "entities": []}
+{"id": 3889, "text": "<EXPRESSION> is also <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 21, "end_offset": 33}]}
+{"id": 3890, "text": "OK.", "entities": []}
+{"id": 3891, "text": "Now why was my problem that I gave you silly? Well, I could have simplified this before even doing the substitution, right? I could have said that that's the same thing as the integral of <EXPRESSION>, which is the same thing as the integral of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 188, "end_offset": 200}, {"label": "expression", "start_offset": 245, "end_offset": 257}]}
+{"id": 3892, "text": "Let's take the integral of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 26}, {"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 3893, "text": "I keep using that.", "entities": []}
+{"id": 3894, "text": "And actually, it's good that it by substitution, because this probably wouldn't have been completely intuitive for you to do just yet, as well.", "entities": []}
+{"id": 3895, "text": "But we'll continue doing it with substitution.", "entities": []}
+{"id": 3896, "text": "But we can say then that <EXPRESSION>, and we know that <EXPRESSION> as well, which is, once again, mind blowing.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}, {"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 3897, "text": "You raise exponent <EXPRESSION>, and that's the same thing as <EXPRESSION>, or we could view that as <EXPRESSION>, and of course, plus <EXPRESSION> at the end.", "entities": [{"label": "command", "start_offset": 4, "end_offset": 9}, {"label": "command_attribute", "start_offset": 10, "end_offset": 18}, {"label": "expression", "start_offset": 19, "end_offset": 31}, {"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "expression", "start_offset": 101, "end_offset": 112}, {"label": "expression", "start_offset": 135, "end_offset": 147}]}
+{"id": 3898, "text": "dx.", "entities": []}
+{"id": 3899, "text": "So this, as we see, simplifies to the <EXPRESSION>, and that that =, let's see.", "entities": [{"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 3900, "text": "And then this is <EXPRESSION>, right? I just switched the orders.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}]}
+{"id": 3901, "text": "But you know, every now and then you have to bear with me.", "entities": []}
+{"id": 3902, "text": "Let's take the integral of <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 6, "end_offset": 26}, {"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 3903, "text": "And then I multiply that times <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 3904, "text": "This is just = <EXPRESSION>, which is this right here, right, we just set <EXPRESSION> to = this expression, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 74, "end_offset": 86}, {"label": "expression", "start_offset": 109, "end_offset": 121}]}
+{"id": 3905, "text": "I'm just going to switch the orders of these <EXPRESSION> around, no different.", "entities": [{"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 3906, "text": "Well, once again, we have this expression <EXPRESSION>, and what's the derivative of <EXPRESSION>? Well, the derivative of <EXPRESSION>, as we learned, which is <EXPRESSION> of these things that amazes me, is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}, {"label": "expression", "start_offset": 85, "end_offset": 97}, {"label": "expression", "start_offset": 123, "end_offset": 135}, {"label": "expression", "start_offset": 161, "end_offset": 173}, {"label": "expression", "start_offset": 209, "end_offset": 221}]}
+{"id": 3907, "text": "Let's do a couple more problems like this.", "entities": []}
+{"id": 3908, "text": "Image, clear image, image, invert.", "entities": []}
+{"id": 3909, "text": "That looks complicated to you, doesn't it? Well, just like we said, this is a pattern, like we saw in the previous examples.", "entities": []}
+{"id": 3910, "text": "So let's make the substitution.", "entities": []}
+{"id": 3911, "text": "Actually, that's <EXPRESSION> definition for <EXPRESSION>, is number which, when it's raised to the <EXPRESSION> power, it's the derivative of the same expression.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 45, "end_offset": 57}, {"label": "expression", "start_offset": 100, "end_offset": 112}]}
+{"id": 3912, "text": "So this <EXPRESSION> and this <EXPRESSION> actually do cancel out, and you're left with, that this = the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 8, "end_offset": 20}, {"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 105, "end_offset": 117}]}
+{"id": 3913, "text": "And what's <EXPRESSION>? Well, we just showed, <EXPRESSION> is just <EXPRESSION>, right? So it's times <EXPRESSION>, and then we have times <EXPRESSION>, right? And I know you're probably not too comfortable with the differentials at this point, but they behave in just the way regular numbers do with a fraction.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 47, "end_offset": 59}, {"label": "expression", "start_offset": 68, "end_offset": 80}, {"label": "expression", "start_offset": 103, "end_offset": 115}, {"label": "expression", "start_offset": 140, "end_offset": 152}]}
+{"id": 3914, "text": "That's what we said at the beginning.", "entities": []}
+{"id": 3915, "text": "So <EXPRESSION> is the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 23, "end_offset": 35}]}
+{"id": 3916, "text": "And while we know that the answer of this integral, this = <EXPRESSION>, and then, of course, we should add the plus <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 59, "end_offset": 71}, {"label": "expression", "start_offset": 117, "end_offset": 129}]}
+{"id": 3917, "text": "So what we can now do is substitute these <EXPRESSION> things into this integral.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 3918, "text": "And now this is an easy integral.", "entities": []}
+{"id": 3919, "text": "Well, <EXPRESSION> is <EXPRESSION> to the <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}, {"label": "expression", "start_offset": 22, "end_offset": 34}, {"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 3920, "text": "I'll do it up here to make it extra messy.", "entities": []}
+{"id": 3921, "text": "And these cancel.", "entities": []}
+{"id": 3922, "text": "<EXPRESSION>, plus <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 3923, "text": "And the integral of this, well, this is easy.", "entities": []}
+{"id": 3924, "text": "I do things in the wrong order.", "entities": []}
+{"id": 3925, "text": "I might do another presentation where I do slightly harder problems, using this same technique.", "entities": []}
+{"id": 3926, "text": "I think we have time for <EXPRESSION> more.", "entities": [{"label": "expression", "start_offset": 25, "end_offset": 37}]}
+{"id": 3927, "text": "We have this expression here, <EXPRESSION>, and well, what's the derivative of this? <EXPRESSION>? Well, it's <EXPRESSION>, right? Notice that I'm engineering it so it works cleanly, but most textbooks and tests tend to do that.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}, {"label": "expression", "start_offset": 85, "end_offset": 97}, {"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 3928, "text": "So this is just <EXPRESSION>, right? Because this is this.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 3929, "text": "This is just = <EXPRESSION>, right, plus <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 41, "end_offset": 53}]}
+{"id": 3930, "text": "But anyway, I don't want to confuse you too much.", "entities": []}
+{"id": 3931, "text": "So if we rewrite this top integral, this is just =, I won't switch this time.", "entities": []}
+{"id": 3932, "text": "So the integral now becomes, instead of writing <EXPRESSION>, we can write <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}, {"label": "expression", "start_offset": 75, "end_offset": 87}]}
+{"id": 3933, "text": "Let's say to the minus third power.", "entities": []}
+{"id": 3934, "text": "So this is <EXPRESSION>, right? <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 3935, "text": "So let's do that.", "entities": []}
+{"id": 3936, "text": "Are we done? Well, I mean, almost, but it would be nice to just take that <EXPRESSION>, and unwind it, and put the <EXPRESSION> back in for it.", "entities": [{"label": "expression", "start_offset": 74, "end_offset": 86}, {"label": "expression", "start_offset": 115, "end_offset": 127}]}
+{"id": 3937, "text": "I will also switch colors, just to keep things interesting.", "entities": []}
+{"id": 3938, "text": "So this is just <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 3939, "text": "Because we have a <EXPRESSION> that we can use, and then we have its derivative, right? So we can say <EQUATION>, and we can say then, the derivative of <EXPRESSION>, we know the derivative of <EXPRESSION> is <EXPRESSION>, right? Because the derivative of <EXPRESSION> is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "equation", "start_offset": 102, "end_offset": 111}, {"label": "expression", "start_offset": 153, "end_offset": 165}, {"label": "expression", "start_offset": 193, "end_offset": 205}, {"label": "expression", "start_offset": 209, "end_offset": 221}, {"label": "expression", "start_offset": 256, "end_offset": 268}, {"label": "expression", "start_offset": 272, "end_offset": 284}]}
+{"id": 3940, "text": "Let's do <EXPRESSION> more.", "entities": [{"label": "expression", "start_offset": 9, "end_offset": 21}]}
+{"id": 3941, "text": "I'll see you soon.", "entities": []}
+{"id": 3942, "text": "Done.", "entities": []}
+{"id": 3943, "text": "The only thing different than what you might have seen recently is that instead of an <EXPRESSION>, we have a <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 86, "end_offset": 98}, {"label": "expression", "start_offset": 110, "end_offset": 122}]}
+{"id": 3944, "text": "And now we can just unwind this.", "entities": []}
+{"id": 3945, "text": "But anyway, that's integration by substitution.", "entities": []}
+{"id": 3946, "text": "Actually, this might be an easier way to think about these type of integrals than what I did in the last presentation.", "entities": []}
+{"id": 3947, "text": "And actually, I just realized, I constructed a very silly problem for you, because you could simplify this before even doing it with substitution.", "entities": []}
+{"id": 3948, "text": "And I know you're not completely comfortable yet with even this integration notation, why is this <EXPRESSION> sitting there in the first place, but when we do the definite integrals it will make more sense.", "entities": [{"label": "expression", "start_offset": 98, "end_offset": 110}]}
+{"id": 3949, "text": "And I know what you're thinking, Sal.", "entities": []}
+{"id": 3950, "text": "But anyway, you see, if you did it in this way, it becomes very complicated, so we don't want to do it like that.", "entities": []}
+{"id": 3951, "text": "But this is just = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 19, "end_offset": 31}]}
+{"id": 3952, "text": "All of this to the sixth power, plus <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 37, "end_offset": 49}]}

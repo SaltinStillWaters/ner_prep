@@ -1,0 +1,58 @@
+{"id": 10121, "text": "- [Voiceover] Let's say that we have the differential equation <EXPRESSION> or the derivative of <EXPRESSION> with respect to <EXPRESSION> is = <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 63, "end_offset": 75}, {"label": "expression", "start_offset": 97, "end_offset": 109}, {"label": "expression", "start_offset": 126, "end_offset": 137}, {"label": "expression", "start_offset": 144, "end_offset": 156}]}
+{"id": 10122, "text": "Let's say we don't know how to find the solutions to this, but we at least want to get a sense of what the solutions might look like.", "entities": []}
+{"id": 10123, "text": "And to do that what we could do is we could look at a coordinate plane, so let me draw some axes here.", "entities": []}
+{"id": 10124, "text": "So let me draw relatively straight line alright.", "entities": []}
+{"id": 10125, "text": "So that's my y-axis and this is my x-axis.", "entities": [{"label": "term", "start_offset": 13, "end_offset": 19}, {"label": "term", "start_offset": 35, "end_offset": 41}]}
+{"id": 10126, "text": "Let me mark this as <EXPRESSION>, that's <EXPRESSION>, that's <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, <EXPRESSION>, and <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 41, "end_offset": 53}, {"label": "expression", "start_offset": 62, "end_offset": 74}, {"label": "expression", "start_offset": 76, "end_offset": 88}, {"label": "expression", "start_offset": 90, "end_offset": 102}, {"label": "expression", "start_offset": 105, "end_offset": 116}, {"label": "expression", "start_offset": 118, "end_offset": 130}, {"label": "expression", "start_offset": 136, "end_offset": 148}]}
+{"id": 10127, "text": "And what I could do is since this differential equation is just in terms of <EXPRESSION> and <EXPRESSION> and first derivatives of <EXPRESSION> with respect to <EXPRESSION>, I could sample points on the coordinate plane, I could look at the <EXPRESSION> and <EXPRESSION> coordinates substitute them in here, figure out what the slope is going to be.", "entities": [{"label": "expression", "start_offset": 76, "end_offset": 88}, {"label": "expression", "start_offset": 93, "end_offset": 105}, {"label": "expression", "start_offset": 131, "end_offset": 143}, {"label": "expression", "start_offset": 160, "end_offset": 172}, {"label": "expression", "start_offset": 241, "end_offset": 253}, {"label": "expression", "start_offset": 258, "end_offset": 270}]}
+{"id": 10128, "text": "And then I could visualize the slope if a solution goes through that point what the slope needs to be there and I can visualize that with a line segment, a little small line segment that has the same slope as the slope in question.", "entities": []}
+{"id": 10129, "text": "So let's actually do that.", "entities": []}
+{"id": 10130, "text": "So let me setup a little table here.", "entities": []}
+{"id": 10131, "text": "I'm going to do a little table here to do a bunch of <EXPRESSION> and <EXPRESSION> values.", "entities": [{"label": "expression", "start_offset": 53, "end_offset": 65}, {"label": "expression", "start_offset": 70, "end_offset": 82}]}
+{"id": 10132, "text": "Once again I'm just sampling some points on the coordinate plane to be able to visualize.", "entities": []}
+{"id": 10133, "text": "So <EXPRESSION>, <EXPRESSION> and this is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 10134, "text": "So let's say when <EXPRESSION> is <EXPRESSION> and <EXPRESSION> is <EXPRESSION>, what is the derivative of  with<EXPRESSION> respect to <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}, {"label": "expression", "start_offset": 34, "end_offset": 46}, {"label": "expression", "start_offset": 51, "end_offset": 63}, {"label": "expression", "start_offset": 67, "end_offset": 79}, {"label": "expression", "start_offset": 112, "end_offset": 124}, {"label": "expression", "start_offset": 136, "end_offset": 148}]}
+{"id": 10135, "text": "It's going to be <EXPRESSION> so it's just going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 17, "end_offset": 29}, {"label": "expression", "start_offset": 55, "end_offset": 67}]}
+{"id": 10136, "text": "And so at the point <EXPRESSION> if a solution goes through this point its slope is going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}, {"label": "expression", "start_offset": 96, "end_offset": 108}]}
+{"id": 10137, "text": "And so we can visualize that by doing a little horizontal line segment right there.", "entities": []}
+{"id": 10138, "text": "So let's keep going.", "entities": []}
+{"id": 10139, "text": "What about when <EXPRESSION> is <EXPRESSION> and <EXPRESSION> is <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 10140, "text": "Well then <EXPRESSION>, the derivative of <EXPRESSION> with respect to <EXPRESSION> is <EXPRESSION>, so it's going to be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}, {"label": "expression", "start_offset": 42, "end_offset": 54}, {"label": "expression", "start_offset": 71, "end_offset": 83}, {"label": "expression", "start_offset": 87, "end_offset": 99}, {"label": "expression", "start_offset": 121, "end_offset": 133}]}
+{"id": 10141, "text": "So at the point <EXPRESSION> if a solution goes through that point, it would have a slope of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}]}
+{"id": 10142, "text": "And so I draw a little line segment that has a slope of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 56, "end_offset": 68}]}
+{"id": 10143, "text": "Let me do this in a new color.", "entities": []}
+{"id": 10144, "text": "What about when <EXPRESSION> is <EXPRESSION> and <EXPRESSION> is <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 16, "end_offset": 28}, {"label": "expression", "start_offset": 32, "end_offset": 44}, {"label": "expression", "start_offset": 49, "end_offset": 61}, {"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 10145, "text": "Well then it's <EXPRESSION>, so this is actually undefined, but it's a clue that maybe the slope there if you had a tangent line at that point, maybe it's vertical.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 10146, "text": "So I'll put that as a question mark, vertical there.", "entities": []}
+{"id": 10147, "text": "So maybe it's something like that if you actually did have, I guess it wouldn't be a function, if you had some kind of relation that went through it, but let's not draw that just yet.", "entities": []}
+{"id": 10148, "text": "But let's try some other points.", "entities": []}
+{"id": 10149, "text": "Let's try the point <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 10150, "text": "So now we have <EXPRESSION>, which is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 10151, "text": "Well you'd have a slope of <EXPRESSION> here.", "entities": [{"label": "expression", "start_offset": 27, "end_offset": 39}]}
+{"id": 10152, "text": "So <EXPRESSION> you'd have a slope of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}, {"label": "expression", "start_offset": 38, "end_offset": 50}]}
+{"id": 10153, "text": "What about if you had <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 10154, "text": "Well now it's <EXPRESSION>, your slope is now <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 14, "end_offset": 25}, {"label": "expression", "start_offset": 46, "end_offset": 58}]}
+{"id": 10155, "text": "So <EXPRESSION>, if a solution goes through this its slope would look like that.", "entities": [{"label": "expression", "start_offset": 3, "end_offset": 15}]}
+{"id": 10156, "text": "And we could keep going, we could even do <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 42, "end_offset": 54}]}
+{"id": 10157, "text": "That's going to have a slope of one as well.", "entities": []}
+{"id": 10158, "text": "If you did <EXPRESSION>, that would be <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 11, "end_offset": 23}, {"label": "expression", "start_offset": 39, "end_offset": 51}]}
+{"id": 10159, "text": "You'd have a slope of <EXPRESSION> right over here.", "entities": [{"label": "expression", "start_offset": 22, "end_offset": 34}]}
+{"id": 10160, "text": "And so we could do a bunch of points, just keep going.", "entities": []}
+{"id": 10161, "text": "Now I'm just doing them in my head, I'm not going on the table.", "entities": []}
+{"id": 10162, "text": "But you get a sense of what's going on here.", "entities": []}
+{"id": 10163, "text": "Here you're slope, what if it was <EXPRESSION>?", "entities": [{"label": "expression", "start_offset": 34, "end_offset": 46}]}
+{"id": 10164, "text": "It's going to have a slope of <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 30, "end_offset": 42}]}
+{"id": 10165, "text": "So at this point your slope <EXPRESSION> so <EXPRESSION> is <EXPRESSION>, so you're going to have a slope like that.", "entities": [{"label": "expression", "start_offset": 28, "end_offset": 40}, {"label": "expression", "start_offset": 44, "end_offset": 56}, {"label": "expression", "start_offset": 60, "end_offset": 72}]}
+{"id": 10166, "text": "At negative two two same exact idea, it would look like that.", "entities": []}
+{"id": 10167, "text": "And so when you keep drawing these line segments over these kind of sample points in the cartesian or in the x-y plane, you start to get a sense of well what would a solution have to do.", "entities": []}
+{"id": 10168, "text": "And you can start to visualize that hey maybe a solution would have to do something like this.", "entities": []}
+{"id": 10169, "text": "This would be a solution, so maybe it would have to do something like this.", "entities": []}
+{"id": 10170, "text": "Or if we're looking only at functions and not relations I'll make it so it's very clear.", "entities": []}
+{"id": 10171, "text": "So maybe it would have to do something like this.", "entities": []}
+{"id": 10172, "text": "Or if the function started here based on what we've seen so far maybe it would have to do something like this.", "entities": []}
+{"id": 10173, "text": "Or if this were a point on the function over here, it would have to do something like this.", "entities": []}
+{"id": 10174, "text": "And once again I'm doing this based on what the slope field is telling me.", "entities": []}
+{"id": 10175, "text": "So this field that I'm creating where I'm sampling a bunch of points and I'm visualizing the slope with a line segement.", "entities": []}
+{"id": 10176, "text": "Once again this is called a slope field.", "entities": []}
+{"id": 10177, "text": "So hopefully that gives you kind of the basic idea of what a slope field is.", "entities": []}
+{"id": 10178, "text": "And the next two videos we'll explore this idea even deeper.", "entities": []}

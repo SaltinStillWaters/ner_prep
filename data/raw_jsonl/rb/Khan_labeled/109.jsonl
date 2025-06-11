@@ -1,0 +1,35 @@
+{"id": 2463, "text": "This would have taken you quite a while if you had to actually do the integral yourself.", "entities": []}
+{"id": 2464, "text": "Right? That's it.", "entities": []}
+{"id": 2465, "text": "And let's see.", "entities": []}
+{"id": 2466, "text": "And we're done.", "entities": []}
+{"id": 2467, "text": "And so if we want to know how many tickets were sold at <EQUATION>, that's just = the definite integral from <EXPRESSION> to <EXPRESSION>, or we could also view it as the area under this curve, from <EQUATION> to <EQUATION>.", "entities": [{"label": "equation", "start_offset": 56, "end_offset": 66}, {"label": "command", "start_offset": 86, "end_offset": 103}, {"label": "expression", "start_offset": 109, "end_offset": 121}, {"label": "expression", "start_offset": 125, "end_offset": 137}, {"label": "equation", "start_offset": 199, "end_offset": 209}, {"label": "equation", "start_offset": 213, "end_offset": 223}]}
+{"id": 2468, "text": "So that's <EQUATION>.", "entities": [{"label": "equation", "start_offset": 10, "end_offset": 20}]}
+{"id": 2469, "text": "My independent variable is <EXPRESSION>, I've just swapped <EXPRESSION> for <EXPRESSION> there, and I'm taking the integral from <EXPRESSION> to <EXPRESSION>.", "entities": [{"label": "command", "start_offset": 51, "end_offset": 58}, {"label": "command", "start_offset": 115, "end_offset": 123}]}
+{"id": 2470, "text": "That only took us four minutes.", "entities": []}
+{"id": 2471, "text": "It's copy and pasted.", "entities": [{"label": "command", "start_offset": 5, "end_offset": 9}]}
+{"id": 2472, "text": "I will see you in problem number three.", "entities": []}
+{"id": 2473, "text": "<EXPRESSION>, and they want us to round to the nearest whole number.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}, {"label": "command", "start_offset": 34, "end_offset": 39}, {"label": "command_attribute", "start_offset": 47, "end_offset": 67}]}
+{"id": 2474, "text": "So this is the derivative of the total tickets sold function.", "entities": []}
+{"id": 2475, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 2476, "text": "Or another way that we could write it is the total tickets sold so let's call that, I don't know, capital T sub well let me I don't want to do <EXPRESSION>, that's [UNINTELLIGIBLE] So let's say the tickets sold as a function of time is going to be = the definite integral well, we could say is at any time <EXPRESSION>, the tickets sold and this is the fundamental theorems calculus, I think it might be one of its correlaries or actually sometimes it is the fundamental theorem of calculus, I always forget my definitions.", "entities": [{"label": "expression", "start_offset": 143, "end_offset": 155}, {"label": "expression", "start_offset": 306, "end_offset": 318}]}
+{"id": 2477, "text": "Now this integral right here, you can solve it analytically using integration of parts, which I just called the reverse product rule, but you only have <EXPRESSION> minutes to do all three of these problems, and they'll let you use your graphing calculator, and your graphic calculator is excellent at doing definite integrals, and they just want the number, right? So let's use our graphic calculators to get that number.", "entities": [{"label": "expression", "start_offset": 152, "end_offset": 164}]}
+{"id": 2478, "text": "Let's see.", "entities": []}
+{"id": 2479, "text": "<EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 0, "end_offset": 12}]}
+{"id": 2480, "text": "So this is the rate at which tickets are sold.", "entities": []}
+{"id": 2481, "text": "OK.", "entities": []}
+{"id": 2482, "text": "Between <EQUATION> and <EXPRESSION> or if we want to know the tickets sold, between <EQUATION> and <EQUATION>.", "entities": [{"label": "equation", "start_offset": 8, "end_offset": 18}, {"label": "expression", "start_offset": 23, "end_offset": 35}, {"label": "equation", "start_offset": 84, "end_offset": 94}, {"label": "equation", "start_offset": 99, "end_offset": 109}]}
+{"id": 2483, "text": "Based on the model, how many tickets were sold by 3:00 PM? So my <EQUATION> to the nearest whole number? So that's sometimes important.", "entities": [{"label": "equation", "start_offset": 65, "end_offset": 75}]}
+{"id": 2484, "text": "So the nearest whole number is <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 31, "end_offset": 43}]}
+{"id": 2485, "text": "I don't want to copy, so how do we do that? We just do second the division button but that's calc definite, let me use the definite integral, and like what was, let's see, let me make sure I have that <EXPRESSION> let's just use <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 201, "end_offset": 213}, {"label": "expression", "start_offset": 229, "end_offset": 241}]}
+{"id": 2486, "text": "You don't want to give a decimal answer.", "entities": []}
+{"id": 2487, "text": "We're ready to do part D, and let me copy and paste that in as well.", "entities": []}
+{"id": 2488, "text": "<EQUATION> per hour.", "entities": [{"label": "equation", "start_offset": 0, "end_offset": 10}]}
+{"id": 2489, "text": "See, I don't think that's going to need this graph, so let me just remove that with a color other than yellow.", "entities": []}
+{"id": 2490, "text": "The rate at which tickets were sold for t for over this range is modeled by <EXPRESSION> let me write that in case you can't see it is the rate at which tickets were sold.", "entities": [{"label": "expression", "start_offset": 76, "end_offset": 88}]}
+{"id": 2491, "text": "And it would have taken us even less if we didn't have to explain it.", "entities": []}
+{"id": 2492, "text": "Welcome back.", "entities": []}
+{"id": 2493, "text": "Anyway.", "entities": []}
+{"id": 2494, "text": "So we say <EXPRESSION> tickets sold by 3:00 PM.", "entities": [{"label": "expression", "start_offset": 10, "end_offset": 22}]}
+{"id": 2495, "text": "Click enter, let the calculator do the work.", "entities": []}
+{"id": 2496, "text": "I think that's the whole function.", "entities": []}
+{"id": 2497, "text": "I don't know if you can read it, but it's helpful for me to review the problem on our clipboard.", "entities": []}

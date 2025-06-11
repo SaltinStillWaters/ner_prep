@@ -1,0 +1,81 @@
+{"id": 4273, "text": "Keep that in mind.", "entities": []}
+{"id": 4274, "text": "So actually, if you look at it, I mean you could just eyeball it.", "entities": []}
+{"id": 4275, "text": "Well let's look at this.", "entities": []}
+{"id": 4276, "text": "And let me graph that as well.", "entities": []}
+{"id": 4277, "text": "Right, this is the velocity, so say we had over this very small change in time, we have this roughly constant velocity that's on this graph.", "entities": []}
+{"id": 4278, "text": "So let actually use an example from physics.", "entities": []}
+{"id": 4279, "text": "Let me write this in the corner.", "entities": []}
+{"id": 4280, "text": "So <EQUATION>, and then <EQUATION>.", "entities": [{"label": "equation", "start_offset": 3, "end_offset": 13}, {"label": "equation", "start_offset": 24, "end_offset": 34}]}
+{"id": 4281, "text": "That's a horrible line.", "entities": []}
+{"id": 4282, "text": "In this case, the object started at position of <EXPRESSION>, but it could be, you know, at any constant, right? You could have started here and then curved up.", "entities": [{"label": "expression", "start_offset": 48, "end_offset": 60}]}
+{"id": 4283, "text": "I won't draw it that steep because I'm going to use this for an illustration.", "entities": []}
+{"id": 4284, "text": "For the purposes of this lecture, you can't go back in time.", "entities": []}
+{"id": 4285, "text": "So it's actually a pretty steep line.", "entities": []}
+{"id": 4286, "text": "We have this roughly constant velocity.", "entities": []}
+{"id": 4287, "text": "I don't know why the convention is to use s as the variable for distance.", "entities": []}
+{"id": 4288, "text": "Let me switch to something more pleasant.", "entities": []}
+{"id": 4289, "text": "So this is just a formula that tells us the position, kind of how far has something gone, after <EXPRESSION> many, let's say, seconds, right? So after like, <EXPRESSION> seconds, we would have gone, let's say the distance is in feet, this is in seconds.", "entities": [{"label": "expression", "start_offset": 157, "end_offset": 169}]}
+{"id": 4290, "text": "And I guess if you view it the other way, if you have the velocity, it's antiderivative is distance.", "entities": []}
+{"id": 4291, "text": "You can kind of view this as a very small change in time.", "entities": []}
+{"id": 4292, "text": "But if you have to distance formula, it's derivative is just velocity.", "entities": []}
+{"id": 4293, "text": "So we want to find the change, the instantaneous change with respect to time of this formula, right? Because this is the distance formula.", "entities": []}
+{"id": 4294, "text": "It'll get pretty close to, as you can imagine, the area under this curve, or in this case a line.", "entities": []}
+{"id": 4295, "text": "It's slightly better.", "entities": []}
+{"id": 4296, "text": "And we want to figure out what the distance is after, you know, <EXPRESSION> seconds, right? So this is the t-axis, this is the velocity axis, right? So let's say we were only given this, and let's say we didn't know that the antiderivative of the velocity function is the distance function.", "entities": [{"label": "expression", "start_offset": 64, "end_offset": 76}]}
+{"id": 4297, "text": "So this is how much time goes by.", "entities": []}
+{"id": 4298, "text": "Let's say that <EXPRESSION> =, I don't know, <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}, {"label": "expression", "start_offset": 45, "end_offset": 57}]}
+{"id": 4299, "text": "In this presentation, I actually want to show you how we can use the antiderivative to figure out the area under a curve.", "entities": []}
+{"id": 4300, "text": "And then we draw the x-axis.", "entities": []}
+{"id": 4301, "text": "If we have a constant, this red is kind of bloody.", "entities": []}
+{"id": 4302, "text": "Skinny and tall, right? It's almost infinitely skinny, but it's, we're assuming for these purposes it has some very notional amount of width.", "entities": []}
+{"id": 4303, "text": "Actually I'm going to focus more a little bit more on the intuition.", "entities": []}
+{"id": 4304, "text": "Maybe I should switch back to, let me write that, <EQUATION>.", "entities": [{"label": "equation", "start_offset": 50, "end_offset": 60}]}
+{"id": 4305, "text": "Actually, let me undo that too, because I just want to do it for <EXPRESSION>, right? Because you can't really go back in time.", "entities": [{"label": "expression", "start_offset": 65, "end_offset": 77}]}
+{"id": 4306, "text": "So the distance that the object travels over the small time would be the small time times the velocity, right? It would be whatever the value of this red line is, times the width of this distance, right? So what's another way? Visually I kind of did it ahead of time, but what's happening here? If I take this change in time, right, which is kind of the base of this rectangle, and I multiply it times the velocity which is really just the height of this rectangle, what have I figured out? Well I figured out the area of this rectangle, right? Right, the velocity this moment, times the change in time at this moment, is nothing but the area of this very skinny rectangle.", "entities": []}
+{"id": 4307, "text": "If we have, over any small period of time, right, or if we have a constant velocity, when you have a constant velocity, distance is just velocity times time, right? So let's say we had a very small time fragment here, right? I'll draw it big, but let's say this time fragment it is really small.", "entities": []}
+{"id": 4308, "text": "This is velocity.", "entities": []}
+{"id": 4309, "text": "So this curve will essentially just be a parabola, right? It'll look something like this.", "entities": []}
+{"id": 4310, "text": "So if we know the instant rate of change of distance with respect to time, we'll know the velocity, right? So <EXPRESSION>, <EXPRESSION>, =? So what's the derivative here? It's <EXPRESSION>, right? And this is the velocity.", "entities": [{"label": "expression", "start_offset": 110, "end_offset": 122}, {"label": "expression", "start_offset": 124, "end_offset": 136}, {"label": "expression", "start_offset": 177, "end_offset": 189}]}
+{"id": 4311, "text": "Or you can actually view it as instantaneous.", "entities": []}
+{"id": 4312, "text": "Actually, let me take do it here.", "entities": []}
+{"id": 4313, "text": "But it would also get you pretty much the exact amount of distance you've traveled after <EXPRESSION> seconds.", "entities": [{"label": "expression", "start_offset": 89, "end_offset": 101}]}
+{"id": 4314, "text": "And that's actually <EXPRESSION> of the initial uses of what made derivatives so useful.", "entities": [{"label": "expression", "start_offset": 20, "end_offset": 32}]}
+{"id": 4315, "text": "I'll use distance and velocity.", "entities": []}
+{"id": 4316, "text": "So this, I'll draw it in red, this is this going to be a line, right? <EXPRESSION> it's a line with slope <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 70, "end_offset": 82}, {"label": "expression", "start_offset": 106, "end_offset": 118}]}
+{"id": 4317, "text": "So I think I'm running into the <EXPRESSION> minute wall, so I'm just going to pause here, and I'm going to continue this in the next presentation.", "entities": [{"label": "expression", "start_offset": 32, "end_offset": 44}]}
+{"id": 4318, "text": "And so what if we wanted to figure out what the velocity of this object, right? This is, let's see, this is <EXPRESSION>, this is <EXPRESSION>, right? And this is, I don't know if it's clear, but this is kind of <EXPRESSION> a parabola.", "entities": [{"label": "expression", "start_offset": 108, "end_offset": 120}, {"label": "expression", "start_offset": 130, "end_offset": 142}, {"label": "expression", "start_offset": 212, "end_offset": 224}]}
+{"id": 4319, "text": "But anyway, let's just assume we started at <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 44, "end_offset": 56}]}
+{"id": 4320, "text": "So let's graph this function.", "entities": [{"label": "command", "start_offset": 9, "end_offset": 28}]}
+{"id": 4321, "text": "OK.", "entities": []}
+{"id": 4322, "text": "That's all that says.", "entities": []}
+{"id": 4323, "text": "After <EXPRESSION> seconds, we would have gone <EXPRESSION> feet.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}, {"label": "expression", "start_offset": 47, "end_offset": 59}]}
+{"id": 4324, "text": "It's pretty straight.", "entities": []}
+{"id": 4325, "text": "After <EXPRESSION> seconds, right? Well then, all we would have to do is, we would have to just figure, we would just do a bunch of <EXPRESSION>'s, right? You'd do another <EXPRESSION> here, you'd figure out the area of this column, you'd figure out the area of this column, the area of this column, right? Because each of these areas of each of these columns represents the distance that the object travels over that <EXPRESSION>, right? So if you wanted to know how far you traveled after <EXPRESSION> seconds, you'd essentially get, or an approximation would be, the sum of all of these areas.", "entities": [{"label": "expression", "start_offset": 6, "end_offset": 18}, {"label": "expression", "start_offset": 132, "end_offset": 144}, {"label": "expression", "start_offset": 172, "end_offset": 184}, {"label": "expression", "start_offset": 418, "end_offset": 430}, {"label": "expression", "start_offset": 491, "end_offset": 503}]}
+{"id": 4326, "text": "So the derivative of distance is velocity, the antiderivative of velocity is distance.", "entities": []}
+{"id": 4327, "text": "I'm doing pretty good.", "entities": []}
+{"id": 4328, "text": "This is that graph, and this is distance, right? So in case you hadn't learned already, and maybe I'll do a whole presentation on kind of using calculus for physics, and using derivatives for physics.", "entities": []}
+{"id": 4329, "text": "What would the velocity be? Well the velocity is just, what's velocity? It's distance divided by time, right? And since this velocity is always changing, we want to figure out the instantaneous velocity.", "entities": []}
+{"id": 4330, "text": "The object, every second you go, it's going a little bit further, right? So it's actually accelerating.", "entities": []}
+{"id": 4331, "text": "So this is the velocity.", "entities": []}
+{"id": 4332, "text": "So that'll have to do.", "entities": []}
+{"id": 4333, "text": "Have to use the line tool, might have better luck.", "entities": []}
+{"id": 4334, "text": "And actually this could be a good review for derivatives, or actually an application of derivatives.", "entities": []}
+{"id": 4335, "text": "Graph it.", "entities": []}
+{"id": 4336, "text": "How would we figure out, how would we figure out what the distance would be at any given time? Well let's think about it.", "entities": []}
+{"id": 4337, "text": "This will actually be a fairly straightforward graph to draw.", "entities": []}
+{"id": 4338, "text": "So there we figured out the area of this column, right? Well, if we wanted to figure out the distance that you travel after, let's say, you know, I don't know, let's say <EXPRESSION>, let's say <EXPRESSION>, right? This is just a particular <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 170, "end_offset": 182}, {"label": "expression", "start_offset": 194, "end_offset": 206}, {"label": "expression", "start_offset": 241, "end_offset": 253}]}
+{"id": 4339, "text": "So if we have a very small change of time, and over that very small change in time, we have a roughly constant velocity, let's say the roughly constant velocity is this.", "entities": []}
+{"id": 4340, "text": "Right? So s is distance.", "entities": []}
+{"id": 4341, "text": "So let's say that I described the position of something moving.", "entities": []}
+{"id": 4342, "text": "Let's assume that we were only given this graph.", "entities": []}
+{"id": 4343, "text": "The way I've used <EXPRESSION> is like, it's like a change in time that's unbelievably small, right? So it's like almost instantaneous, but not quite.", "entities": [{"label": "expression", "start_offset": 18, "end_offset": 30}]}
+{"id": 4344, "text": "I don't know why I switched colors, but I'll stick with the yellow.", "entities": []}
+{"id": 4345, "text": "One would think, well actually, I know, why won't they use <EXPRESSION>? Because <EXPRESSION> is the letter used for differential, I guess.", "entities": [{"label": "expression", "start_offset": 59, "end_offset": 71}, {"label": "expression", "start_offset": 81, "end_offset": 93}]}
+{"id": 4346, "text": "So this is the distance function.", "entities": []}
+{"id": 4347, "text": "Let's say it's <EXPRESSION>.", "entities": [{"label": "expression", "start_offset": 15, "end_offset": 27}]}
+{"id": 4348, "text": "And as you got more and more, as you made the dt's smaller and smaller, skinnier, skinnier, skinnier.", "entities": []}
+{"id": 4349, "text": "And let's called this very small time fragment, let call this delta <EXPRESSION>, or <EXPRESSION> actually.", "entities": [{"label": "expression", "start_offset": 68, "end_offset": 80}, {"label": "expression", "start_offset": 85, "end_offset": 97}]}
+{"id": 4350, "text": "Although you won't know where, at what position, the object started.", "entities": []}
+{"id": 4351, "text": "Transcript for: Introduction to definite integrals Welcome back.", "entities": []}
+{"id": 4352, "text": "And we said, you know, this is the graph of the velocity of some object.", "entities": []}
+{"id": 4353, "text": "And you had more and more and more and more of these rectangles, then your approximation will get pretty close to, well, <EXPRESSION> things.", "entities": [{"label": "expression", "start_offset": 121, "end_offset": 133}]}

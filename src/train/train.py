@@ -24,7 +24,7 @@ def main():
     print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
     
 
-    dataset = stage_3.load('removed_processed/3')
+    dataset = stage_3.load('reannotated_processed/3')
     
     def model_init():
         return AutoModelForTokenClassification.from_pretrained(
@@ -43,10 +43,10 @@ def main():
     
     training_args = TrainingArguments(
         num_train_epochs = 10,
-        output_dir="super_out_2/trials/",
+        output_dir="super_out_3/trials/",
         eval_strategy="epoch",
         save_strategy="epoch",
-        logging_dir="super_out_2/trials/logs",
+        logging_dir="super_out_3/trials/logs",
         logging_strategy="epoch",
         save_total_limit=1,
         load_best_model_at_end=True,
@@ -76,10 +76,10 @@ def main():
     )
 
     best_args = TrainingArguments(
-        output_dir="super_out_2/best/",
+        output_dir="super_out_3/best/",
         eval_strategy="epoch",
         save_strategy="epoch",
-        logging_dir="super_out_2/best/logs",
+        logging_dir="super_out_3/best/logs",
         logging_strategy="epoch",
         save_total_limit=3,
         load_best_model_at_end=True,
@@ -112,7 +112,7 @@ def main():
 
     try:
         import json
-        with open('results.txt', 'w', encoding='utf-8') as f:
+        with open('super_out_3/results.txt', 'w', encoding='utf-8') as f:
             f.write("best args:\n")
             f.write(json.dumps(best_args.to_dict(), indent=4))
         print(f"best args:\n{best_args}")
@@ -120,7 +120,7 @@ def main():
         pass
     
     best_trainer.train()
-    best_trainer.save_model("super_out_2/best_saved/")
+    best_trainer.save_model("super_out_3/best_saved/")
 
 if __name__ == "__main__":
     from multiprocessing import freeze_support

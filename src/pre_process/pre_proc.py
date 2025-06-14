@@ -11,11 +11,11 @@ from src.pre_process import stage_3
 from src.misc.text_utils import *
 from src.misc.globals import *
 
-out = 'reannotated_processed/'
+out = 'reannotated_revised_processed/'
 ## Pipeline
 # print('Merging raw data...')
 # concat_jsonl_data('reannotated_data', 'data/reannotated.jsonl')
-raw_jsonl = read_jsonl('data/reannotated.jsonl')
+raw_jsonl = read_jsonl('data/merged.jsonl')
 print('Finished merging\n')
 
 print('Started pre-processing stage 1/3...')

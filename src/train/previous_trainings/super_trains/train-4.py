@@ -1,3 +1,5 @@
+# train.py
+# branch: reannotated-2
 import torch
 import random
 import numpy as np
@@ -8,10 +10,6 @@ from transformers import TrainingArguments, Trainer, AutoModelForTokenClassifica
 from src.misc.globals import *
 from src.pre_process import stage_3
 from src.misc.metrics import *
-
-
-base_out_path = 'out/super_out_1_retrain/' # must be suffixed with '/'
-dataset_path = 'processed/orig'
 
 def main():
     random.seed(42)
@@ -27,7 +25,7 @@ def main():
     print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
     
 
-    dataset = stage_3.load(dataset_path)
+    dataset = stage_3.load('reannotated_revised_processed/3')
     
     def model_init():
         return AutoModelForTokenClassification.from_pretrained(
@@ -46,10 +44,10 @@ def main():
     
     training_args = TrainingArguments(
         num_train_epochs = 10,
-        output_dir=f"{base_out_path}trial-runs/",
+        output_dir="super_out_4/trials/",
         eval_strategy="epoch",
         save_strategy="epoch",
-        logging_dir=f"{base_out_path}summary/trial-logs/",
+        logging_dir="super_out_4/trials/logs",
         logging_strategy="epoch",
         save_total_limit=1,
         load_best_model_at_end=True,
@@ -66,7 +64,7 @@ def main():
         train_dataset=dataset['train'],
         eval_dataset=dataset['validation'],
         data_collator=data_collator,
-        compute_metrics=compute_metrics_span,
+        compute_metrics=compute_metrics,
     )
 
     trainer.add_callback(EarlyStoppingCallback(early_stopping_patience=5))
@@ -79,10 +77,10 @@ def main():
     )
 
     best_args = TrainingArguments(
-        output_dir=f"{base_out_path}summary/best/",
+        output_dir="super_out_4/best/",
         eval_strategy="epoch",
         save_strategy="epoch",
-        logging_dir=f"{base_out_path}summary/best/logs",
+        logging_dir="super_out_4/best/logs",
         logging_strategy="epoch",
         save_total_limit=3,
         load_best_model_at_end=True,
@@ -110,12 +108,12 @@ def main():
         train_dataset=dataset['train'],
         eval_dataset=dataset['validation'],
         data_collator=data_collator,
-        compute_metrics=compute_metrics_span,
+        compute_metrics=compute_metrics,
     )
 
     try:
         import json
-        with open(f'{base_out_path}summary/results.txt', 'w', encoding='utf-8') as f:
+        with open('super_out_4/results.txt', 'w', encoding='utf-8') as f:
             f.write("best args:\n")
             f.write(json.dumps(best_args.to_dict(), indent=4))
         print(f"best args:\n{best_args}")
@@ -123,9 +121,7 @@ def main():
         pass
     
     best_trainer.train()
-    best_trainer.save_model(f"{base_out_path}best_saved/")
-    compute_confusion_matrix(best_trainer, dataset['test'], labels, f'{base_out_path}summary/matrix_test.png')
-    compute_confusion_matrix(best_trainer, dataset['validation'], labels, f'{base_out_path}summary/matrix_eval.png')
+    best_trainer.save_model("super_out_4/best_saved/")
 
 if __name__ == "__main__":
     from multiprocessing import freeze_support

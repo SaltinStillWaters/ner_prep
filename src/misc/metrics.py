@@ -61,7 +61,6 @@ def compute_confusion_matrix(trainer, dataset, label_names, out_path):
     plt.title("Confusion Matrix")
     plt.tight_layout()
     plt.savefig(out_path)
-    plt.show()
 
     print(report)
 

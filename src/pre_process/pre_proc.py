@@ -27,7 +27,7 @@ if data_to_merge_path:
     merged_path = f'{merged_data_path}{out_file_name}.jsonl'
     concat_jsonl_data(data_to_merge_path, merged_data_path)
 
-data_path = data_path if data_path else merged_data_path
+data_path = data_path if data_path else merged_path
 out_path = f'{base_out}{data_path.split('/')[-1].split('.')[-2]}'
 raw_jsonl = read_jsonl(data_path)
 print('Finished merging\n')

@@ -9,8 +9,9 @@ from src.misc.globals import *
 from src.pre_process import stage_3
 from src.misc.metrics import *
 
-# must be suffixed with '/'
-base_out_path = 'out/test/'
+
+base_out_path = 'out/test/' # must be suffixed with '/'
+dataset_path = 'processed/orig'
 
 def main():
     random.seed(42)
@@ -26,7 +27,7 @@ def main():
     print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
     
 
-    dataset = stage_3.load('reannotated_revised_processed/3')
+    dataset = stage_3.load(dataset_path)
     
     def model_init():
         return AutoModelForTokenClassification.from_pretrained(
@@ -45,10 +46,10 @@ def main():
     
     training_args = TrainingArguments(
         num_train_epochs = 10,
-        output_dir=f"{base_out_path}trials/",
+        output_dir=f"{base_out_path}trial-runs/",
         eval_strategy="epoch",
         save_strategy="epoch",
-        logging_dir=f"{base_out_path}trials/logs",
+        logging_dir=f"{base_out_path}summary/trial-logs/",
         logging_strategy="epoch",
         save_total_limit=1,
         load_best_model_at_end=True,
@@ -78,10 +79,10 @@ def main():
     )
 
     best_args = TrainingArguments(
-        output_dir=f"{base_out_path}best/",
+        output_dir=f"{base_out_path}summary/best/",
         eval_strategy="epoch",
         save_strategy="epoch",
-        logging_dir=f"{base_out_path}best/logs",
+        logging_dir=f"{base_out_path}summary/best/logs",
         logging_strategy="epoch",
         save_total_limit=3,
         load_best_model_at_end=True,
@@ -114,7 +115,7 @@ def main():
 
     try:
         import json
-        with open(f'{base_out_path}results.txt', 'w', encoding='utf-8') as f:
+        with open(f'{base_out_path}summary/results.txt', 'w', encoding='utf-8') as f:
             f.write("best args:\n")
             f.write(json.dumps(best_args.to_dict(), indent=4))
         print(f"best args:\n{best_args}")
@@ -123,8 +124,8 @@ def main():
     
     best_trainer.train()
     best_trainer.save_model(f"{base_out_path}best_saved/")
-    compute_confusion_matrix(best_trainer, dataset['test'], labels, f'{base_out_path}/test.png')
-    compute_confusion_matrix(best_trainer, dataset['validation'], labels, f'{base_out_path}/eval.png')
+    compute_confusion_matrix(best_trainer, dataset['test'], labels, f'{base_out_path}summary/matrix_test.png')
+    compute_confusion_matrix(best_trainer, dataset['validation'], labels, f'{base_out_path}summary/matrix_eval.png')
 
 if __name__ == "__main__":
     from multiprocessing import freeze_support

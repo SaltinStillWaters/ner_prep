@@ -4,18 +4,20 @@ YOU ONLY NEED TO RUN THE FUNCTION HERE
 TO START THE PRE-PROCESSING
 """
 
+import os
+
 from src.pre_process import stage_1
 from src.pre_process import stage_2
 from src.pre_process import stage_3
-
 from src.misc.text_utils import *
 from src.misc.globals import *
 
 ## You only need to change tha variables here:
-data_to_merge_path = '' # leave blank if none
-data_path = '' #leave blank if $data_to_merge_path is filled
+## Supply the full path. One of the two must be filled
+data_path = 'data/combined/test.jsonl' #leave blank if $data_to_merge_path is filled
+data_to_merge_path = '' #leave blank if none
 
-## Don't edit unless you want custom paths
+## Don't edit unless you understand what you're doing
 base_out = 'processed/'
 merged_data_path = 'data/combined/'
 
@@ -25,10 +27,11 @@ if data_to_merge_path:
     print('Merging raw data...')
     out_file_name = data_to_merge_path.split('/')[-1]
     merged_path = f'{merged_data_path}{out_file_name}.jsonl'
-    concat_jsonl_data(data_to_merge_path, merged_data_path)
+    concat_jsonl_data(data_to_merge_path, merged_path)
 
 data_path = data_path if data_path else merged_path
-out_path = f'{base_out}{data_path.split('/')[-1].split('.')[-2]}'
+out_path = f'{base_out}{data_path.split('/')[-1].split('.')[-2]}/'
+os.makedirs(out_path)
 raw_jsonl = read_jsonl(data_path)
 print('Finished merging\n')
 

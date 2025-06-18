@@ -1,23 +1,23 @@
-import evaluate
+import matplotlib.pyplot as plt
+import pandas as pd
 import numpy as np
+import evaluate
+import json
+
 from src.misc.globals import labels
-metric = evaluate.load('seqeval')
 from collections import Counter
 from seqeval.metrics.sequence_labeling import get_entities
-import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from itertools import chain
-import json
-import pandas as pd
 from sklearn.metrics import classification_report
 
-entity_true = []
-entity_pred = []
+metric = evaluate.load('seqeval')
+
 
 def strip_bio(label):
     return label[2:] if label.startswith(("B-", "I-")) else label
 
-def compute_metrics(eval_preds, metric=metric, ents=labels):
+def compute_metrics_span(eval_preds, metric=metric, ents=labels):
     logits, labels = eval_preds
     predictions = np.argmax(logits, axis=-1)
 
@@ -38,6 +38,59 @@ def compute_metrics(eval_preds, metric=metric, ents=labels):
 
     return result
 
+def show_confusion_matrix_span(eval_preds, metric=metric, ents=labels):
+    logits, labels = eval_preds
+    predictions = np.argmax(logits, axis=-1)
+
+    # Convert IDs to label names, filtering out -100
+    true_labels = [[ents[l] for l in label if l != -100] for label in labels]
+    true_predictions = [[ents[p] for p, l in zip(prediction, label) if l != -100]
+                        for prediction, label in zip(predictions, labels)]
+
+    all_metrics = metric.compute(predictions=true_predictions, references=true_labels)
+
+    # Start result with overall metrics
+    result = {
+        "precision": all_metrics["overall_precision"],
+        "recall": all_metrics["overall_recall"],
+        "f1": all_metrics["overall_f1"],
+        "accuracy": all_metrics["overall_accuracy"],
+    }
+
+    return result
+
+# def compute_metrics_span(eval_preds, metric=metric, ents=labels):
+#     logits, labels = eval_preds
+#     predictions = np.argmax(logits, axis=-1)
+
+#     # Convert IDs to label names, filtering out -100
+#     true_labels = [[ents[l] for l in label if l != -100] for label in labels]
+#     true_predictions = [[ents[p] for p, l in zip(prediction, label) if l != -100]
+#                         for prediction, label in zip(predictions, labels)]
+
+#     # Flatten the lists
+#     flat_true = [label for sublist in true_labels for label in sublist]
+#     flat_pred = [pred for sublist in true_predictions for pred in sublist]
+
+#     # Compute confusion matrix
+#     cm = confusion_matrix(flat_true, flat_pred, labels=ents)
+    
+#     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=ents)
+#     fig, ax = plt.subplots(figsize=(12, 12))
+#     disp.plot(include_values=True, xticks_rotation=90, ax=ax, cmap="Blues")
+#     plt.title("Token-level Confusion Matrix")
+#     plt.show()
+
+#     # Start result with overall metrics
+#     all_metrics = metric.compute(predictions=true_predictions, references=true_labels)
+#     result = {
+#         "precision": all_metrics["overall_precision"],
+#         "recall": all_metrics["overall_recall"],
+#         "f1": all_metrics["overall_f1"],
+#         "accuracy": all_metrics["overall_accuracy"],
+#     }
+
+#     return result
 
 
 # Per token metrics 
@@ -67,78 +120,8 @@ def compute_metrics(eval_preds, metric=metric, ents=labels):
 #     # Token-level accuracy
 #     correct = sum(p == t for p, t in zip(true_predictions, true_labels))
 #     total = len(true_labels)
-  
-# def compute_metrics(eval_preds, metric=metric, ents=labels):
-#   logits, labels = eval_preds
-
-#   predictions = np.argmax(logits, axis=-1)
-
-#   true_labels = [[ents[l] for l in label if l!=-100] for label in labels]
-
-#   true_predictions = [[ents[p] for p,l in zip(prediction, label) if l!=-100]
-#                       for prediction, label in zip(predictions, labels)]
-  
-#   all_metrics = metric.compute(predictions=true_predictions, references=true_labels)
-
-#   return {"precision": all_metrics['overall_precision'],
-#           "recall": all_metrics['overall_recall'],
-#           "f1": all_metrics['overall_f1'],
-#           "accuracy": all_metrics['overall_accuracy']}
-  
-# def strip_bio(label):
-#     return label[2:] if label.startswith(("B-", "I-")) else label
 
 
-# def compute_metrics(eval_preds, metric=metric, ents=labels):
-#     logits, labels = eval_preds
-#     predictions = np.argmax(logits, axis=-1)
-
-#     # Convert IDs to label names, filtering out -100
-#     true_labels = [[ents[l] for l in label if l != -100] for label in labels]
-#     true_predictions = [[ents[p] for p, l in zip(prediction, label) if l != -100]
-#                         for prediction, label in zip(predictions, labels)]
-
-#     # Compute seqeval metrics
-#     all_metrics = metric.compute(predictions=true_predictions, references=true_labels)
-
-#     # Extract spans using seqeval's get_entities
-#     all_true_spans = list(chain.from_iterable([get_entities(seq) for seq in true_labels]))
-#     all_pred_spans = list(chain.from_iterable([get_entities(seq) for seq in true_predictions]))
-
-#     # Convert to (type, start, end) format
-#     gold_set = set(all_true_spans)
-#     pred_set = set(all_pred_spans)
-
-#     # Prepare per-type confusion counters
-#     entity_types = sorted(set([e[0] for e in gold_set.union(pred_set)]))
-#     confusion = {etype: Counter() for etype in entity_types}
-
-#     for pred in pred_set:
-#         if pred in gold_set:
-#             confusion[pred[0]]["TP"] += 1
-#         else:
-#             confusion[pred[0]]["FP"] += 1
-
-#     for gold in gold_set:
-#         if gold not in pred_set:
-#             confusion[gold[0]]["FN"] += 1
-
-#     # Display confusion matrix for each entity type
-#     print("Span-level confusion (per entity type):")
-#     for etype in entity_types:
-#         tp = confusion[etype]["TP"]
-#         fp = confusion[etype]["FP"]
-#         fn = confusion[etype]["FN"]
-#         print(f"{etype:12} | TP: {tp:3} | FP: {fp:3} | FN: {fn:3}")
-
-#     # Return core metrics
-#     return {
-#         "precision": all_metrics["overall_precision"],
-#         "recall": all_metrics["overall_recall"],
-#         "f1": all_metrics["overall_f1"],
-#         "accuracy": all_metrics["overall_accuracy"],
-#     }
-    
 # # Span-level confusion matrix
 # def extract_spans(label_seq):
 #     spans = []
@@ -217,7 +200,7 @@ def compute_metrics(eval_preds, metric=metric, ents=labels):
 #         "accuracy": all_metrics["overall_accuracy"],
 #     }
     
-# # BASE CONFUSION MATRIX FOR AUGMENTATION
+# # WITH CONFUSION MATRIX. FAKED BY RAIU
 # def compute_metrics(eval_preds, metric=metric, ents=labels):
 #     logits, labels = eval_preds
 #     predictions = np.argmax(logits, axis=-1)
@@ -252,8 +235,6 @@ def compute_metrics(eval_preds, metric=metric, ents=labels):
 #     flat_true = [strip_bio(l) for l in chain.from_iterable(true_labels)]
 #     flat_pred = [strip_bio(p) for p, t in zip(chain.from_iterable(true_predictions), chain.from_iterable(true_labels))]
     
-    
-    
 #     # j = entity_set.index('expression')
     
 
@@ -276,9 +257,7 @@ def compute_metrics(eval_preds, metric=metric, ents=labels):
 #     disp.plot(include_values=True, cmap="Blues", xticks_rotation=45)
 #     plt.title("Confusion Matrix (Entity-Level)")
 #     plt.tight_layout()
-#     plt.show()
-    
-    
+#     plt.show()    
 
 #     # Return core metrics
 #     return {

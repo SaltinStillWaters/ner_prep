@@ -2,6 +2,7 @@ model_out/
 runs/
 distilbert-finetuned-ner/
 super_out*/
+out/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

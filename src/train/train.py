@@ -9,6 +9,9 @@ from src.misc.globals import *
 from src.pre_process import stage_3
 from src.misc.metrics import *
 
+# must be suffixed with '/'
+base_out_path = 'out/test/'
+
 def main():
     random.seed(42)
     np.random.seed(42)
@@ -42,10 +45,10 @@ def main():
     
     training_args = TrainingArguments(
         num_train_epochs = 10,
-        output_dir="super_out_4/trials/",
+        output_dir=f"{base_out_path}trials/",
         eval_strategy="epoch",
         save_strategy="epoch",
-        logging_dir="super_out_4/trials/logs",
+        logging_dir=f"{base_out_path}trials/logs",
         logging_strategy="epoch",
         save_total_limit=1,
         load_best_model_at_end=True,
@@ -71,14 +74,14 @@ def main():
         direction="maximize",
         hp_space=hp_space,
         backend="optuna",
-        n_trials=200  # Adjust as needed
+        n_trials=1  # Adjust as needed
     )
 
     best_args = TrainingArguments(
-        output_dir="super_out_4/best/",
+        output_dir=f"{base_out_path}best/",
         eval_strategy="epoch",
         save_strategy="epoch",
-        logging_dir="super_out_4/best/logs",
+        logging_dir=f"{base_out_path}best/logs",
         logging_strategy="epoch",
         save_total_limit=3,
         load_best_model_at_end=True,
@@ -111,7 +114,7 @@ def main():
 
     try:
         import json
-        with open('super_out_4/results.txt', 'w', encoding='utf-8') as f:
+        with open(f'{base_out_path}results.txt', 'w', encoding='utf-8') as f:
             f.write("best args:\n")
             f.write(json.dumps(best_args.to_dict(), indent=4))
         print(f"best args:\n{best_args}")
@@ -119,7 +122,9 @@ def main():
         pass
     
     best_trainer.train()
-    best_trainer.save_model("super_out_4/best_saved/")
+    best_trainer.save_model(f"{base_out_path}best_saved/")
+    compute_confusion_matrix(best_trainer, dataset['test'], labels, f'{base_out_path}/test.png')
+    compute_confusion_matrix(best_trainer, dataset['validation'], labels, f'{base_out_path}/eval.png')
 
 if __name__ == "__main__":
     from multiprocessing import freeze_support

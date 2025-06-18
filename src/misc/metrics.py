@@ -1,15 +1,11 @@
 import matplotlib.pyplot as plt
-import pandas as pd
 import numpy as np
 import evaluate
-import json
+import seaborn as sns
+import numpy as np
 
+from sklearn.metrics import confusion_matrix, classification_report
 from src.misc.globals import labels
-from collections import Counter
-from seqeval.metrics.sequence_labeling import get_entities
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-from itertools import chain
-from sklearn.metrics import classification_report
 
 metric = evaluate.load('seqeval')
 
@@ -38,26 +34,36 @@ def compute_metrics_span(eval_preds, metric=metric, ents=labels):
 
     return result
 
-def show_confusion_matrix_span(eval_preds, metric=metric, ents=labels):
-    logits, labels = eval_preds
-    predictions = np.argmax(logits, axis=-1)
+def compute_confusion_matrix(trainer, dataset, label_names, out_path):
+    # Step 1: Get predictions
+    predictions, labels, _ = trainer.predict(dataset)
+    preds = np.argmax(predictions, axis=-1)
 
-    # Convert IDs to label names, filtering out -100
-    true_labels = [[ents[l] for l in label if l != -100] for label in labels]
-    true_predictions = [[ents[p] for p, l in zip(prediction, label) if l != -100]
-                        for prediction, label in zip(predictions, labels)]
+    # Step 2: Flatten and filter
+    true_labels = []
+    pred_labels = []
 
-    all_metrics = metric.compute(predictions=true_predictions, references=true_labels)
+    for pred, label in zip(preds, labels):
+        for p, l in zip(pred, label):
+            if l != -100:  # Ignore special tokens
+                true_labels.append(l)
+                pred_labels.append(p)
 
-    # Start result with overall metrics
-    result = {
-        "precision": all_metrics["overall_precision"],
-        "recall": all_metrics["overall_recall"],
-        "f1": all_metrics["overall_f1"],
-        "accuracy": all_metrics["overall_accuracy"],
-    }
+    # Step 3: Compute confusion matrix
+    cm = confusion_matrix(true_labels, pred_labels)
+    report = classification_report(true_labels, pred_labels, target_names=label_names)
 
-    return result
+    # Step 4: Plot
+    plt.figure(figsize=(12, 10))
+    sns.heatmap(cm, annot=True, fmt="d", xticklabels=label_names, yticklabels=label_names, cmap="Blues")
+    plt.xlabel("Predicted")
+    plt.ylabel("True")
+    plt.title("Confusion Matrix")
+    plt.tight_layout()
+    plt.savefig(out_path)
+    plt.show()
+
+    print(report)
 
 # def compute_metrics_span(eval_preds, metric=metric, ents=labels):
 #     logits, labels = eval_preds

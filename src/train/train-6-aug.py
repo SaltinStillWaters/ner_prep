@@ -10,8 +10,8 @@ from src.pre_process import stage_3
 from src.misc.metrics import *
 
 
-base_out_path = 'out/super_out_6_aug/' # must be suffixed with '/'
-dataset_path = 'processed/reannotated_revised/3'
+base_out_path = 'out/super_out_6_aug' # must be suffixed with '/'
+dataset_path = 'reannotated_revised_processed/3'
 
 def main():
     random.seed(42)
@@ -68,7 +68,7 @@ def main():
     )
 
     best_trainer.train()
-    best_trainer.save_model()
+    best_trainer.save_model(f'{base_out_path}best_saved/')
     
     try:
         import json

@@ -68,7 +68,7 @@ def main():
     )
 
     best_trainer.train()
-    best_trainer.save_model(f'{base_out_path}best_saved/')
+    best_trainer.save_model(f'{base_out_path}/best_saved/')
     
     try:
         import json
@@ -79,7 +79,7 @@ def main():
     except:
         pass
     
-    compute_confusion_matrix(best_trainer, dataset['validation'], labels, f'{base_out_path}summary/matrix_eval.png')
+    compute_confusion_matrix(best_trainer, dataset['validation'], labels, f'{base_out_path}/summary/matrix_eval.png')
 
 if __name__ == "__main__":
     from multiprocessing import freeze_support

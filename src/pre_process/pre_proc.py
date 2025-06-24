@@ -14,7 +14,7 @@ from src.misc.globals import *
 
 ## You only need to change tha variables here:
 ## Supply the full path. One of the two must be filled
-data_path = 'data/combined/test.jsonl' #leave blank if $data_to_merge_path is filled
+data_path = 'data/combined/reannotated_revised.jsonl' #leave blank if $data_to_merge_path is filled
 data_to_merge_path = '' #leave blank if none
 
 ## Don't edit unless you understand what you're doing

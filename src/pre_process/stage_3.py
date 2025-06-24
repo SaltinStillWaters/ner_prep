@@ -42,10 +42,12 @@ def pre_process(stg_2_data, tag2index):
 
     X_train = X.ravel().tolist()
 
+    dummy_example = {key: "" if isinstance(val, str) else [] for key, val in X_train[0].items()}
+    
     dataset_dict = DatasetDict({
         "train": Dataset.from_list(X_train),
-        "validation": Dataset.from_list([]),
-        "test": Dataset.from_list([])
+        "validation": Dataset.from_list([dummy_example]),
+        "test": Dataset.from_list([dummy_example])
     })
     
     return dataset_dict

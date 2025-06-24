@@ -1,0 +1,48 @@
+{"id": 234570, "text": "so the end result is <expression> is <expression>  constant ", "entities": [], "relations": [], "Comments": []}
+{"id": 234571, "text": "okay that s a neat fact ", "entities": [], "relations": [], "Comments": []}
+{"id": 234572, "text": "final question for the lecture is what s <expression> applied to <expression>  excellent ", "entities": [], "relations": [], "Comments": []}
+{"id": 234573, "text": "it s the derivative of a constant ", "entities": [{"id": 92768, "label": "method", "start_offset": 9, "end_offset": 19}], "relations": [], "Comments": []}
+{"id": 234574, "text": "so it s <expression>  thank you ", "entities": [], "relations": [], "Comments": []}
+{"id": 234620, "text": "let <equation> be the formula we need to solve today ", "entities": [{"id": 93856, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234621, "text": "let <equation> represent the relationship between two variables ", "entities": [{"id": 93857, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234622, "text": "let <equation> show us how to calculate the area of a circle ", "entities": [{"id": 93858, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234623, "text": "let <equation> be an example of a linear equation ", "entities": [{"id": 93859, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234624, "text": "let <equation> demonstrate how slope is related to rise and run ", "entities": [{"id": 93860, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234625, "text": "let <equation> be a way to solve for unknowns ", "entities": [{"id": 93861, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234626, "text": "let <equation> define the trajectory of a ball thrown upward ", "entities": [{"id": 93862, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234627, "text": "let <equation> be used to compute the total cost ", "entities": [{"id": 93864, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234628, "text": "let <equation> form the basis for our mathematical proof ", "entities": [{"id": 93865, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234629, "text": "let <equation> guide us toward a solution ", "entities": [{"id": 93866, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234630, "text": "let <equation> be simplified to its most compact form ", "entities": [{"id": 93867, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234631, "text": "let <equation> aid in understanding algebraic relationships ", "entities": [{"id": 93868, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234632, "text": "let <equation> show how we can balance both sides ", "entities": [{"id": 93869, "label": "command", "start_offset": 0, "end_offset": 3}, {"id": 93870, "label": "command_attribute", "start_offset": 39, "end_offset": 49}], "relations": [], "Comments": []}
+{"id": 234633, "text": "let <equation> help us practice our problem solving skills ", "entities": [{"id": 93871, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234634, "text": "let <equation> be manipulated to isolate the variable ", "entities": [{"id": 93872, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234635, "text": "let <equation> represent a real world scenario ", "entities": [{"id": 93873, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234636, "text": "let <equation> be a stepping stone to more complex math ", "entities": [{"id": 93874, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234637, "text": "let <equation> form a comparison between two values ", "entities": [{"id": 93875, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234638, "text": "let <equation> reflect the data we have collected ", "entities": [{"id": 93876, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234639, "text": "let <equation> serve as a tool for mathematical exploration ", "entities": [{"id": 93877, "label": "command", "start_offset": 0, "end_offset": 3}], "relations": [], "Comments": []}
+{"id": 234640, "text": "first  let <equation> be the formula we need to solve today ", "entities": [{"id": 93878, "label": "command", "start_offset": 7, "end_offset": 10}], "relations": [], "Comments": []}
+{"id": 234641, "text": "now  let <equation> represent the relationship between two variables ", "entities": [{"id": 93879, "label": "command", "start_offset": 5, "end_offset": 8}], "relations": [], "Comments": []}
+{"id": 234642, "text": "next  let <equation> show us how to calculate the area of a circle ", "entities": [{"id": 93880, "label": "command", "start_offset": 6, "end_offset": 9}], "relations": [], "Comments": []}
+{"id": 234643, "text": "to proceed  let <equation> be an example of a linear equation ", "entities": [{"id": 93882, "label": "command", "start_offset": 12, "end_offset": 15}], "relations": [], "Comments": []}
+{"id": 234644, "text": "remember  let <equation> demonstrate how slope is related to rise and run ", "entities": [{"id": 93883, "label": "command", "start_offset": 10, "end_offset": 13}], "relations": [], "Comments": []}
+{"id": 234645, "text": "subsequently  let <equation> be a way to solve for unknowns ", "entities": [{"id": 93884, "label": "command", "start_offset": 14, "end_offset": 17}], "relations": [], "Comments": []}
+{"id": 234646, "text": "at this point  let <equation> define the trajectory of a ball thrown upward ", "entities": [{"id": 93885, "label": "command", "start_offset": 15, "end_offset": 18}], "relations": [], "Comments": []}
+{"id": 234647, "text": "furthermore  let <equation> be used to compute the total cost ", "entities": [{"id": 93887, "label": "command", "start_offset": 13, "end_offset": 16}], "relations": [], "Comments": []}
+{"id": 234648, "text": "finally  let <equation> form the basis for our mathematical proof ", "entities": [{"id": 93888, "label": "command", "start_offset": 9, "end_offset": 12}], "relations": [], "Comments": []}
+{"id": 234649, "text": "now  let <equation> guide us toward a solution ", "entities": [{"id": 93889, "label": "command", "start_offset": 5, "end_offset": 8}], "relations": [], "Comments": []}
+{"id": 234650, "text": "hereafter  let <equation> be simplified to its most compact form ", "entities": [{"id": 93890, "label": "command", "start_offset": 11, "end_offset": 14}], "relations": [], "Comments": []}
+{"id": 234651, "text": "meanwhile  let <equation> aid in understanding algebraic relationships ", "entities": [{"id": 93891, "label": "command", "start_offset": 11, "end_offset": 14}], "relations": [], "Comments": []}
+{"id": 234652, "text": "subsequently  let <equation> show how we can balance both sides ", "entities": [{"id": 93892, "label": "command", "start_offset": 14, "end_offset": 17}, {"id": 93893, "label": "command_attribute", "start_offset": 53, "end_offset": 63}], "relations": [], "Comments": []}
+{"id": 234653, "text": "currently  let <equation> help us practice our problem solving skills ", "entities": [{"id": 93894, "label": "command", "start_offset": 11, "end_offset": 14}], "relations": [], "Comments": []}
+{"id": 234654, "text": "at this moment  let <equation> be manipulated to isolate the variable ", "entities": [{"id": 93895, "label": "command", "start_offset": 16, "end_offset": 19}], "relations": [], "Comments": []}
+{"id": 234655, "text": "next  let <equation> represent a real world scenario ", "entities": [{"id": 93896, "label": "command", "start_offset": 6, "end_offset": 9}], "relations": [], "Comments": []}
+{"id": 234656, "text": "then  let <equation> be a stepping stone to more complex math ", "entities": [{"id": 93897, "label": "command", "start_offset": 6, "end_offset": 9}], "relations": [], "Comments": []}
+{"id": 234657, "text": "later  let <equation> form a comparison between two values ", "entities": [{"id": 93898, "label": "command", "start_offset": 7, "end_offset": 10}], "relations": [], "Comments": []}
+{"id": 234658, "text": "currently  let <equation> reflect the data we have collected ", "entities": [{"id": 93899, "label": "command", "start_offset": 11, "end_offset": 14}], "relations": [], "Comments": []}
+{"id": 234659, "text": "subsequently  let <equation> serve as a tool for mathematical exploration ", "entities": [{"id": 93900, "label": "command", "start_offset": 14, "end_offset": 17}], "relations": [], "Comments": []}
+{"id": 234660, "text": "to aid our understanding  let <expression> be simplified first ", "entities": [{"id": 93901, "label": "command", "start_offset": 26, "end_offset": 29}], "relations": [], "Comments": []}
+{"id": 234661, "text": "now  let <expression> show the form we need to compute ", "entities": [{"id": 93902, "label": "command", "start_offset": 5, "end_offset": 8}], "relations": [], "Comments": []}
+{"id": 234662, "text": "next  let <expression> help us identify the main components ", "entities": [{"id": 93903, "label": "command", "start_offset": 6, "end_offset": 9}], "relations": [], "Comments": []}

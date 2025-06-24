@@ -13,8 +13,8 @@ from src.misc.metrics import *
 from pathlib import Path
 
 base_out_path = 'out/super_out_7_aug' # must be suffixed with '/'
-eval_dataset_path = 'reannotated_revised_processed/3'
-base_model_path = '' # change to path to baseline model
+eval_dataset_path = 'processed/base_dataset/3'
+base_model_path = 'distilbert-base-uncased' # change to path to baseline model
 
 def main(aug_dataset, dataset_name):
     random.seed(42)
@@ -46,7 +46,7 @@ def main(aug_dataset, dataset_name):
         
         per_device_eval_batch_size=32,
         
-        num_train_epochs=10,
+        num_train_epochs=3,
         learning_rate=3e-5,
         per_device_train_batch_size=8,
         weight_decay=0.421288,
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     from multiprocessing import freeze_support
     freeze_support()  # Optional, but avoids bugs on frozen apps or weird IDEs
     
-    datasets_dir = 'aug_data'
+    datasets_dir = 'data_aug/'
     processed_aug_path = 'processed_aug/'
     
     for filename in os.listdir(datasets_dir):
@@ -87,8 +87,13 @@ if __name__ == "__main__":
         file_path = os.path.join(datasets_dir, filename)
 
         print(f'===STARTING TRAINING OF {dataset_name}')
+        print(file_path)
+        try:
+            pre_proc_func.run(file_path, processed_aug_path)
+        except FileExistsError:
+            # pass here because no need to pre-process
+            pass
         
-        pre_proc_func.run(filename, processed_aug_path)
         aug_dataset = stage_3.load(f'{processed_aug_path}{dataset_name}/3')
         
         main(aug_dataset, dataset_name)

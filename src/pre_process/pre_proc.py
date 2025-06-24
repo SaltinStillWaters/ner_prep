@@ -43,7 +43,7 @@ print('Finished pre-processing stage 1/3\n')
 print('Started pre-processing stage 2/3...')
 stg_2 = stage_2.pre_process(stg_1, tokenizer, tag2index)
 stage_2.save(f'{out_path}2.pkl', stg_2)
-stage_2.print_token_alignment(stg_2[1], tokenizer)
+# stage_2.print_token_alignment(stg_2[1], tokenizer)
 print('Finished pre-processing stage 2/3\n')
 
 print('Started pre-processing stage 3/3...')

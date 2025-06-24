@@ -40,21 +40,12 @@ def pre_process(stg_2_data, tag2index):
     print(X.shape)  # Should be (n_samples, 1)
     print(Y.shape)
 
-    # Split into train (70%) and temp (30%)
-    X_train, Y_train, X_temp, Y_temp = iterative_train_test_split(X, Y, test_size=0.3)
-
-    # Split temp into val (15%) and test (15%)
-    X_val, Y_val, X_test, Y_test = iterative_train_test_split(X_temp, Y_temp, test_size=0.5)
-
-    # Flatten X back
-    X_train = X_train.ravel().tolist()
-    X_val = X_val.ravel().tolist()
-    X_test = X_test.ravel().tolist()
+    X_train = X.ravel().tolist()
 
     dataset_dict = DatasetDict({
         "train": Dataset.from_list(X_train),
-        "validation": Dataset.from_list(X_val),
-        "test": Dataset.from_list(X_test)
+        "validation": Dataset.from_list([]),
+        "test": Dataset.from_list([])
     })
     
     return dataset_dict

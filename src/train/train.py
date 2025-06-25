@@ -4,6 +4,8 @@ import numpy as np
 import torchvision
 import os
 import shutil
+import sys
+import time
 
 from transformers import EarlyStoppingCallback
 from transformers import TrainingArguments, Trainer, AutoModelForTokenClassification
@@ -16,7 +18,7 @@ base_out_path = 'out/super_out_7_aug' # must be suffixed with '/'
 eval_dataset_path = 'processed/base_dataset/3'
 base_model_path = 'distilbert-base-uncased' # change to path to baseline model
 
-def main(aug_dataset, dataset_name):
+def main(aug_dataset, dataset_name, eval_to_use):
     random.seed(42)
     np.random.seed(42)
     torch.manual_seed(42)
@@ -44,7 +46,7 @@ def main(aug_dataset, dataset_name):
         greater_is_better=True,
         report_to="tensorboard",
         
-        per_device_eval_batch_size=32,
+        per_device_eval_batch_size=eval_to_use,
         
         num_train_epochs=3,
         learning_rate=3e-5,
@@ -70,10 +72,16 @@ def main(aug_dataset, dataset_name):
         compute_metrics=compute_metrics_span,
     )
 
+    a = time.time()
     best_trainer.train()
+    b = time.time()
     
+    try:
+        compute_confusion_matrix(best_trainer, eval_dataset['validation'], labels, f'{base_out_path}/{dataset_name}/summary/matrix_eval.png')
+    except:
+        pass
     
-    compute_confusion_matrix(best_trainer, eval_dataset['validation'], labels, f'{base_out_path}/{dataset_name}/summary/matrix_eval.png')
+    return b - a
 
 if __name__ == "__main__":
     from multiprocessing import freeze_support
@@ -81,6 +89,11 @@ if __name__ == "__main__":
     
     datasets_dir = 'data_aug/'
     processed_aug_path = 'processed_aug/'
+    
+    eval_sizes_to_test = [8, 16, 32, 64]
+    ctr = 0
+    best_eval = eval_sizes_to_test[0]
+    best_time = sys.float_info.max
     
     for filename in os.listdir(datasets_dir):
         dataset_name = Path(filename).stem
@@ -96,7 +109,21 @@ if __name__ == "__main__":
         
         aug_dataset = stage_3.load(f'{processed_aug_path}{dataset_name}/3')
         
-        main(aug_dataset, dataset_name)
+        if ctr < len(eval_sizes_to_test):
+            eval_to_use = eval_sizes_to_test[ctr]
+            ctr += 1
+        else:
+            eval_to_use = best_eval
+            
+        train_time = main(aug_dataset, dataset_name, eval_to_use)
+        
+        if ctr <= len(eval_sizes_to_test):
+            with open(f'{base_out_path}/train_time.txt', 'a', encoding='utf-8') as f:
+                f.write(f'{eval_to_use}:\t{train_time}\n')
+            
+        if train_time < best_time:
+            best_eval = eval_to_use
+            best_time = train_time
         
         checkpoint_dir = Path(f"{base_out_path}/{dataset_name}")
         for ckpt in checkpoint_dir.glob("checkpoint-*"):

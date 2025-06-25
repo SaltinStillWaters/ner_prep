@@ -16,7 +16,7 @@ from pathlib import Path
 
 base_out_path = 'out/super_out_7_aug' # must be suffixed with '/'
 eval_dataset_path = 'processed/base_dataset/3'
-base_model_path = 'distilbert-base-uncased' # change to path to baseline model
+base_model_path = 'best_saved/' # change to path to baseline model
 
 def main(aug_dataset, dataset_name, eval_to_use):
     random.seed(42)
@@ -126,5 +126,4 @@ if __name__ == "__main__":
             best_time = train_time
         
         checkpoint_dir = Path(f"{base_out_path}/{dataset_name}")
-        for ckpt in checkpoint_dir.glob("checkpoint-*"):
-            shutil.rmtree(ckpt, ignore_errors=True)
+        shutil.rmtree(checkpoint_dir, ignore_errors=True)

@@ -6,6 +6,7 @@ TO START THE PRE-PROCESSING
 
 import os
 
+from pathlib import Path
 from src.pre_process import stage_1
 from src.pre_process import stage_2
 from src.pre_process import stage_3
@@ -14,8 +15,7 @@ from src.misc.globals import *
 
 def run(data_path, base_out):
     ## Pipeline
-    data_path = data_path if data_path else merged_path
-    out_path = f'{base_out}{data_path.split('/')[-1].split('.')[-2]}/'
+    out_path = f'{base_out}{Path(data_path).stem}/'
     os.makedirs(out_path)
     raw_jsonl = read_jsonl(data_path)
     print('Finished merging\n')

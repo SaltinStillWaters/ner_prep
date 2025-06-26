@@ -6,6 +6,7 @@ import os
 import shutil
 import sys
 import time
+import traceback
 
 from transformers import EarlyStoppingCallback
 from transformers import TrainingArguments, Trainer, AutoModelForTokenClassification
@@ -128,6 +129,13 @@ if __name__ == "__main__":
             
             checkpoint_dir = Path(f"{base_out_path}/{dataset_name}")
             shutil.rmtree(checkpoint_dir, ignore_errors=True)
+
+        except KeyboardInterrupt:
+            print("Training interrupted by user.")
+            sys.exit(0)
+            
         except Exception as e:
             with open(f'{base_out_path}/errors.txt', 'a', encoding='utf-8') as f:
-                f.write(f"[>>>>>{dataset_name}] Error: {str(e)}\n\n\n")
+                f.write(f"[>>>>>{dataset_name}] Error: {str(e)}\n")
+                f.write(traceback.format_exc())
+                f.write("\n\n")

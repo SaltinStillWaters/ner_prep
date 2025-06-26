@@ -14,7 +14,7 @@ from src.pre_process import stage_3, pre_proc_func
 from src.misc.metrics import *
 from pathlib import Path
 
-base_out_path = 'out/super_out_7_aug' # must be suffixed with '/'
+base_out_path = 'out/super_out_7_aug_fix' # must be suffixed with '/'
 eval_dataset_path = 'processed/base_dataset/3'
 base_model_path = 'best_saved/' # change to path to baseline model
 
@@ -96,34 +96,38 @@ if __name__ == "__main__":
     best_time = sys.float_info.max
     
     for filename in os.listdir(datasets_dir):
-        dataset_name = Path(filename).stem
-        file_path = os.path.join(datasets_dir, filename)
-
-        print(f'===STARTING TRAINING OF {dataset_name}')
-        print(file_path)
         try:
-            pre_proc_func.run(file_path, processed_aug_path)
-        except FileExistsError:
-            # pass here because no need to pre-process
-            pass
-        
-        aug_dataset = stage_3.load(f'{processed_aug_path}{dataset_name}/3')
-        
-        if ctr < len(eval_sizes_to_test):
-            eval_to_use = eval_sizes_to_test[ctr]
-            ctr += 1
-        else:
-            eval_to_use = best_eval
+            dataset_name = Path(filename).stem
+            file_path = os.path.join(datasets_dir, filename)
+
+            print(f'===STARTING TRAINING OF {dataset_name}')
+            print(file_path)
+            try:
+                pre_proc_func.run(file_path, processed_aug_path)
+            except FileExistsError:
+                # pass here because no need to pre-process
+                pass
             
-        train_time = main(aug_dataset, dataset_name, eval_to_use)
-        
-        if ctr <= len(eval_sizes_to_test):
-            with open(f'{base_out_path}/train_time.txt', 'a', encoding='utf-8') as f:
-                f.write(f'{eval_to_use}:\t{train_time}\n')
+            aug_dataset = stage_3.load(f'{processed_aug_path}{dataset_name}/3')
             
-        if train_time < best_time:
-            best_eval = eval_to_use
-            best_time = train_time
-        
-        checkpoint_dir = Path(f"{base_out_path}/{dataset_name}")
-        shutil.rmtree(checkpoint_dir, ignore_errors=True)
+            if ctr < len(eval_sizes_to_test):
+                eval_to_use = eval_sizes_to_test[ctr]
+                ctr += 1
+            else:
+                eval_to_use = best_eval
+                
+            train_time = main(aug_dataset, dataset_name, eval_to_use)
+            
+            if ctr <= len(eval_sizes_to_test):
+                with open(f'{base_out_path}/train_time.txt', 'a', encoding='utf-8') as f:
+                    f.write(f'{eval_to_use}:\t{train_time}\n')
+                
+            if train_time < best_time:
+                best_eval = eval_to_use
+                best_time = train_time
+            
+            checkpoint_dir = Path(f"{base_out_path}/{dataset_name}")
+            shutil.rmtree(checkpoint_dir, ignore_errors=True)
+        except Exception as e:
+            with open(f'{base_out_path}/errors.txt', 'a', encoding='utf-8') as f:
+                f.write(f"[>>>>>{dataset_name}] Error: {str(e)}\n\n\n")

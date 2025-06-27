@@ -96,6 +96,9 @@ if __name__ == "__main__":
     best_eval = eval_sizes_to_test[0]
     best_time = sys.float_info.max
     
+    with open(f'{base_out_path}/errors.txt', 'w', encoding='utf-8') as f:
+                f.write('')
+                
     for filename in os.listdir(datasets_dir):
         try:
             dataset_name = Path(filename).stem

@@ -27,7 +27,7 @@ def main(dataset_path, hparams, dataset_name):
     print(torch.version.cuda)
     print('Torch version:', torch.__version__)
     print('TorchVision version:', torchvision.__version__)
-    print("CUDA available:", torch.cuda.is_available())
+    print("CUDA available:", torch.cuda.is_available()) 
     print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
     
 
@@ -94,4 +94,10 @@ if __name__ == "__main__":
     ]
     
     for x in range(len(datasets)):
+        print("\n\n\n\ntag2index:", tag2index)
+        print("index2tag:", index2tag)
+        print("num labels:", len(index2tag))
+
+        data = stage_3.load('processed/orig')
+        print(data, '\n\n\n\n\n')
         main(datasets[x], hparams[x], datasets[x].split('/')[1])

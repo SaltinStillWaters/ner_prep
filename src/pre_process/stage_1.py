@@ -72,9 +72,6 @@ def is_valid_jsonl_line(jsonl_full: list[dict]) -> bool:
             if not required_ent_keys.issubset(ent):
                 print(f"Failed: Entity at index {i} missing keys {required_ent_keys - set(ent)}.")
                 return False
-            if not isinstance(ent["id"], int):
-                print(f"Failed: Entity id at index {i} is not an int.")
-                return False
             if not isinstance(ent["label"], str):
                 print(f"Failed: Entity label at index {i} is not a string.")
                 return False

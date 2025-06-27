@@ -15,7 +15,7 @@ from src.pre_process import stage_3, pre_proc_func
 from src.misc.metrics import *
 from pathlib import Path
 
-base_out_path = 'out/super_out_7_aug_fix' # must be suffixed with '/'
+base_out_path = 'out/best_model_training/' # must be suffixed with '/'
 
 def main(dataset_path, hparams, dataset_name):
     random.seed(42)
@@ -94,4 +94,4 @@ if __name__ == "__main__":
     ]
     
     for x in range(len(datasets)):
-        main(datasets[x], hparams[x], datasets[x].split('\n')[1])
+        main(datasets[x], hparams[x], datasets[x].split('/')[1])

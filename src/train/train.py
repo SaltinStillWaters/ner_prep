@@ -16,10 +16,8 @@ from src.misc.metrics import *
 from pathlib import Path
 
 base_out_path = 'out/super_out_7_aug_fix' # must be suffixed with '/'
-eval_dataset_path = 'processed/base_dataset/3'
-base_model_path = 'best_saved/' # change to path to baseline model
 
-def main(aug_dataset, dataset_name, eval_to_use):
+def main(dataset_path, hparams, dataset_name):
     random.seed(42)
     np.random.seed(42)
     torch.manual_seed(42)
@@ -33,7 +31,7 @@ def main(aug_dataset, dataset_name, eval_to_use):
     print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
     
 
-    eval_dataset = stage_3.load(eval_dataset_path)
+    eval_dataset = stage_3.load(dataset_path)
 
     best_args = TrainingArguments(
         output_dir=f"{base_out_path}/{dataset_name}",
@@ -47,18 +45,18 @@ def main(aug_dataset, dataset_name, eval_to_use):
         greater_is_better=True,
         report_to="tensorboard",
         
-        per_device_eval_batch_size=eval_to_use,
-        
-        num_train_epochs=3,
-        learning_rate=3e-5,
-        per_device_train_batch_size=8,
-        weight_decay=0.421288,
-        warmup_ratio=0.131083,
+        per_device_eval_batch_size=8,
+
+        num_train_epochs=hparams[0],
+        per_device_train_batch_size=hparams[1],
+        learning_rate=hparams[2],
+        weight_decay=hparams[3],
+        warmup_ratio=hparams[4],
         fp16=True,
     )
 
     model = AutoModelForTokenClassification.from_pretrained(
-            base_model_path,
+            model_checkpoint,
             id2label=index2tag,
             label2id=tag2index
         )
@@ -67,75 +65,33 @@ def main(aug_dataset, dataset_name, eval_to_use):
         args=best_args,
         model=model,
         tokenizer=tokenizer,
-        train_dataset=aug_dataset['train'],
+        train_dataset=eval_dataset['train'],
         eval_dataset=eval_dataset['validation'],
         data_collator=data_collator,
         compute_metrics=compute_metrics_span,
     )
-
-    a = time.time()
+    
     best_trainer.train()
-    b = time.time()
-    
-    try:
-        compute_confusion_matrix(best_trainer, eval_dataset['validation'], labels, f'{base_out_path}/{dataset_name}/summary/matrix_eval.png')
-    except:
-        pass
-    
-    return b - a
+    best_trainer.save_model(f'{base_out_path}/{dataset_name}/best/')
 
+    compute_confusion_matrix(best_trainer, eval_dataset['validation'], labels, f'{base_out_path}/{dataset_name}/summary/matrix_eval.png')
+    
+    
 if __name__ == "__main__":
     from multiprocessing import freeze_support
     freeze_support()  # Optional, but avoids bugs on frozen apps or weird IDEs
     
-    datasets_dir = 'data_aug/'
-    processed_aug_path = 'processed_aug/'
+    datasets = [
+        'processed/orig',
+        'processed/removed/3',
+        'processed/base_dataset/3',
+    ]
     
-    eval_sizes_to_test = [8, 16, 32, 64]
-    ctr = 0
-    best_eval = eval_sizes_to_test[0]
-    best_time = sys.float_info.max
+    hparams = [
+        [10, 8, 1.1651559481113404e-05, 0.132954636707164, 0.0002026766944821],
+        [10, 8, 1.3419955052352191e-05, 0.2797867317383964, 0.0386854827420473],
+        [10, 8, 2.960741071471581e-05, 0.421287573508828, 0.1310828907212573],
+    ]
     
-    for filename in os.listdir(datasets_dir):
-        try:
-            dataset_name = Path(filename).stem
-            file_path = os.path.join(datasets_dir, filename)
-
-            print(f'===STARTING TRAINING OF {dataset_name}')
-            print(file_path)
-            try:
-                pre_proc_func.run(file_path, processed_aug_path)
-            except FileExistsError:
-                # pass here because no need to pre-process
-                pass
-            
-            aug_dataset = stage_3.load(f'{processed_aug_path}{dataset_name}/3')
-            
-            if ctr < len(eval_sizes_to_test):
-                eval_to_use = eval_sizes_to_test[ctr]
-                ctr += 1
-            else:
-                eval_to_use = best_eval
-                
-            train_time = main(aug_dataset, dataset_name, eval_to_use)
-            
-            if ctr <= len(eval_sizes_to_test):
-                with open(f'{base_out_path}/train_time.txt', 'a', encoding='utf-8') as f:
-                    f.write(f'{eval_to_use}:\t{train_time}\n')
-                
-            if train_time < best_time:
-                best_eval = eval_to_use
-                best_time = train_time
-            
-            checkpoint_dir = Path(f"{base_out_path}/{dataset_name}")
-            shutil.rmtree(checkpoint_dir, ignore_errors=True)
-
-        except KeyboardInterrupt:
-            print("Training interrupted by user.")
-            sys.exit(0)
-            
-        except Exception as e:
-            with open(f'{base_out_path}/errors.txt', 'a', encoding='utf-8') as f:
-                f.write(f"[>>>>>{dataset_name}] Error: {str(e)}\n")
-                f.write(traceback.format_exc())
-                f.write("\n\n")
+    for x in range(len(datasets)):
+        main(datasets[x], hparams[x], datasets[x].split('\n')[1])

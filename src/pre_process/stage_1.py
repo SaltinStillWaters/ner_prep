@@ -68,7 +68,7 @@ def is_valid_jsonl_line(jsonl_full: list[dict]) -> bool:
             if not isinstance(ent, dict):
                 print(f"Failed: Entity at index {i} is not a dict.")
                 return False
-            required_ent_keys = {"id", "label", "start_offset", "end_offset"}
+            required_ent_keys = {"label", "start_offset", "end_offset"}
             if not required_ent_keys.issubset(ent):
                 print(f"Failed: Entity at index {i} missing keys {required_ent_keys - set(ent)}.")
                 return False

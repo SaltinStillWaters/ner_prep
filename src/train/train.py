@@ -96,9 +96,17 @@ if __name__ == "__main__":
     best_eval = eval_sizes_to_test[0]
     best_time = sys.float_info.max
     
+    
+    shutil.rmtree(Path(base_out_path), ignore_errors=True)
+    shutil.rmtree(Path(processed_aug_path), ignore_errors=True)
+    
+    os.makedirs(Path(base_out_path), exist_ok=False)
+    os.makedirs(Path(processed_aug_path), exist_ok=False)
+    
+    
     with open(f'{base_out_path}/errors.txt', 'w', encoding='utf-8') as f:
                 f.write('')
-                
+
     for filename in os.listdir(datasets_dir):
         try:
             dataset_name = Path(filename).stem

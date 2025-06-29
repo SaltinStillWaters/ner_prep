@@ -107,7 +107,7 @@ if __name__ == "__main__":
     with open(f'{base_out_path}/errors.txt', 'w', encoding='utf-8') as f:
                 f.write('')
 
-    for filename in os.listdir(datasets_dir):
+    for filename in os.listdir(datasets_dir)[1235:]:
         try:
             dataset_name = Path(filename).stem
             file_path = os.path.join(datasets_dir, filename)

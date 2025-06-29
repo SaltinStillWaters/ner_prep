@@ -1,14 +1,13 @@
 import torch
 import random
 import numpy as np
-import torchvision
 import os
 import shutil
 import sys
 import time
 import traceback
+import argparse
 
-from transformers import EarlyStoppingCallback
 from transformers import TrainingArguments, Trainer, AutoModelForTokenClassification
 from src.misc.globals import *
 from src.pre_process import stage_3, pre_proc_func
@@ -28,7 +27,6 @@ def main(aug_dataset, dataset_name, eval_to_use):
 
     print(torch.version.cuda)
     print('Torch version:', torch.__version__)
-    print('TorchVision version:', torchvision.__version__)
     print("CUDA available:", torch.cuda.is_available())
     print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
     
@@ -49,7 +47,7 @@ def main(aug_dataset, dataset_name, eval_to_use):
         
         per_device_eval_batch_size=eval_to_use,
         
-        num_train_epochs=3,
+        num_train_epochs=1,
         learning_rate=3e-5,
         per_device_train_batch_size=8,
         weight_decay=0.421288,
@@ -79,12 +77,19 @@ def main(aug_dataset, dataset_name, eval_to_use):
     
     try:
         compute_confusion_matrix(best_trainer, eval_dataset['validation'], labels, f'{base_out_path}/{dataset_name}/summary/matrix_eval.png')
+    except KeyboardInterrupt:
+        print("Training interrupted by user.")
+        sys.exit(0)
     except:
         pass
     
     return b - a
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Training Pipeline')
+    parser.add_argument('--hard_reset', action='store_true', help='input reset or continue')
+    args = parser.parse_args()
+
     from multiprocessing import freeze_support
     freeze_support()  # Optional, but avoids bugs on frozen apps or weird IDEs
     
@@ -96,18 +101,29 @@ if __name__ == "__main__":
     best_eval = eval_sizes_to_test[0]
     best_time = sys.float_info.max
     
-    
-    shutil.rmtree(Path(base_out_path), ignore_errors=True)
-    shutil.rmtree(Path(processed_aug_path), ignore_errors=True)
-    
-    os.makedirs(Path(base_out_path), exist_ok=False)
-    os.makedirs(Path(processed_aug_path), exist_ok=False)
-    
-    
+    start_at = 0
+    if args.hard_reset:
+        print('MARNEL: YOU ARE DOING A HARD RESET, OK??')
+        input('>> Press Enter to continue, else CTRL+C')
+        shutil.rmtree(Path(base_out_path), ignore_errors=True)
+        shutil.rmtree(Path(processed_aug_path), ignore_errors=True)
+        
+        os.makedirs(Path(base_out_path), exist_ok=False)
+        os.makedirs(Path(processed_aug_path), exist_ok=False)
+    else:
+        print('MARNEL: YOU ARE CONTINUING THE PREVIOUS TRAINING, OK??')
+        input('>> Press Enter to continue, else CTRL+C')
+        last = sorted(os.listdir(f'{base_out_path}/logs'), key=lambda x: int(Path(x).stem))[-1]
+        shutil.rmtree(f'{base_out_path}/logs/{last}', ignore_errors=True)
+        shutil.rmtree(f'{processed_aug_path}/{last}', ignore_errors=True)
+        
+        start_at = int(last)
+
+
     with open(f'{base_out_path}/errors.txt', 'w', encoding='utf-8') as f:
                 f.write('')
 
-    for filename in os.listdir(datasets_dir)[1235:]:
+    for filename in sorted(os.listdir(datasets_dir), key=lambda x: int(Path(x).stem))[start_at : ]:
         try:
             dataset_name = Path(filename).stem
             file_path = os.path.join(datasets_dir, filename)

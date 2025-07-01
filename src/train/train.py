@@ -14,25 +14,23 @@ from src.pre_process import stage_3, pre_proc_func
 from src.misc.metrics import *
 from pathlib import Path
 
+random.seed(42)
+np.random.seed(42)
+torch.manual_seed(42)
+if torch.cuda.is_available():
+    torch.cuda.manual_seed_all(42)
+
+print(torch.version.cuda)
+print('Torch version:', torch.__version__)
+print("CUDA available:", torch.cuda.is_available())
+print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
+
 base_out_path = 'out/super_out_7_aug_fix' # must be suffixed with '/'
 eval_dataset_path = 'processed/base_dataset/3'
 base_model_path = 'best_saved/' # change to path to baseline model
+eval_dataset = stage_3.load(eval_dataset_path)
 
 def main(aug_dataset, dataset_name, eval_to_use):
-    random.seed(42)
-    np.random.seed(42)
-    torch.manual_seed(42)
-    if torch.cuda.is_available():
-        torch.cuda.manual_seed_all(42)
-
-    print(torch.version.cuda)
-    print('Torch version:', torch.__version__)
-    print("CUDA available:", torch.cuda.is_available())
-    print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
-    
-
-    eval_dataset = stage_3.load(eval_dataset_path)
-
     best_args = TrainingArguments(
         output_dir=f"{base_out_path}/{dataset_name}",
         eval_strategy="epoch",
@@ -47,7 +45,7 @@ def main(aug_dataset, dataset_name, eval_to_use):
         
         per_device_eval_batch_size=eval_to_use,
         
-        num_train_epochs=10,
+        num_train_epochs=3,
         learning_rate=3e-5,
         per_device_train_batch_size=8,
         weight_decay=0.421288,
@@ -125,30 +123,42 @@ if __name__ == "__main__":
 
     for filename in sorted(os.listdir(datasets_dir), key=lambda x: int(Path(x).stem))[start_at : ]:
         try:
+            c = time.time()
+
             dataset_name = Path(filename).stem
             file_path = os.path.join(datasets_dir, filename)
 
-            print(f'===STARTING TRAINING OF {dataset_name}')
+            logging_text = f'\n\n\n===STARTING TRAINING OF {dataset_name}\n'
+
+            print(f'\n\n\n===STARTING TRAINING OF {dataset_name}')
             print(file_path)
+            a = time.time()
             try:
                 pre_proc_func.run(file_path, processed_aug_path)
             except FileExistsError:
                 # pass here because no need to pre-process
                 pass
+            b = time.time()
+            logging_text += f'pre proc time: {b - a} s\n'
             
+            a = time.time()
             aug_dataset = stage_3.load(f'{processed_aug_path}{dataset_name}/3')
+            b = time.time()
+            logging_text += f'loading dataset time: {b - a} s\n'
             
             if ctr < len(eval_sizes_to_test):
                 eval_to_use = eval_sizes_to_test[ctr]
                 ctr += 1
             else:
                 eval_to_use = best_eval
-                
-            train_time = main(aug_dataset, dataset_name, eval_to_use)
             
-            if ctr <= len(eval_sizes_to_test):
-                with open(f'{base_out_path}/train_time.txt', 'a', encoding='utf-8') as f:
-                    f.write(f'{eval_to_use}:\t{train_time}\n')
+            a = time.time() 
+            train_time = main(aug_dataset, dataset_name, 8)
+            b = time.time()
+            logging_text += f'train time: {b - a} s\n'
+            
+            with open(f'{base_out_path}/train_time.txt', 'a', encoding='utf-8') as f:
+                f.write(f'{eval_to_use}:\t{train_time}\n')
                 
             if train_time < best_time:
                 best_eval = eval_to_use
@@ -157,6 +167,11 @@ if __name__ == "__main__":
             checkpoint_dir = Path(f"{base_out_path}/{dataset_name}")
             shutil.rmtree(checkpoint_dir, ignore_errors=True)
 
+            d = time.time()
+            logging_text += f'total iteration time: {d - c} s'
+            with open(f'{base_out_path}/time_logs.txt', 'a', encoding='utf-8') as f:
+                f.write(logging_text)
+            
         except KeyboardInterrupt:
             print("Training interrupted by user.")
             sys.exit(0)
